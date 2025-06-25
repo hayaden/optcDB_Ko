@@ -1,34 +1,30 @@
 # optc-db.github.io
 
-The Continuation of the highly loved and apreciated OPTC Database.
+안녕하세요 원피스 트레저 크루즈 갤러리 및 공 캎 여러분 고양이라고 합니다.
 
-This is a Database for all things One Piece Treasure Cruise, including Stats, Drops, Sockets and a Damage Calculator.
+해당 데이터베이스는 원 제작자의 허락을 정식으로 맡고 '하야덴'님과 함께 공동번역 및 수정한 한글판 DB 홈페이지 오픈소스입니다.
 
-This project is written in html and js, using angular, bootstrap and jquery.
+이 프로젝트는 Angular, Bootstrap, jQuery를 사용하여 HTML과 JS로 작성되었습니다.
 
-It is hosted on github pages, although you can just download it and run a local copy.
+github 페이지에 호스팅되어 있지만, 바로 다운로드하여 로컬 복사본을 실행할 수도 있습니다.
 
 # Team
 
-* Mondfischer - Took over the Project and responsible for adding features and data
-* Zeenigami - Joined shorty after and helps out with data and features (And usually adds the newest Units)
-* xfts - The newest member for fact checking and everything concerning translations
-* Everyone else on Discord/Reddit/Github etc that reports errors and wrong data
+Mondfischer - 프로젝트를 인수하고 기능 및 데이터 추가를 담당했습니다.
+Zeenigami - 곧 합류하여 데이터와 기능 지원을 담당합니다(그리고 일반적으로 최신 유닛을 추가합니다).
+xfts - 사실 확인 및 번역과 관련된 모든 것을 다루는 최신 멤버
+Discord/Reddit/Github 등의 다른 모든 사용자들은 오류와 잘못된 데이터를 보고합니다.
+고양이: 해당 DB의 한글화, 사이드바 및 Ui번역 및 일부 코드 수정 업데이트를 담당했습니다.
+하야덴: 해당 DB의 한글화, 전체적인 DB자료 제공 및 전체적인 코드 유연함, 수정 및 번역적용을 담당했습니다.
 
 # Installation
 
-Just download it and run it in some kind of Live preview or via xampp. Or better yet access it via http://optc-db.github.io
+다운로드해서 라이브 미리보기나 xampp에서 실행해 보세요. 아니면 https://cats2352.github.io/optcDB_Ko/ 를 통해 접속하는 게 더 좋습니다.
 
-Keep in mind though that the images are not hosted here, but instead linked from the offical site. So you would need an internet connection to see them.
-
-# Contact
- <!--You can reach us on Discord @Mondfischer and @Zeenigami and on Reddit as Mondfischer and Zee_n1-->
- You can reach us on Discord @2Shankz
- 
- The site also has a google contact form, you can also open an Issue on here.
+하지만 이미지는 여기에 호스팅되지 않고 공식 사이트에서 링크된 것임을 명심하세요. 따라서 이미지를 보려면 인터넷 연결이 필요합니다
  
 # License
  
- GNU General Public License
+ GNU 일반 공중 사용 허가서
  
- It's also in the Project named LICENSE.md.
+ LICENSE.md라는 프로젝트에도 있습니다.
