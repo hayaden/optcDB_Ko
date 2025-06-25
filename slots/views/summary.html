@@ -1,0 +1,31 @@
+<h4 ng-show="summaryEnabled" ng-click="showAbilities = !showAbilities">
+    능력슬롯
+    <i class="pull-right fa fa-chevron-{{showAbilities ? 'up' : 'down' }}"></i>
+</h4>
+
+<div id="table-container" ng-class="{ expanded: showAbilities }">
+    <table class="table table-striped" id="ability-table" ng-show="summaryEnabled">
+        <tbody>
+
+            <tr ng-repeat="i in range(0,10)" ng-show="summary[i]">
+
+                <td>
+                    <div class="ability"></div>
+                </td>
+                <td>
+                    <b>{{summary[i].points}} 포인트{{summary[i].points > 1 ? 's' : ''}}, level {{summary[i].level}}:</b>
+                    <span ng-class="{ inactive: summary[i].level == 0 }">{{summary[i].description}}</span>
+                    <br ng-if="summary[i].missing > -1" />
+                    <span ng-if="summary[i].missing > -1" class="next">
+                        <b>다음 레벨:</b>
+                        {{summary[i].next}}
+                        (</b> 더 필요한 포인트: <b>{{summary[i].missing}}포인트)
+                    </span>
+                    <span ng-if="summary[i].overflow" class="label label-danger">
+                        <b>불필요한 포인트: </b> {{summary[i].overflow}}
+                    </span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

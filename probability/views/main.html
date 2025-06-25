@@ -1,0 +1,115 @@
+<div id="outer-container">
+    <div id="container">
+        <div id="content">
+				<h1 class="page-header">
+					확률 계산기
+				</h1>
+            <div >
+                <div class="small-container" attach-picker>
+
+                    <div class="unitContainer">
+
+                        <div class="unit" decorate-slot uid="character.uid"
+                            ng-class="{ empty: !character || !character.uid }"
+                            popover-placement="right" popover-enable="{{character}}"
+                            popover-trigger="mouseenter" popover-title="{{character.name}}"
+                            uib-popover-template="'views/fragments/popover.html'"></div>
+
+                    </div>
+                    <input type=checkbox ng-click="limitBreak()" ng-model="limitBreakBox.value"> 한계 돌파
+                    <p ng-if="slotCount(character.uid)">캐릭터가 현재 보유한 능력소켓을 선택하세요.</p>
+                    <p ng-if="!slotCount(character.uid)">이 캐릭터는 능력소켓이 없습니다.</p>
+                    <div class="quick-fill quick-fill-slots" 
+                    	ng-class="{ visible: character.uid }" ng-click="quickFillSlots()">
+                        빠른채우기
+                    </div>
+                    <div class="slots">
+
+                        <slot-wheel ng-repeat="slotNumber in range(0, slotCount(character.uid))">
+                        </slot-wheel>
+
+                    </div>
+
+                </div>
+            </div>
+			
+			<div id="calculation-area">
+				
+				<div class="small-container">
+                    <form skillevent="">
+                        <input type="radio" name="event" ng-value = 1 ng-model="specialEvent">필살기 LV업 이벤트 없음<br>
+                        <input type="radio" name="event" ng-value = 2 ng-model="specialEvent">필살기 LV업 2배 이벤트<br>
+                        <input type="radio" name="event" ng-value = 3 ng-model="specialEvent">필살기 LV업 3배 이벤트<br>
+                        <input type="radio" name="event" ng-value = 4 ng-model="specialEvent">필살기 LV업 4배 이벤트<br>
+                        <input type="radio" name="event" ng-value = 5 ng-model="specialEvent">필살기 LV업 5배 이벤트<br>
+                    </form>
+                    <form serverversion="">
+                        <input type="radio" name="server" ng-value = 2 ng-model="serverType">일본 서버
+                        <input type="radio" name="server" ng-value = 1 ng-model="serverType" checked>글로벌 서버
+                    </form>
+                    &nbsp; &nbsp;
+                    <p></p>
+					동일캐릭터/스킬책 수: <input type="text" class="number-field" ng-model="copies" placeholder="e.g. 65" auto-focus
+						ng-change="changeBaseValues()" id="copies">
+                    <p></p>
+					필요한 스킬업 수: <input type="text" class="number-field" ng-model="skillups" placeholder="e.g. 10" auto-focus
+						ng-change="changeBaseValues()" id="skillups">
+					<div class="quick-fill quick-fill-skillups" 
+						ng-class="{ visible: character.uid }" ng-click="quickFillSkillups(character.uid)">
+                        빠른 채우기
+                    </div>
+					
+				</div>
+				
+				<div class="small-container">
+					<p>  
+					동일캐릭터/스킬책 {{skillups}} 개로 스킬업 {{copies}} 회를 성공할 확률:<br>
+					<label ng-attr-style="color: {{specialProbabilityColor}}" class="result">{{specialProbabilityResult}}%</label>
+					</p>
+					<uib-progressbar animate="false" value="specialProbabilityProgress" type="success"><b>{{specialProbabilityProgressBar}}</b></uib-progressbar>
+					<button ng-click="!isSpecialReady||calculateSpecialUp()">계산하기</button>
+				</div>
+
+				<div class="small-container">
+					<p>  
+					위 능력을 복사본 N개로 모두 달성할 확률: <br>
+					참고: 위에서 선택한 슬롯은 현재 보유 수입니다 <br>
+					보유 수를 변경하려면 숫자를 클릭하세요 <br>
+					<label ng-attr-style="color: {{socketProbabilityColor}}" class="result">{{socketProbabilityResult}}% </label>
+					</p>
+					<uib-progressbar animate="false" value="socketProbabilityProgress" type="success"><b>{{socketProbabilityProgressBar}}</b></uib-progressbar>
+					<button ng-click="!isSocketReady||calculateSocketUp()">계산하기</button>
+				</div>
+
+				
+
+			</div>
+
+            <div id="urlContainer" ng-class="{ visible: url }">
+                <input ng-model="url"></input>
+            </div>
+
+            <div id="buttonContainer">
+
+                <button class="btn btn-danger" ui-sref="main.reset" ng-disabled="!character"  uib-tooltip="초기화" tooltip-append-to-body="true">
+                    <i class="fa fa-eraser"></i></i> 초기화
+                </button>
+
+                <button class="btn btn-success" ng-click="generateURL()" ng-disabled="!character"  uib-tooltip="URL 내보내기" tooltip-append-to-body="true">
+                    <i class="fa fa-exchange"></i></i> URL내보내기
+                </button>
+                
+                <button type="button" class="btn" ui-sref="main.instruction" title="Instructions" uib-tooltip="사용설명서" tooltip-append-to-body="true">
+                    <i class="fa fa-question-circle"></i></i> 사용설명서
+                </button>
+
+            </div>
+
+            <div id="transient" class="alert alert-danger" ng-show="options.transient" ng-click="options.transient = false"  uib-tooltip="Save" tooltip-append-to-body="true">
+                <i class="fa fa-lock"></i>
+                임시 모드가 활성화되었습니다. 클릭하면 비활성화됩니다.
+            </div>
+
+        </div>
+    </div>
+</div>

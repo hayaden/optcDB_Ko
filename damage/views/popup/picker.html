@@ -1,0 +1,79 @@
+<div class="backdrop" ui-sref="^"></div>
+
+<div class="inner-container" go-back>
+
+    <div class="custom-modal">
+        <div id="picker" class="modal-dialog">
+            <div class="modal-content animated fadeInDown">
+                <div class="modal-header">캐릭터 선택
+                    <p class="pull-right">
+                        <span class="help" popover-trigger="mouseenter" popover-placement="bottom"
+                            uib-popover-template="'operators.html'">연산자 안내[수정중]</span>
+                    </p>
+                </div>
+                <div class="modal-body">
+
+                    <input type="text" id="picker" placeholder="검색어 입력"
+                        ng-model="query" ng-model-options="{ debounce: 500 }" auto-focus class="modal-filter">
+
+                    <div id="pickerUnits" class="modal-div">
+                        <div class="slot medium" ng-repeat="unit in units" ng-click="pickUnit(unit.number)"
+                            decorate-slot="static" uid="unit.number + 1" flag="true">
+                        </div> 
+                    </div>
+
+                    <div id="recent">
+                        <span>최근 선택한 캐릭터</span>
+                        <div id="recentUnits">
+                            <div class="slot small" ng-repeat="unit in recents" ng-click="pickUnit(unit)"
+                                decorate-slot uid="unit + 1" flag="true">
+                            </div> 
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-default" ui-sref="^">취소</button> 
+                </div>
+            </div>
+        </div>
+
+        <script id="operators.html" type="text/ng-template">
+            <div>
+                지원되는 문자열 연산자:
+                <br>
+                <ul>
+                    <li><tt>속성:X</tt>: X 속성의 캐릭터만 표시 (힘, 속, 기, ...)</li>
+                    <li><tt>타입:X</tt>: X 타입의 캐릭터만 표시(타격, 강인 참격...)</li>
+                    <ul><li>자유형 타입은 free_spirit 또는 free 입력</li></ul>
+                    <li><tt>family:X</tt>: 	 </li>
+                    <ul><li>Use underscores 공백 대신 밑줄(_) 사용 </li></ul>
+                    <ul><li>Use notFamily: notFamily:X 입력 시 X 패밀리 제외 </li></ul>
+                    <li><tt>supports:X</tt>: 서포트로 부착 가능한 캐릭터만 표시</li>
+                    <li><tt>units:X</tt>: ID를 기준으로 보여줌 |</li>
+                </ul>
+                <br>
+                Supported mathematical operators:
+                <ul>
+                    <li><tt>hp&gt;X</tt>: 최대 HP가 X보다 큰 캐릭터만 표시 &gt; X</li>
+                    <li><tt>atk&gt;X</tt>: 최대 공격력이 X보다 큰 캐릭터만 표시 &gt; X</li>
+                    <li><tt>cost&gt;X</tt>: 최대 코스트 X보다 큰 캐릭터만 표시</li>
+                    <li><tt>stars&gt;X</tt>: 최대 등급이 X보다 큰 캐릭터만 표시</li>
+                    <li><tt>id&gt;X</tt>: ID가 X보다 큰 캐릭터만 표시</li>
+                    <li><tt>slots&gt;X</tt>: 능력 슬롯의 개수가 X개 이상인 캐릭터만 표시</li>
+                    <li><tt>combo&gt;X</tt>: 콤보가 X 보다 높은 캐릭터만 표시 &gt; X</li>
+                    <li><tt>exp&gt;X</tt>: 최대 경험치가 X보다 높은 캐릭터만 표시</li>
+                    <li><tt>minCD&gt;X</tt>: shows only units with a minimum CD higher than X</li>
+                    <li><tt>maxCD&gt;X</tt>: shows only units with a maximum CD higher than X</li>
+                </ul>
+                수학 연산자는 다음 기호도 사용 가능 "<tt>&lt;</tt>", "<tt>&gt;=</tt>", "<tt>&lt;=</tt>" and "<tt>=</tt>".
+                <br><br>
+                예를 들어
+                <br>
+                <tt>type:str class:타격 atk>1300 cost>20 family:vinsmoke_sanji supports:2936</tt>
+            </div>
+        </script>
+
+    </div>
+
+</div>

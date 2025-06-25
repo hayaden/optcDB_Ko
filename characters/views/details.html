@@ -1,0 +1,1271 @@
+<div class="backdrop" ui-sref="^"></div>
+
+<div class="inner-container" go-back>
+
+    <div class="custom-modal">
+        <div class="modal-dialog">
+            <div class="modal-content animated rollIn">
+                <div class="modal-header">
+                    <div class="btn btn-default back-button" ng-if="withButton" ng-click="onBackClick()"><i class="fas fa-arrow-left"></i></div>
+                    {{::unit.name}}
+                </div>
+
+                <div class="modal-body" ng-class="{ preview: unit.preview }">
+
+                    <div ng-if="!unit.incomplete" ng-click="openBigThumbTab(unit.number + 1)" class="slot responsive" decorate-slot big="true" uid="unit.number + 1"></div>
+
+                    <div ng-if="unit.preview" class="alert alert-warning">
+                        <b>주의:</b> 아직 출시되지 않은 캐릭터의 미리보기입니다. 표시된 정보는 정확하지 않을 수 있습니다.
+                    </div>
+
+                    <div ng-if="unit.incomplete && !unit.preview" class="alert alert-danger">
+                       이 캐릭터의 정보가 아직 일부 누락되어 있으며 곧 추가될 예정입니다. 일부 정보는 임시 값일 수 있습니다 (주로 MAX 레벨 스탯).
+                    </div>
+
+                    <h3 id="detailsSection" class="page-header">
+                        상세 정보
+
+                        <label>
+                            <input type="checkbox" ng-model="characterLog[id]" ng-change="checkLog()"></input>
+                            캐릭터 로그에 등록됨
+                        </label>
+                    </h3>
+
+                    <div class="comparer">
+                        <input compare type="text" id="compare" placeholder="비교할 캐릭터 입력"></input>
+                        <i ng-if="compare" ng-click="clearComparison()" class="fa fa-times compare-clear" title="초기화"></i>
+                    </div>
+
+                    <div class="panel panel-default stats-pane panel-x-scroll">
+                        <table class="table table-striped">
+                            <tbody>
+                                <tr ng-if="dualunit">
+                                    <th ng-if="hybrid">첫번째 캐릭터 타입1</th>
+                                    <th ng-if="hybrid">두번째 캐릭터 타입2</th>
+                                    <th ng-if="hybrid">두번째 캐릭터 타입1</th>
+                                    <th ng-if="hybrid" colspan=2>두번째 캐릭터 타입2</th>
+                                </tr>
+                                <tr ng-if="dualunit">
+                                    <td ng-if="unit.class[0].length == 2">{{::unit.class[0][0]}}</td>
+                                    <td ng-if="unit.class[0].length != 2">{{::unit.class[0]}}</td>
+                                    <td ng-if="unit.class[0].length == 2">{{::unit.class[0][1]}}</td>
+                                    <td ng-if="unit.class[0].length != 2"></td>
+                                    <td ng-if="unit.class[1].length == 2">{{::unit.class[1][0]}}</td>
+                                    <td ng-if="unit.class[1].length != 2">{{::unit.class[1]}}</td>
+                                    <td ng-if="unit.class[1].length == 2" colspan=2>{{::unit.class[1][1]}}</td>
+                                    <td ng-if="unit.class[1].length != 2" colspan=2>None    </td>
+                                </tr>
+                                <tr>
+                                    <th ng-if="!hybrid">타입</th>
+                                    <th ng-if="hybrid && !dualunit">타입 1</th>
+                                    <th ng-if="hybrid && !dualunit">타입 2</th>
+                                    <th ng-if="hybrid && dualunit"> 더블 캐릭터 타입1</th>
+                                    <th ng-if="hybrid && dualunit"> 더블 캐릭터 타입2</th>
+                                    <th>속성</th>
+                                    <th>희귀도</th>
+                                    <th>코스트</th>
+                                </tr>
+                                <tr>
+                                    <td ng-if="!hybrid">{{::unit.class}}</td>
+                                    <td ng-if="hybrid && !dualunit">{{::unit.class[0]}}</td>
+                                    <td ng-if="hybrid && !dualunit">{{::unit.class[1]}}</td>
+                                    <td ng-if="hybrid && dualunit">{{::unit.class[2][0] | decorate}}</td>
+                                    <td ng-if="hybrid && dualunit">{{::unit.class[2][1] | decorate}}</td>
+                                    <td ng-if="!dualunit" class="ng-binding" ng-bind-html="unit.type | decorate"></td>
+                                    <td ng-if="dualunit"><span class="ng-binding" ng-bind-html="unit.type[0] | decorate"></span>/<span class="ng-binding" ng-bind-html="unit.type[1] | decorate"></span></td>
+                                    <td ng-if="!compare">{{::unit.stars}}</td>
+                                    <td ng-if="compare" comparison="positive">{{unit.stars - compare.stars}}</td>
+                                    <td ng-if="!compare">{{::unit.cost}}</td>
+                                    <td ng-if="compare" comparison="negative">{{unit.cost - compare.cost}}</td>
+                                </tr>
+                                <tr>
+                                    <th>콤보</th>
+                                    <th>슬롯</th>
+                                    <th>최대 레벨</th>
+                                    <th colspan="{{::hybrid ? 2 : 1}}">최대 경험치</th>
+                                </tr>
+                                <tr>
+                                    <td ng-if="!compare">{{::unit.combo}}</td>
+                                    <td ng-if="compare" comparison="negative">{{unit.combo - compare.combo}}</td>
+                                    <td ng-if="!compare"><span ng-if='unit.slots==unit.limitexSlot'>{{::unit.preview ? '' : unit.slots}}</span><span ng-if='unit.slots!=unit.limitexSlot'>{{::unit.preview ? '' : unit.slots + ' \u2192 ' + unit.limitexSlot}}</span></td>
+                                    <td ng-if="compare" comparison="positive">{{unit.slots - compare.slots}}</td>
+                                    <td>{{::unit.maxLevel}}</td>
+                                    <td ng-if="!compare" colspan="{{::hybrid ? 2 : 1}}">{{::unit.maxEXP | number}}</td>
+                                    <td ng-if="compare" colspan="{{::hybrid ? 2 : 1}}" comparison="negative">{{unit.maxEXP - compare.maxEXP | number}}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <h3 class="page-header" ng-hide="hidden.stats">능력치</h3>
+
+                    <uib-tabset ng-hide="hidden.stats">
+                        <uib-tab heading="능력치">
+                        <div class="panel panel-default panel-x-scroll">
+                            <table class="table table-striped table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>레벨<form>
+                                            <label><input type="radio" name="statPreference" ng-model="statPreference" value=0 checked>없음</label><br>
+                                            <label><input type="radio" id="lb" name="statPreference" ng-model="statPreference" value=1>한계돌파</label><br>
+                                            <label><input type="radio" id="lbex" name="statPreference" ng-model="statPreference" value=2>한계돌파 확장</label>
+                                          </form></th>
+                                        <th style="width:15%">체력</th>
+                                        <th style="width:15%">공격력</th>
+                                        <th style="width:15%">회복력</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td ng-if="!compare">{{::unit.minHP | number}}</td>
+                                        <td ng-if="compare" comparison="positive">{{unit.minHP - compare.minHP | number}}</td>
+                                        <td ng-if="!compare">{{::unit.minATK | number}}</td>
+                                        <td ng-if="compare" comparison="positive">{{unit.minATK - compare.minATK | number}}</td>
+                                        <td ng-if="!compare">{{::unit.minRCV | number}}</td>
+                                        <td ng-if="compare" comparison="positive">{{unit.minRCV - compare.minRCV | number}}</td>
+                                    </tr>
+                                    <tr>
+                                        <td>{{::unit.maxLevel}}</td>
+                                        <td ng-if="!compare">{{unit.maxHP+[0, unit.limitHP-unit.maxHP, unit.limitexHP-unit.maxHP][statPreference] | number}}<span ng-if="statPreference != 0"> (+{{[0, unit.limitHP-unit.maxHP, unit.limitexHP-unit.maxHP][statPreference]}})</span></td>
+                                        <td ng-if="compare" comparison="positive">{{unit.maxHP - compare.maxHP | number}}</td>
+                                        <td ng-if="!compare">{{unit.maxATK+[0, unit.limitATK-unit.maxATK, unit.limitexATK-unit.maxATK][statPreference] | number}}<span ng-if="statPreference != 0"> (+{{[0, unit.limitATK-unit.maxATK, unit.limitexATK-unit.maxATK][statPreference]}})</span></td>
+                                        <td ng-if="compare" comparison="positive">{{unit.maxATK - compare.maxATK | number}}</td>
+                                        <td ng-if="!compare">{{unit.maxRCV+[0, unit.limitRCV-unit.maxRCV, unit.limitexRCV-unit.maxRCV][statPreference] | number}}<span ng-if="statPreference != 0"> (+{{[0, unit.limitRCV-unit.maxRCV, unit.limitexRCV-unit.maxRCV][statPreference]}})</span></td>
+                                        <td ng-if="compare" comparison="positive">{{unit.maxRCV - compare.maxRCV | number}}</td>
+                                    </tr>
+                                    <tr ng-if="unit.maxLevel == 99">
+                                        <td>150 (근사치.)</td>
+                                        <td ng-if="!compare"><span>{{unit.llbmaxHP+[0, unit.limitHP-unit.maxHP, unit.limitexHP-unit.maxHP][statPreference] | number}}<span ng-if="statPreference != 0"> (+{{[0, unit.limitHP-unit.maxHP, unit.limitexHP-unit.maxHP][statPreference]}})</span></span></td>
+                                        <!--td ng-if="compare" comparison="positive">{{unit.maxHP - compare.maxHP | number}}</td-->
+                                        <td ng-if="!compare"><span>{{unit.llbmaxATK+[0, unit.limitATK-unit.maxATK, unit.limitexATK-unit.maxATK][statPreference] | number}}<span ng-if="statPreference != 0"> (+{{[0, unit.limitATK-unit.maxATK, unit.limitexATK-unit.maxATK][statPreference]}})</span></span></td>
+                                        <!--td ng-if="compare" comparison="positive">{{unit.maxATK - compare.maxATK | number}}</td-->
+                                        <td ng-if="!compare"><span>{{unit.llbmaxRCV+[0, unit.limitRCV-unit.maxRCV, unit.limitexRCV-unit.maxRCV][statPreference] | number}}<span ng-if="statPreference != 0"> (+{{[0, unit.limitRCV-unit.maxRCV, unit.limitexRCV-unit.maxRCV][statPreference]}})</span></span></td>
+                                        <!--td ng-if="compare" comparison="positive">{{unit.maxRCV - compare.maxRCV | number}}</td-->
+                                    </tr>
+                                    <!--tr ng-if="!((unit.limitHP-unit.maxHP == 0) && (unit.limitATK-unit.maxATK == 0) && (unit.limitRCV-unit.maxRCV == 0))">
+                                        <td>Limit Break</td>
+                                        <td ng-if="!compare">{{::unit.limitHP | number}} (+{{::unit.limitHP-unit.maxHP | number}})</td>
+                                        <td ng-if="compare" comparison="positive">{{unit.limitHP - compare.limitHP | number}}</td>
+                                        <td ng-if="!compare">{{::unit.limitATK | number}} (+{{::unit.limitATK-unit.maxATK | number}})</td>
+                                        <td ng-if="compare" comparison="positive">{{unit.limitATK - compare.limitATK | number}}</td>
+                                        <td ng-if="!compare">{{::unit.limitRCV | number}} (+{{::unit.limitRCV-unit.maxRCV | number}})</td>
+                                        <td ng-if="compare" comparison="positive">{{unit.limitRCV - compare.limitRCV | number}}</td>
+                                    </tr>
+                                    <tr ng-if="!((unit.limitexHP == unit.limitHP) && (unit.limitexATK == unit.limitATK) && (unit.limitexRCV == unit.limitRCV))">
+                                        <td>Limit Break Expansion</td>
+                                        <td ng-if="!compare">{{::unit.limitexHP | number}} (+{{::unit.limitexHP-unit.maxHP | number}})</td>
+                                        <td ng-if="compare" comparison="positive">{{unit.limitexHP - compare.limitexHP | number}}</td>
+                                        <td ng-if="!compare">{{::unit.limitexATK | number}} (+{{::unit.limitexATK-unit.maxATK | number}})</td>
+                                        <td ng-if="compare" comparison="positive">{{unit.limitexATK - compare.limitexATK | number}}</td>
+                                        <td ng-if="!compare">{{::unit.limitexRCV | number}} (+{{::unit.limitexRCV-unit.maxRCV | number}})</td>
+                                        <td ng-if="compare" comparison="positive">{{unit.limitexRCV - compare.limitexRCV | number}}</td>
+                                    </tr-->
+                                    <tr ng-if="!compare && !incomplete">
+                                        <td>
+                                            <input type="number" placeholder="레벨입력"
+                                                ng-model="customLevel.level" min="1" max="unit.maxLevel">
+                                        </td>
+                                        <td><span ng-show="customLevel.enabled">{{::customLevel.hp | number:0}}</span></td>
+                                        <td><span ng-show="customLevel.enabled">{{::customLevel.atk | number:0}}</span></td>
+                                        <td><span ng-show="customLevel.enabled">{{::customLevel.rcv | number:0}}<span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="panel panel-default panel-x-scroll" ng-if="rumble">
+                            <table class="table table-striped table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>해적제</th>
+                                        <th>타입</th>
+                                        <th>방어력</th>
+                                        <th>속도</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><span ng-if="rumble2">캐릭터 1</span></td>
+                                        <td >{{::rumble.stats.rumbleType | decorate}}</td>
+                                        <td ng-if="!compare">{{::rumble.stats.def | number}}</td>
+                                        <td ng-if="compare" comparison="positive">{{rumble.stats.def - compare.rumble.stats.def | number}}</td>
+                                        <td ng-if="!compare">{{::rumble.stats.spd | number}}</td>
+                                        <td ng-if="compare" comparison="positive">{{rumble.stats.spd - compare.rumble.stats.spd | number}}</td>
+                                    </tr>
+                                    <tr ng-if="rumble2">
+                                        <td>캐릭터 2</td>
+                                        <td >{{::rumble2.stats.rumbleType | decorate}}</td>
+                                        <td ng-if="!compare">{{::rumble2.stats.def | number}}</td>
+                                        <td ng-if="compare" comparison="positive">{{rumble2.stats.def - compare.rumble2.stats.def | number}}</td>
+                                        <td ng-if="!compare">{{::rumble2.stats.spd | number}}</td>
+                                        <td ng-if="compare" comparison="positive">{{rumble2.stats.spd - compare.rumble2.stats.spd | number}}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        </uib-tab>
+                        <uib-tab heading="차트" ng-if="!unit.incomplete">
+                            <canvas id="radar-chart" class="chart chart-radar" chart-data="radar.data"
+                                chart-labels="radar.labels" chart-options="radar.options"></canvas>
+                        </uib-tab>
+                        <uib-tab heading="HP 증가" ng-if="!unit.incomplete">
+                            <canvas id="line-chart" class="chart chart-line" chart-data="radarHP.data" chart-series="radarHP.series"
+                                chart-labels="radarHP.labels"></canvas>
+                        </uib-tab>
+                        <uib-tab heading="공격력 증가" ng-if="!unit.incomplete">
+                            <canvas id="line-chart" class="chart chart-line" chart-data="radarATK.data" chart-series="radarATK.series"
+                                chart-labels="radarATK.labels"></canvas>
+                        </uib-tab>
+                        <uib-tab heading="화복력 증가" ng-if="!unit.incomplete">
+                            <canvas id="line-chart" class="chart chart-line" chart-data="radarRCV.data" chart-series="radarRCV.series"
+                                chart-labels="radarRCV.labels"></canvas>
+                        </uib-tab>
+                    </uib-tabset>
+
+                    <!-- Abilities (non-comparison) -->
+
+                    <h3 id="abilitiesSection" class="page-header" ng-hide="hidden.abilities">능력</h3>
+
+                    <div class="panel panel-default" ng-hide="hidden.abilities">
+                        <table class="table table-striped-column abilities">
+                            <tbody>
+                                <tr ng-if="details.lLimit">
+                                    <td width="5%"></td>
+                                    <td style="width: 47.5%"><strong>기본</strong></td>
+                                    <td style="width: 50%"><strong>레벨 상한돌파</strong></td>
+                                </tr>
+                                <tr>
+                                    <td width="5%">선장효과</td>
+                                    <td colspan="{{details.captain.llbbase || details.captain.llbcharacter1 ? 1 : 2}}">
+                                        <!-- same captain ability -->
+                                        <div ng-if="!isCaptainHybrid" ng-bind-html="details.captain | decorate"></div>
+                                        <!-- different captain abilities -->
+                                        <div ng-if="isCaptainHybrid">
+                                            <span class="badge badge-japan" ng-show="details.captain.japan">일본</span><div  ng-show="details.captain.japan" ng-bind-html="details.captain.japan | decorate"></div>
+                                            <span class="badge badge-global" ng-show="details.captain.global">글로벌</span><div  ng-show="details.captain.global" ng-bind-html="details.captain.global | decorate"></div>
+                                            <span class="badge badge-base" ng-show="details.captain.base">기본 선장효과</span><div ng-show="details.captain.base" ng-bind-html="details.captain.base | decorate"></div>
+                                            <span class="badge badge-level1" ng-show="details.captain.level1">한돌 1단계 선장효과</span><div ng-show="details.captain.level1" ng-bind-html="details.captain.level1 | decorate"></div>
+                                            <span class="badge badge-level2" ng-show="details.captain.level2">한돌 2단계 선장효과</span><div ng-show="details.captain.level2" ng-bind-html="details.captain.level2 | decorate"></div>
+                                            <span class="badge badge-level3" ng-show="details.captain.level3">한돌 3단계 선장효과</span><div ng-show="details.captain.level3" ng-bind-html="details.captain.level3 | decorate"></div>
+                                            <span class="badge badge-level4" ng-show="details.captain.level4">한돌 4단계 선장효과</span><div ng-show="details.captain.level4" ng-bind-html="details.captain.level4 | decorate"></div>
+                                            <span class="badge badge-level5" ng-show="details.captain.level5">한돌 5단계 선장효과</span><div ng-show="details.captain.level5" ng-bind-html="details.captain.level5 | decorate"></div>
+                                            <span class="badge badge-level6" ng-show="details.captain.level6">한돌 6단계 선장효과</span><div ng-show="details.captain.level6" ng-bind-html="details.captain.level6 | decorate"></div>
+                                            <span class="badge badge-character1" ng-show="details.captain.character1">첫 번째 캐릭터 선장효과</span><div ng-show="details.captain.character1" ng-bind-html="details.captain.character1 | decorate"></div>
+                                            <span class="badge badge-character2" ng-show="details.captain.character2">두 번째 캐릭터 선장효과</span><div ng-show="details.captain.character2" ng-bind-html="details.captain.character2 | decorate"></div>
+                                            <span class="badge badge-combined" ng-show="details.captain.combined">더블 캐릭터 선장효과</span><div ng-show="details.captain.combined" ng-bind-html="details.captain.combined | decorate"></div>
+                                        </div>
+                                        <span class="notes" ng-if="details.captainNotes" ng-bind-html="details.captainNotes | notes | decorate"></span>
+                                    </td>
+                                    <td ng-if="isCaptainHybrid && (details.captain.llbbase || details.captain.llbcharacter1)">
+                                        <div ng-if="isCaptainHybrid">
+                                            <span class="badge badge-base" ng-show="details.captain.llbbase">레벨 상한돌파 기본</span><div ng-show="details.captain.llbbase" ng-bind-html="details.captain.llbbase | decorate"></div>
+                                            <span class="badge badge-level1" ng-show="details.captain.llblevel1">레벨 상한돌파 1단계 선장</span><div ng-show="details.captain.llblevel1" ng-bind-html="details.captain.llblevel1 | decorate"></div>
+                                            <span class="badge badge-level2" ng-show="details.captain.llblevel2">레벨 상한돌파 2단계 선장</span><div ng-show="details.captain.llblevel2" ng-bind-html="details.captain.llblevel2 | decorate"></div>
+                                            <span class="badge badge-level6" ng-show="details.captain.llblevel6">레벨 상한돌파 6단계 선장</span><div ng-show="details.captain.llblevel6" ng-bind-html="details.captain.llblevel6 | decorate"></div>
+                                            <span class="badge badge-character1" ng-show="details.captain.llbcharacter1">레벨 상한돌파 첫 번째 선장</span><div ng-show="details.captain.llbcharacter1" ng-bind-html="details.captain.llbcharacter1 | decorate"></div>
+                                            <span class="badge badge-character2" ng-show="details.captain.llbcharacter2">레벨 상한돌파 두 번째 선장</span><div ng-show="details.captain.llbcharacter2" ng-bind-html="details.captain.llbcharacter2 | decorate"></div>
+                                            <span class="badge badge-combined" ng-show="details.captain.llbcombined">레벨 상한돌파 더블캐릭터 선장</span><div ng-show="details.captain.llbcombined" ng-bind-html="details.captain.llbcombined | decorate"></div>
+                                        </div>
+                                        <span class="notes" ng-if="details.captainNotes" ng-bind-html="details.captainNotes | notes | decorate"></span>
+                                    </td>
+                                </tr>
+                                <tr ng-if="details.sailor">
+                                    <td width="5%">선원효과</td>
+                                    <td colspan="{{details.sailor.llbbase || details.sailor.llbcharacter1 || details.sailor.llbcharacter2 || details.sailor.llbcombined || details.sailor.llblevel1 || details.sailor.llblevel2 ? 1 : 2}}">
+                                        <!-- same sailor ability -->
+                                        <div ng-if="!isSailorHybrid" ng-bind-html="details.sailor | decorate"></div>
+                                        <!-- different sailor abilities -->
+                                        <div ng-if="isSailorHybrid">
+                                            <span class="badge badge-japan" ng-show="details.sailor.japan">일본</span><div ng-show="details.sailor.japan" ng-bind-html="details.sailor.japan | decorate"></div>
+                                            <span class="badge badge-global" ng-show="details.sailor.global">글로벌</span><div ng-show="details.sailor.global" ng-bind-html="details.sailor.global | decorate"></div>
+                                            <span class="badge badge-sbase" ng-show="details.sailor.base">기본 선원</span><div ng-show="details.sailor.base" ng-bind-html="details.sailor.base | decorate"></div>
+                                            <span class="badge badge-sbase2" ng-show="details.sailor.base2">기본 선원 2</span><div ng-show="details.sailor.base2" ng-bind-html="details.sailor.base2 | decorate"></div>
+                                            <span class="badge badge-slevel1" ng-show="details.sailor.level1">한돌 LV 1 선원효과</span><div ng-show="details.sailor.level1" ng-bind-html="details.sailor.level1 | decorate"></div>
+                                            <span class="badge badge-slevel2" ng-show="details.sailor.level2">LB Level 2 Sailor</span><div ng-show="details.sailor.level2" ng-bind-html="details.sailor.level2 | decorate"></div>
+                                            <span class="badge badge-character1" ng-show="details.sailor.character1">캐릭터 1 선원효과</span><div ng-show="details.sailor.character1" ng-bind-html="details.sailor.character1 | decorate"></div>
+                                            <span class="badge badge-character2" ng-show="details.sailor.character2">캐릭터 2 선원효과</span><div ng-show="details.sailor.character2" ng-bind-html="details.sailor.character2 | decorate"></div>
+                                            <span class="badge badge-combined" ng-show="details.sailor.combined">더블캐릭터 선원효과</span><div ng-show="details.sailor.combined" ng-bind-html="details.sailor.combined | decorate"></div>
+                                        </div>
+                                        <span class="notes" ng-if="details.sailorNotes" ng-bind-html="details.sailorNotes | notes | decorate"></span>
+                                    </td>
+                                    <td ng-if="details.sailor.llbbase || details.sailor.llbcharacter1 || details.sailor.llbcharacter2 || details.sailor.llbcombined || details.sailor.llblevel1 || details.sailor.llblevel2">
+                                        <div ng-if="isSailorHybrid">
+                                            <span class="badge badge-slevel1" ng-show="details.sailor.llbbase">LLB Base Sailor</span><div ng-show="details.sailor.llbbase" ng-bind-html="details.sailor.llbbase | decorate"></div>
+                                            <span class="badge badge-slevel2" ng-show="details.sailor.llbbase2">LLB Base Sailor 2</span><div ng-show="details.sailor.llbbase2" ng-bind-html="details.sailor.llbbase2 | decorate"></div>
+                                            <span class="badge badge-slevel1" ng-show="details.sailor.llblevel1">LLB LB Level 1 Sailor</span><div ng-show="details.sailor.llblevel1" ng-bind-html="details.sailor.llblevel1 | decorate"></div>
+                                            <span class="badge badge-slevel2" ng-show="details.sailor.llblevel2">LLB LB Level 2 Sailor</span><div ng-show="details.sailor.llblevel2" ng-bind-html="details.sailor.llblevel2 | decorate"></div>
+                                            <span class="badge badge-character1" ng-show="details.sailor.llbcharacter1">LLB Character 1 Sailor</span><div ng-show="details.sailor.llbcharacter1" ng-bind-html="details.sailor.llbcharacter1 | decorate"></div>
+                                            <span class="badge badge-character2" ng-show="details.sailor.llbcharacter2">LLB Character 2 Sailor</span><div ng-show="details.sailor.llbcharacter2" ng-bind-html="details.sailor.llbcharacter2 | decorate"></div>
+                                            <span class="badge badge-combined" ng-show="details.sailor.llbcombined">LLB Dual Character Sailor</span><div ng-show="details.sailor.llbcombined" ng-bind-html="details.sailor.llbcombined | decorate"></div>
+                                        </div>
+                                        <span class="notes" ng-if="details.sailorNotes" ng-bind-html="details.sailorNotes | notes | decorate"></span>
+                                    </td>
+                                </tr>
+                                <tr ng-if="details.swap">
+                                    <td>체인지효과</td>
+                                    <td colspan="2">
+                                        <!-- same sailor ability -->
+                                        <div ng-if="!isSwapHybrid" ng-bind-html="details.swap | decorate"></div>
+                                        <!-- different sailor abilities -->
+                                        <div ng-if="isSwapHybrid">
+                                            <span class="badge badge-swap" ng-show="details.swap.base">기본 체인지</span><div ng-show="details.swap.base" ng-bind-html="details.swap.base | decorate"></div>
+                                            <span class="badge badge-superswap" ng-show="details.swap.super">슈퍼 체인지 [{{::details.swap.superTurns}} 번]</span><div ng-show="details.swap.super" ng-bind-html="details.swap.super | decorate"></div>
+                                        </div>
+                                        <span class="notes" ng-if="details.swapNotes" ng-bind-html="details.swapNotes | notes | decorate"></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="5%">필살기</td>
+                                    <td colspan="{{details.special.llbbase ? 1 : 2}}">
+                                        <strong class="specialName" ng-if="details.specialName">{{::details.specialName}}</strong>
+                                        <!-- same special, no stages -->
+                                        <div ng-if="!isSpecialHybrid && !isSpecialStaged" ng-bind-html="details.special | decorate"></div>
+                                        <!-- same special, with stages -->
+                                        <div ng-if="!isSpecialHybrid && isSpecialStaged">
+                                            <div ng-repeat="stage in details.special track by $index">
+                                                <strong>Stage {{::$index + 1}}</strong>
+                                                ({{::stage.cooldown.length ? stage.cooldown[0] : stage.cooldown}}{{::stage.cooldown.length ? ' \u2192 ' + stage.cooldown[1] : ''}} turns) <span ng-if="unit.limitCD != 0"><strong>➤</strong>
+                                                ({{::stage.cooldown.length ? stage.cooldown[0] - unit.limitCD : stage.cooldown}}{{::stage.cooldown.length ? ' \u2192 ' + (stage.cooldown[1] - unit.limitCD) : ''}} turns)</span><span ng-if="unit.limitexCD != 0 && unit.limitexCD != unit.limitCD"><strong>➤</strong>
+                                                ({{::stage.cooldown.length ? stage.cooldown[0] - unit.limitexCD : stage.cooldown}}{{::stage.cooldown.length ? ' \u2192 ' + (stage.cooldown[1] - unit.limitexCD) : ''}} turns)</span>:
+                                                <span ng-bind-html="stage.description | decorate"></span>
+                                            </div>
+                                        </div>
+                                        <!-- different specials -->
+                                        <div ng-if="isSpecialHybrid && !isSpecialStaged">
+                                            <span class="badge badge-japan" ng-show="details.special.japan">Japan</span><div ng-show="details.special.japan" ng-bind-html="details.special.japan | decorate"></div>
+                                            <span class="badge badge-global" ng-show="details.special.global">Global</span><div ng-show="details.special.global" ng-bind-html="details.special.global | decorate"></div>
+                                            <span class="badge badge-slevel1" ng-show="details.special.base">기본 필살기</span><div ng-show="details.special.base" ng-bind-html="details.special.base | decorate"></div>
+                                            <span class="badge badge-character1" ng-show="details.special.character1">캐릭터 1 필살기</span><div ng-show="details.special.character1" ng-bind-html="details.special.character1 | decorate"></div>
+                                            <span class="badge badge-character2" ng-show="details.special.character2">캐릭터 2 필살기</span><div ng-show="details.special.character2" ng-bind-html="details.special.character2 | decorate"></div>
+                                            <span class="badge badge-combined" ng-show="details.special.combined">듀얼 필살기</span><div ng-show="details.special.combined" ng-bind-html="details.special.combined | decorate"></div>
+                                        </div>
+                                        <div ng-if="isSpecialHybrid && isSpecialStaged">
+                                            <span class="badge badge-base" ng-show="details.special.base">기본 필살기</span><br>
+                                            <div ng-repeat="stage in details.special.base track by $index">
+                                                <strong>Stage {{::$index + 1}}</strong>
+                                                ({{::stage.cooldown.length ? stage.cooldown[0] : stage.cooldown}}{{::stage.cooldown.length ? ' \u2192 ' + stage.cooldown[1] : ''}} turns) <span ng-if="unit.limitCD != 0"><strong>➤</strong>
+                                                ({{::stage.cooldown.length ? stage.cooldown[0] - unit.limitCD : stage.cooldown}}{{::stage.cooldown.length ? ' \u2192 ' + (stage.cooldown[1] - unit.limitCD) : ''}} turns)</span><span ng-if="unit.limitexCD != 0 && unit.limitexCD != unit.limitCD"><strong>➤</strong>
+                                                ({{::stage.cooldown.length ? stage.cooldown[0] - unit.limitexCD : stage.cooldown}}{{::stage.cooldown.length ? ' \u2192 ' + (stage.cooldown[1] - unit.limitexCD) : ''}} turns)</span>:
+                                                <span ng-bind-html="stage.description | decorate"></span>
+                                            </div>
+                                        </div>
+                                        <span class="notes" ng-if="details.specialNotes" ng-bind-html="details.specialNotes | notes | decorate"></span>
+                                    </td>
+                                    <td ng-if="details.special.llbbase">
+                                        <strong class="specialName" ng-if="details.specialName">{{::details.specialName}}</strong>
+                                        <!-- different specials -->
+                                        <div ng-if="isSpecialHybrid && !isSpecialStaged">
+                                            <span class="badge badge-slevel1" ng-show="details.special.llbbase">레벨 상한돌파 필살기</span><div ng-show="details.special.llbbase" ng-bind-html="details.special.llbbase | decorate"></div>
+                                            <span class="badge badge-slevel1" ng-show="details.special.llblevel1">LLB Level 1 Special</span><div ng-show="details.special.llblevel1" ng-bind-html="details.special.llblevel1 | decorate"></div>
+                                            <span class="badge badge-slevel2" ng-show="details.special.llblevel2">LLB Level 2 Special</span><div ng-show="details.special.llblevel2" ng-bind-html="details.special.llblevel2 | decorate"></div>
+                                            <span class="badge badge-character1" ng-show="details.special.llbcharacter1">LLB Character 1 Special</span><div ng-show="details.special.llbcharacter1" ng-bind-html="details.special.llbcharacter1 | decorate"></div>
+                                            <span class="badge badge-character2" ng-show="details.special.llbcharacter2">LLB Character 2 Special</span><div ng-show="details.special.llbcharacter2" ng-bind-html="details.special.llbcharacter2 | decorate"></div>
+                                            <span class="badge badge-combined" ng-show="details.special.llbcombined">LLB Combined Special</span><div ng-show="details.special.llbcombined" ng-bind-html="details.special.llbcombined | decorate"></div>
+                                        </div>
+                                        <div ng-if="isSpecialHybrid && isSpecialStaged">
+                                            <span class="badge badge-level1" ng-show="details.special.llbbase">레벨상한돌파 기본 필살기</span><br>
+                                            <div ng-repeat="stage in details.special.llbbase track by $index">
+                                                <strong>Stage {{::$index + 1}}</strong>
+                                                ({{::stage.cooldown.length ? stage.cooldown[0] : stage.cooldown}}{{::stage.cooldown.length ? ' \u2192 ' + stage.cooldown[1] : ''}} turns) <span ng-if="unit.limitCD != 0"><strong>➤</strong>
+                                                ({{::stage.cooldown.length ? stage.cooldown[0] - unit.limitCD : stage.cooldown}}{{::stage.cooldown.length ? ' \u2192 ' + (stage.cooldown[1] - unit.limitCD) : ''}} turns)</span><span ng-if="unit.limitexCD != 0 && unit.limitexCD != unit.limitCD"><strong>➤</strong>
+                                                ({{::stage.cooldown.length ? stage.cooldown[0] - unit.limitexCD : stage.cooldown}}{{::stage.cooldown.length ? ' \u2192 ' + (stage.cooldown[1] - unit.limitexCD) : ''}} turns)</span>:
+                                                <span ng-bind-html="stage.description | decorate"></span>
+                                            </div>
+                                        </div>
+                                        <span class="notes" ng-if="details.specialNotes" ng-bind-html="details.specialNotes | notes | decorate"></span>
+                                    </td>
+                                </tr>
+                                <tr ng-if="cooldown && !isSpecialStaged && !isCooldownHybrid">
+                                    <td>필살기 턴<span ng-if="unit.limitCD != 0"><br>기본 + 한계돌파</span><span ng-if="unit.limitexCD != 0 && unit.limitCD != unit.limitexCD"><br>CD + LB+</span></td>
+                                    <td colspan="{{details.special.llbbase ? 2 : 1}}">
+                                        {{::cooldown.length ? cooldown[0] : cooldown}} 턴
+                                        {{::cooldown.length ? ' \u2192 ' + cooldown[1] + ' 턴' : ''}}<span ng-if="unit.limitCD != 0"><br>
+                                        {{::cooldown.length ? (cooldown[0] - unit.limitCD) : (cooldown - unit.limitCD)}} 턴
+                                        {{::cooldown.length ? ' \u2192 ' + (cooldown[1] - unit.limitCD) + ' 턴' : ''}}</span><span ng-if="unit.limitexCD != 0 && unit.limitCD != unit.limitexCD"><br>
+                                        {{::cooldown.length ? (cooldown[0] - unit.limitexCD) : (cooldown - unit.limitexCD)}} 턴
+                                        {{::cooldown.length ? ' \u2192 ' + (cooldown[1] - unit.limitexCD) + ' 턴' : ''}}</span>
+                                    </td>
+                                </tr>
+                                <tr ng-if="details.specialCooldown">
+                                    <td>필살기 턴<span ng-if="unit.limitCD != 0"><br>CD + LB</span><span ng-if="unit.limitexCD != 0 && unit.limitCD != unit.limitexCD"><br>CD + LB+</span></td>
+                                    <td colspan="{{details.special.llbbase ? 2 : 1}}">
+                                        {{::details.specialCooldown.length ? details.specialCooldown[0] : details.specialCooldown}} 턴
+                                        {{::details.specialCooldown.length ? ' \u2192 ' + details.specialCooldown[1] + ' 턴' : ''}}<span ng-if="unit.limitCD != 0"><br>
+                                        {{::details.specialCooldown.length ? (details.specialCooldown[0] - unit.limitCD) : (details.specialCooldown - unit.limitCD)}} 턴
+                                        {{::details.specialCooldown.length ? ' \u2192 ' + (details.specialCooldown[1] - unit.limitCD) + ' 턴' : ''}}</span><span ng-if="unit.limitexCD != 0 && unit.limitCD != unit.limitexCD"><br>
+                                        {{::details.specialCooldown.length ? (details.specialCooldown[0] - unit.limitexCD) : (details.specialCooldown - unit.limitexCD)}} 턴
+                                        {{::details.specialCooldown.length ? ' \u2192 ' + (details.specialCooldown[1] - unit.limitexCD) + ' 턴' : ''}}</span>
+                                    </td>
+                                </tr>
+                                <tr ng-if="cooldown && !isSpecialStaged && isCooldownHybrid">
+                                    <td>필살기 턴 [일판]<span ng-if="unit.limitCD != 0"><br>Cooldown w/ LB</span><br><br>
+                                        필살기 턴 [글로벌]<span ng-if="unit.limitCD != 0"><br>Cooldown w/ LB</span></td>
+                                    <td>
+                                        {{::cooldown[0].length ? cooldown[0][0] : cooldown[0]}} 턴
+                                        {{::cooldown[0].length ? ' \u2192 ' + cooldown[0][1] + ' 턴' : ''}}<span ng-if="unit.limitCD != 0"><br>
+                                        {{::cooldown[0].length ? (cooldown[0][0] - unit.limitCD) : (cooldown[0] - unit.limitCD)}} 턴
+                                        {{::cooldown[0].length ? ' \u2192 ' + (cooldown[0][1] - unit.limitCD) + ' 턴' : ''}}</span><br><br>
+                                        {{::cooldown[1].length ? cooldown[1][0] : cooldown[1]}} 턴
+                                        {{::cooldown[1].length ? ' \u2192 ' + cooldown[1][1] + ' turns' : ''}}<span ng-if="unit.limitCD != 0"><br>
+                                        {{::cooldown[1].length ? (cooldown[1][0] - unit.limitCD) : (cooldown[1] - unit.limitCD)}} 턴
+                                        {{::cooldown[1].length ? ' \u2192 ' + (cooldown[1][1] - unit.limitCD) + ' 턴' : ''}}</span>
+                                    </td>
+                                </tr>
+                                <tr ng-if="details.superSpecialCriteria">
+                                    <td>EX 초월 발동조건</td>
+                                    <td colspan="2">
+                                        <div>
+                                                <span ng-bind-html="details.superSpecialCriteria | decorate"></span></div>
+                                        </div>
+                                        <add-super-special-query criteria="details.superSpecialCriteria" excluded-families="families"></add-super-special-query>
+                                        <span class="notes" ng-if="details.superSpecialCriteriaNotes" ng-bind-html="details.superSpecialCriteriaNotes | notes | decorate"></span>
+                                    </td>
+                                </tr>
+                                <tr ng-if="details.superSpecial">
+                                    <td>EX 초월</td>
+                                    <td colspan="2">
+                                        <strong class="specialName" ng-if="details.superSpecialName">{{::details.superSpecialName}}</strong>
+                                        <!-- same special, no stages -->
+                                        <div ng-if="!isSuperSpecialHybrid && !isSuperSpecialStaged" ng-bind-html="details.superSpecial | decorate"></div>
+                                        <!-- same special, with stages -->
+                                        <div ng-if="!isSuperSpecialHybrid && isSuperSpecialStaged">
+                                            <div ng-repeat="stage in details.superSpecial track by $index">
+                                                <strong>능력치 {{::$index + 1}}</strong>
+                                                ({{::stage.cooldown.length ? stage.cooldown[0] : stage.cooldown}}{{::stage.cooldown.length ? ' \u2192 ' + stage.cooldown[1] : ''}} 턴) <span ng-if="unit.limitCD != 0"><strong>➤</strong>
+                                                ({{::stage.cooldown.length ? stage.cooldown[0] - unit.limitCD : stage.cooldown}}{{::stage.cooldown.length ? ' \u2192 ' + (stage.cooldown[1] - unit.limitCD) : ''}} 턴):</span><span ng-if="unit.limitexCD != 0 && unit.limitexCD != unit.limitCD"><strong>➤</strong>
+                                                ({{::stage.cooldown.length ? stage.cooldown[0] - unit.limitexCD : stage.cooldown}}{{::stage.cooldown.length ? ' \u2192 ' + (stage.cooldown[1] - unit.limitexCD) : ''}} 턴):</span>
+                                                <span ng-bind-html="stage.description | decorate"></span>
+                                            </div>
+                                        </div>
+                                        <!-- different specials -->
+                                        <div ng-if="isSuperSpecialHybrid">
+                                            <span class="badge badge-japan" ng-show="details.superSpecial.japan">일본</span>
+                                            <div ng-show="details.superSpecial.japan" ng-bind-html="details.superSpecial.japan | decorate"></div>
+                                            <span class="badge badge-global" ng-show="details.superSpecial.global">한국</span>
+                                            <div ng-show="details.superSpecial.global" ng-bind-html="details.superSpecial.global | decorate"></div>
+                                            <span class="badge badge-character1" ng-show="details.superSpecial.character1">캐릭터 1 필살기 능력</span>
+                                            <div ng-show="details.superSpecial.character1" ng-bind-html="details.superSpecial.character1 | decorate"></div>
+                                            <span class="badge badge-character2" ng-show="details.superSpecial.character2">캐릭터 2 필살기 능력</span>
+                                            <div ng-show="details.superSpecial.character2" ng-bind-html="details.superSpecial.character2 | decorate"></div>
+                                        </div>
+                                        <span class="notes" ng-if="details.superSpecialNotes" ng-bind-html="details.superSpecialNotes | notes | decorate"></span>
+                                    </td>
+                                </tr>
+                                <tr ng-if="details.VSCondition">
+                                    <td>VS 전용 게이지</td>
+                                    <td>
+                                        <div>
+                                                <span ng-bind-html="details.VSCondition | decorate"></span></div>
+                                        </div>
+                                        <span class="notes" ng-if="details.VSConditionNotes" ng-bind-html="details.VSConditionNotes | notes | decorate"></span>
+                                    </td>
+                                </tr>
+                                <tr ng-if="details.VSSpecial">
+                                    <td>VS 필살기</td>
+                                    <td>
+                                        <!-- same special, no stages -->
+                                        <div ng-if="!isVSSpecialHybrid && !isVSSpecialStaged" ng-bind-html="details.superSpecial | decorate"></div>
+                                        <!-- same special, with stages -->
+                                        <div ng-if="!isVSSpecialHybrid && isVSSpecialStaged">
+                                            <div ng-repeat="stage in details.VSSpecial track by $index">
+                                                <strong>능력 {{::$index + 1}}</strong>
+                                                ({{::stage.cooldown.length ? stage.cooldown[0] : stage.cooldown}}{{::stage.cooldown.length ? ' \u2192 ' + stage.cooldown[1] : ''}} 턴) <span ng-if="unit.limitCD != 0"><strong>➤</strong>
+                                                ({{::stage.cooldown.length ? stage.cooldown[0] - unit.limitCD : stage.cooldown}}{{::stage.cooldown.length ? ' \u2192 ' + (stage.cooldown[1] - unit.limitCD) : ''}} 턴):</span><span ng-if="unit.limitexCD != 0 && unit.limitexCD != unit.limitCD"><strong>➤</strong>
+                                                ({{::stage.cooldown.length ? stage.cooldown[0] - unit.limitexCD : stage.cooldown}}{{::stage.cooldown.length ? ' \u2192 ' + (stage.cooldown[1] - unit.limitexCD) : ''}} 턴):</span>
+                                                <span ng-bind-html="stage.description | decorate"></span>
+                                            </div>
+                                        </div>
+                                        <!-- different specials -->
+                                        <div ng-if="isVSSpecialHybrid">
+                                            <span class="badge badge-japan" ng-show="details.VSSpecial.japan">일판</span>
+                                            <div ng-show="details.VSSpecial.japan" ng-bind-html="details.VSSpecial.japan | decorate"></div>
+                                            <span class="badge badge-global" ng-show="details.VSSpecial.global">글로벌</span>
+                                            <div ng-show="details.VSSpecial.global" ng-bind-html="details.VSSpecial.global | decorate"></div>
+                                            <span class="badge badge-character1" ng-show="details.VSSpecial.character1">캐릭터 1 필살기 능력</span>
+                                            <div ng-show="details.VSSpecial.character1" ng-bind-html="details.VSSpecial.character1 | decorate"></div>
+                                            <span class="badge badge-character2" ng-show="details.VSSpecial.character2">캐릭터 2 필살기 능력</span>
+                                            <div ng-show="details.VSSpecial.character2" ng-bind-html="details.VSSpecial.character2 | decorate"></div>
+                                        </div>
+                                        <span class="notes" ng-if="details.VSSpecialNotes" ng-bind-html="details.VSSpecialNotes | notes | decorate"></span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- Abilities (compared unit) -->
+
+                    <h3 class="page-header" ng-if="compare" ng-hide="hidden.abilities">능력치 (비교 캐릭터)</h3>
+
+                    <div class="panel panel-default" ng-if="compare" ng-hide="hidden.abilities">
+                        <table class="table table-striped-column abilities">
+                            <tbody>
+                                <tr>
+                                    <td>선장효과</td>
+                                    <td>
+                                        <!-- same captain ability -->
+                                        <div ng-if="!isCompareCaptainHybrid" ng-bind-html="compareDetails.captain | decorate"></div>
+                                        <!-- different captain abilities -->
+                                        <div ng-if="isCompareCaptainHybrid">
+                                            <span class="badge badge-japan">일본</span>
+                                            <div ng-bind-html="compareDetails.captain.japan | decorate"></div>
+                                            <span class="badge badge-global">글로벌</span>
+                                            <div ng-bind-html="compareDetails.captain.global | decorate"></div>
+                                        </div>
+                                        <span class="notes" ng-if="compareDetails.captainNotes" ng-bind-html="compareDetails.captainNotes | notes | decorate"></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>선원효과</td>
+                                    <td>
+                                        <!-- same sailor ability -->
+                                        <div ng-if="!isCompareSailorHybrid" ng-bind-html="compareDetails.sailor | decorate"></div>
+                                        <!-- different sailor abilities -->
+                                        <div ng-if="isCompareSailorHybrid">
+                                            <span class="badge badge-japan">일본</span>
+                                            <div ng-bind-html="compareDetails.sailor.japan | decorate"></div>
+                                            <span class="badge badge-global">글로벌</span>
+                                            <div ng-bind-html="compareDetails.sailor.global | decorate"></div>
+                                        </div>
+                                        <span class="notes" ng-if="compareDetails.sailorNotes" ng-bind-html="compareDetails.sailorNotes | notes | decorate"></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>필살기</td>
+                                    <td>
+                                        <strong class="specialName" ng-if="compareDetails.specialName">{{::compareDetails.specialName}}</strong>
+                                        <!-- same special, no stages -->
+                                        <div ng-if="!isCompareSpecialHybrid && !isCompareSpecialStaged" ng-bind-html="compareDetails.special | decorate"></div>
+                                        <!-- same special, with stages -->
+                                        <div ng-if="!isCompareSpecialHybrid && isCompareSpecialStaged">
+                                            <div ng-repeat="stage in compareDetails.special track by $index">
+                                                <strong>능력치 {{::$index + 1}}</strong>
+                                                ({{::stage.cooldown.length ? stage.cooldown[0] : stage.cooldown}}{{::stage.cooldown.length ? ' \u2192 ' + stage.cooldown[1] : ''}} 턴):
+                                                <span ng-bind-html="stage.description | decorate"></span>
+                                            </div>
+                                        </div>
+                                        <!-- different specials -->
+                                        <div ng-if="isCompareSpecialHybrid">
+                                            <span class="badge badge-japan">일본</span>
+                                            <div ng-bind-html="compareDetails.special.japan | decorate"></div>
+                                            <span class="badge badge-global">글로벌</span>
+                                            <div ng-bind-html="compareDetails.special.global | decorate"></div>
+                                        </div>
+                                        <span class="notes" ng-if="compareDetails.specialNotes" ng-bind-html="compareDetails.specialNotes | notes | decorate"></span>
+                                    </td>
+                                </tr>
+                                <tr ng-if="compareCooldown && !isCompareSpecialStaged">
+                                    <td>필살기 턴</td>
+                                    <td>
+                                        {{::compareCooldown.length ? compareCooldown[0] : compareCooldown}} 턴
+                                        {{::compareCooldown.length ? ' \u2192 ' + compareCooldown[1] + ' 턴' : ''}}
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <h3 id="supportSection" class="page-header" ng-hide="hidden.abilities">서포트 효과</h3>
+
+                    <div class="panel panel-default" ng-hide="hidden.abilities">
+                        <table class="table table-striped-column abilities">
+                            <!--------------    Support Abilities    -------------->
+                            <!--------------    isSupportHybrid is not used since JPN and Global all match so far, leaving in for future cases    -------------->
+                            <tbody>
+                                <tr ng-if="details.support">
+                                    <td>서포트</td>
+                                    <td>
+                                        <div ng-if="!isSupportHybrid && isSupportStaged">
+                                            <div ng-repeat="stage in details.support track by $index">
+                                                <strong>서포트 캐릭터:</strong> <span ng-bind-html="stage.Characters | decorate"></span>
+                                                <div ng-repeat="item in stage.description track by $index"><strong>LV {{::$index + 1}}:</strong>
+                                                <span ng-bind-html="item | decorate"></span><br></div>
+                                                <add-support-query criteria="stage.Characters"  excluded-families="families"></add-support-query>
+                                            </div>
+                                        </div>
+                                        <span class="notes" ng-if="details.supportNotes" ng-bind-html="details.supportNotes | notes | decorate"></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>장착 가능한 서포트 캐릭터</td>
+                                    <td>
+                                        <add-supporters-query uid="unit.number + 1"></add-supporters-query>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <h3 id="limitBreakSection" class="page-header" ng-hide="hidden.abilities"  ng-if="details.limit || details.potential || unit.maxLevel == 99">한계 돌파</h3>
+                    
+                    <div class="panel panel-default" ng-hide="hidden.abilities"  ng-if="details.limit || details.potential">
+                        <table class="table table-striped-column abilities">
+                            <tbody>
+                                <tr ng-if="details.limit">
+                                    <td>한계 돌파</td>
+                                    <td>
+                                        <!-- same limit break (differences across versions) -->
+                                        <div ng-if="!isLimitHybrid && !isLimitStaged" ng-bind-html="details.limit | decorate"></div>
+                                        <!-- different limit abilities -->
+                                        <div ng-if="!isLimitHybrid && isLimitStaged">
+                                            <div ng-repeat="stage in details.limit track by $index">
+                                                <strong>Lv {{::$index + 1}}:</strong>
+                                                <span ng-bind-html="stage.description | decorate"></span>
+                                            </div>
+                                        </div>
+                                        <div ng-if="isLimitHybrid">
+                                            <span class="badge badge-japan">일본</span>
+                                            <div ng-bind-html="details.limit.japan | decorate"></div>
+                                            <span class="badge badge-global">글로벌</span>
+                                            <div ng-bind-html="details.limit.global | decorate"></div>
+                                        </div>
+                                        <span class="notes" ng-if="details.limitNotes" ng-bind-html="details.limitNotes | notes | decorate"></span>
+                                    </td>
+                                </tr>
+                                <tr ng-if="details.potential">
+                                    <td>잠재 능력</td>
+                                    <td>
+                                        <!-- same potential break (differences across versions) -->
+                                        <div ng-if="!isPotentialHybrid && !isPotentialStaged" ng-bind-html="details.potential | decorate"></div>
+                                        <!-- different potential abilities -->
+                                        <div ng-if="!isPotentialHybrid && isPotentialStaged">
+                                            <div ng-repeat="stage in details.potential track by $index">
+                                                <strong>잠재 능력 {{::$index + 1}}: </strong><span ng-bind-html="stage.Name | decorate"></span>
+                                                <br>
+                                                <div ng-repeat="item in stage.description track by $index" style="margin-left: 2em"><strong>Lv {{::$index + 1}}:</strong>
+                                                <span ng-bind-html="item | decorate"></span><br></div>
+                                                <!--strong>Level {{::$index + 1}}:</strong>
+                                                <span ng-bind-html="stage.description[0] | decorate"></span><br>
+                                                <strong>Level {{::$index + 1}}:</strong>
+                                                <span ng-bind-html="stage.description[1] | decorate"></span><br>
+                                                <strong>Level {{::$index + 1}}:</strong>
+                                                <span ng-bind-html="stage.description[2] | decorate"></span><br>
+                                                <strong>Level {{::$index + 1}}:</strong>
+                                                <span ng-bind-html="stage.description[3] | decorate"></span><br>
+                                                <strong>Level {{::$index + 1}}:</strong>
+                                                <span ng-bind-html="stage.description[4] | decorate"></span><br-->
+                                            </div>
+                                        </div>
+                                        <div ng-if="isPotentialHybrid">
+                                            <span class="badge badge-japan">일판</span>
+                                            <div ng-bind-html="details.potential.japan | decorate"></div>
+                                            <span class="badge badge-global">글로벌</span>
+                                            <div ng-bind-html="details.potential.global | decorate"></div>
+                                        </div>
+                                        <span class="notes" ng-if="details.potentialNotes" ng-bind-html="details.potentialNotes | notes | decorate"></span>
+                                    </td>
+                                </tr>
+                                <tr ng-if="details.lastTap">
+                                    <td>라스트 탭</td>
+                                    <td>
+                                        <strong>조건:</strong> <span ng-bind-html="details.lastTap.condition | decorate"></span>
+                                        <div ng-repeat="item in details.lastTap.description track by $index"><strong>Lv {{::$index + 1}}:</strong>
+                                        <span ng-bind-html="item | decorate"></span><br></div>
+                                        <span class="notes" ng-if="details.lastTapNotes" ng-bind-html="details.lastTapNotes | notes | decorate"></span>
+                                    </td>
+                                </tr>
+                                <tr ng-if="details.superTandem">
+                                    <td>초 연계</td>
+                                    <td>
+                                        <span ng-if="details.superTandem.condition"><strong>조건:</strong> <span ng-bind-html="details.superTandem.condition | decorate"></span></span>
+                                        <div ng-repeat="item in details.superTandem.description track by $index"><strong>Lv {{::$index + 1}} (<span ng-bind-html="details.superTandem.characterCondition[$index] | decorate"></span>):</strong>
+                                        <span ng-bind-html="item | decorate"></span><br></div>
+                                        <span class="notes" ng-if="details.superTandemNotes" ng-bind-html="details.superTandemNotes | notes | decorate"></span>
+                                        <add-super-tandem-query criteria="details.superTandem.characterCondition[4]" excluded-families="families"></add-super-tandem-query>
+                                    </td>
+                                </tr>
+                                <tr ng-if="details.superTandemBoost">
+                                    <td>초 연계 부스트</td>
+                                    <td>
+                                        <span ng-if="details.superTandemBoost.condition"><strong>조건:</strong> <span ng-bind-html="details.superTandemBoost.condition | decorate"></span></span>
+                                        <div ng-repeat="item in details.superTandemBoost.description track by $index"><strong>Lv {{::$index + 1}} (<span ng-bind-html="details.superTandemBoost.characterCondition[$index] | decorate"></span>):</strong>
+                                        <span ng-bind-html="item | decorate"></span><br></div>
+                                        <span class="notes" ng-if="details.superTandemBoostNotes" ng-bind-html="details.superTandemBoostNotes | notes | decorate"></span>
+                                        <add-super-tandem-query criteria="details.superTandemBoost.characterCondition[4]" excluded-families="families"></add-super-tandem-query>
+                                    </td>
+                                </tr>
+                                <tr ng-if="details.rush">
+                                    <td>러쉬</td>
+                                    <td border-spacing="0px">
+                                        <div ng-if="details.rush.condition"><strong>조건:</strong> <div ng-bind-html="details.rush.condition | decorate"></div></div>
+                                        <table class="table table-striped-column abilities rush">
+                                            <tbody>
+                                                <tr ng-repeat-start="item in details.rush.description track by $index">
+                                                    <th colspan="2"><strong>Lv {{::$index + 1}} (<span ng-bind-html="details.rush.characterCondition[$index] | decorate"></span>)</strong></th>
+                                                </tr>
+                                                <tr ng-repeat-end>
+                                                    <td width="50%"><!--strong>Level {{::$index + 1}} (<span ng-bind-html="details.rush.characterCondition[$index] | decorate"></span>):</strong-->
+                                                    <div ng-bind-html="item | decorate"></div></td>
+                                                    <td><div ng-bind-html="details.rush.stats[$index] | decorate"></div></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <span class="notes" ng-if="details.rushNotes" ng-bind-html="details.rushNotes | notes | decorate"></span>
+                                        <add-super-tandem-query criteria="details.rush.characterCondition[4]" excluded-families="families"></add-super-tandem-query>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="panel panel-default" ng-hide="hidden.abilities"  ng-if="unit.maxLevel == 99">
+                        <table class="table table-striped-column abilities">
+                            <tbody>
+                                <tr>
+                                    <td width="10%">레벨 상한 돌파</td>
+                                    <td>
+                                        <div ng-repeat="stage in details.lLimit track by $index" ng-if="details.lLimit">
+                                            <div><strong>Lv {{::$index + 1}}:</strong> 최대 레벨 증가 {{::[105, 110, 120, 130, 150][$index]}}</div>
+                                            <span ng-if="stage.captain.base" class="badge badge-base">기본 선장효과</span><div ng-if="stage.captain.base" ng-bind-html="stage.captain.base | decorate"></div>
+                                            <span ng-if="stage.captain.level1" class="badge badge-level1">LB Level 1 Captain</span><div ng-if="stage.captain.level1" ng-bind-html="stage.captain.level1 | decorate"></div>
+                                            <span ng-if="stage.captain.level2" class="badge badge-level2">LB Level 2 Captain</span><div ng-if="stage.captain.level2" ng-bind-html="stage.captain.level2 | decorate"></div>
+                                            <span ng-if="stage.captain.level6" class="badge badge-level6">LB Level 6 Captain</span><div ng-if="stage.captain.level6" ng-bind-html="stage.captain.level6 | decorate"></div>
+                                            <span ng-if="stage.captain.character1" class="badge badge-character1">Character 1 Captain</span><div ng-if="stage.captain.character1" ng-bind-html="stage.captain.character1 | decorate"></div>
+                                            <span ng-if="stage.captain.character2" class="badge badge-character2">Character 2 Captain</span><div ng-if="stage.captain.character2" ng-bind-html="stage.captain.character2 | decorate"></div>
+                                            <span ng-if="stage.captain.combined" class="badge badge-combined">Dual Character Captain</span><div ng-if="stage.captain.combined" ng-bind-html="stage.captain.combined | decorate"></div>
+                                            <span ng-if="stage.sailor.base" class="badge badge-sbase">Base Sailor</span><div ng-if="stage.sailor.base" ng-bind-html="stage.sailor.base | decorate"></div>
+                                            <span ng-if="stage.sailor.base2" class="badge badge-sbase2">Base Sailor 2</span><div ng-if="stage.sailor.base2" ng-bind-html="stage.sailor.base2 | decorate"></div>
+                                            <span ng-if="stage.sailor.level1" class="badge badge-slevel1">LB Level 1 Sailor</span><div ng-if="stage.sailor.level1" ng-bind-html="stage.sailor.level1 | decorate"></div>
+                                            <span ng-if="stage.sailor.level2" class="badge badge-slevel2">LB Level 2 Sailor</span><div ng-if="stage.sailor.level2" ng-bind-html="stage.sailor.level2 | decorate"></div>
+                                            <span ng-if="stage.sailor.character1" class="badge badge-character1">Character 1 Sailor</span><div ng-if="stage.sailor.character1" ng-bind-html="stage.sailor.character1 | decorate"></div>
+                                            <span ng-if="stage.sailor.character2" class="badge badge-character2">Character 2 Sailor</span><div ng-if="stage.sailor.character2" ng-bind-html="stage.sailor.character2 | decorate"></div>
+                                            <span ng-if="stage.sailor.combined" class="badge badge-combined">Dual Character Sailor</span><div ng-if="stage.sailor.combined" ng-bind-html="stage.sailor.combined | decorate"></div>
+                                            <span ng-if="stage.special.base" class="badge badge-slevel1">Base Special</span><div ng-if="stage.special.base && !isLLBSpecialStaged[$index]" ng-bind-html="stage.special.base | decorate"></div>
+                                            <span ng-if="stage.special.level1" class="badge badge-slevel1">Level 1 Special</span><div ng-if="stage.special.level1 && !isLLBSpecialStaged[$index]" ng-bind-html="stage.special.level1 | decorate"></div>
+                                            <span ng-if="stage.special.level2" class="badge badge-slevel2">Level 2 Special</span><div ng-if="stage.special.level2 && !isLLBSpecialStaged[$index]" ng-bind-html="stage.special.level2 | decorate"></div>
+                                            <span ng-if="stage.special.character1" class="badge badge-character1">Character 1 Special</span><div ng-if="stage.special.character1 && !isLLBSpecialStaged[$index]" ng-bind-html="stage.special.character1 | decorate"></div>
+                                            <span ng-if="stage.special.character2" class="badge badge-character2">Character 2 Special</span><div ng-if="stage.special.character2 && !isLLBSpecialStaged[$index]" ng-bind-html="stage.special.character2 | decorate"></div>
+                                            <span ng-if="stage.special.combined" class="badge badge-combined">Combined Special</span><div ng-if="stage.special.combined && !isLLBSpecialStaged[$index]" ng-bind-html="stage.special.combined | decorate"></div>
+                                            <span ng-if="stage.special && isLLBSpecialStaged[$index]"><br>
+                                                <div ng-repeat="stage1 in stage.special.base track by $index">
+                                                    <strong>Stage {{::$index + 1}}</strong>
+                                                    ({{::stage1.cooldown.length ? stage1.cooldown[0] : stage1.cooldown}}{{::stage1.cooldown.length ? ' \u2192 ' + stage1.cooldown[1] : ''}} turns) <span ng-if="unit.limitCD != 0"><strong>➤</strong>
+                                                    ({{::stage1.cooldown.length ? stage1.cooldown[0] - unit.limitCD : stage1.cooldown}}{{::stage1.cooldown.length ? ' \u2192 ' + (stage1.cooldown[1] - unit.limitCD) : ''}} turns)</span><span ng-if="unit.limitexCD != 0 && unit.limitexCD != unit.limitCD"><strong>➤</strong>
+                                                    ({{::stage1.cooldown.length ? stage1.cooldown[0] - unit.limitexCD : stage1.cooldown}}{{::stage1.cooldown.length ? ' \u2192 ' + (stage1.cooldown[1] - unit.limitexCD) : ''}} turns)</span>:
+                                                    <span ng-bind-html="stage1.description | decorate"></span>
+                                                </div>
+                                            </span>
+                                            <div ng-if="stage.rResilience" class="badge badge-slevel1">Rumble Resilience</div><br ng-if="stage.rResilience"><span ng-if="stage.rResilience" ng-repeat="item in rumble.llbresilience track by $index"><span ng-bind-html="item | resilienceToString | decorate"></span><br></span>
+                                            <div ng-if="stage.rAbility" class="badge badge-slevel1">Rumble Ability</div><div ng-if="stage.rAbility" ng-bind-html="rumble.llbability[rumble.llbability.length-1].effects | abilityToString | decorate"></div>
+                                            <div ng-if="stage.rSpecial" class="badge badge-slevel1">Rumble Special</div><div ng-if="stage.rSpecial" ng-bind-html="rumble.llbspecial[rumble.llbspecial.length-1].effects | abilityToString | decorate"></div>
+                                            <div ng-if="stage.rSuperSpecial" class="badge badge-slevel1">Rumble Super Special</div><br ng-if="stage.rSuperSpecial"><span ng-if="stage.rSuperSpecial" ng-repeat="item in rumble.llbsuperspecial track by $index"><span ng-bind-html="item.effects | superspecialToString | decorate"></span><br></span>
+                                            <div ng-if="stage.gpAbility" class="badge badge-slevel1">Grand Party Abilty</div><div ng-if="stage.gpAbility" ng-bind-html="rumble.llbgpability[rumble.llbgpability.length-1].effects | abilityToString | decorate"></div>
+                                            <div ng-if="stage.gpSpecial" class="badge badge-slevel1">Grand Party Special</div><div ng-if="stage.gpSpecial" ng-bind-html="rumble.llbgpspecial[rumble.llbgpspecial.length-1].effects | abilityToString | decorate"></div>
+                                            <br ng-if="$index != 4">
+                                        </div>
+                                        <div ng-repeat="x in [].constructor(5) track by $index" ng-if="!details.lLimit">
+                                            <strong>Level {{::$index + 1}}:</strong> 최대 레벨 {{::[105, 110, 120, 130, 150][$index]}}LV 증가
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <!-- Pirate Rumble -->
+                    <!-- Use rumble.json if available -->
+
+                    <h3 id="rumbleSection" class="page-header" ng-hide="hidden.abilities" ng-if="rumble">Pirate Rumble</h3>
+                    <div class="panel panel-default" ng-hide="hidden.abilities" ng-if="rumble">
+                        <table class="table table-striped-column abilities">
+                            <tbody>
+                                <tr ng-if="rumble2"><th colspan="2">Character 1</th></tr>
+                                <tr ng-if="rumble.pattern">
+                                    <td width="5%"><span ng-if="rumble2">Character 1 </span>Attack Pattern</td>
+                                    <td colspan="2"><span ng-repeat="item in rumble.pattern track by $index"><span ng-bind-html="item | patternToString"></span>{{::$index != rumble.pattern.length - 1 ? ' \u21e8 ' : ''}}</span></td>
+                                </tr>
+                                <tr ng-if="rumble.target">
+                                    <td width="5%"><span ng-if="rumble2">Character 1 </span>Attack Target</td>
+                                    <td colspan="2"><span ng-bind-html="rumble.target | targetToString"></span></td>
+                                </tr>
+                                <tr ng-if="(rumble.llbresilience || rumble.llbability || rumble.llbspecial) && unit.maxLevel == 99">
+                                    <td width="5%"></td>
+                                    <td style="width: 47.5%"><strong>Base</strong></td>
+                                    <td style="width: 50%"><strong>Level Limit Break</strong></td>
+                                </tr>
+                                <tr ng-if="rumble.resilience || (rumble.llbresilience && unit.maxLevel == 99)">
+                                    <td width="5%"><span ng-if="rumble2">Character 1 </span>Resistance</td>
+                                    <td><span ng-repeat="item in rumble.resilience track by $index"><span ng-bind-html="item | resilienceToString | decorate"></span><br></span></td>
+                                    <td ng-if="rumble.llbresilience && unit.maxLevel == 99"><span ng-repeat="item in rumble.llbresilience track by $index"><span ng-bind-html="item | resilienceToString | decorate"></span><br></span></td>
+                                </tr>
+                                <tr ng-if="rumble.ability || (rumble.llbability && unit.maxLevel == 99)">
+                                    <td width="5%"><span ng-if="rumble2">Character 1 </span>Rumble Ability</td>
+                                    <td><div ng-repeat="item in rumble.ability track by $index"><strong>Level {{::$index + 1}}:</strong> <span ng-bind-html="item.effects | abilityToString | decorate"></span></div></td>
+                                    <td ng-if="rumble.llbability && unit.maxLevel == 99"><div ng-repeat="item in rumble.llbability track by $index"><strong>Level {{::$index + 1}}:</strong> <span ng-bind-html="item.effects | abilityToString | decorate"></span></div></td>
+                                </tr>
+                                <tr ng-if="rumble.special || (rumble.llbspecial && unit.maxLevel == 99)">
+                                    <td width="5%"><span ng-if="rumble2">Character 1 </span>Rumble Special</td>
+                                    <td><div ng-repeat="item in rumble.special track by $index"><strong>Level {{::$index + 1}}: [{{::item.cooldown}} second cooldown] </strong> <span ng-bind-html="item.effects | specialToString | decorate"></span></div></td>
+                                    <td ng-if="rumble.llbspecial && unit.maxLevel == 99"><div ng-repeat="item in rumble.llbspecial track by $index"><strong>Level {{::$index + 1}}: [{{::item.cooldown}} second cooldown] </strong> <span ng-bind-html="item.effects | specialToString | decorate"></span></div></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table class="table table-striped-column abilities" ng-if="rumble.superspecial">
+                            <tbody>
+                                <tr ng-if="!rumble.llbresilience && !rumble.llbability && !rumble.llbspecial && rumble.superspecial && unit.maxLevel == 99">
+                                    <td width="5%"></td>
+                                    <td style="width: 47.5%"><strong>Base</strong></td>
+                                    <td style="width: 50%"><strong>Level Limit Break</strong></td>
+                                </tr>
+                                <tr>
+                                    <td width="5%"><span ng-if="rumble2">Character 1 </span>Super Special Condition</td>
+                                    <td style="width: 47.5%"><div ng-repeat="item in rumble.superspecial track by $index"><span ng-bind-html="item.condition | superspecialconditionToString | decorate"></span></div></td>
+                                    <td style="width: 50%" ng-if="unit.maxLevel == 99"><div ng-repeat="item in rumble.llbsuperspecial track by $index"><span ng-bind-html="item.condition | superspecialconditionToString | decorate"></span></div></td>
+                                </tr>
+                                <tr>
+                                    <td width="5%"><span ng-if="rumble2">Character 1 </span>Rumble Super Special</td>
+                                    <td><div ng-repeat="item in rumble.superspecial track by $index"><span ng-bind-html="item.effects | superspecialToString | decorate"></span></div></td>
+                                    <td ng-if="unit.maxLevel == 99"><div ng-repeat="item in rumble.llbsuperspecial track by $index"><span ng-bind-html="item.effects | superspecialToString | decorate"></span></div></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                        <table class="table table-striped-column abilities" ng-if="rumble2">
+                            <tbody>
+                                <tr><th colspan="2">Character 2</th></tr>
+                                <tr ng-if="rumble2.pattern">
+                                    <td width="5%">Character 2 Attack Pattern</td>
+                                    <td colspan="2"><span ng-repeat="item in rumble2.pattern track by $index"><span ng-bind-html="item | patternToString"></span>{{::$index != rumble2.pattern.length - 1 ? ' \u21e8 ' : ''}}</span></td>
+                                </tr>
+                                <tr ng-if="rumble2.target">
+                                    <td width="5%">Character 2 Attack Target</td>
+                                    <td colspan="2"><span ng-bind-html="rumble2.target | targetToString"></span></td>
+                                </tr>
+                                <tr ng-if="(rumble2.llbresilience || rumble2.llbability || rumble2.llbspecial) && unit.maxLevel == 99">
+                                    <td width="5%"></td>
+                                    <td style="width: 47.5%"><strong>Base</strong></td>
+                                    <td style="width: 50%"><strong>Level Limit Break</strong></td>
+                                </tr>
+                                <tr ng-if="rumble2.resilience || (rumble2.llbresilience && unit.maxLevel == 99)">
+                                    <td width="5%">Character 2 Resistance</td>
+                                    <td><span ng-repeat="item in rumble2.resilience track by $index"><span ng-bind-html="item | resilienceToString | decorate"></span><br></span></td>
+                                    <td ng-if="rumble2.llbresilience && unit.maxLevel == 99"><span ng-repeat="item in rumble2.llbresilience track by $index"><span ng-bind-html="item | resilienceToString | decorate"></span><br></span></td>
+                                </tr>
+                                <tr ng-if="rumble2.ability || (rumble2.llbability && unit.maxLevel == 99)">
+                                    <td width="5%">Character 2 Rumble Ability</td>
+                                    <td><div ng-repeat="item in rumble2.ability track by $index"><strong>Level {{::$index + 1}}:</strong> <span ng-bind-html="item.effects | abilityToString | decorate"></span></div></td>
+                                    <td ng-if="rumble2.llbability && unit.maxLevel == 99"><div ng-repeat="item in rumble2.llbability track by $index"><strong>Level {{::$index + 1}}:</strong> <span ng-bind-html="item.effects | abilityToString | decorate"></span></div></td>
+                                </tr>
+                                <tr ng-if="rumble2.special || (rumble2.llbspecial && unit.maxLevel == 99)">
+                                    <td width="5%">Character 2 Rumble Special</td>
+                                    <td><div ng-repeat="item in rumble2.special track by $index"><strong>Level {{::$index + 1}}: [{{::item.cooldown}} second cooldown] </strong> <span ng-bind-html="item.effects | specialToString | decorate"></span></div></td>
+                                    <td ng-if="rumble2.llbspecial && unit.maxLevel == 99"><div ng-repeat="item in rumble2.llbspecial track by $index"><strong>Level {{::$index + 1}}: [{{::item.cooldown}} second cooldown] </strong> <span ng-bind-html="item.effects | specialToString | decorate"></span></div></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table class="table table-striped-column abilities" ng-if="rumble2.superspecial">
+                            <tbody>
+                                <tr ng-if="!rumble2.llbresilience && !rumble2.llbability && !rumble2.llbspecial && rumble2.superspecial && unit.maxLevel == 99">
+                                    <td width="5%"></td>
+                                    <td style="width: 47.5%"><strong>Base</strong></td>
+                                    <td style="width: 50%"><strong>Level Limit Break</strong></td>
+                                </tr>
+                                <tr>
+                                    <td width="5%">Character 2 </span>Super Special Condition</td>
+                                    <td style="width: 47.5%"><div ng-repeat="item in rumble2.superspecial track by $index"><span ng-bind-html="item.condition | superspecialconditionToString | decorate"></span></div></td>
+                                    <td style="width: 50%" ng-if="unit.maxLevel == 99"><div ng-repeat="item in rumble2.llbsuperspecial track by $index"><span ng-bind-html="item.condition | superspecialconditionToString | decorate"></span></div></td>
+                                </tr>
+                                <tr>
+                                    <td width="5%">Character 2 </span>Rumble Super Special</td>
+                                    <td><div ng-repeat="item in rumble2.superspecial track by $index"><span ng-bind-html="item.effects | superspecialToString | decorate"></span></div></td>
+                                    <td ng-if="unit.maxLevel == 99"><div ng-repeat="item in rumble2.llbsuperspecial track by $index"><span ng-bind-html="item.effects | superspecialToString | decorate"></span></div></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- Pirate Rumble -->
+                    <!-- If rumble.json is not available, then use details.js if available -->
+
+                    <h3 id="rumbleSection" class="page-header" ng-hide="hidden.abilities" ng-if="!rumble && (details.festAttackPattern || details.festAttackTarget || details.festResistance || details.festAbility || details.festSpecial || details.festSuperSpecial)">Pirate Rumble</h3>
+                    <div class="panel panel-default" ng-hide="hidden.abilities" ng-if="!rumble && (details.festAttackPattern || details.festAttackTarget || details.festResistance || details.festAbility || details.festSpecial || details.festSuperSpecial)">
+                        <table class="table table-striped-column abilities" ng-if="details.festAttackPattern || details.festAttackTarget || details.festResistance || details.festAbility || details.festSpecial">
+                            <tbody>
+                                <tr ng-if="details.festAttackPattern">
+                                    <td width="5%">Attack Pattern</td>
+                                    <td colspan="2"><div ng-repeat="item in details.festAttackPattern track by $index"><span ng-bind-html="item | decorate"></span></div></td>
+                                </tr>
+                                <tr ng-if="details.festAttackTarget">
+                                    <td width="5%">Attack Target</td>
+                                    <td colspan="2"><span ng-bind-html="details.festAttackTarget | decorate"></span></td>
+                                </tr>
+                                <tr ng-if="details.festResistance.hasOwnProperty('base') || details.festAbility.hasOwnProperty('base') || details.festSpecial.hasOwnProperty('base')">
+                                    <td width="5%"></td>
+                                    <td style="width: 47.5%"><strong>Base</strong></td>
+                                    <td style="width: 50%"><strong>Level Limit Break</strong></td>
+                                </tr>
+                                <tr ng-if="details.festResistance">
+                                    <td width="5%">Resistance</td>
+                                    <td ng-if="!details.festResistance.hasOwnProperty('base')"><span ng-bind-html="details.festResistance | decorate"></span></td>
+                                    <td ng-if="details.festResistance.hasOwnProperty('base')"><span ng-bind-html="details.festResistance.base | decorate"></span></td>
+                                    <td ng-if="details.festResistance.hasOwnProperty('llbbase')"><span ng-bind-html="details.festResistance.llbbase | decorate"></span></td>
+                                </tr>
+                                <tr ng-if="details.festAbility">
+                                    <td width="5%">Rumble Ability</td>
+                                    <td ng-if="!details.festAbility.hasOwnProperty('base')"><div ng-repeat="item in details.festAbility track by $index"><strong>Level {{$index + 1}}: </strong><span ng-bind-html="item | decorate"></span><br></div></td>
+                                    <td ng-if="details.festAbility.hasOwnProperty('base')"><div ng-repeat="item in details.festAbility.base track by $index"><strong>Level {{$index + 1}}: </strong><span ng-bind-html="item | decorate"></span><br></div></td>
+                                    <td ng-if="details.festAbility.hasOwnProperty('llbbase')"><div ng-repeat="item in details.festAbility.llbbase track by $index"><strong>Level {{$index + 1}}: </strong><span ng-bind-html="item | decorate"></span><br></div></td>
+                                </tr>
+                                <tr ng-if="details.festSpecial">
+                                    <td width="5%">Rumble Special</td>
+                                    <td ng-if="!details.festSpecial.hasOwnProperty('base')"><div ng-repeat="item in details.festSpecial track by $index"><strong>Level {{$index + 1}}: [{{item.cooldown}} seconds] </strong><span ng-bind-html="item.description | decorate"></span><br></div></td>
+                                    <td ng-if="details.festSpecial.hasOwnProperty('base')"><div ng-repeat="item in details.festSpecial.base track by $index"><strong>Level {{$index + 1}}: [{{item.cooldown}} seconds] </strong><span ng-bind-html="item.description | decorate"></span><br></div></td>
+                                    <td ng-if="details.festSpecial.hasOwnProperty('llbbase')"><div ng-repeat="item in details.festSpecial.llbbase track by $index"><strong>Level {{$index + 1}}: [{{item.cooldown}} seconds] </strong><span ng-bind-html="item.description | decorate"></span><br></div></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table class="table table-striped-column abilities" ng-if="details.festSuperSpecial">
+                            <tbody>
+                                <tr ng-if="!details.festResistance.hasOwnProperty('base') || !details.festAbility.hasOwnProperty('base') || !details.festSpecial.hasOwnProperty('base')">
+                                    <td width="5%"></td>
+                                    <td style="width: 47.5%"><strong>Base</strong></td>
+                                    <td style="width: 50%"><strong>Level Limit Break</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>Super Special Condition</td>
+                                    <td style="width: 47.5%"><span ng-bind-html="details.festSuperSpecial.base.condition | decorate"></span></td>
+                                    <td style="width: 50%"><span ng-bind-html="details.festSuperSpecial.llbbase.condition | decorate"></span></td>
+                                </tr>
+                                <tr>
+                                    <td>Rumble Super Special</td>
+                                    <td><span ng-bind-html="details.festSuperSpecial.base.description | decorate"></span></td>
+                                    <td><span ng-bind-html="details.festSuperSpecial.llbbase.description | decorate"></span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- Grand Party -->
+                    <!-- Use rumble.json if available -->
+
+                    <h3 id="rumbleSection" class="page-header" ng-hide="hidden.abilities" ng-if="rumble.gpability || rumble.gpcondition || rumble.gpspecial">Grand Party</h3>
+                    <div class="panel panel-default" ng-hide="hidden.abilities" ng-if="rumble.gpability || rumble.gpcondition || rumble.gpspecial">
+                        <table class="table table-striped-column abilities">
+                            <tbody>
+                                <tr ng-if="rumble2"><th colspan="2">Character 1</th></tr>
+                                <tr ng-if="(rumble.llbgpability || rumble.llbgpcondition || rumble.llbgpspecial) && unit.maxLevel == 99">
+                                    <td width="5%"></td>
+                                    <td style="width: 47.5%"><strong>Base</strong></td>
+                                    <td style="width: 50%"><strong>Level Limit Break</strong></td>
+                                </tr>
+                                <tr ng-if="rumble.gpability || (rumble.llbgpability && unit.maxLevel == 99)">
+                                    <td width="5%"><span ng-if="rumble2">Character 1 </span>Leader Skill</td>
+                                    <td><div ng-repeat="item in rumble.gpability track by $index"><strong>Level {{::$index + 1}}: </strong> <span ng-bind-html="item.effects | abilityToString | decorate"></span></div></td>
+                                    <td ng-if="rumble.llbgpability && unit.maxLevel == 99"><div ng-repeat="item in rumble.llbgpability track by $index"><strong>Level {{::$index + 1}}: </strong> <span ng-bind-html="item.effects | abilityToString | decorate"></span></div></td>
+                                </tr>
+                                <tr ng-if="rumble.gpcondition || (rumble.llbgpcondition && unit.maxLevel == 99)">
+                                    <td width="5%"><span ng-if="rumble2">Character 1 </span>Burst Condition</td>
+                                    <td><div ng-repeat="item in rumble.gpcondition track by $index"><span ng-bind-html="item | gpconditionToString | decorate"></span></div></td>
+                                    <td ng-if="rumble.llbgpcondition && unit.maxLevel == 99"><div ng-repeat="item in rumble.llbgpcondition track by $index"><span ng-bind-html="item | gpconditionToString | decorate"></span></div></td>
+                                </tr>
+                                <tr ng-if="rumble.gpspecial || (rumble.llbgpspecial && unit.maxLevel == 99)">
+                                    <td width="5%"><span ng-if="rumble2">Character 1 </span>Burst</td>
+                                    <td><div ng-repeat="item in rumble.gpspecial track by $index"><strong>Level {{::$index + 1}}: [{{::item.uses}} use{{item.uses != 1 ? "s" : ""}}] </strong> <span ng-bind-html="item.effects | specialToString | decorate"></span></div></td>
+                                    <td ng-if="rumble.llbgpspecial && unit.maxLevel == 99"><div ng-repeat="item in rumble.llbgpspecial track by $index"><strong>Level {{::$index + 1}}: [{{::item.uses}} use{{item.uses != 1 ? "s" : ""}}] </strong> <span ng-bind-html="item.effects | specialToString | decorate"></span></div></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table class="table table-striped-column abilities" ng-if="rumble2">
+                            <tbody>
+                                <tr><th colspan="2">Character 2</th></tr>
+                                <tr ng-if="(rumble2.llbgpability || rumble2.llbgpcondition || rumble2.llbgpspecial) && unit.maxLevel == 99">
+                                    <td width="5%"></td>
+                                    <td style="width: 47.5%"><strong>Base</strong></td>
+                                    <td style="width: 50%"><strong>Level Limit Break</strong></td>
+                                </tr>
+                                <tr ng-if="rumble2.gpability || (rumble2.llbgpability && unit.maxLevel == 99)">
+                                    <td width="5%">Character 2 Leader Skill</td>
+                                    <td><div ng-repeat="item in rumble2.gpability track by $index"><strong>Level {{::$index + 1}}: </strong> <span ng-bind-html="item.effects | abilityToString | decorate"></span></div></td>
+                                    <td ng-if="rumble2.llbgpability && unit.maxLevel == 99"><div ng-repeat="item in rumble2.llbgpability track by $index"><strong>Level {{::$index + 1}}: </strong> <span ng-bind-html="item.effects | abilityToString | decorate"></span></div></td>
+                                </tr>
+                                <tr ng-if="rumble2.gpcondition || (rumble2.llbgpcondition && unit.maxLevel == 99)">
+                                    <td width="5%">Character 2 Burst Condition</td>
+                                    <td><div ng-repeat="item in rumble2.gpcondition track by $index"><span ng-bind-html="item | gpconditionToString | decorate"></span></div></td>
+                                    <td ng-if="rumble2.llbgpcondition && unit.maxLevel == 99"><div ng-repeat="item in rumble2.llbgpcondition track by $index"><span ng-bind-html="item | gpconditionToString | decorate"></span></div></td>
+                                </tr>
+                                <tr ng-if="rumble2.gpspecial || (rumble2.llbgpspecial && unit.maxLevel == 99)">
+                                    <td width="5%">Character 2 Burst</td>
+                                    <td><div ng-repeat="item in rumble2.gpspecial track by $index"><strong>Level {{::$index + 1}}: [{{::item.uses}} use{{item.uses != 1 ? "s" : ""}}] </strong> <span ng-bind-html="item.effects | specialToString | decorate"></span></div></td>
+                                    <td ng-if="rumble2.llbgpspecial && unit.maxLevel == 99"><div ng-repeat="item in rumble2.llbgpspecial track by $index"><strong>Level {{::$index + 1}}: [{{::item.uses}} use{{item.uses != 1 ? "s" : ""}}] </strong> <span ng-bind-html="item.effects | specialToString | decorate"></span></div></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- Grand Party -->
+                    <!-- If rumble.json is not available, then use details.js if available -->
+
+                    <h3 id="rumbleSection" class="page-header" ng-hide="hidden.abilities" ng-if="!rumble.gpability && !rumble.gpcondition && !rumble.gpspecial && (details.festAbilityGP || details.festAbilityGPCondition)">Grand Party</h3>
+                    <div class="panel panel-default" ng-hide="hidden.abilities" ng-if="!rumble.gpability && !rumble.gpcondition && !rumble.gpspecial && (details.festAbilityGP || details.festAbilityGPCondition)">
+                        <table class="table table-striped-column abilities">
+                            <tbody>
+                                <tr ng-if="details.festAbilityGP.hasOwnProperty('base') || details.festAbilityGPCondition.hasOwnProperty('base')">
+                                    <td width="5%"></td>
+                                    <td style="width: 47.5%"><strong>Base</strong></td>
+                                    <td style="width: 50%"><strong>Level Limit Break</strong><td>
+                                </tr>
+                                <tr ng-if="details.festAbilityGP">
+                                    <td width="5%">Leader Skill</td>
+                                    <td ng-if="!details.festAbilityGP.hasOwnProperty('base')"><div ng-repeat="item in details.festAbilityGP track by $index"><strong>Level {{$index + 1}}: </strong><span ng-bind-html="item.festGPAbility | decorate"></span><br></div></td>
+                                    <td ng-if="details.festAbilityGP.hasOwnProperty('base')"><div ng-repeat="item in details.festAbilityGP.base track by $index"><strong>Level {{$index + 1}}: </strong><span ng-bind-html="item.festGPAbility | decorate"></span><br></div></td>
+                                    <td ng-if="details.festAbilityGP.hasOwnProperty('llbbase')"><div ng-repeat="item in details.festAbilityGP.llbbase track by $index"><strong>Level {{$index + 1}}: </strong><span ng-bind-html="item.festGPAbility | decorate"></span><br></div></td>
+                                </tr>
+                                <tr ng-if="details.festAbilityGPCondition">
+                                    <td width="5%">Burst Condition</td>
+                                    <td ng-if="!details.festAbilityGPCondition.hasOwnProperty('base')"><span ng-bind-html="details.festAbilityGPCondition | decorate"></span></td>
+                                    <td ng-if="details.festAbilityGPCondition.hasOwnProperty('base')"><span ng-bind-html="details.festAbilityGPCondition.base | decorate"></span></td>
+                                    <td ng-if="details.festAbilityGPCondition.hasOwnProperty('llbbase')"><span ng-bind-html="details.festAbilityGPCondition.llbbase | decorate"></span></td>
+                                </tr>
+                                <tr ng-if="details.festAbilityGP">
+                                    <td width="5%">Burst</td>
+                                    <td ng-if="!details.festAbilityGP.hasOwnProperty('base')"><div ng-repeat="item in details.festAbilityGP track by $index"><strong>Level {{$index + 1}}: [{{item.uses}} use{{"" ? item.uses == 1 : "s"}}] </strong><span ng-bind-html="item.festGPSpecial | decorate"></span><br></div></td>
+                                    <td ng-if="details.festAbilityGP.hasOwnProperty('base')"><div ng-repeat="item in details.festAbilityGP.base track by $index"><strong>Level {{$index + 1}}: [{{item.uses}} use{{"" ? item.uses == 1 : "s"}}] </strong><span ng-bind-html="item.festGPSpecial | decorate"></span><br></div></td>
+                                    <td ng-if="details.festAbilityGP.hasOwnProperty('llbbase')"><div ng-repeat="item in details.festAbilityGP.llbbase track by $index"><strong>Level {{$index + 1}}: [{{item.uses}} use{{"" ? item.uses == 1 : "s"}}] </strong><span ng-bind-html="item.festGPSpecial | decorate"></span><br></div></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- Evolutions -->
+
+                    <h3 id="evolutionSection" class="page-header" ng-if="evolution.evolution" ng-hide="hidden.evolution">진화재료</h3>
+
+                    <table class="table table-striped table-centered table-bordered table-textless"
+                            ng-if="evolution.evolution && !evolution.evolution.length" ng-hide="hidden.evolution">
+                        <tbody>
+                            <tr>
+                                <td><evolution unit="unit" evolvers="evolution.evolvers"
+                                    evolution="evolution.evolution" size="medium"></evolution></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <table class="table table-striped table-centered table-bordered table-textless"
+                            ng-if="evolution.evolution && evolution.evolution.length" ng-hide="hidden.evolution">
+                        <tbody>
+                            <tr ng-repeat="evolverSet in evolution.evolvers">
+                                <td>
+                                    <evolution unit="unit" evolvers="evolverSet" evolution="evolution.evolution[$index]"
+                                        size="medium"></evolution>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <!-- Evolves from -->
+
+                    <h3 id="evolutionFromSection" class="page-header" ng-if="evolvesFrom.length > 0" ng-hide="hidden.evolutionFrom">진화 전</h3>
+
+                    <table class="table table-striped table-centered table-bordered table-textless"
+                            ng-if="evolvesFrom.length > 0" ng-hide="hidden.evolutionFrom">
+                        <tbody>
+                            <tr ng-repeat="data in evolvesFrom">
+                                <td>
+                                    <evolution unit="unit" base="data.from" evolvers="data.via" evolution="data.to" size="medium"></evolution>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <!-- Used by -->
+
+                    <h3 class="page-header" ng-if="sizeOf(usedBy) > 0" ng-hide="hidden.required">Evolutions Requiring This Unit</h3>
+
+                    <table ng-if="sizeOf(usedBy) > 0" class="table table-striped table-centered table-bordered table-textless" ng-hide="hidden.required">
+                        <tbody>
+                            <tr ng-if="collapsed.used && sizeOf(usedBy) > 3">
+                                <td><button class="btn btn-info collapse-button"
+                                        ng-click="collapsed.used = false">클릭하여 표시</button></td>
+                            </tr>
+                            <tr ng-repeat="(base,evolutions) in usedBy" ng-if="!collapsed.used || sizeOf(usedBy) < 4">
+                                <td>
+                                    <div ng-repeat="data in evolutions track by $index">
+                                        <evolution unit="unit" base="base" evolvers="data.evolvers"
+                                            evolution="data.evolution" size="medium"></evolution>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                   <!-- Same specials -->
+
+                    <h3 class="page-header" ng-if="sizeOf(sameSpecials) > 0" ng-hide="hidden.sameSpecial">Units With the Same Special</h3>
+
+                    <table ng-if="sizeOf(sameSpecials) > 0" class="table table-striped table-centered table-bordered table-textless" ng-hide="hidden.sameSpecial">
+                        <tbody>
+                            <tr>
+                                <td><unit uid="id" ng-repeat="id in sameSpecials"></unit></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <!-- Tandems -->
+
+                    <h3 class="page-header" ng-if="tandems.length > 0">사용하지않는 시스템(번역x)</h3>
+
+                    <table class="table table-striped table-centered table-bordered" ng-if="tandems.length > 0">
+                        <tbody>
+                            <tr ng-repeat="tandem in tandems">
+                                <td>
+                                    <div><strong>{{::tandem.name}}</strong></div>
+                                    <a class="slot medium clickable" decorate-slot uid="uid" clickable="true"
+                                        ui-sref="main.search.view({ id: uid, previous: getPrevious() })"
+                                        ng-repeat="uid in tandem.units track by $index"></a>
+                                    <div>{{::tandem.desc}}</div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <!-- Drops -->
+
+                    <h3 class="page-header" ng-if="drops.length > 0">드랍 위치</h3>
+
+                    <span ng-show="!collapsed.drops" class="drop-warning">
+                        <strong>Note:</strong>
+                        If a drop appears in almost all of the stages of a story-mode island, it is likely to be part of the
+                        island's secret round. Secret rounds have an estimated 5% chance of appearing.
+                    </span>
+
+                    <table ng-if="collapsed.drops && drops.length > 3" class="table table-striped table-centered table-bordered table-textless">
+                        <tbody>
+                            <tr ng-if="collapsed.drops && drops.length > 3">
+                                <td><button class="btn btn-info collapse-button"
+                                        ng-click="collapsed.drops = false">클릭하여 표시</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div ng-if="drops.length > 0" class="panel panel-default panel-x-scroll">
+                        <table  class="table table-striped drop-table">
+                            <thead ng-show="!collapsed.drops || drops.length < 4">
+                                <tr>
+                                    <th>위치</th>
+                                    <th>챕터/난이도</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr ng-if="!collapsed.drops || drops.length < 4" ng-repeat="drop in drops">
+                                    <td>
+                                        <div class="slot small" decorate-slot uid="drop.thumb"></div>
+                                        <a href="{{::'../drops/?'+drop.name}}" target="_blank">{{::drop.name}}</a>
+                                        <span ng-repeat="bonus in drop.bonuses" class="bonus {{::bonus.slice(0,2)}} {{::bonus.slice(3)}}"></span>
+                                    </td>
+                                    <td>{{::drop.data.join(', ')}}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- Manuals -->
+
+                    <h3 class="page-header" ng-if="manuals.length > 0">수동 위치</h3>
+
+                    <table ng-if="collapsed.manuals && manuals.length > 3" class="table table-striped table-centered table-bordered table-textless">
+                        <tbody>
+                            <tr ng-if="collapsed.manuals && manuals.length > 3">
+                                <td><button class="btn btn-info collapse-button"
+                                        ng-click="collapsed.manuals = false">클릭하여 표시</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div ng-if="manuals.length > 0" class="panel panel-default panel-x-scroll">
+                        <table class="table table-striped drop-table">
+                            <thead ng-show="!collapsed.manuals || manuals.length < 4">
+                                <tr>
+                                    <th>위치</th>
+                                    <th>스테이지 / 난이도</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr ng-if="!collapsed.manuals || manuals.length < 4" ng-repeat="drop in manuals">
+                                    <td>
+                                        <div class="slot small" decorate-slot uid="drop.thumb"></div>
+                                        <a href="{{::'../drops/?'+drop.name}}" target="_blank">{{::drop.name}}</a>
+                                    </td>
+                                    <td>{{::drop.data.join(', ')}}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- Family -->
+
+                    <h3 class="page-header" ng-if="displayFamily">관련캐릭터: {{::displayFamily}}</h3>
+
+                    <table ng-if="collapsed.families && farmableVersions.length > 3" class="table table-striped table-centered table-bordered table-textless">
+                        <tbody>
+                            <tr ng-if="collapsed.families && farmableVersions.length > 3">
+                                <td><button class="btn btn-info collapse-button"
+                                        ng-click="collapsed.families = false">드랍 가능캐릭터 보기</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div ng-if="farmableVersions.length > 0" class="panel panel-default panel-x-scroll">
+                        <table class="table table-striped drop-table">
+                            <thead ng-show="!collapsed.families || farmableVersions.length < 4">
+                                <tr>
+                                    <th>종류</th>
+                                    <th>위치 정보</th>
+                                    <th>챕터 / 난이도</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr ng-if="!collapsed.families || farmableVersions.length < 4" ng-repeat="data in farmableVersions">
+                                    <td>
+                                        <div class="slot small" decorate-slot uid="data.uid"></div>
+                                        <a ui-sref="main.search.view({ id: data.uid, previous: getPrevious() })">{{::data.name}}</a>
+                                    </td>
+                                    <td><a href="{{::'../drops/?'+data.location.name}}" target="_blank">{{::data.location.name}}</a></td>
+                                    <td>{{::data.location.data.join(', ')}}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- Other Names -->
+
+                    <h3 class="page-header">다른 이름</h3>
+
+                    <add-names></add-names>
+
+                    <!-- Tags -->
+
+                    <h3 id="tagsSection" class="page-header">태그</h3>
+
+                    <add-tags></add-tags>
+
+                    <!-- Links -->
+
+                    <br/>
+                    <h3 class="page-header">링크</h3>
+
+                    <add-links></add-links>
+
+                    <!-- Data gathering -->
+
+                    <div ng-if="!unit.incomplete && unit.growth.atk === 0" class="alert alert-success"><i class="fa fa-star"></i> Have this unit? Please take a look at <a href="../damage/#/gather">this</a>.</div>
+
+                </div>
+                
+                <div class="modal-footer">
+                    <div class="btn-group">
+                        <button class="btn btn-default" title="상세정보" scroll-to-section="detailsSection"><i class="fas fa-book"></i></button>
+                        <button class="btn btn-default" title="능력" scroll-to-section="abilitiesSection" ng-hide="hidden.abilities"><i class="fas fa-bolt"></i></button>
+                        <button class="btn btn-default" title="서포트" scroll-to-section="supportSection" ng-hide="hidden.abilities"><i class="fas fa-handshake"></i></button>
+                        <button class="btn btn-default" title="한계돌파" scroll-to-section="limitBreakSection" ng-hide="hidden.abilities" ng-if="details.limit || details.potential"><i class="fas fa-atom"></i></button>
+                        <button class="btn btn-default" title="해적제" scroll-to-section="rumbleSection" ng-hide="hidden.abilities" ng-if="rumble.ability"><i class="fas fa-rumble"></i></button>
+                        <button class="btn btn-default" title="진화" scroll-to-section="evolutionSection" ng-if="evolution.evolution" ng-hide="hidden.evolution"><i class="fas fa-seedling"></i></button>
+                        <button class="btn btn-default" title="진화" scroll-to-section="evolutionFromSection" ng-if="evolvesFrom.length > 0 && !evolution.evolution" ng-hide="hidden.evolutionFrom"><i class="fas fa-seedling"></i></button>
+                        <button class="btn btn-default" title="태그" scroll-to-section="tagsSection"><i class="fas fa-tag"></i></button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</div>

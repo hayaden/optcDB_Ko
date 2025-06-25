@@ -1,0 +1,27 @@
+<div class="backdrop" ui-sref="^"></div>
+
+<div class="custom-modal">
+    <div id="picker" class="modal-dialog">
+        <div class="modal-content animated fadeInDown">
+            <div class="modal-header">캐릭터 선택</div>
+            <div class="modal-body">
+
+                <span class="animated shake span-warning" ng-if="!isMats">	진화시킬 캐릭터를 선택합니다. <b>진화</b> form.</span>
+
+                <input type="text" id="picker" placeholder="검색어를 입력하세요"
+                    ng-model="query" ng-model-options="{ debounce: 500 }" auto-focus class="modal-filter">
+
+                <div id="pickerUnits" class="modal-div">
+                    <div class="slot medium" ng-repeat="unit in units" ng-click="pickUnit(unit.number)"
+                        decorate-slot="static" uid="unit.number + 1" flag="true">
+                    </div> 
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" ui-sref="^">취소</button> 
+            </div>
+        </div>
+    </div>
+
+</div>

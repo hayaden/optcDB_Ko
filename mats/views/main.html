@@ -1,0 +1,107 @@
+<script id="tooltip.html" type="text/ng-template">
+    <div>
+        <div ng-repeat="uid in unit.evolvers track by $index" class="slot micro" decorate-slot uid="uid"></div>
+    </div>
+</script>
+
+<script id="required-by.html" type="text/ng-template">
+    <div>
+        필요한 캐릭터:
+        <ul>
+            <li ng-repeat="character in getRequiredBy(id)">
+                {{character}}
+            </li>
+        </ul>
+    </div>
+</script>
+
+<h2 class="page-header">
+    진화가능한 캐릭터
+    <collapse n="0" collapsed="collapsed"></collapse>
+</h2>
+
+<div>
+    진화시킬 캐릭터 목록입니다. CTRL + 클릭 또는 마우스 가운데 클릭으로 제거할 수 있습니다.
+    CTRL + Shift + 클릭으로 캐릭터와 진화 재료를 모두 제거할 수 있습니다.
+    <div id="pool" class="panel">
+        <a class="slot small" remove-on-click="pool" target="_blank" add-href
+            decorate-slot uid="unit.to" ng-repeat="unit in pool"
+            uib-tooltip uib-tooltip-template="'tooltip.html'"></a>
+
+        <add-button ui-sref=".pick"></add-button>
+    </div>
+</div>
+
+<h2 class="page-header">
+    보유 중인 진화재료
+    <collapse n="1" collapsed="collapsed"></collapse>
+</h2>
+
+<div>
+    현재 보유한 진화재료입니다. 클릭하여 수량을 변경할 수 있습니다.
+    <span class="pull-right clickable" title="Quick Pick"
+        uib-popover uib-popover-template="'views/popover.html'" popover-trigger="click" popover-title="Quick Pick">
+        <i class="fa fa-bolt"></i>
+    </span>
+    <span class="pull-right clickable" ng-click="sortMatsByColor = !sortMatsByColor">
+        <i class="fa fa-retweet"></i>
+    </span>
+    <div id="pool" class="panel">
+        <a class="slot small" remove-on-click="mats" target="_blank" change-on-click
+            decorate-slot uid="unit.id" amount="unit.amount" ng-repeat="unit in mats"></a>
+        <add-button ui-sref=".pickMat"></add-button>
+    </div>
+</div>
+
+<h2 class="page-header">진화재료</h2>
+
+<div>
+    <table id="mat-table" class="table table-striped">
+        <tr>
+            <th>필요한 재료</th>
+            <th>수집 완료</th>
+        </tr>
+        <tr ng-repeat="type in matTypes" ng-if="required[type] || available[type]">
+            <td>
+                <a class="slot small" ng-repeat="(id,units) in required[type].missing | orderBy:'id'" target="_blank"
+                    add-href decorate-slot uid="id" amount="units.length" units="units" available="available"
+                    uib-tooltip uib-tooltip-template="'required-by.html'" tooltip-placement="top">
+                </a>
+            </td>
+            <td>
+                <a class="slot small" ng-repeat="(id,units) in required[type].completed | orderBy:'id'" target="_blank"
+                    add-href decorate-slot uid="id" amount="units.length" units="units" available="available"
+                    uib-tooltip uib-tooltip-template="'required-by.html'" tooltip-placement="top">
+                </a>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<h2 class="page-header" ng-if="unused.length > 0">미사용 재료</h2>
+
+<div ng-if="unused.length > 0">
+    <div id="unused" class="panel">
+        <a class="slot small" target="_blank" decorate-slot uid="unit.id" amount="unit.amount"
+            ng-repeat="unit in unused"></a>
+    </div>
+</div>
+
+<h2 class="page-header" ng-if="extra.length > 0">추가 재료</h2>
+
+<span ng-if="extra.length > 0">필요한 재료 중 여분으로 보유 중인 항목입니다. 여분 수량이 표시됩니다.</span>
+<div ng-if="extra.length > 0">
+    <div id="unused" class="panel">
+        <a class="slot small" target="_blank" decorate-slot uid="unit.id" amount="unit.amount"
+            ng-repeat="unit in extra"></a>
+    </div>
+</div>
+
+<h2 class="page-header">가져오기/내보내기</h2>
+
+<div id="button-container">
+    <export-button></export-button>
+    <import-button></import-button>
+</div>
+
+<div class="footer"></div>

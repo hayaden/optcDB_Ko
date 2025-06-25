@@ -1,0 +1,40 @@
+<div class="backdrop" ui-sref="^"></div>
+
+<div class="inner-container" go-back>
+
+    <div class="custom-modal">
+        <div id="picker" class="modal-dialog">
+            <div class="modal-content animated fadeInDown">
+                <div class="modal-header">데이터 수집</div>
+
+                <div class="modal-body">
+
+                    <b>요약: 특정 캐릭터의 데이터가 필요합니다</b>
+                    <br><br>
+
+                    아래에 표시된 캐릭터를 보유하고 있고,
+                    <ol>
+                        <li>해당 캐릭터가 <b>레벨 1이 아닌 경우</b></li>
+                        <li>해당 캐릭터의 <b>레벨 이 최대가 아닌 경우</b></li>
+                    </ol>
+
+                    please head over <a href="http://goo.gl/forms/oGMIPv3QTc">here</a> and complete the form (it takes like 20 seconds), any help is appreciated.
+                    <br><br>
+
+                    <div id="pickerUnits" class="modal-div">
+                        <a ng-repeat="unit in units" class="slot medium" target="_blank" ng-if="!unit.incomplete"
+                            decorate-slot uid="unit.number + 1" href="../characters/#/view/{{unit.number+1}}">
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="modal-footer">
+                    <button class="btn btn-default" ui-sref="^">닫기</button> 
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>

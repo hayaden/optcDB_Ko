@@ -1,0 +1,37 @@
+<div class="backdrop" ui-sref="^"></div>
+
+<div class="inner-container" go-back>
+
+    <div class="custom-modal">
+        <div id="saveslot" class="modal-dialog">
+            <div class="modal-content animated fadeInDown">
+                <div class="modal-header">데이터 저장</div>
+                <div class="modal-body">
+
+                    <form ng-submit="saveTeam()" name="saveForm" id="saveForm">
+                        <input type="text" id="slotName" placeholder="데이터 이름" ng-model="lastSlot" auto-focus required class="modal-filter">
+                        <div id="labelContainer">
+                            <label>
+                                <input type="checkbox" ng-model="saveShip">
+                                선박 및 선박 레벨 저장
+                            </label>
+                            <label>
+                                <input type="checkbox" ng-model="saveDefense">
+                                적 방어력 저장
+                            </label>
+                        </div>
+                        <div class="modal-div padded slim" ng-show="overwriting">
+                            <div class="alert alert-danger">저장 시 기존 데이터가 덮어쓰기 됩니다.</div>
+                        </div>
+                    </form>
+
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-default" ui-sref="^">취소</button> 
+                    <button class="btn btn-primary" form="saveForm" ng-disabled="saveForm.$invalid">저장</button> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
