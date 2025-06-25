@@ -7332,17 +7332,17 @@
 				name: "Increase Damage Taken",
 				targets: ["captain", "special", "superSpecial", "swap", "support"],
 				regex:
-					/(ignores (?:Increase Damage Taken )?Debuff Protection and )?Inflicts (?:all enemies) with Increase Damage Taken by ([?.\d]+)x(?:-([?.\d]+)x)? for ([?\d]+\+?)(?:-([?\d]+))? turns?(?:, by ([?.\d]+)x(?:-([?.\d]+)x)?(?: for ([?\d]+\+?)(?:-([?\d]+))? turns?)?)?/i,
+					/(ignores (?:Increase Damage Taken )?Debuff Protection and )?Inflicts (?:all enemies) with Increase Damage Taken by ([?.\d]+)x(?:-([?.\d]+)x)?(?:, ([^,]+),)? for ([?\d]+\+?)(?:-([?\d]+))? turns?(?:, by ([?.\d]+)x(?:-([?.\d]+)x)?(?:, ([^,]+),)?(?: for ([?\d]+\+?)(?:-([?\d]+))? turns?)?)?/i,
 				submatchers: [
 					{
 						type: "number",
 						description: "Multiplier:",
-						groups: [2, 3, 6, 7],
+						groups: [2, 3, 7, 8],
 					},
 					{
 						type: "number",
 						description: "Turns:",
-						groups: [4, 5, 8, 9],
+						groups: [5, 6, 10, 11],
 					},
 					{
 						type: "option",
@@ -7350,6 +7350,14 @@
 						regex: /i/,
 						groups: [1],
 					},
+					{
+						type: "option",
+						description: "Double Enhance",
+						regex: /can be enhanced up to 2 times/,
+						radioGroup: "targets",
+						groups: [4, 9],
+						cssClasses: ["min-width-6"],
+					},					
 				],
 			},
 
