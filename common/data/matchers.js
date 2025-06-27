@@ -82,7 +82,7 @@
 	 *      instead of .+)
 	 * * Also exclude dots so that the regex doesn't match across sentences, so use
 	 *      [^."]+
-	 * * The regexes assume that the words "ATK", "HP", and "RCV" will appear in
+	 * * The regexes assume that the words "공격력", "HP", and "RCV" will appear in
 	 *      in this order. The only forms expected are the following:
 	 *      ATK|HP|RCV|ATK and HP|ATK and RCV|HP and RCV|ATK, HP and RCV
 	 * * JS does not support atomic groups nor possessive quantifiers (.++) but it
@@ -137,7 +137,45 @@
 	 * * * for example, "boosts base atk of all characters by 1000, boosts atk of all characters by 1.5x"
 	 * * * this could be matched if the regex for the base atk uses /by ([?.\d]+)x/
 	 */
+	
+	// 해당 코드는 매핑 코드입니다.
 
+	const orbKoMap = {
+	STR: "힘",
+	DEX: "기",
+	QCK: "속",
+	PSY: "심",
+	INT: "지",
+	G: "G",
+	RCV: "고기",
+	TND: "연",
+	BOMB: "폭탄",
+	EMPTY: "공백",
+	SUPERBOMB: "슈퍼 폭탄",
+	RAINBOW: "무지개",
+	SEMLA: "셈라",
+	WANO: "和"
+};
+
+	var typeKoMap = {
+	STR: "힘",
+	DEX: "기",
+	QCK: "속",
+	PSY: "심",
+	INT: "지"
+	};
+
+	var classKoMap = {
+	Fighter: "격투",
+	Shooter: "사격",
+	Slasher: "참격",
+	Striker: "타격",
+	"Free Spirit": "자유",
+	Cerebral: "박식",
+	Powerhouse: "강인",
+	Driven: "야심"
+	};
+// 추가된건 여기까지
 	var types = ["STR", "DEX", "QCK", "PSY", "INT"];
 	var classes = [
 		"Fighter",
@@ -159,7 +197,7 @@
 		for (var [i, type] of types.entries()) {
 			result.push({
 				type: "option",
-				description: type,
+				description: typeKoMap[type], //여기도 변경함 사유 매핑작업
 				// interpret "Captain's Type", "Dominant Type", "each Type" as universal (only when filtering for types)
 				regex: new RegExp(
 					"\\[" + type + "\\]" + (includeUniversal ? "|" + universalRegex : ""),
@@ -175,13 +213,13 @@
 	function createClassesSubmatchers(
 		groups,
 		includeUniversal = true,
-		universalRegex = "all"
+		universalRegex = "모두"
 	) {
 		var result = [];
 		for (var [i, class_] of classes.entries()) {
 			result.push({
 				type: "option",
-				description: class_,
+				description: classKoMap[class_], // 여기 코드 변경함 사유: 매핑작업
 				regex: new RegExp(
 					class_ + (includeUniversal ? "|" + universalRegex : ""),
 					"i"
@@ -197,7 +235,7 @@
 		orbs,
 		groups,
 		includeUniversal = true,
-		universalRegex = "all"
+		universalRegex = "모두"
 	) {
 		var result = [];
 
@@ -207,7 +245,7 @@
 			else if (orb.length <= 5) minWidth = "3";
 			result.push({
 				type: "option",
-				description: orb,
+				description: orbKoMap[orb] || orb, //매핑작업
 				regex: new RegExp(
 					"\\[" + orb + "\\]" + (includeUniversal ? "|" + universalRegex : ""),
 					"i"
@@ -222,19 +260,29 @@
 	function createPositionsSubmatchers(
 		groups,
 		includeUniversal = true,
-		universalRegex = "all",
+		universalRegex = "모두",
 		excludedSubmatchers = [],
 		useRowsAndColumns = true
 	) {
 		const rows = ["Top", "Middle", "Bottom"];
 		const columns = ["Left", "Right"];
+		const rowKoMap = { //매핑소스추가 시작점
+			Top: "상단",
+			Middle: "중단",
+			Bottom: "하단"
+		};
+
+		const colKoMap = {
+			Left: "좌측",
+			Right: "우측"
+		}; //매핑소스추가 끝점
 		var result = [];
 		if (useRowsAndColumns) {
 			for (var [i, row] of rows.entries()) {
 				if (!excludedSubmatchers.includes(row)) {
 					result.push({
 						type: "option",
-						description: row + (i == 0 ? " Row" : ""),
+						description: rowKoMap[row], //매핑작업으로 인한 교체
 						regex: new RegExp(
 							row + (includeUniversal ? "|" + universalRegex : ""),
 							"i"
@@ -248,7 +296,7 @@
 				if (!excludedSubmatchers.includes(col)) {
 					result.push({
 						type: "option",
-						description: col + " Column",
+						description: colKoMap[col], //매핑작업으로 인한 교체
 						regex: new RegExp(
 							col + (includeUniversal ? "|" + universalRegex : ""),
 							"i"
@@ -265,7 +313,7 @@
 			// of course, there is no "left and right columns", since that's just "all characters"
 			result.push({
 				type: "option",
-				description: "Friend Captain",
+				description: "친구 선장",
 				regex: new RegExp(
 					"left column|top(?! right)|Friend Captain" +
 						(includeUniversal ? "|" + universalRegex : ""),
@@ -276,7 +324,7 @@
 			});
 			result.push({
 				type: "option",
-				description: "Captain",
+				description: "선장",
 				regex: new RegExp(
 					"right column|top(?! left)|(?:^|(?!end ).{4})Captain" +
 						(includeUniversal ? "|" + universalRegex : ""),
@@ -287,7 +335,7 @@
 			});
 			result.push({
 				type: "option",
-				description: "Middle Left",
+				description: "중단 좌측",
 				regex: new RegExp(
 					"left column|middle(?! right)" +
 						(includeUniversal ? "|" + universalRegex : ""),
@@ -298,7 +346,7 @@
 			});
 			result.push({
 				type: "option",
-				description: "Middle Right",
+				description: "중단 우측",
 				regex: new RegExp(
 					"right column|middle(?! left)" +
 						(includeUniversal ? "|" + universalRegex : ""),
@@ -309,7 +357,7 @@
 			});
 			result.push({
 				type: "option",
-				description: "Bottom Left",
+				description: "하단 좌측",
 				regex: new RegExp(
 					"left column|bottom(?! right)" +
 						(includeUniversal ? "|" + universalRegex : ""),
@@ -320,7 +368,7 @@
 			});
 			result.push({
 				type: "option",
-				description: "Bottom Right",
+				description: "하단 우측",
 				regex: new RegExp(
 					"right column|bottom(?! left)" +
 						(includeUniversal ? "|" + universalRegex : ""),
@@ -334,7 +382,7 @@
 		if (!excludedSubmatchers.includes("Adjacent")) {
 			result.push({
 				type: "option",
-				description: "Adjacent",
+				description: "인접",
 				regex: new RegExp(
 					"adjacent" + (includeUniversal ? "|" + universalRegex : ""),
 					"i"
@@ -346,7 +394,7 @@
 		if (!excludedSubmatchers.includes("Selected")) {
 			result.push({
 				type: "option",
-				description: "Selected",
+				description: "선택",
 				regex: new RegExp(
 					"selected" + (includeUniversal ? "|" + universalRegex : ""),
 					"i"
@@ -358,7 +406,7 @@
 		if (!excludedSubmatchers.includes("Self")) {
 			result.push({
 				type: "option",
-				description: "Self",
+				description: "자신",
 				regex: new RegExp(
 					"this|own|supported" + (includeUniversal ? "|" + universalRegex : ""),
 					"i"
@@ -374,7 +422,7 @@
 		var result = [];
 		result.push({
 			type: "option",
-			description: "Universal",
+			description: "모든 속성",
 			// interpret "Captain's Type", "Dominant Type", "each Type" as universal
 			regex: new RegExp(universalRegex || "all|type", "i"),
 			groups: groups,
@@ -405,25 +453,25 @@
 
 	// Structure will be changed to window.matchers[target][matcherGroup]
 	let matchers = {
-		Damage: [
+		데미지: [
 			{
-				name: "Old Damage dealer",
+				name: "old 데미지딜러",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex: /deals.+to/i,
 			},
 
 			{
-				name: "Old Instant Damage dealer",
+				name: "old 즉시 데미지 딜러",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex:
 					/deals[^"]+?to \w+ enem(?:y|ies)(?=((?: with the highest current HP)?))\1(?! at the (?:end|start))/i,
 			},
 
 			{
-				name: "Damage Dealer: Instant",
+				name: "데미지 딜러: 즉뎀",
 				targets: ["special", "superSpecial", "swap", "support"],
 				// for the ones with numbers and an "x" like "50x character's ATK", the "x" is not made optional, and instead the static values will be captured in different groups, so the submatchers can distinguish them.
-				// "Typeless" and the like should come BEFORE "Fixed"
+				// "무 속성" and the like should come BEFORE "고정 데미지"
 				// since this matches "the enemy with the highest current HP" (and possibly others in the future),
 				// that group is placed in an atomic group. Otherwise, the negative lookahead for the
 				// "at the (?:end|start)" will not work due to backtracking.
@@ -450,83 +498,83 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "# of Hits (multi-hit):", // this matches only multi-hit, so "1 hit" specials won't be matched
+						description: "# 히트 수 (다중 히트):", // this matches only multi-hit, so "1 hit" specials won't be matched
 						groups: [1],
 					},
 					{
 						type: "option",
-						description: "Random damage",
+						description: "랜덤 데미지",
 						regex: /^random/i,
 						groups: [2],
 					},
 					{
 						type: "number",
-						description: "Fixed value:",
+						description: "고정 값:",
 						groups: [8, 9],
 					},
 					{
 						type: "number",
-						description: "Percentage Cut:",
+						description: "HP 비율 감소",
 						groups: [6, 7],
 					},
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [3, 4],
 					},
 					{
 						type: "separator",
-						description: "Multiplier basis:",
+						description: "배율 적용 기준:",
 					},
 					{
 						type: "option",
-						description: "Character's ATK",
+						description: "캐릭터 공격력",
 						regex: /^character's ATK/i,
 						radioGroup: "basis",
 						groups: [5],
 					},
 					{
 						type: "option",
-						description: "Damage Dealt",
+						description: "총 데미지",
 						regex: /^the damage dealt/i,
 						radioGroup: "basis",
 						groups: [5],
 					},
 					{
 						type: "option",
-						description: "Excess Healing",
+						description: "초과 회복량",
 						regex: /^Excess Healing/i,
 						radioGroup: "basis",
 						groups: [5],
 					},
 					{
 						type: "option",
-						description: "Health Loss",
+						description: "받은 데미지만큼",
 						regex: /^the damage taken from enemies/i,
 						radioGroup: "basis",
 						groups: [5],
 					},
 					{
 						type: "option",
-						description: "Health Sacrificed",
+						description: "체력 소모량",
 						regex: /^the amount of HP subtracted/i,
 						radioGroup: "basis",
 						groups: [5],
 					},
 					{
 						type: "option",
-						description: "HP-Based",
+						description: "체력 기반",
 						regex: /^, depending on the crew's current HP/i,
 						radioGroup: "basis",
 						groups: [13],
 					},
 					{
 						type: "separator",
-						description: "Damage type:",
+						description: "데미지 유형:",
 					},
 					{
 						type: "option",
-						description: "Typed",
+						description: "속성",
 						regex: /^[^t]/i,
 						radioGroup: "1",
 						groups: [10],
@@ -534,7 +582,7 @@
 					},
 					{
 						type: "option",
-						description: "Typeless",
+						description: "무 속성",
 						regex: /^$|typeless/i,
 						radioGroup: "1",
 						groups: [10],
@@ -542,29 +590,29 @@
 					},
 					{
 						type: "option",
-						description: "Fixed",
+						description: "고정 데미지",
 						regex: /./,
 						groups: [11],
 					},
 					{
 						type: "option",
-						description: "True",
+						description: "실제",
 						regex: /./,
 						groups: [12],
 					},
 					{
 						type: "option",
-						description: "Ignores NAO",
+						description: "일반공격 외 데미지1 무시",
 						regex: /^, ignoring Normal Attack Only/,
 						groups: [13],
 					},
 					{
 						type: "separator",
-						description: "Targets:",
+						description: "대상:",
 					},
 					{
 						type: "option",
-						description: "One enemy",
+						description: "적 한명",
 						regex: /^one|^the/,
 						radioGroup: "targets",
 						groups: [14],
@@ -572,7 +620,7 @@
 					},
 					{
 						type: "option",
-						description: "All enemies",
+						description: "모든 적",
 						regex: /^all|^each/,
 						radioGroup: "targets",
 						groups: [14],
@@ -580,7 +628,7 @@
 					},
 					{
 						type: "option",
-						description: "Random enemies",
+						description: "랜덤 적",
 						regex: /^random/,
 						radioGroup: "targets",
 						groups: [14],
@@ -595,83 +643,83 @@
 			},
 
 			{
-				name: "Damage Dealer: End of Turn",
+				name: "데미지 딜러: 턴 종료시",
 				targets: ["captain"],
 				regex:
 					/Deals (?:([?\d]+) hits? of )?(random(?: large)?|([?.\d]+)x(?:-([?.\d]+)x)? (character's ATK|the amount of HP subtracted|the damage taken from enemies (?:before the special is activated|in the previous turn)|the damage dealt (?:in (?:Overkill Damage in )?the previous turn|by this character with normal attacks)|Excess Healing done before the special is activated)|([?.\d]+)%(?:-([?.\d]+)%)? of enemies' current HP|([?,\d]+)(?:-([?,\d]+))?) (?:in )?((?:typeless|\[\w+\]|character's type) )?(Fixed )?(True )?damage(, ignoring Normal Attack Only,?)? to (all enemies|random enemies|one enemy|the enemy)(?=((?: with the highest current HP)?))\15 at the end of (?:the|each|every) (?:turn|stage)/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "# of Hits (multi-hit):", // this matches only multi-hit, so "1 hit" specials won't be matched
+						description: "# 히트 수 (다중 히트):", // this matches only multi-hit, so "1 hit" specials won't be matched
 						groups: [1],
 					},
 					{
 						type: "option",
-						description: "Random damage",
+						description: "랜덤 데미지",
 						regex: /^random/i,
 						groups: [2],
 					},
 					{
 						type: "number",
-						description: "Fixed value:",
+						description: "고정 값:",
 						groups: [8, 9],
 					},
 					{
 						type: "number",
-						description: "Percentage Cut:",
+						description: "HP 비율 감소",
 						groups: [6, 7],
 					},
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [3, 4],
 					},
 					{
 						type: "separator",
-						description: "Multiplier basis:",
+						description: "배율 적용 기준:",
 					},
 					{
 						type: "option",
-						description: "Character's ATK",
+						description: "캐릭터 공격력",
 						regex: /^character's ATK/i,
 						radioGroup: "basis",
 						groups: [5],
 					},
 					{
 						type: "option",
-						description: "Damage Dealt",
+						description: "총 데미지",
 						regex: /^the damage dealt/i,
 						radioGroup: "basis",
 						groups: [5],
 					},
 					{
 						type: "option",
-						description: "Excess Healing",
+						description: "초과 회복량",
 						regex: /^Excess Healing/i,
 						radioGroup: "basis",
 						groups: [5],
 					},
 					{
 						type: "option",
-						description: "Health Loss",
+						description: "받은 데미지만큼",
 						regex: /^the damage taken from enemies/i,
 						radioGroup: "basis",
 						groups: [5],
 					},
 					{
 						type: "option",
-						description: "Health Sacrificed",
+						description: "체력 소모량",
 						regex: /^the amount of HP subtracted/i,
 						radioGroup: "basis",
 						groups: [5],
 					},
 					{
 						type: "separator",
-						description: "Damage type:",
+						description: "데미지 유형:",
 					},
 					{
 						type: "option",
-						description: "Typed",
+						description: "속성",
 						regex: /^[^t]/i,
 						radioGroup: "1",
 						groups: [10],
@@ -679,7 +727,7 @@
 					},
 					{
 						type: "option",
-						description: "Typeless",
+						description: "무 속성",
 						regex: /^$|typeless/i,
 						radioGroup: "1",
 						groups: [10],
@@ -687,29 +735,29 @@
 					},
 					{
 						type: "option",
-						description: "Fixed",
+						description: "고정 데미지",
 						regex: /./,
 						groups: [11],
 					},
 					{
 						type: "option",
-						description: "True",
+						description: "실제",
 						regex: /./,
 						groups: [12],
 					},
 					{
 						type: "option",
-						description: "Ignores NAO",
+						description: "일반공격 외 데미지1 무시",
 						regex: /./,
 						groups: [13],
 					},
 					{
 						type: "separator",
-						description: "Targets:",
+						description: "대상:",
 					},
 					{
 						type: "option",
-						description: "One enemy",
+						description: "적 한명",
 						regex: /^one|^the/,
 						radioGroup: "targets",
 						groups: [14],
@@ -717,7 +765,7 @@
 					},
 					{
 						type: "option",
-						description: "All enemies",
+						description: "모든 적",
 						regex: /^all|^each/,
 						radioGroup: "targets",
 						groups: [14],
@@ -725,7 +773,7 @@
 					},
 					{
 						type: "option",
-						description: "Random enemies",
+						description: "랜덤 적",
 						regex: /^random/,
 						radioGroup: "targets",
 						groups: [14],
@@ -743,14 +791,14 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [1, 2, 3, 4],
 					},
 				],
 			},
 
 			{
-				name: "Damage Dealer: End of Turn",
+				name: "데미지 딜러: 턴 종료시",
 				targets: ["special", "superSpecial", "swap", "support"],
 				// match "deals 0.5x the damage dealt by this character with normal attacks to all enemies at the end of each turn for 99+ turns"
 				// should not match "Deals [PSY] damage to one enemy according to HP, recovers 5x character's RCV in HP at the end of each turn for 5 turns"
@@ -759,81 +807,81 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [16, 17, 18, 19],
 					},
 					{
 						type: "number",
-						description: "# of Hits (multi-hit):", // this matches only multi-hit, so "1 hit" specials won't be matched
+						description: "# 히트 수 (다중 히트):", // this matches only multi-hit, so "1 hit" specials won't be matched
 						groups: [1],
 					},
 					{
 						type: "option",
-						description: "Random damage",
+						description: "랜덤 데미지",
 						regex: /^random/i,
 						groups: [2],
 					},
 					{
 						type: "number",
-						description: "Fixed value:",
+						description: "고정 값:",
 						groups: [8, 9],
 					},
 					{
 						type: "number",
-						description: "Percentage Cut:",
+						description: "HP 비율 감소",
 						groups: [6, 7],
 					},
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [3, 4],
 					},
 					{
 						type: "separator",
-						description: "Multiplier basis:",
+						description: "배율 적용 기준:",
 					},
 					{
 						type: "option",
-						description: "Character's ATK",
+						description: "캐릭터 공격력",
 						regex: /^character's ATK/i,
 						radioGroup: "basis",
 						groups: [5],
 					},
 					{
 						type: "option",
-						description: "Damage Dealt",
+						description: "총 데미지",
 						regex: /^the damage dealt/i,
 						radioGroup: "basis",
 						groups: [5],
 					},
 					{
 						type: "option",
-						description: "Excess Healing",
+						description: "초과 회복량",
 						regex: /^Excess Healing/i,
 						radioGroup: "basis",
 						groups: [5],
 					},
 					{
 						type: "option",
-						description: "Health Loss",
+						description: "받은 데미지만큼",
 						regex: /^the damage taken from enemies/i,
 						radioGroup: "basis",
 						groups: [5],
 					},
 					{
 						type: "option",
-						description: "Health Sacrificed",
+						description: "체력 소모량",
 						regex: /^the amount of HP subtracted/i,
 						radioGroup: "basis",
 						groups: [5],
 					},
 					{
 						type: "separator",
-						description: "Damage type:",
+						description: "데미지 유형:",
 					},
 					{
 						type: "option",
-						description: "Typed",
+						description: "속성",
 						regex: /^[^t]/i,
 						radioGroup: "1",
 						groups: [10],
@@ -841,7 +889,7 @@
 					},
 					{
 						type: "option",
-						description: "Typeless",
+						description: "무 속성",
 						regex: /^$|typeless/i,
 						radioGroup: "1",
 						groups: [10],
@@ -849,29 +897,29 @@
 					},
 					{
 						type: "option",
-						description: "Fixed",
+						description: "고정 데미지",
 						regex: /./,
 						groups: [11],
 					},
 					{
 						type: "option",
-						description: "True",
+						description: "실제",
 						regex: /./,
 						groups: [12],
 					},
 					{
 						type: "option",
-						description: "Ignores NAO",
+						description: "일반공격 외 데미지1 무시",
 						regex: /./,
 						groups: [13],
 					},
 					{
 						type: "separator",
-						description: "Targets:",
+						description: "대상:",
 					},
 					{
 						type: "option",
-						description: "One enemy",
+						description: "적 한명",
 						regex: /^one|^the/,
 						radioGroup: "targets",
 						groups: [14],
@@ -879,7 +927,7 @@
 					},
 					{
 						type: "option",
-						description: "All enemies",
+						description: "모든 적",
 						regex: /^all|^each/,
 						radioGroup: "targets",
 						groups: [14],
@@ -887,7 +935,7 @@
 					},
 					{
 						type: "option",
-						description: "Random enemies",
+						description: "랜덤 적",
 						regex: /^random/,
 						radioGroup: "targets",
 						groups: [14],
@@ -896,7 +944,7 @@
 			},
 
 			{
-				name: "Damage Dealer: Start of Stage",
+				name: "데미지 딜러: 배틀 시작시",
 				targets: ["captain", "special", "superSpecial", "swap", "support"],
 				// match "deals 0.5x the damage dealt by this character with normal attacks to all enemies at the end of each turn for 99+ turns"
 				// should not match "Deals [PSY] damage to one enemy according to HP, recovers 5x character's RCV in HP at the end of each turn for 5 turns"
@@ -905,81 +953,81 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [16, 17, 18, 19],
 					},
 					{
 						type: "number",
-						description: "# of Hits (multi-hit):", // this matches only multi-hit, so "1 hit" specials won't be matched
+						description: "# 히트 수 (다중 히트):", // this matches only multi-hit, so "1 hit" specials won't be matched
 						groups: [1],
 					},
 					{
 						type: "option",
-						description: "Random damage",
+						description: "랜덤 데미지",
 						regex: /^random/i,
 						groups: [2],
 					},
 					{
 						type: "number",
-						description: "Fixed value:",
+						description: "고정 값:",
 						groups: [8, 9],
 					},
 					{
 						type: "number",
-						description: "Percentage Cut:",
+						description: "HP 비율 감소",
 						groups: [6, 7],
 					},
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [3, 4],
 					},
 					{
 						type: "separator",
-						description: "Multiplier basis:",
+						description: "배율 적용 기준:",
 					},
 					{
 						type: "option",
-						description: "Character's ATK",
+						description: "캐릭터 공격력",
 						regex: /^character's ATK/i,
 						radioGroup: "basis",
 						groups: [5],
 					},
 					{
 						type: "option",
-						description: "Damage Dealt",
+						description: "총 데미지",
 						regex: /^the damage dealt/i,
 						radioGroup: "basis",
 						groups: [5],
 					},
 					{
 						type: "option",
-						description: "Excess Healing",
+						description: "초과 회복량",
 						regex: /^Excess Healing/i,
 						radioGroup: "basis",
 						groups: [5],
 					},
 					{
 						type: "option",
-						description: "Health Loss",
+						description: "받은 데미지만큼",
 						regex: /^the damage taken from enemies/i,
 						radioGroup: "basis",
 						groups: [5],
 					},
 					{
 						type: "option",
-						description: "Health Sacrificed",
+						description: "체력 소모량",
 						regex: /^the amount of HP subtracted/i,
 						radioGroup: "basis",
 						groups: [5],
 					},
 					{
 						type: "separator",
-						description: "Damage type:",
+						description: "데미지 유형:",
 					},
 					{
 						type: "option",
-						description: "Typed",
+						description: "속성",
 						regex: /^[^t]/i,
 						radioGroup: "1",
 						groups: [10],
@@ -987,7 +1035,7 @@
 					},
 					{
 						type: "option",
-						description: "Typeless",
+						description: "무 속성",
 						regex: /^$|typeless/i,
 						radioGroup: "1",
 						groups: [10],
@@ -995,29 +1043,29 @@
 					},
 					{
 						type: "option",
-						description: "Fixed",
+						description: "고정 데미지",
 						regex: /./,
 						groups: [11],
 					},
 					{
 						type: "option",
-						description: "True",
+						description: "실제",
 						regex: /./,
 						groups: [12],
 					},
 					{
 						type: "option",
-						description: "Ignores NAO",
+						description: "일반공격 외 데미지1 무시",
 						regex: /./,
 						groups: [13],
 					},
 					{
 						type: "separator",
-						description: "Targets:",
+						description: "대상:",
 					},
 					{
 						type: "option",
-						description: "One enemy",
+						description: "적 한명",
 						regex: /^one|^the/,
 						radioGroup: "targets",
 						groups: [14],
@@ -1025,7 +1073,7 @@
 					},
 					{
 						type: "option",
-						description: "All enemies",
+						description: "모든 적",
 						regex: /^all|^each/,
 						radioGroup: "targets",
 						groups: [14],
@@ -1033,7 +1081,7 @@
 					},
 					{
 						type: "option",
-						description: "Random enemies",
+						description: "랜덤 적",
 						regex: /^random/,
 						radioGroup: "targets",
 						groups: [14],
@@ -1042,20 +1090,20 @@
 			},
 
 			{
-				name: "Old HP-based damage dealers",
+				name: "old 체력 비례데미지 딜러",
 				targets: ["special"],
 				regex: /specialProportional/i,
 			},
 		],
-		"Boost Damage and Stats": [
+		"데미지 및 능력치 강화": [
 			{
-				name: "Old Passive ATK boosting %target%",
+				name: "old상시 공격력 상승 (%t타겟%)",
 				targets: ["captain", "sailor"],
 				regex: /Boosts (base )?(?:their )?ATK/i,
 			},
 
 			{
-				name: "Passive ATK Boost",
+				name: "상시 공격력 상승",
 				targets: ["captain"],
 				// Can be "boosts ATK of all characters by 1x-2x, by ?x-3x otherwise"
 				// Or "boosts HP of Striker characters by 2.5x, their ATK by 2x" (or RCV first)
@@ -1064,30 +1112,30 @@
 				// But NOT "boosts ATK of Striker characters by 2.5x, boosts their HP by 1.2x"
 				// "boosts" should NOT be matched within, which should be a different buff already
 				// `","` is the JSON separator for array items
-				// wrap the part before "ATK" in an atomic group to prevent backtracking
+				// wrap the part before "공격력" in an atomic group to prevent backtracking
 				// prevent it from jumping over "reduces"
 				regex:
 					/Boosts (?=((?:[^.abor"]+|a(?!tk)|\.\d|b(?!oosts)|of ([^."]+?)characters?|o|r(?!educes)|"(?!,"))*))\1ATK(?: and HP| and RCV|, HP and RCV)?(?: of ([^."]*?)characters?)? by ([?.\d]+)x(?:-([?.\d]+)x)?(?:, by ([?.\d]+)x(?:-([?.\d]+)x)?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [4, 5, 6, 7],
 					},
 					...createUniversalSubmatcher([2, 3]),
 					{
 						type: "separator",
-						description: "Affected types:",
+						description: "영향을 받는 속성:",
 					},
 					...createTypesSubmatchers([2, 3]),
 					{
 						type: "separator",
-						description: "Affected classes:",
+						description: "영향을 받는 타입:",
 					},
 					...createClassesSubmatchers([2, 3]),
 					{
 						type: "separator",
-						description: "Affected positions:",
+						description: "영향 받는 캐릭터 위치:",
 					},
 					...createPositionsSubmatchers([2, 3], true, undefined, [
 						"Adjacent",
@@ -1097,7 +1145,7 @@
 			},
 
 			{
-				name: "Passive Base ATK Boost",
+				name: "상시 기본 공격력 상승",
 				targets: ["sailor"],
 				// separate the "by 1.2x" and "by 1,000" into groups so that they can be matched by different submatchers
 				// in the regex alternations, the "multiplier" groups go first, so when it tries to find an "x",
@@ -1107,28 +1155,28 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Static Boost:",
+						description: "고정 상승 수치:",
 						groups: [4, 5, 8, 9],
 					},
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [2, 3, 6, 7],
 					},
 					...createUniversalSubmatcher([1]),
 					{
 						type: "separator",
-						description: "Affected types:",
+						description: "영향을 받는 속성:",
 					},
 					...createTypesSubmatchers([1]),
 					{
 						type: "separator",
-						description: "Affected classes:",
+						description: "영향을 받는 타입:",
 					},
 					...createClassesSubmatchers([1]),
 					{
 						type: "separator",
-						description: "Affected positions:",
+						description: "영향 받는 캐릭터 위치:",
 					},
 					...createPositionsSubmatchers([1], true, undefined, [
 						"Adjacent",
@@ -1138,32 +1186,32 @@
 			},
 
 			{
-				name: "Old Passive Base ATK boosting %target%",
+				name: "old 지속 기본 공격력 증가",
 				targets: ["support"],
 				regex: /Adds.+%.+ATK/i,
 			},
 
 			{
-				name: "Passive Base ATK Boost",
+				name: "상시 기본 공격력 상승",
 				targets: ["support"],
 				regex: /Adds ([?.\d]+)% of this character's base ATK/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Percentage:",
+						description: "비율:",
 						groups: [1],
 					},
 				],
 			},
 
 			{
-				name: "Old Passive HP boosting %target%",
+				name: "old 지속 체력 증가",
 				targets: ["captain", "sailor"],
 				regex: /Boosts (base )?(HP|ATK and HP|ATK, HP)|Boosts.+their HP/i,
 			},
 
 			{
-				name: "Passive HP Boost",
+				name: "지속 체력 증가",
 				targets: ["captain"],
 				// Can be "boosts HP of all characters by 1x-2x, by ?x-3x otherwise"
 				// Or "boosts ATK of Striker characters by 2.5x, their HP by 1.2x"
@@ -1177,23 +1225,23 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [4, 5, 6, 7],
 					},
 					...createUniversalSubmatcher([2, 3]),
 					{
 						type: "separator",
-						description: "Affected types:",
+						description: "영향을 받는 속성:",
 					},
 					...createTypesSubmatchers([2, 3]),
 					{
 						type: "separator",
-						description: "Affected classes:",
+						description: "영향을 받는 타입:",
 					},
 					...createClassesSubmatchers([2, 3]),
 					{
 						type: "separator",
-						description: "Affected positions:",
+						description: "영향 받는 캐릭터 위치:",
 					},
 					...createPositionsSubmatchers([2, 3], true, undefined, [
 						"Adjacent",
@@ -1203,7 +1251,7 @@
 			},
 
 			{
-				name: "Passive Base HP Boost",
+				name: "지속 기본 체력 상승",
 				targets: ["sailor"],
 				// separate the "by 1.2x" and "by 100" into groups so that they can be matched by different submatchers
 				// in the regex alternations, the "multiplier" groups go first, so when it finds an "x",
@@ -1213,28 +1261,28 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Static Boost:",
+						description: "고정 상승 수치:",
 						groups: [4, 5, 8, 9],
 					},
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [2, 3, 6, 7],
 					},
 					...createUniversalSubmatcher([1]),
 					{
 						type: "separator",
-						description: "Affected types:",
+						description: "영향을 받는 속성:",
 					},
 					...createTypesSubmatchers([1]),
 					{
 						type: "separator",
-						description: "Affected classes:",
+						description: "영향을 받는 타입:",
 					},
 					...createClassesSubmatchers([1]),
 					{
 						type: "separator",
-						description: "Affected positions:",
+						description: "영향 받는 캐릭터 위치:",
 					},
 					...createPositionsSubmatchers([1], true, undefined, [
 						"Adjacent",
@@ -1244,34 +1292,34 @@
 			},
 
 			{
-				name: "Old Passive Base HP boosting %target%",
+				name: "old지속 기본 체력 상승",
 				targets: ["support"],
 				regex: /Adds.+%.+HP/i,
 			},
 
 			{
-				name: "Passive Base HP Boost",
+				name: "지속 기본 체력 상승",
 				targets: ["support"],
 				regex:
 					/Adds ([?.\d]+)% of this character's base (?:HP|ATK and HP|ATK, HP)/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Percentage:",
+						description: "비율:",
 						groups: [1],
 					},
 				],
 			},
 
 			{
-				name: "Old Passive RCV boosting %target%",
+				name: "old지속 회복력 상승",
 				targets: ["captain", "sailor"],
 				regex:
 					/Boosts (base )?(RCV|ATK and RCV|HP and RCV|ATK, HP and RCV)|Boosts.+their RCV/i,
 			},
 
 			{
-				name: "Passive RCV Boost",
+				name: "지속 회복력 상승",
 				targets: ["captain"],
 				// same as ATK and HP
 				// should not match "Boosts ATK of all characters by 3x, their HP by 1.25x and recovers 0.5x this character's RCV at the end of the turn"
@@ -1280,23 +1328,23 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [4, 5, 6, 7],
 					},
 					...createUniversalSubmatcher([2, 3]),
 					{
 						type: "separator",
-						description: "Affected types:",
+						description: "영향을 받는 속성:",
 					},
 					...createTypesSubmatchers([2, 3]),
 					{
 						type: "separator",
-						description: "Affected classes:",
+						description: "영향을 받는 타입:",
 					},
 					...createClassesSubmatchers([2, 3]),
 					{
 						type: "separator",
-						description: "Affected positions:",
+						description: "영향 받는 캐릭터 위치:",
 					},
 					...createPositionsSubmatchers([2, 3], true, undefined, [
 						"Adjacent",
@@ -1306,7 +1354,7 @@
 			},
 
 			{
-				name: "Passive Base RCV Boost",
+				name: "지속 기본 회복력 상승",
 				targets: ["sailor"],
 				// separate the "by 1.2x" and "by 100" into groups so that they can be matched by different submatchers
 				// in the regex alternations, the "multiplier" groups go first, so when it finds an "x",
@@ -1316,28 +1364,28 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Static Boost:",
+						description: "고정 상승 수치:",
 						groups: [4, 5, 8, 9],
 					},
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [2, 3, 6, 7],
 					},
 					...createUniversalSubmatcher([1]),
 					{
 						type: "separator",
-						description: "Affected types:",
+						description: "영향을 받는 속성:",
 					},
 					...createTypesSubmatchers([1]),
 					{
 						type: "separator",
-						description: "Affected classes:",
+						description: "영향을 받는 타입:",
 					},
 					...createClassesSubmatchers([1]),
 					{
 						type: "separator",
-						description: "Affected positions:",
+						description: "영향 받는 캐릭터 위치:",
 					},
 					...createPositionsSubmatchers([1], true, undefined, [
 						"Adjacent",
@@ -1347,39 +1395,39 @@
 			},
 
 			{
-				name: "Old Passive Base RCV boosting %target%",
+				name: "old지속 기본 회복력 상승",
 				targets: ["support"],
 				regex: /Adds.+%.+RCV/i,
 			},
 
 			{
-				name: "Passive Base RCV Boost",
+				name: "지속 기본 회복력 상승",
 				targets: ["support"],
 				regex:
 					/Adds ([?.\d]+)% of this character's base (?:RCV|ATK and RCV|HP and RCV|ATK, HP and RCV)/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Percentage:",
+						description: "비율:",
 						groups: [1],
 					},
 				],
 			},
 
 			{
-				name: "Special Damage Boost",
+				name: "필살기 데미지 증가",
 				targets: ["captain"],
 				regex: /Boosts damage.+specials/i,
 			},
 
 			{
-				name: "Old ATK boosters",
+				name: "old 공격력 상승",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex: /boosts( own ATK| ATK)(?! against)/i,
 			},
 
 			{
-				name: "ATK Boost",
+				name: "공격력 상승",
 				targets: ["captain", "special", "superSpecial", "swap", "support"],
 				/* Uses explicit greedy alternation for "of ...characters", preventing
                 backtracking with every character matched in it (easily reaches a
@@ -1400,22 +1448,22 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [2, 3, 9, 10],
 					},
 					{
 						type: "number",
-						description: "Static Boost:",
+						description: "고정 상승 수치:",
 						groups: [4, 5, 11, 12],
 					},
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [7, 8, 14, 15],
 					},
 					{
 						type: "option",
-						description: "Allowing Override",
+						description: "기존 버프 및 능력치 변화",
 						regex: /allowing override/,
 						radioGroup: "targets",
 						groups: [6, 13],
@@ -1423,7 +1471,7 @@
 					},
 					{
 						type: "option",
-						description: "Buff Clear Immune",
+						description: "적과 아군의 해제효과 무효",
 						regex: /preventing buff clears/,
 						radioGroup: "targets",
 						groups: [6, 13],
@@ -1431,7 +1479,7 @@
 					},
 					{
 						type: "option",
-						description: "Double Enhance",
+						description: "버프 중첩",
 						regex: /can be enhanced up to 2 times/,
 						radioGroup: "targets",
 						groups: [6, 13],
@@ -1440,58 +1488,58 @@
 					...createUniversalSubmatcher([1]),
 					{
 						type: "separator",
-						description: "Affected types:",
+						description: "영향을 받는 속성:",
 					},
 					...createTypesSubmatchers([1]),
 					{
 						type: "separator",
-						description: "Affected classes:",
+						description: "영향을 받는 타입:",
 					},
 					...createClassesSubmatchers([1]),
 					{
 						type: "separator",
-						description: "Affected positions:",
+						description: "영향 받는 캐릭터 위치:",
 					},
 					...createPositionsSubmatchers([1]),
 				],
 			},
 
 			{
-				name: "RCV boosters",
+				name: "회복력 상승",
 				targets: ["special"],
 				regex: /Boosts RCV/i,
 			},
 
 			{
-				name: "Old Base ATK boosters",
+				name: "old 기본 공격력 상승",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex: /boosts[^."]*?base ATK/i,
 			},
 
 			{
-				name: "Base ATK Boost",
+				name: "기본 공격력 상승",
 				targets: ["captain", "special", "superSpecial", "swap", "support"],
 				regex:
 					/Boosts base ATK(?: and HP| and RCV|, HP and RCV)? of (?=((?:[^c."]+|c(?!har))*))\1characters? by (?:([?.\d]+)x(?:-([?.\d]+)x)?|([?.,\d]+)(?:-([?.,\d]+))?)(?:, ([^,]+),)? for ([?\d]+\+?)(?:-([?\d]+))? turns?(?:, by (?:([?.\d]+)x(?:-([?.\d]+)x)?|([?.,\d]+)(?:-([?.,\d]+))?)(?:, ([^,]+),)? for ([?\d]+\+?)(?:-([?\d]+))? turns?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [2, 3, 9, 10],
 					},
 					{
 						type: "number",
-						description: "Static Boost:",
+						description: "고정 상승 수치:",
 						groups: [4, 5, 11, 12],
 					},
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [7, 8, 14, 15],
 					},
 					{
 						type: "option",
-						description: "Allowing Override",
+						description: "기존 버프 및 능력치 변화",
 						regex: /allowing override/,
 						radioGroup: "targets",
 						groups: [6, 13],
@@ -1499,7 +1547,7 @@
 					},
 					{
 						type: "option",
-						description: "Buff Clear Immune",
+						description: "적과 아군의 해제효과 무효",
 						regex: /preventing buff clears/,
 						radioGroup: "targets",
 						groups: [6, 13],
@@ -1507,7 +1555,7 @@
 					},
 					{
 						type: "option",
-						description: "Double Enhance",
+						description: "버프 중첩",
 						regex: /can be enhanced up to 2 times/,
 						radioGroup: "targets",
 						groups: [6, 13],
@@ -1516,24 +1564,24 @@
 					...createUniversalSubmatcher([1]),
 					{
 						type: "separator",
-						description: "Affected types:",
+						description: "영향을 받는 속성:",
 					},
 					...createTypesSubmatchers([1]),
 					{
 						type: "separator",
-						description: "Affected classes:",
+						description: "영향을 받는 타입:",
 					},
 					...createClassesSubmatchers([1]),
 					{
 						type: "separator",
-						description: "Affected positions:",
+						description: "영향 받는 캐릭터 위치:",
 					},
 					...createPositionsSubmatchers([1]),
 				],
 			},
 
 			{
-				name: "Stage Base ATK boosters",
+				name: "턴 종료시 기본 공격력 상승",
 				targets: ["support"],
 				// must match both "by 1.5x" and "by 1,500". Make the two capture groups separate
 				// so one can search either by multiplier or by static boost
@@ -1542,19 +1590,19 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [2, 3, 6, 7],
 					},
 					{
 						type: "number",
-						description: "Static Boost:",
+						description: "고정 상승 수치:",
 						groups: [4, 5, 8, 9],
 					},
 				],
 			},
 
 			{
-				name: "ATK Boost: Combo",
+				name: "공격력 상승: 일정 콤보 수 달성",
 				targets: ["special", "superSpecial"],
 				regex: /Boost.+hit in the chain/i,
 			},
@@ -1602,24 +1650,24 @@
         }, */
 
 			{
-				name: "Orb Effect: Boost",
+				name: "슬롯영향 증폭",
 				targets: ["captain", "special", "superSpecial", "swap", "support"],
 				regex:
 					/boosts Orb Effects of (?=((?:[^c."]+|c(?!har))*))\1characters? by ([?.\d]+)x(?:-([?.\d]+)x)?(?:, ([^,]+),)? for ([?\d]+\+?)(?:-([?\d]+))? turns?(?:, by ([?.\d]+)x(?:-([?.\d]+)x)?(?:, ([^,]+),)?(?: for ([?\d]+\+?)(?:-([?\d]+))? turns?)?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [2, 3, 7, 8],
 					},
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [5, 6, 10, 11],
 					},
 					{
 						type: "option",
-						description: "Allowing Override",
+						description: "기존 버프 및 능력치 변화",
 						regex: /allowing override/,
 						radioGroup: "targets",
 						groups: [4, 9],
@@ -1627,7 +1675,7 @@
 					},
 					{
 						type: "option",
-						description: "Buff Clear Immune",
+						description: "적과 아군의 해제효과 무효",
 						regex: /preventing buff clears/,
 						radioGroup: "targets",
 						groups: [4, 9],
@@ -1635,7 +1683,7 @@
 					},
 					{
 						type: "option",
-						description: "Double Enhance",
+						description: "버프 중첩",
 						regex: /can be enhanced up to 2 times/,
 						radioGroup: "targets",
 						groups: [4, 9],
@@ -1644,24 +1692,24 @@
 					...createUniversalSubmatcher([1]),
 					{
 						type: "separator",
-						description: "Affected types:",
+						description: "영향을 받는 속성:",
 					},
 					...createTypesSubmatchers([1]),
 					{
 						type: "separator",
-						description: "Affected classes:",
+						description: "영향을 받는 타입:",
 					},
 					...createClassesSubmatchers([1]),
 					{
 						type: "separator",
-						description: "Affected positions:",
+						description: "영향 받는 캐릭터 위치:",
 					},
 					...createPositionsSubmatchers([1]),
 				],
 			},
 
 			{
-				name: "Orb Effect: Change Multiplier",
+				name: "슬롯 영향: 슬롯에 의한 배율변경",
 				targets: ["captain", "special", "superSpecial", "swap", "support"],
 				//increases Orb Effects of beneficial [TND] orbs to 2.25x for 1 turn
 				regex:
@@ -1669,7 +1717,7 @@
 				submatchers: [
 					{
 						type: "option",
-						description: "Beneficial Orbs Only",
+						description: "유리슬롯만",
 						regex: /./i,
 						groups: [1],
 					},
@@ -1695,19 +1743,19 @@
 					),
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [3, 4],
 					},
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [5, 6],
 					},
 				],
 			},
 
 			{
-				name: "Old Color Affinity boosters",
+				name: "old 속성 상성 강화",
 				targets: [
 					"captain",
 					"special",
@@ -1720,54 +1768,54 @@
 			},
 
 			{
-				name: "Color Affinity Boost",
+				name: "속성 상성 강화",
 				targets: ["captain"],
 				regex:
 					/Boosts (?:the )?Color Affinity of (?=((?:[^c."]+|c(?!har))*))\1characters? by ([?.\d]+)x(?:-([?.\d]+)x)?(?:, by ([?.\d]+)x(?:-([?.\d]+)x)?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [2, 3, 4, 5],
 					},
 					...createUniversalSubmatcher([1]),
 					{
 						type: "separator",
-						description: "Affected types:",
+						description: "영향을 받는 속성:",
 					},
 					...createTypesSubmatchers([1]),
 					{
 						type: "separator",
-						description: "Affected classes:",
+						description: "영향을 받는 타입:",
 					},
 					...createClassesSubmatchers([1]),
 					{
 						type: "separator",
-						description: "Affected positions:",
+						description: "영향 받는 캐릭터 위치:",
 					},
 					...createPositionsSubmatchers([1]),
 				],
 			},
 
 			{
-				name: "Color Affinity Boost",
+				name: "속성 상성 강화",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex:
 					/Boosts (?:the )?Color Affinity of (?=((?:[^c."]+|c(?!har))*))\1characters? by ([?.\d]+)x(?:-([?.\d]+)x)?(?:, ([^,]+),)? for ([?\d]+\+?)(?:-([?\d]+))? turns?(?:, by ([?.\d]+)x(?:-([?.\d]+)x)?(?:, ([^,]+),)?(?: for ([?\d]+\+?)(?:-([?\d]+))? turns?)?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [2, 3, 7, 8],
 					},
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [5, 6, 10, 11],
 					},
 					{
 						type: "option",
-						description: "Allowing Override",
+						description: "기존 버프 및 능력치 변화",
 						regex: /allowing override/,
 						radioGroup: "targets",
 						groups: [4, 9],
@@ -1775,7 +1823,7 @@
 					},
 					{
 						type: "option",
-						description: "Buff Clear Immune",
+						description: "적과 아군의 해제효과 무효",
 						regex: /preventing buff clears/,
 						radioGroup: "targets",
 						groups: [4, 9],
@@ -1783,7 +1831,7 @@
 					},
 					{
 						type: "option",
-						description: "Double Enhance",
+						description: "버프 중첩",
 						regex: /can be enhanced up to 2 times/,
 						radioGroup: "targets",
 						groups: [4, 9],
@@ -1792,24 +1840,24 @@
 					...createUniversalSubmatcher([1]),
 					{
 						type: "separator",
-						description: "Affected types:",
+						description: "영향을 받는 속성:",
 					},
 					...createTypesSubmatchers([1]),
 					{
 						type: "separator",
-						description: "Affected classes:",
+						description: "영향을 받는 타입:",
 					},
 					...createClassesSubmatchers([1]),
 					{
 						type: "separator",
-						description: "Affected positions:",
+						description: "영향 받는 캐릭터 위치:",
 					},
 					...createPositionsSubmatchers([1]),
 				],
 			},
 
 			{
-				name: "Old Additional Damage dealer",
+				name: "old 추가 데미지",
 				targets: [
 					"captain",
 					"special",
@@ -1822,86 +1870,86 @@
 			},
 
 			{
-				name: "Additional Damage",
+				name: "추가 데미지",
 				targets: ["captain", "sailor"],
 				regex:
 					/Adds ([?.\d]+)x(?:-([?.\d]+)x)? character's ATK as Additional (Typeless )?Damage/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [1, 2],
 					},
 				],
 			},
 
 			{
-				name: "Additional Damage",
+				name: "추가 데미지",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex:
 					/Adds ([?.\d]+)x(?:-([?.\d]+)x)? (?:the )?((?:supported )?character's ATK|damage taken from enemies (?:in the previous turn|before the special is activated)) as Additional (Typeless )?Damage (?:to ([^."]+?)attacks )?for ([?\d]+\+?)(?:-([?\d]+))? turns?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [1, 2],
 					},
 					{
 						type: "separator",
-						description: "Multiplier basis:",
+						description: "배율 적용 기준:",
 					},
 					{
 						type: "option",
-						description: "Character's ATK",
+						description: "캐릭터 공격력",
 						regex: /character's ATK/i,
 						radioGroup: "basis",
 						groups: [3],
 					},
 					{
 						type: "option",
-						description: "Health Loss",
+						description: "받은 데미지만큼",
 						regex: /^damage taken from enemies/i,
 						radioGroup: "basis",
 						groups: [3],
 					},
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [6, 7],
 					},
 					...createUniversalSubmatcher([5], "all|type|^$"),
 					{
 						type: "separator",
-						description: "Affected types:",
+						description: "영향을 받는 속성:",
 					},
 					...createTypesSubmatchers([5]),
 					{
 						type: "separator",
-						description: "Affected classes:",
+						description: "영향을 받는 타입:",
 					},
 					...createClassesSubmatchers([5]),
 					{
 						type: "separator",
-						description: "Affected positions:",
+						description: "영향 받는 캐릭터 위치:",
 					},
 					...createPositionsSubmatchers([5]),
 				],
 			},
 
 			{
-				name: "Status ATK Boost",
+				name: "상태 이상시공격력 상승",
 				targets: ["captain", "special", "superSpecial", "swap", "support"],
 				regex: /Boosts ATK.+against.+enemies/i,
 			},
 
 			{
-				name: "Enemy Type-Based Damage booster",
+				name: "적 타입에 따른 데미지 증가",
 				targets: ["sailor"],
 				regex: /Boosts this character's damage against/i,
 			},
 
 			{
-				name: "Old Delay Status ATK boosters",
+				name: "old 지연 상태시 공격력 증가",
 				targets: [
 					"captain",
 					"special",
@@ -1914,38 +1962,38 @@
 			},
 
 			{
-				name: "Status ATK Boost: Delay",
+				name: "상태이상시 공격력 증가: 지연상태",
 				targets: ["captain"],
 				regex:
 					/Boosts (?:ATK|([^."]*?)characters?' ATK) against[^."]+?delayed enemies[^."]+?by ([?.\d]+)x(?:-([?.\d]+)x)?(?:, by ([?.\d]+)x(?:-([?.\d]+)x)?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [2, 3, 4, 5],
 					},
 				],
 			},
 
 			{
-				name: "Status ATK Boost: Delay",
+				name: "상태이상시 공격력 증가: 지연상태",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex:
 					/Boosts ATK against[^."]+?delayed enemies[^."]+?by ([?.\d]+)x(?:-([?.\d]+)x)?(?:, ([^,]+),)? for ([?\d]+\+?)(?:-([?\d]+))? turns?(?:, by ([?.\d]+)x(?:-([?.\d]+)x)?(?:, ([^,]+),)?(?: for ([?\d]+\+?)(?:-([?\d]+))? turns?)?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [1, 2, 6, 7],
 					},
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [4, 5, 9, 10],
 					},
 					{
 						type: "option",
-						description: "Double Enhance",
+						description: "버프 중첩",
 						regex: /can be enhanced up to 2 times/,
 						radioGroup: "targets",
 						groups: [3, 8],
@@ -1955,7 +2003,7 @@
 			},
 
 			{
-				name: "Old Defense Reduction Status ATK boosters",
+				name: "old 방어력 감소상태 대상 공격력 상승",
 				targets: [
 					"captain",
 					"special",
@@ -1968,38 +2016,38 @@
 			},
 
 			{
-				name: "Status ATK Boost: Defense Reduction",
+				name: "상태이상시 공격력 증가: 방어력 상승",
 				targets: ["captain"],
 				regex:
 					/Boosts (?:ATK|([^."]*?)characters? ATK) against[^."]+?enemies with reduced defense[^."]+?by ([?.\d]+)x(?:-([?.\d]+)x)?(?:, by ([?.\d]+)x(?:-([?.\d]+)x)?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [2, 3, 4, 5],
 					},
 				],
 			},
 
 			{
-				name: "Status ATK Boost: Defense Reduction",
+				name: "상태이상시 공격력 증가: 방어력 상승",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex:
 					/Boosts ATK against[^."]+?enemies with reduced defense[^."]+?by ([?.\d]+)x(?:-([?.\d]+)x)?(?:, ([^,]+),)? for ([?\d]+\+?)(?:-([?\d]+))? turns?(?:, by ([?.\d]+)x(?:-([?.\d]+)x)?(?:, ([^,]+),)?(?: for ([?\d]+\+?)(?:-([?\d]+))? turns?)?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [1, 2, 6, 7],
 					},
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [4, 5, 9, 10],
 					},
 					{
 						type: "option",
-						description: "Double Enhance",
+						description: "버프 중첩",
 						regex: /can be enhanced up to 2 times/,
 						radioGroup: "targets",
 						groups: [3, 8],
@@ -2009,7 +2057,7 @@
 			},
 
 			{
-				name: "Old Increase Defense Status ATK boosters",
+				name: "old 방어력 상승중인 적에게 데미지 증가",
 				targets: [
 					"captain",
 					"special",
@@ -2022,7 +2070,7 @@
 			},
 
 			{
-				name: "Status ATK Boost: Increase Defense",
+				name: "상태이상시 공격력 증가: 방어력 상승",
 				//targets: [ 'captain' ],
 				targets: [],
 				regex:
@@ -2030,33 +2078,33 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [2, 3, 4, 5],
 					},
 				],
 			},
 
 			{
-				name: "Status ATK Boost: Increase Defense",
+				name: "상태이상시 공격력 증가: 방어력 상승",
 				targets: ["special"],
 				regex:
 					/Boosts ATK against[^."]+?enemies with increased defense[^."]+?by ([?.\d]+)x(?:-([?.\d]+)x)? for ([?\d]+\+?)(?:-([?\d]+))? turns?(?:, by ([?.\d]+)x(?:-([?.\d]+)x)?(?: for ([?\d]+\+?)(?:-([?\d]+))? turns?)?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [1, 2, 5, 6],
 					},
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [3, 4, 7, 8],
 					},
 				],
 			},
 
 			{
-				name: "Old Poison Status ATK boosters",
+				name: "old 독 상태시 공격력 증가",
 				targets: [
 					"captain",
 					"special",
@@ -2070,38 +2118,38 @@
 			},
 
 			{
-				name: "Status ATK Boost: Poison",
+				name: "상태이상시 공격력 증가: 독",
 				targets: ["captain"],
 				regex:
 					/Boosts (?:ATK|([^."]*?)characters? ATK) against[^."]+?(?:(?:(?:strongly )?poisoned.+enemies|enemies inflicted with (?:(?:strong )?poison|Toxic)))[^."]+?by ([?.\d]+)x(?:-([?.\d]+)x)?(?:, by ([?.\d]+)x(?:-([?.\d]+)x)?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [2, 3, 4, 5],
 					},
 				],
 			},
 
 			{
-				name: "Status ATK Boost: Poison",
+				name: "상태이상시 공격력 증가: 독",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex:
 					/Boosts ATK against[^."]+?(?:(?:(?:strongly )?poisoned.+enemies|enemies inflicted with (?:(?:strong )?poison|Toxic)))[^."]+?by ([?.\d]+)x(?:-([?.\d]+)x)?(?:, ([^,]+),)? for ([?\d]+\+?)(?:-([?\d]+))? turns?(?:, by ([?.\d]+)x(?:-([?.\d]+)x)?(?:, ([^,]+),)?(?: for ([?\d]+\+?)(?:-([?\d]+))? turns?)?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [1, 2, 6, 7],
 					},
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [4, 5, 9, 10],
 					},
 					{
 						type: "option",
-						description: "Double Enhance",
+						description: "버프 중첩",
 						regex: /can be enhanced up to 2 times/,
 						radioGroup: "targets",
 						groups: [3, 8],
@@ -2111,7 +2159,7 @@
 			},
 
 			{
-				name: "Old Burn Status ATK boosters",
+				name: "old 화상 상태시 공격력 증가",
 				targets: [
 					"captain",
 					"special",
@@ -2124,38 +2172,38 @@
 			},
 
 			{
-				name: "Status ATK Boost: Burn",
+				name: "상태이상시 공격력 증가: 화상",
 				targets: ["captain"],
 				regex:
 					/Boosts (?:ATK|([^."]*?)characters? ATK) against[^."]+?enemies inflicted with burn[^."]+?by ([?.\d]+)x(?:-([?.\d]+)x)?(?:, by ([?.\d]+)x(?:-([?.\d]+)x)?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [2, 3, 4, 5],
 					},
 				],
 			},
 
 			{
-				name: "Status ATK Boost: Burn",
+				name: "상태이상시 공격력 증가: 화상",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex:
 					/Boosts ATK against[^."]+?enemies inflicted with burn[^."]+?by ([?.\d]+)x(?:-([?.\d]+)x)?(?:, ([^,]+),)? for ([?\d]+\+?)(?:-([?\d]+))? turns?(?:, by ([?.\d]+)x(?:-([?.\d]+)x)?(?:, ([^,]+),)?(?: for ([?\d]+\+?)(?:-([?\d]+))? turns?)?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [1, 2, 6, 7],
 					},
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [4, 5, 9, 10],
 					},
 					{
 						type: "option",
-						description: "Double Enhance",
+						description: "버프 중첩",
 						regex: /can be enhanced up to 2 times/,
 						radioGroup: "targets",
 						groups: [3, 8],
@@ -2165,7 +2213,7 @@
 			},
 
 			{
-				name: "Old Negative Status ATK boosters",
+				name: "old 네거티브 상태시 공격력 증가",
 				targets: [
 					"captain",
 					"special",
@@ -2178,38 +2226,38 @@
 			},
 
 			{
-				name: "Status ATK Boost: Negative",
+				name: "상태이상시 공격력 증가: 네거티브",
 				targets: ["captain"],
 				regex:
 					/Boosts (?:ATK|([^."]*?)characters? ATK) against[^."]+?enemies inflicted with negative[^."]+?by ([?.\d]+)x(?:-([?.\d]+)x)?(?:, by ([?.\d]+)x(?:-([?.\d]+)x)?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [2, 3, 4, 5],
 					},
 				],
 			},
 
 			{
-				name: "Status ATK Boost: Negative",
+				name: "상태이상시 공격력 증가: 네거티브",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex:
 					/Boosts ATK against[^."]+?enemies inflicted with negative[^."]+?by ([?.\d]+)x(?:-([?.\d]+)x)?(?:, ([^,]+),)? for ([?\d]+\+?)(?:-([?\d]+))? turns?(?:, by ([?.\d]+)x(?:-([?.\d]+)x)?(?:, ([^,]+),)?(?: for ([?\d]+\+?)(?:-([?\d]+))? turns?)?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [1, 2, 6, 7],
 					},
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [4, 5, 9, 10],
 					},
 					{
 						type: "option",
-						description: "Double Enhance",
+						description: "버프 중첩",
 						regex: /can be enhanced up to 2 times/,
 						radioGroup: "targets",
 						groups: [3, 8],
@@ -2219,38 +2267,38 @@
 			},
 
 			{
-				name: "Status ATK Boost: Paralysis",
+				name: "상태이상시 공격력 증가: 마비",
 				targets: ["captain"],
 				regex:
 					/Boosts (?:ATK|([^."]*?)characters? ATK) against[^."]+?paralyzed enemies[^."]+?by ([?.\d]+)x(?:-([?.\d]+)x)?(?:, by ([?.\d]+)x(?:-([?.\d]+)x)?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [2, 3, 4, 5],
 					},
 				],
 			},
 
 			{
-				name: "Status ATK Boost: Paralysis",
+				name: "상태이상시 공격력 증가: 마비",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex:
 					/Boosts ATK against[^."]+?paralyzed enemies[^."]+?by ([?.\d]+)x(?:-([?.\d]+)x)?(?:, ([^,]+),)? for ([?\d]+\+?)(?:-([?\d]+))? turns?(?:, by ([?.\d]+)x(?:-([?.\d]+)x)?(?:, ([^,]+),)?(?: for ([?\d]+\+?)(?:-([?\d]+))? turns?)?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [1, 2, 6, 7],
 					},
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [4, 5, 9, 10],
 					},
 					{
 						type: "option",
-						description: "Double Enhance",
+						description: "버프 중첩",
 						regex: /can be enhanced up to 2 times/,
 						radioGroup: "targets",
 						groups: [3, 8],
@@ -2260,38 +2308,38 @@
 			},
 
 			{
-				name: "Status ATK Boost: Increase Damage Taken",
+				name: "상태이상시 공격력증가: 피해 데미지 상승",
 				targets: ["captain"],
 				regex:
 					/Boosts (?:ATK|([^."]*?)characters? ATK) against[^."]+?enemies inflicted with Increase Damage Taken[^."]+?by ([?.\d]+)x(?:-([?.\d]+)x)?(?:, by ([?.\d]+)x(?:-([?.\d]+)x)?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [2, 3, 4, 5],
 					},
 				],
 			},
 
 			{
-				name: "Status ATK Boost: Increase Damage Taken",
+				name: "상태이상시 공격력증가: 피해 데미지 상승",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex:
 					/Boosts ATK against[^."]+?enemies inflicted with Increase Damage Taken[^."]+?by ([?.\d]+)x(?:-([?.\d]+)x)?(?:, ([^,]+),)? for ([?\d]+\+?)(?:-([?\d]+))? turns?(?:, by ([?.\d]+)x(?:-([?.\d]+)x)?(?:, ([^,]+),)?(?: for ([?\d]+\+?)(?:-([?\d]+))? turns?)?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [1, 2, 6, 7],
 					},
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [4, 5, 9, 10],
 					},
 					{
 						type: "option",
-						description: "Double Enhance",
+						description: "버프 중첩",
 						regex: /can be enhanced up to 2 times/,
 						radioGroup: "targets",
 						groups: [3, 8],
@@ -2301,38 +2349,38 @@
 			},
 
 			{
-				name: "Status ATK Boost: Weaken",
+				name: "상태이상시 공격력증가:  약체상태",
 				targets: ["captain"],
 				regex:
 					/Boosts (?:ATK|([^."]*?)characters? ATK) against[^."]+?enemies inflicted with Weaken[^."]+?by ([?.\d]+)x(?:-([?.\d]+)x)?(?:, by ([?.\d]+)x(?:-([?.\d]+)x)?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [2, 3, 4, 5],
 					},
 				],
 			},
 
 			{
-				name: "Status ATK Boost: Weaken",
+				name: "상태이상시 공격력증가:  약체상태",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex:
 					/Boosts ATK against[^."]+?enemies inflicted with Weaken[^."]+?by ([?.\d]+)x(?:-([?.\d]+)x)?(?:, ([^,]+),)? for ([?\d]+\+?)(?:-([?\d]+))? turns?(?:, by ([?.\d]+)x(?:-([?.\d]+)x)?(?:, ([^,]+),)?(?: for ([?\d]+\+?)(?:-([?\d]+))? turns?)?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [1, 2, 6, 7],
 					},
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [4, 5, 9, 10],
 					},
 					{
 						type: "option",
-						description: "Double Enhance",
+						description: "버프 중첩",
 						regex: /can be enhanced up to 2 times/,
 						radioGroup: "targets",
 						groups: [3, 8],
@@ -2342,24 +2390,24 @@
 			},
 
 			{
-				name: "Status ATK Boost: Marked",
+				name: "상태이상시 공격력증가:  강적",
 				targets: ["special", "superSpecial"],
 				regex:
 				/Boosts ATK against[^."]+?Marked enemies[^."]+?by ([?.\d]+)x(?:-([?.\d]+)x)?(?:, ([^,]+),)? for ([?\d]+\+?)(?:-([?\d]+))? turns?(?:, by ([?.\d]+)x(?:-([?.\d]+)x)?(?:, ([^,]+),)?(?: for ([?\d]+\+?)(?:-([?\d]+))? turns?)?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [1, 2, 6, 7],
 					},
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [4, 5, 9, 10],
 					},
 					{
 						type: "option",
-						description: "Double Enhance",
+						description: "버프 중첩",
 						regex: /can be enhanced up to 2 times/,
 						radioGroup: "targets",
 						groups: [3, 8],
@@ -2369,20 +2417,20 @@
 			},
 
 			{
-				name: "Old Specific Enemy ATK boosters",
+				name: "old 특정 적한테 주는 데미지 증가",
 				targets: ["support"],
 				regex: /Boosts the supported character's ATK.+against/i,
 			},
 
 			{
-				name: "Specific Enemy ATK Boost",
+				name: "특정 적한테 주는 데미지 증가",
 				targets: ["support"],
 				regex:
 					/Boosts the supported character's ATK by ([?.\d]+)x against ([^."]+)/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [1],
 					},
 					{
@@ -2394,7 +2442,7 @@
 			},
 
 			{
-				name: "Old Multiplicative Chain Boosters",
+				name: "old 체인 배율 증가",
 				targets: [
 					"captain",
 					"special",
@@ -2407,28 +2455,28 @@
 			},
 
 			{
-				name: "Chain Boost: Multiplicative",
+				name: "체인 효과: 배율",
 				targets: ["captain"],
 				regex:
 					/Boosts Chain Multiplier Growth Rate by ([?.\d]+)x(?:-([?.\d]+)x)?(?:, by ([?.\d]+)x(?:-([?.\d]+)x)?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [1, 2, 3, 4],
 					},
 				],
 			},
 
 			{
-				name: "Chain Boost: Multiplicative",
+				name: "체인 효과: 배율",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex:
 					/Boosts Chain Multiplier Growth Rate by ([?.\d]+)x(?:-([?.\d]+)x)?(?:, ([^,]+),)? for ([?\d]+\+?)(?:-([?\d]+))? turns?(?:, by ([?.\d]+)x(?:-([?.\d]+)x)?(?:, ([^,]+),)?(?: for ([?\d]+\+?)(?:-([?\d]+))? turns?)?)?/i,
 				submatchers: [
 					{
 						type: "option",
-						description: "Allowing Override",
+						description: "기존 버프 및 능력치 변화",
 						regex: /allowing override/,
 						radioGroup: "targets",
 						groups: [3, 7],
@@ -2436,7 +2484,7 @@
 					},
 					{
 						type: "option",
-						description: "Buff Clear Immune",
+						description: "적과 아군의 해제효과 무효",
 						regex: /preventing buff clears/,
 						radioGroup: "targets",
 						groups: [3, 7],
@@ -2444,7 +2492,7 @@
 					},
 					{
 						type: "option",
-						description: "Double Enhance",
+						description: "버프 중첩",
 						regex: /can be enhanced up to 2 times/,
 						radioGroup: "targets",
 						groups: [3, 7],
@@ -2452,19 +2500,19 @@
 					},
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [1, 2, 5, 6],
 					},
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [4, 5, 8, 9],
 					},
 				],
 			},
 
 			{
-				name: "Old Additive Chain Boosters",
+				name: "old 체인계수 증가/가산",
 				targets: [
 					"captain",
 					"special",
@@ -2477,27 +2525,27 @@
 			},
 
 			{
-				name: "Chain Boost: Additive",
+				name: "체인 효과: 증가",
 				targets: ["captain"],
 				regex: /adds ([?.\d]+)x(?:-([?.\d]+)x)? to (?:the )?Chain multiplier/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [1, 2],
 					},
 				],
 			},
 
 			{
-				name: "Chain Boost: Additive",
+				name: "체인 효과: 증가",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex:
 					/adds ([?.\d]+)x(?:-([?.\d]+)x)?(?:, ([^,]+),)? to (?:the )?Chain multiplier for ([?\d]+\+?)(?:-([?\d]+))? turns?/i,
 				submatchers: [
 					{
 						type: "option",
-						description: "Allowing Override",
+						description: "기존 버프 및 능력치 변화",
 						regex: /allowing override/,
 						radioGroup: "targets",
 						groups: [3],
@@ -2505,7 +2553,7 @@
 					},
 					{
 						type: "option",
-						description: "Buff Clear Immune",
+						description: "적과 아군의 해제효과 무효",
 						regex: /preventing buff clears/,
 						radioGroup: "targets",
 						groups: [3],
@@ -2513,7 +2561,7 @@
 					},
 					{
 						type: "option",
-						description: "Double Enhance",
+						description: "버프 중첩",
 						regex: /can be enhanced up to 2 times/,
 						radioGroup: "targets",
 						groups: [3],
@@ -2521,26 +2569,26 @@
 					},
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [1, 2],
 					},
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [4, 5],
 					},
 				],
 			},
 
 			{
-				name: "Chain Boost: Tap Timing",
+				name: "체인 효과: 탭 타이밍",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex:
 					/increases Chain Tap Timing Bonus of ([^."]+?)characters? to \+([?.\d]+)x(?:-([?.\d]+)x)?(?:, ([^,]+),)? for (\d) turns? depending on Tap Timing/i,
 				submatchers: [
 					{
 						type: "option",
-						description: "Allowing Override",
+						description: "기존 버프 및 능력치 변화",
 						regex: /allowing override/,
 						radioGroup: "targets",
 						groups: [4],
@@ -2548,7 +2596,7 @@
 					},
 					{
 						type: "option",
-						description: "Buff Clear Immune",
+						description: "적과 아군의 해제효과 무효",
 						regex: /preventing buff clears/,
 						radioGroup: "targets",
 						groups: [4],
@@ -2556,7 +2604,7 @@
 					},
 					{
 						type: "option",
-						description: "Double Enhance",
+						description: "버프 중첩",
 						regex: /can be enhanced up to 2 times/i,
 						radioGroup: "targets",
 						groups: [4],
@@ -2564,24 +2612,24 @@
 					},
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [2, 3],
 					},
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [5],
 					},
 					{
 						type: "separator",
-						description: "Affected classes:",
+						description: "영향을 받는 타입:",
 					},
 					...createClassesSubmatchers([1]),
 				],
 			},
 
 			{
-				name: "Old Chain Lockers",
+				name: "old 체인 고정",
 				targets: [
 					"captain",
 					"special",
@@ -2594,28 +2642,28 @@
 			},
 
 			{
-				name: "Chain Limit: Lock",
+				name: "체인 계수: 고정",
 				targets: ["captain"],
 				regex:
 					/Locks the chain multiplier at ([?.\d]+)x(?:-([?.\d]+)x)?(?:, at ([?.\d]+)x(?:-([?.\d]+)x)?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [1, 2, 3, 4],
 					},
 				],
 			},
 
 			{
-				name: "Chain Limit: Lock",
+				name: "체인 계수: 고정",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex:
 					/Locks the chain multiplier at ([?.\d]+)x(?:-([?.\d]+)x)?(?:, ([^,]+),)? for ([?\d]+\+?)(?:-([?\d]+))? turns?(?:, at ([?.\d]+)x(?:-([?.\d]+)x)?(?:, ([^,]+),)?(?: for ([?\d]+\+?)(?:-([?\d]+))? turns?)?)?/i,
 				submatchers: [
 					{
 						type: "option",
-						description: "Allowing Override",
+						description: "기존 버프 및 능력치 변화",
 						regex: /allowing override/,
 						radioGroup: "targets",
 						groups: [3, 7],
@@ -2623,7 +2671,7 @@
 					},
 					{
 						type: "option",
-						description: "Double Enhance",
+						description: "버프 중첩",
 						regex: /can be enhanced up to 2 times/,
 						radioGroup: "targets",
 						groups: [3, 7],
@@ -2631,19 +2679,19 @@
 					},
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [1, 2, 5, 6],
 					},
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [4, 5, 8, 9],
 					},
 				],
 			},
 
 			{
-				name: "Old Boundary Chain Limiters",
+				name: "old 체인계수 초기/상한수치 고정",
 				targets: [
 					"captain",
 					"special",
@@ -2656,7 +2704,7 @@
 			},
 
 			{
-				name: "Chain Limit: Boundary",
+				name: "체인계수: 초기/상한수치 고정",
 				targets: ["captain"],
 				regex: /Sets chain boundaries to ([?.\d]+)x and ([?.\d]+)x/i,
 				submatchers: [
@@ -2674,14 +2722,14 @@
 			},
 
 			{
-				name: "Chain Limit: Boundary",
+				name: "체인계수: 초기/상한수치 고정",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex:
 					/Sets chain boundaries to ([?.\d]+)x(?:-([?.\d]+)x)? and ([?.\d]+)x(?:-([?.\d]+)x)?(?:, ([^,]+),)? for ([?\d]+\+?)(?:-([?\d]+))? turns?/i,
 				submatchers: [
 					{
 						type: "option",
-						description: "Allowing Override",
+						description: "기존 버프 및 능력치 변화",
 						regex: /allowing override/,
 						radioGroup: "targets",
 						groups: [5],
@@ -2689,7 +2737,7 @@
 					},
 					{
 						type: "option",
-						description: "Double Enhance",
+						description: "버프 중첩",
 						regex: /can be enhanced up to 2 times/,
 						radioGroup: "targets",
 						groups: [5],
@@ -2707,27 +2755,27 @@
 					},
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [6, 7],
 					},
 				],
 			},
 
 			{
-				name: "Delayed Effect: ATK Boost",
+				name: "다음 턴 효과: 공격력 상승",
 				targets: ["special", "superSpecial"],
 				regex:
 					/(Following the activation.+boosts.+ATK|If during that turn.+boosts.+ATK)/i,
 			},
 
 			{
-				name: "Old Critical Hit",
+				name: "old히트 데미지에 n%추가 가산",
 				targets: ["potential"],
 				regex: /Critical Hit/i,
 			},
 
 			{
-				name: "Critical Hit",
+				name: "히트 데미지에 n%추가 가산",
 				targets: ["potential"],
 				regex:
 					/If you hit a PERFECT with this character, there is an? ([?\d]+)% chance to deal ([?\d]+)% of this character's attack in extra damage/i,
@@ -2747,13 +2795,13 @@
 
 			{
 				// Split from "Enrage/Reduce Increase Damage Taken" PA
-				name: "Enrage",
+				name: "격노",
 				targets: ["potential"],
 				regex: /Boosts base ATK by ([?\d]+) the turn after taking damage/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Static boost:",
+						description: "고정 상승 수치:",
 						groups: [1],
 					},
 				],
@@ -2761,7 +2809,7 @@
 
 			{
 				// Split from "Nutrition/Reduce Hunger Stacks" PA
-				name: "Nutrition",
+				name: "일정 회복량 이상시 능력상승",
 				targets: ["potential"],
 				// it is a variable atk boost, going 0-x when it has "up to"
 				regex:
@@ -2769,309 +2817,309 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "ATK Boost:",
+						description: "공격력 상승",
 						groups: [2],
 					},
 					{
 						type: "option",
-						description: "Variable ATK boost",
+						description: "일정 조건달성시 공격력상승",
 						regex: /^up/,
 						groups: [1, 3],
 						cssClasses: ["min-width-12"],
 					},
 					{
 						type: "number",
-						description: "HP Requirement:",
+						description: "필요한 회복량",
 						groups: [4],
 					},
 				],
 			},
 
 			{
-				name: "Set Target",
+				name: "적 전체 타겟인정",
 				targets: ["special", "superSpecial"],
 				regex:
 					/Inflicts all (?:the )?enemies with Set Target, increasing damage taken from (?=((?:[^c."]+|c(?!har))*))\1characters? by ([?.\d]+)x(?:-([?.\d]+)x)? and reducing special cooldown of (?=((?:[^c."]+|c(?!har))*))\4characters?(?: by ([?\d]+\+?)(?:-([?\d]+))? turns?)(?:\D+,) for ([?\d]+\+?)(?:-([?\d]+))? turns?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Set Target Turns:",
+						description: "효과 지속 턴",
 						groups: [7, 8],
 					},
 					{
 						type: "separator",
-						description: "---Increased Damage Stuff---",
+						description: "---데미지 증가 관련 효과---",
 					},
 					{
 						type: "number",
-						description: "Increased Damage Multiplier:",
+						description: "데미지 증가 배율",
 						groups: [2, 3],
 					},
 					{
 						type: "separator",
-						description: "Increased Damage Types:",
+						description: "데미지 증가 속성:",
 					},
 					...createTypesSubmatchers([1]),
 					{
 						type: "separator",
-						description: "Increased Damage Classes:",
+						description: "데미지 증가 타입:",
 					},
 					...createClassesSubmatchers([1]),
 					{
 						type: "separator",
-						description: "---CD Reduce Stuff---",
+						description: "---필살기 턴 단축 관련---",
 					},
 					{
 						type: "number",
-						description: "CD Reduce Turns:",
+						description: "필살기 턴 단축:",
 						groups: [5, 6],
 					},
 					{
 						type: "separator",
-						description: "CD Reduced Types:",
+						description: "필살기 턴 단축 속성",
 					},
 					...createTypesSubmatchers([4]),
 					{
 						type: "separator",
-						description: "CD Reduced Classes:",
+						description: "필살기 턴 단축 타입",
 					},
 					...createClassesSubmatchers([4]),
 				],
 			},
 
 			{
-				name: "Territory",
+				name: "구역",
 				targets: ["captain", "special", "superSpecial", "swap", "support"],
 				regex:
 					/Applies Territory: (?=((?:[^ct."]+|c(?!lass)|t(?!ype))*))\1(?:class|type) to the field, boosts ATK by ([?.\d]+)x(?:-([?.\d]+)x)?(?:, (\D+?),)? and reduces damage received by ([?.\d]+)%(?:-([?.\d]+)%)? (?:based|depending) on number of characters matching the territory, for ([?\d]+\+?)(?:-([?\d]+))? turns?(?:, for ([?\d]+\+?)(?:-([?\d]+))? turns?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [2, 3],
 					},
 					{
 						type: "number",
-						description: "Percentage:",
+						description: "비율:",
 						groups: [5, 6],
 					},
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [7, 8, 9, 10],
 					},
 					{
 						type: "separator",
-						description: "Affected Classes:",
+						description: "영향을 받는 타입:",
 					},
 					...createClassesSubmatchers([1]),
 				],
 			},
 
 			{
-				name: "Critical Hit Rate",
+				name: "크리티컬 확률",
 				targets: ["captain", "special", "superSpecial", "swap"],
 				regex:
 					/Boosts Critical Hit Rate of (?=((?:[^c."]+|c(?!har))*))\1characters? by(?: up to)? ([?.\d]+)%(?:-([?.\d]+)%)? for ([?\d]+\+?)(?:-([?\d]+))? turns?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Increased Critical Rate Turns:",
+						description: "효과 지속 턴",
 						groups: [4, 5],
 					},
 					{
 						type: "number",
-						description: "Increased Critical Rate Percentage:",
+						description: "치명타 확률 증가율:",
 						groups: [2, 3],
 					},
 					{
 						type: "separator",
-						description: "Increased Critical Rate Types:",
+						description: "치명타 확률 적용 속성:",
 					},
 					...createTypesSubmatchers([1]),
 					{
 						type: "separator",
-						description: "Increased Critical Rate Classes:",
+						description: "치명타 확률 적용 타입:",
 					},
 					...createClassesSubmatchers([1]),
 				],
 			},
 
 			{
-				name: "Critical Hit Damage",
+				name: "크리티컬 데미지",
 				targets: ["captain", "special", "superSpecial", "swap"],
 				regex:
 					/Boosts Critical Hit Damage of (?=((?:[^c."]+|c(?!har))*))\1characters? by(?: up to)? ([?.\d]+)%(?:-([?.\d]+)%)? for ([?\d]+\+?)(?:-([?\d]+))? turns?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Increased Critical Damage Turns:",
+						description: "효과 지속 턴:",
 						groups: [4, 5],
 					},
 					{
 						type: "number",
-						description: "Increased Critical Damage Percentage:",
+						description: "크리티컬 데미지 상승 확률:",
 						groups: [2, 3],
 					},
 					{
 						type: "separator",
-						description: "Increased Critical Damage Types:",
+						description: "크리티컬 데미지 상승 속성:",
 					},
 					...createTypesSubmatchers([1]),
 					{
 						type: "separator",
-						description: "Increased Critical Damage Classes:",
+						description: "크리티컬 데미지 상승 타입:",
 					},
 					...createClassesSubmatchers([1]),
 				],
 			},
 
 			{
-				name: "Advantageous Class Effect",
+				name: "약점 타입에게 주는 영향",
 				targets: ["special", "superSpecial", "support"],
 				regex:
 					/Boosts Advantageous Class Effect of (?=((?:[^c."]+|c(?!har))*))\1characters? by(?: up to)? ([?.\d]+)x(?:-([?.\d]+)x)? for ([?\d]+\+?)(?:-([?\d]+))? turns?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Advantageous Class Effect Boost Turns:",
+						description: "약점 타입에게 주는 영향 증가 턴:",
 						groups: [4, 5],
 					},
 					{
 						type: "number",
-						description: "Advantageous Class Effect Boost Amount:",
+						description: "약점 타입에게 주는 영향 증가 배수:",
 						groups: [2, 3],
 					},
 					{
 						type: "separator",
-						description: "Advantageous Class Effect Boosted Classes:",
+						description: "약점 타입에게 주는 영향 증가 적용 타입:",
 					},
 					...createClassesSubmatchers([1]),
 				],
 			},
 
 			{
-				name: "Final Tap ATK",
+				name: "마지막 탭",
 				targets: ["captain", "special", "superSpecial", "swap", "support"],
 				regex:
 					/boosts Final Tap ATK of (?=((?:[^c."]+|c(?!har))*))\1characters? by ([?.\d]+)%(?:-([?.\d]+)%)?(?:, by ([?.\d]+)%(?:-([?.\d]+)%)?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Percentage:",
+						description: "비율:",
 						groups: [2, 3, 4, 5],
 					},
 					...createUniversalSubmatcher([1]),
 					{
 						type: "separator",
-						description: "Affected types:",
+						description: "영향을 받는 속성:",
 					},
 					...createTypesSubmatchers([1]),
 					{
 						type: "separator",
-						description: "Affected classes:",
+						description: "영향을 받는 타입:",
 					},
 					...createClassesSubmatchers([1]),
 				],
 			},
 
 			{
-				name: "Crew Damage Reduction to ATK",
+				name: "데미지 감소상태 비율에 따른 공격력 상승",
 				targets: ["captain", "special", "superSpecial"],
 				regex:
 					/boosts Crew Damage Reduction to ATK of (?=((?:[^c."]+|c(?!har))*))\1characters? by ([?.\d]+)x-([?.\d]+)x, proportional to the strength of crew's Percent Damage Reduction buff, for ([?\d]+\+?)(?:-([?\d]+))? turns?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [2, 3],
 					},
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [4, 5],
 					},
 					...createUniversalSubmatcher([1]),
 					// {
 					// 	type: "separator",
-					// 	description: "Affected types:",
+					// 	description: "영향을 받는 속성:",
 					// },
 					// ...createTypesSubmatchers([1]),
 					// {
 					// 	type: "separator",
-					// 	description: "Affected classes:",
+					// 	description: "영향을 받는 타입:",
 					// },
 					// ...createClassesSubmatchers([1]),
 				],
 			},
 			{
-				name: "Enemy Damage Reduction to ATK",
+				name: "적의 데미지 감소상태 비율에 따른 공격력 상승",
 				targets: ["special"],
 				regex:
 					/boosts Enemy Damage Reduction to ATK of (?=((?:[^c."]+|c(?!har))*))\1characters? by ([?.\d]+)x-([?.\d]+)x, proportional to the strength of enemies' Percent Damage Reduction buff, for ([?\d]+\+?)(?:-([?\d]+))? turns?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [2, 3],
 					},
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [4, 5],
 					},
 					...createUniversalSubmatcher([1]),
 					{
 						type: "separator",
-						description: "Affected types:",
+						description: "영향을 받는 속성:",
 					},
 					...createTypesSubmatchers([1]),
 					{
 						type: "separator",
-						description: "Affected classes:",
+						description: "영향을 받는 타입:",
 					},
 					...createClassesSubmatchers([1]),
 				],
 			},
 
 			{
-				name: "Super Effect Boost",
+				name: "초월 속성",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex:
 					/Boosts Super (?:Type|Class) Effects of (?=((?:[^c."]+|c(?!har))*))\1characters to ([?.\d]+)x(?:-([?.\d]+)x)? for ([?\d]+\+?)(?:-([?\d]+))? turns?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [2, 3],
 					},
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [4, 5],
 					},
 					{
 						type: "separator",
-						description: "Affected Types:",
+						description: "영향을 받는 속성:",
 					},
 					...createTypesSubmatchers([1]),
 					{
 						type: "separator",
-						description: "Affected Classes:",
+						description: "영향을 받는 타입:",
 					},
 					...createClassesSubmatchers([1]),
 				],
 			},
 		],
-		"Modify Buff": [
+		"버프 변경": [
 			{
-				name: "Old Buff Duration Extender",
+				name: "old버프 지속시간 연장",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex: /increases duration of any/i,
 			},
 
 			{
-				name: "Buff Duration Extender",
+				name: "버프 지속시간 연장",
 				targets: [
 					"captain",
 					"special",
@@ -3085,107 +3133,107 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [2, 3],
 					},
 					// following should also match "...boosting"
 					{
 						type: "separator",
-						description: "Damage Boosting Buffs",
+						description: "데미지 강화 버프",
 					},
 					{
 						type: "option",
-						description: "ATK",
+						description: "공격력",
 						// could've used negative lookbehind, but some platforms don't support it
 						// either ATK boosting buffs or ATK UP or ATK boost
-						regex: /(?:^|(?!base|atus).{4} )ATK (?:boost|UP)/i, // do not match "base ATK boost" and "Status ATK boost"
+						regex: /(?:^|(?!base|atus).{4} )ATK (?:boost|UP)/i, // do not match "기본 공격력 상승" and "상태 이상시공격력 상승"
 						groups: [1],
 						cssClasses: ["min-width-3"],
 					},
 					{
 						type: "option",
-						description: "Orb",
+						description: "슬롯",
 						regex: /Orb (?:Amplification|boost|effect)/i,
 						groups: [1],
 						cssClasses: ["min-width-3"],
 					},
 					{
 						type: "option",
-						description: "Color Affinity",
+						description: "속성상성",
 						regex: /Color Affinity/i,
 						groups: [1],
 						cssClasses: ["min-width-6"],
 					},
 					{
 						type: "option",
-						description: "Base ATK",
+						description: "기본 공격력",
 						regex: /Base ATK boost/i,
 						groups: [1],
 						cssClasses: ["min-width-6"],
 					},
 					{
 						type: "option",
-						description: "Status ATK",
+						description: "일정조건시 공격력상승",
 						regex: /Status ATK boost/i,
 						groups: [1],
 						cssClasses: ["min-width-6"],
 					},
 					{
 						type: "option",
-						description: "Chain Lock",
+						description: "체인 고정",
 						regex: /Chain Lock/i, // should also match "Chain Lock/Limit/Boundary"
 						groups: [1],
 						cssClasses: ["min-width-6"],
 					},
 					{
 						type: "option",
-						description: "Chain Addition",
+						description: "체인 상승/가산",
 						regex: /Chain Addition/i,
 						groups: [1],
 						cssClasses: ["min-width-6"],
 					},
 					{
 						type: "option",
-						description: "Chain Multiplication",
+						description: "체인 배수",
 						regex: /(?:Chain Multiplication|Chain Multiplier Growth Rate)/i,
 						groups: [1],
 						cssClasses: ["min-width-12"],
 					},
 					{
 						type: "option",
-						description: "Chain Tap Timing",
+						description: "체인 탭타이밍",
 						regex: /Chain Tap Timing/i,
 						groups: [1],
 						cssClasses: ["min-width-12"],
 					},
 					{
 						type: "separator",
-						description: "Others",
+						description: "기타",
 					},
 					{
 						type: "option",
-						description: "Percent Damage Reduction",
+						description: "데미지 감소상태",
 						regex: /Percent Damage Reduction/i,
 						groups: [1],
 						cssClasses: ["min-width-12"],
 					},
 					{
 						type: "option",
-						description: "Threshold Damage Reduction",
+						description: "일정 이상데미지 감소상태",
 						regex: /Threshold Damage Reduction/i,
 						groups: [1],
 						cssClasses: ["min-width-12"],
 					},
 					{
 						type: "option",
-						description: "EOT Damage",
+						description: "턴 종료시 데미지",
 						regex: /End of Turn Damage/i,
 						groups: [1],
 						cssClasses: ["min-width-6"],
 					},
 					{
 						type: "option",
-						description: "EOT Healing",
+						description: "턴 종료시 회복",
 						regex: /End of Turn Healing/i,
 						groups: [1],
 						cssClasses: ["min-width-6"],
@@ -3194,7 +3242,7 @@
 			},
 
 			{
-				name: "Buff Duration Reducer",
+				name: "버프 지속시간 감소",
 				targets: [
 					"captain",
 					"special",
@@ -3208,107 +3256,107 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [2, 3],
 					},
 					// following should also match "...boosting"
 					{
 						type: "separator",
-						description: "Damage Boosting Buffs",
+						description: "데미지 강화 버프",
 					},
 					{
 						type: "option",
-						description: "ATK",
+						description: "공격력",
 						// could've used negative lookbehind, but some platforms don't support it
 						// either ATK boosting buffs or ATK UP or ATK boost
-						regex: /(?:^|(?!base|atus).{4} )ATK (?:boost|UP)/i, // do not match "base ATK boost" and "Status ATK boost"
+						regex: /(?:^|(?!base|atus).{4} )ATK (?:boost|UP)/i, // do not match "기본 공격력 상승" and "상태 이상시공격력 상승"
 						groups: [1],
 						cssClasses: ["min-width-3"],
 					},
 					{
 						type: "option",
-						description: "Orb",
+						description: "슬롯",
 						regex: /Orb (?:Amplification|boost|effect)/i,
 						groups: [1],
 						cssClasses: ["min-width-3"],
 					},
 					{
 						type: "option",
-						description: "Color Affinity",
+						description: "속성상성",
 						regex: /Color Affinity/i,
 						groups: [1],
 						cssClasses: ["min-width-6"],
 					},
 					{
 						type: "option",
-						description: "Base ATK",
+						description: "기본 공격력",
 						regex: /Base ATK boost/i,
 						groups: [1],
 						cssClasses: ["min-width-6"],
 					},
 					{
 						type: "option",
-						description: "Status ATK",
+						description: "일정조건시 공격력상승",
 						regex: /Status ATK boost/i,
 						groups: [1],
 						cssClasses: ["min-width-6"],
 					},
 					{
 						type: "option",
-						description: "Chain Lock",
+						description: "체인 고정",
 						regex: /Chain Lock/i, // should also match "Chain Lock/Limit/Boundary"
 						groups: [1],
 						cssClasses: ["min-width-6"],
 					},
 					{
 						type: "option",
-						description: "Chain Addition",
+						description: "체인 상승/가산",
 						regex: /Chain Addition/i,
 						groups: [1],
 						cssClasses: ["min-width-6"],
 					},
 					{
 						type: "option",
-						description: "Chain Multiplication",
+						description: "체인 배수",
 						regex: /(?:Chain Multiplication|Chain Multiplier Growth Rate)/i,
 						groups: [1],
 						cssClasses: ["min-width-12"],
 					},
 					{
 						type: "option",
-						description: "Chain Tap Timing",
+						description: "체인 탭타이밍",
 						regex: /Chain Tap Timing/i,
 						groups: [1],
 						cssClasses: ["min-width-12"],
 					},
 					{
 						type: "separator",
-						description: "Others",
+						description: "기타",
 					},
 					{
 						type: "option",
-						description: "Percent Damage Reduction",
+						description: "데미지 감소상태",
 						regex: /Percent Damage Reduction/i,
 						groups: [1],
 						cssClasses: ["min-width-12"],
 					},
 					{
 						type: "option",
-						description: "Threshold Damage Reduction",
+						description: "일정 이상데미지 감소상태",
 						regex: /Threshold Damage Reduction/i,
 						groups: [1],
 						cssClasses: ["min-width-12"],
 					},
 					{
 						type: "option",
-						description: "EOT Damage",
+						description: "턴 종료시 데미지",
 						regex: /End of Turn Damage/i,
 						groups: [1],
 						cssClasses: ["min-width-6"],
 					},
 					{
 						type: "option",
-						description: "EOT Healing",
+						description: "턴 종료시 회복",
 						regex: /End of Turn Healing/i,
 						groups: [1],
 						cssClasses: ["min-width-6"],
@@ -3318,7 +3366,7 @@
 
 			{
 				// Just a copy from Buff Duration Extenders, except only damage-boosting buffs
-				name: "Buff/Debuff Enhancers",
+				name: "버프/디버프 강화",
 				targets: [
 					"captain",
 					"special",
@@ -3333,91 +3381,91 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [2, 3],
 					},
 					{
 						type: "number",
-						description: "Set to:",
+						description: "설정 값:",
 						groups: [4, 5],
 					},
 					// following should also match "...boosting"
 					{
 						type: "separator",
-						description: "Damage Boosting Buffs",
+						description: "데미지 강화 버프",
 					},
 					{
 						type: "option",
-						description: "ATK",
+						description: "공격력",
 						// could've used negative lookbehind, but some platforms don't support it
 						// either ATK boosting buffs or ATK UP or ATK boost
-						regex: /(?:^|(?!base|atus).{4} )ATK (?:boost|UP)/i, // do not match "base ATK boost" and "Status ATK boost"
+						regex: /(?:^|(?!base|atus).{4} )ATK (?:boost|UP)/i, // do not match "기본 공격력 상승" and "상태 이상시공격력 상승"
 						groups: [1],
 						cssClasses: ["min-width-3"],
 					},
 					{
 						type: "option",
-						description: "Orb",
+						description: "슬롯",
 						regex: /Orb (?:Amplification|boost|effect)/i,
 						groups: [1],
 						cssClasses: ["min-width-3"],
 					},
 					{
 						type: "option",
-						description: "Color Affinity",
+						description: "속성상성",
 						regex: /Color Affinity/i,
 						groups: [1],
 						cssClasses: ["min-width-6"],
 					},
 					{
 						type: "option",
-						description: "Base ATK",
+						description: "기본 공격력",
 						regex: /Base ATK boost/i,
 						groups: [1],
 						cssClasses: ["min-width-6"],
 					},
 					{
 						type: "option",
-						description: "Status ATK",
+						description: "일정조건시 공격력상승",
 						regex: /Status ATK boost/i,
 						groups: [1],
 						cssClasses: ["min-width-6"],
 					},
 					{
 						type: "option",
-						description: "Chain Lock",
+						description: "체인 고정",
 						regex: /Chain Lock/i, // should also match "Chain Lock/Limit/Boundary"
 						groups: [1],
 						cssClasses: ["min-width-6"],
 					},
 					{
 						type: "option",
-						description: "Chain Addition",
+						description: "체인 상승/가산",
 						regex: /Chain Addition/i,
 						groups: [1],
 						cssClasses: ["min-width-6"],
 					},
 					{
 						type: "option",
-						description: "Chain Multiplication",
+						description: "체인 배수",
 						regex: /(?:Chain Multiplication|Chain Multiplier Growth Rate)/i,
 						groups: [1],
 						cssClasses: ["min-width-12"],
 					},
 					{
 						type: "option",
-						description: "Chain Tap Timing",
+						description: "체인 탭타이밍",
 						regex: /Chain Tap Timing/i,
 						groups: [1],
 						cssClasses: ["min-width-12"],
 					},
 					{
 						type: "separator",
-						description: "Damage Boosting Debuffs",
+						description: "적이 받는 데미지 상승 버프",
 					},
 					{
 						type: "option",
-						description: "Increase Damage Taken",
+						description: "적이 받는 데미지 상승",
 						regex: /Increase Damage Taken/i,
 						groups: [1],
 						cssClasses: ["min-width-12"],
@@ -3426,7 +3474,7 @@
 			},
 
 			{
-				name: "Double Buff Enabler",
+				name: "이중 강화 버프",
 				targets: [
 					"captain",
 					"special",
@@ -3438,80 +3486,80 @@
 					// following should also match "...boosting"
 					{
 						type: "separator",
-						description: "Damage Boosting Buffs",
+						description: "데미지 강화 버프",
 					},
 					{
 						type: "option",
-						description: "ATK",
+						description: "공격력",
 						// could've used negative lookbehind, but some platforms don't support it
 						// either ATK boosting buffs or ATK UP or ATK boost
-						regex: /(?:^|(?!base|atus).{4} )ATK (?:boost|UP)/i, // do not match "base ATK boost" and "Status ATK boost"
+						regex: /(?:^|(?!base|atus).{4} )ATK (?:boost|UP)/i, // do not match "기본 공격력 상승" and "상태 이상시공격력 상승"
 						groups: [1],
 						cssClasses: ["min-width-3"],
 					},
 					{
 						type: "option",
-						description: "Orb",
+						description: "슬롯",
 						regex: /Orb (?:Amplification|boost|effect)/i,
 						groups: [1],
 						cssClasses: ["min-width-3"],
 					},
 					{
 						type: "option",
-						description: "Color Affinity",
+						description: "속성상성",
 						regex: /Color Affinity/i,
 						groups: [1],
 						cssClasses: ["min-width-6"],
 					},
 					{
 						type: "option",
-						description: "Base ATK",
+						description: "기본 공격력",
 						regex: /Base ATK boost/i,
 						groups: [1],
 						cssClasses: ["min-width-6"],
 					},
 					{
 						type: "option",
-						description: "Status ATK",
+						description: "일정조건시 공격력상승",
 						regex: /Status ATK boost/i,
 						groups: [1],
 						cssClasses: ["min-width-6"],
 					},
 					{
 						type: "option",
-						description: "Chain Lock",
+						description: "체인 고정",
 						regex: /Chain Lock/i, // should also match "Chain Lock/Limit/Boundary"
 						groups: [1],
 						cssClasses: ["min-width-6"],
 					},
 					{
 						type: "option",
-						description: "Chain Addition",
+						description: "체인 상승/가산",
 						regex: /Chain Addition/i,
 						groups: [1],
 						cssClasses: ["min-width-6"],
 					},
 					{
 						type: "option",
-						description: "Chain Multiplication",
+						description: "체인 배수",
 						regex: /(?:Chain Multiplication|Chain Multiplier Growth Rate)/i,
 						groups: [1],
 						cssClasses: ["min-width-12"],
 					},
 					{
 						type: "option",
-						description: "Chain Tap Timing",
+						description: "체인 탭타이밍",
 						regex: /Chain Tap Timing/i,
 						groups: [1],
 						cssClasses: ["min-width-12"],
 					},
 					{
 						type: "separator",
-						description: "Damage Boosting Debuffs",
+						description: "적이 받는 데미지 상승",
 					},
 					{
 						type: "option",
-						description: "Increase Damage Taken",
+						description: "적이 받는 데미지상승",
 						regex: /Increase Damage Taken/i,
 						groups: [1],
 						cssClasses: ["min-width-12"],
@@ -3519,9 +3567,9 @@
 				],
 			},
 		],
-		"Ability Requirements": [
+		"능력 발동 조건": [
 			{
-				name: "Turn Limited Effects",
+				name: "턴 제한 효과",
 				targets: ["captain"],
 				regex: /for \d+ turn/i,
 			},
@@ -3534,7 +3582,7 @@
 			},
 
 			{
-				name: "Requirement: HP Percentage",
+				name: "조건: 일정 체력",
 				targets: ["captain"],
 				// make sure that it doesn't "jump over" "boosts", which would be a different type of boost already
 				// "explicit greedy alternation"
@@ -3544,19 +3592,19 @@
 			},
 
 			{
-				name: "Requirement: Team Composition",
+				name: "조건: 팀 편성",
 				targets: ["captain", "special"],
 				regex: /your crew/i,
 			},
 
 			{
-				name: "Requirement: Captain Swap",
+				name: "조건: 모험 도중 선장",
 				targets: ["captain"],
 				regex: /becomes your captain/i,
 			},
 
 			{
-				name: "Requirement: Tap Timing",
+				name: "조건: 탭 타이밍",
 				targets: ["captain"],
 				regex: /(after scoring|following a chain|perfect|great|good)/i,
 			},
@@ -3576,7 +3624,7 @@
 			},
 
 			{
-				name: "Requirement: Type",
+				name: "조건: 속성",
 				targets: ["captain", "special", "superSpecial", "swap", "support"],
 				// `(?:(?!char)[^."])*?` is a "tempered dot"
 				// ensure that there is one type (there could be abilities that boost type and classes)
@@ -3588,7 +3636,7 @@
 			},
 
 			{
-				name: "Requirement: Type",
+				name: "조건: 속성",
 				targets: ["sailor"],
 				// `(?:(?!char)[^."])*?` is a "tempered dot"
 				// ensure that there is one type (there could be abilities that boost type and classes)
@@ -3614,7 +3662,7 @@
 			},
 
 			{
-				name: "Requirement: Class",
+				name: "조건: 타입",
 				targets: ["captain", "special", "superSpecial", "swap", "support"],
 				// `(?:(?!char)[^."])*?` is a "tempered dot"
 				// ensure that there is one class (there could be abilities that boost type and classes)
@@ -3625,7 +3673,7 @@
 			},
 
 			{
-				name: "Requirement: Class",
+				name: "조건: 타입",
 				targets: ["sailor"],
 				// `(?:(?!char)[^."])*?` is a "tempered dot"
 				// ensure that there is one class (there could be abilities that boost type and classes)
@@ -3636,13 +3684,13 @@
 			},
 
 			{
-				name: "Multiple Stage",
+				name: "해석중Multiple Stage",
 				targets: ["special"],
 				regex: /description/i,
 			},
 
 			{
-				name: "Requirement: HP Threshold",
+				name: "조건: 일정 체력",
 				targets: [
 					"captain",
 					"special",
@@ -3655,7 +3703,7 @@
 			},
 
 			{
-				name: "Requirement: Damage Taken",
+				name: "조건: 받은 데미지",
 				targets: [
 					"captain",
 					"special",
@@ -3668,7 +3716,7 @@
 			},
 
 			{
-				name: "Requirement: Overfill Healing",
+				name: "조건: 최대체력 초과 회복",
 				targets: [
 					"captain",
 					"special",
@@ -3681,25 +3729,25 @@
 			},
 
 			{
-				name: "Requirement: Beneficial Orb",
+				name: "조건: 슬롯 일치",
 				targets: ["captain"],
 				regex: /if they have a beneficial orb/i,
 			},
 
 			{
-				name: "Requirement: Team Orb Composition",
+				name: "조건: 일당 슬롯 구성",
 				targets: ["special"],
 				regex: /your( crew.+characters with|.+Captain's orb is)/i,
 			},
 
 			{
-				name: "Old Captain Composition Requirement %target%",
+				name: "Old 특정 선장 전용 %target%",
 				targets: ["special"],
 				regex: /your captain /i,
 			},
 
 			{
-				name: "Captain Composition Requirement %target%",
+				name: "특정 선장 전용 %target%",
 				targets: ["special"],
 				// match "If Zoro is your Captain or Friend/Guest Captain"
 				// match "If your Captain is a Striker character"
@@ -3717,7 +3765,7 @@
 			},
 
 			{
-				name: "Orb Boost Requirement: Universal",
+				name: "슬롯 영향 증폭: 일당",
 				targets: ["captain", "special", "superSpecial", "swap", "support"],
 				// `(?:(?!char)[^."])*?` is a "tempered dot"
 				// ensure that there is one type (there could be abilities that boost type and classes)
@@ -3734,7 +3782,7 @@
 			},
 
 			{
-				name: "Orb Boost Requirement: Type",
+				name: "슬롯 영향 증폭: 속성",
 				targets: ["captain", "special", "superSpecial", "swap", "support"],
 				// `(?:(?!char)[^."])*?` is a "tempered dot"
 				// ensure that there is one type (there could be abilities that boost type and classes)
@@ -3754,7 +3802,7 @@
 			},
 
 			{
-				name: "Orb Boost Requirement: Class",
+				name: "슬롯 영향 증폭: 타입",
 				targets: ["captain", "special", "superSpecial", "swap", "support"],
 				// `(?:(?!char)[^."])*?` is a "tempered dot"
 				// ensure that there is one class (there could be abilities that boost type and classes)
@@ -3766,7 +3814,7 @@
 			},
 
 			{
-				name: "Color Affinity Requirement: Universal",
+				name: "속성상성: 일당",
 				targets: ["captain", "special", "superSpecial", "swap", "support"],
 				// `(?:(?!char)[^."])*?` is a "tempered dot"
 				// ensure that there is one type (there could be abilities that boost type and classes)
@@ -3777,7 +3825,7 @@
 			},
 
 			{
-				name: "Color Affinity Requirement: Type",
+				name: "속성상성: 속성",
 				targets: ["captain", "special", "superSpecial", "swap", "support"],
 				// `(?:(?!char)[^."])*?` is a "tempered dot"
 				// ensure that there is one type (there could be abilities that boost type and classes)
@@ -3790,7 +3838,7 @@
 			},
 
 			{
-				name: "Color Affinity Requirement: Class",
+				name: "속성상성: 타입",
 				targets: ["captain", "special", "superSpecial", "swap", "support"],
 				// `(?:(?!char)[^."])*?` is a "tempered dot"
 				// ensure that there is one class (there could be abilities that boost type and classes)
@@ -3802,13 +3850,13 @@
 			},
 
 			{
-				name: "Final Stage Activated %target%",
+				name: "마지막라운드시 %target%",
 				targets: ["support"],
 				regex: /final stage/i,
 			},
 
 			{
-				name: "Number Stage Activated %target%",
+				name: "특정 라운드 시작시 %target%",
 				targets: ["support"],
 				regex: /when you reach the (\d+)\w{2} stage/i,
 				submatchers: [
@@ -3821,31 +3869,31 @@
 			},
 
 			{
-				name: "First Special Activated %target%",
+				name: "모험 도중 1회 %target%",
 				targets: ["support"],
 				regex: /uses (their|a).+special/i,
 			},
 
 			{
-				name: "Damage Special Activated %target%",
+				name: "비율 데미지 또는 직접 데미지를 주는 필살기 발동 시 %target%",
 				targets: ["support"],
 				regex: /Damage Dealing/i,
 			},
 
 			{
-				name: "Buff Activated %target%",
+				name: "적이 버프 상태 효과를 발동시 %target%",
 				targets: ["support"],
 				regex: /when (the|an) enemy (gains|applies)/i,
 			},
 
 			{
-				name: "Debuff Activated %target%",
+				name: "적이 디버프 상태효과를 발동시 %target%",
 				targets: ["support"],
 				regex: /when (the|an) enemy inflicts/i,
 			},
 
 			{
-				name: "Tap Timing Activated %target%",
+				name: "탭 타이밍에 따라 %target%",
 				targets: ["support"],
 				regex: /PERFECT|GREAT|GOOD/,
 			},
@@ -3857,7 +3905,7 @@
 			},
 
 			{
-				name: "Supporting Group: Type",
+				name: "서포트 대상: 속성 기준",
 				targets: ["support"],
 				regex:
 					/^\[\{"Characters":"((?:(?!char)[^."])*?(?:\[(?:STR|DEX|QCK|PSY|INT)\]|Type)[^."]+?)character/i,
@@ -3872,7 +3920,7 @@
 			},
 
 			{
-				name: "Supporting Group: Class",
+				name: "서포트 대상: 타입 기준",
 				targets: ["support"],
 				regex:
 					/^\[\{"Characters":"((?:(?!char)[^."])*?(?:Slasher|Striker|Fighter|Shooter|Free Spirit|Cerebral|Powerhouse|Driven)[^."]+?)character/i,
@@ -3880,13 +3928,13 @@
 			},
 
 			{
-				name: "Supporting Group: Universal",
+				name: "서포트 대상: 모두",
 				targets: ["support"],
 				regex: /^\[\{"Characters":"All character/i,
 			},
 
 			{
-				name: "Supporting Group: Character Family",
+				name: "서포트 대상: 연관 캐릭터",
 				targets: ["support"],
 				// if the supported does not have "character", it is a list of family names
 				// the target string is JSON stringified, so there is no space in `":"`
@@ -3901,40 +3949,40 @@
 			},
 
 			{
-				name: "Special Cooldown Reducer on Special Activation",
+				name: "필살기 발동시 필턴 단축",
 				targets: ["sailor"],
 				regex:
 					/When any.+character uses a special, reduces special cooldown of this character/i,
 			},
 
 			{
-				name: "Delayed Effect",
+				name: "일정 조건 이후 발동",
 				targets: ["special"],
 				regex: /(Following the activation|If during that turn|After \d+ turn)/i,
 			},
 
 			{
-				name: "Delayed Effect: Turns",
+				name: "일정 조건 이후 발동: 턴",
 				targets: ["special"],
 				regex: /After (\d+) turn/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Number of Turns:",
+						description: "지속 턴:",
 						groups: [1],
 					},
 				],
 			},
 
 			{
-				name: "Delayed Effect: Tap Timing",
+				name: "일정 조건 이후 발동: 탭타이밍",
 				targets: ["special"],
 				regex:
 					/If during that turn you score (\d|all) (GOOD|GREAT|PERFECT) hits/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Number of Taps:",
+						description: "탭 횟수:",
 						groups: [1],
 					},
 					{
@@ -3962,151 +4010,151 @@
 			},
 
 			{
-				name: "Requirement: Crew Effect",
+				name: "조건: 일당의 특정효과보유",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex:
 					/If your crew (?:has|is) ([^."]+?) when the special is activated,/i,
 				submatchers: [
 					{
 						type: "separator",
-						description: "Damage Boosting Buffs",
+						description: "데미지 강화 버프",
 					},
 					{
 						type: "option",
-						description: "ATK",
+						description: "공격력",
 						// could've used negative lookbehind, but some platforms don't support it
 						// either ATK boosting buffs or ATK UP or ATK boost
-						regex: /(?:^|(?!base|atus).{4} )ATK (?:boost|UP)/i, // do not match "base ATK boost" and "Status ATK boost"
+						regex: /(?:^|(?!base|atus).{4} )ATK (?:boost|UP)/i, // do not match "기본 공격력 상승" and "상태 이상시공격력 상승"
 						groups: [1],
 						cssClasses: ["min-width-3"],
 					},
 					{
 						type: "option",
-						description: "Orb",
+						description: "슬롯",
 						regex: /Orb (?:Amplification|boost|effect)/i,
 						groups: [1],
 						cssClasses: ["min-width-3"],
 					},
 					{
 						type: "option",
-						description: "Color Affinity",
+						description: "속성상성",
 						regex: /Color Affinity/i,
 						groups: [1],
 						cssClasses: ["min-width-6"],
 					},
 					{
 						type: "option",
-						description: "Base ATK",
+						description: "기본 공격력",
 						regex: /Base ATK boost/i,
 						groups: [1],
 						cssClasses: ["min-width-6"],
 					},
 					{
 						type: "option",
-						description: "Status ATK",
+						description: "일정조건시 공격력상승",
 						regex: /Status ATK boost/i,
 						groups: [1],
 						cssClasses: ["min-width-6"],
 					},
 					{
 						type: "option",
-						description: "Chain Lock",
+						description: "체인 고정",
 						regex: /Chain Lock/i, // should also match "Chain Lock/Limit/Boundary"
 						groups: [1],
 						cssClasses: ["min-width-6"],
 					},
 					{
 						type: "option",
-						description: "Chain Addition",
+						description: "체인 상승/가산",
 						regex: /Chain Addition/i,
 						groups: [1],
 						cssClasses: ["min-width-6"],
 					},
 					{
 						type: "option",
-						description: "Chain Multiplication",
+						description: "체인 배수",
 						regex: /Chain Multiplication/i,
 						groups: [1],
 						cssClasses: ["min-width-12"],
 					},
 					{
 						type: "separator",
-						description: "Survivability Buffs",
+						description: "방어 회복 계열",
 					},
 					{
 						type: "option",
-						description: "Percent Damage Reduction",
+						description: "데미지 감소상태",
 						regex: /Percent Damage Reduction/i,
 						groups: [1],
 						cssClasses: ["min-width-12"],
 					},
 					{
 						type: "option",
-						description: "Threshold Damage Reduction",
+						description: "일정 이상데미지 감소상태",
 						regex: /Threshold Damage Reduction/i,
 						groups: [1],
 						cssClasses: ["min-width-12"],
 					},
 					{
 						type: "option",
-						description: "Resilience",
+						description: "버티기",
 						regex: /Resilience/i,
 						groups: [1],
 						cssClasses: ["min-width-12"],
 					},
 					{
 						type: "option",
-						description: "End of Turn Healing",
+						description: "턴 종료시 회복",
 						regex: /End of Turn Healing/i,
 						groups: [1],
 						cssClasses: ["min-width-12"],
 					},
 					{
 						type: "separator",
-						description: "Misc. Buffs",
+						description: "기타 버프",
 					},
 					{
 						type: "option",
-						description: "Turn Progress Effect",
+						description: "턴 진행 효과",
 						regex: /Turn Progress Effect/i,
 						groups: [1],
 						cssClasses: ["min-width-12"],
 					},
 					{
 						type: "separator",
-						description: "Debuffs",
+						description: "디버프",
 					},
 					{
 						type: "option",
-						description: "Bind",
+						description: "봉쇄",
 						regex: /Bind/i,
 						groups: [1],
 						cssClasses: ["min-width-6"],
 					},
 					{
 						type: "option",
-						description: "Despair",
+						description: "선장효과무효",
 						regex: /Despair/i,
 						groups: [1],
 						cssClasses: ["min-width-6"],
 					},
 					{
 						type: "option",
-						description: "Paralysis",
+						description: "마비",
 						regex: /Paralysis/i,
 						groups: [1],
 						cssClasses: ["min-width-6"],
 					},
 					{
 						type: "option",
-						description: "Special Bind",
+						description: "특정 봉쇄",
 						regex: /Special Bind/i,
 						groups: [1],
 						cssClasses: ["min-width-6"],
 					},
 					{
 						type: "option",
-						description: "Normal Attack Only",
+						description: "일반 공격",
 						regex: /Normal Attack Only/i,
 						groups: [1],
 						cssClasses: ["min-width-12"],
@@ -4115,144 +4163,144 @@
 			},
 
 			{
-				name: "Requirement: Enemy Effect",
+				name: "조건: 적 상태이상",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex:
 					/If enemies (?:have|are) ([^."]+?) (?:when the special is activated|after receiving damage),/i,
 				submatchers: [
 					{
 						type: "separator",
-						description: "Debuff Immunities",
+						description: "디버프 면역",
 					},
 					{
 						type: "option",
-						description: "All",
+						description: "모두",
 						regex: /All Debuff Protection/i,
 						groups: [1],
 						cssClasses: ["min-width-12"],
 					},
 					{
 						type: "option",
-						description: "Delay",
+						description: "지연",
 						regex: /Delay Debuff Protection/i,
 						groups: [1],
 						cssClasses: ["min-width-6"],
 					},
 					{
 						type: "option",
-						description: "Poison",
+						description: "독",
 						regex: /Poison Debuff Protection/i,
 						groups: [1],
 						cssClasses: ["min-width-6"],
 					},
 					{
 						type: "option",
-						description: "Defense Reduction",
+						description: "방어력 감소",
 						regex: /Defense Reduction Debuff Protection/i,
 						groups: [1],
 						cssClasses: ["min-width-12"],
 					},
 					{
 						type: "separator",
-						description: "Damage Boosting Buffs",
+						description: "데미지 강화 버프",
 					},
 					{
 						type: "option",
-						description: "ATK",
+						description: "공격력",
 						// could've used negative lookbehind, but some platforms don't support it
 						// either ATK boosting buffs or ATK UP or ATK boost
-						regex: /(?:^|(?!base|atus).{4} )ATK (?:boost|UP)/i, // do not match "base ATK boost" and "Status ATK boost"
+						regex: /(?:^|(?!base|atus).{4} )ATK (?:boost|UP)/i, // do not match "기본 공격력 상승" and "상태 이상시공격력 상승"
 						groups: [1],
 						cssClasses: ["min-width-3"],
 					},
 					{
 						type: "option",
-						description: "Enrage",
+						description: "격노",
 						regex: /Enrage/i,
 						groups: [1],
 						cssClasses: ["min-width-3"],
 					},
 					{
 						type: "option",
-						description: "End of Turn Damage",
+						description: "턴 종료시 데미지",
 						regex: /End of Turn Damage/i,
 						groups: [1],
 						cssClasses: ["min-width-12"],
 					},
 					{
 						type: "separator",
-						description: "Survivability Buffs",
+						description: "방어 회복 계열",
 					},
 					{
 						type: "option",
-						description: "Increased Defense",
+						description: "방어력 상승",
 						regex: /Increased Defense/i,
 						groups: [1],
 						cssClasses: ["min-width-12"],
 					},
 					{
 						type: "option",
-						description: "Percent Damage Reduction",
+						description: "데미지 감소상태",
 						regex: /Percent Damage Reduction/i,
 						groups: [1],
 						cssClasses: ["min-width-12"],
 					},
 					{
 						type: "option",
-						description: "Threshold Damage Reduction",
+						description: "일정 이상데미지 감소상태",
 						regex: /Threshold Damage Reduction/i,
 						groups: [1],
 						cssClasses: ["min-width-12"],
 					},
 					{
 						type: "option",
-						description: "Resilience",
+						description: "버티기",
 						regex: /Resilience/i,
 						groups: [1],
 						cssClasses: ["min-width-6"],
 					},
 					{
 						type: "option",
-						description: "Barrier",
+						description: "베리어",
 						regex: /Barrier/i,
 						groups: [1],
 						cssClasses: ["min-width-6"],
 					},
 					{
 						type: "option",
-						description: "End of Turn Heal",
+						description: "턴 종료 후 회복",
 						regex: /End of Turn Heal/i,
 						groups: [1],
 						cssClasses: ["min-width-12"],
 					},
 					{
 						type: "separator",
-						description: "Debuffs",
+						description: "디버프",
 					},
 					{
 						type: "option",
-						description: "Delay",
+						description: "지연",
 						regex: /delayed/i,
 						groups: [1],
 						cssClasses: ["min-width-6"],
 					},
 					{
 						type: "option",
-						description: "Poison",
+						description: "독",
 						regex: /inflicted with poison/i,
 						groups: [1],
 						cssClasses: ["min-width-6"],
 					},
 					{
 						type: "option",
-						description: "Melo-Melo/Love-Love",
+						description: "메로 메로",
 						regex: /Melo-Melo/i,
 						groups: [1],
 						cssClasses: ["min-width-12"],
 					},
 					{
 						type: "option",
-						description: "Defense Reduction",
+						description: "방어력 감소",
 						regex: /reduced defense/i,
 						groups: [1],
 						cssClasses: ["min-width-12"],
@@ -4260,9 +4308,9 @@
 				],
 			},
 		],
-		Survivability: [
+		회복생존계열: [
 			{
-				name: "Healer",
+				name: "회복",
 				targets: ["captain", "special", "superSpecial", "swap", "support"],
 				regex: /Recovers/i,
 			},
@@ -4274,19 +4322,19 @@
 			},
 
 			{
-				name: "Pinch Healing",
+				name: "긴급 회복",
 				targets: ["potential"],
 				regex:
 					/If HP is below ([?\d]+)% at the start of the turn, recovers ([?.\d]+)x this character's RCV at the end of the turn for each time you hit a PERFECT with this character/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "HP Percentage:",
+						description: "체력 비율:",
 						groups: [1],
 					},
 					{
 						type: "number",
-						description: "RCV Multiplier:",
+						description: "회복력 배수:",
 						groups: [2],
 					},
 				],
@@ -4299,14 +4347,14 @@
 			},
 
 			{
-				name: "Healer: RCV-based",
+				name: "회복: 회복력기반",
 				targets: ["captain", "special", "superSpecial", "swap", "support"],
 				regex:
 					/Recovers ([?.\d]+)x(?:-([?.\d]+)x)? (?:this |supported )?character's RCV/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [1, 2],
 					},
 				],
@@ -4319,7 +4367,7 @@
 			},
 
 			{
-				name: "Healer: Fixed",
+				name: "회복: 고정",
 				targets: ["captain", "special", "superSpecial", "swap", "support"],
 				regex: /Recovers ([?,\d]+)(?:-([?,\d]+))? HP/i,
 				submatchers: [
@@ -4338,27 +4386,27 @@
 			},
 
 			{
-				name: "Healer: Percentage MAX HP",
+				name: "회복: 최대체력의n%",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex:
 					/(?:Recovers all missing HP|Recovers ([?\d]+)%(?:-([?\d]+)%)? of crew's MAX HP)/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Percentage:",
+						description: "비율:",
 						groups: [1, 2],
 					},
 				],
 			},
 
 			{
-				name: "Healer: Missing HP",
+				name: "회복: 체력n%이하시",
 				targets: ["special", "swap", "support"],
 				regex: /Recovers[^."]+?missing HP/i,
 			},
 
 			{
-				name: "Healer: Overheal",
+				name: "회복: 체력초과회복",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex: /Recovers[^."]+?allowing HP Overfill/i,
 			},
@@ -4370,27 +4418,27 @@
 			},
 
 			{
-				name: "Healer: End-of-Turn",
+				name: "회복: 턴 종료시",
 				targets: ["captain"],
 				regex: /Recovers[^."]+?HP at the end of (?:the|each) turn/i,
 			},
 
 			{
-				name: "Healer: End-of-Turn",
+				name: "회복: 턴 종료시",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex:
 					/Recovers[^."]+?HP at the end of (?:the|each) turn for ([?\d]+\+?)(?:-([?\d]+))? turns?(?:, for ([?\d]+\+?)(?:-([?\d]+))? turns?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [1, 2, 3, 4],
 					},
 				],
 			},
 
 			{
-				name: "HP Overfill Enablers",
+				name: "최대 체력 초과 회복",
 				targets: ["captain", "special", "superSpecial", "swap", "support"],
 				regex: /Allows HP Overfill/i,
 			},
@@ -4402,7 +4450,7 @@
 			},
 
 			{
-				name: "Damage Reduction - Passive: Percentage",
+				name: "받는 데미지감소 - %단위(패시브)",
 				targets: ["captain", "support"],
 				// Reduces damage received from [STR] characters by 1%
 				// Reduces damage received by 10%-20%
@@ -4414,25 +4462,25 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Percentage:",
+						description: "비율:",
 						groups: [2, 4, 5, 6],
 					},
 					{
 						type: "option",
-						description: "All enemy damage",
+						description: "모든 적 데미지",
 						regex: /^$/,
 						groups: [1],
 					},
 					{
 						type: "separator",
-						description: "Damage from types:",
+						description: "해당 속성으로부터 받는 데미지:",
 					},
 					...createTypesSubmatchers([1], true, "^$"),
 				],
 			},
 
 			{
-				name: "Damage Reduction: Percentage",
+				name: "받는 데미지감소 - %단위",
 				targets: ["captain", "special", "superSpecial", "swap", "support"],
 				// Reduces damage received from [STR] characters by 100% for 2 turns
 				// Reduces damage received by 10%-20% for 1-2 turns, by 30-50% for 3-4 turns instead...
@@ -4441,23 +4489,23 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Percentage:",
+						description: "비율:",
 						groups: [2, 3, 6, 7],
 					},
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [4, 5, 8, 9],
 					},
 					{
 						type: "option",
-						description: "All enemy damage",
+						description: "모든 적 데미지",
 						regex: /^$/,
 						groups: [1],
 					},
 					{
 						type: "separator",
-						description: "Damage from types:",
+						description: "해당 속성으로부터 받는 데미지:",
 					},
 					...createTypesSubmatchers([1], true, "^$"),
 				],
@@ -4470,7 +4518,7 @@
 			},
 
 			{
-				name: "Damage Reduction",
+				name: "데미지 감소",
 				targets: ["potential"],
 				// while it is possible to use `...createTypesSubmatchers([1])` here,
 				// due to different potential abilites not matchable in one regex
@@ -4482,77 +4530,77 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Percentage:",
+						description: "비율:",
 						groups: [1],
 					},
 				],
 			},
 
 			{
-				name: "Damage Reduction: STR",
+				name: "데미지 감소: 힘속성",
 				targets: ["potential"],
 				regex:
 					/Reduces damage taken from \[STR\] (?:characters|enemies) by ([?\d]+)%/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Percentage:",
+						description: "비율:",
 						groups: [1],
 					},
 				],
 			},
 
 			{
-				name: "Damage Reduction: DEX",
+				name: "데미지 감소: 기속성",
 				targets: ["potential"],
 				regex:
 					/Reduces damage taken from \[DEX\] (?:characters|enemies) by ([?\d]+)%/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Percentage:",
+						description: "비율:",
 						groups: [1],
 					},
 				],
 			},
 
 			{
-				name: "Damage Reduction: QCK",
+				name: "데미지 감소: 속속성",
 				targets: ["potential"],
 				regex:
 					/Reduces damage taken from \[QCK\] (?:characters|enemies) by ([?\d]+)%/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Percentage:",
+						description: "비율:",
 						groups: [1],
 					},
 				],
 			},
 
 			{
-				name: "Damage Reduction: PSY",
+				name: "데미지 감소: 심속성",
 				targets: ["potential"],
 				regex:
 					/Reduces damage taken from \[PSY\] (?:characters|enemies) by ([?\d]+)%/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Percentage:",
+						description: "비율:",
 						groups: [1],
 					},
 				],
 			},
 
 			{
-				name: "Damage Reduction: INT",
+				name: "데미지 감소: 지속성",
 				targets: ["potential"],
 				regex:
 					/Reduces damage taken from \[INT\] (?:characters|enemies) by ([?\d]+)%/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Percentage:",
+						description: "비율:",
 						groups: [1],
 					},
 				],
@@ -4565,7 +4613,7 @@
 			},
 
 			{
-				name: "Damage Reduction - Passive: Threshold",
+				name: "데미지 감소 - 패시브: 일정데미지",
 				//targets: [ 'captain' ],
 				targets: [],
 				// reduces any damage received above 5,000 HP by 95% for 2 turns
@@ -4575,36 +4623,36 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Above HP:",
+						description: "초과 데미지 값:",
 						groups: [1, 2],
 					},
 					{
 						type: "number",
-						description: "Percentage:",
+						description: "비율:",
 						groups: [3, 5, 6, 7],
 					},
 				],
 			},
 
 			{
-				name: "Damage Reduction: Threshold",
+				name: "데미지 감소 - 일정 데미지이상",
 				targets: ["captain", "special", "superSpecial", "swap", "support"],
 				regex:
 					/Reduces (?:any )?damage (?:received|taken) above ([?,\d]+)(?:-([?,\d]+))? HP by ([?.\d]+)%(?:-([?.\d]+)%)? for ([?\d]+\+?)(?:-([?\d]+))? turns?(?:, by ([?.\d]+)%(?:-([?.\d]+)%)? for ([?\d]+\+?)(?:-([?\d]+))? turns?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Above HP:",
+						description: "초과 데미지 값:",
 						groups: [1, 2],
 					},
 					{
 						type: "number",
-						description: "Percentage:",
+						description: "비율:",
 						groups: [3, 4, 7, 8],
 					},
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [5, 6, 9, 10],
 					},
 				],
@@ -4617,7 +4665,7 @@
 			},
 
 			{
-				name: "Damage Reduction: Nullify",
+				name: "데미지 무효",
 				targets: ["captain", "special", "superSpecial", "swap", "support"],
 				// match "reduces damage received from [STR] and [PSY] enemies by 100% for 1 turn"
 				// match "Reduces damage received by 70%-100% for 1 turn"
@@ -4627,25 +4675,25 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [2, 3, 4, 5],
 					},
 					{
 						type: "option",
-						description: "All enemy damage",
+						description: "모든 적 데미지",
 						regex: /^$/,
 						groups: [1],
 					},
 					{
 						type: "separator",
-						description: "Damage from types:",
+						description: "해당 속성으로부터 받는 데미지:",
 					},
 					...createTypesSubmatchers([1], true, "^$"),
 				],
 			},
 
 			{
-				name: "Damage Reduction: Full HP",
+				name: "데미지 감소: 체력이 가득 찼을때",
 				targets: ["captain"],
 				regex: /Reduces (any )?damage.+if HP.+99/i,
 			},
@@ -4657,44 +4705,44 @@
 			},
 
 			{
-				name: "Zombies (Protect from Defeat)",
+				name: "체력이 일정이상인경우 쓰러지지않음",
 				targets: ["captain"],
 				regex: /Protects from defeat/i,
 			},
 
 			{
-				name: "Zombies (Protect from Defeat)",
+				name: "체력이 일정이상인경우 쓰러지지않음",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex: /Protects from defeat for ([?\d]+\+?)(?:-([?\d]+))? turn/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [1, 2],
 					},
 				],
 			},
 
 			{
-				name: "HP Guard",
+				name: "HP 가드",
 				targets: ["captain", "special", "superSpecial", "swap", "support"],
 				regex:
 					/Activates HP Guard of ([?.\d]+)%(?:-([?.\d]+)%)? effect for ([?\d]+\+?)(?:-([?\d]+))? turns?(?:, of ([?.\d]+)%(?:-([?.\d]+)%)?(?: for ([?\d]+\+?)(?:-([?\d]+))? turns?)?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Percentage:",
+						description: "비율:",
 						groups: [1, 2, 5, 6],
 					},
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [3, 4, 7, 8],
 					},
 				],
 			},
 		],
-		Slot: [
+		슬롯: [
 			{
 				name: "Old Orb Chance Boosters",
 				targets: ["captain", "special", "swap", "sailor", "support"],
@@ -4702,7 +4750,7 @@
 			},
 
 			{
-				name: "Orb Chance Boosters",
+				name: "슬롯 출현율 상승",
 				targets: ["captain", "sailor"],
 				// "Boosts chances of getting [QCK], [INT] and [RCV] orbs"
 				regex: /boosts chances of getting ([^."]+?)orbs/i,
@@ -4713,7 +4761,7 @@
 					), // add 'BOMB' AND 'SUPERBOMB' if they exist
 					{
 						type: "option",
-						description: "Matching",
+						description: "속성일치",
 						regex: /Matching/i,
 						cssClasses: ["min-width-6"],
 						groups: [1],
@@ -4722,7 +4770,7 @@
 			},
 
 			{
-				name: "Orb Chance Boosters",
+				name: "슬롯 출현율 상승",
 				targets: ["special", "swap", "support"],
 				// "Boosts chances of getting [QCK], [INT] and [RCV] orbs for 1 turn"
 
@@ -4733,7 +4781,7 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [2, 3, 4, 5],
 					},
 					...createOrbsSubmatchers(
@@ -4742,7 +4790,7 @@
 					), // add 'BOMB' AND 'SUPERBOMB' if they exist
 					{
 						type: "option",
-						description: "Matching",
+						description: "속성일치",
 						regex: /Matching/i,
 						cssClasses: ["min-width-6"],
 						groups: [1],
@@ -4764,14 +4812,14 @@
 			},
 
 			{
-				name: "Beneficial Orb Enablers",
+				name: "유리 슬롯 취급",
 				targets: ["captain", "sailor"],
 				regex: /makes ([^".]+?)orbs beneficial for ([^".]+?)characters?/i,
 				submatchers: [
 					...createUniversalSubmatcher([2]),
 					{
 						type: "separator",
-						description: "Beneficial orbs:",
+						description: "유리 슬롯:",
 					},
 					...createOrbsSubmatchers(
 						[
@@ -4790,39 +4838,39 @@
 					),
 					{
 						type: "option",
-						description: "Badly Matching",
+						description: "불리 슬롯",
 						regex: /Badly Matching/i,
 						cssClasses: ["min-width-6"],
 						groups: [1],
 					},
 					{
 						type: "separator",
-						description: "Affected types:",
+						description: "영향을 받는 속성:",
 					},
 					...createTypesSubmatchers([2]),
 					{
 						type: "separator",
-						description: "Affected classes:",
+						description: "영향을 받는 타입:",
 					},
 					...createClassesSubmatchers([2]),
 				],
 			},
 
 			{
-				name: "Beneficial Orb Enable",
+				name: "유리 슬롯 취급",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex:
 					/makes ([^".]+?)orbs beneficial for ([^".]+?)characters? for ([?\d]+\+?)(?:-([?\d]+))? turn/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [3, 4],
 					},
 					...createUniversalSubmatcher([2]),
 					{
 						type: "separator",
-						description: "Beneficial orbs:",
+						description: "유리 슬롯:",
 					},
 					...createOrbsSubmatchers(
 						[
@@ -4841,44 +4889,44 @@
 					),
 					{
 						type: "option",
-						description: "Badly Matching",
+						description: "불리 슬롯",
 						regex: /Badly Matching/i,
 						cssClasses: ["min-width-6"],
 						groups: [1],
 					},
 					{
 						type: "separator",
-						description: "Affected types:",
+						description: "영향을 받는 속성:",
 					},
 					...createTypesSubmatchers([2]),
 					{
 						type: "separator",
-						description: "Affected classes:",
+						description: "영향을 받는 타입:",
 					},
 					...createClassesSubmatchers([2]),
 				],
 			},
 
 			{
-				name: "Orb Multiplier Override",
+				name: "특정슬롯에 의한 공격력배율",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex:
 					/increases Orb Effects of (?: beneficial)?([^".]+?)orbs to ([?.\d]+)x(?:-([?.\d]+)x)? for ([?\d]+\+?)(?:-([?\d]+))? turns?(?:, to ([?.\d]+)x(?:-([?.\d]+)x)?(?: for ([?\d]+\+?)(?:-([?\d]+))? turns?)?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [2],
 					},
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [3, 4],
 					},
 					...createUniversalSubmatcher([2]),
 					{
 						type: "separator",
-						description: "Beneficial orbs:",
+						description: "유리 슬롯:",
 					},
 					...createOrbsSubmatchers(
 						[
@@ -4899,7 +4947,7 @@
 					),
 					{
 						type: "option",
-						description: "Badly Matching",
+						description: "불리 슬롯",
 						regex: /Badly Matching/i,
 						cssClasses: ["min-width-6"],
 						groups: [1],
@@ -4921,20 +4969,20 @@
 			},
 
 			{
-				name: "Negative Orb Neutralizer",
+				name: "슬롯에 의한 공격력 감소 무효화",
 				targets: ["captain", "sailor"],
 				regex: /Makes Badly Matching and \[BLOCK\] orbs not reduce damage/i,
 			},
 
 			{
-				name: "Negative Orb Neutralizer",
+				name: "슬롯에 의한 공격력 감소 무효화",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex:
 					/Makes Badly Matching and \[BLOCK\] orbs not reduce damage for ([?\d]+\+?)(?:-([?\d]+))? turns?(?:, for ([?\d]+\+?)(?:-([?\d]+))? turns?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [1, 2, 3, 4],
 					},
 				],
@@ -4953,7 +5001,7 @@
 			},
 
 			{
-				name: "Orb lockers",
+				name: "슬롯 고정",
 				targets: ["special", "superSpecial", "swap", "support"],
 				// "locks orbs for free spirit characters", "...all orbs"
 				// not "locks the chain multiplier"
@@ -4963,23 +5011,23 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [3, 4, 5, 6],
 					},
 					...createUniversalSubmatcher([1]),
 					{
 						type: "separator",
-						description: "Affected types:",
+						description: "영향을 받는 속성:",
 					},
 					...createTypesSubmatchers([1]),
 					{
 						type: "separator",
-						description: "Affected classes:",
+						description: "영향을 받는 타입:",
 					},
 					...createClassesSubmatchers([1]),
 					{
 						type: "separator",
-						description: "Affected positions:",
+						description: "영향 받는 캐릭터 위치:",
 					},
 					...createPositionsSubmatchers([1]),
 				],
@@ -4992,7 +5040,7 @@
 			},
 
 			{
-				name: "Orb barrierers",
+				name: "슬롯 베리어",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex:
 					/Barriers (?=((?:[^o."]+|o(?!rb))*))\1orbs? for ([?\d]+\+?) ((?:GOOD|GREAT|PERFECT|, | and | or )+) hit/i,
@@ -5029,35 +5077,35 @@
 					...createUniversalSubmatcher([1]),
 					{
 						type: "separator",
-						description: "Affected types:",
+						description: "영향을 받는 속성:",
 					},
 					...createTypesSubmatchers([1]),
 					{
 						type: "separator",
-						description: "Affected classes:",
+						description: "영향을 받는 타입:",
 					},
 					...createClassesSubmatchers([1]),
 					{
 						type: "separator",
-						description: "Affected positions:",
+						description: "영향 받는 캐릭터 위치:",
 					},
 					...createPositionsSubmatchers([1]),
 				],
 			},
 			{
-				name: "STND Expansion",
+				name: "슬롯 범위확장",
 				targets: ["special", "superSpecial", "support"],
 				regex:
 					/allows crew to perform Super Tandem with ([^".]+?)orbs for ([?\d]+\+?)(?:-([?\d]+))? turns?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [2, 3],
 					},
 					{
 						type: "separator",
-						description: "Expanded to orbs:",
+						description: "슬롯 범위",
 					},
 					...createOrbsSubmatchers(
 						[
@@ -5078,7 +5126,7 @@
 				],
 			},
 		],
-		"Slot Change": [
+		"슬롯 변환": [
 			{
 				name: "Old Orb Retainer",
 				targets: ["sailor"],
@@ -5087,14 +5135,14 @@
 			},
 
 			{
-				name: "Orb Retainer",
+				name: "슬롯 유지",
 				targets: ["sailor"],
 				regex:
 					/you hit a ([\w ]+?) with (?:him|her|them|this character), keep (?:his|her|their)([^."]+?)orb/i,
 				submatchers: [
 					{
 						type: "separator",
-						description: "Tap Timing:",
+						description: "탭 타이밍",
 					},
 					{
 						type: "option",
@@ -5135,10 +5183,10 @@
 			},
 
 			{
-				name: "Orb Control: Change",
+				name: "슬롯 조정: 변경",
 				targets: ["captain", "special", "superSpecial", "swap", "support"],
 				// the From orbs is optional in the ability description. If it is not mentioned,
-				// it is considered to be "Any" orb, just like "changes all orbs" (these are Any orbs)
+				// it is considered to be "연" orb, just like "changes all orbs" (these are Any orbs)
 				// "changes the orb of this character into a Matching orb" (no From orb, so this is Any orb)
 
 				// the "of ____ characters" is optional. If it is not mentioned, it is considered "of all characters"
@@ -5160,18 +5208,18 @@
 				submatchers: [
 					{
 						type: "separator",
-						description: "From orbs:",
+						description: "해당 속성에서:",
 					},
 					{
 						type: "option",
-						description: "Any",
+						description: "연",
 						regex: /^$|all/i,
 						cssClasses: ["min-width-6"],
 						groups: [1],
 					},
 					{
 						type: "option",
-						description: "BLOCK",
+						description: "방해",
 						regex: /\[BLOCK\]/i,
 						cssClasses: ["min-width-6"],
 						groups: [1, 2], // the only one that includes group 2, so don't add [BLOCK] to `createOrbsSubmatchers`
@@ -5194,21 +5242,21 @@
 					),
 					{
 						type: "option",
-						description: "Matching",
+						description: "속성일치",
 						regex: /(?:^|(?!Badly ).{6}|^.{0,5})\bMatching/i, // alternative for negative lookbehind for "Badly " and "Non-"
 						cssClasses: ["min-width-6"],
 						groups: [1],
 					},
 					{
 						type: "option",
-						description: "Badly Matching",
+						description: "불리 슬롯",
 						regex: /Badly Matching/i,
 						cssClasses: ["min-width-6"],
 						groups: [1],
 					},
 					{
 						type: "separator",
-						description: "To orbs:", // To orbs won't have "Any", since simply not selecting any "To" orb does the same thing
+						description: "해당 속성으로:", // To orbs won't have "연", since simply not selecting any "To" orb does the same thing
 					},
 					...createOrbsSubmatchers(
 						[
@@ -5232,43 +5280,43 @@
 					),
 					{
 						type: "option",
-						description: "Character's Orb",
+						description: "자신 슬롯",
 						regex: /'s|s'/i, // match "this character's orb", "Luffy's orb"
 						cssClasses: ["min-width-6"],
 						groups: [4],
 					},
 					{
 						type: "option",
-						description: "Matching",
+						description: "속성일치",
 						regex: /(?:^|(?!Badly ).{6}|^.{0,5})\bMatching/i, // alternative for negative lookbehind for "Badly " and "Non-"
 						cssClasses: ["min-width-6"],
 						groups: [4],
 					},
 					{
 						type: "option",
-						description: "Badly Matching",
+						description: "불리 슬롯",
 						regex: /Badly Matching/i,
 						cssClasses: ["min-width-6"],
 						groups: [4],
 					},
 					{
 						type: "separator",
-						description: "Affected characters:",
+						description: "영향을 받는 캐릭터:",
 					},
 					...createUniversalSubmatcher([3], "all|type|^$"),
 					{
 						type: "separator",
-						description: "Types:",
+						description: "속성:",
 					},
 					...createTypesSubmatchers([3], true, "all|type|^$"),
 					{
 						type: "separator",
-						description: "Classes:",
+						description: "타입:",
 					},
 					...createClassesSubmatchers([3], true, "all|^$"),
 					{
 						type: "separator",
-						description: "Positions:",
+						description: "위치:",
 					},
 					...createPositionsSubmatchers(
 						[3],
@@ -5281,23 +5329,23 @@
 			},
 
 			{
-				name: "Orb Control: Auto",
+				name: "슬롯 조정: 자동",
 				targets: ["captain", "special", "superSpecial"],
 				regex:
 					/changes (?=((?:[^o."]+|o(?!rbs))*))\1orbs into (?=((?:[^o."]+|o(?!rbs))*))\2orbs for ([?\d]+\+?)(?:-([?\d]+))? turns?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [3, 4],
 					},
 					{
 						type: "separator",
-						description: "From orbs:",
+						description: "해당 속성에서:",
 					},
 					{
 						type: "option",
-						description: "Any",
+						description: "연",
 						regex: /^$|all/i,
 						cssClasses: ["min-width-12"],
 						groups: [1],
@@ -5318,7 +5366,7 @@
 					),
 					{
 						type: "separator",
-						description: "To orbs:", // To orbs won't have "Any", since simply not selecting any "To" orb does the same thing
+						description: "해당 속성으로:", // To orbs won't have "연", since simply not selecting any "To" orb does the same thing
 					},
 					...createOrbsSubmatchers(
 						[
@@ -5367,7 +5415,7 @@
 			// 		),
 			// 		{
 			// 			type: "option",
-			// 			description: "Matching",
+			// 			description: "속성일치",
 			// 			regex: /(?:^|(?!Badly ).{6}|^.{0,5})\bMatching/i, // alternative for negative lookbehind for "Badly " and "Non-"
 			// 			cssClasses: ["min-width-6"],
 			// 			groups: [1],
@@ -5376,7 +5424,7 @@
 			// },
 
 			{
-				name: "Orb Control: Stage 1",
+				name: "슬롯 조정: 1라운드",
 				targets: ["sailor"],
 				regex: /Changes (?:the )?orbs? (?:of (?=((?:[^c."]+|c(?!har))*))\1characters? )?into([^."]+?)orbs?/i,
 				submatchers: [
@@ -5401,20 +5449,20 @@
 					),
 					{
 						type: "option",
-						description: "Matching",
+						description: "속성일치",
 						regex: /(?:^|(?!Badly ).{6}|^.{0,5})\bMatching/i, // alternative for negative lookbehind for "Badly " and "Non-"
 						cssClasses: ["min-width-6"],
 						groups: [2],
 					},
 					{
 						type: "separator",
-						description: "Positions:",
+						description: "위치:",
 					},
-					...createUniversalSubmatcher([1], "all"),
+					...createUniversalSubmatcher([1], "모두"),
 					...createPositionsSubmatchers(
 						[1],
 						true,
-						"all",
+						"모두",
 						["Adjacent", "Selected"],
 						true
 					),
@@ -5422,7 +5470,7 @@
 			},
 
 			{
-				name: "Orb Control: Randomize",
+				name: "슬롯 랜덤 변경",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex: /randomizes.+orb/i,
 			},
@@ -5434,7 +5482,7 @@
 			},
 
 			{
-				name: "Orb Control: Switch",
+				name: "슬롯을 자유롭게 움직임",
 				targets: ["special", "superSpecial", "swap", "support"],
 				// "Switches orbs between slots 2 times"
 				// "Switches orbs between slots 1 time"
@@ -5442,59 +5490,59 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [1, 2],
 					},
 				],
 			},
 		],
-		"Beneficial Team Effects": [
+		"팀 전체 버프": [
 			{
-				name: "Normal Attack Bypassing Enemy Buffs",
+				name: "일반공격이 모든 방어효과 무시",
 				targets: ["captain", "special", "superSpecial", "swap", "support"],
 				regex:
 					/Attacks.+ignore.+damage reducing Barriers( and Buffs|, Buffs and DEF)/i,
 			},
 
 			{
-				name: "Debuff Immunity Buff",
+				name: "특정 상태 이상 면역",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex: /applies.+immunity/i,
 			},
 
 			{
-				name: "Immunity: Blow Away",
+				name: "일당은 날아가지 않음",
 				targets: ["captain"],
 				regex: /makes crew immune to Blow Away/i,
 			},
 
 			{
-				name: "Immunity: Blow Away",
+				name: "일당은 날아가지 않음",
 				targets: ["sailor"],
 				regex: /Cannot be Blown away/i,
 			},
 
 			{
-				name: "Resource: Beli",
+				name: "베리 획득량 증가",
 				targets: ["captain"],
 				regex: /boosts[^.]+?Beli[^.]+?(?:gained|received) by ([?.\d]+)x/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [1],
 					},
 				],
 			},
 
 			{
-				name: "Resource: EXP",
+				name: "경험치 획득량 증가",
 				targets: ["captain"],
 				regex: /boosts[^.]+?EXP[^.]+?(?:gained|received) by ([?.\d]+)x/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [1],
 					},
 				],
@@ -5507,7 +5555,7 @@
 			},
 
 			{
-				name: "Resource: Drops",
+				name: "보물 추가획득",
 				targets: ["captain"],
 				regex: /(guarantees )?duplicating a drop/i,
 				submatchers: [
@@ -5521,19 +5569,19 @@
 			},
 
 			{
-				name: "Enemy Status Displayer",
+				name: "적의 능력치 표시",
 				targets: ["special", "swap", "support"],
 				regex: /Displays the status of all enemies/i,
 			},
 
 			{
-				name: "PERFECT Assist",
+				name: "퍼펙트 타이밍 쉬워짐",
 				targets: ["captain", "special", "superSpecial", "swap", "support"],
 				regex: /makes PERFECTs (slightly |significantly )?easier to hit/i,
 			},
 
 			{
-				name: "Special Cooldown Charge",
+				name: "필살기 턴 단축",
 				targets: [
 					"captain",
 					"special",
@@ -5550,30 +5598,30 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [2, 3, 4, 5, 6, 7],
 					},
 					...createUniversalSubmatcher([1]),
 					{
 						type: "separator",
-						description: "Affected types:",
+						description: "영향을 받는 속성:",
 					},
 					...createTypesSubmatchers([1]),
 					{
 						type: "separator",
-						description: "Affected classes:",
+						description: "영향을 받는 타입:",
 					},
 					...createClassesSubmatchers([1]),
 					{
 						type: "separator",
-						description: "Affected positions:",
+						description: "영향 받는 캐릭터 위치:",
 					},
 					...createPositionsSubmatchers([1]),
 				],
 			},
 
 			{
-				name: "Ship Special Cooldown Charge",
+				name: "선박 필살기턴 단축",
 				targets: [
 					"captain",
 					"special",
@@ -5587,14 +5635,14 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [1, 2, 3, 4, 5, 6],
 					},
 				],
 			},
 
 			{
-				name: "Switch Effect Charge",
+				name: "체인지 카운트 단축",
 				targets: [
 					"captain",
 					"special",
@@ -5611,30 +5659,30 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [2, 3, 4, 5, 6, 7],
 					},
 					...createUniversalSubmatcher([1]),
 					{
 						type: "separator",
-						description: "Affected types:",
+						description: "영향을 받는 속성:",
 					},
 					...createTypesSubmatchers([1]),
 					{
 						type: "separator",
-						description: "Affected classes:",
+						description: "영향을 받는 타입:",
 					},
 					...createClassesSubmatchers([1]),
 					{
 						type: "separator",
-						description: "Affected positions:",
+						description: "영향 받는 캐릭터 위치:",
 					},
 					...createPositionsSubmatchers([1]),
 				],
 			},
 
 			{
-				name: "VS Gauge Charge",
+				name: "VS 게이지 단축",
 				targets: [
 					"captain",
 					"special",
@@ -5649,31 +5697,31 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [2, 3, 4, 5, 6, 7],
 					},
 					...createUniversalSubmatcher([1]),
 					{
 						type: "separator",
-						description: "Affected types:",
+						description: "영향을 받는 속성:",
 					},
 					...createTypesSubmatchers([1]),
 					{
 						type: "separator",
-						description: "Affected classes:",
+						description: "영향을 받는 타입:",
 					},
 					...createClassesSubmatchers([1]),
 					{
 						type: "separator",
-						description: "Affected positions:",
+						description: "영향 받는 캐릭터 위치:",
 					},
 					...createPositionsSubmatchers([1]),
 				],
 			},
 		],
-		"Bad Team Effects": [
+		"일당 디버프 효과": [
 			{
-				name: "Passive ATK Reducers",
+				name: "공격력 상시감소",
 				targets: ["captain"],
 				// Can be "reduces ATK of all characters by 1x-2x, by ?x-3x otherwise"
 				// Or "reduces HP of Striker characters by 2.5x, their ATK by 2x" (or RCV first)
@@ -5682,30 +5730,30 @@
 				// But NOT "reduces ATK of Striker characters by 2.5x, reduces their HP by 1.2x"
 				// "reduces" should NOT be matched within, which should be a different buff already
 				// `","` is the JSON separator for array items
-				// wrap the part before "ATK" in an atomic group to prevent backtracking
+				// wrap the part before "공격력" in an atomic group to prevent backtracking
 				// prevent it from jumping over "reduces"
 				regex:
 					/Reduces (?=((?:[^.abor"]+|a(?!tk)|\.\d|b(?!oosts)|of ([^."]+?)characters?|o|r(?!educes)|"(?!,"))*))\1ATK(?: and HP| and RCV|, HP and RCV)?(?: of ([^."]*?)characters?)? by ([?\d]+)%(?:-([?\d]+)%)?(?:, by ([?\d]+)%(?:-([?\d]+)%)?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Percentage:",
+						description: "비율:",
 						groups: [4, 5, 6, 7],
 					},
 					...createUniversalSubmatcher([2, 3]),
 					{
 						type: "separator",
-						description: "Affected types:",
+						description: "영향을 받는 속성:",
 					},
 					...createTypesSubmatchers([2, 3]),
 					{
 						type: "separator",
-						description: "Affected classes:",
+						description: "영향을 받는 타입:",
 					},
 					...createClassesSubmatchers([2, 3]),
 					{
 						type: "separator",
-						description: "Affected positions:",
+						description: "영향 받는 캐릭터 위치:",
 					},
 					...createPositionsSubmatchers([2, 3], true, undefined, [
 						"Adjacent",
@@ -5715,7 +5763,7 @@
 			},
 
 			{
-				name: "Passive HP Reducers",
+				name: "체력 상시 감소",
 				targets: ["captain"],
 				// Can be "reduces HP of all characters by 1x-2x, by ?x-3x otherwise"
 				// Or "reduces ATK of Striker characters by 2.5x, their HP by 1.2x"
@@ -5732,23 +5780,23 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Percentage:",
+						description: "비율:",
 						groups: [4, 5, 6, 7],
 					},
 					...createUniversalSubmatcher([2, 3]),
 					{
 						type: "separator",
-						description: "Affected types:",
+						description: "영향을 받는 속성:",
 					},
 					...createTypesSubmatchers([2, 3]),
 					{
 						type: "separator",
-						description: "Affected classes:",
+						description: "영향을 받는 타입:",
 					},
 					...createClassesSubmatchers([2, 3]),
 					{
 						type: "separator",
-						description: "Affected positions:",
+						description: "영향 받는 캐릭터 위치:",
 					},
 					...createPositionsSubmatchers([2, 3], true, undefined, [
 						"Adjacent",
@@ -5758,7 +5806,7 @@
 			},
 
 			{
-				name: "Passive RCV Reducers",
+				name: "회복력 상시 감소",
 				targets: ["captain"],
 				// same as ATK and HP
 				// should not match "Reduces ATK of all characters by 3x, their HP by 1.25x and recovers 0.5x this character's RCV at the end of the turn"
@@ -5767,23 +5815,23 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Percentage:",
+						description: "비율:",
 						groups: [4, 5, 6, 7],
 					},
 					...createUniversalSubmatcher([2, 3]),
 					{
 						type: "separator",
-						description: "Affected types:",
+						description: "영향을 받는 속성:",
 					},
 					...createTypesSubmatchers([2, 3]),
 					{
 						type: "separator",
-						description: "Affected classes:",
+						description: "영향을 받는 타입:",
 					},
 					...createClassesSubmatchers([2, 3]),
 					{
 						type: "separator",
-						description: "Affected positions:",
+						description: "영향 받는 캐릭터 위치:",
 					},
 					...createPositionsSubmatchers([2, 3], true, undefined, [
 						"Adjacent",
@@ -5793,7 +5841,7 @@
 			},
 
 			{
-				name: "ATK reducers",
+				name: "공격력 감소",
 				targets: ["special", "superSpecial", "swap", "support"],
 				/* Uses explicit greedy alternation for "of ...characters", preventing
                 backtracking with every character matched in it (easily reaches a
@@ -5814,7 +5862,7 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Percentage:",
+						description: "비율:",
 						groups: [2, 3, 8, 9],
 					},
 					{
@@ -5824,23 +5872,23 @@
 					},
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [6, 7, 12, 13],
 					},
 					...createUniversalSubmatcher([1]),
 					{
 						type: "separator",
-						description: "Affected types:",
+						description: "영향을 받는 속성:",
 					},
 					...createTypesSubmatchers([1]),
 					{
 						type: "separator",
-						description: "Affected classes:",
+						description: "영향을 받는 타입:",
 					},
 					...createClassesSubmatchers([1]),
 					{
 						type: "separator",
-						description: "Affected positions:",
+						description: "영향 받는 캐릭터 위치:",
 					},
 					...createPositionsSubmatchers([1]),
 				],
@@ -5853,26 +5901,26 @@
 			},
 
 			{
-				name: "Current Health reducers",
+				name: "체력이 일정 비율 감소",
 				targets: ["captain", "special", "superSpecial", "swap", "support"],
 				regex:
 					/Reduces crew's current HP (?:by ([?.\d]+)%(?:-([?.\d]+)%)?|to ([?\d]+)(?:-([?\d]+))?)(?:, (?:by ([?.\d]+)%(?:-([?.\d]+)%)?|to ([?\d]+)(?:-([?\d]+))?))?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Percentage:",
+						description: "비율:",
 						groups: [1, 2, 5, 6],
 					},
 					{
 						type: "number",
-						description: "Set to:",
+						description: "설정 값:",
 						groups: [3, 4, 7, 8],
 					},
 				],
 			},
 
 			{
-				name: "Self bind %target%",
+				name: "필살기 사용시 봉쇄상태",
 				targets: ["special", "superSpecial", "swap", "support"],
 				// match "Binds self for 2 turns"
 				// match "Binds and Despairs himself for 7 turns"
@@ -5881,14 +5929,14 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [1, 2, 3, 4],
 					},
 				],
 			},
 
 			{
-				name: "Self despair %target%",
+				name: "자신에게 마비상태 부여",
 				targets: ["special", "superSpecial", "swap", "support"],
 				// match "Binds and Despairs himself for 7 turns"
 				regex:
@@ -5896,14 +5944,14 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [1, 2, 3, 4],
 					},
 				],
 			},
 
 			{
-				name: "Health Loss Damage Dealer",
+				name: "체력을 소모시켜 데미지 부여",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex:
 					/Despairs[^."]+?self for ([?\d]+\+?)(?:-([?\d]+))? turns?(?:, for ([?\d]+\+?)(?:-([?\d]+))? turns?)?/i,
@@ -5911,12 +5959,12 @@
 					{
 						type: "separator",
 						description:
-							"This filter matches units that reduce the crew's HP and deals damage based on the HP subtracted. This counts as enemy inflicted damage.",
+							"이 필터는 일당의 체력을 감소시키고, 감소된 체력을 기준으로 데미지를 주는 유닛을 포함합니다. 해당 효과는 적이 가한 데미지로 간주됩니다.",
 					},
 				],
 			},
 		],
-		"Reduce Status Effects": [
+		"상태이상 효과 감소": [
 			{
 				name: "Old Bind reducers",
 				targets: [
@@ -5931,16 +5979,16 @@
 			},
 
 			{
-				name: "Bind",
+				name: "봉쇄",
 				targets: ["captain", "special", "superSpecial", "swap", "sailor"],
-				// must not match "ship bind" or "special bind"
+				// must not match "선박 봉인" or "특정 봉쇄"
 				// there is no swap that will remove bind on themselves, because bind stops all abilities
 				regex:
 					/(?:reduces|removes)(?: |[^."]+?, |[^."]+? and )bind[^."]+?duration (?:by ([?\d]+)(?:-([?\d]+))? turns?|(completely))( (?:for|on) \w+ characters?)?(?:, by ([?\d]+)(?:-([?\d]+))? turns?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [1, 2, 3, 5, 6],
 					},
 					{
@@ -5953,7 +6001,7 @@
 					},
 					{
 						type: "option",
-						description: "Whole crew",
+						description: "모두",
 						regex: /^$/,
 						radioGroup: "1",
 						groups: [4],
@@ -5963,15 +6011,15 @@
 			},
 
 			{
-				name: "Bind",
+				name: "봉쇄",
 				targets: ["support"],
-				// must not match "ship bind" or "special bind"
+				// must not match "선박 봉인" or "특정 봉쇄"
 				regex:
 					/(?:reduces|removes)(?: |[^."]+?, |[^."]+? and )bind[^."]+?duration (?:by ([?\d]+)(?:-([?\d]+))? turns?|(completely))( (?:for|on) the supported character)?(?:, by ([?\d]+)(?:-([?\d]+))? turns?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [1, 2, 3, 5, 6],
 					},
 					{
@@ -5984,7 +6032,7 @@
 					},
 					{
 						type: "option",
-						description: "Whole crew",
+						description: "모두",
 						regex: /^$/,
 						radioGroup: "1",
 						groups: [4],
@@ -6000,7 +6048,7 @@
 			},
 
 			{
-				name: "Ship Bind",
+				name: "선박 봉인",
 				targets: [
 					"captain",
 					"special",
@@ -6014,21 +6062,21 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [1, 2, 3, 4, 5],
 					},
 				],
 			},
 
 			{
-				name: "Ship Bind",
+				name: "선박 봉인",
 				targets: ["potential"],
 				regex:
 					/Reduces Ship Bind duration (?:by ([?\d]+) turns?|(completely))/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [1, 2],
 					},
 				],
@@ -6048,7 +6096,7 @@
 			},
 
 			{
-				name: "Despair",
+				name: "선장효과무효",
 				targets: [
 					"captain",
 					"special",
@@ -6063,12 +6111,12 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [1, 2, 3, 5, 6],
 					},
 					{
 						type: "option",
-						description: "Self only",
+						description: "자기 자신만",
 						regex: /^this|^the supported/,
 						radioGroup: "1",
 						groups: [4],
@@ -6076,7 +6124,7 @@
 					},
 					{
 						type: "option",
-						description: "Whole crew",
+						description: "모두",
 						regex: /^$/,
 						radioGroup: "1",
 						groups: [4],
@@ -6086,19 +6134,19 @@
 			},
 
 			{
-				name: "Fear (IGN: Sailor Despair)",
+				name: "선원효과 무효",
 				targets: ["captain", "special", "superSpecial", "swap", "support"],
 				regex:
 					/(?:reduces|removes)[^."]+?sailor despair[^."]+?duration (?:by ([?\d]+)(?:-([?\d]+))? turns?|(completely))(?: on ([^."]+?)characters?)?(?:, by ([?\d]+)(?:-([?\d]+))? turns?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [1, 2, 3, 5, 6],
 					},
 					{
 						type: "option",
-						description: "Self only",
+						description: "자기 자신만",
 						regex: /^this|^the supported/,
 						radioGroup: "1",
 						groups: [4],
@@ -6106,7 +6154,7 @@
 					},
 					{
 						type: "option",
-						description: "Whole crew",
+						description: "모두",
 						regex: /^$/,
 						radioGroup: "1",
 						groups: [4],
@@ -6122,14 +6170,14 @@
 			},
 
 			{
-				name: "Fear (IGN: Sailor Despair)",
+				name: "선원효과 무효",
 				targets: ["potential"],
 				regex:
 					/Reduces? Sailor Despair duration (?:by ([?\d]+) turns?|(completely))/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [1, 2],
 					},
 				],
@@ -6150,7 +6198,7 @@
 
 			{
 				//name: "Silence (IGN: Special Bind)",
-				name: "Special Bind",
+				name: "특정 봉쇄",
 				targets: [
 					"captain",
 					"special",
@@ -6164,12 +6212,12 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [1, 2, 3, 5, 6],
 					},
 					{
 						type: "option",
-						description: "Self only",
+						description: "자기 자신만",
 						regex: /^this|^the supported/,
 						radioGroup: "1",
 						groups: [4],
@@ -6177,7 +6225,7 @@
 					},
 					{
 						type: "option",
-						description: "Whole crew",
+						description: "모두",
 						regex: /^$/,
 						radioGroup: "1",
 						groups: [4],
@@ -6185,7 +6233,7 @@
 					},
 					{
 						type: "option",
-						description: "Certain types/classes",
+						description: "일부 속성/타입",
 						regex: /^(?!this|the supported)./,
 						radioGroup: "1",
 						groups: [4],
@@ -6196,19 +6244,19 @@
 
 			{
 				//name: "Active Ability Silence (IGN: Silence)",
-				name: "Silence (Active Ability Silence)",
+				name: "침묵 상태",
 				targets: ["captain", "special", "superSpecial", "swap", "support"],
 				regex:
 					/(?:reduces|removes)[^."]+?silence[^."]+?duration (?:by ([?\d]+)(?:-([?\d]+))? turns?|(completely))(?: on ([^."]+?)characters?)?(?:, by ([?\d]+)(?:-([?\d]+))? turns?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [1, 2, 3, 5, 6],
 					},
 					{
 						type: "option",
-						description: "Self only",
+						description: "자기 자신만",
 						regex: /^this|^the supported/,
 						radioGroup: "1",
 						groups: [4],
@@ -6216,7 +6264,7 @@
 					},
 					{
 						type: "option",
-						description: "Whole crew",
+						description: "모두",
 						regex: /^$/,
 						radioGroup: "1",
 						groups: [4],
@@ -6239,7 +6287,7 @@
 			},
 
 			{
-				name: "Paralysis",
+				name: "마비",
 				targets: [
 					"captain",
 					"special",
@@ -6253,12 +6301,12 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [1, 2, 3, 5, 6],
 					},
 					{
 						type: "option",
-						description: "Self only",
+						description: "자기 자신만",
 						regex: /^this|^the supported/,
 						radioGroup: "1",
 						groups: [4],
@@ -6266,7 +6314,7 @@
 					},
 					{
 						type: "option",
-						description: "Whole crew",
+						description: "모두",
 						regex: /^$/,
 						radioGroup: "1",
 						groups: [4],
@@ -6298,7 +6346,7 @@
 			},
 
 			{
-				name: "Poison",
+				name: "독",
 				targets: [
 					"captain",
 					"special",
@@ -6312,7 +6360,7 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [1, 2, 3, 4, 5],
 					},
 				],
@@ -6325,19 +6373,19 @@
 			},
 
 			{
-				name: "Special Rewind",
+				name: "필살기 턴 되돌리기",
 				targets: ["captain", "sailor"],
 				regex:
 					/restores special cooldown of ([^."]+?)characters? (?:(completely)|by ([?\d]+)(?:-([?\d]+))? turns?)/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [2, 3, 4],
 					},
 					{
 						type: "option",
-						description: "Self only",
+						description: "자기 자신만",
 						regex: /^this/,
 						radioGroup: "1",
 						groups: [1],
@@ -6345,7 +6393,7 @@
 					},
 					{
 						type: "option",
-						description: "Whole crew",
+						description: "모두",
 						regex: /all/,
 						radioGroup: "1",
 						groups: [1],
@@ -6382,7 +6430,7 @@
 			},
 
 			{
-				name: "Burn",
+				name: "화상",
 				targets: [
 					"captain",
 					"special",
@@ -6396,7 +6444,7 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [1, 2, 3, 4, 5],
 					},
 				],
@@ -6417,7 +6465,7 @@
 			},
 
 			{
-				name: "Blindness (IGN: Remove SFX)",
+				name: "의성어 은폐",
 				targets: [
 					"captain",
 					"special",
@@ -6431,7 +6479,7 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [1, 2, 3, 4, 5],
 					},
 				],
@@ -6451,7 +6499,7 @@
 			},
 
 			{
-				name: "Stun",
+				name: "기절",
 				targets: [
 					"captain",
 					"special",
@@ -6485,7 +6533,7 @@
 			},
 
 			{
-				name: "Slot Bind",
+				name: "슬롯 봉쇄",
 				targets: [
 					"captain",
 					"special",
@@ -6499,12 +6547,12 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [1, 2, 3, 5, 6],
 					},
 					{
 						type: "option",
-						description: "Self only",
+						description: "자기 자신만",
 						regex: /^this|^the supported/,
 						radioGroup: "1",
 						groups: [4],
@@ -6512,7 +6560,7 @@
 					},
 					{
 						type: "option",
-						description: "Whole crew",
+						description: "모두",
 						regex: /^$/,
 						radioGroup: "1",
 						groups: [4],
@@ -6528,14 +6576,14 @@
 			},
 
 			{
-				name: "Slot Bind",
+				name: "슬롯 봉쇄",
 				targets: ["potential"],
 				regex:
 					/Reduces Slot Bind duration (?:by ([?\d]+) turns?|(completely))/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [1, 2],
 					},
 				],
@@ -6548,14 +6596,14 @@
 			},
 
 			{
-				name: "Slot Barrier",
+				name: "슬롯 베리어",
 				targets: ["potential"],
 				regex:
 					/Reduces Slot Barrier duration (?:by ([?\d]+) stacks?|(completely))/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Stacks:",
+						description: "상태:",
 						groups: [1, 2],
 					},
 				],
@@ -6576,7 +6624,7 @@
 			},
 
 			{
-				name: "ATK DOWN",
+				name: "공격력 감소",
 				targets: [
 					"captain",
 					"special",
@@ -6591,14 +6639,14 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [1, 2, 3, 4, 5],
 					},
 				],
 			},
 
 			{
-				name: "Minimum-Chain ATK DOWN",
+				name: "일정 체인계수 이하시 공격력 감소",
 				targets: [
 					"captain",
 					"special",
@@ -6613,14 +6661,14 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [1, 2, 3, 4, 5],
 					},
 				],
 			},
 
 			{
-				name: "Maximum-Chain ATK DOWN",
+				name: "일정 체인계수 이상시 공격력 감소",
 				targets: [
 					"captain",
 					"special",
@@ -6635,7 +6683,7 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [1, 2, 3, 4, 5],
 					},
 				],
@@ -6649,13 +6697,13 @@
 
 			{
 				// Split from "Nutrition/Reduce Hunger Stacks" PA
-				name: "Hunger",
+				name: "공복 내성",
 				targets: ["potential"],
 				regex: /reduces Hunger stack (?:by ([?\d]+) stacks?|(completely))/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Stacks:",
+						description: "상태:",
 						groups: [1, 2],
 					},
 				],
@@ -6676,7 +6724,7 @@
 			},
 
 			{
-				name: "RCV DOWN",
+				name: "회복력 감소",
 				targets: [
 					"captain",
 					"special",
@@ -6690,7 +6738,7 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [1, 2, 3, 4, 5],
 					},
 				],
@@ -6711,7 +6759,7 @@
 			},
 
 			{
-				name: "No Healing",
+				name: "회복 무효",
 				targets: [
 					"captain",
 					"special",
@@ -6725,14 +6773,14 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [1, 2, 3, 4, 5],
 					},
 				],
 			},
 
 			{
-				name: "Counter-Healing",
+				name: "회복시 데미지부여",
 				targets: [
 					"captain",
 					"special",
@@ -6746,14 +6794,14 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [1, 2, 3, 4, 5],
 					},
 				],
 			},
 
 			{
-				name: "Counter-RCV",
+				name: "Counter-RCV - 번역중",
 				targets: [
 					"captain",
 					"special",
@@ -6767,7 +6815,7 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [1, 2, 3, 4, 5],
 					},
 				],
@@ -6780,14 +6828,14 @@
 			},
 
 			{
-				name: "No Healing",
+				name: "회복 무효",
 				targets: ["potential"],
 				regex:
 					/Reduces No Healing duration (?:by ([?\d]+) turns?|(completely))/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [1, 2],
 					},
 				],
@@ -6808,7 +6856,7 @@
 			},
 
 			{
-				name: "Increase Damage Taken",
+				name: "적이 받는 데미지상승",
 				targets: [
 					"captain",
 					"special",
@@ -6822,7 +6870,7 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [1, 2, 3, 4, 5],
 					},
 				],
@@ -6836,14 +6884,14 @@
 
 			{
 				// Split from "Enrage/Reduce Increase Damage Taken" PA
-				name: "Increase Damage Taken",
+				name: "적이 받는 데미지상승",
 				targets: ["potential"],
 				regex:
 					/reduces Increase Damage Taken duration (?:by ([?\d]+) turns?|(completely))/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [1, 2],
 					},
 				],
@@ -6863,13 +6911,13 @@
 			},
 
 			{
-				name: "Positive Buffs",
+				name: "유리효과",
 				targets: ["special", "superSpecial", "swap", "sailor", "support"],
 				regex: /removes[^."]+?positive buffs/i,
 			},
 
 			{
-				name: "Orb Rate Increase and Decrease",
+				name: "슬롯 출현율의 상승 또는 감소 효과",
 				targets: [
 					"captain",
 					"special",
@@ -6882,7 +6930,7 @@
 			},
 
 			{
-				name: "Beneficial Orb Buff and Non-beneficial Orb Debuff",
+				name: "[유리] 또는 [불리] 슬롯으로 취급",
 				targets: ["special"],
 				regex:
 					/(reduces|removes).+beneficial orb Buff and non-beneficial orb Debuff/i,
@@ -6902,7 +6950,7 @@
 			},
 
 			{
-				name: "Chain Multiplier Limit/Chain Lock",
+				name: "체인계수 고정",
 				targets: [
 					"captain",
 					"special",
@@ -6916,7 +6964,7 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [1, 2, 3, 4, 5],
 					},
 				],
@@ -6936,7 +6984,7 @@
 			},
 
 			{
-				name: "Chain Coefficient Reduction",
+				name: "체인계수 증가량 감소",
 				targets: [
 					"captain",
 					"special",
@@ -6950,14 +6998,14 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [1, 2, 3, 4, 5],
 					},
 				],
 			},
 
 			{
-				name: "Special Use Limit",
+				name: "필살기 사용 제한",
 				targets: ["captain", "special", "potential", "support"],
 				regex:
 					// /(?:reduces|removes)[^."]+?(?: |[^."]+? and |[^."]+?, )?(?:Special Use Limit|selected debuffs?)[^."]+?duration (?:by ([?\d]+)(?:-([?\d]+))? turns?|(completely))/i,
@@ -6965,28 +7013,28 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [1, 2],
 					},
 				],
 			},
 
 			{
-				name: "Healing Reduction",
+				name: "회복력 감소",
 				targets: ["potential"],
 				regex:
 					/Reduces Healing Reduction duration (?:by ([?\d]+) turns?|(completely))/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [1, 2],
 					},
 				],
 			},
 
 			{
-				name: "Captain Swap",
+				name: "선장 교체",
 				targets: [
 					"captain",
 					"special",
@@ -7006,40 +7054,40 @@
 					},
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [2, 3, 4, 5, 6],
 					},
 				],
 			},
 			{
-				name: "Bleed",
+				name: "출혈",
 				targets: ["captain", "special", "sailor"],
 				regex:
 					/(?:reduces|removes)[^."]+?(?:Bleed|selected debuffs?)[^."]+?duration (?:by ([?\d]+)(?:-([?\d]+))? turns?|(completely))(?:, by ([?\d]+)(?:-([?\d]+))? turns?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [1, 2, 3, 4, 5],
 					},
 				],
 			},
 			{
-				name: "Pain",
+				name: "격통",
 				targets: ["captain", "special", "sailor"],
 				regex:
 				/(?:reduces|removes)[^."]+?(?:Pain|selected debuffs?)[^."]+?duration (?:by ([?\d]+)(?:-([?\d]+))? turns?|(completely))(?:, by ([?\d]+)(?:-([?\d]+))? turns?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [1, 2, 3, 4, 5],
 					},
 				],
 			},
 
 			{
-				name: "Blown Away",
+				name: "날려버리기",
 				targets: [
 					"special",
 				],
@@ -7048,33 +7096,33 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [1, 2, 3, 4, 5],
 					},
 				],
 			},
 		],
-		"Apply Enemy Effects": [
+		"적에게 상태이상 부여": [
 			{
-				name: "Delayers",
+				name: "지연",
 				targets: ["captain"],
 				regex:
 					/(ignores? (?:Delay )?Debuff Protection and )?delays (all enemies|that enemy) by ([?\d]+)(?:-([?\d]+))? turns?(?:, by ([?\d]+)(?:-([?\d]+))? turns?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [2, 3, 4, 5],
 					},
 					{
 						type: "option",
-						description: "Ignores Immunity",
+						description: "상태이상면역 무시",
 						regex: /i/,
 						groups: [1],
 					},
 					{
 						type: "option",
-						description: "One enemy",
+						description: "적 한명",
 						regex: /^t/,
 						radioGroup: "1",
 						groups: [2],
@@ -7082,7 +7130,7 @@
 					},
 					{
 						type: "option",
-						description: "All enemies",
+						description: "모든 적",
 						regex: /^a/,
 						radioGroup: "1",
 						groups: [2],
@@ -7098,25 +7146,25 @@
 			},
 
 			{
-				name: "Delayers",
+				name: "지연",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex:
 					/(ignores? (?:Delay )?Debuff Protection and )?delays (that enemy|all enemies) by ([?\d]+)(?:-([?\d]+))? turns?(?:, by ([?\d]+)(?:-([?\d]+))? turns?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [3, 4, 5, 6],
 					},
 					{
 						type: "option",
-						description: "Ignores Immunity",
+						description: "상태이상면역 무시",
 						regex: /i/,
 						groups: [1],
 					},
 					{
 						type: "option",
-						description: "One enemy",
+						description: "적 한명",
 						regex: /^t/, // no class or type begins with "t" anyway
 						radioGroup: "1",
 						groups: [2],
@@ -7124,7 +7172,7 @@
 					},
 					{
 						type: "option",
-						description: "All enemies",
+						description: "모든 적",
 						regex: /^a/,
 						radioGroup: "1",
 						groups: [2],
@@ -7140,20 +7188,20 @@
 			},
 
 			{
-				name: "Poisoners",
+				name: "중독",
 				targets: ["captain", "special", "superSpecial", "swap", "support"],
 				regex:
 					/(ignores? (?:Defense Reduction )?Debuff Protection and )?(strongly poisons|poisons|Inflicts Toxic)/i,
 				submatchers: [
 					{
 						type: "option",
-						description: "Ignores Immunity",
+						description: "상태이상면역 무시",
 						regex: /i/,
 						groups: [1],
 					},
 					{
 						type: "option",
-						description: "Poison",
+						description: "독",
 						regex: /^p/i,
 						radioGroup: "1",
 						groups: [2],
@@ -7161,7 +7209,7 @@
 					},
 					{
 						type: "option",
-						description: "Strong Poison",
+						description: "맹독",
 						regex: /^s/i,
 						radioGroup: "1",
 						groups: [2],
@@ -7169,7 +7217,7 @@
 					},
 					{
 						type: "option",
-						description: "Toxic",
+						description: "중독",
 						regex: /^i/i,
 						radioGroup: "1",
 						groups: [2],
@@ -7179,24 +7227,24 @@
 			},
 
 			{
-				name: "Paralyzers",
+				name: "마비",
 				targets: ["captain", "special", "superSpecial", "swap", "support"],
 				regex:
 					/(ignores (?:Negative )?Debuff Protection and )?Paralyzes \(([?\d]+)%(?:-([?\d]+)%)?\) all enemies for ([?\d]+\+?)(?:-([?\d]+))? turns?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Percentage:",
+						description: "비율:",
 						groups: [2, 3],
 					},
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [4, 5],
 					},
 					{
 						type: "option",
-						description: "Ignores Immunity",
+						description: "상태이상면역 무시",
 						regex: /i/,
 						groups: [1],
 					},
@@ -7210,24 +7258,24 @@
 			},
 
 			{
-				name: "Defense Reduction",
+				name: "방어력 감소",
 				targets: ["captain", "special", "superSpecial", "swap", "support"],
 				regex:
 					/(ignores? (?:Defense Reduction )?Debuff Protection and )?Reduces the defense of all enemies by ([?\d]+)%(?:-([?\d]+)%)? for ([?\d]+\+?)(?:-([?\d]+))? turns?(?:, by ([?\d]+)%(?:-([?\d]+)%)?(?: for ([?\d]+\+?)(?:-([?\d]+))? turns?)?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Percentage:",
+						description: "비율:",
 						groups: [2, 3, 6, 7],
 					},
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [4, 5, 8, 9],
 					},
 					{
 						type: "option",
-						description: "Ignores Immunity",
+						description: "상태이상면역 무시",
 						regex: /i/,
 						groups: [1],
 					},
@@ -7235,7 +7283,7 @@
 			},
 
 			{
-				name: "Burn",
+				name: "화상",
 				targets: ["captain", "special", "superSpecial", "swap", "support"],
 				// "inflicts all enemies with Burn that will deal 100x enemies' ATK in damage for 4 turns that will ignore debuff protection"
 				regex:
@@ -7243,17 +7291,17 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [2, 3],
 					},
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [4, 5, 6, 7],
 					},
 					{
 						type: "option",
-						description: "Ignores Immunity",
+						description: "상태이상면역 무시",
 						regex: /./,
 						groups: [1, 8],
 					},
@@ -7261,19 +7309,19 @@
 			},
 
 			{
-				name: "Negative",
+				name: "네거티브",
 				targets: ["captain", "special", "superSpecial", "swap", "support"],
 				regex:
 					/(ignores (?:Negative )?Debuff Protection and )?inflicts enemies with Negative for ([?\d]+)(?:-([?\d]+))? turns?(?:, for ([?\d]+)(?:-([?\d]+))? turns?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [2, 3, 4, 5],
 					},
 					{
 						type: "option",
-						description: "Ignores Immunity",
+						description: "상태이상면역 무시",
 						regex: /i/,
 						groups: [1],
 					},
@@ -7281,7 +7329,7 @@
 			},
 
 			{
-				name: "Melo-Melo",
+				name: "메로 메로",
 				targets: ["captain", "special", "superSpecial", "swap", "support"],
 				regex:
 					/(ignores (?:Melo-Melo )?Debuff Protection and )?inflicts Melo-Melo to (all enemies|enemies that attack you) for ([?\d]+\+?)(?:-([?\d]+))? (additional )?hits/i,
@@ -7293,7 +7341,7 @@
 					},
 					{
 						type: "option",
-						description: "Attacking enemies",
+						description: "적 공격",
 						regex: /^e/,
 						radioGroup: "1",
 						groups: [2],
@@ -7301,7 +7349,7 @@
 					},
 					{
 						type: "option",
-						description: "All enemies",
+						description: "모든 적",
 						regex: /^a/,
 						radioGroup: "1",
 						groups: [2],
@@ -7309,13 +7357,13 @@
 					},
 					{
 						type: "option",
-						description: "Ignores Immunity",
+						description: "상태이상면역 무시",
 						regex: /i/,
 						groups: [1],
 					},
 					{
 						type: "option",
-						description: "Additional Hits",
+						description: "추가 히트",
 						regex: /a/,
 						groups: [5],
 					},
@@ -7329,30 +7377,30 @@
 			},
 
 			{
-				name: "Increase Damage Taken",
+				name: "적이 받는 데미지상승",
 				targets: ["captain", "special", "superSpecial", "swap", "support"],
 				regex:
 					/(ignores (?:Increase Damage Taken )?Debuff Protection and )?Inflicts (?:all enemies) with Increase Damage Taken by ([?.\d]+)x(?:-([?.\d]+)x)?(?:, ([^,]+),)? for ([?\d]+\+?)(?:-([?\d]+))? turns?(?:, by ([?.\d]+)x(?:-([?.\d]+)x)?(?:, ([^,]+),)?(?: for ([?\d]+\+?)(?:-([?\d]+))? turns?)?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [2, 3, 7, 8],
 					},
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [5, 6, 10, 11],
 					},
 					{
 						type: "option",
-						description: "Ignores Immunity",
+						description: "상태이상면역 무시",
 						regex: /i/,
 						groups: [1],
 					},
 					{
 						type: "option",
-						description: "Double Enhance",
+						description: "버프 중첩",
 						regex: /can be enhanced up to 2 times/,
 						radioGroup: "targets",
 						groups: [4, 9],
@@ -7362,7 +7410,7 @@
 			},
 
 			{
-				name: "Resistance Reduction",
+				name: "내성 감소",
 				targets: [
 					"captain",
 					"special",
@@ -7376,53 +7424,53 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Percentage:",
+						description: "비율:",
 						groups: [2, 3, 4, 5],
 					},
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [4, 5, 8, 9],
 					},
 					{
 						type: "separator",
-						description: "Affected types:",
+						description: "영향을 받는 속성:",
 					},
 					...createTypesSubmatchers([1]),
 					{
 						type: "separator",
-						description: "Affected classes:",
+						description: "영향을 받는 타입:",
 					},
 					...createClassesSubmatchers([1]),
 				],
 			},
 
 			{
-				name: "Weaken",
+				name: "약체",
 				targets: ["captain", "special", "superSpecial", "swap", "support"],
 				regex:
 					/(Ignores (?:Weakened )?Debuff Protection and )?Inflicts (?:all enemies) with Weaken by ([?.\d]+)x(?:-([?.\d]+)x)?, by ([?.\d]+)x(?:-([?.\d]+)x)? if enemies are inflicted with Increase Damage Taken, for ([?\d]+\+?)(?:-([?\d]+))? turns?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율",
 						groups: [2, 3, 4, 5],
 					},
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [6, 7, 8, 9],
 					},
 					{
 						type: "option",
-						description: "Ignores Immunity",
+						description: "상태이상면역 무시",
 						regex: /i/,
 						groups: [1],
 					},
 				],
 			},
 			{
-				name: "Marked",
+				name: "강적",
 				targets: ["special", "superSpecial"],
 				regex:
 					/Marks all enemies (?:with ([?.,\d]+) or more MAX HP)/i,
@@ -7435,7 +7483,7 @@
 				],
 			},
 			{
-				name: "Percent Damage Reduction",
+				name: "데미지 감소상태",
 				targets: ["special", "superSpecial"],
 				regex:
 					/(ignores? (?:Percent Damage Reduction )?Debuff Protection and )?(?:Reduces|Removes) enemies' damage received by ([?\d]+)%(?:-([?\d]+)%)? for ([?\d]+)(?:-([?\d]+))? turns?/i,
@@ -7447,13 +7495,13 @@
 					},
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [3, 4],
 					},
 				],
 			},
 		],
-		"Reduce Enemy Effects": [
+		"적 상태이상 감소": [
 			{
 				name: "Old Enemy End of Turn Heal buff reducer",
 				targets: ["special", "superSpecial", "swap", "support"],
@@ -7461,14 +7509,14 @@
 			},
 
 			{
-				name: "End of Turn Heal",
+				name: "턴 종료 후 회복",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex:
 					/(?:reduces|removes) enemies[^."]+?End of Turn Heal[^."]+?duration (?:by ([?\d]+)(?:-([?\d]+))? turns?|(completely))(?:, by ([?\d]+)(?:-([?\d]+))? turns?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [1, 2, 3, 4, 5],
 					},
 				],
@@ -7481,14 +7529,14 @@
 			},
 
 			{
-				name: "End of Turn Damage/Percent Cut",
+				name: "턴 종료시 데미지/비율데미지",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex:
 					/(?:reduces|removes) enemies[^."]+?End of Turn Damage\/Percent Cut[^."]+?duration (?:by ([?\d]+)(?:-([?\d]+))? turns?|(completely))(?:, by ([?\d]+)(?:-([?\d]+))? turns?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [1, 2, 3, 4, 5],
 					},
 				],
@@ -7501,14 +7549,14 @@
 			},
 
 			{
-				name: "Enrage",
+				name: "격노",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex:
 					/(?:reduces|removes) enemies[^."]+?Enrage[^."]+?duration (?:by ([?\d]+)(?:-([?\d]+))? turns?|(completely))(?:, by ([?\d]+)(?:-([?\d]+))? turns?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [1, 2, 3, 4, 5],
 					},
 				],
@@ -7521,14 +7569,14 @@
 			},
 
 			{
-				name: "ATK UP",
+				name: "공격력 상승",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex:
 					/(?:reduces|removes) enemies'[^."]+?ATK UP[^."]+?duration (?:by ([?\d]+)(?:-([?\d]+))? turns?|(completely))(?:, by ([?\d]+)(?:-([?\d]+))? turns?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [1, 2, 3, 4, 5],
 					},
 				],
@@ -7541,14 +7589,14 @@
 			},
 
 			{
-				name: "Increased Defense",
+				name: "방어력 상승",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex:
 					/(?:reduces|removes) enemies'[^."]+?Increased Defense[^."]+?duration (?:by ([?\d]+)(?:-([?\d]+))? turns?|(completely))(?:, by ([?\d]+)(?:-([?\d]+))? turns?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [1, 2, 3, 4, 5],
 					},
 				],
@@ -7561,14 +7609,14 @@
 			},
 
 			{
-				name: "Percent Damage Reduction",
+				name: "데미지 감소상태",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex:
 					/(?:reduces|removes) enemies'[^."]+?Percent Damage Reduction[^."]+?duration (?:by ([?\d]+)(?:-([?\d]+))? turns?|(completely))(?:, by ([?\d]+)(?:-([?\d]+))? turns?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [1, 2, 3, 4, 5],
 					},
 				],
@@ -7581,14 +7629,14 @@
 			},
 
 			{
-				name: "Damage Nullification",
+				name: "데미지 무효",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex:
 					/(?:reduces|removes) enemies'[^."]+?Damage Nullification[^."]+?duration (?:by ([?\d]+)(?:-([?\d]+))? turns?|(completely))(?:, by ([?\d]+)(?:-([?\d]+))? turns?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [1, 2, 3, 4, 5],
 					},
 				],
@@ -7601,28 +7649,28 @@
 			},
 
 			{
-				name: "Threshold Damage Reduction",
+				name: "일정 이상데미지 감소상태",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex:
 					/(?:reduces|removes) enemies'[^."]+?Threshold Damage Reduction[^."]+?duration (?:by ([?\d]+)(?:-([?\d]+))? turns?|(completely))(?:, by ([?\d]+)(?:-([?\d]+))? turns?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [1, 2, 3, 4, 5],
 					},
 				],
 			},
 
 			{
-				name: "Orb-Based Damage Reduction",
+				name: "특정 슬롯에 의한 데미지 감소",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex:
 					/(?:reduces|removes) enemies'[^."]+?Orb-Based Damage Reduction[^."]+?duration (?:by ([?\d]+)(?:-([?\d]+))? turns?|(completely))(?:, by ([?\d]+)(?:-([?\d]+))? turns?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [1, 2, 3, 4, 5],
 					},
 				],
@@ -7635,14 +7683,14 @@
 			},
 
 			{
-				name: "Barrier",
+				name: "베리어",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex:
 					/(?:reduces|removes) enemies'[^."]+?Barrier[^."]+?duration (?:by ([?\d]+)(?:-([?\d]+))? turns?|(completely))(?:, by ([?\d]+)(?:-([?\d]+))? turns?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [1, 2, 3, 4, 5],
 					},
 				],
@@ -7655,51 +7703,51 @@
 			},
 
 			{
-				name: "Resilience",
+				name: "버티기",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex:
 					/(?:reduces|removes) enemies'[^."]+?Resilience[^."]+?duration (?:by ([?\d]+)(?:-([?\d]+))? turns?|(completely))(?:, by ([?\d]+)(?:-([?\d]+))? turns?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [1, 2, 3, 4, 5],
 					},
 				],
 			},
 
 			{
-				name: "Positive Buff",
+				name: "유리 효과",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex:
 					/(?:reduces|removes) enemies'[^."]+?positive buff[^."]+?duration (?:by ([?\d]+)(?:-([?\d]+))? turns?|(completely))(?:, by ([?\d]+)(?:-([?\d]+))? turns?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [1, 2, 3, 4, 5],
 					},
 				],
 			},
 
 			{
-				name: "Intimidation",
+				name: "위압",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex:
 					/(?:reduces|removes) enemies'[^."]+?Intimidation[^."]+?duration (?:by ([?\d]+)(?:-([?\d]+))? turns?|(completely))(?:, by ([?\d]+)(?:-([?\d]+))? turns?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [1, 2, 3, 4, 5],
 					},
 				],
 			},
 
 		],
-		Other: [
+		기타: [
 			{
-				name: "Exclude Passive Base Stat Boost Only",
+				name: "기본 능력치 패시브만 보유한 캐릭터 제외",
 				targets: ["support"],
 				regex:
 					/"description":[^\]]*?(\["|",")(?!Adds ([?.\d]+)% of this character's base (?:ATK|HP|RCV|ATK and HP|ATK and RCV|HP and RCV|ATK, HP and RCV) to the supported character's base (?:ATK|HP|RCV|ATK and HP|ATK and RCV|HP and RCV|ATK, HP and RCV)\.?")[^"]*"/i,
@@ -7712,7 +7760,7 @@
 			},
 
 			{
-				name: "Captain Swap",
+				name: "선장 교체",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex:
 					/(optionally )?swaps this unit with your captain for ([?\d]+\+?)(?:-([?\d]+))? turns?(?:, for ([?\d]+\+?)(?:-([?\d]+))? turns?)?/i,
@@ -7725,61 +7773,61 @@
 					},
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [2, 3, 4, 5],
 					},
 				],
 			},
 
 			{
-				name: "Instant Defeat",
+				name: "즉사",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex: /instantly defeat/i,
 			},
 
 			{
-				name: "Cooldown Reduction",
+				name: "필살기 턴 단축",
 				targets: ["potential"],
 				regex: /Cooldown Reduction/i,
 			},
 
 			{
-				name: "Beneficial Effect Clear",
+				name: "유리 효과 해제",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex: /Removes all positive buffs on your team/i,
 			},
 
 			{
-				name: "Double Special Activation",
+				name: "필살기 이중 발동",
 				targets: ["potential"],
 				regex: /Double Special Activation/i,
 			},
 
 			{
-				name: "Triple Special Activation",
+				name: "필살기 삼중발동",
 				targets: ["potential"],
 				regex: /Triple Special Activation/i,
 			},
 
 			{
-				name: "Barrier Penetration",
+				name: "베리어 관통",
 				targets: ["potential"],
 				regex: /Barrier Penetration/i,
 			},
 			{
-				name: "Class Change",
+				name: "타입 변경",
 				targets: ["special", "superSpecial"],
 				regex:
 					/changes class [?.\d]+? of (?:all non-(?=((?:[^c."]+|c(?!har))*))\1characters?|(?=((?:[^c."]+|c(?!har))*))\2characters?) to (?=((?:[^f."]+|f(?!or))*))\3for ([?\d]+)(?:-([?\d]+))? turns?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Turns:",
+						description: "턴:",
 						groups: [4, 5],
 					},
 					{
 						type: "separator",
-						description: "Affected classes:",
+						description: "영향을 받는 타입:",
 					},
 					...createClassesSubmatchers([3]),
 				],
@@ -7807,37 +7855,37 @@
             regex: /\[RCV\].+into/i,
         },*/
 			{
-				name: "Super Type/Class Transformation",
+				name: "초월속성/타입 변환",
 				targets: ["superSpecial"],
 				regex: /transforms ([^."]+?) characters into Super/i,
 				submatchers: [
 					{
 						type: "separator",
-						description: "Affected types:",
+						description: "영향을 받는 속성:",
 					},
 					...createTypesSubmatchers([1]),
 					{
 						type: "separator",
-						description: "Affected classes:",
+						description: "영향을 받는 타입:",
 					},
 					...createClassesSubmatchers([1]),
 				],
 			},
 
 			{
-				name: "Has Super Swap",
+				name: "슈퍼 체인지 보유",
 				targets: ["swap"],
 				regex: /"super"\s*:/i,
 			},
 
 			{
-				name: "Has Sailor Ability",
+				name: "선원 효과 보유",
 				targets: ["sailor"],
 				regex: /\S/i,
 			},
 
 			{
-				name: "Has Support Ability",
+				name: "서포트 효과 보유",
 				targets: ["support"],
 				regex: /\S/i,
 			},
@@ -7845,43 +7893,43 @@
 			/* * * * * Limit Break * * * * */
 
 			{
-				name: "Has Limit Break",
+				name: "한계돌파 보유",
 				targets: ["limit"],
 				regex: /\S/i,
 			},
 
 			{
-				name: "Has Level Limit Break",
+				name: "레벨 상한돌파 보유",
 				targets: ["limit"],
 				regex: /\^\$/i,
 			},
 
 			{
-				name: "Has No Level Limit Break",
+				name: "레벨 상한돌파 없음",
 				targets: ["limit"],
 				regex: /\^\$/i,
 			},
 
 			{
-				name: "Key Locked Limit Break",
+				name: "한계돌파 확장",
 				targets: ["limit"],
 				regex: /Locked/i,
 			},
 
 			{
-				name: "Captain Upgrade Limit Break",
+				name: "한계돌파시 선장효과 강화",
 				targets: ["limit"],
 				regex: /Captain Ability/i,
 			},
 
 			{
-				name: "3rd Potential Ability",
+				name: "잠재능력 3슬롯",
 				targets: ["limit"],
 				regex: /Acquire Potential 3/i,
 			},
 
 			{
-				name: "No 3rd Potential Ability",
+				name: "잠재능력 3슬롯 미만",
 				targets: ["limit"],
 				regex: /^(.(?!Acquire Potential 3))*$/i,
 			},
@@ -7890,47 +7938,47 @@
 
 			// Leave uncategorized as per @Solaris
 			{
-				name: "Last Tap",
+				name: "라스트 탭",
 				targets: ["potential"],
 				regex: /Last Tap/i,
 			},
 
 			{
-				name: "Super Tandem",
+				name: "초연계기술",
 				targets: ["potential"],
 				regex: /Super Tandem(?! Boost)/i,
 			},
 
 			{
-				name: "Super Tandem Boost",
+				name: "초연계 부스트",
 				targets: ["potential"],
 				regex: /Super Tandem Boost/i,
 			},
 
 			{
-				name: "Rush",
+				name: "러쉬",
 				targets: ["potential"],
 				regex: /Rush/i,
 			},
 
 			/* * * * * Super Special Criteria * * * * */
 			{
-				name: "Top Row Only",
+				name: "상단 캐릭터 한정",
 				targets: ["superSpecialCriteria"],
 				regex: /^This character must be captain\.?[^."]*/i,
 			},
 			{
-				name: "Universal Position",
+				name: "모든 캐릭터",
 				targets: ["superSpecialCriteria"],
 				regex: /^(?!This character must be captain\.?)[^."]*/i,
 			},
 			{
-				name: "Captain Shift Only",
+				name: "선장 교체시",
 				targets: ["superSpecialCriteria"],
 				regex: /[^."]+?When character becomes [^."]+? during Captain Shift[^."]*?/i,
 			},
 			{
-				name: "Super Swap Only",
+				name: "슈퍼 체인지시",
 				targets: ["superSpecialCriteria"],
 				regex: /[^."]+?When this character is in Combined Form from Super Swap Effect[^."]*?/i,
 			},

@@ -52,7 +52,26 @@
 		/*******************
 		 * Table functions *
 		 *******************/
+			var typeMap = {
+			STR: '<span style="color:#ff4d4d">힘</span>',     // 밝은 빨강
+			DEX: '<span style="color:#00cc66">기</span>',   // 녹색
+			QCK: '<span style="color:#3399ff">속</span>',     // 파랑
+			PSY: '<span style="color:#ffcc00">심</span>',     // 노랑
+			INT: '<span style="color:#b366ff">지</span>',     // 보라
+			};
 
+			var classMap = {
+			Fighter: "격투",
+			Slasher: "참격",
+			Striker: "타격",
+			Shooter: "사격",
+			"Free Spirit": "자유",
+			Powerhouse: "강인",
+			Cerebral: "박식",
+			Driven: "야심",
+			Booster: "강화",
+			Evolver: "진화"
+			};
 		var getTableColumns = function () {
 			var labelMap = {
 				"HP/ATK": "체력/공격력",
@@ -408,14 +427,15 @@
 			if (
 				filters.globalTM &&
 				[
-					4391, 4392, 2561, 4380, 4381, 4382, 4383, 4385, 4386, 4387, 
-					4388, 4389, 4390, 4393, 2940, 2944, 2938, 2942, 2936, 2946, 
-					2948, 2950, 2952, 3300, 3204, 3349, 3391, 3508, 3590, 3884, 
-					3780, 3824, 3886, 3917, 3967, 4008, 4054, 4115, 4137, 4167, 
-					4182, 4185, 4197, 4201, 4216, 4253, 4290, 4275, 4285, 4287, 
-					4291, 4292, 4293, 4294, 4303, 4365, 4319, 4322, 4323, 4329, 
-					4333, 4348, 4367, 4371, 4353, 4354, 4366, 4375, 4376, 4377, 
-					4378, 4384
+					4387, 4388, 4389, 4390, 4384, 4358, 4380, 4381, 4385, 4365, 
+					4367, 4353, 4354, 4355, 4356, 4366, 4373, 4374, 4378, 4382, 
+					4383, 4342, 4368, 4369, 4370, 3364, 3462, 3483, 3523, 3543, 
+					3563, 3641, 3735, 3775, 3861, 3933, 4003, 4050, 4071, 4133, 
+					4179, 4193, 4227, 4250, 4274, 4282, 4300, 4314, 4345, 418, 
+					1108, 1972, 2940, 2944, 2938, 2942, 2936, 2946, 2948, 2950, 
+					2952, 3145, 3467, 3626, 3627, 3884, 3736, 3886, 4088, 4089, 
+					4336, 4337, 4338, 4339, 4340, 3484, 3485, 3524, 3525, 4346, 
+					4347, 4371, 4372
 				].indexOf(id) == -1
 			)
 				return false;
@@ -1212,9 +1232,19 @@
 				var result = [
 					("000" + (x.number + 1)).slice(-padding),
 					x.name,
-					x.type,
+					Array.isArray(x.type)
+					? x.type.map(t => typeMap[t] || t).join("/")
+					: typeMap[x.type] || x.type,
 
-					x.class.constructor == Array ? x.class.join(", ") : x.class,
+					Array.isArray(x.class)
+					? x.class
+						.map(c =>
+							Array.isArray(c)
+							? c.map(cc => classMap[cc] || cc).join("/")
+							: classMap[c] || c
+						)
+						.join(", ")
+					: classMap[x.class] || x.class,
 					x.maxHP,
 					x.maxATK,
 					x.maxRCV,

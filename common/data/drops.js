@@ -3517,6 +3517,16 @@ window.drops = {
             gamewith: null,
             'Defeat Level Rewards': [ 4384 ],
         },
+
+        {
+            name: 'Boa Hancock',
+            dropID: 'pka26',
+            thumb: 4398,
+            global: true,
+            nakama: null,
+            gamewith: null,
+            'Defeat Level Rewards': [ 4398 ],
+        },
     ],
 
 
