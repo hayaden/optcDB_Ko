@@ -86,8 +86,8 @@ app.controller('SidebarCtrl',function($scope, $rootScope, $stateParams, $timeout
     'STR': '힘',
     'QCK': '속',
     'DEX': '기',
-    'PSY': '지',
-    'INT': '심'
+    'PSY': '심',
+    'INT': '지'
 };
     $scope.dropLabelMap = {
     'Farmable': '파밍 가능',
