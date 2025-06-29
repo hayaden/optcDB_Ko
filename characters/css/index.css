@@ -1293,3 +1293,27 @@ unit > a {
     content: "⚔";
     font-size: 17px;
 }
+.tag-category-1 {
+  color: #ce8d2c !important;
+}
+.active.tag-category-1 {
+  color: #ffcc80 !important;
+}
+.tag-category-2 {
+  color: #c8e6c9 !important;
+}
+.active.tag-category-2 {
+  color: #a5d6a7 !important;
+}
+.tag-category-3 {
+  color: #e673d2cc !important;
+}
+.active.tag-category-3 {
+  color: #90caf9 !important;
+}
+.tag-category-4 {
+  color: #23aa9f !important;
+}
+.active.tag-category-4 {
+  color: #ce93d8 !important;
+}

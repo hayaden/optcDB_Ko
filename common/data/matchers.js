@@ -235,7 +235,7 @@
 		orbs,
 		groups,
 		includeUniversal = true,
-		universalRegex = "모두"
+		universalRegex = "all"
 	) {
 		var result = [];
 

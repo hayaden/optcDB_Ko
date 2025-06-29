@@ -557,11 +557,11 @@
 				var htmlToAppend = "";
 				htmlToAppend +=
 					'<span class="tag flag">' +
-					(flags.global ? "글로벌판 캐릭터" : "일판 캐릭터") +
+					(flags.global ? "Global unit" : "Japan unit") +
 					"</span>";
 				htmlToAppend +=
 					'<span class="tag flag">' +
-					(CharUtils.isFarmable(id) ? "적제용" : "적제용x") +
+					(CharUtils.isFarmable(id) ? "Farmable" : "Non-farmable") +
 					"</span>";
 				if (flags.rr)
 					htmlToAppend += '<span class="tag flag">Rare Recruit only</span>';

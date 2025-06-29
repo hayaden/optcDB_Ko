@@ -41,7 +41,7 @@
                             <tbody>
                                 <tr ng-if="dualunit">
                                     <th ng-if="hybrid">첫번째 캐릭터 타입1</th>
-                                    <th ng-if="hybrid">두번째 캐릭터 타입2</th>
+                                    <th ng-if="hybrid">첫번째 캐릭터 타입2</th>
                                     <th ng-if="hybrid">두번째 캐릭터 타입1</th>
                                     <th ng-if="hybrid" colspan=2>두번째 캐릭터 타입2</th>
                                 </tr>
@@ -62,7 +62,7 @@
                                     <th ng-if="hybrid && dualunit"> 더블 캐릭터 타입1</th>
                                     <th ng-if="hybrid && dualunit"> 더블 캐릭터 타입2</th>
                                     <th>속성</th>
-                                    <th>희귀도</th>
+                                    <th>등급</th>
                                     <th>코스트</th>
                                 </tr>
                                 <tr>
@@ -216,7 +216,7 @@
                             <canvas id="line-chart" class="chart chart-line" chart-data="radarATK.data" chart-series="radarATK.series"
                                 chart-labels="radarATK.labels"></canvas>
                         </uib-tab>
-                        <uib-tab heading="화복력 증가" ng-if="!unit.incomplete">
+                        <uib-tab heading="회복력 증가" ng-if="!unit.incomplete">
                             <canvas id="line-chart" class="chart chart-line" chart-data="radarRCV.data" chart-series="radarRCV.series"
                                 chart-labels="radarRCV.labels"></canvas>
                         </uib-tab>
@@ -281,7 +281,7 @@
                                             <span class="badge badge-sbase" ng-show="details.sailor.base">기본 선원</span><div ng-show="details.sailor.base" ng-bind-html="details.sailor.base | decorate"></div>
                                             <span class="badge badge-sbase2" ng-show="details.sailor.base2">기본 선원 2</span><div ng-show="details.sailor.base2" ng-bind-html="details.sailor.base2 | decorate"></div>
                                             <span class="badge badge-slevel1" ng-show="details.sailor.level1">한돌 LV 1 선원효과</span><div ng-show="details.sailor.level1" ng-bind-html="details.sailor.level1 | decorate"></div>
-                                            <span class="badge badge-slevel2" ng-show="details.sailor.level2">LB Level 2 Sailor</span><div ng-show="details.sailor.level2" ng-bind-html="details.sailor.level2 | decorate"></div>
+                                            <span class="badge badge-slevel2" ng-show="details.sailor.level2">한돌 LV 2 선원효과</span><div ng-show="details.sailor.level2" ng-bind-html="details.sailor.level2 | decorate"></div>
                                             <span class="badge badge-character1" ng-show="details.sailor.character1">캐릭터 1 선원효과</span><div ng-show="details.sailor.character1" ng-bind-html="details.sailor.character1 | decorate"></div>
                                             <span class="badge badge-character2" ng-show="details.sailor.character2">캐릭터 2 선원효과</span><div ng-show="details.sailor.character2" ng-bind-html="details.sailor.character2 | decorate"></div>
                                             <span class="badge badge-combined" ng-show="details.sailor.combined">더블캐릭터 선원효과</span><div ng-show="details.sailor.combined" ng-bind-html="details.sailor.combined | decorate"></div>
@@ -355,7 +355,7 @@
                                         <strong class="specialName" ng-if="details.specialName">{{::details.specialName}}</strong>
                                         <!-- different specials -->
                                         <div ng-if="isSpecialHybrid && !isSpecialStaged">
-                                            <span class="badge badge-slevel1" ng-show="details.special.llbbase">레벨 상한돌파 필살기</span><div ng-show="details.special.llbbase" ng-bind-html="details.special.llbbase | decorate"></div>
+                                            <span class="badge badge-slevel1" ng-show="details.special.llbbase">초진화시 필살기</span><div ng-show="details.special.llbbase" ng-bind-html="details.special.llbbase | decorate"></div>
                                             <span class="badge badge-slevel1" ng-show="details.special.llblevel1">LLB Level 1 Special</span><div ng-show="details.special.llblevel1" ng-bind-html="details.special.llblevel1 | decorate"></div>
                                             <span class="badge badge-slevel2" ng-show="details.special.llblevel2">LLB Level 2 Special</span><div ng-show="details.special.llblevel2" ng-bind-html="details.special.llblevel2 | decorate"></div>
                                             <span class="badge badge-character1" ng-show="details.special.llbcharacter1">LLB Character 1 Special</span><div ng-show="details.special.llbcharacter1" ng-bind-html="details.special.llbcharacter1 | decorate"></div>

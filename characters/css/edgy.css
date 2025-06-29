@@ -6,7 +6,7 @@ html, body,
 .filter:not(.type):not(.orb):not(.custom),
 .filter.custom > div:first-child,
 .filter .submatchers .submatcher .submatcher-option {
-    color: #f6f3e8 !important;
+    color: #f6f3e8;
     background: #404040 !important;
     border-color: #333;
 }

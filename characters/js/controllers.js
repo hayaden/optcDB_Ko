@@ -101,7 +101,6 @@ app.controller('SidebarCtrl',function($scope, $rootScope, $stateParams, $timeout
     'Inkable': '이펙트 추가 가능',
     'Not Inkable': '이펙트 추가 불가'
 };
-
     $timeout(function() {
         $scope.$watch('filters',function(filters) {
             if (!$rootScope.filters || Object.keys($rootScope.filters).length === 0) return;
@@ -110,7 +109,17 @@ app.controller('SidebarCtrl',function($scope, $rootScope, $stateParams, $timeout
             if (!$scope.$$phase) $scope.$apply();
         },true);
     });
-
+    $scope.getTagClass = function (tagName, category) {
+    var result = ['tag-category-' + category];
+    if ($scope.filters.tags[tagName]) result.push('active');
+    return result;
+    };
+    $scope.sortedTags = Object.entries(window.characterTags)
+   .sort((a, b) => {
+    const catDiff = a[1].category - b[1].category;
+    if (catDiff !== 0) return catDiff;
+    return a[0].localeCompare(b[0], 'ko'); // 한글 가나다 정렬
+    });
     $scope.clearFilters = function() {
         $rootScope.filters = {
             custom: { },
@@ -130,7 +139,9 @@ app.controller('SidebarCtrl',function($scope, $rootScope, $stateParams, $timeout
             costEnabled: false,
             rarityEnabled: false,
             farmEnabled: false,
-            nonfarmEnabled: false
+            nonfarmEnabled: false,
+            tagFilterEnabled: false,
+            tags: {}            
         };
 
         // no idea why both local `filters` and `$rootScope.filters` exist
@@ -220,7 +231,12 @@ app.controller('SidebarCtrl',function($scope, $rootScope, $stateParams, $timeout
     $scope.repeat = function(n) {
         return (n < 1 ? [ ] : new Array(n));
     };
+    $scope.characterTags = window.characterTags;
 
+    // ✅ 태그 active 여부 확인용 (선택된 태그인지)
+    $scope.isTagActive = function (tagName) {
+        return !!$rootScope.filters.tags[tagName];
+    };
 });
 
 app.controller('DetailsCtrl',function($scope, $rootScope, $state, $stateParams, $timeout, $storage, $http) {
@@ -240,7 +256,7 @@ app.controller('DetailsCtrl',function($scope, $rootScope, $state, $stateParams, 
     $scope.unit = jQuery.extend({},window.units[id - 1]);
     $scope.hybrid = $scope.unit.class && $scope.unit.class.constructor == Array;
     $scope.dualunit = $scope.unit.type && $scope.unit.type.constructor == Array;
-    $scope.details = window.detail_kor[id];
+    $scope.details = window.details_kor[id];
     $scope.cooldown = window.cooldowns[id - 1];
     $scope.evolution = window.evolutions[id];
     $scope.families = window.families[id];
@@ -536,31 +552,6 @@ app.controller('DetailsCtrl',function($scope, $rootScope, $state, $stateParams, 
 });
 
 app.controller('ColumnsCtrl',function($scope, $rootScope, $state, $stateParams, $storage) {
-
-    $scope.labelMap = {
-        "HP/ATK": "체력/공격력",
-        "HP/RCV": "체력/회복력",
-        "ATK/RCV": "공격력/회복력",
-        "ATK/CMB": "공격력/콤보",
-        "ATK/cost": "공격력/코스트",
-        "HP/cost": "체력/코스트",
-        "CMB": "콤보 수",
-        "MAX EXP": "최대 경험치",
-        "Limit Break HP": "한계돌파 체력",
-        "Limit Break ATK": "한계돌파 공격력",
-        "Limit Break RCV": "한계돌파 회복력",
-        "Limit Break: Expansion HP": "한계돌파 확장 체력",
-        "Limit Break: Expansion ATK": "한계돌파 확장 공격력",
-        "Limit Break: Expansion RCV": "한계돌파 확장 회복력",
-        "Limit Break Slots": "한계돌파 슬롯",
-        "Minimum cooldown": "최소 쿨타임",
-        "Initial cooldown": "초기 쿨타임",
-        "Minimum Limit Break cooldown": "한계돌파 최소 쿨타임",
-        "Initial Limit Break cooldown": "한계돌파 초기 쿨타임",
-        "Minimum Limit Break Expansion cooldown": "확장 최소 쿨타임",
-        "Initial Limit Break Expansion cooldown": "확장 초기 쿨타임"
-    };
-
 
     $scope.columns = { 'Limit Break HP' : false, 'Limit Break ATK': false, 'Limit Break RCV': false, 'Limit Break: Expansion HP' : false, 'Limit Break: Expansion ATK': false, 'Limit Break: Expansion RCV': false,
         'HP/ATK': false, 'HP/RCV': false, 'ATK/RCV': false, 'ATK/CMB': false,

@@ -97,7 +97,21 @@
     <span ng-repeat="(n,stars) in [ 4, 5, 6 ]" class="filter stars width-4 stars-{{::stars}}+"
         ng-click="onStarsClick($event,stars + '+')" ng-class="{ active: filters.stars.indexOf(stars + '+') > -1 }"></span>
 </div>
+<div class="filter-container expandable" id="tag-filter"
+     ng-class="{ expanded: filters.tagFilterEnabled }">
+  <span class="filter-header" ng-click="filters.tagFilterEnabled = !filters.tagFilterEnabled">
+      캐릭터 태그 필터
+      <i class="pull-right fa fa-{{filters.tagFilterEnabled ? 'chevron-up' : 'chevron-down'}}"></i>
+  </span>
 
+  <!-- ✅ 이 안에 네 코드 들어감 -->
+<span class="filter width-6 exc"
+      ng-repeat="entry in sortedTags"
+      ng-click="filters.tags[entry[0]] = !filters.tags[entry[0]]"
+      ng-class="getTagClass(entry[0], entry[1].category)">
+  {{ entry[0] }}
+</span>
+</div>
 <!--div class="filter-container">
     <span class="filter-header">Type filters</span>
     <span ng-model="filters.type" ng-repeat="(n,type) in [ 'STR', 'QCK', 'DEX', 'PSY', 'INT' ]"

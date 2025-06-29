@@ -107,7 +107,7 @@
 				{ title: "회복력" },
 				{ title: "코스트" },
 				{ title: "슬롯" },
-				{ title: "희귀도" },
+				{ title: "등급" },
 				{ title: "CL", orderable: false },
 			];
 			additionalColumns.forEach(function (x) {
@@ -1201,6 +1201,16 @@
 			if (filters.noLog && characterLog.hasOwnProperty(id)) return false;
 			if (filters.noMissing && !characterLog.hasOwnProperty(id)) return false;
 			// filter by orb controllers
+			if (filters.tags && Object.keys(filters.tags).length > 0) {
+			const activeTags = Object.keys(filters.tags).filter(tag => filters.tags[tag]);
+			if (activeTags.length > 0) {
+			const matched = activeTags.some(tag => {
+			const tagList = window.characterTags[tag]?.characterIds || [];
+			return tagList.includes(id); // ← 여기에서 id는 정수형 logbookId
+			});
+			if (!matched) return false;
+			}
+}
 			return true;
 		};
 
