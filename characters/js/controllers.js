@@ -67,6 +67,24 @@ app.controller('MainCtrl',function($scope, $rootScope, $state, $stateParams, $ti
     };
 
 });
+// 매핑 코드 추가 classTranslate = 캐릭터세부정보창 매핑
+    app.filter('classTranslate', function() {
+    const classMap = {
+        "Fighter": "격투",
+        "Slasher": "참격",
+        "Striker": "타격",
+        "Shooter": "사격",
+        "Free Spirit": "자유",
+        "Powerhouse": "강인",
+        "Cerebral": "박식",
+        "Driven": "야심",
+        "Evolver": "진화",
+        "Booster": "강화"
+    };
+    return function(input) {
+        return classMap[input] || input;
+    };
+    });
 
 app.controller('SidebarCtrl',function($scope, $rootScope, $stateParams, $timeout) {
     $scope.classLabelMap = {

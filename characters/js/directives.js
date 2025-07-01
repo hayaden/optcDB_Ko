@@ -557,7 +557,7 @@
 				var htmlToAppend = "";
 				htmlToAppend +=
 					'<span class="tag flag">' +
-					(flags.global ? "Global unit" : "Japan unit") +
+					(flags.global ? "글판 캐릭터" : "일판 캐릭터") +
 					"</span>";
 				htmlToAppend +=
 					'<span class="tag flag">' +
@@ -638,9 +638,9 @@
 									matcher.regex.test(targetString)
 								) {
 									name = matcher.name;
-									if (/Class$/.test(name)) name = "Captain: " + name;
+									if (/Class$/.test(name)) name = "선장효과: " + name;
 									else if (!/captains$/.test(name))
-										name = "Captain: " + name.replace(/ers$/, "ing");
+										name = "선장효과: " + name.replace(/ers$/, "ing");
 									else name = name.replace(/s$/, "");
 									name = name.replace(/iing/, "ying");
 									htmlToAppend +=
@@ -656,7 +656,7 @@
 											if (matcher.regex.test(data[matcher.target][sailor])) {
 												name = matcher.name;
 												if (!/sailor$/.test(name))
-													name = "Sailor: " + name.replace(/ers$/, "ing");
+													name = "선원효과: " + name.replace(/ers$/, "ing");
 												else name = name.replace(/s$/, "");
 												name = name.replace(/iing/, "ying");
 												if (name != "Has Sailor Ability sailor") {
@@ -669,7 +669,7 @@
 										if (matcher.regex.test(data[matcher.target])) {
 											name = matcher.name;
 											if (!/sailor$/.test(name))
-												name = "Sailor: " + name.replace(/ers$/, "ing");
+												name = "선원효과: " + name.replace(/ers$/, "ing");
 											else name = name.replace(/s$/, "");
 											name = name.replace(/iing/, "ying");
 											htmlToAppend +=
@@ -684,7 +684,7 @@
 								) {
 									name = matcher.name;
 									if (!/specials$/.test(name))
-										name = "Special: " + name.replace(/ers$/, "ing");
+										name = "필살기: " + name.replace(/ers$/, "ing");
 									else name = name.replace(/s$/, "");
 									name = name.replace(/iing/, "ying");
 									htmlToAppend +=
@@ -697,7 +697,7 @@
 								) {
 									name = matcher.name;
 									if (!/limit$/.test(name))
-										name = "Limit Break: " + name.replace(/ers$/, "ing");
+										name = "한계돌파: " + name.replace(/ers$/, "ing");
 									else name = name.replace(/s$/, "");
 									name = name.replace(/iing/, "ying");
 									if (name != "Has Limit Break limit") {
@@ -712,7 +712,7 @@
 								) {
 									name = matcher.name;
 									if (!/potential$/.test(name))
-										name = "Potential Ability: " + name.replace(/ers$/, "ing");
+										name = "잠재능력: " + name.replace(/ers$/, "ing");
 									else name = name.replace(/s$/, "");
 									name = name.replace(/iing/, "ying");
 									htmlToAppend +=
@@ -725,7 +725,7 @@
 								) {
 									name = matcher.name;
 									if (!/specials$/.test(name))
-										name = "Super Special: " + name.replace(/ers$/, "ing");
+										name = "초월필살기: " + name.replace(/ers$/, "ing");
 									else
 										name = name
 											.replace(/s$/, "")
@@ -741,7 +741,7 @@
 								) {
 									name = matcher.name;
 									if (!/support$/.test(name))
-										name = "Support: " + name.replace(/ers$/, "ing");
+										name = "서포트효과: " + name.replace(/ers$/, "ing");
 									else name = name.replace(/s$/, "");
 									name = name.replace(/iing/, "ying");
 									htmlToAppend +=

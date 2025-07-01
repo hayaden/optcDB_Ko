@@ -46,13 +46,13 @@
                                     <th ng-if="hybrid" colspan=2>두번째 캐릭터 타입2</th>
                                 </tr>
                                 <tr ng-if="dualunit">
-                                    <td ng-if="unit.class[0].length == 2">{{::unit.class[0][0]}}</td>
-                                    <td ng-if="unit.class[0].length != 2">{{::unit.class[0]}}</td>
-                                    <td ng-if="unit.class[0].length == 2">{{::unit.class[0][1]}}</td>
+                                    <td ng-if="unit.class[0].length == 2">{{::unit.class[0][0] | classTranslate}}</td> <!--매핑작업을 위한 controlllers.js에서 매핑코드불러오기 unit.class part 전부 매핑 -->
+                                    <td ng-if="unit.class[0].length != 2">{{::unit.class[0][0] | classTranslate}}</td> 
+                                    <td ng-if="unit.class[0].length == 2">{{::unit.class[0][1] | classTranslate}}</td>
                                     <td ng-if="unit.class[0].length != 2"></td>
-                                    <td ng-if="unit.class[1].length == 2">{{::unit.class[1][0]}}</td>
-                                    <td ng-if="unit.class[1].length != 2">{{::unit.class[1]}}</td>
-                                    <td ng-if="unit.class[1].length == 2" colspan=2>{{::unit.class[1][1]}}</td>
+                                    <td ng-if="unit.class[1].length == 2">{{::unit.class[1][0] | classTranslate}}</td>
+                                    <td ng-if="unit.class[1].length != 2">{{::unit.class[1] | classTranslate}}</td>
+                                    <td ng-if="unit.class[1].length == 2" colspan=2>{{::unit.class[1][1] | classTranslate}}</td>
                                     <td ng-if="unit.class[1].length != 2" colspan=2>None    </td>
                                 </tr>
                                 <tr>
@@ -66,11 +66,11 @@
                                     <th>코스트</th>
                                 </tr>
                                 <tr>
-                                    <td ng-if="!hybrid">{{::unit.class}}</td>
-                                    <td ng-if="hybrid && !dualunit">{{::unit.class[0]}}</td>
-                                    <td ng-if="hybrid && !dualunit">{{::unit.class[1]}}</td>
-                                    <td ng-if="hybrid && dualunit">{{::unit.class[2][0] | decorate}}</td>
-                                    <td ng-if="hybrid && dualunit">{{::unit.class[2][1] | decorate}}</td>
+                                    <td ng-if="!hybrid">{{::unit.class | classTranslate}}</td>
+                                    <td ng-if="hybrid && !dualunit">{{::unit.class[0] | classTranslate}}</td>
+                                    <td ng-if="hybrid && !dualunit">{{::unit.class[1] | classTranslate}}</td>
+                                    <td ng-if="hybrid && dualunit">{{::unit.class[2][0] | decorate | classTranslate}}</td>
+                                    <td ng-if="hybrid && dualunit">{{::unit.class[2][1] | decorate | classTranslate}}</td>
                                     <td ng-if="!dualunit" class="ng-binding" ng-bind-html="unit.type | decorate"></td>
                                     <td ng-if="dualunit"><span class="ng-binding" ng-bind-html="unit.type[0] | decorate"></span>/<span class="ng-binding" ng-bind-html="unit.type[1] | decorate"></span></td>
                                     <td ng-if="!compare">{{::unit.stars}}</td>
