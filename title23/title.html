@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>원트크 칭호 리스트</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="title_data.js" defer></script>
+  <script defer>
+    document.addEventListener("DOMContentLoaded", function () {
+      const tableBody = document.getElementById("title-table-body");
+
+      titleData.forEach(item => {
+        const row = document.createElement("tr");
+
+        const nameCell = document.createElement("td");
+        nameCell.textContent = item.name;
+        row.appendChild(nameCell);
+
+        const methodCell = document.createElement("td");
+        methodCell.textContent = item.method;
+        row.appendChild(methodCell);
+
+        tableBody.appendChild(row);
+      });
+    });
+  </script>
+</head>
+<body>
+  <h1>원트크 칭호 리스트</h1>
+  <input type="text" id="search-input" placeholder="칭호이름 검색..." onkeyup="searchTitle()" />
+
+  <table id="title-table">
+    <thead>
+      <tr>
+        <th>칭호 이름</th>
+        <th>칭호 획득 방법</th>
+      </tr>
+    </thead>
+    <tbody id="title-table-body">
+      <!-- JS에서 데이터가 들어감 -->
+    </tbody>
+  </table>
+
+  <script>
+    function searchTitle() {
+      const input = document.getElementById("search-input").value.toLowerCase();
+      const rows = document.querySelectorAll("#title-table tbody tr");
+
+      rows.forEach(row => {
+        const titleName = row.children[0].textContent.toLowerCase();
+        row.style.display = titleName.includes(input) ? "" : "none";
+      });
+    }
+  </script>
+</body>
+</html>
