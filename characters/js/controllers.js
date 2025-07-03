@@ -279,8 +279,8 @@ app.controller('DetailsCtrl',function($scope, $rootScope, $state, $stateParams, 
     $scope.evolution = window.evolutions[id];
     $scope.families = window.families[id];
     $scope.farmableVersions = CharUtils.getFarmableVersions(id);
+    $scope.unit.tags =  CharUtils.getUnitTags(id);
     $scope.displayFamily = ($scope.families) ? $scope.families.join(' & ') : '';
-
     $http(rumbleRequest)
         .success(function (jsonData) {
             var key = id;
