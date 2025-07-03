@@ -1241,7 +1241,7 @@
 				var result = [
 					("000" + (x.number + 1)).slice(-padding),
 					x.name,
-					Array.isArray(x.type)
+					Array.isArray(x.type) //맵핑작업을 위한 코드 추가
 					? x.type.map(t => typeMap[t] || t).join("/")
 					: typeMap[x.type] || x.type,
 

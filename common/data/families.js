@@ -605,7 +605,7 @@ const Speed = [ "Speed" ];
 const CharlottePoire = [ "Charlotte Poire" ];
 const KozukiHiyori = [ "Kozuki Hiyori", "Komurasaki" ];
 const Kikunojo = [ "Kikunojo", "Okiku" ];
-const Tama = [ "Tama" ];
+const Tama = [ "Tama", "Otama" ];
 const MissTsuru = [ "Miss Tsuru", "Otsuru", "Tsurunojo" ];
 const Denjiro = [ "Denjiro", "Kyoshiro" ];
 const AshuraDoji = [ "Ashura Doji", "Shutenmaru" ];
@@ -5011,6 +5011,7 @@ window.families = {
     4397: [ ...Ulti ],
     4398: [ ...BoaHancock ],
     //4399: [ ...BoaHancock ],
+    4400: [ ...Carrot ],
     //break
     4986: [ ...MonkeyDLuffy ],
     4987: [ ...MonkeyDLuffy ],
