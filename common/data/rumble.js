@@ -78072,6 +78072,54 @@ window.rumble = {
             }
         }
     },
+    4418: {
+        festStats: {
+            def: 125,
+            spd: 187,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<b>Full Attack</b>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Action Bind.', '30% damage reduction from [STR] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 2 HP, SPD and DEF up buff to [QCK] and Striker crew members.', 'When there is 6 or more [QCK] crew members, applies Lv. 1 ATK up buff to [Logia-type] and Monkey D. Luffy crew members.', 'When there is 6 or more [QCK] crew members, applies Lv. 1 Special CT up buff to [Logia-type] and Monkey D. Luffy crew members.'],
+                ['Applies Lv. 3 HP, SPD and DEF up buff to [QCK] and Striker crew members.', 'When there is 6 or more [QCK] crew members, applies Lv. 2 ATK up buff to [Logia-type] and Monkey D. Luffy crew members.', 'When there is 6 or more [QCK] crew members, applies Lv. 1 Special CT up buff to [Logia-type] and Monkey D. Luffy crew members.'],
+                ['Applies Lv. 4 HP, SPD and DEF up buff to [QCK] and Striker crew members.', 'When there is 6 or more [QCK] crew members, applies Lv. 3 ATK up buff to [Logia-type] and Monkey D. Luffy crew members.', 'When there is 6 or more [QCK] crew members, applies Lv. 1 Special CT up buff to [Logia-type] and Monkey D. Luffy crew members.'],
+                ['Applies Lv. 5 HP, SPD and DEF up buff to [QCK] and Striker crew members.', 'When there is 6 or more [QCK] crew members, applies Lv. 4 ATK up buff to [Logia-type] and Monkey D. Luffy crew members.', 'When there is 6 or more [QCK] crew members, applies Lv. 2 Special CT up buff to [Logia-type] and Monkey D. Luffy crew members.'],
+                ['Applies Lv. 6 HP, SPD and DEF up buff to [QCK] and Striker crew members.', 'When there is 6 or more [QCK] crew members, applies Lv. 5 ATK up buff to [Logia-type] and Monkey D. Luffy crew members.', 'When there is 6 or more [QCK] crew members, applies Lv. 3 Special CT up buff to [Logia-type] and Monkey D. Luffy crew members.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 30,
+                descriptions: [
+                    ['Inflicts Lv. 4 DEF down debuff to all enemies in a large, radial range for 5 seconds.', 'Deals 1x ATK in damage to all enemies in a large, radial range.', '20% chance to inflict Paralysis to all enemies in a large, radial range for 11 seconds.', 'When there is 6 or more [QCK] crew members, deals 2x ATK in damage to 3 enemies.', 'When there is 6 or more [QCK] crew members, 20% chance to inflict Special Bind to 3 enemies for 6 seconds.'],
+                    ['Inflicts Lv. 4 DEF down debuff to all enemies in a large, radial range for 5 seconds.', 'Deals 1.2x ATK in damage to all enemies in a large, radial range.', '23% chance to inflict Paralysis to all enemies in a large, radial range for 11 seconds.', 'When there is 6 or more [QCK] crew members, deals 2.2x ATK in damage to 3 enemies.', 'When there is 6 or more [QCK] crew members, 23% chance to inflict Special Bind to 3 enemies for 6 seconds.'],
+                    ['Inflicts Lv. 5 DEF down debuff to all enemies in a large, radial range for 5 seconds.', 'Deals 1.4x ATK in damage to all enemies in a large, radial range.', '26% chance to inflict Paralysis to all enemies in a large, radial range for 12 seconds.', 'When there is 6 or more [QCK] crew members, deals 2.4x ATK in damage to 3 enemies.', 'When there is 6 or more [QCK] crew members, 26% chance to inflict Special Bind to 3 enemies for 7 seconds.'],
+                    ['Inflicts Lv. 5 DEF down debuff to all enemies in a large, radial range for 5 seconds.', 'Deals 1.6x ATK in damage to all enemies in a large, radial range.', '29% chance to inflict Paralysis to all enemies in a large, radial range for 12 seconds.', 'When there is 6 or more [QCK] crew members, deals 2.6x ATK in damage to 3 enemies.', 'When there is 6 or more [QCK] crew members, 29% chance to inflict Special Bind to 3 enemies for 7 seconds.'],
+                    ['Inflicts Lv. 6 DEF down debuff to all enemies in a large, radial range for 5 seconds.', 'Deals 1.8x ATK in damage to all enemies in a large, radial range.', '32% chance to inflict Paralysis to all enemies in a large, radial range for 13 seconds.', 'When there is 6 or more [QCK] crew members, deals 2.8x ATK in damage to 3 enemies.', 'When there is 6 or more [QCK] crew members, 32% chance to inflict Special Bind to 3 enemies for 8 seconds.'],
+                    ['Inflicts Lv. 6 DEF down debuff to all enemies in a large, radial range for 5 seconds.', 'Deals 2x ATK in damage to all enemies in a large, radial range.', '35% chance to inflict Paralysis to all enemies in a large, radial range for 13 seconds.', 'When there is 6 or more [QCK] crew members, deals 3x ATK in damage to 3 enemies.', 'When there is 6 or more [QCK] crew members, 35% chance to inflict Special Bind to 3 enemies for 8 seconds.'],
+                    ['Inflicts Lv. 7 DEF down debuff to all enemies in a large, radial range for 5 seconds.', 'Deals 2.2x ATK in damage to all enemies in a large, radial range.', '38% chance to inflict Paralysis to all enemies in a large, radial range for 14 seconds.', 'When there is 6 or more [QCK] crew members, deals 3.2x ATK in damage to 3 enemies.', 'When there is 6 or more [QCK] crew members, 38% chance to inflict Special Bind to 3 enemies for 9 seconds.'],
+                    ['Inflicts Lv. 7 DEF down debuff to all enemies in a large, radial range for 5 seconds.', 'Deals 2.4x ATK in damage to all enemies in a large, radial range.', '41% chance to inflict Paralysis to all enemies in a large, radial range for 14 seconds.', 'When there is 6 or more [QCK] crew members, deals 3.4x ATK in damage to 3 enemies.', 'When there is 6 or more [QCK] crew members, 41% chance to inflict Special Bind to 3 enemies for 9 seconds.'],
+                    ['Inflicts Lv. 8 DEF down debuff to all enemies in a large, radial range for 5 seconds.', 'Deals 2.6x ATK in damage to all enemies in a large, radial range.', '44% chance to inflict Paralysis to all enemies in a large, radial range for 15 seconds.', 'When there is 6 or more [QCK] crew members, deals 3.6x ATK in damage to 3 enemies.', 'When there is 6 or more [QCK] crew members, 44% chance to inflict Special Bind to 3 enemies for 10 seconds.'],
+                    ['Inflicts Lv. 8 DEF down debuff to all enemies in a large, radial range for 5 seconds.', 'Deals 3x ATK in damage to all enemies in a large, radial range.', '50% chance to inflict Paralysis to all enemies in a large, radial range for 15 seconds.', 'When there is 6 or more [QCK] crew members, deals 4x ATK in damage to 3 enemies.', 'When there is 6 or more [QCK] crew members, 50% chance to inflict Special Bind to 3 enemies for 10 seconds.']
+                ]
+            }
+        },
+        festSuperSpecial: {
+            base: {
+                condition: "After this character receives enemies' Rumble Specials 2 times",
+                description: ['Inflicts Lv. 9 DEF down debuff to all enemies in a large, radial range for 10 seconds.', 'Deals 3.5x ATK in damage to all enemies in a large, radial range.', '75% chance to inflict Paralysis to all enemies in a large, radial range for 15 seconds.', 'When there is 6 or more [QCK] crew members, deals 4.5x ATK in damage to 3 enemies.', 'When there is 6 or more [QCK] crew members, 75% chance to inflict Special Bind to 3 enemies for 10 seconds.', 'When there is 6 or more [QCK] crew members, inflicts Lv. 5 ATK down debuff to 3 enemies for 20 seconds.']
+            },
+            llbbase: {
+                condition: "After this character receives enemies' Rumble Specials 2 times",
+                description: ['Inflicts Lv. 10 DEF down debuff to all enemies for 20 seconds.', 'Deals 4x ATK in damage to all enemies.', '100% chance to inflict Paralysis to all enemies for 30 seconds.', 'When there is 6 or more [QCK] crew members, deals 5x ATK in damage to all enemies.', 'When there is 6 or more [QCK] crew members, 100% chance to inflict Special Bind to all enemies for 10 seconds.', 'When there is 6 or more [QCK] crew members, inflicts Lv. 7 ATK down debuff to all enemies for 30 seconds.']
+            }
+        }
+    },
     4419: {
         festStats: {
             def: 160,
