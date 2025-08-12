@@ -1170,7 +1170,7 @@
 					},
 					{
 						type: "option",
-						description: "모든 속성",
+						description: "모든 대상",
 						regex: /( |all)/,
 						groups: [4],
 						cssClasses: ["min-width-6"],
@@ -8418,7 +8418,7 @@
 		"저항": [
 
 			{
-				name: "Action Bind[번역중]",
+				name: "행동 봉쇄",
 				targets: ["rumbleResistance"],
 				regex:
 					/([\d]+)% chance to resist Action Bind./i,
