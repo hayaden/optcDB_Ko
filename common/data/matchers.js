@@ -82,7 +82,7 @@
 	 *      instead of .+)
 	 * * Also exclude dots so that the regex doesn't match across sentences, so use
 	 *      [^."]+
-	 * * The regexes assume that the words "공격력", "HP", and "RCV" will appear in
+	 * * The regexes assume that the words "ATK", "HP", and "RCV" will appear in
 	 *      in this order. The only forms expected are the following:
 	 *      ATK|HP|RCV|ATK and HP|ATK and RCV|HP and RCV|ATK, HP and RCV
 	 * * JS does not support atomic groups nor possessive quantifiers (.++) but it
@@ -174,6 +174,18 @@
 	Cerebral: "박식",
 	Powerhouse: "강인",
 	Driven: "야심"
+	};
+
+	const sizeMapping = {
+		"Small": "좁은 범위",
+		"Medium": "중간 범위", 
+		"Large": "넓은 범위"
+	};
+	
+	const directionMapping = {
+		"Forward": "전방",
+		"Sideways": "측면",
+		"Radial": "방사형"
 	};
 // 추가된건 여기까지
 	var types = ["STR", "DEX", "QCK", "PSY", "INT"];
@@ -427,6 +439,35 @@
 			regex: new RegExp(universalRegex || "all|type(?!])", "i"),
 			groups: groups,
 		});
+		return result;
+	}
+
+	function createRangeSubmatcher(groups) {
+		var result = [];
+		const sizes = ["Small", "Medium", "Large"];
+		const directions = ["Forward", "Sideways", "Radial"];
+
+		sizes.forEach((size) => {
+			result.push({
+				type: "option",
+				description: sizeMapping[size], //매핑소스 추가
+				regex: new RegExp(size, "i"),
+				radioGroup: "size",
+				cssClasses: ["min-width-4"],
+				groups: groups,
+			});
+		});
+		directions.forEach((direction) => {
+			result.push({
+				type: "option",
+				description: directionMapping[direction], //매핑소스 추가
+				regex: new RegExp(direction, "i"),
+				radioGroup: "direction",
+				cssClasses: ["min-width-4"],
+				groups: groups,
+			});
+		});		
+
 		return result;
 	}
 
@@ -1094,6 +1135,82 @@
 				targets: ["special"],
 				regex: /specialProportional/i,
 			},
+
+			// Prototype
+			{
+				name: "공격력 x배 데미지",
+				targets: ["rumbleSpecial"],
+				regex: /Deals ([.\d]+)x ATK in damage( ignoring DEF)? to (\d)?(?=((?:[^e]+|e(?!nem))*))\4enem(?:y|ies)(?: in a ([\w]+, [\w]+) range)?(?: (\d+) times?)?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "배수:",
+						groups: [1],
+					},
+					{
+						type: "number",
+						description: "횟수:",
+						groups: [6],
+					},
+					{
+						type: "option",
+						description: "방어력 무시",
+						regex: /./,
+						groups: [2],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "대상:",
+					},
+					{
+						type: "number",
+						description: "대상 수:",
+						groups: [3],
+					},
+					{
+						type: "option",
+						description: "모든 속성",
+						regex: /( |all)/,
+						groups: [4],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "속성:",
+					},
+					...createTypesSubmatchers([4]),
+					{
+						type: "separator",
+						description: "타입:",
+					},
+					...createClassesSubmatchers([4]),
+					{
+						type: "separator",
+						description: "범위:",
+					},
+					...createRangeSubmatcher([5]),
+				],
+			},
+
+			// {
+			// 	name: "Fixed",
+			// 	targets: ["rumbleSpecial"],
+			// 	regex: /Deals ([,\d]+) fixed damage/i,
+			// },
+
+			// {
+			// 	name: "Percentage",
+			// 	targets: ["rumbleSpecial"],
+			// 	regex: /([.\d]+)% HP cut/i,
+			// },
+
+			// {
+			// 	name: "Random",
+			// 	targets: ["rumbleSpecial"],
+			// 	regex: /Randomly deals between ([,\d]+)-([,\d]+) fixed damage/i,
+			// },
+
 		],
 		"데미지 및 능력치 강화": [
 			{
@@ -8233,13 +8350,82 @@
 
 			{
 				name: "행동 봉쇄",
+				targets: ["rumbleSpecial"],
+				regex:
+					/([\d]+)% chance to cleanse ([^.]+) down debuffs to ([^.]+)/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "확률:",
+						groups: [1],
+					},
+					{
+						type: "separator",
+						description: "해제:",
+					},
+					{
+						type: "option",
+						description: "모두",
+						regex: /All/i,
+						groups: [2],
+						cssClasses: ["min-width-4"],
+					},
+					{
+						type: "option",
+						description: "공격력",
+						regex: /(ATK|all)/i,
+						groups: [2],
+						cssClasses: ["min-width-4"],
+					},
+					{
+						type: "option",
+						description: "방어력",
+						regex: /(DEF|all)/i,
+						groups: [2],
+						cssClasses: ["min-width-4"],
+					},
+					{
+						type: "option",
+						description: "회복력",
+						regex: /(RCV|all)/i,
+						groups: [2],
+						cssClasses: ["min-width-4"],
+					},
+					{
+						type: "option",
+						description: "속도",
+						regex: /(SPD|all)/i,
+						groups: [2],
+						cssClasses: ["min-width-4"],
+					},
+					{
+						type: "option",
+						description: "필살기 쿨타임",
+						regex: /(Special CT|all)/i,
+						groups: [2],
+						cssClasses: ["min-width-4"],
+					},
+					{
+						type: "separator",
+						description: "대상:",
+					},
+					...createUniversalSubmatcher([3]),
+				],
+			},
+
+		],
+
+		"저항": [
+
+			{
+				name: "Action Bind[번역중]",
 				targets: ["rumbleResistance"],
 				regex:
 					/([\d]+)% chance to resist Action Bind./i,
 				submatchers: [
 					{
 						type: "number",
-						description: "Chance:",
+						description: "확률:",
 						groups: [1],
 					},
 				],
@@ -8253,7 +8439,7 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Chance:",
+						description: "확률:",
 						groups: [1],
 					},
 				],
@@ -8267,7 +8453,7 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Chance:",
+						description: "확률:",
 						groups: [1],
 					},
 				],
@@ -8281,7 +8467,7 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Chance:",
+						description: "확률:",
 						groups: [1],
 					},
 				],
@@ -8295,7 +8481,7 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Chance:",
+						description: "확률:",
 						groups: [1],
 					},
 				],
@@ -8309,7 +8495,7 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Chance:",
+						description: "확률:",
 						groups: [1],
 					},
 				],
@@ -8323,13 +8509,15 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Chance:",
+						description: "확률:",
 						groups: [1],
 					},
 				],
 			},
 
 		],
+
+
 		기타: [
 			{
 				name: "기본 능력치 패시브만 보유한 캐릭터 제외",

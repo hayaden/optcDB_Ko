@@ -52933,16 +52933,16 @@ window.rumble = {
             base: {
                 cooldown: 35,
                 descriptions: [
-                    ['10% chance to cleanse ATK, HP, RCV, DEF and SPD down debuffs to all crew members.', 'Applies Lv. 1 SPD and ATK up buff to Cerebral crew members for 16 seconds.', 'Deals 2x ATK in damage to all enemies in a large, sideways range.'],
-                    ['20% chance to cleanse ATK, HP, RCV, DEF and SPD down debuffs to all crew members.', 'Applies Lv. 1 SPD and ATK up buff to Cerebral crew members for 17 seconds.', 'Deals 2.12x ATK in damage to all enemies in a large, sideways range.'],
-                    ['30% chance to cleanse ATK, HP, RCV, DEF and SPD down debuffs to all crew members.', 'Applies Lv. 2 SPD and ATK up buff to Cerebral crew members for 18 seconds.', 'Deals 2.24x ATK in damage to all enemies in a large, sideways range.'],
-                    ['40% chance to cleanse ATK, HP, RCV, DEF and SPD down debuffs to all crew members.', 'Applies Lv. 2 SPD and ATK up buff to Cerebral crew members for 19 seconds.', 'Deals 2.36x ATK in damage to all enemies in a large, sideways range.'],
-                    ['50% chance to cleanse ATK, HP, RCV, DEF and SPD down debuffs to all crew members.', 'Applies Lv. 3 SPD and ATK up buff to Cerebral crew members for 20 seconds.', 'Deals 2.48x ATK in damage to all enemies in a large, sideways range.'],
-                    ['60% chance to cleanse ATK, HP, RCV, DEF and SPD down debuffs to all crew members.', 'Applies Lv. 3 SPD and ATK up buff to Cerebral crew members for 21 seconds.', 'Deals 2.6x ATK in damage to all enemies in a large, sideways range.'],
-                    ['70% chance to cleanse ATK, HP, RCV, DEF and SPD down debuffs to all crew members.', 'Applies Lv. 4 SPD and ATK up buff to Cerebral crew members for 22 seconds.', 'Deals 2.72x ATK in damage to all enemies in a large, sideways range.'],
-                    ['80% chance to cleanse ATK, HP, RCV, DEF and SPD down debuffs to all crew members.', 'Applies Lv. 4 SPD and ATK up buff to Cerebral crew members for 23 seconds.', 'Deals 2.84x ATK in damage to all enemies in a large, sideways range.'],
-                    ['90% chance to cleanse ATK, HP, RCV, DEF and SPD down debuffs to all crew members.', 'Applies Lv. 5 SPD and ATK up buff to Cerebral crew members for 24 seconds.', 'Deals 2.96x ATK in damage to all enemies in a large, sideways range.'],
-                    ['100% chance to cleanse ATK, HP, RCV, DEF and SPD down debuffs to all crew members.', 'Applies Lv. 6 SPD and ATK up buff to Cerebral crew members for 25 seconds.', 'Deals 3.2x ATK in damage to all enemies in a large, sideways range.']
+                    ['10% chance to cleanse all down debuffs to all crew members.', 'Applies Lv. 1 SPD and ATK up buff to Cerebral crew members for 16 seconds.', 'Deals 2x ATK in damage to all enemies in a large, sideways range.'],
+                    ['20% chance to cleanse all down debuffs to all crew members.', 'Applies Lv. 1 SPD and ATK up buff to Cerebral crew members for 17 seconds.', 'Deals 2.12x ATK in damage to all enemies in a large, sideways range.'],
+                    ['30% chance to cleanse all down debuffs to all crew members.', 'Applies Lv. 2 SPD and ATK up buff to Cerebral crew members for 18 seconds.', 'Deals 2.24x ATK in damage to all enemies in a large, sideways range.'],
+                    ['40% chance to cleanse all down debuffs to all crew members.', 'Applies Lv. 2 SPD and ATK up buff to Cerebral crew members for 19 seconds.', 'Deals 2.36x ATK in damage to all enemies in a large, sideways range.'],
+                    ['50% chance to cleanse all down debuffs to all crew members.', 'Applies Lv. 3 SPD and ATK up buff to Cerebral crew members for 20 seconds.', 'Deals 2.48x ATK in damage to all enemies in a large, sideways range.'],
+                    ['60% chance to cleanse all down debuffs to all crew members.', 'Applies Lv. 3 SPD and ATK up buff to Cerebral crew members for 21 seconds.', 'Deals 2.6x ATK in damage to all enemies in a large, sideways range.'],
+                    ['70% chance to cleanse all down debuffs to all crew members.', 'Applies Lv. 4 SPD and ATK up buff to Cerebral crew members for 22 seconds.', 'Deals 2.72x ATK in damage to all enemies in a large, sideways range.'],
+                    ['80% chance to cleanse all down debuffs to all crew members.', 'Applies Lv. 4 SPD and ATK up buff to Cerebral crew members for 23 seconds.', 'Deals 2.84x ATK in damage to all enemies in a large, sideways range.'],
+                    ['90% chance to cleanse all down debuffs to all crew members.', 'Applies Lv. 5 SPD and ATK up buff to Cerebral crew members for 24 seconds.', 'Deals 2.96x ATK in damage to all enemies in a large, sideways range.'],
+                    ['100% chance to cleanse all down debuffs to all crew members.', 'Applies Lv. 6 SPD and ATK up buff to Cerebral crew members for 25 seconds.', 'Deals 3.2x ATK in damage to all enemies in a large, sideways range.']
                 ]
             }
         },
@@ -52993,16 +52993,16 @@ window.rumble = {
             base: {
                 cooldown: 35,
                 descriptions: [
-                    ['10% chance to cleanse ATK, HP, RCV, DEF and SPD down debuffs to all crew members.', 'Applies Lv. 1 SPD and ATK up buff to Cerebral crew members for 16 seconds.', 'Deals 2x ATK in damage to all enemies in a large, sideways range.'],
-                    ['20% chance to cleanse ATK, HP, RCV, DEF and SPD down debuffs to all crew members.', 'Applies Lv. 1 SPD and ATK up buff to Cerebral crew members for 17 seconds.', 'Deals 2.12x ATK in damage to all enemies in a large, sideways range.'],
-                    ['30% chance to cleanse ATK, HP, RCV, DEF and SPD down debuffs to all crew members.', 'Applies Lv. 2 SPD and ATK up buff to Cerebral crew members for 18 seconds.', 'Deals 2.24x ATK in damage to all enemies in a large, sideways range.'],
-                    ['40% chance to cleanse ATK, HP, RCV, DEF and SPD down debuffs to all crew members.', 'Applies Lv. 2 SPD and ATK up buff to Cerebral crew members for 19 seconds.', 'Deals 2.36x ATK in damage to all enemies in a large, sideways range.'],
-                    ['50% chance to cleanse ATK, HP, RCV, DEF and SPD down debuffs to all crew members.', 'Applies Lv. 3 SPD and ATK up buff to Cerebral crew members for 20 seconds.', 'Deals 2.48x ATK in damage to all enemies in a large, sideways range.'],
-                    ['60% chance to cleanse ATK, HP, RCV, DEF and SPD down debuffs to all crew members.', 'Applies Lv. 3 SPD and ATK up buff to Cerebral crew members for 21 seconds.', 'Deals 2.6x ATK in damage to all enemies in a large, sideways range.'],
-                    ['70% chance to cleanse ATK, HP, RCV, DEF and SPD down debuffs to all crew members.', 'Applies Lv. 4 SPD and ATK up buff to Cerebral crew members for 22 seconds.', 'Deals 2.72x ATK in damage to all enemies in a large, sideways range.'],
-                    ['80% chance to cleanse ATK, HP, RCV, DEF and SPD down debuffs to all crew members.', 'Applies Lv. 4 SPD and ATK up buff to Cerebral crew members for 23 seconds.', 'Deals 2.84x ATK in damage to all enemies in a large, sideways range.'],
-                    ['90% chance to cleanse ATK, HP, RCV, DEF and SPD down debuffs to all crew members.', 'Applies Lv. 5 SPD and ATK up buff to Cerebral crew members for 24 seconds.', 'Deals 2.96x ATK in damage to all enemies in a large, sideways range.'],
-                    ['100% chance to cleanse ATK, HP, RCV, DEF and SPD down debuffs to all crew members.', 'Applies Lv. 6 SPD and ATK up buff to Cerebral crew members for 25 seconds.', 'Deals 3.2x ATK in damage to all enemies in a large, sideways range.']
+                    ['10% chance to cleanse all down debuffs to all crew members.', 'Applies Lv. 1 SPD and ATK up buff to Cerebral crew members for 16 seconds.', 'Deals 2x ATK in damage to all enemies in a large, sideways range.'],
+                    ['20% chance to cleanse all down debuffs to all crew members.', 'Applies Lv. 1 SPD and ATK up buff to Cerebral crew members for 17 seconds.', 'Deals 2.12x ATK in damage to all enemies in a large, sideways range.'],
+                    ['30% chance to cleanse all down debuffs to all crew members.', 'Applies Lv. 2 SPD and ATK up buff to Cerebral crew members for 18 seconds.', 'Deals 2.24x ATK in damage to all enemies in a large, sideways range.'],
+                    ['40% chance to cleanse all down debuffs to all crew members.', 'Applies Lv. 2 SPD and ATK up buff to Cerebral crew members for 19 seconds.', 'Deals 2.36x ATK in damage to all enemies in a large, sideways range.'],
+                    ['50% chance to cleanse all down debuffs to all crew members.', 'Applies Lv. 3 SPD and ATK up buff to Cerebral crew members for 20 seconds.', 'Deals 2.48x ATK in damage to all enemies in a large, sideways range.'],
+                    ['60% chance to cleanse all down debuffs to all crew members.', 'Applies Lv. 3 SPD and ATK up buff to Cerebral crew members for 21 seconds.', 'Deals 2.6x ATK in damage to all enemies in a large, sideways range.'],
+                    ['70% chance to cleanse all down debuffs to all crew members.', 'Applies Lv. 4 SPD and ATK up buff to Cerebral crew members for 22 seconds.', 'Deals 2.72x ATK in damage to all enemies in a large, sideways range.'],
+                    ['80% chance to cleanse all down debuffs to all crew members.', 'Applies Lv. 4 SPD and ATK up buff to Cerebral crew members for 23 seconds.', 'Deals 2.84x ATK in damage to all enemies in a large, sideways range.'],
+                    ['90% chance to cleanse all down debuffs to all crew members.', 'Applies Lv. 5 SPD and ATK up buff to Cerebral crew members for 24 seconds.', 'Deals 2.96x ATK in damage to all enemies in a large, sideways range.'],
+                    ['100% chance to cleanse all down debuffs to all crew members.', 'Applies Lv. 6 SPD and ATK up buff to Cerebral crew members for 25 seconds.', 'Deals 3.2x ATK in damage to all enemies in a large, sideways range.']
                 ]
             }
         },
@@ -53485,16 +53485,16 @@ window.rumble = {
             base: {
                 cooldown: 33,
                 descriptions: [
-                    ['Applies Lv. 2 ATK and DEF up buff to [PSY] crew members for 11 seconds.', 'Provoke enemies to self for 21 seconds.', 'Reduce Shield to self for 21 seconds.', 'Heals 150 fixed HP every 3 seconds to self for 21 seconds.'],
-                    ['Applies Lv. 2 ATK and DEF up buff to [PSY] crew members for 12 seconds.', 'Provoke enemies to self for 22 seconds.', 'Reduce Shield to self for 22 seconds.', 'Heals 120 fixed HP every 3 seconds to self for 22 seconds.'],
-                    ['Applies Lv. 3 ATK and DEF up buff to [PSY] crew members for 13 seconds.', 'Provoke enemies to self for 23 seconds.', 'Reduce Shield to self for 23 seconds.', 'Heals 140 fixed HP every 3 seconds to self for 23 seconds.'],
-                    ['Applies Lv. 3 ATK and DEF up buff to [PSY] crew members for 14 seconds.', 'Provoke enemies to self for 24 seconds.', 'Reduce Shield to self for 24 seconds.', 'Heals 160 fixed HP every 3 seconds to self for 24 seconds.'],
-                    ['Applies Lv. 4 ATK and DEF up buff to [PSY] crew members for 15 seconds.', 'Provoke enemies to self for 25 seconds.', 'Reduce Shield to self for 25 seconds.', 'Heals 180 fixed HP every 3 seconds to self for 25 seconds.'],
-                    ['Applies Lv. 4 ATK and DEF up buff to [PSY] crew members for 16 seconds.', 'Provoke enemies to self for 26 seconds.', 'Reduce Shield to self for 26 seconds.', 'Heals 200 fixed HP every 3 seconds to self for 26 seconds.'],
-                    ['Applies Lv. 5 ATK and DEF up buff to [PSY] crew members for 17 seconds.', 'Provoke enemies to self for 27 seconds.', 'Reduce Shield to self for 27 seconds.', 'Heals 220 fixed HP every 3 seconds to self for 27 seconds.'],
-                    ['Applies Lv. 5 ATK and DEF up buff to [PSY] crew members for 18 seconds.', 'Provoke enemies to self for 28 seconds.', 'Reduce Shield to self for 28 seconds.', 'Heals 240 fixed HP every 3 seconds to self for 28 seconds.'],
-                    ['Applies Lv. 6 ATK and DEF up buff to [PSY] crew members for 19 seconds.', 'Provoke enemies to self for 29 seconds.', 'Reduce Shield to self for 29 seconds.', 'Heals 260 fixed HP every 3 seconds to self for 29 seconds.'],
-                    ['Applies Lv. 7 ATK and DEF up buff to [PSY] crew members for 20 seconds.', 'Provoke enemies to self for 30 seconds.', 'Reduce Shield to self for 30 seconds.', 'Heals 300 fixed HP every 3 seconds to self for 30 seconds.']
+                    ['Applies Lv. 2 ATK and DEF up buff to [PSY] crew members for 11 seconds.', 'Provoke enemies to self for 21 seconds.', 'Applies Lv. 1 Shield up buff to self for 21 seconds.', 'Heals 150 fixed HP every 3 seconds to self for 21 seconds.'],
+                    ['Applies Lv. 2 ATK and DEF up buff to [PSY] crew members for 12 seconds.', 'Provoke enemies to self for 22 seconds.', 'Applies Lv. 1 Shield up buff to self for 22 seconds.', 'Heals 120 fixed HP every 3 seconds to self for 22 seconds.'],
+                    ['Applies Lv. 3 ATK and DEF up buff to [PSY] crew members for 13 seconds.', 'Provoke enemies to self for 23 seconds.', 'Applies Lv. 2 Shield up buff to self for 23 seconds.', 'Heals 140 fixed HP every 3 seconds to self for 23 seconds.'],
+                    ['Applies Lv. 3 ATK and DEF up buff to [PSY] crew members for 14 seconds.', 'Provoke enemies to self for 24 seconds.', 'Applies Lv. 2 Shield up buff to self for 24 seconds.', 'Heals 160 fixed HP every 3 seconds to self for 24 seconds.'],
+                    ['Applies Lv. 4 ATK and DEF up buff to [PSY] crew members for 15 seconds.', 'Provoke enemies to self for 25 seconds.', 'Applies Lv. 3 Shield up buff to self for 25 seconds.', 'Heals 180 fixed HP every 3 seconds to self for 25 seconds.'],
+                    ['Applies Lv. 4 ATK and DEF up buff to [PSY] crew members for 16 seconds.', 'Provoke enemies to self for 26 seconds.', 'Applies Lv. 3 Shield up buff to self for 26 seconds.', 'Heals 200 fixed HP every 3 seconds to self for 26 seconds.'],
+                    ['Applies Lv. 5 ATK and DEF up buff to [PSY] crew members for 17 seconds.', 'Provoke enemies to self for 27 seconds.', 'Applies Lv. 4 Shield up buff to self for 27 seconds.', 'Heals 220 fixed HP every 3 seconds to self for 27 seconds.'],
+                    ['Applies Lv. 5 ATK and DEF up buff to [PSY] crew members for 18 seconds.', 'Provoke enemies to self for 28 seconds.', 'Applies Lv. 4 Shield up buff to self for 28 seconds.', 'Heals 240 fixed HP every 3 seconds to self for 28 seconds.'],
+                    ['Applies Lv. 6 ATK and DEF up buff to [PSY] crew members for 19 seconds.', 'Provoke enemies to self for 29 seconds.', 'Applies Lv. 5 Shield up buff to self for 29 seconds.', 'Heals 260 fixed HP every 3 seconds to self for 29 seconds.'],
+                    ['Applies Lv. 7 ATK and DEF up buff to [PSY] crew members for 20 seconds.', 'Provoke enemies to self for 30 seconds.', 'Applies Lv. 5 Shield up buff to self for 30 seconds.', 'Heals 300 fixed HP every 3 seconds to self for 30 seconds.']
                 ]
             }
         },
@@ -53545,16 +53545,16 @@ window.rumble = {
             base: {
                 cooldown: 33,
                 descriptions: [
-                    ['Applies Lv. 2 ATK and DEF up buff to [PSY] crew members for 11 seconds.', 'Provoke enemies to self for 21 seconds.', 'Reduce Shield to self for 21 seconds.', 'Heals 150 fixed HP every 3 seconds to self for 21 seconds.'],
-                    ['Applies Lv. 2 ATK and DEF up buff to [PSY] crew members for 12 seconds.', 'Provoke enemies to self for 22 seconds.', 'Reduce Shield to self for 22 seconds.', 'Heals 120 fixed HP every 3 seconds to self for 22 seconds.'],
-                    ['Applies Lv. 3 ATK and DEF up buff to [PSY] crew members for 13 seconds.', 'Provoke enemies to self for 23 seconds.', 'Reduce Shield to self for 23 seconds.', 'Heals 140 fixed HP every 3 seconds to self for 23 seconds.'],
-                    ['Applies Lv. 3 ATK and DEF up buff to [PSY] crew members for 14 seconds.', 'Provoke enemies to self for 24 seconds.', 'Reduce Shield to self for 24 seconds.', 'Heals 160 fixed HP every 3 seconds to self for 24 seconds.'],
-                    ['Applies Lv. 4 ATK and DEF up buff to [PSY] crew members for 15 seconds.', 'Provoke enemies to self for 25 seconds.', 'Reduce Shield to self for 25 seconds.', 'Heals 180 fixed HP every 3 seconds to self for 25 seconds.'],
-                    ['Applies Lv. 4 ATK and DEF up buff to [PSY] crew members for 16 seconds.', 'Provoke enemies to self for 26 seconds.', 'Reduce Shield to self for 26 seconds.', 'Heals 200 fixed HP every 3 seconds to self for 26 seconds.'],
-                    ['Applies Lv. 5 ATK and DEF up buff to [PSY] crew members for 17 seconds.', 'Provoke enemies to self for 27 seconds.', 'Reduce Shield to self for 27 seconds.', 'Heals 220 fixed HP every 3 seconds to self for 27 seconds.'],
-                    ['Applies Lv. 5 ATK and DEF up buff to [PSY] crew members for 18 seconds.', 'Provoke enemies to self for 28 seconds.', 'Reduce Shield to self for 28 seconds.', 'Heals 240 fixed HP every 3 seconds to self for 28 seconds.'],
-                    ['Applies Lv. 6 ATK and DEF up buff to [PSY] crew members for 19 seconds.', 'Provoke enemies to self for 29 seconds.', 'Reduce Shield to self for 29 seconds.', 'Heals 260 fixed HP every 3 seconds to self for 29 seconds.'],
-                    ['Applies Lv. 7 ATK and DEF up buff to [PSY] crew members for 20 seconds.', 'Provoke enemies to self for 30 seconds.', 'Reduce Shield to self for 30 seconds.', 'Heals 300 fixed HP every 3 seconds to self for 30 seconds.']
+                    ['Applies Lv. 2 ATK and DEF up buff to [PSY] crew members for 11 seconds.', 'Provoke enemies to self for 21 seconds.', 'Applies Lv. 1 Shield up buff to self for 21 seconds.', 'Heals 150 fixed HP every 3 seconds to self for 21 seconds.'],
+                    ['Applies Lv. 2 ATK and DEF up buff to [PSY] crew members for 12 seconds.', 'Provoke enemies to self for 22 seconds.', 'Applies Lv. 1 Shield up buff to self for 22 seconds.', 'Heals 120 fixed HP every 3 seconds to self for 22 seconds.'],
+                    ['Applies Lv. 3 ATK and DEF up buff to [PSY] crew members for 13 seconds.', 'Provoke enemies to self for 23 seconds.', 'Applies Lv. 2 Shield up buff to self for 23 seconds.', 'Heals 140 fixed HP every 3 seconds to self for 23 seconds.'],
+                    ['Applies Lv. 3 ATK and DEF up buff to [PSY] crew members for 14 seconds.', 'Provoke enemies to self for 24 seconds.', 'Applies Lv. 2 Shield up buff to self for 24 seconds.', 'Heals 160 fixed HP every 3 seconds to self for 24 seconds.'],
+                    ['Applies Lv. 4 ATK and DEF up buff to [PSY] crew members for 15 seconds.', 'Provoke enemies to self for 25 seconds.', 'Applies Lv. 3 Shield up buff to self for 25 seconds.', 'Heals 180 fixed HP every 3 seconds to self for 25 seconds.'],
+                    ['Applies Lv. 4 ATK and DEF up buff to [PSY] crew members for 16 seconds.', 'Provoke enemies to self for 26 seconds.', 'Applies Lv. 3 Shield up buff to self for 26 seconds.', 'Heals 200 fixed HP every 3 seconds to self for 26 seconds.'],
+                    ['Applies Lv. 5 ATK and DEF up buff to [PSY] crew members for 17 seconds.', 'Provoke enemies to self for 27 seconds.', 'Applies Lv. 4 Shield up buff to self for 27 seconds.', 'Heals 220 fixed HP every 3 seconds to self for 27 seconds.'],
+                    ['Applies Lv. 5 ATK and DEF up buff to [PSY] crew members for 18 seconds.', 'Provoke enemies to self for 28 seconds.', 'Applies Lv. 4 Shield up buff to self for 28 seconds.', 'Heals 240 fixed HP every 3 seconds to self for 28 seconds.'],
+                    ['Applies Lv. 6 ATK and DEF up buff to [PSY] crew members for 19 seconds.', 'Provoke enemies to self for 29 seconds.', 'Applies Lv. 5 Shield up buff to self for 29 seconds.', 'Heals 260 fixed HP every 3 seconds to self for 29 seconds.'],
+                    ['Applies Lv. 7 ATK and DEF up buff to [PSY] crew members for 20 seconds.', 'Provoke enemies to self for 30 seconds.', 'Applies Lv. 5 Shield up buff to self for 30 seconds.', 'Heals 300 fixed HP every 3 seconds to self for 30 seconds.']
                 ]
             }
         },
