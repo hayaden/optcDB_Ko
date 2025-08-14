@@ -606,15 +606,15 @@
 				if (flags.special)
 					htmlToAppend +='<span class="tag flag">로그인 보너스 한정 캐릭터</span>';
 				if (flags.inkable)
-					htmlToAppend += '<span class="tag flag">Inkable</span>';
+					htmlToAppend += '<span class="tag flag">이펙트 추가가능</span>';
 				if (CharUtils.checkFarmable(id, { "Story Island": true }))
 					htmlToAppend += '<span class="tag flag">스토리 모드 캐릭터</span>';
 				if (CharUtils.checkFarmable(id, { Fortnight: true }))
-					htmlToAppend += '<span class="tag flag">Fortnight only</span>';
+					htmlToAppend += '<span class="tag flag">한정던전 캐릭터</span>';
 				if (CharUtils.checkFarmable(id, { Raid: true }))
 					htmlToAppend += '<span class="tag flag">Raid only</span>';
 				if (CharUtils.checkFarmable(id, { Arena: true }))
-					htmlToAppend += '<span class="tag flag">Arena only</span>';
+					htmlToAppend += '<span class="tag flag">투기장 캐릭터</span>';
 				if (CharUtils.checkFarmable(id, { Treasure: true }))
 					htmlToAppend += '<span class="tag flag">트레저 맵 캐릭터</span>';
 				if (
