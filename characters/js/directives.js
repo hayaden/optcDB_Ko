@@ -595,6 +595,14 @@
 					htmlToAppend += '<span class="tag flag">레일리샵 한정 캐릭터</span>';
 				if (flags.tmshop)
 					htmlToAppend += '<span class="tag flag">교환소 한정 캐릭터</span>';
+				if (flags.적제교환소) //교환소 캐릭터 구분 필터 추가
+					htmlToAppend += '<span class="tag flag">해적페스티벌 교환소</span>';
+				if (flags.트맵교환소) //교환소 캐릭터 구분 필터 추가
+					htmlToAppend += '<span class="tag flag">트레저맵 교환소</span>';
+				if (flags.궤적교환소) //교환소 캐릭터 구분 필터 추가
+					htmlToAppend += '<span class="tag flag">해적왕의 궤적 교환소</span>';
+				if (flags.유대교환소) //교환소 캐릭터 구분 필터 추가
+					htmlToAppend += '<span class="tag flag">유대결전 교환소</span>';
 				if (flags.special)
 					htmlToAppend +='<span class="tag flag">로그인 보너스 한정 캐릭터</span>';
 				if (flags.inkable)
