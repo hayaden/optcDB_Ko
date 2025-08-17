@@ -14247,16 +14247,16 @@ window.rumble = {
             base: {
                 cooldown: 37,
                 descriptions: [
-                    ['When HP is above 80%, applies Lv. 6 ATK up buff to self.', 'Deals 0.7x ATK in damage to 1 enemy with the highest ATK.', 'Deals 0.7x ATK in damage to 1 enemy with the highest ATK.', 'Deals 0.7x ATK in damage to 1 enemy with the highest ATK.'],
-                    ['When HP is above 80%, applies Lv. 6 ATK up buff to self.', 'Deals 0.72x ATK in damage to 1 enemy with the highest ATK.', 'Deals 0.72x ATK in damage to 1 enemy with the highest ATK.', 'Deals 0.72x ATK in damage to 1 enemy with the highest ATK.'],
-                    ['When HP is above 80%, applies Lv. 7 ATK up buff to self.', 'Deals 0.73x ATK in damage to 1 enemy with the highest ATK.', 'Deals 0.73x ATK in damage to 1 enemy with the highest ATK.', 'Deals 0.73x ATK in damage to 1 enemy with the highest ATK.'],
-                    ['When HP is above 80%, applies Lv. 7 ATK up buff to self.', 'Deals 0.75x ATK in damage to 1 enemy with the highest ATK.', 'Deals 0.75x ATK in damage to 1 enemy with the highest ATK.', 'Deals 0.75x ATK in damage to 1 enemy with the highest ATK.'],
-                    ['When HP is above 80%, applies Lv. 8 ATK up buff to self.', 'Deals 0.77x ATK in damage to 1 enemy with the highest ATK.', 'Deals 0.77x ATK in damage to 1 enemy with the highest ATK.', 'Deals 0.77x ATK in damage to 1 enemy with the highest ATK.'],
-                    ['When HP is above 80%, applies Lv. 9 ATK up buff to self.', 'Deals 0.79x ATK in damage to 1 enemy with the highest ATK.', 'Deals 0.79x ATK in damage to 1 enemy with the highest ATK.', 'Deals 0.79x ATK in damage to 1 enemy with the highest ATK.'],
-                    ['When HP is above 80%, applies Lv. 9 ATK up buff to self.', 'Deals 0.8x ATK in damage to 1 enemy with the highest ATK.', 'Deals 0.8x ATK in damage to 1 enemy with the highest ATK.', 'Deals 0.8x ATK in damage to 1 enemy with the highest ATK.'],
-                    ['When HP is above 80%, applies Lv. 10 ATK up buff to self.', 'Deals 0.82x ATK in damage to 1 enemy with the highest ATK.', 'Deals 0.82x ATK in damage to 1 enemy with the highest ATK.', 'Deals 0.82x ATK in damage to 1 enemy with the highest ATK.'],
-                    ['When HP is above 80%, applies Lv. 10 ATK up buff to self.', 'Deals 0.84x ATK in damage to 1 enemy with the highest ATK.', 'Deals 0.84x ATK in damage to 1 enemy with the highest ATK.', 'Deals 0.84x ATK in damage to 1 enemy with the highest ATK.'],
-                    ['When HP is above 80%, applies Lv. 12 ATK up buff to self.', 'Deals 0.95x ATK in damage to 1 enemy with the highest ATK.', 'Deals 0.95x ATK in damage to 1 enemy with the highest ATK.', 'Deals 0.95x ATK in damage to 1 enemy with the highest ATK.']
+                    ['When HP is above 80%, applies Lv. 6 ATK up buff to self.', 'Deals 0.7x ATK in damage to 1 enemy with the highest ATK 3 times.'],
+                    ['When HP is above 80%, applies Lv. 6 ATK up buff to self.', 'Deals 0.72x ATK in damage to 1 enemy with the highest ATK 3 times.'],
+                    ['When HP is above 80%, applies Lv. 7 ATK up buff to self.', 'Deals 0.73x ATK in damage to 1 enemy with the highest ATK 3 times.'],
+                    ['When HP is above 80%, applies Lv. 7 ATK up buff to self.', 'Deals 0.75x ATK in damage to 1 enemy with the highest ATK 3 times.'],
+                    ['When HP is above 80%, applies Lv. 8 ATK up buff to self.', 'Deals 0.77x ATK in damage to 1 enemy with the highest ATK 3 times.'],
+                    ['When HP is above 80%, applies Lv. 9 ATK up buff to self.', 'Deals 0.79x ATK in damage to 1 enemy with the highest ATK 3 times.'],
+                    ['When HP is above 80%, applies Lv. 9 ATK up buff to self.', 'Deals 0.8x ATK in damage to 1 enemy with the highest ATK 3 times.'],
+                    ['When HP is above 80%, applies Lv. 10 ATK up buff to self.', 'Deals 0.82x ATK in damage to 1 enemy with the highest ATK 3 times.'],
+                    ['When HP is above 80%, applies Lv. 10 ATK up buff to self.', 'Deals 0.84x ATK in damage to 1 enemy with the highest ATK 3 times.'],
+                    ['When HP is above 80%, applies Lv. 12 ATK up buff to self.', 'Deals 0.95x ATK in damage to 1 enemy with the highest ATK 3 times.']
                 ]
             }
         },
@@ -14307,16 +14307,16 @@ window.rumble = {
             base: {
                 cooldown: 37,
                 descriptions: [
-                    ['When HP is above 80%, applies Lv. 6 ATK up buff to self.', 'Deals 0.7x ATK in damage to 1 enemy with the highest ATK.', 'Deals 0.7x ATK in damage to 1 enemy with the highest ATK.', 'Deals 0.7x ATK in damage to 1 enemy with the highest ATK.'],
-                    ['When HP is above 80%, applies Lv. 6 ATK up buff to self.', 'Deals 0.72x ATK in damage to 1 enemy with the highest ATK.', 'Deals 0.72x ATK in damage to 1 enemy with the highest ATK.', 'Deals 0.72x ATK in damage to 1 enemy with the highest ATK.'],
-                    ['When HP is above 80%, applies Lv. 7 ATK up buff to self.', 'Deals 0.73x ATK in damage to 1 enemy with the highest ATK.', 'Deals 0.73x ATK in damage to 1 enemy with the highest ATK.', 'Deals 0.73x ATK in damage to 1 enemy with the highest ATK.'],
-                    ['When HP is above 80%, applies Lv. 7 ATK up buff to self.', 'Deals 0.75x ATK in damage to 1 enemy with the highest ATK.', 'Deals 0.75x ATK in damage to 1 enemy with the highest ATK.', 'Deals 0.75x ATK in damage to 1 enemy with the highest ATK.'],
-                    ['When HP is above 80%, applies Lv. 8 ATK up buff to self.', 'Deals 0.77x ATK in damage to 1 enemy with the highest ATK.', 'Deals 0.77x ATK in damage to 1 enemy with the highest ATK.', 'Deals 0.77x ATK in damage to 1 enemy with the highest ATK.'],
-                    ['When HP is above 80%, applies Lv. 9 ATK up buff to self.', 'Deals 0.79x ATK in damage to 1 enemy with the highest ATK.', 'Deals 0.79x ATK in damage to 1 enemy with the highest ATK.', 'Deals 0.79x ATK in damage to 1 enemy with the highest ATK.'],
-                    ['When HP is above 80%, applies Lv. 9 ATK up buff to self.', 'Deals 0.8x ATK in damage to 1 enemy with the highest ATK.', 'Deals 0.8x ATK in damage to 1 enemy with the highest ATK.', 'Deals 0.8x ATK in damage to 1 enemy with the highest ATK.'],
-                    ['When HP is above 80%, applies Lv. 10 ATK up buff to self.', 'Deals 0.82x ATK in damage to 1 enemy with the highest ATK.', 'Deals 0.82x ATK in damage to 1 enemy with the highest ATK.', 'Deals 0.82x ATK in damage to 1 enemy with the highest ATK.'],
-                    ['When HP is above 80%, applies Lv. 10 ATK up buff to self.', 'Deals 0.84x ATK in damage to 1 enemy with the highest ATK.', 'Deals 0.84x ATK in damage to 1 enemy with the highest ATK.', 'Deals 0.84x ATK in damage to 1 enemy with the highest ATK.'],
-                    ['When HP is above 80%, applies Lv. 12 ATK up buff to self.', 'Deals 0.95x ATK in damage to 1 enemy with the highest ATK.', 'Deals 0.95x ATK in damage to 1 enemy with the highest ATK.', 'Deals 0.95x ATK in damage to 1 enemy with the highest ATK.']
+                    ['When HP is above 80%, applies Lv. 6 ATK up buff to self.', 'Deals 0.7x ATK in damage to 1 enemy with the highest ATK 3 times.'],
+                    ['When HP is above 80%, applies Lv. 6 ATK up buff to self.', 'Deals 0.72x ATK in damage to 1 enemy with the highest ATK 3 times.'],
+                    ['When HP is above 80%, applies Lv. 7 ATK up buff to self.', 'Deals 0.73x ATK in damage to 1 enemy with the highest ATK 3 times.'],
+                    ['When HP is above 80%, applies Lv. 7 ATK up buff to self.', 'Deals 0.75x ATK in damage to 1 enemy with the highest ATK 3 times.'],
+                    ['When HP is above 80%, applies Lv. 8 ATK up buff to self.', 'Deals 0.77x ATK in damage to 1 enemy with the highest ATK 3 times.'],
+                    ['When HP is above 80%, applies Lv. 9 ATK up buff to self.', 'Deals 0.79x ATK in damage to 1 enemy with the highest ATK 3 times.'],
+                    ['When HP is above 80%, applies Lv. 9 ATK up buff to self.', 'Deals 0.8x ATK in damage to 1 enemy with the highest ATK 3 times.'],
+                    ['When HP is above 80%, applies Lv. 10 ATK up buff to self.', 'Deals 0.82x ATK in damage to 1 enemy with the highest ATK 3 times.'],
+                    ['When HP is above 80%, applies Lv. 10 ATK up buff to self.', 'Deals 0.84x ATK in damage to 1 enemy with the highest ATK 3 times.'],
+                    ['When HP is above 80%, applies Lv. 12 ATK up buff to self.', 'Deals 0.95x ATK in damage to 1 enemy with the highest ATK 3 times.']
                 ]
             }
         },
@@ -35435,16 +35435,16 @@ window.rumble = {
             base: {
                 cooldown: 33,
                 descriptions: [
-                    ['When HP is above 50%, applies Lv. 6 ATK up buff to self for 15 seconds.', 'Deals 0.7x ATK in damage to 2 enemies with the highest ATK.', 'Deals 0.7x ATK in damage to 2 enemies with the highest ATK.', 'Deals 0.7x ATK in damage to 2 enemies with the highest ATK.'],
-                    ['When HP is above 50%, applies Lv. 6 ATK up buff to self for 15 seconds.', 'Deals 0.8x ATK in damage to 2 enemies with the highest ATK.', 'Deals 0.8x ATK in damage to 2 enemies with the highest ATK.', 'Deals 0.8x ATK in damage to 2 enemies with the highest ATK.'],
-                    ['When HP is above 50%, applies Lv. 7 ATK up buff to self for 15 seconds.', 'Deals 0.9x ATK in damage to 2 enemies with the highest ATK.', 'Deals 0.9x ATK in damage to 2 enemies with the highest ATK.', 'Deals 0.9x ATK in damage to 2 enemies with the highest ATK.'],
-                    ['When HP is above 50%, applies Lv. 7 ATK up buff to self for 15 seconds.', 'Deals 1x ATK in damage to 2 enemies with the highest ATK.', 'Deals 1x ATK in damage to 2 enemies with the highest ATK.', 'Deals 1x ATK in damage to 2 enemies with the highest ATK.'],
-                    ['When HP is above 50%, applies Lv. 8 ATK up buff to self for 15 seconds.', 'Deals 1.1x ATK in damage to 2 enemies with the highest ATK.', 'Deals 1.1x ATK in damage to 2 enemies with the highest ATK.', 'Deals 1.1x ATK in damage to 2 enemies with the highest ATK.'],
-                    ['When HP is above 50%, applies Lv. 8 ATK up buff to self for 15 seconds.', 'Deals 1.2x ATK in damage to 2 enemies with the highest ATK.', 'Deals 1.2x ATK in damage to 2 enemies with the highest ATK.', 'Deals 1.2x ATK in damage to 2 enemies with the highest ATK.'],
-                    ['When HP is above 50%, applies Lv. 9 ATK up buff to self for 15 seconds.', 'Deals 1.3x ATK in damage to 2 enemies with the highest ATK.', 'Deals 1.3x ATK in damage to 2 enemies with the highest ATK.', 'Deals 1.3x ATK in damage to 2 enemies with the highest ATK.'],
-                    ['When HP is above 50%, applies Lv. 9 ATK up buff to self for 15 seconds.', 'Deals 1.4x ATK in damage to 2 enemies with the highest ATK.', 'Deals 1.4x ATK in damage to 2 enemies with the highest ATK.', 'Deals 1.4x ATK in damage to 2 enemies with the highest ATK.'],
-                    ['When HP is above 50%, applies Lv. 10 ATK up buff to self for 15 seconds.', 'Deals 1.5x ATK in damage to 2 enemies with the highest ATK.', 'Deals 1.5x ATK in damage to 2 enemies with the highest ATK.', 'Deals 1.5x ATK in damage to 2 enemies with the highest ATK.'],
-                    ['When HP is above 50%, applies Lv. 12 ATK up buff to self for 15 seconds.', 'Deals 1.5x ATK in damage to 2 enemies with the highest ATK.', 'Deals 1.5x ATK in damage to 2 enemies with the highest ATK.', 'Deals 1.5x ATK in damage to 2 enemies with the highest ATK.']
+                    ['When HP is above 50%, applies Lv. 6 ATK up buff to self for 15 seconds.', 'Deals 0.7x ATK in damage to 2 enemies with the highest ATK 3 times.'],
+                    ['When HP is above 50%, applies Lv. 6 ATK up buff to self for 15 seconds.', 'Deals 0.8x ATK in damage to 2 enemies with the highest ATK 3 times.'],
+                    ['When HP is above 50%, applies Lv. 7 ATK up buff to self for 15 seconds.', 'Deals 0.9x ATK in damage to 2 enemies with the highest ATK 3 times.'],
+                    ['When HP is above 50%, applies Lv. 7 ATK up buff to self for 15 seconds.', 'Deals 1x ATK in damage to 2 enemies with the highest ATK 3 times.'],
+                    ['When HP is above 50%, applies Lv. 8 ATK up buff to self for 15 seconds.', 'Deals 1.1x ATK in damage to 2 enemies with the highest ATK 3 times.'],
+                    ['When HP is above 50%, applies Lv. 8 ATK up buff to self for 15 seconds.', 'Deals 1.2x ATK in damage to 2 enemies with the highest ATK 3 times.'],
+                    ['When HP is above 50%, applies Lv. 9 ATK up buff to self for 15 seconds.', 'Deals 1.3x ATK in damage to 2 enemies with the highest ATK 3 times.'],
+                    ['When HP is above 50%, applies Lv. 9 ATK up buff to self for 15 seconds.', 'Deals 1.4x ATK in damage to 2 enemies with the highest ATK 3 times.'],
+                    ['When HP is above 50%, applies Lv. 10 ATK up buff to self for 15 seconds.', 'Deals 1.5x ATK in damage to 2 enemies with the highest ATK 3 times.'],
+                    ['When HP is above 50%, applies Lv. 12 ATK up buff to self for 15 seconds.', 'Deals 1.5x ATK in damage to 2 enemies with the highest ATK 3 times.']
                 ]
             },
             llbbase: {
