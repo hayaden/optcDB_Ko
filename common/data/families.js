@@ -725,6 +725,10 @@ const MonkeyDDragon = [ "Monkey D. Dragon" ];
 const Ginny = [ "Ginny" ];
 const FigarlandGarling = [ "Saint Figarland Garling" ];
 const Alpha = [ "Alpha" ];
+const Gyogyo = [ "Gyogyo" ];
+const Totts = [ "Totts" ];
+const Pert = [ "Pert" ];
+const Potato = [ "Potato" ];
 
 window.families = {
     1: [ ...MonkeyDLuffy ],
@@ -5046,6 +5050,9 @@ window.families = {
     4994: [ ...Coby ],
     4995: [ ...Coby ],
     4996: [ ...Helmeppo ],
+    4422: [ ...JewelryBonney, ...Gyogyo, ...Totts, ...Pert, ...Potato ],
+    4423: [ ...Vegapunk ],
+    4424: [ ...Borsalino ],
 };
 
 const calcGhostStartIDStart = 5000;
