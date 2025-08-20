@@ -612,7 +612,7 @@
 				if (CharUtils.checkFarmable(id, { Fortnight: true }))
 					htmlToAppend += '<span class="tag flag">한정던전 캐릭터</span>';
 				if (CharUtils.checkFarmable(id, { Raid: true }))
-					htmlToAppend += '<span class="tag flag">Raid only</span>';
+					htmlToAppend += '<span class="tag flag">결전 캐릭터</span>';
 				if (CharUtils.checkFarmable(id, { Arena: true }))
 					htmlToAppend += '<span class="tag flag">투기장 캐릭터</span>';
 				if (CharUtils.checkFarmable(id, { Treasure: true }))
@@ -621,12 +621,12 @@
 					CharUtils.checkFarmable(id, { "Story Island": true, Fortnight: true })
 				)
 					htmlToAppend +=
-						'<span class="tag flag">Story mode & fortnight only</span>';
+						'<span class="tag flag">스토리 모드 & (구)스페셜던전</span>';
 				if (CharUtils.checkFarmable(id, { "Story Island": true, Raid: true }))
 					htmlToAppend +=
-						'<span class="tag flag">Story mode & raid only</span>';
+						'<span class="tag flag">스토리 모드 & 결전</span>';
 				if (CharUtils.checkFarmable(id, { Raid: true, Fortnight: true }))
-					htmlToAppend += '<span class="tag flag">Raid & fortnight only</span>';
+					htmlToAppend += '<span class="tag flag">결전 & 스페셜 던전</span>';
 				// matchers
 				if (data) {
 					for (const target in window.matchers) {
