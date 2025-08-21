@@ -7170,7 +7170,7 @@
 				submatchers: [
 					{
 						type: "option",
-						description: "Optional",
+						description: "선택가능",
 						regex: /i/,
 						groups: [1],
 					},
@@ -7599,7 +7599,7 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Enemy's Minimum MAX HP:",
+						description: "적의 최소/최대 HP:",
 						groups: [1],
 					},
 				],
@@ -7612,7 +7612,7 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Damage reduced percentage:",
+						description: "데미지 감소 비율:",
 						groups: [1, 2],
 					},
 					{
@@ -8540,7 +8540,7 @@
 				submatchers: [
 					{
 						type: "option",
-						description: "Optional",
+						description: "교체여부 선택가능",
 						regex: /i/,
 						groups: [1],
 					},
@@ -8628,7 +8628,7 @@
             regex: /\[RCV\].+into/i,
         },*/
 			{
-				name: "초월속성/타입 변환",
+				name: "초월속성/타입 변환 캐릭터 모두 보기",
 				targets: ["superSpecial"],
 				regex: /transforms ([^."]+?) characters into Super/i,
 				submatchers: [
@@ -8646,19 +8646,19 @@
 			},
 
 			{
-				name: "슈퍼 체인지 보유",
+				name: "슈퍼 체인지 보유 캐릭터 모두 보기",
 				targets: ["swap"],
 				regex: /"super"\s*:/i,
 			},
 
 			{
-				name: "선원 효과 보유",
+				name: "선원 효과 보유 캐릭터 모두 보기",
 				targets: ["sailor"],
 				regex: /\S/i,
 			},
 
 			{
-				name: "서포트 효과 보유",
+				name: "서포트 효과 보유 캐릭터 모두 보기",
 				targets: ["support"],
 				regex: /\S/i,
 			},
@@ -8672,7 +8672,7 @@
 			},
 
 			{
-				name: "레벨 상한돌파 보유",
+				name: "레벨 상한돌파 보유 ",
 				targets: ["limit"],
 				regex: /\^\$/i,
 			},
