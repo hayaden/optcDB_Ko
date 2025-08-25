@@ -78158,6 +78158,105 @@ window.rumble = {
             }
         }
     },
+    4422: {
+        festStats: {
+            def: 186,
+            spd: 167,
+            style: "DBF"
+        },
+        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<i>Level 2 Self Heal</i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Special Bind.', '30% damage reduction from [DEX] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 1 ATK and DEF up buff to [STR] crew members.', 'Applies Lv. 1 Special CT up buff to [STR] crew members.', 'Inflicts Lv. 1 Special CT down debuff to [World Government] enemies.'],
+                ['Applies Lv. 2 ATK and DEF up buff to [STR] crew members.', 'Applies Lv. 1 Special CT up buff to [STR] crew members.', 'Inflicts Lv. 2 Special CT down debuff to [World Government] enemies.'],
+                ['Applies Lv. 3 ATK and DEF up buff to [STR] crew members.', 'Applies Lv. 1 Special CT up buff to [STR] crew members.', 'Inflicts Lv. 3 Special CT down debuff to [World Government] enemies.'],
+                ['Applies Lv. 4 ATK and DEF up buff to [STR] crew members.', 'Applies Lv. 1 Special CT up buff to [STR] crew members.', 'Inflicts Lv. 4 Special CT down debuff to [World Government] enemies.'],
+                ['Applies Lv. 5 ATK and DEF up buff to [STR] crew members.', 'Applies Lv. 3 Special CT up buff to [STR] crew members.', 'Inflicts Lv. 5 Special CT down debuff to [World Government] enemies.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 30,
+                descriptions: [
+                    ['Removes 21% of Special CT to 3 enemies with the highest Special CT.', 'Applies Lv. 1 ATK up buff to [STR] crew members for 11 seconds.', 'Inflicts Lv. 1 Special CT down debuff to [World Government] enemies for 11 seconds.', 'When Bartholomew Kuma or Ginny is on your crew, removes 5% of Special CT to [World Government] enemies.'],
+                    ['Removes 22% of Special CT to 3 enemies with the highest Special CT.', 'Applies Lv. 1 ATK up buff to [STR] crew members for 12 seconds.', 'Inflicts Lv. 1 Special CT down debuff to [World Government] enemies for 12 seconds.', 'When Bartholomew Kuma or Ginny is on your crew, removes 5% of Special CT to [World Government] enemies.'],
+                    ['Removes 23% of Special CT to 3 enemies with the highest Special CT.', 'Applies Lv. 1 ATK up buff to [STR] crew members for 13 seconds.', 'Inflicts Lv. 1 Special CT down debuff to [World Government] enemies for 13 seconds.', 'When Bartholomew Kuma or Ginny is on your crew, removes 6% of Special CT to [World Government] enemies.'],
+                    ['Removes 24% of Special CT to 3 enemies with the highest Special CT.', 'Applies Lv. 2 ATK up buff to [STR] crew members for 14 seconds.', 'Inflicts Lv. 2 Special CT down debuff to [World Government] enemies for 14 seconds.', 'When Bartholomew Kuma or Ginny is on your crew, removes 6% of Special CT to [World Government] enemies.'],
+                    ['Removes 25% of Special CT to 3 enemies with the highest Special CT.', 'Applies Lv. 2 ATK up buff to [STR] crew members for 15 seconds.', 'Inflicts Lv. 2 Special CT down debuff to [World Government] enemies for 15 seconds.', 'When Bartholomew Kuma or Ginny is on your crew, removes 7% of Special CT to [World Government] enemies.'],
+                    ['Removes 26% of Special CT to 3 enemies with the highest Special CT.', 'Applies Lv. 3 ATK up buff to [STR] crew members for 16 seconds.', 'Inflicts Lv. 3 Special CT down debuff to [World Government] enemies for 16 seconds.', 'When Bartholomew Kuma or Ginny is on your crew, removes 7% of Special CT to [World Government] enemies.'],
+                    ['Removes 27% of Special CT to 3 enemies with the highest Special CT.', 'Applies Lv. 3 ATK up buff to [STR] crew members for 17 seconds.', 'Inflicts Lv. 3 Special CT down debuff to [World Government] enemies for 17 seconds.', 'When Bartholomew Kuma or Ginny is on your crew, removes 8% of Special CT to [World Government] enemies.'],
+                    ['Removes 28% of Special CT to 3 enemies with the highest Special CT.', 'Applies Lv. 3 ATK up buff to [STR] crew members for 18 seconds.', 'Inflicts Lv. 3 Special CT down debuff to [World Government] enemies for 18 seconds.', 'When Bartholomew Kuma or Ginny is on your crew, removes 8% of Special CT to [World Government] enemies.'],
+                    ['Removes 29% of Special CT to 3 enemies with the highest Special CT.', 'Applies Lv. 4 ATK up buff to [STR] crew members for 19 seconds.', 'Inflicts Lv. 4 Special CT down debuff to [World Government] enemies for 19 seconds.', 'When Bartholomew Kuma or Ginny is on your crew, removes 9% of Special CT to [World Government] enemies.'],
+                    ['Removes 30% of Special CT to 3 enemies with the highest Special CT.', 'Applies Lv. 5 ATK up buff to [STR] crew members for 20 seconds.', 'Inflicts Lv. 5 Special CT down debuff to [World Government] enemies for 20 seconds.', 'When Bartholomew Kuma or Ginny is on your crew, removes 10% of Special CT to [World Government] enemies.']
+                ]
+            }
+        }
+    },
+    4424: {
+        festStats: {
+            def: 187,
+            spd: 200,
+            style: "SPT"
+        },
+        festAttackPattern: ['Normal Attack', '<b><i>Power Attack</b></i>', '<i>Level 1 Medium Range Heal</i>', 'Normal Attack'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Special Bind.', '30% damage reduction from [QCK] enemies.', '1.3x damage boost to [QCK] enemies.'],
+            llbbase: ['100% chance to resist Special Bind.', '40% damage reduction from [QCK] enemies.', '1.4x damage boost to [QCK] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 3 SPD and DEF up buff to [DEX] crew members.', 'Inflicts Lv. 3 ATK and SPD down debuff to [QCK] enemies.'],
+                ['Applies Lv. 4 SPD and DEF up buff to [DEX] crew members.', 'Inflicts Lv. 4 ATK and SPD down debuff to [QCK] enemies.'],
+                ['Applies Lv. 5 SPD and DEF up buff to [DEX] crew members.', 'Inflicts Lv. 5 ATK and SPD down debuff to [QCK] enemies.'],
+                ['Applies Lv. 6 SPD and DEF up buff to [DEX] crew members.', 'Inflicts Lv. 6 ATK and SPD down debuff to [QCK] enemies.'],
+                ['Applies Lv. 7 SPD and DEF up buff to [DEX] crew members.', 'Inflicts Lv. 7 ATK and SPD down debuff to [QCK] enemies.']
+            ],
+            llbbase: [
+                ['Applies Lv. 3 SPD and DEF up buff to [DEX] crew members.', 'Inflicts Lv. 4 ATK and SPD down debuff to [QCK] enemies.'],
+                ['Applies Lv. 4 SPD and DEF up buff to [DEX] crew members.', 'Inflicts Lv. 5 ATK and SPD down debuff to [QCK] enemies.'],
+                ['Applies Lv. 5 SPD and DEF up buff to [DEX] crew members.', 'Inflicts Lv. 6 ATK and SPD down debuff to [QCK] enemies.'],
+                ['Applies Lv. 6 SPD and DEF up buff to [DEX] crew members.', 'Inflicts Lv. 7 ATK and SPD down debuff to [QCK] enemies.'],
+                ['Applies Lv. 7 SPD and DEF up buff to [DEX] crew members.', 'Inflicts Lv. 8 ATK and SPD down debuff to [QCK] enemies.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 17,
+                descriptions: [
+                    ['Deals 2,000 fixed damage to all enemies in a large, radial range.', 'Applies Lv. 2 DEF and ATK up buff to [DEX] crew members for 11 seconds.', 'When there is 8 or more [DEX] crew members, removes 20% of Special CT to 2 enemies with the highest Special CT.'],
+                    ['Deals 2,100 fixed damage to all enemies in a large, radial range.', 'Applies Lv. 2 DEF and ATK up buff to [DEX] crew members for 12 seconds.', 'When there is 8 or more [DEX] crew members, removes 20% of Special CT to 2 enemies with the highest Special CT.'],
+                    ['Deals 2,200 fixed damage to all enemies in a large, radial range.', 'Applies Lv. 3 DEF and ATK up buff to [DEX] crew members for 13 seconds.', 'When there is 8 or more [DEX] crew members, removes 20% of Special CT to 2 enemies with the highest Special CT.'],
+                    ['Deals 2,300 fixed damage to all enemies in a large, radial range.', 'Applies Lv. 3 DEF and ATK up buff to [DEX] crew members for 14 seconds.', 'When there is 8 or more [DEX] crew members, removes 20% of Special CT to 2 enemies with the highest Special CT.'],
+                    ['Deals 2,400 fixed damage to all enemies in a large, radial range.', 'Applies Lv. 4 DEF and ATK up buff to [DEX] crew members for 15 seconds.', 'When there is 8 or more [DEX] crew members, removes 20% of Special CT to 2 enemies with the highest Special CT.'],
+                    ['Deals 2,500 fixed damage to all enemies in a large, radial range.', 'Applies Lv. 4 DEF and ATK up buff to [DEX] crew members for 16 seconds.', 'When there is 8 or more [DEX] crew members, removes 20% of Special CT to 2 enemies with the highest Special CT.'],
+                    ['Deals 2,600 fixed damage to all enemies in a large, radial range.', 'Applies Lv. 5 DEF and ATK up buff to [DEX] crew members for 17 seconds.', 'When there is 8 or more [DEX] crew members, removes 20% of Special CT to 2 enemies with the highest Special CT.'],
+                    ['Deals 2,700 fixed damage to all enemies in a large, radial range.', 'Applies Lv. 5 DEF and ATK up buff to [DEX] crew members for 18 seconds.', 'When there is 8 or more [DEX] crew members, removes 20% of Special CT to 2 enemies with the highest Special CT.'],
+                    ['Deals 2,800 fixed damage to all enemies in a large, radial range.', 'Applies Lv. 6 DEF and ATK up buff to [DEX] crew members for 19 seconds.', 'When there is 8 or more [DEX] crew members, removes 20% of Special CT to 2 enemies with the highest Special CT.'],
+                    ['Deals 3,000 fixed damage to all enemies in a large, radial range.', 'Applies Lv. 6 DEF and ATK up buff to [DEX] crew members for 20 seconds.', 'When there is 8 or more [DEX] crew members, removes 20% of Special CT to 2 enemies with the highest Special CT.']
+                ]
+            },
+            llbbase: {
+                cooldown: 17,
+                descriptions: [
+                    ['Deals 2,500 fixed damage to all enemies in a large, radial range.', 'Applies Lv. 2 DEF, ATK and SPD up buff to [DEX] crew members for 11 seconds.', 'When there is 8 or more [DEX] crew members, removes 20% of Special CT to 3 enemies with the highest Special CT.'],
+                    ['Deals 2,600 fixed damage to all enemies in a large, radial range.', 'Applies Lv. 2 DEF, ATK and SPD up buff to [DEX] crew members for 12 seconds.', 'When there is 8 or more [DEX] crew members, removes 20% of Special CT to 3 enemies with the highest Special CT.'],
+                    ['Deals 2,700 fixed damage to all enemies in a large, radial range.', 'Applies Lv. 3 DEF, ATK and SPD up buff to [DEX] crew members for 13 seconds.', 'When there is 8 or more [DEX] crew members, removes 20% of Special CT to 3 enemies with the highest Special CT.'],
+                    ['Deals 2,800 fixed damage to all enemies in a large, radial range.', 'Applies Lv. 3 DEF, ATK and SPD up buff to [DEX] crew members for 14 seconds.', 'When there is 8 or more [DEX] crew members, removes 20% of Special CT to 3 enemies with the highest Special CT.'],
+                    ['Deals 2,900 fixed damage to all enemies in a large, radial range.', 'Applies Lv. 4 DEF, ATK and SPD up buff to [DEX] crew members for 15 seconds.', 'When there is 8 or more [DEX] crew members, removes 20% of Special CT to 3 enemies with the highest Special CT.'],
+                    ['Deals 3,000 fixed damage to all enemies in a large, radial range.', 'Applies Lv. 4 DEF, ATK and SPD up buff to [DEX] crew members for 16 seconds.', 'When there is 8 or more [DEX] crew members, removes 20% of Special CT to 3 enemies with the highest Special CT.'],
+                    ['Deals 3,100 fixed damage to all enemies in a large, radial range.', 'Applies Lv. 5 DEF, ATK and SPD up buff to [DEX] crew members for 17 seconds.', 'When there is 8 or more [DEX] crew members, removes 20% of Special CT to 3 enemies with the highest Special CT.'],
+                    ['Deals 3,200 fixed damage to all enemies in a large, radial range.', 'Applies Lv. 5 DEF, ATK and SPD up buff to [DEX] crew members for 18 seconds.', 'When there is 8 or more [DEX] crew members, removes 20% of Special CT to 3 enemies with the highest Special CT.'],
+                    ['Deals 3,300 fixed damage to all enemies in a large, radial range.', 'Applies Lv. 6 DEF, ATK and SPD up buff to [DEX] crew members for 19 seconds.', 'When there is 8 or more [DEX] crew members, removes 20% of Special CT to 3 enemies with the highest Special CT.'],
+                    ['Deals 3,500 fixed damage to all enemies in a large, radial range.', 'Applies Lv. 6 DEF, ATK and SPD up buff to [DEX] crew members for 20 seconds.', 'When there is 8 or more [DEX] crew members, removes 20% of Special CT to 3 enemies with the highest Special CT.']
+                ]
+            }
+        }
+    },
     5259: {
         festStats: {
             def: 164,

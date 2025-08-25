@@ -4303,6 +4303,10 @@ window.flags = {
     4422: { rr: 1, rro: 1, lrr: 1, kclrr: 1 },
     4423: { rr: 1, rro: 1, lrr: 1, kclrr: 1 },
     4424: { rr: 1, rro: 1, lrr: 1, pflrr: 1 },
+    4425: { rr: 1, rro: 1 },
+    4426: { rr: 1, rro: 1 },
+    4427: { rr: 1, rro: 1 },
+    4428: { rr: 1, rro: 1 },
 
     //global = 글로벌 서버에서 사용 가능한 캐릭터
     //rr: 일반뽑기에 포함된 캐릭터
