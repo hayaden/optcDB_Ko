@@ -69383,16 +69383,16 @@ window.rumble = {
             base: {
                 cooldown: 32,
                 descriptions: [
-                    [' to ATK enemies for 10 seconds.', 'Deals 0.75x ATK in damage to 3 ATK enemies with the lowest HP.'],
-                    [' to ATK enemies for 10 seconds.', 'Deals 0.8x ATK in damage to 3 ATK enemies with the lowest HP.'],
-                    [' to ATK enemies for 10 seconds.', 'Deals 0.85x ATK in damage to 3 ATK enemies with the lowest HP.'],
-                    [' to ATK enemies for 10 seconds.', 'Deals 0.9x ATK in damage to 3 ATK enemies with the lowest HP.'],
-                    [' to ATK enemies for 10 seconds.', 'Deals 0.95x ATK in damage to 3 ATK enemies with the lowest HP.'],
-                    [' to ATK enemies for 10 seconds.', 'Deals 1x ATK in damage to 3 ATK enemies with the lowest HP.'],
-                    [' to ATK enemies for 10 seconds.', 'Deals 1.05x ATK in damage to 3 ATK enemies with the lowest HP.'],
-                    [' to ATK enemies for 10 seconds.', 'Deals 1.1x ATK in damage to 3 ATK enemies with the lowest HP.'],
-                    [' to ATK enemies for 10 seconds.', 'Deals 1.15x ATK in damage to 3 ATK enemies with the lowest HP.'],
-                    [' to ATK enemies for 10 seconds.', 'Deals 1.2x ATK in damage to 3 ATK enemies with the lowest HP.']
+                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 10 seconds.', 'Deals 0.75x ATK in damage to 3 ATK enemies with the lowest HP.'],
+                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 10 seconds.', 'Deals 0.8x ATK in damage to 3 ATK enemies with the lowest HP.'],
+                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 10 seconds.', 'Deals 0.85x ATK in damage to 3 ATK enemies with the lowest HP.'],
+                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 10 seconds.', 'Deals 0.9x ATK in damage to 3 ATK enemies with the lowest HP.'],
+                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 10 seconds.', 'Deals 0.95x ATK in damage to 3 ATK enemies with the lowest HP.'],
+                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 10 seconds.', 'Deals 1x ATK in damage to 3 ATK enemies with the lowest HP.'],
+                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 10 seconds.', 'Deals 1.05x ATK in damage to 3 ATK enemies with the lowest HP.'],
+                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 10 seconds.', 'Deals 1.1x ATK in damage to 3 ATK enemies with the lowest HP.'],
+                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 10 seconds.', 'Deals 1.15x ATK in damage to 3 ATK enemies with the lowest HP.'],
+                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 10 seconds.', 'Deals 1.2x ATK in damage to 3 ATK enemies with the lowest HP.']
                 ]
             }
         }
