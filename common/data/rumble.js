@@ -5936,16 +5936,16 @@ window.rumble = {
             base: {
                 cooldown: 22,
                 descriptions: [
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a medium, radial range for 30 seconds.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a medium, radial range for 36 seconds.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a medium, radial range for 42 seconds.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a medium, radial range for 48 seconds.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a medium, radial range for 54 seconds.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a medium, radial range for 60 seconds.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a medium, radial range for 66 seconds.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a medium, radial range for 72 seconds.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a medium, radial range for 78 seconds.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a medium, radial range for 84 seconds.']
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a medium, radial range for 30 seconds.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a medium, radial range for 36 seconds.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a medium, radial range for 42 seconds.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a medium, radial range for 48 seconds.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a medium, radial range for 54 seconds.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a medium, radial range for 60 seconds.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a medium, radial range for 66 seconds.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a medium, radial range for 72 seconds.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a medium, radial range for 78 seconds.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a medium, radial range for 84 seconds.']
                 ]
             }
         }
@@ -5971,16 +5971,16 @@ window.rumble = {
             base: {
                 cooldown: 22,
                 descriptions: [
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a medium, radial range for 30 seconds.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a medium, radial range for 36 seconds.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a medium, radial range for 42 seconds.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a medium, radial range for 48 seconds.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a medium, radial range for 54 seconds.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a medium, radial range for 60 seconds.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a medium, radial range for 66 seconds.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a medium, radial range for 72 seconds.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a medium, radial range for 78 seconds.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a medium, radial range for 84 seconds.']
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a medium, radial range for 30 seconds.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a medium, radial range for 36 seconds.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a medium, radial range for 42 seconds.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a medium, radial range for 48 seconds.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a medium, radial range for 54 seconds.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a medium, radial range for 60 seconds.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a medium, radial range for 66 seconds.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a medium, radial range for 72 seconds.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a medium, radial range for 78 seconds.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a medium, radial range for 84 seconds.']
                 ]
             }
         }
@@ -8558,16 +8558,16 @@ window.rumble = {
             base: {
                 cooldown: 31,
                 descriptions: [
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 20 seconds.', 'Inflicts Lv. 1 Special CT down debuff to all enemies in a large, radial range for 20 seconds.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 23 seconds.', 'Inflicts Lv. 1 Special CT down debuff to all enemies in a large, radial range for 21 seconds.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 26 seconds.', 'Inflicts Lv. 1 Special CT down debuff to all enemies in a large, radial range for 23 seconds.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 29 seconds.', 'Inflicts Lv. 1 Special CT down debuff to all enemies in a large, radial range for 24 seconds.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 32 seconds.', 'Inflicts Lv. 1 Special CT down debuff to all enemies in a large, radial range for 26 seconds.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 35 seconds.', 'Inflicts Lv. 1 Special CT down debuff to all enemies in a large, radial range for 28 seconds.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 38 seconds.', 'Inflicts Lv. 2 Special CT down debuff to all enemies in a large, radial range for 29 seconds.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 41 seconds.', 'Inflicts Lv. 2 Special CT down debuff to all enemies in a large, radial range for 31 seconds.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 44 seconds.', 'Inflicts Lv. 2 Special CT down debuff to all enemies in a large, radial range for 32 seconds.'],
-                    ['100% chance to inflict Lv. 2 Damage Over Time to all enemies in a large, radial range for 47 seconds.', 'Inflicts Lv. 3 Special CT down debuff to all enemies in a large, radial range for 34 seconds.']
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 20 seconds.', 'Inflicts Lv. 1 Special CT down debuff to all enemies in a large, radial range for 20 seconds.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 23 seconds.', 'Inflicts Lv. 1 Special CT down debuff to all enemies in a large, radial range for 21 seconds.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 26 seconds.', 'Inflicts Lv. 1 Special CT down debuff to all enemies in a large, radial range for 23 seconds.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 29 seconds.', 'Inflicts Lv. 1 Special CT down debuff to all enemies in a large, radial range for 24 seconds.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 32 seconds.', 'Inflicts Lv. 1 Special CT down debuff to all enemies in a large, radial range for 26 seconds.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 35 seconds.', 'Inflicts Lv. 1 Special CT down debuff to all enemies in a large, radial range for 28 seconds.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 38 seconds.', 'Inflicts Lv. 2 Special CT down debuff to all enemies in a large, radial range for 29 seconds.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 41 seconds.', 'Inflicts Lv. 2 Special CT down debuff to all enemies in a large, radial range for 31 seconds.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 44 seconds.', 'Inflicts Lv. 2 Special CT down debuff to all enemies in a large, radial range for 32 seconds.'],
+                    ['Inflicts Lv. 2 Damage Over Time to all enemies in a large, radial range for 47 seconds.', 'Inflicts Lv. 3 Special CT down debuff to all enemies in a large, radial range for 34 seconds.']
                 ]
             }
         },
@@ -8618,16 +8618,16 @@ window.rumble = {
             base: {
                 cooldown: 31,
                 descriptions: [
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 20 seconds.', 'Inflicts Lv. 1 Special CT down debuff to all enemies in a large, radial range for 20 seconds.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 23 seconds.', 'Inflicts Lv. 1 Special CT down debuff to all enemies in a large, radial range for 21 seconds.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 26 seconds.', 'Inflicts Lv. 1 Special CT down debuff to all enemies in a large, radial range for 23 seconds.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 29 seconds.', 'Inflicts Lv. 1 Special CT down debuff to all enemies in a large, radial range for 24 seconds.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 32 seconds.', 'Inflicts Lv. 1 Special CT down debuff to all enemies in a large, radial range for 26 seconds.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 35 seconds.', 'Inflicts Lv. 1 Special CT down debuff to all enemies in a large, radial range for 28 seconds.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 38 seconds.', 'Inflicts Lv. 2 Special CT down debuff to all enemies in a large, radial range for 29 seconds.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 41 seconds.', 'Inflicts Lv. 2 Special CT down debuff to all enemies in a large, radial range for 31 seconds.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 44 seconds.', 'Inflicts Lv. 2 Special CT down debuff to all enemies in a large, radial range for 32 seconds.'],
-                    ['100% chance to inflict Lv. 2 Damage Over Time to all enemies in a large, radial range for 47 seconds.', 'Inflicts Lv. 3 Special CT down debuff to all enemies in a large, radial range for 34 seconds.']
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 20 seconds.', 'Inflicts Lv. 1 Special CT down debuff to all enemies in a large, radial range for 20 seconds.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 23 seconds.', 'Inflicts Lv. 1 Special CT down debuff to all enemies in a large, radial range for 21 seconds.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 26 seconds.', 'Inflicts Lv. 1 Special CT down debuff to all enemies in a large, radial range for 23 seconds.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 29 seconds.', 'Inflicts Lv. 1 Special CT down debuff to all enemies in a large, radial range for 24 seconds.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 32 seconds.', 'Inflicts Lv. 1 Special CT down debuff to all enemies in a large, radial range for 26 seconds.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 35 seconds.', 'Inflicts Lv. 1 Special CT down debuff to all enemies in a large, radial range for 28 seconds.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 38 seconds.', 'Inflicts Lv. 2 Special CT down debuff to all enemies in a large, radial range for 29 seconds.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 41 seconds.', 'Inflicts Lv. 2 Special CT down debuff to all enemies in a large, radial range for 31 seconds.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 44 seconds.', 'Inflicts Lv. 2 Special CT down debuff to all enemies in a large, radial range for 32 seconds.'],
+                    ['Inflicts Lv. 2 Damage Over Time to all enemies in a large, radial range for 47 seconds.', 'Inflicts Lv. 3 Special CT down debuff to all enemies in a large, radial range for 34 seconds.']
                 ]
             }
         },
@@ -9907,16 +9907,16 @@ window.rumble = {
             base: {
                 cooldown: 35,
                 descriptions: [
-                    ['Deals 0.3x ATK in damage to all enemies in a medium, radial range.', '100% chance to inflict Lv. 1 Damage Over Time to 2 enemies for 30 seconds.', 'Inflicts Lv. 3 ATK down debuff to all enemies in a medium, radial range for 30 seconds.'],
-                    ['Deals 0.31x ATK in damage to all enemies in a medium, radial range.', '100% chance to inflict Lv. 1 Damage Over Time to 2 enemies for 30 seconds.', 'Inflicts Lv. 3 ATK down debuff to all enemies in a medium, radial range for 30 seconds.'],
-                    ['Deals 0.31x ATK in damage to all enemies in a medium, radial range.', '100% chance to inflict Lv. 1 Damage Over Time to 2 enemies for 30 seconds.', 'Inflicts Lv. 4 ATK down debuff to all enemies in a medium, radial range for 30 seconds.'],
-                    ['Deals 0.32x ATK in damage to all enemies in a medium, radial range.', '100% chance to inflict Lv. 1 Damage Over Time to 2 enemies for 30 seconds.', 'Inflicts Lv. 5 ATK down debuff to all enemies in a medium, radial range for 30 seconds.'],
-                    ['Deals 0.33x ATK in damage to all enemies in a medium, radial range.', '100% chance to inflict Lv. 1 Damage Over Time to 2 enemies for 30 seconds.', 'Inflicts Lv. 6 ATK down debuff to all enemies in a medium, radial range for 30 seconds.'],
-                    ['Deals 0.34x ATK in damage to all enemies in a medium, radial range.', '100% chance to inflict Lv. 1 Damage Over Time to 2 enemies for 30 seconds.', 'Inflicts Lv. 7 ATK down debuff to all enemies in a medium, radial range for 30 seconds.'],
-                    ['Deals 0.34x ATK in damage to all enemies in a medium, radial range.', '100% chance to inflict Lv. 1 Damage Over Time to 2 enemies for 30 seconds.', 'Inflicts Lv. 7 ATK down debuff to all enemies in a medium, radial range for 30 seconds.'],
-                    ['Deals 0.35x ATK in damage to all enemies in a medium, radial range.', '100% chance to inflict Lv. 1 Damage Over Time to 2 enemies for 30 seconds.', 'Inflicts Lv. 8 ATK down debuff to all enemies in a medium, radial range for 30 seconds.'],
-                    ['Deals 0.36x ATK in damage to all enemies in a medium, radial range.', '100% chance to inflict Lv. 1 Damage Over Time to 2 enemies for 30 seconds.', 'Inflicts Lv. 9 ATK down debuff to all enemies in a medium, radial range for 30 seconds.'],
-                    ['Deals 0.45x ATK in damage to all enemies in a medium, radial range.', '100% chance to inflict Lv. 1 Damage Over Time to 2 enemies for 30 seconds.', 'Inflicts Lv. 10 ATK down debuff to all enemies in a medium, radial range for 30 seconds.']
+                    ['Deals 0.3x ATK in damage to all enemies in a medium, radial range.', 'Inflicts Lv. 1 Damage Over Time to 2 enemies for 30 seconds.', 'Inflicts Lv. 3 ATK down debuff to all enemies in a medium, radial range for 30 seconds.'],
+                    ['Deals 0.31x ATK in damage to all enemies in a medium, radial range.', 'Inflicts Lv. 1 Damage Over Time to 2 enemies for 30 seconds.', 'Inflicts Lv. 3 ATK down debuff to all enemies in a medium, radial range for 30 seconds.'],
+                    ['Deals 0.31x ATK in damage to all enemies in a medium, radial range.', 'Inflicts Lv. 1 Damage Over Time to 2 enemies for 30 seconds.', 'Inflicts Lv. 4 ATK down debuff to all enemies in a medium, radial range for 30 seconds.'],
+                    ['Deals 0.32x ATK in damage to all enemies in a medium, radial range.', 'Inflicts Lv. 1 Damage Over Time to 2 enemies for 30 seconds.', 'Inflicts Lv. 5 ATK down debuff to all enemies in a medium, radial range for 30 seconds.'],
+                    ['Deals 0.33x ATK in damage to all enemies in a medium, radial range.', 'Inflicts Lv. 1 Damage Over Time to 2 enemies for 30 seconds.', 'Inflicts Lv. 6 ATK down debuff to all enemies in a medium, radial range for 30 seconds.'],
+                    ['Deals 0.34x ATK in damage to all enemies in a medium, radial range.', 'Inflicts Lv. 1 Damage Over Time to 2 enemies for 30 seconds.', 'Inflicts Lv. 7 ATK down debuff to all enemies in a medium, radial range for 30 seconds.'],
+                    ['Deals 0.34x ATK in damage to all enemies in a medium, radial range.', 'Inflicts Lv. 1 Damage Over Time to 2 enemies for 30 seconds.', 'Inflicts Lv. 7 ATK down debuff to all enemies in a medium, radial range for 30 seconds.'],
+                    ['Deals 0.35x ATK in damage to all enemies in a medium, radial range.', 'Inflicts Lv. 1 Damage Over Time to 2 enemies for 30 seconds.', 'Inflicts Lv. 8 ATK down debuff to all enemies in a medium, radial range for 30 seconds.'],
+                    ['Deals 0.36x ATK in damage to all enemies in a medium, radial range.', 'Inflicts Lv. 1 Damage Over Time to 2 enemies for 30 seconds.', 'Inflicts Lv. 9 ATK down debuff to all enemies in a medium, radial range for 30 seconds.'],
+                    ['Deals 0.45x ATK in damage to all enemies in a medium, radial range.', 'Inflicts Lv. 1 Damage Over Time to 2 enemies for 30 seconds.', 'Inflicts Lv. 10 ATK down debuff to all enemies in a medium, radial range for 30 seconds.']
                 ]
             }
         }
@@ -9942,16 +9942,16 @@ window.rumble = {
             base: {
                 cooldown: 35,
                 descriptions: [
-                    ['Deals 0.3x ATK in damage to all enemies in a medium, radial range.', '100% chance to inflict Lv. 1 Damage Over Time to 2 enemies for 30 seconds.', 'Inflicts Lv. 3 ATK down debuff to all enemies in a medium, radial range for 30 seconds.'],
-                    ['Deals 0.31x ATK in damage to all enemies in a medium, radial range.', '100% chance to inflict Lv. 1 Damage Over Time to 2 enemies for 30 seconds.', 'Inflicts Lv. 3 ATK down debuff to all enemies in a medium, radial range for 30 seconds.'],
-                    ['Deals 0.31x ATK in damage to all enemies in a medium, radial range.', '100% chance to inflict Lv. 1 Damage Over Time to 2 enemies for 30 seconds.', 'Inflicts Lv. 4 ATK down debuff to all enemies in a medium, radial range for 30 seconds.'],
-                    ['Deals 0.32x ATK in damage to all enemies in a medium, radial range.', '100% chance to inflict Lv. 1 Damage Over Time to 2 enemies for 30 seconds.', 'Inflicts Lv. 5 ATK down debuff to all enemies in a medium, radial range for 30 seconds.'],
-                    ['Deals 0.33x ATK in damage to all enemies in a medium, radial range.', '100% chance to inflict Lv. 1 Damage Over Time to 2 enemies for 30 seconds.', 'Inflicts Lv. 6 ATK down debuff to all enemies in a medium, radial range for 30 seconds.'],
-                    ['Deals 0.34x ATK in damage to all enemies in a medium, radial range.', '100% chance to inflict Lv. 1 Damage Over Time to 2 enemies for 30 seconds.', 'Inflicts Lv. 7 ATK down debuff to all enemies in a medium, radial range for 30 seconds.'],
-                    ['Deals 0.34x ATK in damage to all enemies in a medium, radial range.', '100% chance to inflict Lv. 1 Damage Over Time to 2 enemies for 30 seconds.', 'Inflicts Lv. 7 ATK down debuff to all enemies in a medium, radial range for 30 seconds.'],
-                    ['Deals 0.35x ATK in damage to all enemies in a medium, radial range.', '100% chance to inflict Lv. 1 Damage Over Time to 2 enemies for 30 seconds.', 'Inflicts Lv. 8 ATK down debuff to all enemies in a medium, radial range for 30 seconds.'],
-                    ['Deals 0.36x ATK in damage to all enemies in a medium, radial range.', '100% chance to inflict Lv. 1 Damage Over Time to 2 enemies for 30 seconds.', 'Inflicts Lv. 9 ATK down debuff to all enemies in a medium, radial range for 30 seconds.'],
-                    ['Deals 0.45x ATK in damage to all enemies in a medium, radial range.', '100% chance to inflict Lv. 1 Damage Over Time to 2 enemies for 30 seconds.', 'Inflicts Lv. 10 ATK down debuff to all enemies in a medium, radial range for 30 seconds.']
+                    ['Deals 0.3x ATK in damage to all enemies in a medium, radial range.', 'Inflicts Lv. 1 Damage Over Time to 2 enemies for 30 seconds.', 'Inflicts Lv. 3 ATK down debuff to all enemies in a medium, radial range for 30 seconds.'],
+                    ['Deals 0.31x ATK in damage to all enemies in a medium, radial range.', 'Inflicts Lv. 1 Damage Over Time to 2 enemies for 30 seconds.', 'Inflicts Lv. 3 ATK down debuff to all enemies in a medium, radial range for 30 seconds.'],
+                    ['Deals 0.31x ATK in damage to all enemies in a medium, radial range.', 'Inflicts Lv. 1 Damage Over Time to 2 enemies for 30 seconds.', 'Inflicts Lv. 4 ATK down debuff to all enemies in a medium, radial range for 30 seconds.'],
+                    ['Deals 0.32x ATK in damage to all enemies in a medium, radial range.', 'Inflicts Lv. 1 Damage Over Time to 2 enemies for 30 seconds.', 'Inflicts Lv. 5 ATK down debuff to all enemies in a medium, radial range for 30 seconds.'],
+                    ['Deals 0.33x ATK in damage to all enemies in a medium, radial range.', 'Inflicts Lv. 1 Damage Over Time to 2 enemies for 30 seconds.', 'Inflicts Lv. 6 ATK down debuff to all enemies in a medium, radial range for 30 seconds.'],
+                    ['Deals 0.34x ATK in damage to all enemies in a medium, radial range.', 'Inflicts Lv. 1 Damage Over Time to 2 enemies for 30 seconds.', 'Inflicts Lv. 7 ATK down debuff to all enemies in a medium, radial range for 30 seconds.'],
+                    ['Deals 0.34x ATK in damage to all enemies in a medium, radial range.', 'Inflicts Lv. 1 Damage Over Time to 2 enemies for 30 seconds.', 'Inflicts Lv. 7 ATK down debuff to all enemies in a medium, radial range for 30 seconds.'],
+                    ['Deals 0.35x ATK in damage to all enemies in a medium, radial range.', 'Inflicts Lv. 1 Damage Over Time to 2 enemies for 30 seconds.', 'Inflicts Lv. 8 ATK down debuff to all enemies in a medium, radial range for 30 seconds.'],
+                    ['Deals 0.36x ATK in damage to all enemies in a medium, radial range.', 'Inflicts Lv. 1 Damage Over Time to 2 enemies for 30 seconds.', 'Inflicts Lv. 9 ATK down debuff to all enemies in a medium, radial range for 30 seconds.'],
+                    ['Deals 0.45x ATK in damage to all enemies in a medium, radial range.', 'Inflicts Lv. 1 Damage Over Time to 2 enemies for 30 seconds.', 'Inflicts Lv. 10 ATK down debuff to all enemies in a medium, radial range for 30 seconds.']
                 ]
             }
         }
@@ -40159,16 +40159,16 @@ window.rumble = {
             base: {
                 cooldown: 28,
                 descriptions: [
-                    ['100% chance to inflict Lv. 1 Damage Over Time to 2 enemies for 12 seconds.', 'Applies Lv. 1 DEF up buff to [PSY] crew members for 6 seconds.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to 2 enemies for 14 seconds.', 'Applies Lv. 1 DEF up buff to [PSY] crew members for 7 seconds.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to 2 enemies for 16 seconds.', 'Applies Lv. 1 DEF up buff to [PSY] crew members for 8 seconds.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to 2 enemies for 18 seconds.', 'Applies Lv. 1 DEF up buff to [PSY] crew members for 9 seconds.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to 2 enemies for 20 seconds.', 'Applies Lv. 1 DEF up buff to [PSY] crew members for 10 seconds.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to 2 enemies for 22 seconds.', 'Applies Lv. 2 DEF up buff to [PSY] crew members for 11 seconds.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to 2 enemies for 24 seconds.', 'Applies Lv. 2 DEF up buff to [PSY] crew members for 12 seconds.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to 2 enemies for 26 seconds.', 'Applies Lv. 2 DEF up buff to [PSY] crew members for 13 seconds.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to 2 enemies for 28 seconds.', 'Applies Lv. 2 DEF up buff to [PSY] crew members for 14 seconds.'],
-                    ['100% chance to inflict Lv. 2 Damage Over Time to 2 enemies for 30 seconds.', 'Applies Lv. 3 DEF up buff to [PSY] crew members for 15 seconds.']
+                    ['Inflicts Lv. 1 Damage Over Time to 2 enemies for 12 seconds.', 'Applies Lv. 1 DEF up buff to [PSY] crew members for 6 seconds.'],
+                    ['Inflicts Lv. 1 Damage Over Time to 2 enemies for 14 seconds.', 'Applies Lv. 1 DEF up buff to [PSY] crew members for 7 seconds.'],
+                    ['Inflicts Lv. 1 Damage Over Time to 2 enemies for 16 seconds.', 'Applies Lv. 1 DEF up buff to [PSY] crew members for 8 seconds.'],
+                    ['Inflicts Lv. 1 Damage Over Time to 2 enemies for 18 seconds.', 'Applies Lv. 1 DEF up buff to [PSY] crew members for 9 seconds.'],
+                    ['Inflicts Lv. 1 Damage Over Time to 2 enemies for 20 seconds.', 'Applies Lv. 1 DEF up buff to [PSY] crew members for 10 seconds.'],
+                    ['Inflicts Lv. 1 Damage Over Time to 2 enemies for 22 seconds.', 'Applies Lv. 2 DEF up buff to [PSY] crew members for 11 seconds.'],
+                    ['Inflicts Lv. 1 Damage Over Time to 2 enemies for 24 seconds.', 'Applies Lv. 2 DEF up buff to [PSY] crew members for 12 seconds.'],
+                    ['Inflicts Lv. 1 Damage Over Time to 2 enemies for 26 seconds.', 'Applies Lv. 2 DEF up buff to [PSY] crew members for 13 seconds.'],
+                    ['Inflicts Lv. 1 Damage Over Time to 2 enemies for 28 seconds.', 'Applies Lv. 2 DEF up buff to [PSY] crew members for 14 seconds.'],
+                    ['Inflicts Lv. 2 Damage Over Time to 2 enemies for 30 seconds.', 'Applies Lv. 3 DEF up buff to [PSY] crew members for 15 seconds.']
                 ]
             }
         }
@@ -40273,16 +40273,16 @@ window.rumble = {
             base: {
                 cooldown: 30,
                 descriptions: [
-                    ['Deals 1x ATK in damage to 1 enemy.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 21 seconds.', 'Inflicts Lv. 1 ATK down debuff to all enemies in a large, radial range for 6 seconds.'],
-                    ['Deals 1.5x ATK in damage to 1 enemy.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 22 seconds.', 'Inflicts Lv. 1 ATK down debuff to all enemies in a large, radial range for 7 seconds.'],
-                    ['Deals 2x ATK in damage to 1 enemy.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 23 seconds.', 'Inflicts Lv. 2 ATK down debuff to all enemies in a large, radial range for 8 seconds.'],
-                    ['Deals 2.5x ATK in damage to 1 enemy.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 24 seconds.', 'Inflicts Lv. 2 ATK down debuff to all enemies in a large, radial range for 9 seconds.'],
-                    ['Deals 3x ATK in damage to 1 enemy.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 25 seconds.', 'Inflicts Lv. 3 ATK down debuff to all enemies in a large, radial range for 10 seconds.'],
-                    ['Deals 3.5x ATK in damage to 1 enemy.', '100% chance to inflict Lv. 2 Damage Over Time to all enemies in a large, radial range for 26 seconds.', 'Inflicts Lv. 4 ATK down debuff to all enemies in a large, radial range for 11 seconds.'],
-                    ['Deals 4x ATK in damage to 1 enemy.', '100% chance to inflict Lv. 2 Damage Over Time to all enemies in a large, radial range for 27 seconds.', 'Inflicts Lv. 4 ATK down debuff to all enemies in a large, radial range for 12 seconds.'],
-                    ['Deals 4.5x ATK in damage to 1 enemy.', '100% chance to inflict Lv. 2 Damage Over Time to all enemies in a large, radial range for 28 seconds.', 'Inflicts Lv. 5 ATK down debuff to all enemies in a large, radial range for 13 seconds.'],
-                    ['Deals 5x ATK in damage to 1 enemy.', '100% chance to inflict Lv. 2 Damage Over Time to all enemies in a large, radial range for 29 seconds.', 'Inflicts Lv. 5 ATK down debuff to all enemies in a large, radial range for 14 seconds.'],
-                    ['Deals 6x ATK in damage to 1 enemy.', '100% chance to inflict Lv. 3 Damage Over Time to all enemies in a large, radial range for 30 seconds.', 'Inflicts Lv. 7 ATK down debuff to all enemies in a large, radial range for 15 seconds.']
+                    ['Deals 1x ATK in damage to 1 enemy.', 'Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 21 seconds.', 'Inflicts Lv. 1 ATK down debuff to all enemies in a large, radial range for 6 seconds.'],
+                    ['Deals 1.5x ATK in damage to 1 enemy.', 'Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 22 seconds.', 'Inflicts Lv. 1 ATK down debuff to all enemies in a large, radial range for 7 seconds.'],
+                    ['Deals 2x ATK in damage to 1 enemy.', 'Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 23 seconds.', 'Inflicts Lv. 2 ATK down debuff to all enemies in a large, radial range for 8 seconds.'],
+                    ['Deals 2.5x ATK in damage to 1 enemy.', 'Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 24 seconds.', 'Inflicts Lv. 2 ATK down debuff to all enemies in a large, radial range for 9 seconds.'],
+                    ['Deals 3x ATK in damage to 1 enemy.', 'Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 25 seconds.', 'Inflicts Lv. 3 ATK down debuff to all enemies in a large, radial range for 10 seconds.'],
+                    ['Deals 3.5x ATK in damage to 1 enemy.', 'Inflicts Lv. 2 Damage Over Time to all enemies in a large, radial range for 26 seconds.', 'Inflicts Lv. 4 ATK down debuff to all enemies in a large, radial range for 11 seconds.'],
+                    ['Deals 4x ATK in damage to 1 enemy.', 'Inflicts Lv. 2 Damage Over Time to all enemies in a large, radial range for 27 seconds.', 'Inflicts Lv. 4 ATK down debuff to all enemies in a large, radial range for 12 seconds.'],
+                    ['Deals 4.5x ATK in damage to 1 enemy.', 'Inflicts Lv. 2 Damage Over Time to all enemies in a large, radial range for 28 seconds.', 'Inflicts Lv. 5 ATK down debuff to all enemies in a large, radial range for 13 seconds.'],
+                    ['Deals 5x ATK in damage to 1 enemy.', 'Inflicts Lv. 2 Damage Over Time to all enemies in a large, radial range for 29 seconds.', 'Inflicts Lv. 5 ATK down debuff to all enemies in a large, radial range for 14 seconds.'],
+                    ['Deals 6x ATK in damage to 1 enemy.', 'Inflicts Lv. 3 Damage Over Time to all enemies in a large, radial range for 30 seconds.', 'Inflicts Lv. 7 ATK down debuff to all enemies in a large, radial range for 15 seconds.']
                 ]
             }
         },
@@ -40333,16 +40333,16 @@ window.rumble = {
             base: {
                 cooldown: 30,
                 descriptions: [
-                    ['Deals 1x ATK in damage to 1 enemy.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 21 seconds.', 'Inflicts Lv. 1 ATK down debuff to all enemies in a large, radial range for 6 seconds.'],
-                    ['Deals 1.5x ATK in damage to 1 enemy.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 22 seconds.', 'Inflicts Lv. 1 ATK down debuff to all enemies in a large, radial range for 7 seconds.'],
-                    ['Deals 2x ATK in damage to 1 enemy.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 23 seconds.', 'Inflicts Lv. 2 ATK down debuff to all enemies in a large, radial range for 8 seconds.'],
-                    ['Deals 2.5x ATK in damage to 1 enemy.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 24 seconds.', 'Inflicts Lv. 2 ATK down debuff to all enemies in a large, radial range for 9 seconds.'],
-                    ['Deals 3x ATK in damage to 1 enemy.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 25 seconds.', 'Inflicts Lv. 3 ATK down debuff to all enemies in a large, radial range for 10 seconds.'],
-                    ['Deals 3.5x ATK in damage to 1 enemy.', '100% chance to inflict Lv. 2 Damage Over Time to all enemies in a large, radial range for 26 seconds.', 'Inflicts Lv. 4 ATK down debuff to all enemies in a large, radial range for 11 seconds.'],
-                    ['Deals 4x ATK in damage to 1 enemy.', '100% chance to inflict Lv. 2 Damage Over Time to all enemies in a large, radial range for 27 seconds.', 'Inflicts Lv. 4 ATK down debuff to all enemies in a large, radial range for 12 seconds.'],
-                    ['Deals 4.5x ATK in damage to 1 enemy.', '100% chance to inflict Lv. 2 Damage Over Time to all enemies in a large, radial range for 28 seconds.', 'Inflicts Lv. 5 ATK down debuff to all enemies in a large, radial range for 13 seconds.'],
-                    ['Deals 5x ATK in damage to 1 enemy.', '100% chance to inflict Lv. 2 Damage Over Time to all enemies in a large, radial range for 29 seconds.', 'Inflicts Lv. 5 ATK down debuff to all enemies in a large, radial range for 14 seconds.'],
-                    ['Deals 6x ATK in damage to 1 enemy.', '100% chance to inflict Lv. 3 Damage Over Time to all enemies in a large, radial range for 30 seconds.', 'Inflicts Lv. 7 ATK down debuff to all enemies in a large, radial range for 15 seconds.']
+                    ['Deals 1x ATK in damage to 1 enemy.', 'Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 21 seconds.', 'Inflicts Lv. 1 ATK down debuff to all enemies in a large, radial range for 6 seconds.'],
+                    ['Deals 1.5x ATK in damage to 1 enemy.', 'Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 22 seconds.', 'Inflicts Lv. 1 ATK down debuff to all enemies in a large, radial range for 7 seconds.'],
+                    ['Deals 2x ATK in damage to 1 enemy.', 'Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 23 seconds.', 'Inflicts Lv. 2 ATK down debuff to all enemies in a large, radial range for 8 seconds.'],
+                    ['Deals 2.5x ATK in damage to 1 enemy.', 'Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 24 seconds.', 'Inflicts Lv. 2 ATK down debuff to all enemies in a large, radial range for 9 seconds.'],
+                    ['Deals 3x ATK in damage to 1 enemy.', 'Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 25 seconds.', 'Inflicts Lv. 3 ATK down debuff to all enemies in a large, radial range for 10 seconds.'],
+                    ['Deals 3.5x ATK in damage to 1 enemy.', 'Inflicts Lv. 2 Damage Over Time to all enemies in a large, radial range for 26 seconds.', 'Inflicts Lv. 4 ATK down debuff to all enemies in a large, radial range for 11 seconds.'],
+                    ['Deals 4x ATK in damage to 1 enemy.', 'Inflicts Lv. 2 Damage Over Time to all enemies in a large, radial range for 27 seconds.', 'Inflicts Lv. 4 ATK down debuff to all enemies in a large, radial range for 12 seconds.'],
+                    ['Deals 4.5x ATK in damage to 1 enemy.', 'Inflicts Lv. 2 Damage Over Time to all enemies in a large, radial range for 28 seconds.', 'Inflicts Lv. 5 ATK down debuff to all enemies in a large, radial range for 13 seconds.'],
+                    ['Deals 5x ATK in damage to 1 enemy.', 'Inflicts Lv. 2 Damage Over Time to all enemies in a large, radial range for 29 seconds.', 'Inflicts Lv. 5 ATK down debuff to all enemies in a large, radial range for 14 seconds.'],
+                    ['Deals 6x ATK in damage to 1 enemy.', 'Inflicts Lv. 3 Damage Over Time to all enemies in a large, radial range for 30 seconds.', 'Inflicts Lv. 7 ATK down debuff to all enemies in a large, radial range for 15 seconds.']
                 ]
             }
         },
@@ -41217,16 +41217,16 @@ window.rumble = {
             base: {
                 cooldown: 26,
                 descriptions: [
-                    ['Applies Lv. 1 DEF up buff to [INT] crew members for 11 seconds.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies for 16 seconds.', 'Heals 60 fixed HP every 3 seconds to self for 6 seconds.'],
-                    ['Applies Lv. 1 DEF up buff to [INT] crew members for 12 seconds.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies for 17 seconds.', 'Heals 120 fixed HP every 3 seconds to self for 7 seconds.'],
-                    ['Applies Lv. 1 DEF up buff to [INT] crew members for 13 seconds.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies for 18 seconds.', 'Heals 180 fixed HP every 3 seconds to self for 8 seconds.'],
-                    ['Applies Lv. 2 DEF up buff to [INT] crew members for 14 seconds.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies for 19 seconds.', 'Heals 240 fixed HP every 3 seconds to self for 9 seconds.'],
-                    ['Applies Lv. 2 DEF up buff to [INT] crew members for 15 seconds.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies for 20 seconds.', 'Heals 300 fixed HP every 3 seconds to self for 10 seconds.'],
-                    ['Applies Lv. 3 DEF up buff to [INT] crew members for 16 seconds.', '100% chance to inflict Lv. 2 Damage Over Time to all enemies for 21 seconds.', 'Heals 360 fixed HP every 3 seconds to self for 11 seconds.'],
-                    ['Applies Lv. 3 DEF up buff to [INT] crew members for 17 seconds.', '100% chance to inflict Lv. 2 Damage Over Time to all enemies for 22 seconds.', 'Heals 420 fixed HP every 3 seconds to self for 12 seconds.'],
-                    ['Applies Lv. 3 DEF up buff to [INT] crew members for 18 seconds.', '100% chance to inflict Lv. 2 Damage Over Time to all enemies for 23 seconds.', 'Heals 480 fixed HP every 3 seconds to self for 13 seconds.'],
-                    ['Applies Lv. 4 DEF up buff to [INT] crew members for 19 seconds.', '100% chance to inflict Lv. 2 Damage Over Time to all enemies for 24 seconds.', 'Heals 540 fixed HP every 3 seconds to self for 14 seconds.'],
-                    ['Applies Lv. 5 DEF up buff to [INT] crew members for 20 seconds.', '100% chance to inflict Lv. 3 Damage Over Time to all enemies for 25 seconds.', 'Heals 660 fixed HP every 3 seconds to self for 15 seconds.']
+                    ['Applies Lv. 1 DEF up buff to [INT] crew members for 11 seconds.', 'Inflicts Lv. 1 Damage Over Time to all enemies for 16 seconds.', 'Heals 60 fixed HP every 3 seconds to self for 6 seconds.'],
+                    ['Applies Lv. 1 DEF up buff to [INT] crew members for 12 seconds.', 'Inflicts Lv. 1 Damage Over Time to all enemies for 17 seconds.', 'Heals 120 fixed HP every 3 seconds to self for 7 seconds.'],
+                    ['Applies Lv. 1 DEF up buff to [INT] crew members for 13 seconds.', 'Inflicts Lv. 1 Damage Over Time to all enemies for 18 seconds.', 'Heals 180 fixed HP every 3 seconds to self for 8 seconds.'],
+                    ['Applies Lv. 2 DEF up buff to [INT] crew members for 14 seconds.', 'Inflicts Lv. 1 Damage Over Time to all enemies for 19 seconds.', 'Heals 240 fixed HP every 3 seconds to self for 9 seconds.'],
+                    ['Applies Lv. 2 DEF up buff to [INT] crew members for 15 seconds.', 'Inflicts Lv. 1 Damage Over Time to all enemies for 20 seconds.', 'Heals 300 fixed HP every 3 seconds to self for 10 seconds.'],
+                    ['Applies Lv. 3 DEF up buff to [INT] crew members for 16 seconds.', 'Inflicts Lv. 2 Damage Over Time to all enemies for 21 seconds.', 'Heals 360 fixed HP every 3 seconds to self for 11 seconds.'],
+                    ['Applies Lv. 3 DEF up buff to [INT] crew members for 17 seconds.', 'Inflicts Lv. 2 Damage Over Time to all enemies for 22 seconds.', 'Heals 420 fixed HP every 3 seconds to self for 12 seconds.'],
+                    ['Applies Lv. 3 DEF up buff to [INT] crew members for 18 seconds.', 'Inflicts Lv. 2 Damage Over Time to all enemies for 23 seconds.', 'Heals 480 fixed HP every 3 seconds to self for 13 seconds.'],
+                    ['Applies Lv. 4 DEF up buff to [INT] crew members for 19 seconds.', 'Inflicts Lv. 2 Damage Over Time to all enemies for 24 seconds.', 'Heals 540 fixed HP every 3 seconds to self for 14 seconds.'],
+                    ['Applies Lv. 5 DEF up buff to [INT] crew members for 20 seconds.', 'Inflicts Lv. 3 Damage Over Time to all enemies for 25 seconds.', 'Heals 660 fixed HP every 3 seconds to self for 15 seconds.']
                 ]
             }
         },
@@ -41277,16 +41277,16 @@ window.rumble = {
             base: {
                 cooldown: 26,
                 descriptions: [
-                    ['Applies Lv. 1 DEF up buff to [INT] crew members for 11 seconds.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies for 16 seconds.', 'Heals 60 fixed HP every 3 seconds to self for 6 seconds.'],
-                    ['Applies Lv. 1 DEF up buff to [INT] crew members for 12 seconds.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies for 17 seconds.', 'Heals 120 fixed HP every 3 seconds to self for 7 seconds.'],
-                    ['Applies Lv. 1 DEF up buff to [INT] crew members for 13 seconds.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies for 18 seconds.', 'Heals 180 fixed HP every 3 seconds to self for 8 seconds.'],
-                    ['Applies Lv. 2 DEF up buff to [INT] crew members for 14 seconds.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies for 19 seconds.', 'Heals 240 fixed HP every 3 seconds to self for 9 seconds.'],
-                    ['Applies Lv. 2 DEF up buff to [INT] crew members for 15 seconds.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies for 20 seconds.', 'Heals 300 fixed HP every 3 seconds to self for 10 seconds.'],
-                    ['Applies Lv. 3 DEF up buff to [INT] crew members for 16 seconds.', '100% chance to inflict Lv. 2 Damage Over Time to all enemies for 21 seconds.', 'Heals 360 fixed HP every 3 seconds to self for 11 seconds.'],
-                    ['Applies Lv. 3 DEF up buff to [INT] crew members for 17 seconds.', '100% chance to inflict Lv. 2 Damage Over Time to all enemies for 22 seconds.', 'Heals 420 fixed HP every 3 seconds to self for 12 seconds.'],
-                    ['Applies Lv. 3 DEF up buff to [INT] crew members for 18 seconds.', '100% chance to inflict Lv. 2 Damage Over Time to all enemies for 23 seconds.', 'Heals 480 fixed HP every 3 seconds to self for 13 seconds.'],
-                    ['Applies Lv. 4 DEF up buff to [INT] crew members for 19 seconds.', '100% chance to inflict Lv. 2 Damage Over Time to all enemies for 24 seconds.', 'Heals 540 fixed HP every 3 seconds to self for 14 seconds.'],
-                    ['Applies Lv. 5 DEF up buff to [INT] crew members for 20 seconds.', '100% chance to inflict Lv. 3 Damage Over Time to all enemies for 25 seconds.', 'Heals 660 fixed HP every 3 seconds to self for 15 seconds.']
+                    ['Applies Lv. 1 DEF up buff to [INT] crew members for 11 seconds.', 'Inflicts Lv. 1 Damage Over Time to all enemies for 16 seconds.', 'Heals 60 fixed HP every 3 seconds to self for 6 seconds.'],
+                    ['Applies Lv. 1 DEF up buff to [INT] crew members for 12 seconds.', 'Inflicts Lv. 1 Damage Over Time to all enemies for 17 seconds.', 'Heals 120 fixed HP every 3 seconds to self for 7 seconds.'],
+                    ['Applies Lv. 1 DEF up buff to [INT] crew members for 13 seconds.', 'Inflicts Lv. 1 Damage Over Time to all enemies for 18 seconds.', 'Heals 180 fixed HP every 3 seconds to self for 8 seconds.'],
+                    ['Applies Lv. 2 DEF up buff to [INT] crew members for 14 seconds.', 'Inflicts Lv. 1 Damage Over Time to all enemies for 19 seconds.', 'Heals 240 fixed HP every 3 seconds to self for 9 seconds.'],
+                    ['Applies Lv. 2 DEF up buff to [INT] crew members for 15 seconds.', 'Inflicts Lv. 1 Damage Over Time to all enemies for 20 seconds.', 'Heals 300 fixed HP every 3 seconds to self for 10 seconds.'],
+                    ['Applies Lv. 3 DEF up buff to [INT] crew members for 16 seconds.', 'Inflicts Lv. 2 Damage Over Time to all enemies for 21 seconds.', 'Heals 360 fixed HP every 3 seconds to self for 11 seconds.'],
+                    ['Applies Lv. 3 DEF up buff to [INT] crew members for 17 seconds.', 'Inflicts Lv. 2 Damage Over Time to all enemies for 22 seconds.', 'Heals 420 fixed HP every 3 seconds to self for 12 seconds.'],
+                    ['Applies Lv. 3 DEF up buff to [INT] crew members for 18 seconds.', 'Inflicts Lv. 2 Damage Over Time to all enemies for 23 seconds.', 'Heals 480 fixed HP every 3 seconds to self for 13 seconds.'],
+                    ['Applies Lv. 4 DEF up buff to [INT] crew members for 19 seconds.', 'Inflicts Lv. 2 Damage Over Time to all enemies for 24 seconds.', 'Heals 540 fixed HP every 3 seconds to self for 14 seconds.'],
+                    ['Applies Lv. 5 DEF up buff to [INT] crew members for 20 seconds.', 'Inflicts Lv. 3 Damage Over Time to all enemies for 25 seconds.', 'Heals 660 fixed HP every 3 seconds to self for 15 seconds.']
                 ]
             }
         },
@@ -45268,16 +45268,16 @@ window.rumble = {
             base: {
                 cooldown: 33,
                 descriptions: [
-                    ['16% HP cut to 3 enemies.', '100% chance to inflict Lv. 1 Damage Over Time to [PSY] enemies for 11 seconds.'],
-                    ['17% HP cut to 3 enemies.', '100% chance to inflict Lv. 1 Damage Over Time to [PSY] enemies for 12 seconds.'],
-                    ['18% HP cut to 3 enemies.', '100% chance to inflict Lv. 1 Damage Over Time to [PSY] enemies for 13 seconds.'],
-                    ['19% HP cut to 3 enemies.', '100% chance to inflict Lv. 1 Damage Over Time to [PSY] enemies for 14 seconds.'],
-                    ['20% HP cut to 3 enemies.', '100% chance to inflict Lv. 1 Damage Over Time to [PSY] enemies for 15 seconds.'],
-                    ['21% HP cut to 3 enemies.', '100% chance to inflict Lv. 1 Damage Over Time to [PSY] enemies for 16 seconds.'],
-                    ['22% HP cut to 3 enemies.', '100% chance to inflict Lv. 1 Damage Over Time to [PSY] enemies for 17 seconds.'],
-                    ['23% HP cut to 3 enemies.', '100% chance to inflict Lv. 1 Damage Over Time to [PSY] enemies for 18 seconds.'],
-                    ['24% HP cut to 3 enemies.', '100% chance to inflict Lv. 1 Damage Over Time to [PSY] enemies for 19 seconds.'],
-                    ['25% HP cut to 3 enemies.', '100% chance to inflict Lv. 2 Damage Over Time to [PSY] enemies for 20 seconds.']
+                    ['16% HP cut to 3 enemies.', 'Inflicts Lv. 1 Damage Over Time to [PSY] enemies for 11 seconds.'],
+                    ['17% HP cut to 3 enemies.', 'Inflicts Lv. 1 Damage Over Time to [PSY] enemies for 12 seconds.'],
+                    ['18% HP cut to 3 enemies.', 'Inflicts Lv. 1 Damage Over Time to [PSY] enemies for 13 seconds.'],
+                    ['19% HP cut to 3 enemies.', 'Inflicts Lv. 1 Damage Over Time to [PSY] enemies for 14 seconds.'],
+                    ['20% HP cut to 3 enemies.', 'Inflicts Lv. 1 Damage Over Time to [PSY] enemies for 15 seconds.'],
+                    ['21% HP cut to 3 enemies.', 'Inflicts Lv. 1 Damage Over Time to [PSY] enemies for 16 seconds.'],
+                    ['22% HP cut to 3 enemies.', 'Inflicts Lv. 1 Damage Over Time to [PSY] enemies for 17 seconds.'],
+                    ['23% HP cut to 3 enemies.', 'Inflicts Lv. 1 Damage Over Time to [PSY] enemies for 18 seconds.'],
+                    ['24% HP cut to 3 enemies.', 'Inflicts Lv. 1 Damage Over Time to [PSY] enemies for 19 seconds.'],
+                    ['25% HP cut to 3 enemies.', 'Inflicts Lv. 2 Damage Over Time to [PSY] enemies for 20 seconds.']
                 ]
             }
         }
@@ -46884,16 +46884,16 @@ window.rumble = {
             base: {
                 cooldown: 30,
                 descriptions: [
-                    ['Deals 1,500 fixed damage to all enemies in a medium, sideways range.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies in a medium, sideways range for 6 seconds.'],
-                    ['Deals 1,600 fixed damage to all enemies in a medium, sideways range.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies in a medium, sideways range for 7 seconds.'],
-                    ['Deals 1,700 fixed damage to all enemies in a medium, sideways range.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies in a medium, sideways range for 8 seconds.'],
-                    ['Deals 1,800 fixed damage to all enemies in a medium, sideways range.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies in a medium, sideways range for 9 seconds.'],
-                    ['Deals 1,900 fixed damage to all enemies in a medium, sideways range.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies in a medium, sideways range for 10 seconds.'],
-                    ['Deals 2,000 fixed damage to all enemies in a medium, sideways range.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies in a medium, sideways range for 11 seconds.'],
-                    ['Deals 2,100 fixed damage to all enemies in a medium, sideways range.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies in a medium, sideways range for 12 seconds.'],
-                    ['Deals 2,200 fixed damage to all enemies in a medium, sideways range.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies in a medium, sideways range for 13 seconds.'],
-                    ['Deals 2,300 fixed damage to all enemies in a medium, sideways range.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies in a medium, sideways range for 14 seconds.'],
-                    ['Deals 2,500 fixed damage to all enemies in a medium, sideways range.', '100% chance to inflict Lv. 2 Damage Over Time to all enemies in a medium, sideways range for 15 seconds.']
+                    ['Deals 1,500 fixed damage to all enemies in a medium, sideways range.', 'Inflicts Lv. 1 Damage Over Time to all enemies in a medium, sideways range for 6 seconds.'],
+                    ['Deals 1,600 fixed damage to all enemies in a medium, sideways range.', 'Inflicts Lv. 1 Damage Over Time to all enemies in a medium, sideways range for 7 seconds.'],
+                    ['Deals 1,700 fixed damage to all enemies in a medium, sideways range.', 'Inflicts Lv. 1 Damage Over Time to all enemies in a medium, sideways range for 8 seconds.'],
+                    ['Deals 1,800 fixed damage to all enemies in a medium, sideways range.', 'Inflicts Lv. 1 Damage Over Time to all enemies in a medium, sideways range for 9 seconds.'],
+                    ['Deals 1,900 fixed damage to all enemies in a medium, sideways range.', 'Inflicts Lv. 1 Damage Over Time to all enemies in a medium, sideways range for 10 seconds.'],
+                    ['Deals 2,000 fixed damage to all enemies in a medium, sideways range.', 'Inflicts Lv. 1 Damage Over Time to all enemies in a medium, sideways range for 11 seconds.'],
+                    ['Deals 2,100 fixed damage to all enemies in a medium, sideways range.', 'Inflicts Lv. 1 Damage Over Time to all enemies in a medium, sideways range for 12 seconds.'],
+                    ['Deals 2,200 fixed damage to all enemies in a medium, sideways range.', 'Inflicts Lv. 1 Damage Over Time to all enemies in a medium, sideways range for 13 seconds.'],
+                    ['Deals 2,300 fixed damage to all enemies in a medium, sideways range.', 'Inflicts Lv. 1 Damage Over Time to all enemies in a medium, sideways range for 14 seconds.'],
+                    ['Deals 2,500 fixed damage to all enemies in a medium, sideways range.', 'Inflicts Lv. 2 Damage Over Time to all enemies in a medium, sideways range for 15 seconds.']
                 ]
             }
         }
@@ -48811,16 +48811,16 @@ window.rumble = {
             base: {
                 cooldown: 28,
                 descriptions: [
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a medium, radial range for 11 seconds.', 'Inflicts Lv. 1 DEF down debuff to [STR] enemies in a medium, radial range for 10 seconds.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a medium, radial range for 12 seconds.', 'Inflicts Lv. 1 DEF down debuff to [STR] enemies in a medium, radial range for 10 seconds.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a medium, radial range for 12 seconds.', 'Inflicts Lv. 1 DEF down debuff to [STR] enemies in a medium, radial range for 11 seconds.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a medium, radial range for 14 seconds.', 'Inflicts Lv. 1 DEF down debuff to [STR] enemies in a medium, radial range for 11 seconds.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a medium, radial range for 15 seconds.', 'Inflicts Lv. 2 DEF down debuff to [STR] enemies in a medium, radial range for 12 seconds.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a medium, radial range for 16 seconds.', 'Inflicts Lv. 2 DEF down debuff to [STR] enemies in a medium, radial range for 12 seconds.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a medium, radial range for 17 seconds.', 'Inflicts Lv. 2 DEF down debuff to [STR] enemies in a medium, radial range for 13 seconds.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a medium, radial range for 18 seconds.', 'Inflicts Lv. 3 DEF down debuff to [STR] enemies in a medium, radial range for 13 seconds.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a medium, radial range for 19 seconds.', 'Inflicts Lv. 3 DEF down debuff to [STR] enemies in a medium, radial range for 14 seconds.'],
-                    ['100% chance to inflict Lv. 2 Damage Over Time to all enemies in a medium, radial range for 20 seconds.', 'Inflicts Lv. 4 DEF down debuff to [STR] enemies in a medium, radial range for 15 seconds.']
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a medium, radial range for 11 seconds.', 'Inflicts Lv. 1 DEF down debuff to [STR] enemies in a medium, radial range for 10 seconds.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a medium, radial range for 12 seconds.', 'Inflicts Lv. 1 DEF down debuff to [STR] enemies in a medium, radial range for 10 seconds.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a medium, radial range for 12 seconds.', 'Inflicts Lv. 1 DEF down debuff to [STR] enemies in a medium, radial range for 11 seconds.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a medium, radial range for 14 seconds.', 'Inflicts Lv. 1 DEF down debuff to [STR] enemies in a medium, radial range for 11 seconds.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a medium, radial range for 15 seconds.', 'Inflicts Lv. 2 DEF down debuff to [STR] enemies in a medium, radial range for 12 seconds.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a medium, radial range for 16 seconds.', 'Inflicts Lv. 2 DEF down debuff to [STR] enemies in a medium, radial range for 12 seconds.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a medium, radial range for 17 seconds.', 'Inflicts Lv. 2 DEF down debuff to [STR] enemies in a medium, radial range for 13 seconds.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a medium, radial range for 18 seconds.', 'Inflicts Lv. 3 DEF down debuff to [STR] enemies in a medium, radial range for 13 seconds.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a medium, radial range for 19 seconds.', 'Inflicts Lv. 3 DEF down debuff to [STR] enemies in a medium, radial range for 14 seconds.'],
+                    ['Inflicts Lv. 2 Damage Over Time to all enemies in a medium, radial range for 20 seconds.', 'Inflicts Lv. 4 DEF down debuff to [STR] enemies in a medium, radial range for 15 seconds.']
                 ]
             }
         }
@@ -61686,16 +61686,16 @@ window.rumble = {
             base: {
                 cooldown: 27,
                 descriptions: [
-                    ['Inflicts Lv. 1 DEF and SPD down debuff to all enemies in a large, sideways range for 11 seconds.', '73% chance to inflict Half ATK and Half SPD to ATK enemies for 25 seconds.', 'Deals 1.9x ATK in damage to ATK enemies.'],
-                    ['Inflicts Lv. 1 DEF and SPD down debuff to all enemies in a large, sideways range for 12 seconds.', '76% chance to inflict Half ATK and Half SPD to ATK enemies for 25 seconds.', 'Deals 2x ATK in damage to ATK enemies.'],
-                    ['Inflicts Lv. 2 DEF and SPD down debuff to all enemies in a large, sideways range for 13 seconds.', '79% chance to inflict Half ATK and Half SPD to ATK enemies for 25 seconds.', 'Deals 2.1x ATK in damage to ATK enemies.'],
-                    ['Inflicts Lv. 2 DEF and SPD down debuff to all enemies in a large, sideways range for 14 seconds.', '82% chance to inflict Half ATK and Half SPD to ATK enemies for 25 seconds.', 'Deals 2.2x ATK in damage to ATK enemies.'],
-                    ['Inflicts Lv. 3 DEF and SPD down debuff to all enemies in a large, sideways range for 15 seconds.', '85% chance to inflict Half ATK and Half SPD to ATK enemies for 25 seconds.', 'Deals 2.3x ATK in damage to ATK enemies.'],
-                    ['Inflicts Lv. 3 DEF and SPD down debuff to all enemies in a large, sideways range for 16 seconds.', '88% chance to inflict Half ATK and Half SPD to ATK enemies for 25 seconds.', 'Deals 2.4x ATK in damage to ATK enemies.'],
-                    ['Inflicts Lv. 4 DEF and SPD down debuff to all enemies in a large, sideways range for 17 seconds.', '91% chance to inflict Half ATK and Half SPD to ATK enemies for 25 seconds.', 'Deals 2.5x ATK in damage to ATK enemies.'],
-                    ['Inflicts Lv. 4 DEF and SPD down debuff to all enemies in a large, sideways range for 18 seconds.', '94% chance to inflict Half ATK and Half SPD to ATK enemies for 25 seconds.', 'Deals 2.6x ATK in damage to ATK enemies.'],
-                    ['Inflicts Lv. 5 DEF and SPD down debuff to all enemies in a large, sideways range for 19 seconds.', '97% chance to inflict Half ATK and Half SPD to ATK enemies for 25 seconds.', 'Deals 2.7x ATK in damage to ATK enemies.'],
-                    ['Inflicts Lv. 6 DEF and SPD down debuff to all enemies in a large, sideways range for 20 seconds.', '100% chance to inflict Half ATK and Half SPD to ATK enemies for 25 seconds.', 'Deals 2.8x ATK in damage to ATK enemies.']
+                    ['Inflicts Lv. 1 DEF and SPD down debuff to all enemies in a large, sideways range for 11 seconds.', '73% chance to inflict Half ATK and Half SPD to ATK-Style enemies for 25 seconds.', 'Deals 1.9x ATK in damage to ATK-Style enemies.'],
+                    ['Inflicts Lv. 1 DEF and SPD down debuff to all enemies in a large, sideways range for 12 seconds.', '76% chance to inflict Half ATK and Half SPD to ATK-Style enemies for 25 seconds.', 'Deals 2x ATK in damage to ATK-Style enemies.'],
+                    ['Inflicts Lv. 2 DEF and SPD down debuff to all enemies in a large, sideways range for 13 seconds.', '79% chance to inflict Half ATK and Half SPD to ATK-Style enemies for 25 seconds.', 'Deals 2.1x ATK in damage to ATK-Style enemies.'],
+                    ['Inflicts Lv. 2 DEF and SPD down debuff to all enemies in a large, sideways range for 14 seconds.', '82% chance to inflict Half ATK and Half SPD to ATK-Style enemies for 25 seconds.', 'Deals 2.2x ATK in damage to ATK-Style enemies.'],
+                    ['Inflicts Lv. 3 DEF and SPD down debuff to all enemies in a large, sideways range for 15 seconds.', '85% chance to inflict Half ATK and Half SPD to ATK-Style enemies for 25 seconds.', 'Deals 2.3x ATK in damage to ATK-Style enemies.'],
+                    ['Inflicts Lv. 3 DEF and SPD down debuff to all enemies in a large, sideways range for 16 seconds.', '88% chance to inflict Half ATK and Half SPD to ATK-Style enemies for 25 seconds.', 'Deals 2.4x ATK in damage to ATK-Style enemies.'],
+                    ['Inflicts Lv. 4 DEF and SPD down debuff to all enemies in a large, sideways range for 17 seconds.', '91% chance to inflict Half ATK and Half SPD to ATK-Style enemies for 25 seconds.', 'Deals 2.5x ATK in damage to ATK-Style enemies.'],
+                    ['Inflicts Lv. 4 DEF and SPD down debuff to all enemies in a large, sideways range for 18 seconds.', '94% chance to inflict Half ATK and Half SPD to ATK-Style enemies for 25 seconds.', 'Deals 2.6x ATK in damage to ATK-Style enemies.'],
+                    ['Inflicts Lv. 5 DEF and SPD down debuff to all enemies in a large, sideways range for 19 seconds.', '97% chance to inflict Half ATK and Half SPD to ATK-Style enemies for 25 seconds.', 'Deals 2.7x ATK in damage to ATK-Style enemies.'],
+                    ['Inflicts Lv. 6 DEF and SPD down debuff to all enemies in a large, sideways range for 20 seconds.', '100% chance to inflict Half ATK and Half SPD to ATK-Style enemies for 25 seconds.', 'Deals 2.8x ATK in damage to ATK-Style enemies.']
                 ]
             }
         },
@@ -61746,16 +61746,16 @@ window.rumble = {
             base: {
                 cooldown: 27,
                 descriptions: [
-                    ['Inflicts Lv. 1 DEF and SPD down debuff to all enemies in a large, sideways range for 11 seconds.', '73% chance to inflict Half ATK and Half SPD to ATK enemies for 25 seconds.', 'Deals 1.9x ATK in damage to ATK enemies.'],
-                    ['Inflicts Lv. 1 DEF and SPD down debuff to all enemies in a large, sideways range for 12 seconds.', '76% chance to inflict Half ATK and Half SPD to ATK enemies for 25 seconds.', 'Deals 2x ATK in damage to ATK enemies.'],
-                    ['Inflicts Lv. 2 DEF and SPD down debuff to all enemies in a large, sideways range for 13 seconds.', '79% chance to inflict Half ATK and Half SPD to ATK enemies for 25 seconds.', 'Deals 2.1x ATK in damage to ATK enemies.'],
-                    ['Inflicts Lv. 2 DEF and SPD down debuff to all enemies in a large, sideways range for 14 seconds.', '82% chance to inflict Half ATK and Half SPD to ATK enemies for 25 seconds.', 'Deals 2.2x ATK in damage to ATK enemies.'],
-                    ['Inflicts Lv. 3 DEF and SPD down debuff to all enemies in a large, sideways range for 15 seconds.', '85% chance to inflict Half ATK and Half SPD to ATK enemies for 25 seconds.', 'Deals 2.3x ATK in damage to ATK enemies.'],
-                    ['Inflicts Lv. 3 DEF and SPD down debuff to all enemies in a large, sideways range for 16 seconds.', '88% chance to inflict Half ATK and Half SPD to ATK enemies for 25 seconds.', 'Deals 2.4x ATK in damage to ATK enemies.'],
-                    ['Inflicts Lv. 4 DEF and SPD down debuff to all enemies in a large, sideways range for 17 seconds.', '91% chance to inflict Half ATK and Half SPD to ATK enemies for 25 seconds.', 'Deals 2.5x ATK in damage to ATK enemies.'],
-                    ['Inflicts Lv. 4 DEF and SPD down debuff to all enemies in a large, sideways range for 18 seconds.', '94% chance to inflict Half ATK and Half SPD to ATK enemies for 25 seconds.', 'Deals 2.6x ATK in damage to ATK enemies.'],
-                    ['Inflicts Lv. 5 DEF and SPD down debuff to all enemies in a large, sideways range for 19 seconds.', '97% chance to inflict Half ATK and Half SPD to ATK enemies for 25 seconds.', 'Deals 2.7x ATK in damage to ATK enemies.'],
-                    ['Inflicts Lv. 6 DEF and SPD down debuff to all enemies in a large, sideways range for 20 seconds.', '100% chance to inflict Half ATK and Half SPD to ATK enemies for 25 seconds.', 'Deals 2.8x ATK in damage to ATK enemies.']
+                    ['Inflicts Lv. 1 DEF and SPD down debuff to all enemies in a large, sideways range for 11 seconds.', '73% chance to inflict Half ATK and Half SPD to ATK-Style enemies for 25 seconds.', 'Deals 1.9x ATK in damage to ATK-Style enemies.'],
+                    ['Inflicts Lv. 1 DEF and SPD down debuff to all enemies in a large, sideways range for 12 seconds.', '76% chance to inflict Half ATK and Half SPD to ATK-Style enemies for 25 seconds.', 'Deals 2x ATK in damage to ATK-Style enemies.'],
+                    ['Inflicts Lv. 2 DEF and SPD down debuff to all enemies in a large, sideways range for 13 seconds.', '79% chance to inflict Half ATK and Half SPD to ATK-Style enemies for 25 seconds.', 'Deals 2.1x ATK in damage to ATK-Style enemies.'],
+                    ['Inflicts Lv. 2 DEF and SPD down debuff to all enemies in a large, sideways range for 14 seconds.', '82% chance to inflict Half ATK and Half SPD to ATK-Style enemies for 25 seconds.', 'Deals 2.2x ATK in damage to ATK-Style enemies.'],
+                    ['Inflicts Lv. 3 DEF and SPD down debuff to all enemies in a large, sideways range for 15 seconds.', '85% chance to inflict Half ATK and Half SPD to ATK-Style enemies for 25 seconds.', 'Deals 2.3x ATK in damage to ATK-Style enemies.'],
+                    ['Inflicts Lv. 3 DEF and SPD down debuff to all enemies in a large, sideways range for 16 seconds.', '88% chance to inflict Half ATK and Half SPD to ATK-Style enemies for 25 seconds.', 'Deals 2.4x ATK in damage to ATK-Style enemies.'],
+                    ['Inflicts Lv. 4 DEF and SPD down debuff to all enemies in a large, sideways range for 17 seconds.', '91% chance to inflict Half ATK and Half SPD to ATK-Style enemies for 25 seconds.', 'Deals 2.5x ATK in damage to ATK-Style enemies.'],
+                    ['Inflicts Lv. 4 DEF and SPD down debuff to all enemies in a large, sideways range for 18 seconds.', '94% chance to inflict Half ATK and Half SPD to ATK-Style enemies for 25 seconds.', 'Deals 2.6x ATK in damage to ATK-Style enemies.'],
+                    ['Inflicts Lv. 5 DEF and SPD down debuff to all enemies in a large, sideways range for 19 seconds.', '97% chance to inflict Half ATK and Half SPD to ATK-Style enemies for 25 seconds.', 'Deals 2.7x ATK in damage to ATK-Style enemies.'],
+                    ['Inflicts Lv. 6 DEF and SPD down debuff to all enemies in a large, sideways range for 20 seconds.', '100% chance to inflict Half ATK and Half SPD to ATK-Style enemies for 25 seconds.', 'Deals 2.8x ATK in damage to ATK-Style enemies.']
                 ]
             }
         },
@@ -68450,16 +68450,16 @@ window.rumble = {
             base: {
                 cooldown: 25,
                 descriptions: [
-                    [' to all enemies in a large, radial range for 10 seconds.', '80% chance to inflict Action Bind to 2 DBF enemies for 10 seconds.'],
-                    [' to all enemies in a large, radial range for 10 seconds.', '82% chance to inflict Action Bind to 2 DBF enemies for 10 seconds.'],
-                    [' to all enemies in a large, radial range for 10 seconds.', '84% chance to inflict Action Bind to 2 DBF enemies for 10 seconds.'],
-                    [' to all enemies in a large, radial range for 10 seconds.', '86% chance to inflict Action Bind to 2 DBF enemies for 10 seconds.'],
-                    [' to all enemies in a large, radial range for 10 seconds.', '88% chance to inflict Action Bind to 2 DBF enemies for 10 seconds.'],
-                    [' to all enemies in a large, radial range for 10 seconds.', '90% chance to inflict Action Bind to 2 DBF enemies for 10 seconds.'],
-                    [' to all enemies in a large, radial range for 10 seconds.', '92% chance to inflict Action Bind to 2 DBF enemies for 10 seconds.'],
-                    [' to all enemies in a large, radial range for 10 seconds.', '94% chance to inflict Action Bind to 2 DBF enemies for 10 seconds.'],
-                    [' to all enemies in a large, radial range for 10 seconds.', '96% chance to inflict Action Bind to 2 DBF enemies for 10 seconds.'],
-                    [' to all enemies in a large, radial range for 10 seconds.', '100% chance to inflict Action Bind to 2 DBF enemies for 10 seconds.']
+                    [' to all enemies in a large, radial range for 10 seconds.', '80% chance to inflict Action Bind to 2 DBF-Style enemies for 10 seconds.'],
+                    [' to all enemies in a large, radial range for 10 seconds.', '82% chance to inflict Action Bind to 2 DBF-Style enemies for 10 seconds.'],
+                    [' to all enemies in a large, radial range for 10 seconds.', '84% chance to inflict Action Bind to 2 DBF-Style enemies for 10 seconds.'],
+                    [' to all enemies in a large, radial range for 10 seconds.', '86% chance to inflict Action Bind to 2 DBF-Style enemies for 10 seconds.'],
+                    [' to all enemies in a large, radial range for 10 seconds.', '88% chance to inflict Action Bind to 2 DBF-Style enemies for 10 seconds.'],
+                    [' to all enemies in a large, radial range for 10 seconds.', '90% chance to inflict Action Bind to 2 DBF-Style enemies for 10 seconds.'],
+                    [' to all enemies in a large, radial range for 10 seconds.', '92% chance to inflict Action Bind to 2 DBF-Style enemies for 10 seconds.'],
+                    [' to all enemies in a large, radial range for 10 seconds.', '94% chance to inflict Action Bind to 2 DBF-Style enemies for 10 seconds.'],
+                    [' to all enemies in a large, radial range for 10 seconds.', '96% chance to inflict Action Bind to 2 DBF-Style enemies for 10 seconds.'],
+                    [' to all enemies in a large, radial range for 10 seconds.', '100% chance to inflict Action Bind to 2 DBF-Style enemies for 10 seconds.']
                 ]
             }
         },
@@ -68510,16 +68510,16 @@ window.rumble = {
             base: {
                 cooldown: 25,
                 descriptions: [
-                    [' to all enemies in a large, radial range for 10 seconds.', '80% chance to inflict Action Bind to 2 DBF enemies for 10 seconds.'],
-                    [' to all enemies in a large, radial range for 10 seconds.', '82% chance to inflict Action Bind to 2 DBF enemies for 10 seconds.'],
-                    [' to all enemies in a large, radial range for 10 seconds.', '84% chance to inflict Action Bind to 2 DBF enemies for 10 seconds.'],
-                    [' to all enemies in a large, radial range for 10 seconds.', '86% chance to inflict Action Bind to 2 DBF enemies for 10 seconds.'],
-                    [' to all enemies in a large, radial range for 10 seconds.', '88% chance to inflict Action Bind to 2 DBF enemies for 10 seconds.'],
-                    [' to all enemies in a large, radial range for 10 seconds.', '90% chance to inflict Action Bind to 2 DBF enemies for 10 seconds.'],
-                    [' to all enemies in a large, radial range for 10 seconds.', '92% chance to inflict Action Bind to 2 DBF enemies for 10 seconds.'],
-                    [' to all enemies in a large, radial range for 10 seconds.', '94% chance to inflict Action Bind to 2 DBF enemies for 10 seconds.'],
-                    [' to all enemies in a large, radial range for 10 seconds.', '96% chance to inflict Action Bind to 2 DBF enemies for 10 seconds.'],
-                    [' to all enemies in a large, radial range for 10 seconds.', '100% chance to inflict Action Bind to 2 DBF enemies for 10 seconds.']
+                    [' to all enemies in a large, radial range for 10 seconds.', '80% chance to inflict Action Bind to 2 DBF-Style enemies for 10 seconds.'],
+                    [' to all enemies in a large, radial range for 10 seconds.', '82% chance to inflict Action Bind to 2 DBF-Style enemies for 10 seconds.'],
+                    [' to all enemies in a large, radial range for 10 seconds.', '84% chance to inflict Action Bind to 2 DBF-Style enemies for 10 seconds.'],
+                    [' to all enemies in a large, radial range for 10 seconds.', '86% chance to inflict Action Bind to 2 DBF-Style enemies for 10 seconds.'],
+                    [' to all enemies in a large, radial range for 10 seconds.', '88% chance to inflict Action Bind to 2 DBF-Style enemies for 10 seconds.'],
+                    [' to all enemies in a large, radial range for 10 seconds.', '90% chance to inflict Action Bind to 2 DBF-Style enemies for 10 seconds.'],
+                    [' to all enemies in a large, radial range for 10 seconds.', '92% chance to inflict Action Bind to 2 DBF-Style enemies for 10 seconds.'],
+                    [' to all enemies in a large, radial range for 10 seconds.', '94% chance to inflict Action Bind to 2 DBF-Style enemies for 10 seconds.'],
+                    [' to all enemies in a large, radial range for 10 seconds.', '96% chance to inflict Action Bind to 2 DBF-Style enemies for 10 seconds.'],
+                    [' to all enemies in a large, radial range for 10 seconds.', '100% chance to inflict Action Bind to 2 DBF-Style enemies for 10 seconds.']
                 ]
             }
         },
@@ -69263,16 +69263,16 @@ window.rumble = {
             base: {
                 cooldown: 31,
                 descriptions: [
-                    ['Inflicts Lv. 1 ATK down debuff to all enemies in a large, radial range for 11 seconds.', 'Removes 10% of Special CT to Powerhouse and Cerebral enemies.', 'Deals 2x ATK in damage to ATK enemies.'],
-                    ['Inflicts Lv. 2 ATK down debuff to all enemies in a large, radial range for 12 seconds.', 'Removes 11% of Special CT to Powerhouse and Cerebral enemies.', 'Deals 2.2x ATK in damage to ATK enemies.'],
-                    ['Inflicts Lv. 3 ATK down debuff to all enemies in a large, radial range for 13 seconds.', 'Removes 12% of Special CT to Powerhouse and Cerebral enemies.', 'Deals 2.4x ATK in damage to ATK enemies.'],
-                    ['Inflicts Lv. 4 ATK down debuff to all enemies in a large, radial range for 14 seconds.', 'Removes 13% of Special CT to Powerhouse and Cerebral enemies.', 'Deals 2.6x ATK in damage to ATK enemies.'],
-                    ['Inflicts Lv. 5 ATK down debuff to all enemies in a large, radial range for 15 seconds.', 'Removes 14% of Special CT to Powerhouse and Cerebral enemies.', 'Deals 2.8x ATK in damage to ATK enemies.'],
-                    ['Inflicts Lv. 6 ATK down debuff to all enemies in a large, radial range for 16 seconds.', 'Removes 15% of Special CT to Powerhouse and Cerebral enemies.', 'Deals 3x ATK in damage to ATK enemies.'],
-                    ['Inflicts Lv. 7 ATK down debuff to all enemies in a large, radial range for 17 seconds.', 'Removes 16% of Special CT to Powerhouse and Cerebral enemies.', 'Deals 3.2x ATK in damage to ATK enemies.'],
-                    ['Inflicts Lv. 8 ATK down debuff to all enemies in a large, radial range for 18 seconds.', 'Removes 17% of Special CT to Powerhouse and Cerebral enemies.', 'Deals 3.4x ATK in damage to ATK enemies.'],
-                    ['Inflicts Lv. 9 ATK down debuff to all enemies in a large, radial range for 19 seconds.', 'Removes 18% of Special CT to Powerhouse and Cerebral enemies.', 'Deals 3.6x ATK in damage to ATK enemies.'],
-                    ['Inflicts Lv. 10 ATK down debuff to all enemies in a large, radial range for 20 seconds.', 'Removes 20% of Special CT to Powerhouse and Cerebral enemies.', 'Deals 4x ATK in damage to ATK enemies.']
+                    ['Inflicts Lv. 1 ATK down debuff to all enemies in a large, radial range for 11 seconds.', 'Removes 10% of Special CT to Powerhouse and Cerebral enemies.', 'Deals 2x ATK in damage to ATK-Style enemies.'],
+                    ['Inflicts Lv. 2 ATK down debuff to all enemies in a large, radial range for 12 seconds.', 'Removes 11% of Special CT to Powerhouse and Cerebral enemies.', 'Deals 2.2x ATK in damage to ATK-Style enemies.'],
+                    ['Inflicts Lv. 3 ATK down debuff to all enemies in a large, radial range for 13 seconds.', 'Removes 12% of Special CT to Powerhouse and Cerebral enemies.', 'Deals 2.4x ATK in damage to ATK-Style enemies.'],
+                    ['Inflicts Lv. 4 ATK down debuff to all enemies in a large, radial range for 14 seconds.', 'Removes 13% of Special CT to Powerhouse and Cerebral enemies.', 'Deals 2.6x ATK in damage to ATK-Style enemies.'],
+                    ['Inflicts Lv. 5 ATK down debuff to all enemies in a large, radial range for 15 seconds.', 'Removes 14% of Special CT to Powerhouse and Cerebral enemies.', 'Deals 2.8x ATK in damage to ATK-Style enemies.'],
+                    ['Inflicts Lv. 6 ATK down debuff to all enemies in a large, radial range for 16 seconds.', 'Removes 15% of Special CT to Powerhouse and Cerebral enemies.', 'Deals 3x ATK in damage to ATK-Style enemies.'],
+                    ['Inflicts Lv. 7 ATK down debuff to all enemies in a large, radial range for 17 seconds.', 'Removes 16% of Special CT to Powerhouse and Cerebral enemies.', 'Deals 3.2x ATK in damage to ATK-Style enemies.'],
+                    ['Inflicts Lv. 8 ATK down debuff to all enemies in a large, radial range for 18 seconds.', 'Removes 17% of Special CT to Powerhouse and Cerebral enemies.', 'Deals 3.4x ATK in damage to ATK-Style enemies.'],
+                    ['Inflicts Lv. 9 ATK down debuff to all enemies in a large, radial range for 19 seconds.', 'Removes 18% of Special CT to Powerhouse and Cerebral enemies.', 'Deals 3.6x ATK in damage to ATK-Style enemies.'],
+                    ['Inflicts Lv. 10 ATK down debuff to all enemies in a large, radial range for 20 seconds.', 'Removes 20% of Special CT to Powerhouse and Cerebral enemies.', 'Deals 4x ATK in damage to ATK-Style enemies.']
                 ]
             }
         },
@@ -69286,11 +69286,11 @@ window.rumble = {
                     ['Applies Lv. 4 HP and ATK up buff to Powerhouse and Driven crew members.', 'Applies Lv. 2 Critical Hit up buff to Powerhouse and Driven crew members.', 'Applies Lv. 4 HP and DEF up buff to [DEX] and [INT] crew members.', 'Applies Lv. 2 ATK up buff to [DEX] and [INT] crew members.']
                 ],
                 festGPSpecial: [
-                    ['Removes 22% of Special CT to all enemies.', '60% chance to inflict Action Bind to ATK enemies for 10 seconds.', "Deals 2x Leader's base ATK in damage to 2 enemies with the lowest HP."],
-                    ['Removes 24% of Special CT to all enemies.', '70% chance to inflict Action Bind to ATK enemies for 10 seconds.', "Deals 2.25x Leader's base ATK in damage to 2 enemies with the lowest HP."],
-                    ['Removes 26% of Special CT to all enemies.', '80% chance to inflict Action Bind to ATK enemies for 10 seconds.', "Deals 2.5x Leader's base ATK in damage to 2 enemies with the lowest HP."],
-                    ['Removes 28% of Special CT to all enemies.', '90% chance to inflict Action Bind to ATK enemies for 10 seconds.', "Deals 2.75x Leader's base ATK in damage to 2 enemies with the lowest HP."],
-                    ['Removes 30% of Special CT to all enemies.', '100% chance to inflict Action Bind to ATK enemies for 10 seconds.', "Deals 3x Leader's base ATK in damage to 2 enemies with the lowest HP."]
+                    ['Removes 22% of Special CT to all enemies.', '60% chance to inflict Action Bind to ATK-Style enemies for 10 seconds.', "Deals 2x Leader's base ATK in damage to 2 enemies with the lowest HP."],
+                    ['Removes 24% of Special CT to all enemies.', '70% chance to inflict Action Bind to ATK-Style enemies for 10 seconds.', "Deals 2.25x Leader's base ATK in damage to 2 enemies with the lowest HP."],
+                    ['Removes 26% of Special CT to all enemies.', '80% chance to inflict Action Bind to ATK-Style enemies for 10 seconds.', "Deals 2.5x Leader's base ATK in damage to 2 enemies with the lowest HP."],
+                    ['Removes 28% of Special CT to all enemies.', '90% chance to inflict Action Bind to ATK-Style enemies for 10 seconds.', "Deals 2.75x Leader's base ATK in damage to 2 enemies with the lowest HP."],
+                    ['Removes 30% of Special CT to all enemies.', '100% chance to inflict Action Bind to ATK-Style enemies for 10 seconds.', "Deals 3x Leader's base ATK in damage to 2 enemies with the lowest HP."]
                 ],
                 uses: 4
             }
@@ -69323,16 +69323,16 @@ window.rumble = {
             base: {
                 cooldown: 31,
                 descriptions: [
-                    ['Inflicts Lv. 1 ATK down debuff to all enemies in a large, radial range for 11 seconds.', 'Removes 10% of Special CT to Powerhouse and Cerebral enemies.', 'Deals 2x ATK in damage to ATK enemies.'],
-                    ['Inflicts Lv. 2 ATK down debuff to all enemies in a large, radial range for 12 seconds.', 'Removes 11% of Special CT to Powerhouse and Cerebral enemies.', 'Deals 2.2x ATK in damage to ATK enemies.'],
-                    ['Inflicts Lv. 3 ATK down debuff to all enemies in a large, radial range for 13 seconds.', 'Removes 12% of Special CT to Powerhouse and Cerebral enemies.', 'Deals 2.4x ATK in damage to ATK enemies.'],
-                    ['Inflicts Lv. 4 ATK down debuff to all enemies in a large, radial range for 14 seconds.', 'Removes 13% of Special CT to Powerhouse and Cerebral enemies.', 'Deals 2.6x ATK in damage to ATK enemies.'],
-                    ['Inflicts Lv. 5 ATK down debuff to all enemies in a large, radial range for 15 seconds.', 'Removes 14% of Special CT to Powerhouse and Cerebral enemies.', 'Deals 2.8x ATK in damage to ATK enemies.'],
-                    ['Inflicts Lv. 6 ATK down debuff to all enemies in a large, radial range for 16 seconds.', 'Removes 15% of Special CT to Powerhouse and Cerebral enemies.', 'Deals 3x ATK in damage to ATK enemies.'],
-                    ['Inflicts Lv. 7 ATK down debuff to all enemies in a large, radial range for 17 seconds.', 'Removes 16% of Special CT to Powerhouse and Cerebral enemies.', 'Deals 3.2x ATK in damage to ATK enemies.'],
-                    ['Inflicts Lv. 8 ATK down debuff to all enemies in a large, radial range for 18 seconds.', 'Removes 17% of Special CT to Powerhouse and Cerebral enemies.', 'Deals 3.4x ATK in damage to ATK enemies.'],
-                    ['Inflicts Lv. 9 ATK down debuff to all enemies in a large, radial range for 19 seconds.', 'Removes 18% of Special CT to Powerhouse and Cerebral enemies.', 'Deals 3.6x ATK in damage to ATK enemies.'],
-                    ['Inflicts Lv. 10 ATK down debuff to all enemies in a large, radial range for 20 seconds.', 'Removes 20% of Special CT to Powerhouse and Cerebral enemies.', 'Deals 4x ATK in damage to ATK enemies.']
+                    ['Inflicts Lv. 1 ATK down debuff to all enemies in a large, radial range for 11 seconds.', 'Removes 10% of Special CT to Powerhouse and Cerebral enemies.', 'Deals 2x ATK in damage to ATK-Style enemies.'],
+                    ['Inflicts Lv. 2 ATK down debuff to all enemies in a large, radial range for 12 seconds.', 'Removes 11% of Special CT to Powerhouse and Cerebral enemies.', 'Deals 2.2x ATK in damage to ATK-Style enemies.'],
+                    ['Inflicts Lv. 3 ATK down debuff to all enemies in a large, radial range for 13 seconds.', 'Removes 12% of Special CT to Powerhouse and Cerebral enemies.', 'Deals 2.4x ATK in damage to ATK-Style enemies.'],
+                    ['Inflicts Lv. 4 ATK down debuff to all enemies in a large, radial range for 14 seconds.', 'Removes 13% of Special CT to Powerhouse and Cerebral enemies.', 'Deals 2.6x ATK in damage to ATK-Style enemies.'],
+                    ['Inflicts Lv. 5 ATK down debuff to all enemies in a large, radial range for 15 seconds.', 'Removes 14% of Special CT to Powerhouse and Cerebral enemies.', 'Deals 2.8x ATK in damage to ATK-Style enemies.'],
+                    ['Inflicts Lv. 6 ATK down debuff to all enemies in a large, radial range for 16 seconds.', 'Removes 15% of Special CT to Powerhouse and Cerebral enemies.', 'Deals 3x ATK in damage to ATK-Style enemies.'],
+                    ['Inflicts Lv. 7 ATK down debuff to all enemies in a large, radial range for 17 seconds.', 'Removes 16% of Special CT to Powerhouse and Cerebral enemies.', 'Deals 3.2x ATK in damage to ATK-Style enemies.'],
+                    ['Inflicts Lv. 8 ATK down debuff to all enemies in a large, radial range for 18 seconds.', 'Removes 17% of Special CT to Powerhouse and Cerebral enemies.', 'Deals 3.4x ATK in damage to ATK-Style enemies.'],
+                    ['Inflicts Lv. 9 ATK down debuff to all enemies in a large, radial range for 19 seconds.', 'Removes 18% of Special CT to Powerhouse and Cerebral enemies.', 'Deals 3.6x ATK in damage to ATK-Style enemies.'],
+                    ['Inflicts Lv. 10 ATK down debuff to all enemies in a large, radial range for 20 seconds.', 'Removes 20% of Special CT to Powerhouse and Cerebral enemies.', 'Deals 4x ATK in damage to ATK-Style enemies.']
                 ]
             }
         },
@@ -69346,11 +69346,11 @@ window.rumble = {
                     ['Applies Lv. 4 HP and ATK up buff to Powerhouse and Driven crew members.', 'Applies Lv. 2 Critical Hit up buff to Powerhouse and Driven crew members.', 'Applies Lv. 4 HP and DEF up buff to [DEX] and [INT] crew members.', 'Applies Lv. 2 ATK up buff to [DEX] and [INT] crew members.']
                 ],
                 festGPSpecial: [
-                    ['Removes 22% of Special CT to all enemies.', '60% chance to inflict Action Bind to ATK enemies for 10 seconds.', "Deals 2x Leader's base ATK in damage to 2 enemies with the lowest HP."],
-                    ['Removes 24% of Special CT to all enemies.', '70% chance to inflict Action Bind to ATK enemies for 10 seconds.', "Deals 2.25x Leader's base ATK in damage to 2 enemies with the lowest HP."],
-                    ['Removes 26% of Special CT to all enemies.', '80% chance to inflict Action Bind to ATK enemies for 10 seconds.', "Deals 2.5x Leader's base ATK in damage to 2 enemies with the lowest HP."],
-                    ['Removes 28% of Special CT to all enemies.', '90% chance to inflict Action Bind to ATK enemies for 10 seconds.', "Deals 2.75x Leader's base ATK in damage to 2 enemies with the lowest HP."],
-                    ['Removes 30% of Special CT to all enemies.', '100% chance to inflict Action Bind to ATK enemies for 10 seconds.', "Deals 3x Leader's base ATK in damage to 2 enemies with the lowest HP."]
+                    ['Removes 22% of Special CT to all enemies.', '60% chance to inflict Action Bind to ATK-Style enemies for 10 seconds.', "Deals 2x Leader's base ATK in damage to 2 enemies with the lowest HP."],
+                    ['Removes 24% of Special CT to all enemies.', '70% chance to inflict Action Bind to ATK-Style enemies for 10 seconds.', "Deals 2.25x Leader's base ATK in damage to 2 enemies with the lowest HP."],
+                    ['Removes 26% of Special CT to all enemies.', '80% chance to inflict Action Bind to ATK-Style enemies for 10 seconds.', "Deals 2.5x Leader's base ATK in damage to 2 enemies with the lowest HP."],
+                    ['Removes 28% of Special CT to all enemies.', '90% chance to inflict Action Bind to ATK-Style enemies for 10 seconds.', "Deals 2.75x Leader's base ATK in damage to 2 enemies with the lowest HP."],
+                    ['Removes 30% of Special CT to all enemies.', '100% chance to inflict Action Bind to ATK-Style enemies for 10 seconds.', "Deals 3x Leader's base ATK in damage to 2 enemies with the lowest HP."]
                 ],
                 uses: 4
             }
@@ -69383,16 +69383,16 @@ window.rumble = {
             base: {
                 cooldown: 32,
                 descriptions: [
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 10 seconds.', 'Deals 0.75x ATK in damage to 3 ATK enemies with the lowest HP.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 10 seconds.', 'Deals 0.8x ATK in damage to 3 ATK enemies with the lowest HP.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 10 seconds.', 'Deals 0.85x ATK in damage to 3 ATK enemies with the lowest HP.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 10 seconds.', 'Deals 0.9x ATK in damage to 3 ATK enemies with the lowest HP.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 10 seconds.', 'Deals 0.95x ATK in damage to 3 ATK enemies with the lowest HP.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 10 seconds.', 'Deals 1x ATK in damage to 3 ATK enemies with the lowest HP.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 10 seconds.', 'Deals 1.05x ATK in damage to 3 ATK enemies with the lowest HP.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 10 seconds.', 'Deals 1.1x ATK in damage to 3 ATK enemies with the lowest HP.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 10 seconds.', 'Deals 1.15x ATK in damage to 3 ATK enemies with the lowest HP.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 10 seconds.', 'Deals 1.2x ATK in damage to 3 ATK enemies with the lowest HP.']
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 10 seconds.', 'Deals 0.75x ATK in damage to 3 ATK-Style enemies with the lowest HP.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 10 seconds.', 'Deals 0.8x ATK in damage to 3 ATK-Style enemies with the lowest HP.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 10 seconds.', 'Deals 0.85x ATK in damage to 3 ATK-Style enemies with the lowest HP.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 10 seconds.', 'Deals 0.9x ATK in damage to 3 ATK-Style enemies with the lowest HP.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 10 seconds.', 'Deals 0.95x ATK in damage to 3 ATK-Style enemies with the lowest HP.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 10 seconds.', 'Deals 1x ATK in damage to 3 ATK-Style enemies with the lowest HP.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 10 seconds.', 'Deals 1.05x ATK in damage to 3 ATK-Style enemies with the lowest HP.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 10 seconds.', 'Deals 1.1x ATK in damage to 3 ATK-Style enemies with the lowest HP.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 10 seconds.', 'Deals 1.15x ATK in damage to 3 ATK-Style enemies with the lowest HP.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 10 seconds.', 'Deals 1.2x ATK in damage to 3 ATK-Style enemies with the lowest HP.']
                 ]
             }
         }
@@ -69421,16 +69421,16 @@ window.rumble = {
             base: {
                 cooldown: 32,
                 descriptions: [
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 15 seconds.', 'Deals 1x ATK in damage to 3 enemies with the lowest HP.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 15 seconds.', 'Deals 1.05x ATK in damage to 3 enemies with the lowest HP.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 15 seconds.', 'Deals 1.1x ATK in damage to 3 enemies with the lowest HP.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 15 seconds.', 'Deals 1.15x ATK in damage to 3 enemies with the lowest HP.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 15 seconds.', 'Deals 1.2x ATK in damage to 3 enemies with the lowest HP.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 15 seconds.', 'Deals 1.25x ATK in damage to 3 enemies with the lowest HP.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 15 seconds.', 'Deals 1.3x ATK in damage to 3 enemies with the lowest HP.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 15 seconds.', 'Deals 1.35x ATK in damage to 3 enemies with the lowest HP.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 15 seconds.', 'Deals 1.4x ATK in damage to 3 enemies with the lowest HP.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 15 seconds.', 'Deals 1.5x ATK in damage to 3 enemies with the lowest HP.']
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 15 seconds.', 'Deals 1x ATK in damage to 3 enemies with the lowest HP.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 15 seconds.', 'Deals 1.05x ATK in damage to 3 enemies with the lowest HP.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 15 seconds.', 'Deals 1.1x ATK in damage to 3 enemies with the lowest HP.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 15 seconds.', 'Deals 1.15x ATK in damage to 3 enemies with the lowest HP.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 15 seconds.', 'Deals 1.2x ATK in damage to 3 enemies with the lowest HP.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 15 seconds.', 'Deals 1.25x ATK in damage to 3 enemies with the lowest HP.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 15 seconds.', 'Deals 1.3x ATK in damage to 3 enemies with the lowest HP.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 15 seconds.', 'Deals 1.35x ATK in damage to 3 enemies with the lowest HP.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 15 seconds.', 'Deals 1.4x ATK in damage to 3 enemies with the lowest HP.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 15 seconds.', 'Deals 1.5x ATK in damage to 3 enemies with the lowest HP.']
                 ]
             }
         }
@@ -69677,16 +69677,16 @@ window.rumble = {
             base: {
                 cooldown: 27,
                 descriptions: [
-                    ['Applies Lv. 1 ATK, SPD and DEF up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 11 seconds.', 'Applies Lv. 2 Shield up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 11 seconds.', 'Reduces 15% of Special CT to ATK Style crew members.', 'Deals 3x ATK in damage to 1 enemy with the lowest DEF.'],
-                    ['Applies Lv. 1 ATK, SPD and DEF up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 12 seconds.', 'Applies Lv. 2 Shield up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 12 seconds.', 'Reduces 15% of Special CT to ATK Style crew members.', 'Deals 3.1x ATK in damage to 1 enemy with the lowest DEF.'],
-                    ['Applies Lv. 1 ATK, SPD and DEF up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 13 seconds.', 'Applies Lv. 2 Shield up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 13 seconds.', 'Reduces 16% of Special CT to ATK Style crew members.', 'Deals 3.2x ATK in damage to 1 enemy with the lowest DEF.'],
-                    ['Applies Lv. 2 ATK, SPD and DEF up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 14 seconds.', 'Applies Lv. 2 Shield up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 14 seconds.', 'Reduces 16% of Special CT to ATK Style crew members.', 'Deals 3.3x ATK in damage to 1 enemy with the lowest DEF.'],
-                    ['Applies Lv. 2 ATK, SPD and DEF up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 15 seconds.', 'Applies Lv. 2 Shield up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 15 seconds.', 'Reduces 17% of Special CT to ATK Style crew members.', 'Deals 3.4x ATK in damage to 1 enemy with the lowest DEF.'],
-                    ['Applies Lv. 3 ATK, SPD and DEF up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 16 seconds.', 'Applies Lv. 2 Shield up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 16 seconds.', 'Reduces 17% of Special CT to ATK Style crew members.', 'Deals 3.5x ATK in damage to 1 enemy with the lowest DEF.'],
-                    ['Applies Lv. 3 ATK, SPD and DEF up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 17 seconds.', 'Applies Lv. 2 Shield up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 17 seconds.', 'Reduces 18% of Special CT to ATK Style crew members.', 'Deals 3.6x ATK in damage to 1 enemy with the lowest DEF.'],
-                    ['Applies Lv. 3 ATK, SPD and DEF up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 18 seconds.', 'Applies Lv. 2 Shield up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 18 seconds.', 'Reduces 18% of Special CT to ATK Style crew members.', 'Deals 3.7x ATK in damage to 1 enemy with the lowest DEF.'],
-                    ['Applies Lv. 4 ATK, SPD and DEF up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 19 seconds.', 'Applies Lv. 2 Shield up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 19 seconds.', 'Reduces 19% of Special CT to ATK Style crew members.', 'Deals 3.8x ATK in damage to 1 enemy with the lowest DEF.'],
-                    ['Applies Lv. 5 ATK, SPD and DEF up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 20 seconds.', 'Applies Lv. 3 Shield up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 20 seconds.', 'Reduces 20% of Special CT to ATK Style crew members.', 'Deals 4x ATK in damage to 1 enemy with the lowest DEF.']
+                    ['Applies Lv. 1 ATK, SPD and DEF up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 11 seconds.', 'Applies Lv. 2 Shield up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 11 seconds.', 'Reduces 15% of Special CT to ATK-Style crew members.', 'Deals 3x ATK in damage to 1 enemy with the lowest DEF.'],
+                    ['Applies Lv. 1 ATK, SPD and DEF up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 12 seconds.', 'Applies Lv. 2 Shield up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 12 seconds.', 'Reduces 15% of Special CT to ATK-Style crew members.', 'Deals 3.1x ATK in damage to 1 enemy with the lowest DEF.'],
+                    ['Applies Lv. 1 ATK, SPD and DEF up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 13 seconds.', 'Applies Lv. 2 Shield up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 13 seconds.', 'Reduces 16% of Special CT to ATK-Style crew members.', 'Deals 3.2x ATK in damage to 1 enemy with the lowest DEF.'],
+                    ['Applies Lv. 2 ATK, SPD and DEF up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 14 seconds.', 'Applies Lv. 2 Shield up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 14 seconds.', 'Reduces 16% of Special CT to ATK-Style crew members.', 'Deals 3.3x ATK in damage to 1 enemy with the lowest DEF.'],
+                    ['Applies Lv. 2 ATK, SPD and DEF up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 15 seconds.', 'Applies Lv. 2 Shield up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 15 seconds.', 'Reduces 17% of Special CT to ATK-Style crew members.', 'Deals 3.4x ATK in damage to 1 enemy with the lowest DEF.'],
+                    ['Applies Lv. 3 ATK, SPD and DEF up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 16 seconds.', 'Applies Lv. 2 Shield up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 16 seconds.', 'Reduces 17% of Special CT to ATK-Style crew members.', 'Deals 3.5x ATK in damage to 1 enemy with the lowest DEF.'],
+                    ['Applies Lv. 3 ATK, SPD and DEF up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 17 seconds.', 'Applies Lv. 2 Shield up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 17 seconds.', 'Reduces 18% of Special CT to ATK-Style crew members.', 'Deals 3.6x ATK in damage to 1 enemy with the lowest DEF.'],
+                    ['Applies Lv. 3 ATK, SPD and DEF up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 18 seconds.', 'Applies Lv. 2 Shield up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 18 seconds.', 'Reduces 18% of Special CT to ATK-Style crew members.', 'Deals 3.7x ATK in damage to 1 enemy with the lowest DEF.'],
+                    ['Applies Lv. 4 ATK, SPD and DEF up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 19 seconds.', 'Applies Lv. 2 Shield up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 19 seconds.', 'Reduces 19% of Special CT to ATK-Style crew members.', 'Deals 3.8x ATK in damage to 1 enemy with the lowest DEF.'],
+                    ['Applies Lv. 5 ATK, SPD and DEF up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 20 seconds.', 'Applies Lv. 3 Shield up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 20 seconds.', 'Reduces 20% of Special CT to ATK-Style crew members.', 'Deals 4x ATK in damage to 1 enemy with the lowest DEF.']
                 ]
             }
         },
@@ -69737,16 +69737,16 @@ window.rumble = {
             base: {
                 cooldown: 27,
                 descriptions: [
-                    ['Applies Lv. 1 ATK, SPD and DEF up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 11 seconds.', 'Applies Lv. 2 Shield up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 11 seconds.', 'Reduces 15% of Special CT to ATK Style crew members.', 'Deals 3x ATK in damage to 1 enemy with the lowest DEF.'],
-                    ['Applies Lv. 1 ATK, SPD and DEF up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 12 seconds.', 'Applies Lv. 2 Shield up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 12 seconds.', 'Reduces 15% of Special CT to ATK Style crew members.', 'Deals 3.1x ATK in damage to 1 enemy with the lowest DEF.'],
-                    ['Applies Lv. 1 ATK, SPD and DEF up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 13 seconds.', 'Applies Lv. 2 Shield up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 13 seconds.', 'Reduces 16% of Special CT to ATK Style crew members.', 'Deals 3.2x ATK in damage to 1 enemy with the lowest DEF.'],
-                    ['Applies Lv. 2 ATK, SPD and DEF up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 14 seconds.', 'Applies Lv. 2 Shield up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 14 seconds.', 'Reduces 16% of Special CT to ATK Style crew members.', 'Deals 3.3x ATK in damage to 1 enemy with the lowest DEF.'],
-                    ['Applies Lv. 2 ATK, SPD and DEF up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 15 seconds.', 'Applies Lv. 2 Shield up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 15 seconds.', 'Reduces 17% of Special CT to ATK Style crew members.', 'Deals 3.4x ATK in damage to 1 enemy with the lowest DEF.'],
-                    ['Applies Lv. 3 ATK, SPD and DEF up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 16 seconds.', 'Applies Lv. 2 Shield up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 16 seconds.', 'Reduces 17% of Special CT to ATK Style crew members.', 'Deals 3.5x ATK in damage to 1 enemy with the lowest DEF.'],
-                    ['Applies Lv. 3 ATK, SPD and DEF up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 17 seconds.', 'Applies Lv. 2 Shield up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 17 seconds.', 'Reduces 18% of Special CT to ATK Style crew members.', 'Deals 3.6x ATK in damage to 1 enemy with the lowest DEF.'],
-                    ['Applies Lv. 3 ATK, SPD and DEF up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 18 seconds.', 'Applies Lv. 2 Shield up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 18 seconds.', 'Reduces 18% of Special CT to ATK Style crew members.', 'Deals 3.7x ATK in damage to 1 enemy with the lowest DEF.'],
-                    ['Applies Lv. 4 ATK, SPD and DEF up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 19 seconds.', 'Applies Lv. 2 Shield up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 19 seconds.', 'Reduces 19% of Special CT to ATK Style crew members.', 'Deals 3.8x ATK in damage to 1 enemy with the lowest DEF.'],
-                    ['Applies Lv. 5 ATK, SPD and DEF up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 20 seconds.', 'Applies Lv. 3 Shield up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 20 seconds.', 'Reduces 20% of Special CT to ATK Style crew members.', 'Deals 4x ATK in damage to 1 enemy with the lowest DEF.']
+                    ['Applies Lv. 1 ATK, SPD and DEF up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 11 seconds.', 'Applies Lv. 2 Shield up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 11 seconds.', 'Reduces 15% of Special CT to ATK-Style crew members.', 'Deals 3x ATK in damage to 1 enemy with the lowest DEF.'],
+                    ['Applies Lv. 1 ATK, SPD and DEF up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 12 seconds.', 'Applies Lv. 2 Shield up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 12 seconds.', 'Reduces 15% of Special CT to ATK-Style crew members.', 'Deals 3.1x ATK in damage to 1 enemy with the lowest DEF.'],
+                    ['Applies Lv. 1 ATK, SPD and DEF up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 13 seconds.', 'Applies Lv. 2 Shield up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 13 seconds.', 'Reduces 16% of Special CT to ATK-Style crew members.', 'Deals 3.2x ATK in damage to 1 enemy with the lowest DEF.'],
+                    ['Applies Lv. 2 ATK, SPD and DEF up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 14 seconds.', 'Applies Lv. 2 Shield up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 14 seconds.', 'Reduces 16% of Special CT to ATK-Style crew members.', 'Deals 3.3x ATK in damage to 1 enemy with the lowest DEF.'],
+                    ['Applies Lv. 2 ATK, SPD and DEF up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 15 seconds.', 'Applies Lv. 2 Shield up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 15 seconds.', 'Reduces 17% of Special CT to ATK-Style crew members.', 'Deals 3.4x ATK in damage to 1 enemy with the lowest DEF.'],
+                    ['Applies Lv. 3 ATK, SPD and DEF up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 16 seconds.', 'Applies Lv. 2 Shield up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 16 seconds.', 'Reduces 17% of Special CT to ATK-Style crew members.', 'Deals 3.5x ATK in damage to 1 enemy with the lowest DEF.'],
+                    ['Applies Lv. 3 ATK, SPD and DEF up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 17 seconds.', 'Applies Lv. 2 Shield up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 17 seconds.', 'Reduces 18% of Special CT to ATK-Style crew members.', 'Deals 3.6x ATK in damage to 1 enemy with the lowest DEF.'],
+                    ['Applies Lv. 3 ATK, SPD and DEF up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 18 seconds.', 'Applies Lv. 2 Shield up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 18 seconds.', 'Reduces 18% of Special CT to ATK-Style crew members.', 'Deals 3.7x ATK in damage to 1 enemy with the lowest DEF.'],
+                    ['Applies Lv. 4 ATK, SPD and DEF up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 19 seconds.', 'Applies Lv. 2 Shield up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 19 seconds.', 'Reduces 19% of Special CT to ATK-Style crew members.', 'Deals 3.8x ATK in damage to 1 enemy with the lowest DEF.'],
+                    ['Applies Lv. 5 ATK, SPD and DEF up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 20 seconds.', 'Applies Lv. 3 Shield up buff to Cerebral, Powerhouse, Slasher and Driven crew members for 20 seconds.', 'Reduces 20% of Special CT to ATK-Style crew members.', 'Deals 4x ATK in damage to 1 enemy with the lowest DEF.']
                 ]
             }
         },
@@ -70364,16 +70364,16 @@ window.rumble = {
             base: {
                 cooldown: 22,
                 descriptions: [
-                    ['Inflicts Lv. 2 SPD down debuff to all enemies in a large, radial range for 15 seconds.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 15 seconds.', 'Inflicts Lv. 1 Special CT down debuff to 1 enemy with the highest Special CT for 15 seconds.', 'Removes 11% of Special CT to 1 enemy with the highest Special CT.'],
-                    ['Inflicts Lv. 2 SPD down debuff to all enemies in a large, radial range for 15 seconds.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 15 seconds.', 'Inflicts Lv. 1 Special CT down debuff to 1 enemy with the highest Special CT for 15 seconds.', 'Removes 12% of Special CT to 1 enemy with the highest Special CT.'],
-                    ['Inflicts Lv. 3 SPD down debuff to all enemies in a large, radial range for 15 seconds.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 15 seconds.', 'Inflicts Lv. 1 Special CT down debuff to 1 enemy with the highest Special CT for 15 seconds.', 'Removes 13% of Special CT to 1 enemy with the highest Special CT.'],
-                    ['Inflicts Lv. 3 SPD down debuff to all enemies in a large, radial range for 15 seconds.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 15 seconds.', 'Inflicts Lv. 1 Special CT down debuff to 1 enemy with the highest Special CT for 15 seconds.', 'Removes 14% of Special CT to 1 enemy with the highest Special CT.'],
-                    ['Inflicts Lv. 4 SPD down debuff to all enemies in a large, radial range for 15 seconds.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 15 seconds.', 'Inflicts Lv. 1 Special CT down debuff to 1 enemy with the highest Special CT for 15 seconds.', 'Removes 15% of Special CT to 1 enemy with the highest Special CT.'],
-                    ['Inflicts Lv. 4 SPD down debuff to all enemies in a large, radial range for 15 seconds.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 15 seconds.', 'Inflicts Lv. 2 Special CT down debuff to 1 enemy with the highest Special CT for 15 seconds.', 'Removes 16% of Special CT to 1 enemy with the highest Special CT.'],
-                    ['Inflicts Lv. 5 SPD down debuff to all enemies in a large, radial range for 15 seconds.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 15 seconds.', 'Inflicts Lv. 2 Special CT down debuff to 1 enemy with the highest Special CT for 15 seconds.', 'Removes 17% of Special CT to 1 enemy with the highest Special CT.'],
-                    ['Inflicts Lv. 5 SPD down debuff to all enemies in a large, radial range for 15 seconds.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 15 seconds.', 'Inflicts Lv. 2 Special CT down debuff to 1 enemy with the highest Special CT for 15 seconds.', 'Removes 18% of Special CT to 1 enemy with the highest Special CT.'],
-                    ['Inflicts Lv. 6 SPD down debuff to all enemies in a large, radial range for 15 seconds.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 15 seconds.', 'Inflicts Lv. 2 Special CT down debuff to 1 enemy with the highest Special CT for 15 seconds.', 'Removes 19% of Special CT to 1 enemy with the highest Special CT.'],
-                    ['Inflicts Lv. 7 SPD down debuff to all enemies in a large, radial range for 15 seconds.', '100% chance to inflict Lv. 2 Damage Over Time to all enemies in a large, radial range for 15 seconds.', 'Inflicts Lv. 3 Special CT down debuff to 1 enemy with the highest Special CT for 15 seconds.', 'Removes 20% of Special CT to 1 enemy with the highest Special CT.']
+                    ['Inflicts Lv. 2 SPD down debuff to all enemies in a large, radial range for 15 seconds.', 'Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 15 seconds.', 'Inflicts Lv. 1 Special CT down debuff to 1 enemy with the highest Special CT for 15 seconds.', 'Removes 11% of Special CT to 1 enemy with the highest Special CT.'],
+                    ['Inflicts Lv. 2 SPD down debuff to all enemies in a large, radial range for 15 seconds.', 'Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 15 seconds.', 'Inflicts Lv. 1 Special CT down debuff to 1 enemy with the highest Special CT for 15 seconds.', 'Removes 12% of Special CT to 1 enemy with the highest Special CT.'],
+                    ['Inflicts Lv. 3 SPD down debuff to all enemies in a large, radial range for 15 seconds.', 'Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 15 seconds.', 'Inflicts Lv. 1 Special CT down debuff to 1 enemy with the highest Special CT for 15 seconds.', 'Removes 13% of Special CT to 1 enemy with the highest Special CT.'],
+                    ['Inflicts Lv. 3 SPD down debuff to all enemies in a large, radial range for 15 seconds.', 'Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 15 seconds.', 'Inflicts Lv. 1 Special CT down debuff to 1 enemy with the highest Special CT for 15 seconds.', 'Removes 14% of Special CT to 1 enemy with the highest Special CT.'],
+                    ['Inflicts Lv. 4 SPD down debuff to all enemies in a large, radial range for 15 seconds.', 'Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 15 seconds.', 'Inflicts Lv. 1 Special CT down debuff to 1 enemy with the highest Special CT for 15 seconds.', 'Removes 15% of Special CT to 1 enemy with the highest Special CT.'],
+                    ['Inflicts Lv. 4 SPD down debuff to all enemies in a large, radial range for 15 seconds.', 'Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 15 seconds.', 'Inflicts Lv. 2 Special CT down debuff to 1 enemy with the highest Special CT for 15 seconds.', 'Removes 16% of Special CT to 1 enemy with the highest Special CT.'],
+                    ['Inflicts Lv. 5 SPD down debuff to all enemies in a large, radial range for 15 seconds.', 'Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 15 seconds.', 'Inflicts Lv. 2 Special CT down debuff to 1 enemy with the highest Special CT for 15 seconds.', 'Removes 17% of Special CT to 1 enemy with the highest Special CT.'],
+                    ['Inflicts Lv. 5 SPD down debuff to all enemies in a large, radial range for 15 seconds.', 'Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 15 seconds.', 'Inflicts Lv. 2 Special CT down debuff to 1 enemy with the highest Special CT for 15 seconds.', 'Removes 18% of Special CT to 1 enemy with the highest Special CT.'],
+                    ['Inflicts Lv. 6 SPD down debuff to all enemies in a large, radial range for 15 seconds.', 'Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 15 seconds.', 'Inflicts Lv. 2 Special CT down debuff to 1 enemy with the highest Special CT for 15 seconds.', 'Removes 19% of Special CT to 1 enemy with the highest Special CT.'],
+                    ['Inflicts Lv. 7 SPD down debuff to all enemies in a large, radial range for 15 seconds.', 'Inflicts Lv. 2 Damage Over Time to all enemies in a large, radial range for 15 seconds.', 'Inflicts Lv. 3 Special CT down debuff to 1 enemy with the highest Special CT for 15 seconds.', 'Removes 20% of Special CT to 1 enemy with the highest Special CT.']
                 ]
             }
         }
@@ -70872,16 +70872,16 @@ window.rumble = {
             base: {
                 cooldown: 27,
                 descriptions: [
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a medium, sideways range for 6 seconds.', '6% HP cut to 2 enemies with the highest SPD.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a medium, sideways range for 7 seconds.', '6% HP cut to 2 enemies with the highest SPD.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a medium, sideways range for 8 seconds.', '7% HP cut to 2 enemies with the highest SPD.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a medium, sideways range for 9 seconds.', '7% HP cut to 2 enemies with the highest SPD.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a medium, sideways range for 10 seconds.', '8% HP cut to 2 enemies with the highest SPD.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a medium, sideways range for 11 seconds.', '8% HP cut to 2 enemies with the highest SPD.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a medium, sideways range for 12 seconds.', '9% HP cut to 2 enemies with the highest SPD.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a medium, sideways range for 13 seconds.', '9% HP cut to 2 enemies with the highest SPD.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a medium, sideways range for 14 seconds.', '10% HP cut to 2 enemies with the highest SPD.'],
-                    ['100% chance to inflict Lv. 1 Damage Over Time to all enemies in a medium, sideways range for 15 seconds.', '12% HP cut to 2 enemies with the highest SPD.']
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a medium, sideways range for 6 seconds.', '6% HP cut to 2 enemies with the highest SPD.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a medium, sideways range for 7 seconds.', '6% HP cut to 2 enemies with the highest SPD.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a medium, sideways range for 8 seconds.', '7% HP cut to 2 enemies with the highest SPD.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a medium, sideways range for 9 seconds.', '7% HP cut to 2 enemies with the highest SPD.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a medium, sideways range for 10 seconds.', '8% HP cut to 2 enemies with the highest SPD.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a medium, sideways range for 11 seconds.', '8% HP cut to 2 enemies with the highest SPD.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a medium, sideways range for 12 seconds.', '9% HP cut to 2 enemies with the highest SPD.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a medium, sideways range for 13 seconds.', '9% HP cut to 2 enemies with the highest SPD.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a medium, sideways range for 14 seconds.', '10% HP cut to 2 enemies with the highest SPD.'],
+                    ['Inflicts Lv. 1 Damage Over Time to all enemies in a medium, sideways range for 15 seconds.', '12% HP cut to 2 enemies with the highest SPD.']
                 ]
             }
         }
@@ -70910,16 +70910,16 @@ window.rumble = {
             base: {
                 cooldown: 27,
                 descriptions: [
-                    ['100% chance to inflict Lv. 2 Damage Over Time to all enemies in a medium, sideways range for 6 seconds.', '10% HP cut to 2 enemies with the highest SPD 2 times.'],
-                    ['100% chance to inflict Lv. 2 Damage Over Time to all enemies in a medium, sideways range for 7 seconds.', '10% HP cut to 2 enemies with the highest SPD 2 times.'],
-                    ['100% chance to inflict Lv. 2 Damage Over Time to all enemies in a medium, sideways range for 8 seconds.', '11% HP cut to 2 enemies with the highest SPD 2 times.'],
-                    ['100% chance to inflict Lv. 2 Damage Over Time to all enemies in a medium, sideways range for 9 seconds.', '11% HP cut to 2 enemies with the highest SPD 2 times.'],
-                    ['100% chance to inflict Lv. 2 Damage Over Time to all enemies in a medium, sideways range for 10 seconds.', '12% HP cut to 2 enemies with the highest SPD 2 times.'],
-                    ['100% chance to inflict Lv. 2 Damage Over Time to all enemies in a medium, sideways range for 11 seconds.', '12% HP cut to 2 enemies with the highest SPD 2 times.'],
-                    ['100% chance to inflict Lv. 2 Damage Over Time to all enemies in a medium, sideways range for 12 seconds.', '13% HP cut to 2 enemies with the highest SPD 2 times.'],
-                    ['100% chance to inflict Lv. 2 Damage Over Time to all enemies in a medium, sideways range for 13 seconds.', '13% HP cut to 2 enemies with the highest SPD 2 times.'],
-                    ['100% chance to inflict Lv. 2 Damage Over Time to all enemies in a medium, sideways range for 14 seconds.', '14% HP cut to 2 enemies with the highest SPD 2 times.'],
-                    ['100% chance to inflict Lv. 2 Damage Over Time to all enemies in a medium, sideways range for 15 seconds.', '15% HP cut to 2 enemies with the highest SPD 2 times.']
+                    ['Inflicts Lv. 2 Damage Over Time to all enemies in a medium, sideways range for 6 seconds.', '10% HP cut to 2 enemies with the highest SPD 2 times.'],
+                    ['Inflicts Lv. 2 Damage Over Time to all enemies in a medium, sideways range for 7 seconds.', '10% HP cut to 2 enemies with the highest SPD 2 times.'],
+                    ['Inflicts Lv. 2 Damage Over Time to all enemies in a medium, sideways range for 8 seconds.', '11% HP cut to 2 enemies with the highest SPD 2 times.'],
+                    ['Inflicts Lv. 2 Damage Over Time to all enemies in a medium, sideways range for 9 seconds.', '11% HP cut to 2 enemies with the highest SPD 2 times.'],
+                    ['Inflicts Lv. 2 Damage Over Time to all enemies in a medium, sideways range for 10 seconds.', '12% HP cut to 2 enemies with the highest SPD 2 times.'],
+                    ['Inflicts Lv. 2 Damage Over Time to all enemies in a medium, sideways range for 11 seconds.', '12% HP cut to 2 enemies with the highest SPD 2 times.'],
+                    ['Inflicts Lv. 2 Damage Over Time to all enemies in a medium, sideways range for 12 seconds.', '13% HP cut to 2 enemies with the highest SPD 2 times.'],
+                    ['Inflicts Lv. 2 Damage Over Time to all enemies in a medium, sideways range for 13 seconds.', '13% HP cut to 2 enemies with the highest SPD 2 times.'],
+                    ['Inflicts Lv. 2 Damage Over Time to all enemies in a medium, sideways range for 14 seconds.', '14% HP cut to 2 enemies with the highest SPD 2 times.'],
+                    ['Inflicts Lv. 2 Damage Over Time to all enemies in a medium, sideways range for 15 seconds.', '15% HP cut to 2 enemies with the highest SPD 2 times.']
                 ]
             }
         }
@@ -71529,11 +71529,11 @@ window.rumble = {
         },
         festAbility: {
             base: [
-                ['Applies Lv. 1 HP and DEF up buff to [DEX] and Striker crew members.', 'Applies Lv. 3 ATK up buff to ATK Style crew members.'],
-                ['Applies Lv. 2 HP and DEF up buff to [DEX] and Striker crew members.', 'Applies Lv. 4 ATK up buff to ATK Style crew members.'],
-                ['Applies Lv. 3 HP and DEF up buff to [DEX] and Striker crew members.', 'Applies Lv. 5 ATK up buff to ATK Style crew members.'],
-                ['Applies Lv. 4 HP and DEF up buff to [DEX] and Striker crew members.', 'Applies Lv. 6 ATK up buff to ATK Style crew members.'],
-                ['Applies Lv. 5 HP and DEF up buff to [DEX] and Striker crew members.', 'Applies Lv. 7 ATK up buff to ATK Style crew members.']
+                ['Applies Lv. 1 HP and DEF up buff to [DEX] and Striker crew members.', 'Applies Lv. 3 ATK up buff to ATK-Style crew members.'],
+                ['Applies Lv. 2 HP and DEF up buff to [DEX] and Striker crew members.', 'Applies Lv. 4 ATK up buff to ATK-Style crew members.'],
+                ['Applies Lv. 3 HP and DEF up buff to [DEX] and Striker crew members.', 'Applies Lv. 5 ATK up buff to ATK-Style crew members.'],
+                ['Applies Lv. 4 HP and DEF up buff to [DEX] and Striker crew members.', 'Applies Lv. 6 ATK up buff to ATK-Style crew members.'],
+                ['Applies Lv. 5 HP and DEF up buff to [DEX] and Striker crew members.', 'Applies Lv. 7 ATK up buff to ATK-Style crew members.']
             ]
         },
         festSpecial: {
@@ -71586,31 +71586,31 @@ window.rumble = {
             base: {
                 cooldown: 33,
                 descriptions: [
-                    ['Inflicts Lv. 3 DEF down debuff to 1 enemy with the highest RCV for 11 seconds.', 'Deals 2.4x ATK in damage to 1 enemy with the highest RCV.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 26 seconds.'],
-                    ['Inflicts Lv. 3 DEF down debuff to 1 enemy with the highest RCV for 12 seconds.', 'Deals 2.7x ATK in damage to 1 enemy with the highest RCV.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 27 seconds.'],
-                    ['Inflicts Lv. 3 DEF down debuff to 1 enemy with the highest RCV for 13 seconds.', 'Deals 3x ATK in damage to 1 enemy with the highest RCV.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 28 seconds.'],
-                    ['Inflicts Lv. 4 DEF down debuff to 1 enemy with the highest RCV for 14 seconds.', 'Deals 3.3x ATK in damage to 1 enemy with the highest RCV.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 29 seconds.'],
-                    ['Inflicts Lv. 4 DEF down debuff to 1 enemy with the highest RCV for 15 seconds.', 'Deals 3.6x ATK in damage to 1 enemy with the highest RCV.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 30 seconds.'],
-                    ['Inflicts Lv. 5 DEF down debuff to 1 enemy with the highest RCV for 16 seconds.', 'Deals 3.9x ATK in damage to 1 enemy with the highest RCV.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 31 seconds.'],
-                    ['Inflicts Lv. 5 DEF down debuff to 1 enemy with the highest RCV for 17 seconds.', 'Deals 4.2x ATK in damage to 1 enemy with the highest RCV.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 32 seconds.'],
-                    ['Inflicts Lv. 5 DEF down debuff to 1 enemy with the highest RCV for 18 seconds.', 'Deals 4.5x ATK in damage to 1 enemy with the highest RCV.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 33 seconds.'],
-                    ['Inflicts Lv. 6 DEF down debuff to 1 enemy with the highest RCV for 19 seconds.', 'Deals 4.8x ATK in damage to 1 enemy with the highest RCV.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 34 seconds.'],
-                    ['Inflicts Lv. 7 DEF down debuff to 1 enemy with the highest RCV for 20 seconds.', 'Deals 5.4x ATK in damage to 1 enemy with the highest RCV.', '100% chance to inflict Lv. 2 Damage Over Time to all enemies in a large, radial range for 35 seconds.']
+                    ['Inflicts Lv. 3 DEF down debuff to 1 enemy with the highest RCV for 11 seconds.', 'Deals 2.4x ATK in damage to 1 enemy with the highest RCV.', 'Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 26 seconds.'],
+                    ['Inflicts Lv. 3 DEF down debuff to 1 enemy with the highest RCV for 12 seconds.', 'Deals 2.7x ATK in damage to 1 enemy with the highest RCV.', 'Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 27 seconds.'],
+                    ['Inflicts Lv. 3 DEF down debuff to 1 enemy with the highest RCV for 13 seconds.', 'Deals 3x ATK in damage to 1 enemy with the highest RCV.', 'Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 28 seconds.'],
+                    ['Inflicts Lv. 4 DEF down debuff to 1 enemy with the highest RCV for 14 seconds.', 'Deals 3.3x ATK in damage to 1 enemy with the highest RCV.', 'Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 29 seconds.'],
+                    ['Inflicts Lv. 4 DEF down debuff to 1 enemy with the highest RCV for 15 seconds.', 'Deals 3.6x ATK in damage to 1 enemy with the highest RCV.', 'Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 30 seconds.'],
+                    ['Inflicts Lv. 5 DEF down debuff to 1 enemy with the highest RCV for 16 seconds.', 'Deals 3.9x ATK in damage to 1 enemy with the highest RCV.', 'Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 31 seconds.'],
+                    ['Inflicts Lv. 5 DEF down debuff to 1 enemy with the highest RCV for 17 seconds.', 'Deals 4.2x ATK in damage to 1 enemy with the highest RCV.', 'Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 32 seconds.'],
+                    ['Inflicts Lv. 5 DEF down debuff to 1 enemy with the highest RCV for 18 seconds.', 'Deals 4.5x ATK in damage to 1 enemy with the highest RCV.', 'Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 33 seconds.'],
+                    ['Inflicts Lv. 6 DEF down debuff to 1 enemy with the highest RCV for 19 seconds.', 'Deals 4.8x ATK in damage to 1 enemy with the highest RCV.', 'Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 34 seconds.'],
+                    ['Inflicts Lv. 7 DEF down debuff to 1 enemy with the highest RCV for 20 seconds.', 'Deals 5.4x ATK in damage to 1 enemy with the highest RCV.', 'Inflicts Lv. 2 Damage Over Time to all enemies in a large, radial range for 35 seconds.']
                 ]
             },
             llbbase: {
                 cooldown: 33,
                 descriptions: [
-                    ['Inflicts Lv. 3 DEF down debuff to 2 enemies with the highest RCV for 11 seconds.', 'Deals 2.4x ATK in damage to 2 enemies with the highest RCV.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 26 seconds.'],
-                    ['Inflicts Lv. 3 DEF down debuff to 2 enemies with the highest RCV for 12 seconds.', 'Deals 2.7x ATK in damage to 2 enemies with the highest RCV.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 27 seconds.'],
-                    ['Inflicts Lv. 3 DEF down debuff to 2 enemies with the highest RCV for 13 seconds.', 'Deals 3x ATK in damage to 2 enemies with the highest RCV.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 28 seconds.'],
-                    ['Inflicts Lv. 4 DEF down debuff to 2 enemies with the highest RCV for 14 seconds.', 'Deals 3.3x ATK in damage to 2 enemies with the highest RCV.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 29 seconds.'],
-                    ['Inflicts Lv. 4 DEF down debuff to 2 enemies with the highest RCV for 15 seconds.', 'Deals 3.6x ATK in damage to 2 enemies with the highest RCV.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 30 seconds.'],
-                    ['Inflicts Lv. 5 DEF down debuff to 2 enemies with the highest RCV for 16 seconds.', 'Deals 3.9x ATK in damage to 2 enemies with the highest RCV.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 31 seconds.'],
-                    ['Inflicts Lv. 5 DEF down debuff to 2 enemies with the highest RCV for 17 seconds.', 'Deals 4.2x ATK in damage to 2 enemies with the highest RCV.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 32 seconds.'],
-                    ['Inflicts Lv. 5 DEF down debuff to 2 enemies with the highest RCV for 18 seconds.', 'Deals 4.5x ATK in damage to 2 enemies with the highest RCV.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 33 seconds.'],
-                    ['Inflicts Lv. 6 DEF down debuff to 2 enemies with the highest RCV for 19 seconds.', 'Deals 4.8x ATK in damage to 2 enemies with the highest RCV.', '100% chance to inflict Lv. 1 Damage Over Time to all enemies in a large, radial range for 34 seconds.'],
-                    ['Inflicts Lv. 7 DEF down debuff to 2 enemies with the highest RCV for 20 seconds.', 'Deals 5.4x ATK in damage to 2 enemies with the highest RCV.', '100% chance to inflict Lv. 2 Damage Over Time to all enemies in a large, radial range for 35 seconds.']
+                    ['Inflicts Lv. 3 DEF down debuff to 2 enemies with the highest RCV for 11 seconds.', 'Deals 2.4x ATK in damage to 2 enemies with the highest RCV.', 'Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 26 seconds.'],
+                    ['Inflicts Lv. 3 DEF down debuff to 2 enemies with the highest RCV for 12 seconds.', 'Deals 2.7x ATK in damage to 2 enemies with the highest RCV.', 'Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 27 seconds.'],
+                    ['Inflicts Lv. 3 DEF down debuff to 2 enemies with the highest RCV for 13 seconds.', 'Deals 3x ATK in damage to 2 enemies with the highest RCV.', 'Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 28 seconds.'],
+                    ['Inflicts Lv. 4 DEF down debuff to 2 enemies with the highest RCV for 14 seconds.', 'Deals 3.3x ATK in damage to 2 enemies with the highest RCV.', 'Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 29 seconds.'],
+                    ['Inflicts Lv. 4 DEF down debuff to 2 enemies with the highest RCV for 15 seconds.', 'Deals 3.6x ATK in damage to 2 enemies with the highest RCV.', 'Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 30 seconds.'],
+                    ['Inflicts Lv. 5 DEF down debuff to 2 enemies with the highest RCV for 16 seconds.', 'Deals 3.9x ATK in damage to 2 enemies with the highest RCV.', 'Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 31 seconds.'],
+                    ['Inflicts Lv. 5 DEF down debuff to 2 enemies with the highest RCV for 17 seconds.', 'Deals 4.2x ATK in damage to 2 enemies with the highest RCV.', 'Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 32 seconds.'],
+                    ['Inflicts Lv. 5 DEF down debuff to 2 enemies with the highest RCV for 18 seconds.', 'Deals 4.5x ATK in damage to 2 enemies with the highest RCV.', 'Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 33 seconds.'],
+                    ['Inflicts Lv. 6 DEF down debuff to 2 enemies with the highest RCV for 19 seconds.', 'Deals 4.8x ATK in damage to 2 enemies with the highest RCV.', 'Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 34 seconds.'],
+                    ['Inflicts Lv. 7 DEF down debuff to 2 enemies with the highest RCV for 20 seconds.', 'Deals 5.4x ATK in damage to 2 enemies with the highest RCV.', 'Inflicts Lv. 2 Damage Over Time to all enemies in a large, radial range for 35 seconds.']
                 ]
             }
         }
@@ -71640,16 +71640,16 @@ window.rumble = {
                 base: {
                     cooldown: 25,
                     descriptions: [
-                        ['Inflicts Lv. 1 ATK down debuff to 3 enemies with the highest ATK for 15 seconds.', '50% chance to inflict RCV Bind to 3 enemies with the highest HP for 15 seconds.', '100% chance to inflict Lv. 1 Damage Over Time to 3 enemies with the highest HP for 15 seconds.', 'Removes 5% of Special CT to 3 enemies with the highest HP.'],
-                        ['Inflicts Lv. 1 ATK down debuff to 3 enemies with the highest ATK for 15 seconds.', '55% chance to inflict RCV Bind to 3 enemies with the highest HP for 15 seconds.', '100% chance to inflict Lv. 2 Damage Over Time to 3 enemies with the highest HP for 15 seconds.', 'Removes 6% of Special CT to 3 enemies with the highest HP.'],
-                        ['Inflicts Lv. 2 ATK down debuff to 3 enemies with the highest ATK for 15 seconds.', '60% chance to inflict RCV Bind to 3 enemies with the highest HP for 15 seconds.', '100% chance to inflict Lv. 3 Damage Over Time to 3 enemies with the highest HP for 15 seconds.', 'Removes 7% of Special CT to 3 enemies with the highest HP.'],
-                        ['Inflicts Lv. 3 ATK down debuff to 3 enemies with the highest ATK for 15 seconds.', '65% chance to inflict RCV Bind to 3 enemies with the highest HP for 15 seconds.', '100% chance to inflict Lv. 4 Damage Over Time to 3 enemies with the highest HP for 15 seconds.', 'Removes 8% of Special CT to 3 enemies with the highest HP.'],
-                        ['Inflicts Lv. 3 ATK down debuff to 3 enemies with the highest ATK for 15 seconds.', '70% chance to inflict RCV Bind to 3 enemies with the highest HP for 15 seconds.', '100% chance to inflict Lv. 5 Damage Over Time to 3 enemies with the highest HP for 15 seconds.', 'Removes 9% of Special CT to 3 enemies with the highest HP.'],
-                        ['Inflicts Lv. 4 ATK down debuff to 3 enemies with the highest ATK for 15 seconds.', '75% chance to inflict RCV Bind to 3 enemies with the highest HP for 15 seconds.', '100% chance to inflict Lv. 6 Damage Over Time to 3 enemies with the highest HP for 15 seconds.', 'Removes 10% of Special CT to 3 enemies with the highest HP.'],
-                        ['Inflicts Lv. 5 ATK down debuff to 3 enemies with the highest ATK for 15 seconds.', '80% chance to inflict RCV Bind to 3 enemies with the highest HP for 15 seconds.', '100% chance to inflict Lv. 7 Damage Over Time to 3 enemies with the highest HP for 15 seconds.', 'Removes 11% of Special CT to 3 enemies with the highest HP.'],
-                        ['Inflicts Lv. 5 ATK down debuff to 3 enemies with the highest ATK for 15 seconds.', '85% chance to inflict RCV Bind to 3 enemies with the highest HP for 15 seconds.', '100% chance to inflict Lv. 8 Damage Over Time to 3 enemies with the highest HP for 15 seconds.', 'Removes 12% of Special CT to 3 enemies with the highest HP.'],
-                        ['Inflicts Lv. 6 ATK down debuff to 3 enemies with the highest ATK for 15 seconds.', '90% chance to inflict RCV Bind to 3 enemies with the highest HP for 15 seconds.', '100% chance to inflict Lv. 9 Damage Over Time to 3 enemies with the highest HP for 15 seconds.', 'Removes 13% of Special CT to 3 enemies with the highest HP.'],
-                        ['Inflicts Lv. 8 ATK down debuff to 3 enemies with the highest ATK for 15 seconds.', '100% chance to inflict RCV Bind to 3 enemies with the highest HP for 15 seconds.', '100% chance to inflict Lv. 10 Damage Over Time to 3 enemies with the highest HP for 15 seconds.', 'Removes 15% of Special CT to 3 enemies with the highest HP.']
+                        ['Inflicts Lv. 1 ATK down debuff to 3 enemies with the highest ATK for 15 seconds.', '50% chance to inflict RCV Bind to 3 enemies with the highest HP for 15 seconds.', 'Inflicts Lv. 1 Damage Over Time to 3 enemies with the highest HP for 15 seconds.', 'Removes 5% of Special CT to 3 enemies with the highest HP.'],
+                        ['Inflicts Lv. 1 ATK down debuff to 3 enemies with the highest ATK for 15 seconds.', '55% chance to inflict RCV Bind to 3 enemies with the highest HP for 15 seconds.', 'Inflicts Lv. 2 Damage Over Time to 3 enemies with the highest HP for 15 seconds.', 'Removes 6% of Special CT to 3 enemies with the highest HP.'],
+                        ['Inflicts Lv. 2 ATK down debuff to 3 enemies with the highest ATK for 15 seconds.', '60% chance to inflict RCV Bind to 3 enemies with the highest HP for 15 seconds.', 'Inflicts Lv. 3 Damage Over Time to 3 enemies with the highest HP for 15 seconds.', 'Removes 7% of Special CT to 3 enemies with the highest HP.'],
+                        ['Inflicts Lv. 3 ATK down debuff to 3 enemies with the highest ATK for 15 seconds.', '65% chance to inflict RCV Bind to 3 enemies with the highest HP for 15 seconds.', 'Inflicts Lv. 4 Damage Over Time to 3 enemies with the highest HP for 15 seconds.', 'Removes 8% of Special CT to 3 enemies with the highest HP.'],
+                        ['Inflicts Lv. 3 ATK down debuff to 3 enemies with the highest ATK for 15 seconds.', '70% chance to inflict RCV Bind to 3 enemies with the highest HP for 15 seconds.', 'Inflicts Lv. 5 Damage Over Time to 3 enemies with the highest HP for 15 seconds.', 'Removes 9% of Special CT to 3 enemies with the highest HP.'],
+                        ['Inflicts Lv. 4 ATK down debuff to 3 enemies with the highest ATK for 15 seconds.', '75% chance to inflict RCV Bind to 3 enemies with the highest HP for 15 seconds.', 'Inflicts Lv. 6 Damage Over Time to 3 enemies with the highest HP for 15 seconds.', 'Removes 10% of Special CT to 3 enemies with the highest HP.'],
+                        ['Inflicts Lv. 5 ATK down debuff to 3 enemies with the highest ATK for 15 seconds.', '80% chance to inflict RCV Bind to 3 enemies with the highest HP for 15 seconds.', 'Inflicts Lv. 7 Damage Over Time to 3 enemies with the highest HP for 15 seconds.', 'Removes 11% of Special CT to 3 enemies with the highest HP.'],
+                        ['Inflicts Lv. 5 ATK down debuff to 3 enemies with the highest ATK for 15 seconds.', '85% chance to inflict RCV Bind to 3 enemies with the highest HP for 15 seconds.', 'Inflicts Lv. 8 Damage Over Time to 3 enemies with the highest HP for 15 seconds.', 'Removes 12% of Special CT to 3 enemies with the highest HP.'],
+                        ['Inflicts Lv. 6 ATK down debuff to 3 enemies with the highest ATK for 15 seconds.', '90% chance to inflict RCV Bind to 3 enemies with the highest HP for 15 seconds.', 'Inflicts Lv. 9 Damage Over Time to 3 enemies with the highest HP for 15 seconds.', 'Removes 13% of Special CT to 3 enemies with the highest HP.'],
+                        ['Inflicts Lv. 8 ATK down debuff to 3 enemies with the highest ATK for 15 seconds.', '100% chance to inflict RCV Bind to 3 enemies with the highest HP for 15 seconds.', 'Inflicts Lv. 10 Damage Over Time to 3 enemies with the highest HP for 15 seconds.', 'Removes 15% of Special CT to 3 enemies with the highest HP.']
                     ]
                 }
             },
@@ -71663,11 +71663,11 @@ window.rumble = {
                         ['Applies Lv. 4 ATK and HP up buff to [PSY] and [INT] crew members.', 'Applies Lv. 2 SPD up buff to [PSY] and [INT] crew members.', 'Applies Lv. 2 Special CT up buff to Driven and Powerhouse crew members.', 'Applies Lv. 2 DEF up buff to Driven and Powerhouse crew members.', 'Applies Lv. 4 HP up buff to Driven and Powerhouse crew members.']
                     ],
                     festGPSpecial: [
-                        ['Inflicts Lv. 4 DEF, ATK and SPD down debuff to Fighter, Slasher, Powerhouse and Cerebral enemies for 32 seconds.', '100% chance to inflict Lv. 1 Damage Over Time to Fighter, Slasher, Powerhouse and Cerebral enemies for 22 seconds.', '60% chance to inflict RCV Bind to 3 enemies with the lowest HP for 32 seconds.'],
-                        ['Inflicts Lv. 5 DEF, ATK and SPD down debuff to Fighter, Slasher, Powerhouse and Cerebral enemies for 39 seconds.', '100% chance to inflict Lv. 1 Damage Over Time to Fighter, Slasher, Powerhouse and Cerebral enemies for 24 seconds.', '70% chance to inflict RCV Bind to 3 enemies with the lowest HP for 39 seconds.'],
-                        ['Inflicts Lv. 6 DEF, ATK and SPD down debuff to Fighter, Slasher, Powerhouse and Cerebral enemies for 46 seconds.', '100% chance to inflict Lv. 2 Damage Over Time to Fighter, Slasher, Powerhouse and Cerebral enemies for 26 seconds.', '80% chance to inflict RCV Bind to 3 enemies with the lowest HP for 46 seconds.'],
-                        ['Inflicts Lv. 7 DEF, ATK and SPD down debuff to Fighter, Slasher, Powerhouse and Cerebral enemies for 53 seconds.', '100% chance to inflict Lv. 3 Damage Over Time to Fighter, Slasher, Powerhouse and Cerebral enemies for 28 seconds.', '90% chance to inflict RCV Bind to 3 enemies with the lowest HP for 53 seconds.'],
-                        ['Inflicts Lv. 8 DEF, ATK and SPD down debuff to Fighter, Slasher, Powerhouse and Cerebral enemies for 60 seconds.', '100% chance to inflict Lv. 4 Damage Over Time to Fighter, Slasher, Powerhouse and Cerebral enemies for 30 seconds.', '100% chance to inflict RCV Bind to 3 enemies with the lowest HP for 60 seconds.']
+                        ['Inflicts Lv. 4 DEF, ATK and SPD down debuff to Fighter, Slasher, Powerhouse and Cerebral enemies for 32 seconds.', 'Inflicts Lv. 1 Damage Over Time to Fighter, Slasher, Powerhouse and Cerebral enemies for 22 seconds.', '60% chance to inflict RCV Bind to 3 enemies with the lowest HP for 32 seconds.'],
+                        ['Inflicts Lv. 5 DEF, ATK and SPD down debuff to Fighter, Slasher, Powerhouse and Cerebral enemies for 39 seconds.', 'Inflicts Lv. 1 Damage Over Time to Fighter, Slasher, Powerhouse and Cerebral enemies for 24 seconds.', '70% chance to inflict RCV Bind to 3 enemies with the lowest HP for 39 seconds.'],
+                        ['Inflicts Lv. 6 DEF, ATK and SPD down debuff to Fighter, Slasher, Powerhouse and Cerebral enemies for 46 seconds.', 'Inflicts Lv. 2 Damage Over Time to Fighter, Slasher, Powerhouse and Cerebral enemies for 26 seconds.', '80% chance to inflict RCV Bind to 3 enemies with the lowest HP for 46 seconds.'],
+                        ['Inflicts Lv. 7 DEF, ATK and SPD down debuff to Fighter, Slasher, Powerhouse and Cerebral enemies for 53 seconds.', 'Inflicts Lv. 3 Damage Over Time to Fighter, Slasher, Powerhouse and Cerebral enemies for 28 seconds.', '90% chance to inflict RCV Bind to 3 enemies with the lowest HP for 53 seconds.'],
+                        ['Inflicts Lv. 8 DEF, ATK and SPD down debuff to Fighter, Slasher, Powerhouse and Cerebral enemies for 60 seconds.', 'Inflicts Lv. 4 Damage Over Time to Fighter, Slasher, Powerhouse and Cerebral enemies for 30 seconds.', '100% chance to inflict RCV Bind to 3 enemies with the lowest HP for 60 seconds.']
                     ],
                     uses: 2
                 }
@@ -71762,16 +71762,16 @@ window.rumble = {
                 base: {
                     cooldown: 25,
                     descriptions: [
-                        ['Inflicts Lv. 1 ATK down debuff to 3 enemies with the highest ATK for 15 seconds.', '50% chance to inflict RCV Bind to 3 enemies with the highest HP for 15 seconds.', '100% chance to inflict Lv. 1 Damage Over Time to 3 enemies with the highest HP for 15 seconds.', 'Removes 5% of Special CT to 3 enemies with the highest HP.'],
-                        ['Inflicts Lv. 1 ATK down debuff to 3 enemies with the highest ATK for 15 seconds.', '55% chance to inflict RCV Bind to 3 enemies with the highest HP for 15 seconds.', '100% chance to inflict Lv. 2 Damage Over Time to 3 enemies with the highest HP for 15 seconds.', 'Removes 6% of Special CT to 3 enemies with the highest HP.'],
-                        ['Inflicts Lv. 2 ATK down debuff to 3 enemies with the highest ATK for 15 seconds.', '60% chance to inflict RCV Bind to 3 enemies with the highest HP for 15 seconds.', '100% chance to inflict Lv. 3 Damage Over Time to 3 enemies with the highest HP for 15 seconds.', 'Removes 7% of Special CT to 3 enemies with the highest HP.'],
-                        ['Inflicts Lv. 3 ATK down debuff to 3 enemies with the highest ATK for 15 seconds.', '65% chance to inflict RCV Bind to 3 enemies with the highest HP for 15 seconds.', '100% chance to inflict Lv. 4 Damage Over Time to 3 enemies with the highest HP for 15 seconds.', 'Removes 8% of Special CT to 3 enemies with the highest HP.'],
-                        ['Inflicts Lv. 3 ATK down debuff to 3 enemies with the highest ATK for 15 seconds.', '70% chance to inflict RCV Bind to 3 enemies with the highest HP for 15 seconds.', '100% chance to inflict Lv. 5 Damage Over Time to 3 enemies with the highest HP for 15 seconds.', 'Removes 9% of Special CT to 3 enemies with the highest HP.'],
-                        ['Inflicts Lv. 4 ATK down debuff to 3 enemies with the highest ATK for 15 seconds.', '75% chance to inflict RCV Bind to 3 enemies with the highest HP for 15 seconds.', '100% chance to inflict Lv. 6 Damage Over Time to 3 enemies with the highest HP for 15 seconds.', 'Removes 10% of Special CT to 3 enemies with the highest HP.'],
-                        ['Inflicts Lv. 5 ATK down debuff to 3 enemies with the highest ATK for 15 seconds.', '80% chance to inflict RCV Bind to 3 enemies with the highest HP for 15 seconds.', '100% chance to inflict Lv. 7 Damage Over Time to 3 enemies with the highest HP for 15 seconds.', 'Removes 11% of Special CT to 3 enemies with the highest HP.'],
-                        ['Inflicts Lv. 5 ATK down debuff to 3 enemies with the highest ATK for 15 seconds.', '85% chance to inflict RCV Bind to 3 enemies with the highest HP for 15 seconds.', '100% chance to inflict Lv. 8 Damage Over Time to 3 enemies with the highest HP for 15 seconds.', 'Removes 12% of Special CT to 3 enemies with the highest HP.'],
-                        ['Inflicts Lv. 6 ATK down debuff to 3 enemies with the highest ATK for 15 seconds.', '90% chance to inflict RCV Bind to 3 enemies with the highest HP for 15 seconds.', '100% chance to inflict Lv. 9 Damage Over Time to 3 enemies with the highest HP for 15 seconds.', 'Removes 13% of Special CT to 3 enemies with the highest HP.'],
-                        ['Inflicts Lv. 8 ATK down debuff to 3 enemies with the highest ATK for 15 seconds.', '100% chance to inflict RCV Bind to 3 enemies with the highest HP for 15 seconds.', '100% chance to inflict Lv. 10 Damage Over Time to 3 enemies with the highest HP for 15 seconds.', 'Removes 15% of Special CT to 3 enemies with the highest HP.']
+                        ['Inflicts Lv. 1 ATK down debuff to 3 enemies with the highest ATK for 15 seconds.', '50% chance to inflict RCV Bind to 3 enemies with the highest HP for 15 seconds.', 'Inflicts Lv. 1 Damage Over Time to 3 enemies with the highest HP for 15 seconds.', 'Removes 5% of Special CT to 3 enemies with the highest HP.'],
+                        ['Inflicts Lv. 1 ATK down debuff to 3 enemies with the highest ATK for 15 seconds.', '55% chance to inflict RCV Bind to 3 enemies with the highest HP for 15 seconds.', 'Inflicts Lv. 2 Damage Over Time to 3 enemies with the highest HP for 15 seconds.', 'Removes 6% of Special CT to 3 enemies with the highest HP.'],
+                        ['Inflicts Lv. 2 ATK down debuff to 3 enemies with the highest ATK for 15 seconds.', '60% chance to inflict RCV Bind to 3 enemies with the highest HP for 15 seconds.', 'Inflicts Lv. 3 Damage Over Time to 3 enemies with the highest HP for 15 seconds.', 'Removes 7% of Special CT to 3 enemies with the highest HP.'],
+                        ['Inflicts Lv. 3 ATK down debuff to 3 enemies with the highest ATK for 15 seconds.', '65% chance to inflict RCV Bind to 3 enemies with the highest HP for 15 seconds.', 'Inflicts Lv. 4 Damage Over Time to 3 enemies with the highest HP for 15 seconds.', 'Removes 8% of Special CT to 3 enemies with the highest HP.'],
+                        ['Inflicts Lv. 3 ATK down debuff to 3 enemies with the highest ATK for 15 seconds.', '70% chance to inflict RCV Bind to 3 enemies with the highest HP for 15 seconds.', 'Inflicts Lv. 5 Damage Over Time to 3 enemies with the highest HP for 15 seconds.', 'Removes 9% of Special CT to 3 enemies with the highest HP.'],
+                        ['Inflicts Lv. 4 ATK down debuff to 3 enemies with the highest ATK for 15 seconds.', '75% chance to inflict RCV Bind to 3 enemies with the highest HP for 15 seconds.', 'Inflicts Lv. 6 Damage Over Time to 3 enemies with the highest HP for 15 seconds.', 'Removes 10% of Special CT to 3 enemies with the highest HP.'],
+                        ['Inflicts Lv. 5 ATK down debuff to 3 enemies with the highest ATK for 15 seconds.', '80% chance to inflict RCV Bind to 3 enemies with the highest HP for 15 seconds.', 'Inflicts Lv. 7 Damage Over Time to 3 enemies with the highest HP for 15 seconds.', 'Removes 11% of Special CT to 3 enemies with the highest HP.'],
+                        ['Inflicts Lv. 5 ATK down debuff to 3 enemies with the highest ATK for 15 seconds.', '85% chance to inflict RCV Bind to 3 enemies with the highest HP for 15 seconds.', 'Inflicts Lv. 8 Damage Over Time to 3 enemies with the highest HP for 15 seconds.', 'Removes 12% of Special CT to 3 enemies with the highest HP.'],
+                        ['Inflicts Lv. 6 ATK down debuff to 3 enemies with the highest ATK for 15 seconds.', '90% chance to inflict RCV Bind to 3 enemies with the highest HP for 15 seconds.', 'Inflicts Lv. 9 Damage Over Time to 3 enemies with the highest HP for 15 seconds.', 'Removes 13% of Special CT to 3 enemies with the highest HP.'],
+                        ['Inflicts Lv. 8 ATK down debuff to 3 enemies with the highest ATK for 15 seconds.', '100% chance to inflict RCV Bind to 3 enemies with the highest HP for 15 seconds.', 'Inflicts Lv. 10 Damage Over Time to 3 enemies with the highest HP for 15 seconds.', 'Removes 15% of Special CT to 3 enemies with the highest HP.']
                     ]
                 }
             },
@@ -71785,11 +71785,11 @@ window.rumble = {
                         ['Applies Lv. 4 ATK and HP up buff to [PSY] and [INT] crew members.', 'Applies Lv. 2 SPD up buff to [PSY] and [INT] crew members.', 'Applies Lv. 2 Special CT up buff to Driven and Powerhouse crew members.', 'Applies Lv. 2 DEF up buff to Driven and Powerhouse crew members.', 'Applies Lv. 4 HP up buff to Driven and Powerhouse crew members.']
                     ],
                     festGPSpecial: [
-                        ['Inflicts Lv. 4 DEF, ATK and SPD down debuff to Fighter, Slasher, Powerhouse and Cerebral enemies for 32 seconds.', '100% chance to inflict Lv. 1 Damage Over Time to Fighter, Slasher, Powerhouse and Cerebral enemies for 22 seconds.', '60% chance to inflict RCV Bind to 3 enemies with the lowest HP for 32 seconds.'],
-                        ['Inflicts Lv. 5 DEF, ATK and SPD down debuff to Fighter, Slasher, Powerhouse and Cerebral enemies for 39 seconds.', '100% chance to inflict Lv. 1 Damage Over Time to Fighter, Slasher, Powerhouse and Cerebral enemies for 24 seconds.', '70% chance to inflict RCV Bind to 3 enemies with the lowest HP for 39 seconds.'],
-                        ['Inflicts Lv. 6 DEF, ATK and SPD down debuff to Fighter, Slasher, Powerhouse and Cerebral enemies for 46 seconds.', '100% chance to inflict Lv. 2 Damage Over Time to Fighter, Slasher, Powerhouse and Cerebral enemies for 26 seconds.', '80% chance to inflict RCV Bind to 3 enemies with the lowest HP for 46 seconds.'],
-                        ['Inflicts Lv. 7 DEF, ATK and SPD down debuff to Fighter, Slasher, Powerhouse and Cerebral enemies for 53 seconds.', '100% chance to inflict Lv. 3 Damage Over Time to Fighter, Slasher, Powerhouse and Cerebral enemies for 28 seconds.', '90% chance to inflict RCV Bind to 3 enemies with the lowest HP for 53 seconds.'],
-                        ['Inflicts Lv. 8 DEF, ATK and SPD down debuff to Fighter, Slasher, Powerhouse and Cerebral enemies for 60 seconds.', '100% chance to inflict Lv. 4 Damage Over Time to Fighter, Slasher, Powerhouse and Cerebral enemies for 30 seconds.', '100% chance to inflict RCV Bind to 3 enemies with the lowest HP for 60 seconds.']
+                        ['Inflicts Lv. 4 DEF, ATK and SPD down debuff to Fighter, Slasher, Powerhouse and Cerebral enemies for 32 seconds.', 'Inflicts Lv. 1 Damage Over Time to Fighter, Slasher, Powerhouse and Cerebral enemies for 22 seconds.', '60% chance to inflict RCV Bind to 3 enemies with the lowest HP for 32 seconds.'],
+                        ['Inflicts Lv. 5 DEF, ATK and SPD down debuff to Fighter, Slasher, Powerhouse and Cerebral enemies for 39 seconds.', 'Inflicts Lv. 1 Damage Over Time to Fighter, Slasher, Powerhouse and Cerebral enemies for 24 seconds.', '70% chance to inflict RCV Bind to 3 enemies with the lowest HP for 39 seconds.'],
+                        ['Inflicts Lv. 6 DEF, ATK and SPD down debuff to Fighter, Slasher, Powerhouse and Cerebral enemies for 46 seconds.', 'Inflicts Lv. 2 Damage Over Time to Fighter, Slasher, Powerhouse and Cerebral enemies for 26 seconds.', '80% chance to inflict RCV Bind to 3 enemies with the lowest HP for 46 seconds.'],
+                        ['Inflicts Lv. 7 DEF, ATK and SPD down debuff to Fighter, Slasher, Powerhouse and Cerebral enemies for 53 seconds.', 'Inflicts Lv. 3 Damage Over Time to Fighter, Slasher, Powerhouse and Cerebral enemies for 28 seconds.', '90% chance to inflict RCV Bind to 3 enemies with the lowest HP for 53 seconds.'],
+                        ['Inflicts Lv. 8 DEF, ATK and SPD down debuff to Fighter, Slasher, Powerhouse and Cerebral enemies for 60 seconds.', 'Inflicts Lv. 4 Damage Over Time to Fighter, Slasher, Powerhouse and Cerebral enemies for 30 seconds.', '100% chance to inflict RCV Bind to 3 enemies with the lowest HP for 60 seconds.']
                     ],
                     uses: 2
                 }
@@ -74588,16 +74588,16 @@ window.rumble = {
             base: {
                 cooldown: 28,
                 descriptions: [
-                    ['Inflicts Lv. 2 ATK and SPD down debuff to all enemies for 21 seconds.', '100% chance to inflict Lv. 3 Damage Over Time to 3 enemies with the lowest HP for 21 seconds.', 'When there is 5 or More Free Spirit crew members, 10% chance to inflict Special Bind to all enemies for 10 seconds.', 'When there is 8 or More Free Spirit crew members, 50% chance to inflict Forced Out to 1 enemy with the highest Special CT for 10 seconds.'],
-                    ['Inflicts Lv. 2 ATK and SPD down debuff to all enemies for 22 seconds.', '100% chance to inflict Lv. 3 Damage Over Time to 3 enemies with the lowest HP for 22 seconds.', 'When there is 5 or More Free Spirit crew members, 15% chance to inflict Special Bind to all enemies for 10 seconds.', 'When there is 8 or More Free Spirit crew members, 55% chance to inflict Forced Out to 1 enemy with the highest Special CT for 10 seconds.'],
-                    ['Inflicts Lv. 3 ATK and SPD down debuff to all enemies for 23 seconds.', '100% chance to inflict Lv. 3 Damage Over Time to 3 enemies with the lowest HP for 23 seconds.', 'When there is 5 or More Free Spirit crew members, 20% chance to inflict Special Bind to all enemies for 10 seconds.', 'When there is 8 or More Free Spirit crew members, 60% chance to inflict Forced Out to 1 enemy with the highest Special CT for 10 seconds.'],
-                    ['Inflicts Lv. 3 ATK and SPD down debuff to all enemies for 24 seconds.', '100% chance to inflict Lv. 3 Damage Over Time to 3 enemies with the lowest HP for 24 seconds.', 'When there is 5 or More Free Spirit crew members, 25% chance to inflict Special Bind to all enemies for 10 seconds.', 'When there is 8 or More Free Spirit crew members, 65% chance to inflict Forced Out to 1 enemy with the highest Special CT for 10 seconds.'],
-                    ['Inflicts Lv. 4 ATK and SPD down debuff to all enemies for 25 seconds.', '100% chance to inflict Lv. 3 Damage Over Time to 3 enemies with the lowest HP for 25 seconds.', 'When there is 5 or More Free Spirit crew members, 30% chance to inflict Special Bind to all enemies for 10 seconds.', 'When there is 8 or More Free Spirit crew members, 70% chance to inflict Forced Out to 1 enemy with the highest Special CT for 10 seconds.'],
-                    ['Inflicts Lv. 4 ATK and SPD down debuff to all enemies for 26 seconds.', '100% chance to inflict Lv. 4 Damage Over Time to 3 enemies with the lowest HP for 26 seconds.', 'When there is 5 or More Free Spirit crew members, 35% chance to inflict Special Bind to all enemies for 10 seconds.', 'When there is 8 or More Free Spirit crew members, 75% chance to inflict Forced Out to 1 enemy with the highest Special CT for 10 seconds.'],
-                    ['Inflicts Lv. 5 ATK and SPD down debuff to all enemies for 27 seconds.', '100% chance to inflict Lv. 4 Damage Over Time to 3 enemies with the lowest HP for 27 seconds.', 'When there is 5 or More Free Spirit crew members, 40% chance to inflict Special Bind to all enemies for 10 seconds.', 'When there is 8 or More Free Spirit crew members, 80% chance to inflict Forced Out to 1 enemy with the highest Special CT for 10 seconds.'],
-                    ['Inflicts Lv. 5 ATK and SPD down debuff to all enemies for 28 seconds.', '100% chance to inflict Lv. 4 Damage Over Time to 3 enemies with the lowest HP for 28 seconds.', 'When there is 5 or More Free Spirit crew members, 45% chance to inflict Special Bind to all enemies for 10 seconds.', 'When there is 8 or More Free Spirit crew members, 85% chance to inflict Forced Out to 1 enemy with the highest Special CT for 10 seconds.'],
-                    ['Inflicts Lv. 6 ATK and SPD down debuff to all enemies for 29 seconds.', '100% chance to inflict Lv. 4 Damage Over Time to 3 enemies with the lowest HP for 29 seconds.', 'When there is 5 or More Free Spirit crew members, 50% chance to inflict Special Bind to all enemies for 10 seconds.', 'When there is 8 or More Free Spirit crew members, 90% chance to inflict Forced Out to 1 enemy with the highest Special CT for 10 seconds.'],
-                    ['Inflicts Lv. 7 ATK and SPD down debuff to all enemies for 30 seconds.', '100% chance to inflict Lv. 5 Damage Over Time to 3 enemies with the lowest HP for 30 seconds.', 'When there is 5 or More Free Spirit crew members, 60% chance to inflict Special Bind to all enemies for 10 seconds.', 'When there is 8 or More Free Spirit crew members, 100% chance to inflict Forced Out to 1 enemy with the highest Special CT for 10 seconds.']
+                    ['Inflicts Lv. 2 ATK and SPD down debuff to all enemies for 21 seconds.', 'Inflicts Lv. 3 Damage Over Time to 3 enemies with the lowest HP for 21 seconds.', 'When there is 5 or More Free Spirit crew members, 10% chance to inflict Special Bind to all enemies for 10 seconds.', 'When there is 8 or More Free Spirit crew members, 50% chance to inflict Forced Out to 1 enemy with the highest Special CT for 10 seconds.'],
+                    ['Inflicts Lv. 2 ATK and SPD down debuff to all enemies for 22 seconds.', 'Inflicts Lv. 3 Damage Over Time to 3 enemies with the lowest HP for 22 seconds.', 'When there is 5 or More Free Spirit crew members, 15% chance to inflict Special Bind to all enemies for 10 seconds.', 'When there is 8 or More Free Spirit crew members, 55% chance to inflict Forced Out to 1 enemy with the highest Special CT for 10 seconds.'],
+                    ['Inflicts Lv. 3 ATK and SPD down debuff to all enemies for 23 seconds.', 'Inflicts Lv. 3 Damage Over Time to 3 enemies with the lowest HP for 23 seconds.', 'When there is 5 or More Free Spirit crew members, 20% chance to inflict Special Bind to all enemies for 10 seconds.', 'When there is 8 or More Free Spirit crew members, 60% chance to inflict Forced Out to 1 enemy with the highest Special CT for 10 seconds.'],
+                    ['Inflicts Lv. 3 ATK and SPD down debuff to all enemies for 24 seconds.', 'Inflicts Lv. 3 Damage Over Time to 3 enemies with the lowest HP for 24 seconds.', 'When there is 5 or More Free Spirit crew members, 25% chance to inflict Special Bind to all enemies for 10 seconds.', 'When there is 8 or More Free Spirit crew members, 65% chance to inflict Forced Out to 1 enemy with the highest Special CT for 10 seconds.'],
+                    ['Inflicts Lv. 4 ATK and SPD down debuff to all enemies for 25 seconds.', 'Inflicts Lv. 3 Damage Over Time to 3 enemies with the lowest HP for 25 seconds.', 'When there is 5 or More Free Spirit crew members, 30% chance to inflict Special Bind to all enemies for 10 seconds.', 'When there is 8 or More Free Spirit crew members, 70% chance to inflict Forced Out to 1 enemy with the highest Special CT for 10 seconds.'],
+                    ['Inflicts Lv. 4 ATK and SPD down debuff to all enemies for 26 seconds.', 'Inflicts Lv. 4 Damage Over Time to 3 enemies with the lowest HP for 26 seconds.', 'When there is 5 or More Free Spirit crew members, 35% chance to inflict Special Bind to all enemies for 10 seconds.', 'When there is 8 or More Free Spirit crew members, 75% chance to inflict Forced Out to 1 enemy with the highest Special CT for 10 seconds.'],
+                    ['Inflicts Lv. 5 ATK and SPD down debuff to all enemies for 27 seconds.', 'Inflicts Lv. 4 Damage Over Time to 3 enemies with the lowest HP for 27 seconds.', 'When there is 5 or More Free Spirit crew members, 40% chance to inflict Special Bind to all enemies for 10 seconds.', 'When there is 8 or More Free Spirit crew members, 80% chance to inflict Forced Out to 1 enemy with the highest Special CT for 10 seconds.'],
+                    ['Inflicts Lv. 5 ATK and SPD down debuff to all enemies for 28 seconds.', 'Inflicts Lv. 4 Damage Over Time to 3 enemies with the lowest HP for 28 seconds.', 'When there is 5 or More Free Spirit crew members, 45% chance to inflict Special Bind to all enemies for 10 seconds.', 'When there is 8 or More Free Spirit crew members, 85% chance to inflict Forced Out to 1 enemy with the highest Special CT for 10 seconds.'],
+                    ['Inflicts Lv. 6 ATK and SPD down debuff to all enemies for 29 seconds.', 'Inflicts Lv. 4 Damage Over Time to 3 enemies with the lowest HP for 29 seconds.', 'When there is 5 or More Free Spirit crew members, 50% chance to inflict Special Bind to all enemies for 10 seconds.', 'When there is 8 or More Free Spirit crew members, 90% chance to inflict Forced Out to 1 enemy with the highest Special CT for 10 seconds.'],
+                    ['Inflicts Lv. 7 ATK and SPD down debuff to all enemies for 30 seconds.', 'Inflicts Lv. 5 Damage Over Time to 3 enemies with the lowest HP for 30 seconds.', 'When there is 5 or More Free Spirit crew members, 60% chance to inflict Special Bind to all enemies for 10 seconds.', 'When there is 8 or More Free Spirit crew members, 100% chance to inflict Forced Out to 1 enemy with the highest Special CT for 10 seconds.']
                 ]
             }
         }
@@ -74654,49 +74654,49 @@ window.rumble = {
         },
         festAbility: {
             base: [
-                ['Applies Lv. 1 ATK up buff to [STR] crew members.', 'Applies Lv. 6 Blow Away up buff to self.', 'The first 3 times this character lands a Blow Away, applies Lv. 1 ATK up buff to [STR] crew members.', 'When there is 6 or more [STR] crew members, inflicts Lv. 1 Special CT down debuff to DBF Style enemies.'],
-                ['Applies Lv. 2 ATK up buff to [STR] crew members.', 'Applies Lv. 7 Blow Away up buff to self.', 'The first 3 times this character lands a Blow Away, applies Lv. 1 ATK up buff to [STR] crew members.', 'When there is 6 or more [STR] crew members, inflicts Lv. 1 Special CT down debuff to DBF Style enemies.'],
-                ['Applies Lv. 3 ATK up buff to [STR] crew members.', 'Applies Lv. 8 Blow Away up buff to self.', 'The first 3 times this character lands a Blow Away, applies Lv. 2 ATK up buff to [STR] crew members.', 'When there is 6 or more [STR] crew members, inflicts Lv. 2 Special CT down debuff to DBF Style enemies.'],
-                ['Applies Lv. 4 ATK up buff to [STR] crew members.', 'Applies Lv. 9 Blow Away up buff to self.', 'The first 3 times this character lands a Blow Away, applies Lv. 2 ATK up buff to [STR] crew members.', 'When there is 6 or more [STR] crew members, inflicts Lv. 2 Special CT down debuff to DBF Style enemies.'],
-                ['Applies Lv. 5 ATK up buff to [STR] crew members.', 'Applies Lv. 10 Blow Away up buff to self.', 'The first 3 times this character lands a Blow Away, applies Lv. 3 ATK up buff to [STR] crew members.', 'When there is 6 or more [STR] crew members, inflicts Lv. 3 Special CT down debuff to DBF Style enemies.']
+                ['Applies Lv. 1 ATK up buff to [STR] crew members.', 'Applies Lv. 6 Blow Away up buff to self.', 'The first 3 times this character lands a Blow Away, applies Lv. 1 ATK up buff to [STR] crew members.', 'When there is 6 or more [STR] crew members, inflicts Lv. 1 Special CT down debuff to DBF-Style enemies.'],
+                ['Applies Lv. 2 ATK up buff to [STR] crew members.', 'Applies Lv. 7 Blow Away up buff to self.', 'The first 3 times this character lands a Blow Away, applies Lv. 1 ATK up buff to [STR] crew members.', 'When there is 6 or more [STR] crew members, inflicts Lv. 1 Special CT down debuff to DBF-Style enemies.'],
+                ['Applies Lv. 3 ATK up buff to [STR] crew members.', 'Applies Lv. 8 Blow Away up buff to self.', 'The first 3 times this character lands a Blow Away, applies Lv. 2 ATK up buff to [STR] crew members.', 'When there is 6 or more [STR] crew members, inflicts Lv. 2 Special CT down debuff to DBF-Style enemies.'],
+                ['Applies Lv. 4 ATK up buff to [STR] crew members.', 'Applies Lv. 9 Blow Away up buff to self.', 'The first 3 times this character lands a Blow Away, applies Lv. 2 ATK up buff to [STR] crew members.', 'When there is 6 or more [STR] crew members, inflicts Lv. 2 Special CT down debuff to DBF-Style enemies.'],
+                ['Applies Lv. 5 ATK up buff to [STR] crew members.', 'Applies Lv. 10 Blow Away up buff to self.', 'The first 3 times this character lands a Blow Away, applies Lv. 3 ATK up buff to [STR] crew members.', 'When there is 6 or more [STR] crew members, inflicts Lv. 3 Special CT down debuff to DBF-Style enemies.']
             ],
             llbbase: [
-                ['Applies Lv. 2 ATK up buff to [STR] crew members.', 'Applies Lv. 6 Blow Away up buff to self.', 'The first 4 times this character lands a Blow Away, applies Lv. 1 ATK up buff to [STR] crew members.', 'When there is 6 or more [STR] crew members, inflicts Lv. 1 Special CT down debuff to DBF Style enemies.'],
-                ['Applies Lv. 3 ATK up buff to [STR] crew members.', 'Applies Lv. 7 Blow Away up buff to self.', 'The first 4 times this character lands a Blow Away, applies Lv. 1 ATK up buff to [STR] crew members.', 'When there is 6 or more [STR] crew members, inflicts Lv. 2 Special CT down debuff to DBF Style enemies.'],
-                ['Applies Lv. 4 ATK up buff to [STR] crew members.', 'Applies Lv. 8 Blow Away up buff to self.', 'The first 4 times this character lands a Blow Away, applies Lv. 2 ATK up buff to [STR] crew members.', 'When there is 6 or more [STR] crew members, inflicts Lv. 3 Special CT down debuff to DBF Style enemies.'],
-                ['Applies Lv. 5 ATK up buff to [STR] crew members.', 'Applies Lv. 9 Blow Away up buff to self.', 'The first 4 times this character lands a Blow Away, applies Lv. 2 ATK up buff to [STR] crew members.', 'When there is 6 or more [STR] crew members, inflicts Lv. 4 Special CT down debuff to DBF Style enemies.'],
-                ['Applies Lv. 6 ATK up buff to [STR] crew members.', 'Applies Lv. 10 Blow Away up buff to self.', 'The first 4 times this character lands a Blow Away, applies Lv. 3 ATK up buff to [STR] crew members.', 'When there is 6 or more [STR] crew members, inflicts Lv. 4 Special CT down debuff to DBF Style enemies.']
+                ['Applies Lv. 2 ATK up buff to [STR] crew members.', 'Applies Lv. 6 Blow Away up buff to self.', 'The first 4 times this character lands a Blow Away, applies Lv. 1 ATK up buff to [STR] crew members.', 'When there is 6 or more [STR] crew members, inflicts Lv. 1 Special CT down debuff to DBF-Style enemies.'],
+                ['Applies Lv. 3 ATK up buff to [STR] crew members.', 'Applies Lv. 7 Blow Away up buff to self.', 'The first 4 times this character lands a Blow Away, applies Lv. 1 ATK up buff to [STR] crew members.', 'When there is 6 or more [STR] crew members, inflicts Lv. 2 Special CT down debuff to DBF-Style enemies.'],
+                ['Applies Lv. 4 ATK up buff to [STR] crew members.', 'Applies Lv. 8 Blow Away up buff to self.', 'The first 4 times this character lands a Blow Away, applies Lv. 2 ATK up buff to [STR] crew members.', 'When there is 6 or more [STR] crew members, inflicts Lv. 3 Special CT down debuff to DBF-Style enemies.'],
+                ['Applies Lv. 5 ATK up buff to [STR] crew members.', 'Applies Lv. 9 Blow Away up buff to self.', 'The first 4 times this character lands a Blow Away, applies Lv. 2 ATK up buff to [STR] crew members.', 'When there is 6 or more [STR] crew members, inflicts Lv. 4 Special CT down debuff to DBF-Style enemies.'],
+                ['Applies Lv. 6 ATK up buff to [STR] crew members.', 'Applies Lv. 10 Blow Away up buff to self.', 'The first 4 times this character lands a Blow Away, applies Lv. 3 ATK up buff to [STR] crew members.', 'When there is 6 or more [STR] crew members, inflicts Lv. 4 Special CT down debuff to DBF-Style enemies.']
             ]
         },
         festSpecial: {
             base: {
                 cooldown: 28,
                 descriptions: [
-                    ['Deals 1.5x ATK in damage to all enemies in a large, radial range.', 'Deals 1.1x ATK in damage ignoring DEF to 3 enemies.', 'When there is 6 or More [STR] crew members, 50% chance to inflict Forced Out to 1 DBF Style enemy for 10 seconds.'],
-                    ['Deals 1.6x ATK in damage to all enemies in a large, radial range.', 'Deals 1.2x ATK in damage ignoring DEF to 3 enemies.', 'When there is 6 or More [STR] crew members, 55% chance to inflict Forced Out to 1 DBF Style enemy for 10 seconds.'],
-                    ['Deals 1.7x ATK in damage to all enemies in a large, radial range.', 'Deals 1.3x ATK in damage ignoring DEF to 3 enemies.', 'When there is 6 or More [STR] crew members, 60% chance to inflict Forced Out to 1 DBF Style enemy for 10 seconds.'],
-                    ['Deals 1.8x ATK in damage to all enemies in a large, radial range.', 'Deals 1.4x ATK in damage ignoring DEF to 3 enemies.', 'When there is 6 or More [STR] crew members, 65% chance to inflict Forced Out to 1 DBF Style enemy for 10 seconds.'],
-                    ['Deals 1.9x ATK in damage to all enemies in a large, radial range.', 'Deals 1.5x ATK in damage ignoring DEF to 3 enemies.', 'When there is 6 or More [STR] crew members, 70% chance to inflict Forced Out to 1 DBF Style enemy for 10 seconds.'],
-                    ['Deals 2x ATK in damage to all enemies in a large, radial range.', 'Deals 1.6x ATK in damage ignoring DEF to 3 enemies.', 'When there is 6 or More [STR] crew members, 75% chance to inflict Forced Out to 1 DBF Style enemy for 10 seconds.'],
-                    ['Deals 2.1x ATK in damage to all enemies in a large, radial range.', 'Deals 1.7x ATK in damage ignoring DEF to 3 enemies.', 'When there is 6 or More [STR] crew members, 80% chance to inflict Forced Out to 1 DBF Style enemy for 10 seconds.'],
-                    ['Deals 2.2x ATK in damage to all enemies in a large, radial range.', 'Deals 1.8x ATK in damage ignoring DEF to 3 enemies.', 'When there is 6 or More [STR] crew members, 85% chance to inflict Forced Out to 1 DBF Style enemy for 10 seconds.'],
-                    ['Deals 2.3x ATK in damage to all enemies in a large, radial range.', 'Deals 1.9x ATK in damage ignoring DEF to 3 enemies.', 'When there is 6 or More [STR] crew members, 90% chance to inflict Forced Out to 1 DBF Style enemy for 10 seconds.'],
-                    ['Deals 2.5x ATK in damage to all enemies in a large, radial range.', 'Deals 2x ATK in damage ignoring DEF to 3 enemies.', 'When there is 6 or More [STR] crew members, 100% chance to inflict Forced Out to 1 DBF Style enemy for 10 seconds.']
+                    ['Deals 1.5x ATK in damage to all enemies in a large, radial range.', 'Deals 1.1x ATK in damage ignoring DEF to 3 enemies.', 'When there is 6 or More [STR] crew members, 50% chance to inflict Forced Out to 1 DBF-Style enemy for 10 seconds.'],
+                    ['Deals 1.6x ATK in damage to all enemies in a large, radial range.', 'Deals 1.2x ATK in damage ignoring DEF to 3 enemies.', 'When there is 6 or More [STR] crew members, 55% chance to inflict Forced Out to 1 DBF-Style enemy for 10 seconds.'],
+                    ['Deals 1.7x ATK in damage to all enemies in a large, radial range.', 'Deals 1.3x ATK in damage ignoring DEF to 3 enemies.', 'When there is 6 or More [STR] crew members, 60% chance to inflict Forced Out to 1 DBF-Style enemy for 10 seconds.'],
+                    ['Deals 1.8x ATK in damage to all enemies in a large, radial range.', 'Deals 1.4x ATK in damage ignoring DEF to 3 enemies.', 'When there is 6 or More [STR] crew members, 65% chance to inflict Forced Out to 1 DBF-Style enemy for 10 seconds.'],
+                    ['Deals 1.9x ATK in damage to all enemies in a large, radial range.', 'Deals 1.5x ATK in damage ignoring DEF to 3 enemies.', 'When there is 6 or More [STR] crew members, 70% chance to inflict Forced Out to 1 DBF-Style enemy for 10 seconds.'],
+                    ['Deals 2x ATK in damage to all enemies in a large, radial range.', 'Deals 1.6x ATK in damage ignoring DEF to 3 enemies.', 'When there is 6 or More [STR] crew members, 75% chance to inflict Forced Out to 1 DBF-Style enemy for 10 seconds.'],
+                    ['Deals 2.1x ATK in damage to all enemies in a large, radial range.', 'Deals 1.7x ATK in damage ignoring DEF to 3 enemies.', 'When there is 6 or More [STR] crew members, 80% chance to inflict Forced Out to 1 DBF-Style enemy for 10 seconds.'],
+                    ['Deals 2.2x ATK in damage to all enemies in a large, radial range.', 'Deals 1.8x ATK in damage ignoring DEF to 3 enemies.', 'When there is 6 or More [STR] crew members, 85% chance to inflict Forced Out to 1 DBF-Style enemy for 10 seconds.'],
+                    ['Deals 2.3x ATK in damage to all enemies in a large, radial range.', 'Deals 1.9x ATK in damage ignoring DEF to 3 enemies.', 'When there is 6 or More [STR] crew members, 90% chance to inflict Forced Out to 1 DBF-Style enemy for 10 seconds.'],
+                    ['Deals 2.5x ATK in damage to all enemies in a large, radial range.', 'Deals 2x ATK in damage ignoring DEF to 3 enemies.', 'When there is 6 or More [STR] crew members, 100% chance to inflict Forced Out to 1 DBF-Style enemy for 10 seconds.']
                 ]
             },
             llbbase: {
                 cooldown: 28,
                 descriptions: [
-                    ['Deals 1.75x ATK in damage to all enemies in a large, radial range.', 'Deals 1.2x ATK in damage ignoring DEF to 3 enemies.', 'When there is 6 or More [STR] crew members, 50% chance to inflict Forced Out to 2 DBF Style enemies for 10 seconds.'],
-                    ['Deals 1.85x ATK in damage to all enemies in a large, radial range.', 'Deals 1.3x ATK in damage ignoring DEF to 3 enemies.', 'When there is 6 or More [STR] crew members, 55% chance to inflict Forced Out to 2 DBF Style enemies for 10 seconds.'],
-                    ['Deals 1.95x ATK in damage to all enemies in a large, radial range.', 'Deals 1.4x ATK in damage ignoring DEF to 3 enemies.', 'When there is 6 or More [STR] crew members, 60% chance to inflict Forced Out to 2 DBF Style enemies for 10 seconds.'],
-                    ['Deals 2.05x ATK in damage to all enemies in a large, radial range.', 'Deals 1.5x ATK in damage ignoring DEF to 3 enemies.', 'When there is 6 or More [STR] crew members, 65% chance to inflict Forced Out to 2 DBF Style enemies for 10 seconds.'],
-                    ['Deals 2.15x ATK in damage to all enemies in a large, radial range.', 'Deals 1.6x ATK in damage ignoring DEF to 3 enemies.', 'When there is 6 or More [STR] crew members, 70% chance to inflict Forced Out to 2 DBF Style enemies for 10 seconds.'],
-                    ['Deals 2.25x ATK in damage to all enemies in a large, radial range.', 'Deals 1.7x ATK in damage ignoring DEF to 3 enemies.', 'When there is 6 or More [STR] crew members, 75% chance to inflict Forced Out to 2 DBF Style enemies for 10 seconds.'],
-                    ['Deals 2.35x ATK in damage to all enemies in a large, radial range.', 'Deals 1.8x ATK in damage ignoring DEF to 3 enemies.', 'When there is 6 or More [STR] crew members, 80% chance to inflict Forced Out to 2 DBF Style enemies for 10 seconds.'],
-                    ['Deals 2.45x ATK in damage to all enemies in a large, radial range.', 'Deals 1.9x ATK in damage ignoring DEF to 3 enemies.', 'When there is 6 or More [STR] crew members, 85% chance to inflict Forced Out to 2 DBF Style enemies for 10 seconds.'],
-                    ['Deals 2.55x ATK in damage to all enemies in a large, radial range.', 'Deals 2x ATK in damage ignoring DEF to 3 enemies.', 'When there is 6 or More [STR] crew members, 90% chance to inflict Forced Out to 2 DBF Style enemies for 10 seconds.'],
-                    ['Deals 2.75x ATK in damage to all enemies in a large, radial range.', 'Deals 2.1x ATK in damage ignoring DEF to 3 enemies.', 'When there is 6 or More [STR] crew members, 100% chance to inflict Forced Out to 2 DBF Style enemies for 10 seconds.']
+                    ['Deals 1.75x ATK in damage to all enemies in a large, radial range.', 'Deals 1.2x ATK in damage ignoring DEF to 3 enemies.', 'When there is 6 or More [STR] crew members, 50% chance to inflict Forced Out to 2 DBF-Style enemies for 10 seconds.'],
+                    ['Deals 1.85x ATK in damage to all enemies in a large, radial range.', 'Deals 1.3x ATK in damage ignoring DEF to 3 enemies.', 'When there is 6 or More [STR] crew members, 55% chance to inflict Forced Out to 2 DBF-Style enemies for 10 seconds.'],
+                    ['Deals 1.95x ATK in damage to all enemies in a large, radial range.', 'Deals 1.4x ATK in damage ignoring DEF to 3 enemies.', 'When there is 6 or More [STR] crew members, 60% chance to inflict Forced Out to 2 DBF-Style enemies for 10 seconds.'],
+                    ['Deals 2.05x ATK in damage to all enemies in a large, radial range.', 'Deals 1.5x ATK in damage ignoring DEF to 3 enemies.', 'When there is 6 or More [STR] crew members, 65% chance to inflict Forced Out to 2 DBF-Style enemies for 10 seconds.'],
+                    ['Deals 2.15x ATK in damage to all enemies in a large, radial range.', 'Deals 1.6x ATK in damage ignoring DEF to 3 enemies.', 'When there is 6 or More [STR] crew members, 70% chance to inflict Forced Out to 2 DBF-Style enemies for 10 seconds.'],
+                    ['Deals 2.25x ATK in damage to all enemies in a large, radial range.', 'Deals 1.7x ATK in damage ignoring DEF to 3 enemies.', 'When there is 6 or More [STR] crew members, 75% chance to inflict Forced Out to 2 DBF-Style enemies for 10 seconds.'],
+                    ['Deals 2.35x ATK in damage to all enemies in a large, radial range.', 'Deals 1.8x ATK in damage ignoring DEF to 3 enemies.', 'When there is 6 or More [STR] crew members, 80% chance to inflict Forced Out to 2 DBF-Style enemies for 10 seconds.'],
+                    ['Deals 2.45x ATK in damage to all enemies in a large, radial range.', 'Deals 1.9x ATK in damage ignoring DEF to 3 enemies.', 'When there is 6 or More [STR] crew members, 85% chance to inflict Forced Out to 2 DBF-Style enemies for 10 seconds.'],
+                    ['Deals 2.55x ATK in damage to all enemies in a large, radial range.', 'Deals 2x ATK in damage ignoring DEF to 3 enemies.', 'When there is 6 or More [STR] crew members, 90% chance to inflict Forced Out to 2 DBF-Style enemies for 10 seconds.'],
+                    ['Deals 2.75x ATK in damage to all enemies in a large, radial range.', 'Deals 2.1x ATK in damage ignoring DEF to 3 enemies.', 'When there is 6 or More [STR] crew members, 100% chance to inflict Forced Out to 2 DBF-Style enemies for 10 seconds.']
                 ]
             }
         }
@@ -75358,27 +75358,27 @@ window.rumble = {
             base: {
                 cooldown: 22,
                 descriptions: [
-                    ['Inflicts Lv. 1 Special CT down debuff to 3 enemies with the lowest Special CT for 6 seconds.', '100% chance to inflict Lv. 1 Damage Over Time to 3 enemies with the lowest Special CT for 6 seconds.', 'When there is 8 or More Fighter and Shooter crew members, 50% chance to inflict Confusion to 1 enemy with the highest ATK for 15 seconds.'],
-                    ['Inflicts Lv. 1 Special CT down debuff to 3 enemies with the lowest Special CT for 7 seconds.', '100% chance to inflict Lv. 1 Damage Over Time to 3 enemies with the lowest Special CT for 7 seconds.', 'When there is 8 or More Fighter and Shooter crew members, 55% chance to inflict Confusion to 1 enemy with the highest ATK for 15 seconds.'],
-                    ['Inflicts Lv. 1 Special CT down debuff to 3 enemies with the lowest Special CT for 8 seconds.', '100% chance to inflict Lv. 1 Damage Over Time to 3 enemies with the lowest Special CT for 8 seconds.', 'When there is 8 or More Fighter and Shooter crew members, 60% chance to inflict Confusion to 1 enemy with the highest ATK for 15 seconds.'],
-                    ['Inflicts Lv. 2 Special CT down debuff to 3 enemies with the lowest Special CT for 9 seconds.', '100% chance to inflict Lv. 2 Damage Over Time to 3 enemies with the lowest Special CT for 9 seconds.', 'When there is 8 or More Fighter and Shooter crew members, 65% chance to inflict Confusion to 1 enemy with the highest ATK for 15 seconds.'],
-                    ['Inflicts Lv. 2 Special CT down debuff to 3 enemies with the lowest Special CT for 10 seconds.', '100% chance to inflict Lv. 2 Damage Over Time to 3 enemies with the lowest Special CT for 10 seconds.', 'When there is 8 or More Fighter and Shooter crew members, 70% chance to inflict Confusion to 1 enemy with the highest ATK for 15 seconds.'],
-                    ['Inflicts Lv. 3 Special CT down debuff to 3 enemies with the lowest Special CT for 11 seconds.', '100% chance to inflict Lv. 3 Damage Over Time to 3 enemies with the lowest Special CT for 11 seconds.', 'When there is 8 or More Fighter and Shooter crew members, 75% chance to inflict Confusion to 1 enemy with the highest ATK for 15 seconds.'],
-                    ['Inflicts Lv. 3 Special CT down debuff to 3 enemies with the lowest Special CT for 12 seconds.', '100% chance to inflict Lv. 3 Damage Over Time to 3 enemies with the lowest Special CT for 12 seconds.', 'When there is 8 or More Fighter and Shooter crew members, 80% chance to inflict Confusion to 1 enemy with the highest ATK for 15 seconds.'],
-                    ['Inflicts Lv. 3 Special CT down debuff to 3 enemies with the lowest Special CT for 13 seconds.', '100% chance to inflict Lv. 3 Damage Over Time to 3 enemies with the lowest Special CT for 13 seconds.', 'When there is 8 or More Fighter and Shooter crew members, 85% chance to inflict Confusion to 1 enemy with the highest ATK for 15 seconds.'],
-                    ['Inflicts Lv. 4 Special CT down debuff to 3 enemies with the lowest Special CT for 14 seconds.', '100% chance to inflict Lv. 4 Damage Over Time to 3 enemies with the lowest Special CT for 14 seconds.', 'When there is 8 or More Fighter and Shooter crew members, 90% chance to inflict Confusion to 1 enemy with the highest ATK for 15 seconds.'],
-                    ['Inflicts Lv. 5 Special CT down debuff to 3 enemies with the lowest Special CT for 15 seconds.', '100% chance to inflict Lv. 5 Damage Over Time to 3 enemies with the lowest Special CT for 15 seconds.', 'When there is 8 or More Fighter and Shooter crew members, 100% chance to inflict Confusion to 1 enemy with the highest ATK for 15 seconds.']
+                    ['Inflicts Lv. 1 Special CT down debuff to 3 enemies with the lowest Special CT for 6 seconds.', 'Inflicts Lv. 1 Damage Over Time to 3 enemies with the lowest Special CT for 6 seconds.', 'When there is 8 or More Fighter and Shooter crew members, 50% chance to inflict Confusion to 1 enemy with the highest ATK for 15 seconds.'],
+                    ['Inflicts Lv. 1 Special CT down debuff to 3 enemies with the lowest Special CT for 7 seconds.', 'Inflicts Lv. 1 Damage Over Time to 3 enemies with the lowest Special CT for 7 seconds.', 'When there is 8 or More Fighter and Shooter crew members, 55% chance to inflict Confusion to 1 enemy with the highest ATK for 15 seconds.'],
+                    ['Inflicts Lv. 1 Special CT down debuff to 3 enemies with the lowest Special CT for 8 seconds.', 'Inflicts Lv. 1 Damage Over Time to 3 enemies with the lowest Special CT for 8 seconds.', 'When there is 8 or More Fighter and Shooter crew members, 60% chance to inflict Confusion to 1 enemy with the highest ATK for 15 seconds.'],
+                    ['Inflicts Lv. 2 Special CT down debuff to 3 enemies with the lowest Special CT for 9 seconds.', 'Inflicts Lv. 2 Damage Over Time to 3 enemies with the lowest Special CT for 9 seconds.', 'When there is 8 or More Fighter and Shooter crew members, 65% chance to inflict Confusion to 1 enemy with the highest ATK for 15 seconds.'],
+                    ['Inflicts Lv. 2 Special CT down debuff to 3 enemies with the lowest Special CT for 10 seconds.', 'Inflicts Lv. 2 Damage Over Time to 3 enemies with the lowest Special CT for 10 seconds.', 'When there is 8 or More Fighter and Shooter crew members, 70% chance to inflict Confusion to 1 enemy with the highest ATK for 15 seconds.'],
+                    ['Inflicts Lv. 3 Special CT down debuff to 3 enemies with the lowest Special CT for 11 seconds.', 'Inflicts Lv. 3 Damage Over Time to 3 enemies with the lowest Special CT for 11 seconds.', 'When there is 8 or More Fighter and Shooter crew members, 75% chance to inflict Confusion to 1 enemy with the highest ATK for 15 seconds.'],
+                    ['Inflicts Lv. 3 Special CT down debuff to 3 enemies with the lowest Special CT for 12 seconds.', 'Inflicts Lv. 3 Damage Over Time to 3 enemies with the lowest Special CT for 12 seconds.', 'When there is 8 or More Fighter and Shooter crew members, 80% chance to inflict Confusion to 1 enemy with the highest ATK for 15 seconds.'],
+                    ['Inflicts Lv. 3 Special CT down debuff to 3 enemies with the lowest Special CT for 13 seconds.', 'Inflicts Lv. 3 Damage Over Time to 3 enemies with the lowest Special CT for 13 seconds.', 'When there is 8 or More Fighter and Shooter crew members, 85% chance to inflict Confusion to 1 enemy with the highest ATK for 15 seconds.'],
+                    ['Inflicts Lv. 4 Special CT down debuff to 3 enemies with the lowest Special CT for 14 seconds.', 'Inflicts Lv. 4 Damage Over Time to 3 enemies with the lowest Special CT for 14 seconds.', 'When there is 8 or More Fighter and Shooter crew members, 90% chance to inflict Confusion to 1 enemy with the highest ATK for 15 seconds.'],
+                    ['Inflicts Lv. 5 Special CT down debuff to 3 enemies with the lowest Special CT for 15 seconds.', 'Inflicts Lv. 5 Damage Over Time to 3 enemies with the lowest Special CT for 15 seconds.', 'When there is 8 or More Fighter and Shooter crew members, 100% chance to inflict Confusion to 1 enemy with the highest ATK for 15 seconds.']
                 ]
             }
         },
         festSuperSpecial: {
             base: {
                 condition: "After this character receives enemies' Rumble Specials 2 times",
-                description: ['Inflicts Lv. 7 Special CT down debuff to 3 enemies with the lowest Special CT for 30 seconds.', '100% chance to inflict Lv. 7 Damage Over Time to 3 enemies with the lowest Special CT for 30 seconds.', 'When there is 8 or More Fighter and Shooter crew members, 100% chance to inflict Confusion to 2 enemies with the highest ATK for 15 seconds.']
+                description: ['Inflicts Lv. 7 Special CT down debuff to 3 enemies with the lowest Special CT for 30 seconds.', 'Inflicts Lv. 7 Damage Over Time to 3 enemies with the lowest Special CT for 30 seconds.', 'When there is 8 or More Fighter and Shooter crew members, 100% chance to inflict Confusion to 2 enemies with the highest ATK for 15 seconds.']
             },
             llbbase: {
                 condition: "After this character receives enemies' Rumble Specials 2 times",
-                description: ['Inflicts Lv. 7 Special CT down debuff to all enemies for 30 seconds.', '100% chance to inflict Lv. 10 Damage Over Time to all enemies for 30 seconds.', 'When there is 8 or More Fighter and Shooter crew members, 100% chance to inflict Confusion to 2 enemies with the highest ATK for 20 seconds.']
+                description: ['Inflicts Lv. 7 Special CT down debuff to all enemies for 30 seconds.', 'Inflicts Lv. 10 Damage Over Time to all enemies for 30 seconds.', 'When there is 8 or More Fighter and Shooter crew members, 100% chance to inflict Confusion to 2 enemies with the highest ATK for 20 seconds.']
             }
         }
     },
@@ -75601,27 +75601,27 @@ window.rumble = {
             base: {
                 cooldown: 17,
                 descriptions: [
-                    ['10% HP cut to 2 enemies with the highest HP.', '100% chance to inflict Lv. 1 Damage Over Time to 2 enemies with the highest HP for 6 seconds.', 'When there is 6 or More Slasher crew members, applies Lv. 3 Shield up buff to self for 6 seconds.'],
-                    ['12% HP cut to 2 enemies with the highest HP.', '100% chance to inflict Lv. 1 Damage Over Time to 2 enemies with the highest HP for 7 seconds.', 'When there is 6 or More Slasher crew members, applies Lv. 3 Shield up buff to self for 7 seconds.'],
-                    ['14% HP cut to 2 enemies with the highest HP.', '100% chance to inflict Lv. 1 Damage Over Time to 2 enemies with the highest HP for 8 seconds.', 'When there is 6 or More Slasher crew members, applies Lv. 3 Shield up buff to self for 8 seconds.'],
-                    ['16% HP cut to 2 enemies with the highest HP.', '100% chance to inflict Lv. 2 Damage Over Time to 2 enemies with the highest HP for 9 seconds.', 'When there is 6 or More Slasher crew members, applies Lv. 3 Shield up buff to self for 9 seconds.'],
-                    ['18% HP cut to 2 enemies with the highest HP.', '100% chance to inflict Lv. 2 Damage Over Time to 2 enemies with the highest HP for 10 seconds.', 'When there is 6 or More Slasher crew members, applies Lv. 3 Shield up buff to self for 10 seconds.'],
-                    ['20% HP cut to 2 enemies with the highest HP.', '100% chance to inflict Lv. 3 Damage Over Time to 2 enemies with the highest HP for 11 seconds.', 'When there is 6 or More Slasher crew members, applies Lv. 4 Shield up buff to self for 11 seconds.'],
-                    ['22% HP cut to 2 enemies with the highest HP.', '100% chance to inflict Lv. 3 Damage Over Time to 2 enemies with the highest HP for 12 seconds.', 'When there is 6 or More Slasher crew members, applies Lv. 4 Shield up buff to self for 12 seconds.'],
-                    ['24% HP cut to 2 enemies with the highest HP.', '100% chance to inflict Lv. 3 Damage Over Time to 2 enemies with the highest HP for 13 seconds.', 'When there is 6 or More Slasher crew members, applies Lv. 4 Shield up buff to self for 13 seconds.'],
-                    ['26% HP cut to 2 enemies with the highest HP.', '100% chance to inflict Lv. 4 Damage Over Time to 2 enemies with the highest HP for 14 seconds.', 'When there is 6 or More Slasher crew members, applies Lv. 4 Shield up buff to self for 14 seconds.'],
-                    ['30% HP cut to 2 enemies with the highest HP.', '100% chance to inflict Lv. 5 Damage Over Time to 2 enemies with the highest HP for 15 seconds.', 'When there is 6 or More Slasher crew members, applies Lv. 5 Shield up buff to self for 15 seconds.']
+                    ['10% HP cut to 2 enemies with the highest HP.', 'Inflicts Lv. 1 Damage Over Time to 2 enemies with the highest HP for 6 seconds.', 'When there is 6 or More Slasher crew members, applies Lv. 3 Shield up buff to self for 6 seconds.'],
+                    ['12% HP cut to 2 enemies with the highest HP.', 'Inflicts Lv. 1 Damage Over Time to 2 enemies with the highest HP for 7 seconds.', 'When there is 6 or More Slasher crew members, applies Lv. 3 Shield up buff to self for 7 seconds.'],
+                    ['14% HP cut to 2 enemies with the highest HP.', 'Inflicts Lv. 1 Damage Over Time to 2 enemies with the highest HP for 8 seconds.', 'When there is 6 or More Slasher crew members, applies Lv. 3 Shield up buff to self for 8 seconds.'],
+                    ['16% HP cut to 2 enemies with the highest HP.', 'Inflicts Lv. 2 Damage Over Time to 2 enemies with the highest HP for 9 seconds.', 'When there is 6 or More Slasher crew members, applies Lv. 3 Shield up buff to self for 9 seconds.'],
+                    ['18% HP cut to 2 enemies with the highest HP.', 'Inflicts Lv. 2 Damage Over Time to 2 enemies with the highest HP for 10 seconds.', 'When there is 6 or More Slasher crew members, applies Lv. 3 Shield up buff to self for 10 seconds.'],
+                    ['20% HP cut to 2 enemies with the highest HP.', 'Inflicts Lv. 3 Damage Over Time to 2 enemies with the highest HP for 11 seconds.', 'When there is 6 or More Slasher crew members, applies Lv. 4 Shield up buff to self for 11 seconds.'],
+                    ['22% HP cut to 2 enemies with the highest HP.', 'Inflicts Lv. 3 Damage Over Time to 2 enemies with the highest HP for 12 seconds.', 'When there is 6 or More Slasher crew members, applies Lv. 4 Shield up buff to self for 12 seconds.'],
+                    ['24% HP cut to 2 enemies with the highest HP.', 'Inflicts Lv. 3 Damage Over Time to 2 enemies with the highest HP for 13 seconds.', 'When there is 6 or More Slasher crew members, applies Lv. 4 Shield up buff to self for 13 seconds.'],
+                    ['26% HP cut to 2 enemies with the highest HP.', 'Inflicts Lv. 4 Damage Over Time to 2 enemies with the highest HP for 14 seconds.', 'When there is 6 or More Slasher crew members, applies Lv. 4 Shield up buff to self for 14 seconds.'],
+                    ['30% HP cut to 2 enemies with the highest HP.', 'Inflicts Lv. 5 Damage Over Time to 2 enemies with the highest HP for 15 seconds.', 'When there is 6 or More Slasher crew members, applies Lv. 5 Shield up buff to self for 15 seconds.']
                 ]
             }
         },
         festSuperSpecial: {
             base: {
                 condition: "After this character receives enemies' Rumble Specials 2 times",
-                description: ['40% HP cut to 3 enemies with the highest HP.', '100% chance to inflict Lv. 8 Damage Over Time to 3 enemies with the highest HP for 30 seconds.', 'When there is 6 or More Slasher crew members, applies Lv. 8 Shield up buff to self for 30 seconds.']
+                description: ['40% HP cut to 3 enemies with the highest HP.', 'Inflicts Lv. 8 Damage Over Time to 3 enemies with the highest HP for 30 seconds.', 'When there is 6 or More Slasher crew members, applies Lv. 8 Shield up buff to self for 30 seconds.']
             },
             llbbase: {
                 condition: "After this character receives enemies' Rumble Specials 2 times",
-                description: ['50% HP cut to 3 enemies with the highest HP.', '100% chance to inflict Lv. 10 Damage Over Time to 3 enemies with the highest HP for 30 seconds.', 'When there is 6 or More Slasher crew members, applies Lv. 8 Shield up buff to self for 30 seconds.']
+                description: ['50% HP cut to 3 enemies with the highest HP.', 'Inflicts Lv. 10 Damage Over Time to 3 enemies with the highest HP for 30 seconds.', 'When there is 6 or More Slasher crew members, applies Lv. 8 Shield up buff to self for 30 seconds.']
             }
         }
     },
@@ -75649,16 +75649,16 @@ window.rumble = {
             base: {
                 cooldown: 22,
                 descriptions: [
-                    ['Inflicts Lv. 3 SPD down debuff to all enemies in a large, radial range for 6 seconds.', 'Applies Lv. 3 ATK and SPD up buff to ATK Style crew members for 6 seconds.', 'Applies Lv. 1 Special CT up buff to ATK Style crew members for 6 seconds.'],
-                    ['Inflicts Lv. 3 SPD down debuff to all enemies in a large, radial range for 7 seconds.', 'Applies Lv. 3 ATK and SPD up buff to ATK Style crew members for 7 seconds.', 'Applies Lv. 1 Special CT up buff to ATK Style crew members for 7 seconds.'],
-                    ['Inflicts Lv. 3 SPD down debuff to all enemies in a large, radial range for 8 seconds.', 'Applies Lv. 3 ATK and SPD up buff to ATK Style crew members for 8 seconds.', 'Applies Lv. 1 Special CT up buff to ATK Style crew members for 8 seconds.'],
-                    ['Inflicts Lv. 3 SPD down debuff to all enemies in a large, radial range for 9 seconds.', 'Applies Lv. 3 ATK and SPD up buff to ATK Style crew members for 9 seconds.', 'Applies Lv. 1 Special CT up buff to ATK Style crew members for 9 seconds.'],
-                    ['Inflicts Lv. 3 SPD down debuff to all enemies in a large, radial range for 10 seconds.', 'Applies Lv. 3 ATK and SPD up buff to ATK Style crew members for 10 seconds.', 'Applies Lv. 1 Special CT up buff to ATK Style crew members for 10 seconds.'],
-                    ['Inflicts Lv. 4 SPD down debuff to all enemies in a large, radial range for 11 seconds.', 'Applies Lv. 4 ATK and SPD up buff to ATK Style crew members for 11 seconds.', 'Applies Lv. 1 Special CT up buff to ATK Style crew members for 11 seconds.'],
-                    ['Inflicts Lv. 4 SPD down debuff to all enemies in a large, radial range for 12 seconds.', 'Applies Lv. 4 ATK and SPD up buff to ATK Style crew members for 12 seconds.', 'Applies Lv. 1 Special CT up buff to ATK Style crew members for 12 seconds.'],
-                    ['Inflicts Lv. 4 SPD down debuff to all enemies in a large, radial range for 13 seconds.', 'Applies Lv. 4 ATK and SPD up buff to ATK Style crew members for 13 seconds.', 'Applies Lv. 1 Special CT up buff to ATK Style crew members for 13 seconds.'],
-                    ['Inflicts Lv. 4 SPD down debuff to all enemies in a large, radial range for 14 seconds.', 'Applies Lv. 4 ATK and SPD up buff to ATK Style crew members for 14 seconds.', 'Applies Lv. 1 Special CT up buff to ATK Style crew members for 14 seconds.'],
-                    ['Inflicts Lv. 5 SPD down debuff to all enemies in a large, radial range for 15 seconds.', 'Applies Lv. 5 ATK and SPD up buff to ATK Style crew members for 15 seconds.', 'Applies Lv. 2 Special CT up buff to ATK Style crew members for 15 seconds.']
+                    ['Inflicts Lv. 3 SPD down debuff to all enemies in a large, radial range for 6 seconds.', 'Applies Lv. 3 ATK and SPD up buff to ATK-Style crew members for 6 seconds.', 'Applies Lv. 1 Special CT up buff to ATK-Style crew members for 6 seconds.'],
+                    ['Inflicts Lv. 3 SPD down debuff to all enemies in a large, radial range for 7 seconds.', 'Applies Lv. 3 ATK and SPD up buff to ATK-Style crew members for 7 seconds.', 'Applies Lv. 1 Special CT up buff to ATK-Style crew members for 7 seconds.'],
+                    ['Inflicts Lv. 3 SPD down debuff to all enemies in a large, radial range for 8 seconds.', 'Applies Lv. 3 ATK and SPD up buff to ATK-Style crew members for 8 seconds.', 'Applies Lv. 1 Special CT up buff to ATK-Style crew members for 8 seconds.'],
+                    ['Inflicts Lv. 3 SPD down debuff to all enemies in a large, radial range for 9 seconds.', 'Applies Lv. 3 ATK and SPD up buff to ATK-Style crew members for 9 seconds.', 'Applies Lv. 1 Special CT up buff to ATK-Style crew members for 9 seconds.'],
+                    ['Inflicts Lv. 3 SPD down debuff to all enemies in a large, radial range for 10 seconds.', 'Applies Lv. 3 ATK and SPD up buff to ATK-Style crew members for 10 seconds.', 'Applies Lv. 1 Special CT up buff to ATK-Style crew members for 10 seconds.'],
+                    ['Inflicts Lv. 4 SPD down debuff to all enemies in a large, radial range for 11 seconds.', 'Applies Lv. 4 ATK and SPD up buff to ATK-Style crew members for 11 seconds.', 'Applies Lv. 1 Special CT up buff to ATK-Style crew members for 11 seconds.'],
+                    ['Inflicts Lv. 4 SPD down debuff to all enemies in a large, radial range for 12 seconds.', 'Applies Lv. 4 ATK and SPD up buff to ATK-Style crew members for 12 seconds.', 'Applies Lv. 1 Special CT up buff to ATK-Style crew members for 12 seconds.'],
+                    ['Inflicts Lv. 4 SPD down debuff to all enemies in a large, radial range for 13 seconds.', 'Applies Lv. 4 ATK and SPD up buff to ATK-Style crew members for 13 seconds.', 'Applies Lv. 1 Special CT up buff to ATK-Style crew members for 13 seconds.'],
+                    ['Inflicts Lv. 4 SPD down debuff to all enemies in a large, radial range for 14 seconds.', 'Applies Lv. 4 ATK and SPD up buff to ATK-Style crew members for 14 seconds.', 'Applies Lv. 1 Special CT up buff to ATK-Style crew members for 14 seconds.'],
+                    ['Inflicts Lv. 5 SPD down debuff to all enemies in a large, radial range for 15 seconds.', 'Applies Lv. 5 ATK and SPD up buff to ATK-Style crew members for 15 seconds.', 'Applies Lv. 2 Special CT up buff to ATK-Style crew members for 15 seconds.']
                 ]
             }
         }
@@ -75687,16 +75687,16 @@ window.rumble = {
             base: {
                 cooldown: 22,
                 descriptions: [
-                    ['Inflicts Lv. 4 SPD down debuff to all enemies in a large, radial range for 6 seconds.', 'Applies Lv. 4 ATK and SPD up buff to ATK Style crew members for 6 seconds.', 'Applies Lv. 1 Special CT up buff to ATK Style crew members for 6 seconds.'],
-                    ['Inflicts Lv. 4 SPD down debuff to all enemies in a large, radial range for 7 seconds.', 'Applies Lv. 4 ATK and SPD up buff to ATK Style crew members for 7 seconds.', 'Applies Lv. 1 Special CT up buff to ATK Style crew members for 7 seconds.'],
-                    ['Inflicts Lv. 4 SPD down debuff to all enemies in a large, radial range for 8 seconds.', 'Applies Lv. 4 ATK and SPD up buff to ATK Style crew members for 8 seconds.', 'Applies Lv. 1 Special CT up buff to ATK Style crew members for 8 seconds.'],
-                    ['Inflicts Lv. 4 SPD down debuff to all enemies in a large, radial range for 9 seconds.', 'Applies Lv. 4 ATK and SPD up buff to ATK Style crew members for 9 seconds.', 'Applies Lv. 1 Special CT up buff to ATK Style crew members for 9 seconds.'],
-                    ['Inflicts Lv. 4 SPD down debuff to all enemies in a large, radial range for 10 seconds.', 'Applies Lv. 4 ATK and SPD up buff to ATK Style crew members for 10 seconds.', 'Applies Lv. 2 Special CT up buff to ATK Style crew members for 10 seconds.'],
-                    ['Inflicts Lv. 5 SPD down debuff to all enemies in a large, radial range for 11 seconds.', 'Applies Lv. 5 ATK and SPD up buff to ATK Style crew members for 11 seconds.', 'Applies Lv. 2 Special CT up buff to ATK Style crew members for 11 seconds.'],
-                    ['Inflicts Lv. 5 SPD down debuff to all enemies in a large, radial range for 12 seconds.', 'Applies Lv. 5 ATK and SPD up buff to ATK Style crew members for 12 seconds.', 'Applies Lv. 2 Special CT up buff to ATK Style crew members for 12 seconds.'],
-                    ['Inflicts Lv. 5 SPD down debuff to all enemies in a large, radial range for 13 seconds.', 'Applies Lv. 5 ATK and SPD up buff to ATK Style crew members for 13 seconds.', 'Applies Lv. 2 Special CT up buff to ATK Style crew members for 13 seconds.'],
-                    ['Inflicts Lv. 5 SPD down debuff to all enemies in a large, radial range for 14 seconds.', 'Applies Lv. 5 ATK and SPD up buff to ATK Style crew members for 14 seconds.', 'Applies Lv. 2 Special CT up buff to ATK Style crew members for 14 seconds.'],
-                    ['Inflicts Lv. 6 SPD down debuff to all enemies in a large, radial range for 15 seconds.', 'Applies Lv. 6 ATK and SPD up buff to ATK Style crew members for 15 seconds.', 'Applies Lv. 3 Special CT up buff to ATK Style crew members for 15 seconds.']
+                    ['Inflicts Lv. 4 SPD down debuff to all enemies in a large, radial range for 6 seconds.', 'Applies Lv. 4 ATK and SPD up buff to ATK-Style crew members for 6 seconds.', 'Applies Lv. 1 Special CT up buff to ATK-Style crew members for 6 seconds.'],
+                    ['Inflicts Lv. 4 SPD down debuff to all enemies in a large, radial range for 7 seconds.', 'Applies Lv. 4 ATK and SPD up buff to ATK-Style crew members for 7 seconds.', 'Applies Lv. 1 Special CT up buff to ATK-Style crew members for 7 seconds.'],
+                    ['Inflicts Lv. 4 SPD down debuff to all enemies in a large, radial range for 8 seconds.', 'Applies Lv. 4 ATK and SPD up buff to ATK-Style crew members for 8 seconds.', 'Applies Lv. 1 Special CT up buff to ATK-Style crew members for 8 seconds.'],
+                    ['Inflicts Lv. 4 SPD down debuff to all enemies in a large, radial range for 9 seconds.', 'Applies Lv. 4 ATK and SPD up buff to ATK-Style crew members for 9 seconds.', 'Applies Lv. 1 Special CT up buff to ATK-Style crew members for 9 seconds.'],
+                    ['Inflicts Lv. 4 SPD down debuff to all enemies in a large, radial range for 10 seconds.', 'Applies Lv. 4 ATK and SPD up buff to ATK-Style crew members for 10 seconds.', 'Applies Lv. 2 Special CT up buff to ATK-Style crew members for 10 seconds.'],
+                    ['Inflicts Lv. 5 SPD down debuff to all enemies in a large, radial range for 11 seconds.', 'Applies Lv. 5 ATK and SPD up buff to ATK-Style crew members for 11 seconds.', 'Applies Lv. 2 Special CT up buff to ATK-Style crew members for 11 seconds.'],
+                    ['Inflicts Lv. 5 SPD down debuff to all enemies in a large, radial range for 12 seconds.', 'Applies Lv. 5 ATK and SPD up buff to ATK-Style crew members for 12 seconds.', 'Applies Lv. 2 Special CT up buff to ATK-Style crew members for 12 seconds.'],
+                    ['Inflicts Lv. 5 SPD down debuff to all enemies in a large, radial range for 13 seconds.', 'Applies Lv. 5 ATK and SPD up buff to ATK-Style crew members for 13 seconds.', 'Applies Lv. 2 Special CT up buff to ATK-Style crew members for 13 seconds.'],
+                    ['Inflicts Lv. 5 SPD down debuff to all enemies in a large, radial range for 14 seconds.', 'Applies Lv. 5 ATK and SPD up buff to ATK-Style crew members for 14 seconds.', 'Applies Lv. 2 Special CT up buff to ATK-Style crew members for 14 seconds.'],
+                    ['Inflicts Lv. 6 SPD down debuff to all enemies in a large, radial range for 15 seconds.', 'Applies Lv. 6 ATK and SPD up buff to ATK-Style crew members for 15 seconds.', 'Applies Lv. 3 Special CT up buff to ATK-Style crew members for 15 seconds.']
                 ]
             }
         }
@@ -75834,16 +75834,16 @@ window.rumble = {
             base: {
                 cooldown: 28,
                 descriptions: [
-                    ['Deals 2,000 fixed damage to all enemies in a large, sideways range.', 'Deals 4,000 fixed damage to 1 enemy with the highest DEF.', 'Applies Lv. 3 Critical Hit and Blow Away up buff to 1 ATK Style crew member, excluding self, for 6 seconds.', 'Applies Lv. 3 Special CT up buff to 1 ATK Style crew member, excluding self, for 6 seconds.'],
-                    ['Deals 2,200 fixed damage to all enemies in a large, sideways range.', 'Deals 4,200 fixed damage to 1 enemy with the highest DEF.', 'Applies Lv. 3 Critical Hit and Blow Away up buff to 1 ATK Style crew member, excluding self, for 7 seconds.', 'Applies Lv. 3 Special CT up buff to 1 ATK Style crew member, excluding self, for 7 seconds.'],
-                    ['Deals 2,400 fixed damage to all enemies in a large, sideways range.', 'Deals 4,400 fixed damage to 1 enemy with the highest DEF.', 'Applies Lv. 4 Critical Hit and Blow Away up buff to 1 ATK Style crew member, excluding self, for 8 seconds.', 'Applies Lv. 3 Special CT up buff to 1 ATK Style crew member, excluding self, for 8 seconds.'],
-                    ['Deals 2,600 fixed damage to all enemies in a large, sideways range.', 'Deals 4,600 fixed damage to 1 enemy with the highest DEF.', 'Applies Lv. 4 Critical Hit and Blow Away up buff to 1 ATK Style crew member, excluding self, for 9 seconds.', 'Applies Lv. 3 Special CT up buff to 1 ATK Style crew member, excluding self, for 9 seconds.'],
-                    ['Deals 2,800 fixed damage to all enemies in a large, sideways range.', 'Deals 4,800 fixed damage to 1 enemy with the highest DEF.', 'Applies Lv. 5 Critical Hit and Blow Away up buff to 1 ATK Style crew member, excluding self, for 10 seconds.', 'Applies Lv. 3 Special CT up buff to 1 ATK Style crew member, excluding self, for 10 seconds.'],
-                    ['Deals 3,000 fixed damage to all enemies in a large, sideways range.', 'Deals 5,000 fixed damage to 1 enemy with the highest DEF.', 'Applies Lv. 5 Critical Hit and Blow Away up buff to 1 ATK Style crew member, excluding self, for 11 seconds.', 'Applies Lv. 4 Special CT up buff to 1 ATK Style crew member, excluding self, for 11 seconds.'],
-                    ['Deals 3,200 fixed damage to all enemies in a large, sideways range.', 'Deals 5,200 fixed damage to 1 enemy with the highest DEF.', 'Applies Lv. 6 Critical Hit and Blow Away up buff to 1 ATK Style crew member, excluding self, for 12 seconds.', 'Applies Lv. 4 Special CT up buff to 1 ATK Style crew member, excluding self, for 12 seconds.'],
-                    ['Deals 3,400 fixed damage to all enemies in a large, sideways range.', 'Deals 5,400 fixed damage to 1 enemy with the highest DEF.', 'Applies Lv. 6 Critical Hit and Blow Away up buff to 1 ATK Style crew member, excluding self, for 13 seconds.', 'Applies Lv. 4 Special CT up buff to 1 ATK Style crew member, excluding self, for 13 seconds.'],
-                    ['Deals 3,600 fixed damage to all enemies in a large, sideways range.', 'Deals 5,600 fixed damage to 1 enemy with the highest DEF.', 'Applies Lv. 7 Critical Hit and Blow Away up buff to 1 ATK Style crew member, excluding self, for 14 seconds.', 'Applies Lv. 4 Special CT up buff to 1 ATK Style crew member, excluding self, for 14 seconds.'],
-                    ['Deals 4,000 fixed damage to all enemies in a large, sideways range.', 'Deals 6,000 fixed damage to 1 enemy with the highest DEF.', 'Applies Lv. 8 Critical Hit and Blow Away up buff to 1 ATK Style crew member, excluding self, for 15 seconds.', 'Applies Lv. 5 Special CT up buff to 1 ATK Style crew member, excluding self, for 15 seconds.']
+                    ['Deals 2,000 fixed damage to all enemies in a large, sideways range.', 'Deals 4,000 fixed damage to 1 enemy with the highest DEF.', 'Applies Lv. 3 Critical Hit and Blow Away up buff to 1 ATK-Style crew member, excluding self, for 6 seconds.', 'Applies Lv. 3 Special CT up buff to 1 ATK-Style crew member, excluding self, for 6 seconds.'],
+                    ['Deals 2,200 fixed damage to all enemies in a large, sideways range.', 'Deals 4,200 fixed damage to 1 enemy with the highest DEF.', 'Applies Lv. 3 Critical Hit and Blow Away up buff to 1 ATK-Style crew member, excluding self, for 7 seconds.', 'Applies Lv. 3 Special CT up buff to 1 ATK-Style crew member, excluding self, for 7 seconds.'],
+                    ['Deals 2,400 fixed damage to all enemies in a large, sideways range.', 'Deals 4,400 fixed damage to 1 enemy with the highest DEF.', 'Applies Lv. 4 Critical Hit and Blow Away up buff to 1 ATK-Style crew member, excluding self, for 8 seconds.', 'Applies Lv. 3 Special CT up buff to 1 ATK-Style crew member, excluding self, for 8 seconds.'],
+                    ['Deals 2,600 fixed damage to all enemies in a large, sideways range.', 'Deals 4,600 fixed damage to 1 enemy with the highest DEF.', 'Applies Lv. 4 Critical Hit and Blow Away up buff to 1 ATK-Style crew member, excluding self, for 9 seconds.', 'Applies Lv. 3 Special CT up buff to 1 ATK-Style crew member, excluding self, for 9 seconds.'],
+                    ['Deals 2,800 fixed damage to all enemies in a large, sideways range.', 'Deals 4,800 fixed damage to 1 enemy with the highest DEF.', 'Applies Lv. 5 Critical Hit and Blow Away up buff to 1 ATK-Style crew member, excluding self, for 10 seconds.', 'Applies Lv. 3 Special CT up buff to 1 ATK-Style crew member, excluding self, for 10 seconds.'],
+                    ['Deals 3,000 fixed damage to all enemies in a large, sideways range.', 'Deals 5,000 fixed damage to 1 enemy with the highest DEF.', 'Applies Lv. 5 Critical Hit and Blow Away up buff to 1 ATK-Style crew member, excluding self, for 11 seconds.', 'Applies Lv. 4 Special CT up buff to 1 ATK-Style crew member, excluding self, for 11 seconds.'],
+                    ['Deals 3,200 fixed damage to all enemies in a large, sideways range.', 'Deals 5,200 fixed damage to 1 enemy with the highest DEF.', 'Applies Lv. 6 Critical Hit and Blow Away up buff to 1 ATK-Style crew member, excluding self, for 12 seconds.', 'Applies Lv. 4 Special CT up buff to 1 ATK-Style crew member, excluding self, for 12 seconds.'],
+                    ['Deals 3,400 fixed damage to all enemies in a large, sideways range.', 'Deals 5,400 fixed damage to 1 enemy with the highest DEF.', 'Applies Lv. 6 Critical Hit and Blow Away up buff to 1 ATK-Style crew member, excluding self, for 13 seconds.', 'Applies Lv. 4 Special CT up buff to 1 ATK-Style crew member, excluding self, for 13 seconds.'],
+                    ['Deals 3,600 fixed damage to all enemies in a large, sideways range.', 'Deals 5,600 fixed damage to 1 enemy with the highest DEF.', 'Applies Lv. 7 Critical Hit and Blow Away up buff to 1 ATK-Style crew member, excluding self, for 14 seconds.', 'Applies Lv. 4 Special CT up buff to 1 ATK-Style crew member, excluding self, for 14 seconds.'],
+                    ['Deals 4,000 fixed damage to all enemies in a large, sideways range.', 'Deals 6,000 fixed damage to 1 enemy with the highest DEF.', 'Applies Lv. 8 Critical Hit and Blow Away up buff to 1 ATK-Style crew member, excluding self, for 15 seconds.', 'Applies Lv. 5 Special CT up buff to 1 ATK-Style crew member, excluding self, for 15 seconds.']
                 ]
             }
         }
@@ -77635,16 +77635,16 @@ window.rumble = {
             base: {
                 cooldown: 30,
                 descriptions: [
-                    ['Deals 2.6x ATK in damage to all enemies in a large, sideways range.', 'Reduces 23% of Special CT to 1 [STR] and Striker crew member, excluding self, with the lowest Special CT.', 'When there is 3 or more [Whitebeard Pirates] crew members, 100% chance to inflict Lv. 1 Damage Over Time to all enemies for 15 seconds.', 'When there is 3 or more [Whitebeard Pirates] crew members, deals 2,200 fixed damage to all enemies.'],
-                    ['Deals 2.7x ATK in damage to all enemies in a large, sideways range.', 'Reduces 26% of Special CT to 1 [STR] and Striker crew member, excluding self, with the lowest Special CT.', 'When there is 3 or more [Whitebeard Pirates] crew members, 100% chance to inflict Lv. 1 Damage Over Time to all enemies for 15 seconds.', 'When there is 3 or more [Whitebeard Pirates] crew members, deals 2,400 fixed damage to all enemies.'],
-                    ['Deals 2.8x ATK in damage to all enemies in a large, sideways range.', 'Reduces 29% of Special CT to 1 [STR] and Striker crew member, excluding self, with the lowest Special CT.', 'When there is 3 or more [Whitebeard Pirates] crew members, 100% chance to inflict Lv. 1 Damage Over Time to all enemies for 15 seconds.', 'When there is 3 or more [Whitebeard Pirates] crew members, deals 2,600 fixed damage to all enemies.'],
-                    ['Deals 2.9x ATK in damage to all enemies in a large, sideways range.', 'Reduces 32% of Special CT to 1 [STR] and Striker crew member, excluding self, with the lowest Special CT.', 'When there is 3 or more [Whitebeard Pirates] crew members, 100% chance to inflict Lv. 1 Damage Over Time to all enemies for 15 seconds.', 'When there is 3 or more [Whitebeard Pirates] crew members, deals 2,800 fixed damage to all enemies.'],
-                    ['Deals 3x ATK in damage to all enemies in a large, sideways range.', 'Reduces 35% of Special CT to 1 [STR] and Striker crew member, excluding self, with the lowest Special CT.', 'When there is 3 or more [Whitebeard Pirates] crew members, 100% chance to inflict Lv. 1 Damage Over Time to all enemies for 15 seconds.', 'When there is 3 or more [Whitebeard Pirates] crew members, deals 3,000 fixed damage to all enemies.'],
-                    ['Deals 3.1x ATK in damage to all enemies in a large, sideways range.', 'Reduces 38% of Special CT to 1 [STR] and Striker crew member, excluding self, with the lowest Special CT.', 'When there is 3 or more [Whitebeard Pirates] crew members, 100% chance to inflict Lv. 2 Damage Over Time to all enemies for 15 seconds.', 'When there is 3 or more [Whitebeard Pirates] crew members, deals 3,200 fixed damage to all enemies.'],
-                    ['Deals 3.2x ATK in damage to all enemies in a large, sideways range.', 'Reduces 41% of Special CT to 1 [STR] and Striker crew member, excluding self, with the lowest Special CT.', 'When there is 3 or more [Whitebeard Pirates] crew members, 100% chance to inflict Lv. 2 Damage Over Time to all enemies for 15 seconds.', 'When there is 3 or more [Whitebeard Pirates] crew members, deals 3,400 fixed damage to all enemies.'],
-                    ['Deals 3.3x ATK in damage to all enemies in a large, sideways range.', 'Reduces 44% of Special CT to 1 [STR] and Striker crew member, excluding self, with the lowest Special CT.', 'When there is 3 or more [Whitebeard Pirates] crew members, 100% chance to inflict Lv. 2 Damage Over Time to all enemies for 15 seconds.', 'When there is 3 or more [Whitebeard Pirates] crew members, deals 3,600 fixed damage to all enemies.'],
-                    ['Deals 3.4x ATK in damage to all enemies in a large, sideways range.', 'Reduces 47% of Special CT to 1 [STR] and Striker crew member, excluding self, with the lowest Special CT.', 'When there is 3 or more [Whitebeard Pirates] crew members, 100% chance to inflict Lv. 2 Damage Over Time to all enemies for 15 seconds.', 'When there is 3 or more [Whitebeard Pirates] crew members, deals 3,800 fixed damage to all enemies.'],
-                    ['Deals 3.5x ATK in damage to all enemies in a large, sideways range.', 'Reduces 50% of Special CT to 1 [STR] and Striker crew member, excluding self, with the lowest Special CT.', 'When there is 3 or more [Whitebeard Pirates] crew members, 100% chance to inflict Lv. 3 Damage Over Time to all enemies for 15 seconds.', 'When there is 3 or more [Whitebeard Pirates] crew members, deals 4,000 fixed damage to all enemies.']
+                    ['Deals 2.6x ATK in damage to all enemies in a large, sideways range.', 'Reduces 23% of Special CT to 1 [STR] and Striker crew member, excluding self, with the lowest Special CT.', 'When there is 3 or more [Whitebeard Pirates] crew members, inflicts Lv. 1 Damage Over Time to all enemies for 15 seconds.', 'When there is 3 or more [Whitebeard Pirates] crew members, deals 2,200 fixed damage to all enemies.'],
+                    ['Deals 2.7x ATK in damage to all enemies in a large, sideways range.', 'Reduces 26% of Special CT to 1 [STR] and Striker crew member, excluding self, with the lowest Special CT.', 'When there is 3 or more [Whitebeard Pirates] crew members, inflicts Lv. 1 Damage Over Time to all enemies for 15 seconds.', 'When there is 3 or more [Whitebeard Pirates] crew members, deals 2,400 fixed damage to all enemies.'],
+                    ['Deals 2.8x ATK in damage to all enemies in a large, sideways range.', 'Reduces 29% of Special CT to 1 [STR] and Striker crew member, excluding self, with the lowest Special CT.', 'When there is 3 or more [Whitebeard Pirates] crew members, inflicts Lv. 1 Damage Over Time to all enemies for 15 seconds.', 'When there is 3 or more [Whitebeard Pirates] crew members, deals 2,600 fixed damage to all enemies.'],
+                    ['Deals 2.9x ATK in damage to all enemies in a large, sideways range.', 'Reduces 32% of Special CT to 1 [STR] and Striker crew member, excluding self, with the lowest Special CT.', 'When there is 3 or more [Whitebeard Pirates] crew members, inflicts Lv. 1 Damage Over Time to all enemies for 15 seconds.', 'When there is 3 or more [Whitebeard Pirates] crew members, deals 2,800 fixed damage to all enemies.'],
+                    ['Deals 3x ATK in damage to all enemies in a large, sideways range.', 'Reduces 35% of Special CT to 1 [STR] and Striker crew member, excluding self, with the lowest Special CT.', 'When there is 3 or more [Whitebeard Pirates] crew members, inflicts Lv. 1 Damage Over Time to all enemies for 15 seconds.', 'When there is 3 or more [Whitebeard Pirates] crew members, deals 3,000 fixed damage to all enemies.'],
+                    ['Deals 3.1x ATK in damage to all enemies in a large, sideways range.', 'Reduces 38% of Special CT to 1 [STR] and Striker crew member, excluding self, with the lowest Special CT.', 'When there is 3 or more [Whitebeard Pirates] crew members, inflicts Lv. 2 Damage Over Time to all enemies for 15 seconds.', 'When there is 3 or more [Whitebeard Pirates] crew members, deals 3,200 fixed damage to all enemies.'],
+                    ['Deals 3.2x ATK in damage to all enemies in a large, sideways range.', 'Reduces 41% of Special CT to 1 [STR] and Striker crew member, excluding self, with the lowest Special CT.', 'When there is 3 or more [Whitebeard Pirates] crew members, inflicts Lv. 2 Damage Over Time to all enemies for 15 seconds.', 'When there is 3 or more [Whitebeard Pirates] crew members, deals 3,400 fixed damage to all enemies.'],
+                    ['Deals 3.3x ATK in damage to all enemies in a large, sideways range.', 'Reduces 44% of Special CT to 1 [STR] and Striker crew member, excluding self, with the lowest Special CT.', 'When there is 3 or more [Whitebeard Pirates] crew members, inflicts Lv. 2 Damage Over Time to all enemies for 15 seconds.', 'When there is 3 or more [Whitebeard Pirates] crew members, deals 3,600 fixed damage to all enemies.'],
+                    ['Deals 3.4x ATK in damage to all enemies in a large, sideways range.', 'Reduces 47% of Special CT to 1 [STR] and Striker crew member, excluding self, with the lowest Special CT.', 'When there is 3 or more [Whitebeard Pirates] crew members, inflicts Lv. 2 Damage Over Time to all enemies for 15 seconds.', 'When there is 3 or more [Whitebeard Pirates] crew members, deals 3,800 fixed damage to all enemies.'],
+                    ['Deals 3.5x ATK in damage to all enemies in a large, sideways range.', 'Reduces 50% of Special CT to 1 [STR] and Striker crew member, excluding self, with the lowest Special CT.', 'When there is 3 or more [Whitebeard Pirates] crew members, inflicts Lv. 3 Damage Over Time to all enemies for 15 seconds.', 'When there is 3 or more [Whitebeard Pirates] crew members, deals 4,000 fixed damage to all enemies.']
                 ]
             }
         }

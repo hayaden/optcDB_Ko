@@ -225,7 +225,7 @@
 	function createClassesSubmatchers(
 		groups,
 		includeUniversal = true,
-		universalRegex = "모두"
+		universalRegex = "all"
 	) {
 		var result = [];
 		for (var [i, class_] of classes.entries()) {
@@ -1136,11 +1136,10 @@
 				regex: /specialProportional/i,
 			},
 
-			// Prototype
 			{
 				name: "공격력 x배 데미지",
 				targets: ["rumbleSpecial"],
-				regex: /Deals ([.\d]+)x ATK in damage( ignoring DEF)? to (\d)?(?=((?:[^e]+|e(?!nem))*))\4enem(?:y|ies)(?: in a ([\w]+, [\w]+) range)?(?: (\d+) times?)?/i,
+				regex: /Deals ([.\d]+)x ATK in damage( ignoring DEF)? to (\d)?(?=((?:[^e]+|e(?!nem))*))\4enem(?:y|ies)(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: (\d+) times?)?/i,
 				submatchers: [
 					{
 						type: "number",
@@ -1150,12 +1149,12 @@
 					{
 						type: "number",
 						description: "횟수:",
-						groups: [6],
+						groups: [7],
 					},
 					{
 						type: "option",
 						description: "방어력 무시",
-						regex: /./,
+						regex: /./i,
 						groups: [2],
 						cssClasses: ["min-width-6"],
 					},
@@ -1171,7 +1170,7 @@
 					{
 						type: "option",
 						description: "모든 대상",
-						regex: /( |all)/,
+						regex: /all/i,
 						groups: [4],
 						cssClasses: ["min-width-6"],
 					},
@@ -1189,27 +1188,156 @@
 						type: "separator",
 						description: "범위:",
 					},
+					...createRangeSubmatcher([6]),
+				],
+			},
+
+			{
+				name: "고정데미지",
+				targets: ["rumbleSpecial"],
+				regex: /Deals ([,\d]+) fixed damage to (\d)?(?=((?:[^e]+|e(?!nem))*))\3enem(?:y|ies)(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: (\d+) times?)?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "데미지 양:",
+						groups: [1],
+					},
+					{
+						type: "number",
+						description: "횟수:",
+						groups: [6],
+					},
+					{
+						type: "separator",
+						description: "대상:",
+					},
+					{
+						type: "number",
+						description: "대상 수:",
+						groups: [2],
+					},
+					{
+						type: "option",
+						description: "모든 대상",
+						regex: /all/i,
+						groups: [3],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "속성:",
+					},
+					...createTypesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "타입:",
+					},
+					...createClassesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "범위:",
+					},
 					...createRangeSubmatcher([5]),
 				],
 			},
 
-			// {
-			// 	name: "Fixed",
-			// 	targets: ["rumbleSpecial"],
-			// 	regex: /Deals ([,\d]+) fixed damage/i,
-			// },
+			{
+				name: "비율 데미지",
+				targets: ["rumbleSpecial"],
+				regex: /([.\d]+)% HP cut to (\d)?(?=((?:[^e]+|e(?!nem))*))\3enem(?:y|ies)(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: (\d+) times?)?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "데미지 양:",
+						groups: [1],
+					},
+					{
+						type: "number",
+						description: "횟수:",
+						groups: [6],
+					},
+					{
+						type: "separator",
+						description: "대상:",
+					},
+					{
+						type: "number",
+						description: "대상 수:",
+						groups: [2],
+					},
+					{
+						type: "option",
+						description: "모든 대상",
+						regex: /all/i,
+						groups: [3],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "속성:",
+					},
+					...createTypesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "타입:",
+					},
+					...createClassesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "범위:",
+					},
+					...createRangeSubmatcher([5]),
+				],
+			},
 
-			// {
-			// 	name: "Percentage",
-			// 	targets: ["rumbleSpecial"],
-			// 	regex: /([.\d]+)% HP cut/i,
-			// },
-
-			// {
-			// 	name: "Random",
-			// 	targets: ["rumbleSpecial"],
-			// 	regex: /Randomly deals between ([,\d]+)-([,\d]+) fixed damage/i,
-			// },
+			{
+				name: "랜덤 데미지",
+				targets: ["rumbleSpecial"],
+				regex: /Randomly deals between ([,\d]+)-([,\d]+) fixed damage to (\d)?(?=((?:[^e]+|e(?!nem))*))\4enem(?:y|ies)(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: (\d+) times?)?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "데미지 양:",
+						groups: [1, 2],
+					},
+					{
+						type: "number",
+						description: "횟수:",
+						groups: [7],
+					},
+					{
+						type: "separator",
+						description: "대상:",
+					},
+					{
+						type: "number",
+						description: "대상 수:",
+						groups: [3],
+					},
+					{
+						type: "option",
+						description: "모두",
+						regex: /all/i,
+						groups: [4],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "속성:",
+					},
+					...createTypesSubmatchers([4]),
+					{
+						type: "separator",
+						description: "타입:",
+					},
+					...createClassesSubmatchers([4]),
+					{
+						type: "separator",
+						description: "범위:",
+					},
+					...createRangeSubmatcher([6]),
+				],
+			},
 
 		],
 		"데미지 및 능력치 강화": [
@@ -7883,12 +8011,12 @@
 					...createUniversalSubmatcher([2]),
 					{
 						type: "separator",
-						description: "Types:",
+						description: "속성:",
 					},
 					...createTypesSubmatchers([2]),
 					{
 						type: "separator",
-						description: "Classes:",
+						description: "타입:",
 					},
 					...createClassesSubmatchers([2]),
 				],
@@ -7908,12 +8036,12 @@
 					...createUniversalSubmatcher([2]),
 					{
 						type: "separator",
-						description: "Types:",
+						description: "속성:",
 					},
 					...createTypesSubmatchers([2]),
 					{
 						type: "separator",
-						description: "Classes:",
+						description: "타입:",
 					},
 					...createClassesSubmatchers([2]),
 				],
@@ -7933,12 +8061,12 @@
 					...createUniversalSubmatcher([2]),
 					{
 						type: "separator",
-						description: "Types:",
+						description: "속성:",
 					},
 					...createTypesSubmatchers([2]),
 					{
 						type: "separator",
-						description: "Classes:",
+						description: "타입:",
 					},
 					...createClassesSubmatchers([2]),
 				],
@@ -7958,12 +8086,12 @@
 					...createUniversalSubmatcher([2]),
 					{
 						type: "separator",
-						description: "Types:",
+						description: "속성:",
 					},
 					...createTypesSubmatchers([2]),
 					{
 						type: "separator",
-						description: "Classes:",
+						description: "타입:",
 					},
 					...createClassesSubmatchers([2]),
 				],
@@ -7983,12 +8111,12 @@
 					...createUniversalSubmatcher([2]),
 					{
 						type: "separator",
-						description: "Types:",
+						description: "속성:",
 					},
 					...createTypesSubmatchers([2]),
 					{
 						type: "separator",
-						description: "Classes:",
+						description: "타입:",
 					},
 					...createClassesSubmatchers([2]),
 				],
@@ -8008,12 +8136,12 @@
 					...createUniversalSubmatcher([2]),
 					{
 						type: "separator",
-						description: "Types:",
+						description: "속성:",
 					},
 					...createTypesSubmatchers([2]),
 					{
 						type: "separator",
-						description: "Classes:",
+						description: "타입:",
 					},
 					...createClassesSubmatchers([2]),
 				],
@@ -8033,12 +8161,12 @@
 					...createUniversalSubmatcher([2]),
 					{
 						type: "separator",
-						description: "Types:",
+						description: "속성:",
 					},
 					...createTypesSubmatchers([2]),
 					{
 						type: "separator",
-						description: "Classes:",
+						description: "타입:",
 					},
 					...createClassesSubmatchers([2]),
 				],
@@ -8058,12 +8186,12 @@
 					...createUniversalSubmatcher([2]),
 					{
 						type: "separator",
-						description: "Types:",
+						description: "속성:",
 					},
 					...createTypesSubmatchers([2]),
 					{
 						type: "separator",
-						description: "Classes:",
+						description: "타입:",
 					},
 					...createClassesSubmatchers([2]),
 				],
@@ -8083,12 +8211,12 @@
 					...createUniversalSubmatcher([2]),
 					{
 						type: "separator",
-						description: "Types:",
+						description: "속성:",
 					},
 					...createTypesSubmatchers([2]),
 					{
 						type: "separator",
-						description: "Classes:",
+						description: "타입:",
 					},
 					...createClassesSubmatchers([2]),
 				],
@@ -8108,12 +8236,12 @@
 					...createUniversalSubmatcher([2]),
 					{
 						type: "separator",
-						description: "Types:",
+						description: "속성:",
 					},
 					...createTypesSubmatchers([2]),
 					{
 						type: "separator",
-						description: "Classes:",
+						description: "타입:",
 					},
 					...createClassesSubmatchers([2]),
 				],
@@ -8133,12 +8261,12 @@
 					...createUniversalSubmatcher([2]),
 					{
 						type: "separator",
-						description: "Types:",
+						description: "속성:",
 					},
 					...createTypesSubmatchers([2]),
 					{
 						type: "separator",
-						description: "Classes:",
+						description: "타입:",
 					},
 					...createClassesSubmatchers([2]),
 				],
@@ -8160,12 +8288,12 @@
 					...createUniversalSubmatcher([2]),
 					{
 						type: "separator",
-						description: "Types:",
+						description: "속성:",
 					},
 					...createTypesSubmatchers([2]),
 					{
 						type: "separator",
-						description: "Classes:",
+						description: "타입:",
 					},
 					...createClassesSubmatchers([2]),
 				],
@@ -8185,12 +8313,12 @@
 					...createUniversalSubmatcher([2]),
 					{
 						type: "separator",
-						description: "Types:",
+						description: "속성:",
 					},
 					...createTypesSubmatchers([2]),
 					{
 						type: "separator",
-						description: "Classes:",
+						description: "타입:",
 					},
 					...createClassesSubmatchers([2]),
 				],
@@ -8210,12 +8338,12 @@
 					...createUniversalSubmatcher([2]),
 					{
 						type: "separator",
-						description: "Types:",
+						description: "속성:",
 					},
 					...createTypesSubmatchers([2]),
 					{
 						type: "separator",
-						description: "Classes:",
+						description: "타입:",
 					},
 					...createClassesSubmatchers([2]),
 				],
@@ -8235,12 +8363,12 @@
 					...createUniversalSubmatcher([2]),
 					{
 						type: "separator",
-						description: "Types:",
+						description: "속성:",
 					},
 					...createTypesSubmatchers([2]),
 					{
 						type: "separator",
-						description: "Classes:",
+						description: "타입:",
 					},
 					...createClassesSubmatchers([2]),
 				],
@@ -8260,12 +8388,12 @@
 					...createUniversalSubmatcher([2]),
 					{
 						type: "separator",
-						description: "Types:",
+						description: "속성:",
 					},
 					...createTypesSubmatchers([2]),
 					{
 						type: "separator",
-						description: "Classes:",
+						description: "타입:",
 					},
 					...createClassesSubmatchers([2]),
 				],
@@ -8285,12 +8413,12 @@
 					...createUniversalSubmatcher([2]),
 					{
 						type: "separator",
-						description: "Types:",
+						description: "속성:",
 					},
 					...createTypesSubmatchers([2]),
 					{
 						type: "separator",
-						description: "Classes:",
+						description: "타입:",
 					},
 					...createClassesSubmatchers([2]),
 				],
@@ -8310,12 +8438,12 @@
 					...createUniversalSubmatcher([2]),
 					{
 						type: "separator",
-						description: "Types:",
+						description: "속성:",
 					},
 					...createTypesSubmatchers([2]),
 					{
 						type: "separator",
-						description: "Classes:",
+						description: "타입:",
 					},
 					...createClassesSubmatchers([2]),
 				],
@@ -8335,17 +8463,506 @@
 					...createUniversalSubmatcher([2]),
 					{
 						type: "separator",
-						description: "Types:",
+						description: "속성:",
 					},
 					...createTypesSubmatchers([2]),
 					{
 						type: "separator",
-						description: "Classes:",
+						description: "타입:",
 					},
 					...createClassesSubmatchers([2]),
 				],
 			},
 		],
+
+		"적 디버프 부여": [
+
+			{
+				name: "행동 봉쇄",
+				targets: ["rumbleSpecial"],
+				regex:
+					/([.\d]+)% chance to inflict[^.]+Action Bind[^.]+to (\d)?(?=((?:[^e]+|e(?!nem))*))\3enem(?:y|ies)(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)? for (\d+) seconds/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "봉쇄 확률:",
+						groups: [1],
+					},
+					{
+						type: "number",
+						description: "지속시간:",
+						groups: [6],
+					},
+					{
+						type: "separator",
+						description: "대상:",
+					},
+					{
+						type: "number",
+						description: "대상 수:",
+						groups: [2],
+					},
+					{
+						type: "option",
+						description: "모두",
+						regex: /all/i,
+						groups: [3],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "속성:",
+					},
+					...createTypesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "타입:",
+					},
+					...createClassesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "범위:",
+					},
+					...createRangeSubmatcher([5]),
+				],
+			},
+
+			{
+				name: "혼란 상태",
+				targets: ["rumbleSpecial"],
+				regex:
+					/([.\d]+)% chance to inflict[^.]+Confusion[^.]+to (\d)?(?=((?:[^e]+|e(?!nem))*))\3enem(?:y|ies)(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)? for (\d+) seconds/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "확률:",
+						groups: [1],
+					},
+					{
+						type: "number",
+						description: "지속시간:",
+						groups: [6],
+					},
+					{
+						type: "separator",
+						description: "대상:",
+					},
+					{
+						type: "number",
+						description: "대상 수:",
+						groups: [2],
+					},
+					{
+						type: "option",
+						description: "모두",
+						regex: /all/i,
+						groups: [3],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "속성:",
+					},
+					...createTypesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "타입:",
+					},
+					...createClassesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "범위:",
+					},
+					...createRangeSubmatcher([5]),
+				],
+			},
+
+			{
+				name: "강제 퇴장",
+				targets: ["rumbleSpecial"],
+				regex:
+					/([.\d]+)% chance to inflict[^.]+Forced Out[^.]+to (\d)?(?=((?:[^e]+|e(?!nem))*))\3enem(?:y|ies)(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)? for (\d+) seconds/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "확률:",
+						groups: [1],
+					},
+					{
+						type: "number",
+						description: "지속시간:",
+						groups: [6],
+					},
+					{
+						type: "separator",
+						description: "대상:",
+					},
+					{
+						type: "number",
+						description: "대상 수:",
+						groups: [2],
+					},
+					{
+						type: "option",
+						description: "모두",
+						regex: /all/i,
+						groups: [3],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "속성:",
+					},
+					...createTypesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "타입:",
+					},
+					...createClassesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "범위:",
+					},
+					...createRangeSubmatcher([5]),
+				],
+			},
+
+			{
+				name: "마비 상태",
+				targets: ["rumbleSpecial"],
+				regex:
+					/([.\d]+)% chance to inflict[^.]+Paralysis[^.]+to (\d)?(?=((?:[^e]+|e(?!nem))*))\3enem(?:y|ies)(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)? for (\d+) seconds/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "확률:",
+						groups: [1],
+					},
+					{
+						type: "number",
+						description: "지속시간:",
+						groups: [6],
+					},
+					{
+						type: "separator",
+						description: "대상:",
+					},
+					{
+						type: "number",
+						description: "대상 수:",
+						groups: [2],
+					},
+					{
+						type: "option",
+						description: "모두",
+						regex: /all/i,
+						groups: [3],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "속성:",
+					},
+					...createTypesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "타입:",
+					},
+					...createClassesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "범위:",
+					},
+					...createRangeSubmatcher([5]),
+				],
+			},
+
+			{
+				name: "회복 봉쇄",
+				targets: ["rumbleSpecial"],
+				regex:
+					/([.\d]+)% chance to inflict[^.]+RCV Bind[^.]+to (\d)?(?=((?:[^e]+|e(?!nem))*))\3enem(?:y|ies)(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)? for (\d+) seconds/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "확률:",
+						groups: [1],
+					},
+					{
+						type: "number",
+						description: "지속시간:",
+						groups: [6],
+					},
+					{
+						type: "separator",
+						description: "대상:",
+					},
+					{
+						type: "number",
+						description: "대상 수:",
+						groups: [2],
+					},
+					{
+						type: "option",
+						description: "모두",
+						regex: /all/i,
+						groups: [3],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "속성:",
+					},
+					...createTypesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "타입:",
+					},
+					...createClassesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "범위:",
+					},
+					...createRangeSubmatcher([5]),
+				],
+			},
+
+			{
+				name: "필살기 봉쇄",
+				targets: ["rumbleSpecial"],
+				regex:
+					/([.\d]+)% chance to inflict[^.]+Special Bind[^.]+to (\d)?(?=((?:[^e]+|e(?!nem))*))\3enem(?:y|ies)(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)? for (\d+) seconds/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "확률:",
+						groups: [1],
+					},
+					{
+						type: "number",
+						description: "지속시간:",
+						groups: [6],
+					},
+					{
+						type: "separator",
+						description: "대상:",
+					},
+					{
+						type: "number",
+						description: "대상 수:",
+						groups: [2],
+					},
+					{
+						type: "option",
+						description: "모두",
+						regex: /all/i,
+						groups: [3],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "속성:",
+					},
+					...createTypesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "타입:",
+					},
+					...createClassesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "범위:",
+					},
+					...createRangeSubmatcher([5]),
+				],
+			},
+
+			{
+				name: "능력치 감소",
+				targets: ["rumbleSpecial"],
+				regex:
+					/([.\d]+)% chance to inflict[^.]+Half([^.]+)to (\d)?(?=((?:[^e]+|e(?!nem))*))\4enem(?:y|ies)(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)? for (\d+) seconds/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "확률:",
+						groups: [1],
+					},
+					{
+						type: "number",
+						description: "지속시간:",
+						groups: [7],
+					},
+					{
+						type: "option",
+						description: "모두",
+						regex: /Stats/i,
+						groups: [2],
+						cssClasses: ["min-width-4"],
+					},
+					{
+						type: "option",
+						description: "공격력",
+						regex: /(ATK|Stats)/i,
+						groups: [2],
+						cssClasses: ["min-width-4"],
+					},
+					{
+						type: "option",
+						description: "방어력",
+						regex: /(DEF|Stats)/i,
+						groups: [2],
+						cssClasses: ["min-width-4"],
+					},
+					{
+						type: "option",
+						description: "회복력",
+						regex: /(RCV|Stats)/i,
+						groups: [2],
+						cssClasses: ["min-width-4"],
+					},
+					{
+						type: "option",
+						description: "속도",
+						regex: /(SPD|Stats)/i,
+						groups: [2],
+						cssClasses: ["min-width-4"],
+					},
+					{
+						type: "separator",
+						description: "대상:",
+					},
+					{
+						type: "number",
+						description: "대상 수:",
+						groups: [3],
+					},
+					{
+						type: "option",
+						description: "모두",
+						regex: /all/i,
+						groups: [4],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "속성:",
+					},
+					...createTypesSubmatchers([4]),
+					{
+						type: "separator",
+						description: "타입:",
+					},
+					...createClassesSubmatchers([4]),
+					{
+						type: "separator",
+						description: "범위:",
+					},
+					...createRangeSubmatcher([6]),
+				],
+			},
+
+			{
+				name: "지속 데미지",
+				targets: ["rumbleSpecial"],
+				regex:
+					/Inflicts Lv. (\d+) Damage Over Time to (\d)?(?=((?:[^e]+|e(?!nem))*))\3enem(?:y|ies)(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)? for (\d+) seconds/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "Level:",
+						groups: [1],
+					},
+					{
+						type: "number",
+						description: "지속시간:",
+						groups: [6],
+					},
+					{
+						type: "separator",
+						description: "대상:",
+					},
+					{
+						type: "number",
+						description: "대상 수:",
+						groups: [2],
+					},
+					{
+						type: "option",
+						description: "모두",
+						regex: /all/i,
+						groups: [3],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "속성:",
+					},
+					...createTypesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "타입:",
+					},
+					...createClassesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "범위:",
+					},
+					...createRangeSubmatcher([5]),
+				],
+			},
+
+			{
+				name: "필살기 쿨타임 지연",
+				targets: ["rumbleSpecial"],
+				regex:
+					/Removes ([.\d]+)% of Special CT to (\d)?(?=((?:[^e]+|e(?!nem))*))\3enem(?:y|ies)(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: (\d+) times?)?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "지연 양:",
+						groups: [1],
+					},
+					{
+						type: "number",
+						description: "횟수:",
+						groups: [6],
+					},
+					{
+						type: "separator",
+						description: "대상:",
+					},
+					{
+						type: "number",
+						description: "대상 수:",
+						groups: [2],
+					},
+					{
+						type: "option",
+						description: "모두",
+						regex: /all/i,
+						groups: [3],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "속성:",
+					},
+					...createTypesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "타입:",
+					},
+					...createClassesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "범위:",
+					},
+					...createRangeSubmatcher([5]),
+				],
+			},
+
+					],
 
 		"내성": [
 
@@ -8795,17 +9412,17 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Percentage:",
+						description: "감소 비율:",
 						groups: [1],
 					},
 					{
 						type: "separator",
-						description: "Types:",
+						description: "속성:",
 					},
 					...createTypesSubmatchers([2]),
 					{
 						type: "separator",
-						description: "Classes:",
+						description: "타입:",
 					},
 					...createClassesSubmatchers([2]),
 				],
@@ -8819,12 +9436,12 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Multiplier:",
+						description: "배율:",
 						groups: [1],
 					},
 					{
 						type: "separator",
-						description: "Types:",
+						description: "속성:",
 					},
 					...createTypesSubmatchers([2]),
 				],
@@ -8838,7 +9455,7 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Amount:",
+						description: "회복량:",
 						groups: [1],
 					},
 				],
