@@ -1339,6 +1339,56 @@
 				],
 			},
 
+			{
+				name: "지속 데미지",
+				targets: ["rumbleSpecial"],
+				regex:
+					/Inflicts Lv. (\d+) Damage Over Time to (\d)?(?=((?:[^e]+|e(?!nem))*))\3enem(?:y|ies)(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)? for (\d+) seconds/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "Level:",
+						groups: [1],
+					},
+					{
+						type: "number",
+						description: "지속시간:",
+						groups: [6],
+					},
+					{
+						type: "separator",
+						description: "대상:",
+					},
+					{
+						type: "number",
+						description: "대상 수:",
+						groups: [2],
+					},
+					{
+						type: "option",
+						description: "모든",
+						regex: /all/i,
+						groups: [3],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "속성:",
+					},
+					...createTypesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "타입:",
+					},
+					...createClassesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "범위:",
+					},
+					...createRangeSubmatcher([5]),
+				],
+			},
+
 		],
 		"데미지 및 능력치 강화": [
 			{
@@ -8001,7 +8051,7 @@
 				name: "미스 발생 확률 감소",
 				targets: ["rumbleAbility"],
 				regex:
-					/Applies Lv. ([\d]+)[^.]+Accuracy[^.]+up buff to ([^.]+)/i,
+					/Applies Lv. ([\d]+)[^.]+Accuracy[^.]+up buff to (\d)?(?=((?:[^c]+|c(?!rew))*))\3crew members?(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
 				submatchers: [
 					{
 						type: "number",
@@ -8026,7 +8076,7 @@
 				name: "공격력",
 				targets: ["rumbleAbility"],
 				regex:
-					/Applies Lv. ([\d]+)[^.]+ATK[^.]+up buff to ([^.]+)/i,
+					/Applies Lv. ([\d]+)[^.]+ATK[^.]+up buff to (\d)?(?=((?:[^c]+|c(?!rew))*))\3crew members?(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
 				submatchers: [
 					{
 						type: "number",
@@ -8051,7 +8101,7 @@
 				name: "날려버리기 발생 확률",
 				targets: ["rumbleAbility"],
 				regex:
-					/Applies Lv. ([\d]+)[^.]+Blow Away[^.]+up buff to ([^.]+)/i,
+					/Applies Lv. ([\d]+)[^.]+Blow Away[^.]+up buff to (\d)?(?=((?:[^c]+|c(?!rew))*))\3crew members?(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
 				submatchers: [
 					{
 						type: "number",
@@ -8076,7 +8126,7 @@
 				name: "크리티컬 발생 확률",
 				targets: ["rumbleAbility"],
 				regex:
-					/Applies Lv. ([\d]+)[^.]+Critical Hit[^.]+up buff to ([^.]+)/i,
+					/Applies Lv. ([\d]+)[^.]+Critical Hit[^.]+up buff to (\d)?(?=((?:[^c]+|c(?!rew))*))\3crew members?(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
 				submatchers: [
 					{
 						type: "number",
@@ -8101,7 +8151,7 @@
 				name: "방어력",
 				targets: ["rumbleAbility"],
 				regex:
-					/Applies Lv. ([\d]+)[^.]+DEF[^.]+up buff to ([^.]+)/i,
+					/Applies Lv. ([\d]+)[^.]+DEF[^.]+up buff to (\d)?(?=((?:[^c]+|c(?!rew))*))\3crew members?(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
 				submatchers: [
 					{
 						type: "number",
@@ -8126,7 +8176,7 @@
 				name: "가드 성공 확률",
 				targets: ["rumbleAbility"],
 				regex:
-					/Applies Lv. ([\d]+)[^.]+Guard[^.]+up buff to ([^.]+)/i,
+					/Applies Lv. ([\d]+)[^.]+Guard[^.]+up buff to (\d)?(?=((?:[^c]+|c(?!rew))*))\3crew members?(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
 				submatchers: [
 					{
 						type: "number",
@@ -8176,7 +8226,7 @@
 				name: "회복력",
 				targets: ["rumbleAbility"],
 				regex:
-					/Applies Lv. ([\d]+)[^.]+RCV[^.]+up buff to ([^.]+)/i,
+					/Applies Lv. ([\d]+)[^.]+RCV[^.]+up buff to (\d)?(?=((?:[^c]+|c(?!rew))*))\3crew members?(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
 				submatchers: [
 					{
 						type: "number",
@@ -8201,7 +8251,7 @@
 				name: "실드",
 				targets: ["rumbleAbility"],
 				regex:
-					/Applies Lv. ([\d]+)[^.]+Shield[^.]+up buff to ([^.]+)/i,
+					/Applies Lv. ([\d]+)[^.]+Shield[^.]+up buff to (\d)?(?=((?:[^c]+|c(?!rew))*))\3crew members?(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
 				submatchers: [
 					{
 						type: "number",
@@ -8226,7 +8276,7 @@
 				name: "속도",
 				targets: ["rumbleAbility"],
 				regex:
-					/Applies Lv. ([\d]+)[^.]+SPD[^.]+up buff to ([^.]+)/i,
+					/Applies Lv. ([\d]+)[^.]+SPD[^.]+up buff to (\d)?(?=((?:[^c]+|c(?!rew))*))\3crew members?(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
 				submatchers: [
 					{
 						type: "number",
@@ -8251,7 +8301,7 @@
 				name: "필살기 쿨타임이 차는 속도",
 				targets: ["rumbleAbility"],
 				regex:
-					/Applies Lv. ([\d]+)[^.]+Special CT[^.]+up buff to ([^.]+)/i,
+					/Applies Lv. ([\d]+)[^.]+Special CT[^.]+up buff to (\d)?(?=((?:[^c]+|c(?!rew))*))\3crew members?(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
 				submatchers: [
 					{
 						type: "number",
@@ -8271,11 +8321,512 @@
 					...createClassesSubmatchers([2]),
 				],
 			},
+
+			{
+				name: "미스 확률 증가",
+				targets: ["rumbleSpecial"],
+				regex:
+					/Applies Lv. ([\d]+)[^.]+Accuracy[^.]+up buff to (\d)?(?=((?:[^c]+|c(?!rew))*))\3crew members?(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "Level:",
+						groups: [1],
+					},
+					{
+						type: "number",
+						description: "지속시간:",
+						groups: [6],
+					},
+					{
+						type: "separator",
+						description: "대상:",
+					},
+					{
+						type: "number",
+						description: "대상 수:",
+						groups: [2],
+					},
+					{
+						type: "option",
+						description: "모두",
+						regex: /all/i,
+						groups: [3],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "속성:",
+					},
+					...createTypesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "타입:",
+					},
+					...createClassesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "범위:",
+					},
+					...createRangeSubmatcher([5]),
+				],
+			},
+
+			{
+				name: "공격력 상승",
+				targets: ["rumbleSpecial"],
+				regex:
+					/Applies Lv. ([\d]+)[^.]+ATK[^.]+up buff to (\d)?(?=((?:[^c]+|c(?!rew))*))\3crew members?(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "Level:",
+						groups: [1],
+					},
+					{
+						type: "number",
+						description: "지속시간:",
+						groups: [6],
+					},
+					{
+						type: "separator",
+						description: "대상:",
+					},
+					{
+						type: "number",
+						description: "대상 수:",
+						groups: [7],
+					},
+					{
+						type: "option",
+						description: "모두",
+						regex: /all/i,
+						groups: [3],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "속성:",
+					},
+					...createTypesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "타입:",
+					},
+					...createClassesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "범위:",
+					},
+					...createRangeSubmatcher([5]),
+				],
+			},
+
+			{
+				name: "날려버리기 확률 상승",
+				targets: ["rumbleSpecial"],
+				regex:
+					/Applies Lv. ([\d]+)[^.]+Blow Away[^.]+up buff to (\d)?(?=((?:[^c]+|c(?!rew))*))\3crew members?(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "Level:",
+						groups: [1],
+					},
+					{
+						type: "number",
+						description: "지속시간:",
+						groups: [6],
+					},
+					{
+						type: "separator",
+						description: "대상:",
+					},
+					{
+						type: "number",
+						description: "대상 수:",
+						groups: [2],
+					},
+					{
+						type: "option",
+						description: "모두",
+						regex: /all/i,
+						groups: [3],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "속성:",
+					},
+					...createTypesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "타입:",
+					},
+					...createClassesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "범위:",
+					},
+					...createRangeSubmatcher([5]),
+				],
+			},
+
+			{
+				name: "크리티컬 확률 증가",
+				targets: ["rumbleSpecial"],
+				regex:
+					/Applies Lv. ([\d]+)[^.]+Critical Hit[^.]+up buff to (\d)?(?=((?:[^c]+|c(?!rew))*))\3crew members?(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "Level:",
+						groups: [1],
+					},
+					{
+						type: "number",
+						description: "지속시간:",
+						groups: [6],
+					},
+					{
+						type: "separator",
+						description: "대상:",
+					},
+					{
+						type: "number",
+						description: "대상 수:",
+						groups: [2],
+					},
+					{
+						type: "option",
+						description: "모두",
+						regex: /all/i,
+						groups: [3],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "속성:",
+					},
+					...createTypesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "타입:",
+					},
+					...createClassesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "범위:",
+					},
+					...createRangeSubmatcher([5]),
+				],
+			},
+
+			{
+				name: "방어력 증가",
+				targets: ["rumbleSpecial"],
+				regex:
+					/Applies Lv. ([\d]+)[^.]+DEF[^.]+up buff to (\d)?(?=((?:[^c]+|c(?!rew))*))\3crew members?(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "Level:",
+						groups: [1],
+					},
+					{
+						type: "number",
+						description: "지속시간:",
+						groups: [6],
+					},
+					{
+						type: "separator",
+						description: "대상:",
+					},
+					{
+						type: "number",
+						description: "대상 수:",
+						groups: [2],
+					},
+					{
+						type: "option",
+						description: "모두",
+						regex: /all/i,
+						groups: [3],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "속성:",
+					},
+					...createTypesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "타입:",
+					},
+					...createClassesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "범위:",
+					},
+					...createRangeSubmatcher([5]),
+				],
+			},
+
+			{
+				name: "가드 성공확률 상승",
+				targets: ["rumbleSpecial"],
+				regex:
+					/Applies Lv. ([\d]+)[^.]+Guard[^.]+up buff to (\d)?(?=((?:[^c]+|c(?!rew))*))\3crew members?(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "Level:",
+						groups: [1],
+					},
+					{
+						type: "number",
+						description: "지속시간:",
+						groups: [6],
+					},
+					{
+						type: "separator",
+						description: "대상:",
+					},
+					{
+						type: "number",
+						description: "대상 수:",
+						groups: [2],
+					},
+					{
+						type: "option",
+						description: "모두",
+						regex: /all/i,
+						groups: [3],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "속성:",
+					},
+					...createTypesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "타입:",
+					},
+					...createClassesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "범위:",
+					},
+					...createRangeSubmatcher([5]),
+				],
+			},
+
+			{
+				name: "회복력 상승",
+				targets: ["rumbleSpecial"],
+				regex:
+					/Applies Lv. ([\d]+)[^.]+RCV[^.]+up buff to (\d)?(?=((?:[^c]+|c(?!rew))*))\3crew members?(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "Level:",
+						groups: [1],
+					},
+					{
+						type: "number",
+						description: "지속시간:",
+						groups: [6],
+					},
+					{
+						type: "separator",
+						description: "대상:",
+					},
+					{
+						type: "number",
+						description: "대상 수:",
+						groups: [2],
+					},
+					{
+						type: "option",
+						description: "모두",
+						regex: /all/i,
+						groups: [3],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "속성:",
+					},
+					...createTypesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "타입:",
+					},
+					...createClassesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "범위:",
+					},
+					...createRangeSubmatcher([5]),
+				],
+			},
+
+			{
+				name: "실드 부여",
+				targets: ["rumbleSpecial"],
+				regex:
+					/Applies Lv. ([\d]+)[^.]+Shield[^.]+up buff to (\d)?(?=((?:[^c]+|c(?!rew))*))\3crew members?(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "Level:",
+						groups: [1],
+					},
+					{
+						type: "number",
+						description: "지속시간:",
+						groups: [6],
+					},
+					{
+						type: "separator",
+						description: "대상:",
+					},
+					{
+						type: "number",
+						description: "대상 수:",
+						groups: [2],
+					},
+					{
+						type: "option",
+						description: "모두",
+						regex: /all/i,
+						groups: [3],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "속성:",
+					},
+					...createTypesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "타입:",
+					},
+					...createClassesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "범위:",
+					},
+					...createRangeSubmatcher([5]),
+				],
+			},
+
+			{
+				name: "속도 증가",
+				targets: ["rumbleSpecial"],
+				regex:
+					/Applies Lv. ([\d]+)[^.]+SPD[^.]+up buff to (\d)?(?=((?:[^c]+|c(?!rew))*))\3crew members?(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "Level:",
+						groups: [1],
+					},
+					{
+						type: "number",
+						description: "지속시간:",
+						groups: [6],
+					},
+					{
+						type: "separator",
+						description: "대상:",
+					},
+					{
+						type: "number",
+						description: "대상 수:",
+						groups: [2],
+					},
+					{
+						type: "option",
+						description: "모두",
+						regex: /all/i,
+						groups: [3],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "속성:",
+					},
+					...createTypesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "타입:",
+					},
+					...createClassesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "범위:",
+					},
+					...createRangeSubmatcher([5]),
+				],
+			},
+
+			{
+				name: "필살기 쿨타임 속도 상승",
+				targets: ["rumbleSpecial"],
+				regex:
+					/Applies Lv. ([\d]+)[^.]+Special CT[^.]+up buff to (\d)?(?=((?:[^c]+|c(?!rew))*))\3crew members?(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "Level:",
+						groups: [1],
+					},
+					{
+						type: "number",
+						description: "지속시간:",
+						groups: [6],
+					},
+					{
+						type: "separator",
+						description: "대상:",
+					},
+					{
+						type: "number",
+						description: "대상 수:",
+						groups: [2],
+					},
+					{
+						type: "option",
+						description: "모두",
+						regex: /all/i,
+						groups: [3],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "속성:",
+					},
+					...createTypesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "타입:",
+					},
+					...createClassesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "범위:",
+					},
+					...createRangeSubmatcher([5]),
+				],
+			},
+
 		],
 
 		"디버프": [
 			{
-				name: "미스 발생 확률 상승",
+				name: "미스 확률 증가",
 				targets: ["rumbleAbility"],
 				regex:
 					/Inflicts Lv. ([\d]+)[^.]+Accuracy[^.]+down debuff to ([^.]+)/i,
@@ -8303,7 +8854,7 @@
 				name: "공격력",
 				targets: ["rumbleAbility"],
 				regex:
-					/Inflicts Lv. ([\d]+)[^.]+ATK[^.]+down debuff to ([^.]+)/i,
+					/Inflicts Lv. ([\d]+)[^.]+ATK[^.]+down debuff to (\d)?(?=((?:[^e]+|e(?!nem))*))\3enem(?:y|ies)(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?(?: (\d+) times?)?/i,
 				submatchers: [
 					{
 						type: "number",
@@ -8473,25 +9024,82 @@
 					...createClassesSubmatchers([2]),
 				],
 			},
-		],
-
-		"적 디버프 부여": [
 
 			{
-				name: "행동 봉쇄",
+				name: "미스확률 발생 증가",
 				targets: ["rumbleSpecial"],
 				regex:
-					/([.\d]+)% chance to inflict[^.]+Action Bind[^.]+to (\d)?(?=((?:[^e]+|e(?!nem))*))\3enem(?:y|ies)(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)? for (\d+) seconds/i,
+					/Inflicts Lv. ([\d]+)[^.]+Accuracy[^.]+down debuff to (\d)?(?=((?:[^e]+|e(?!nem))*))\3enem(?:y|ies)(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?(?: (\d+) times?)?/i,
 				submatchers: [
 					{
 						type: "number",
-						description: "봉쇄 확률:",
+						description: "Level:",
 						groups: [1],
 					},
 					{
 						type: "number",
 						description: "지속시간:",
 						groups: [6],
+					},
+					{
+						type: "number",
+						description: "횟수:",
+						groups: [7],
+					},
+					{
+						type: "separator",
+						description: "대상:",
+					},
+					{
+						type: "number",
+						description: "대상 수:",
+						groups: [2],
+					},
+					{
+						type: "option",
+						description: "모든",
+						regex: /all/i,
+						groups: [3],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "속성:",
+					},
+					...createTypesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "타입:",
+					},
+					...createClassesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "범위:",
+					},
+					...createRangeSubmatcher([5]),
+				],
+			},
+
+			{
+				name: "공격력",
+				targets: ["rumbleSpecial"],
+				regex:
+					/Inflicts Lv. ([\d]+)[^.]+ATK[^.]+down debuff to (\d)?(?=((?:[^e]+|e(?!nem))*))\3enem(?:y|ies)(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?(?: (\d+) times?)?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "Level:",
+						groups: [1],
+					},
+					{
+						type: "number",
+						description: "지속 시간:",
+						groups: [6],
+					},
+					{
+						type: "number",
+						description: "횟수:",
+						groups: [7],
 					},
 					{
 						type: "separator",
@@ -8528,10 +9136,344 @@
 			},
 
 			{
-				name: "혼란 상태",
+				name: "크리티컬 발생 확률",
 				targets: ["rumbleSpecial"],
 				regex:
-					/([.\d]+)% chance to inflict[^.]+Confusion[^.]+to (\d)?(?=((?:[^e]+|e(?!nem))*))\3enem(?:y|ies)(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)? for (\d+) seconds/i,
+					/Inflicts Lv. ([\d]+)[^.]+Critical Hit[^.]+down debuff to (\d)?(?=((?:[^e]+|e(?!nem))*))\3enem(?:y|ies)(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?(?: (\d+) times?)?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "발생 확률:",
+						groups: [1],
+					},
+					{
+						type: "number",
+						description: "지속시간:",
+						groups: [6],
+					},
+					{
+						type: "number",
+						description: "횟수:",
+						groups: [7],
+					},
+					{
+						type: "separator",
+						description: "대상:",
+					},
+					{
+						type: "number",
+						description: "대상 수:",
+						groups: [2],
+					},
+					{
+						type: "option",
+						description: "모두",
+						regex: /all/i,
+						groups: [3],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "속성:",
+					},
+					...createTypesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "타입:",
+					},
+					...createClassesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "범위:",
+					},
+					...createRangeSubmatcher([5]),
+				],
+			},
+
+			{
+				name: "방어력",
+				targets: ["rumbleSpecial"],
+				regex:
+					/Inflicts Lv. ([\d]+)[^.]+DEF[^.]+down debuff to (\d)?(?=((?:[^e]+|e(?!nem))*))\3enem(?:y|ies)(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?(?: (\d+) times?)?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "확률:",
+						groups: [1],
+					},
+					{
+						type: "number",
+						description: "지속시간:",
+						groups: [6],
+					},
+					{
+						type: "number",
+						description: "횟수:",
+						groups: [7],
+					},
+					{
+						type: "separator",
+						description: "대상:",
+					},
+					{
+						type: "number",
+						description: "대상 수:",
+						groups: [2],
+					},
+					{
+						type: "option",
+						description: "모두",
+						regex: /all/i,
+						groups: [3],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "속성:",
+					},
+					...createTypesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "타입:",
+					},
+					...createClassesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "범위:",
+					},
+					...createRangeSubmatcher([5]),
+				],
+			},
+
+			{
+				name: "가드",
+				targets: ["rumbleSpecial"],
+				regex:
+					/Inflicts Lv. ([\d]+)[^.]+Guard[^.]+down debuff to (\d)?(?=((?:[^e]+|e(?!nem))*))\3enem(?:y|ies)(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?(?: (\d+) times?)?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "확률:",
+						groups: [1],
+					},
+					{
+						type: "number",
+						description: "지속시간:",
+						groups: [6],
+					},
+					{
+						type: "number",
+						description: "횟수:",
+						groups: [7],
+					},
+					{
+						type: "separator",
+						description: "대상:",
+					},
+					{
+						type: "number",
+						description: "대상 수:",
+						groups: [2],
+					},
+					{
+						type: "option",
+						description: "모두",
+						regex: /all/i,
+						groups: [3],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "속성:",
+					},
+					...createTypesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "타입:",
+					},
+					...createClassesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "범위:",
+					},
+					...createRangeSubmatcher([5]),
+				],
+			},
+
+			{
+				name: "회복력",
+				targets: ["rumbleSpecial"],
+				regex:
+					/Inflicts Lv. ([\d]+)[^.]+RCV[^.]+down debuff to (\d)?(?=((?:[^e]+|e(?!nem))*))\3enem(?:y|ies)(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?(?: (\d+) times?)?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "확률:",
+						groups: [1],
+					},
+					{
+						type: "number",
+						description: "지속시간:",
+						groups: [6],
+					},
+					{
+						type: "number",
+						description: "횟수:",
+						groups: [7],
+					},
+					{
+						type: "separator",
+						description: "대상:",
+					},
+					{
+						type: "number",
+						description: "대상 수:",
+						groups: [2],
+					},
+					{
+						type: "option",
+						description: "모두",
+						regex: /all/i,
+						groups: [3],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "속성:",
+					},
+					...createTypesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "타입:",
+					},
+					...createClassesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "범위:",
+					},
+					...createRangeSubmatcher([5]),
+				],
+			},
+
+			{
+				name: "속도",
+				targets: ["rumbleSpecial"],
+				regex:
+					/Inflicts Lv. ([\d]+)[^.]+SPD[^.]+down debuff to (\d)?(?=((?:[^e]+|e(?!nem))*))\3enem(?:y|ies)(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?(?: (\d+) times?)?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "확률:",
+						groups: [1],
+					},
+					{
+						type: "number",
+						description: "지속시간:",
+						groups: [6],
+					},
+					{
+						type: "number",
+						description: "횟수:",
+						groups: [7],
+					},
+					{
+						type: "separator",
+						description: "대상:",
+					},
+					{
+						type: "number",
+						description: "대상 수:",
+						groups: [2],
+					},
+					{
+						type: "option",
+						description: "모두",
+						regex: /all/i,
+						groups: [3],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "속성:",
+					},
+					...createTypesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "타입:",
+					},
+					...createClassesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "범위:",
+					},
+					...createRangeSubmatcher([5]),
+				],
+			},
+
+			{
+				name: "적 필살기 쿨타임 감소",
+				targets: ["rumbleSpecial"],
+				regex:
+					/Inflicts Lv. ([\d]+)[^.]+Special CT[^.]+down debuff to (\d)?(?=((?:[^e]+|e(?!nem))*))\3enem(?:y|ies)(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?(?: (\d+) times?)?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "확률:",
+						groups: [1],
+					},
+					{
+						type: "number",
+						description: "지속시간:",
+						groups: [6],
+					},
+					{
+						type: "number",
+						description: "횟수:",
+						groups: [7],
+					},
+					{
+						type: "separator",
+						description: "대상:",
+					},
+					{
+						type: "number",
+						description: "대상 수:",
+						groups: [2],
+					},
+					{
+						type: "option",
+						description: "모두",
+						regex: /all/i,
+						groups: [3],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "속성:",
+					},
+					...createTypesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "타입:",
+					},
+					...createClassesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "범위:",
+					},
+					...createRangeSubmatcher([5]),
+				],
+			},
+			
+				],
+
+		"적 방해 부여": [
+
+			{
+				name: "행동 봉쇄",
+				targets: ["rumbleSpecial"],
+				regex:
+					/([.\d]+)% chance to inflict[^.]+Action Bind[^.]+to (\d)?(?=((?:[^e]+|e(?!nem))*))\3enem(?:y|ies)(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
 				submatchers: [
 					{
 						type: "number",
@@ -8578,10 +9520,60 @@
 			},
 
 			{
+				name: "혼란 상태",
+				targets: ["rumbleSpecial"],
+				regex:
+					/([.\d]+)% chance to inflict[^.]+Confusion[^.]+to (\d)?(?=((?:[^e]+|e(?!nem))*))\3enem(?:y|ies)(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "확률:",
+						groups: [1],
+					},
+					{
+						type: "number",
+						description: "지속시간:",
+						groups: [6],
+					},
+					{
+						type: "separator",
+						description: "대상:",
+					},
+					{
+						type: "number",
+						description: "대상 수:",
+						groups: [2],
+					},
+					{
+						type: "option",
+						description: "모든",
+						regex: /all/i,
+						groups: [3],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "속성:",
+					},
+					...createTypesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "타입:",
+					},
+					...createClassesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "범위:",
+					},
+					...createRangeSubmatcher([5]),
+				],
+			},
+
+			{
 				name: "강제 퇴장",
 				targets: ["rumbleSpecial"],
 				regex:
-					/([.\d]+)% chance to inflict[^.]+Forced Out[^.]+to (\d)?(?=((?:[^e]+|e(?!nem))*))\3enem(?:y|ies)(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)? for (\d+) seconds/i,
+					/([.\d]+)% chance to inflict[^.]+Forced Out[^.]+to (\d)?(?=((?:[^e]+|e(?!nem))*))\3enem(?:y|ies)(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
 				submatchers: [
 					{
 						type: "number",
@@ -8631,7 +9623,7 @@
 				name: "마비 상태",
 				targets: ["rumbleSpecial"],
 				regex:
-					/([.\d]+)% chance to inflict[^.]+Paralysis[^.]+to (\d)?(?=((?:[^e]+|e(?!nem))*))\3enem(?:y|ies)(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)? for (\d+) seconds/i,
+					/([.\d]+)% chance to inflict[^.]+Paralysis[^.]+to (\d)?(?=((?:[^e]+|e(?!nem))*))\3enem(?:y|ies)(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
 				submatchers: [
 					{
 						type: "number",
@@ -8640,7 +9632,7 @@
 					},
 					{
 						type: "number",
-						description: "지속시간:",
+						description: "지속 시간:",
 						groups: [6],
 					},
 					{
@@ -8681,7 +9673,7 @@
 				name: "회복 봉쇄",
 				targets: ["rumbleSpecial"],
 				regex:
-					/([.\d]+)% chance to inflict[^.]+RCV Bind[^.]+to (\d)?(?=((?:[^e]+|e(?!nem))*))\3enem(?:y|ies)(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)? for (\d+) seconds/i,
+					/([.\d]+)% chance to inflict[^.]+RCV Bind[^.]+to (\d)?(?=((?:[^e]+|e(?!nem))*))\3enem(?:y|ies)(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
 				submatchers: [
 					{
 						type: "number",
@@ -8690,7 +9682,7 @@
 					},
 					{
 						type: "number",
-						description: "지속시간:",
+						description: "지속 시간:",
 						groups: [6],
 					},
 					{
@@ -8731,7 +9723,7 @@
 				name: "필살기 봉쇄",
 				targets: ["rumbleSpecial"],
 				regex:
-					/([.\d]+)% chance to inflict[^.]+Special Bind[^.]+to (\d)?(?=((?:[^e]+|e(?!nem))*))\3enem(?:y|ies)(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)? for (\d+) seconds/i,
+					/([.\d]+)% chance to inflict[^.]+Special Bind[^.]+to (\d)?(?=((?:[^e]+|e(?!nem))*))\3enem(?:y|ies)(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
 				submatchers: [
 					{
 						type: "number",
@@ -8781,7 +9773,7 @@
 				name: "능력치 감소",
 				targets: ["rumbleSpecial"],
 				regex:
-					/([.\d]+)% chance to inflict[^.]+Half([^.]+)to (\d)?(?=((?:[^e]+|e(?!nem))*))\4enem(?:y|ies)(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)? for (\d+) seconds/i,
+					/([.\d]+)% chance to inflict[^.]+Half([^.]+)to (\d)?(?=((?:[^e]+|e(?!nem))*))\4enem(?:y|ies)(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
 				submatchers: [
 					{
 						type: "number",
@@ -8863,56 +9855,6 @@
 			},
 
 			{
-				name: "지속 데미지",
-				targets: ["rumbleSpecial"],
-				regex:
-					/Inflicts Lv. (\d+) Damage Over Time to (\d)?(?=((?:[^e]+|e(?!nem))*))\3enem(?:y|ies)(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)? for (\d+) seconds/i,
-				submatchers: [
-					{
-						type: "number",
-						description: "Level:",
-						groups: [1],
-					},
-					{
-						type: "number",
-						description: "지속시간:",
-						groups: [6],
-					},
-					{
-						type: "separator",
-						description: "대상:",
-					},
-					{
-						type: "number",
-						description: "대상 수:",
-						groups: [2],
-					},
-					{
-						type: "option",
-						description: "모두",
-						regex: /all/i,
-						groups: [3],
-						cssClasses: ["min-width-6"],
-					},
-					{
-						type: "separator",
-						description: "속성:",
-					},
-					...createTypesSubmatchers([3]),
-					{
-						type: "separator",
-						description: "타입:",
-					},
-					...createClassesSubmatchers([3]),
-					{
-						type: "separator",
-						description: "범위:",
-					},
-					...createRangeSubmatcher([5]),
-				],
-			},
-
-			{
 				name: "필살기 쿨타임 지연",
 				targets: ["rumbleSpecial"],
 				regex:
@@ -8967,7 +9909,7 @@
 		"내성": [
 
 			{
-				name: "행동 봉쇄",
+				name: "감소효과 감소",
 				targets: ["rumbleSpecial"],
 				regex:
 					/([\d]+)% chance to cleanse ([^.]+) down debuffs to ([^.]+)/i,
@@ -9028,6 +9970,240 @@
 						description: "대상:",
 					},
 					...createUniversalSubmatcher([3]),
+				],
+			},
+
+		],
+
+		"회복 관련(필포함)": [
+
+			{
+				name: "회복: x배 만큼 회복",
+				targets: ["rumbleSpecial"],
+				regex:
+					/Heals ([.\d]+)x RCV of HP to (\d)?(?=((?:[^c]+|c(?!rew))*))\3crew members?(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "회복량:",
+						groups: [1],
+					},
+					{
+						type: "separator",
+						description: "대상:",
+					},
+					{
+						type: "number",
+						description: "대상 수:",
+						groups: [2],
+					},
+					{
+						type: "option",
+						description: "모든",
+						regex: /all/i,
+						groups: [3],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "속성:",
+					},
+					...createTypesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "타입:",
+					},
+					...createClassesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "범위:",
+					},
+					...createRangeSubmatcher([5]),
+				],
+			},
+
+			{
+				name: "회복: 비율",
+				targets: ["rumbleSpecial"],
+				regex:
+					/Heals ([.\d]+)% of HP to (\d)?(?=((?:[^c]+|c(?!rew))*))\3crew members?(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "회복양:",
+						groups: [1],
+					},
+					{
+						type: "separator",
+						description: "대상:",
+					},
+					{
+						type: "number",
+						description: "대상 수:",
+						groups: [2],
+					},
+					{
+						type: "option",
+						description: "모든",
+						regex: /all/i,
+						groups: [3],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "속성:",
+					},
+					...createTypesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "타입:",
+					},
+					...createClassesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "범위:",
+					},
+					...createRangeSubmatcher([5]),
+				],
+			},
+
+			{
+				name: "회복: 고정회복량",
+				targets: ["rumbleSpecial"],
+				regex:
+					/Heals ([,\d]+) fixed HP to (\d)?(?=((?:[^c]+|c(?!rew))*))\3crew members?(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "회복량:",
+						groups: [1],
+					},
+					{
+						type: "separator",
+						description: "대상:",
+					},
+					{
+						type: "number",
+						description: "대상 수:",
+						groups: [2],
+					},
+					{
+						type: "option",
+						description: "모든",
+						regex: /all/i,
+						groups: [3],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "속성:",
+					},
+					...createTypesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "타입:",
+					},
+					...createClassesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "범위:",
+					},
+					...createRangeSubmatcher([5]),
+				],
+			},
+
+			{
+				name: "회복: 일정시간마다",
+				targets: ["rumbleSpecial"],
+				regex:
+					/Heals ([,\d]+) fixed HP every (\d+) seconds to (\d)?(?=((?:[^c]+|c(?!rew))*))\4crew members?(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "회복량:",
+						groups: [1],
+					},
+					{
+						type: "number",
+						description: "일정시간:",
+						groups: [2],
+					},
+					{
+						type: "number",
+						description: "일정시간:",
+						groups: [7],
+					},
+					{
+						type: "separator",
+						description: "대상:",
+					},
+					{
+						type: "number",
+						description: "대상 수:",
+						groups: [3],
+					},
+					{
+						type: "option",
+						description: "모든",
+						regex: /all/i,
+						groups: [4],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "속성:",
+					},
+					...createTypesSubmatchers([4]),
+					{
+						type: "separator",
+						description: "타입:",
+					},
+					...createClassesSubmatchers([4]),
+				],
+			},
+
+			{
+				name: "필살기 쿨타임 단축",
+				targets: ["rumbleSpecial"],
+				regex:
+					/Reduces ([.\d]+)% of Special CT to (\d)?(?=((?:[^c]+|c(?!rew))*))\3crew members?(, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "단축 양:",
+						groups: [1],
+					},
+					{
+						type: "separator",
+						description: "대상:",
+					},
+					{
+						type: "number",
+						description: "대상 수:",
+						groups: [2],
+					},
+					{
+						type: "option",
+						description: "모든",
+						regex: /all/i,
+						groups: [3],
+						cssClasses: ["min-width-12"],
+					},
+					{
+						type: "separator",
+						description: "속성:",
+					},
+					...createTypesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "타입:",
+					},
+					...createClassesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "범위:",
+					},
+					...createRangeSubmatcher([6]),
 				],
 			},
 

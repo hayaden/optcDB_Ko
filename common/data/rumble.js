@@ -50307,16 +50307,16 @@ window.rumble = {
             base: {
                 cooldown: 30,
                 descriptions: [
-                    ['10% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 1 HP and SPD up buff to [DEX] crew members for 21 seconds.'],
-                    ['11% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 1 HP and SPD up buff to [DEX] crew members for 22 seconds.'],
-                    ['12% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 1 HP and SPD up buff to [DEX] crew members for 23 seconds.'],
-                    ['13% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 1 HP and SPD up buff to [DEX] crew members for 24 seconds.'],
-                    ['14% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 2 HP and SPD up buff to [DEX] crew members for 25 seconds.'],
-                    ['15% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 2 HP and SPD up buff to [DEX] crew members for 26 seconds.'],
-                    ['16% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 2 HP and SPD up buff to [DEX] crew members for 27 seconds.'],
-                    ['17% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 3 HP and SPD up buff to [DEX] crew members for 28 seconds.'],
-                    ['18% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 3 HP and SPD up buff to [DEX] crew members for 29 seconds.'],
-                    ['20% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 4 HP and SPD up buff to [DEX] crew members for 30 seconds.']
+                    ['10% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 1 ATK and SPD up buff to [DEX] crew members for 21 seconds.'],
+                    ['11% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 1 ATK and SPD up buff to [DEX] crew members for 22 seconds.'],
+                    ['12% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 1 ATK and SPD up buff to [DEX] crew members for 23 seconds.'],
+                    ['13% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 1 ATK and SPD up buff to [DEX] crew members for 24 seconds.'],
+                    ['14% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 2 ATK and SPD up buff to [DEX] crew members for 25 seconds.'],
+                    ['15% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 2 ATK and SPD up buff to [DEX] crew members for 26 seconds.'],
+                    ['16% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 2 ATK and SPD up buff to [DEX] crew members for 27 seconds.'],
+                    ['17% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 3 ATK and SPD up buff to [DEX] crew members for 28 seconds.'],
+                    ['18% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 3 ATK and SPD up buff to [DEX] crew members for 29 seconds.'],
+                    ['20% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 4 ATK and SPD up buff to [DEX] crew members for 30 seconds.']
                 ]
             }
         }
