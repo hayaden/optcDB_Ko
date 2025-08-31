@@ -1049,6 +1049,30 @@ app.controller(
         "Limit Break Slots": false,
     };
 
+        $scope.labelMap = {
+            "Limit Break HP": "한계돌파 체력",
+            "Limit Break ATK": "한계돌파 공격력",
+            "Limit Break RCV": "한계돌파 회복력",
+            "Limit Break: Expansion HP": "한계돌파 확장 체력",
+            "Limit Break: Expansion ATK": "한계돌파 확장 공격력",
+            "Limit Break: Expansion RCV": "한계돌파 확장 회복력",
+            "HP/ATK": "체력/공격력",
+            "HP/RCV": "체력/회복력",
+            "ATK/RCV": "공격력/회복력",
+            "ATK/CMB": "공격력/콤보",
+            "CMB": "콤보 수",
+            "ATK/cost": "공격력 ÷ 코스트",
+            "HP/cost": "체력 ÷ 코스트",
+            "Minimum cooldown": "최소 필살 턴",
+            "Initial cooldown": "초기 필살 턴",
+            "Minimum Limit Break cooldown": "한돌 후 최소 필살 턴",
+            "Initial Limit Break cooldown": "한돌 후 초기 필살 턴",
+            "Minimum Limit Break Expansion cooldown": "초한돌 후 최소 필살 턴",
+            "Initial Limit Break Expansion cooldown": "초한돌 후 초기 필살 턴",
+            "MAX EXP": "최대 경험치",
+            "Limit Break Slots": "한계돌파 슬롯 수"
+        };
+
     var additionalColumns = $storage.get("charColumns", []);
 
     additionalColumns.forEach(function (x) {
