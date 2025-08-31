@@ -7,7 +7,7 @@
 <div id="queryContainer">
     <label for="burgerMenuState" id="burgerMenu" class="fa fa-bars fa-lg"></label>
     
-    <input type="text" id="picker" placeholder="검색할 단어를 입력하세요"
+    <input type="text" id="picker" placeholder="검색할 캐릭터ID나 이름을 입력하세요"
         ng-model="query" ng-model-options="{ updateOn: 'change blur' }" auto-focus>
 
     <button ng-if="query" ng-click="clearQuery()" title="clear">
