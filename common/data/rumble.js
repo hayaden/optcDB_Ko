@@ -4018,15 +4018,15 @@ window.rumble = {
                 cooldown: 21,
                 descriptions: [
                     ['Reduces 15% of Special CT to Shooter and Fighter crew members.'],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    []
+                    ['Reduces 15% of Special CT to Shooter and Fighter crew members.'],
+                    ['Reduces 15% of Special CT to Shooter and Fighter crew members.'],
+                    ['Reduces 15% of Special CT to Shooter and Fighter crew members.'],
+                    ['Reduces 15% of Special CT to Shooter and Fighter crew members.'],
+                    ['Reduces 15% of Special CT to Shooter and Fighter crew members.'],
+                    ['Reduces 15% of Special CT to Shooter and Fighter crew members.'],
+                    ['Reduces 15% of Special CT to Shooter and Fighter crew members.'],
+                    ['Reduces 15% of Special CT to Shooter and Fighter crew members.'],
+                    ['Reduces 15% of Special CT to Shooter and Fighter crew members.']
                 ]
             }
         }
@@ -4053,15 +4053,15 @@ window.rumble = {
                 cooldown: 21,
                 descriptions: [
                     ['Reduces 15% of Special CT to Shooter and Fighter crew members.'],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    []
+                    ['Reduces 15% of Special CT to Shooter and Fighter crew members.'],
+                    ['Reduces 15% of Special CT to Shooter and Fighter crew members.'],
+                    ['Reduces 15% of Special CT to Shooter and Fighter crew members.'],
+                    ['Reduces 15% of Special CT to Shooter and Fighter crew members.'],
+                    ['Reduces 15% of Special CT to Shooter and Fighter crew members.'],
+                    ['Reduces 15% of Special CT to Shooter and Fighter crew members.'],
+                    ['Reduces 15% of Special CT to Shooter and Fighter crew members.'],
+                    ['Reduces 15% of Special CT to Shooter and Fighter crew members.'],
+                    ['Reduces 15% of Special CT to Shooter and Fighter crew members.']
                 ]
             }
         }
@@ -76515,6 +76515,82 @@ window.rumble = {
             }
         }
     },
+    4369: {
+        festStats: {
+            def: 137,
+            spd: 151,
+            style: "RCV"
+        },
+        festAttackPattern: ['Normal Attack', '<b><i>Power Attack</b></i>', '<i>Level 1 Small Range Heal</i>', '<b><i>Power Attack</b></i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Special Bind.', '20% damage reduction from [INT] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 1 RCV up buff to all crew members.', 'When there is 4 or more [Straw Hat Pirates] crew members, applies Lv. 1 Special CT up buff to all crew members.', 'When there is 4 or more [Straw Hat Pirates] crew members, applies Lv. 2 SPD up buff to all crew members.', 'When there is 4 or more [Straw Hat Pirates] crew members, applies Lv. 1 Critical Hit up buff to all crew members.'],
+                ['Applies Lv. 2 RCV up buff to all crew members.', 'When there is 4 or more [Straw Hat Pirates] crew members, applies Lv. 1 Special CT up buff to all crew members.', 'When there is 4 or more [Straw Hat Pirates] crew members, applies Lv. 3 SPD up buff to all crew members.', 'When there is 4 or more [Straw Hat Pirates] crew members, applies Lv. 2 Critical Hit up buff to all crew members.'],
+                ['Applies Lv. 3 RCV up buff to all crew members.', 'When there is 4 or more [Straw Hat Pirates] crew members, applies Lv. 1 Special CT up buff to all crew members.', 'When there is 4 or more [Straw Hat Pirates] crew members, applies Lv. 4 SPD up buff to all crew members.', 'When there is 4 or more [Straw Hat Pirates] crew members, applies Lv. 3 Critical Hit up buff to all crew members.'],
+                ['Applies Lv. 4 RCV up buff to all crew members.', 'When there is 4 or more [Straw Hat Pirates] crew members, applies Lv. 2 Special CT up buff to all crew members.', 'When there is 4 or more [Straw Hat Pirates] crew members, applies Lv. 5 SPD up buff to all crew members.', 'When there is 4 or more [Straw Hat Pirates] crew members, applies Lv. 4 Critical Hit up buff to all crew members.'],
+                ['Applies Lv. 5 RCV up buff to all crew members.', 'When there is 4 or more [Straw Hat Pirates] crew members, applies Lv. 2 Special CT up buff to all crew members.', 'When there is 4 or more [Straw Hat Pirates] crew members, applies Lv. 6 SPD up buff to all crew members.', 'When there is 4 or more [Straw Hat Pirates] crew members, applies Lv. 5 Critical Hit up buff to all crew members.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 25,
+                descriptions: [
+                    ['Heals 1.8x RCV of HP to all crew members in a medium, radial range.', 'Reduce Paralysis and Special Bind to all crew members in a medium, radial range for 11 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, 70% chance to evade Paralysis and Special Bind to all crew members for 11 seconds.'],
+                    ['Heals 1.9x RCV of HP to all crew members in a medium, radial range.', 'Reduce Paralysis and Special Bind to all crew members in a medium, radial range for 12 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, 70% chance to evade Paralysis and Special Bind to all crew members for 12 seconds.'],
+                    ['Heals 2x RCV of HP to all crew members in a medium, radial range.', 'Reduce Paralysis and Special Bind to all crew members in a medium, radial range for 13 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, 70% chance to evade Paralysis and Special Bind to all crew members for 13 seconds.'],
+                    ['Heals 2.1x RCV of HP to all crew members in a medium, radial range.', 'Reduce Paralysis and Special Bind to all crew members in a medium, radial range for 14 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, 70% chance to evade Paralysis and Special Bind to all crew members for 14 seconds.'],
+                    ['Heals 2.2x RCV of HP to all crew members in a medium, radial range.', 'Reduce Paralysis and Special Bind to all crew members in a medium, radial range for 15 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, 70% chance to evade Paralysis and Special Bind to all crew members for 15 seconds.'],
+                    ['Heals 2.3x RCV of HP to all crew members in a medium, radial range.', 'Reduce Paralysis and Special Bind to all crew members in a medium, radial range for 16 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, 70% chance to evade Paralysis and Special Bind to all crew members for 16 seconds.'],
+                    ['Heals 2.4x RCV of HP to all crew members in a medium, radial range.', 'Reduce Paralysis and Special Bind to all crew members in a medium, radial range for 17 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, 70% chance to evade Paralysis and Special Bind to all crew members for 17 seconds.'],
+                    ['Heals 2.5x RCV of HP to all crew members in a medium, radial range.', 'Reduce Paralysis and Special Bind to all crew members in a medium, radial range for 18 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, 70% chance to evade Paralysis and Special Bind to all crew members for 18 seconds.'],
+                    ['Heals 2.6x RCV of HP to all crew members in a medium, radial range.', 'Reduce Paralysis and Special Bind to all crew members in a medium, radial range for 19 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, 70% chance to evade Paralysis and Special Bind to all crew members for 19 seconds.'],
+                    ['Heals 2.8x RCV of HP to all crew members in a medium, radial range.', 'Reduce Paralysis and Special Bind to all crew members in a medium, radial range for 20 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, 70% chance to evade Paralysis and Special Bind to all crew members for 20 seconds.']
+                ]
+            }
+        }
+    },
+    4370: {
+        festStats: {
+            def: 290,
+            spd: 114,
+            style: "DEF"
+        },
+        festAttackPattern: ['Normal Attack', '<b><i>Power Attack</b></i>', '<i>Level 1 Small Range Heal</i>', 'Normal Attack'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Forced Out.', '20% damage reduction from [INT] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 1 DEF up buff to all crew members.', 'When there is 4 or more [Straw Hat Pirates] crew members, applies Lv. 2 HP and ATK up buff to [Straw Hat Pirates] crew members.', 'When there is 4 or more [Straw Hat Pirates] crew members, applies Lv. 1 Blow Away up buff to [Straw Hat Pirates] crew members.'],
+                ['Applies Lv. 2 DEF up buff to all crew members.', 'When there is 4 or more [Straw Hat Pirates] crew members, applies Lv. 3 HP and ATK up buff to [Straw Hat Pirates] crew members.', 'When there is 4 or more [Straw Hat Pirates] crew members, applies Lv. 2 Blow Away up buff to [Straw Hat Pirates] crew members.'],
+                ['Applies Lv. 3 DEF up buff to all crew members.', 'When there is 4 or more [Straw Hat Pirates] crew members, applies Lv. 4 HP and ATK up buff to [Straw Hat Pirates] crew members.', 'When there is 4 or more [Straw Hat Pirates] crew members, applies Lv. 3 Blow Away up buff to [Straw Hat Pirates] crew members.'],
+                ['Applies Lv. 4 DEF up buff to all crew members.', 'When there is 4 or more [Straw Hat Pirates] crew members, applies Lv. 5 HP and ATK up buff to [Straw Hat Pirates] crew members.', 'When there is 4 or more [Straw Hat Pirates] crew members, applies Lv. 4 Blow Away up buff to [Straw Hat Pirates] crew members.'],
+                ['Applies Lv. 5 DEF up buff to all crew members.', 'When there is 4 or more [Straw Hat Pirates] crew members, applies Lv. 6 HP and ATK up buff to [Straw Hat Pirates] crew members.', 'When there is 4 or more [Straw Hat Pirates] crew members, applies Lv. 5 Blow Away up buff to [Straw Hat Pirates] crew members.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 35,
+                descriptions: [
+                    ['Applies Lv. 1 Shield up buff to self for 21 seconds.', 'Grant 1.1x Counter to self for 21 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, applies Lv. 2 DEF up buff to all crew members for 21 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, 50% chance to evade Fixed Damage to all crew members for 11 seconds.'],
+                    ['Applies Lv. 1 Shield up buff to self for 22 seconds.', 'Grant 1.2x Counter to self for 22 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, applies Lv. 2 DEF up buff to all crew members for 22 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, 50% chance to evade Fixed Damage to all crew members for 12 seconds.'],
+                    ['Applies Lv. 1 Shield up buff to self for 23 seconds.', 'Grant 1.3x Counter to self for 23 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, applies Lv. 2 DEF up buff to all crew members for 23 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, 50% chance to evade Fixed Damage to all crew members for 13 seconds.'],
+                    ['Applies Lv. 2 Shield up buff to self for 24 seconds.', 'Grant 1.4x Counter to self for 24 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, applies Lv. 3 DEF up buff to all crew members for 24 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, 50% chance to evade Fixed Damage to all crew members for 14 seconds.'],
+                    ['Applies Lv. 2 Shield up buff to self for 25 seconds.', 'Grant 1.5x Counter to self for 25 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, applies Lv. 3 DEF up buff to all crew members for 25 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, 50% chance to evade Fixed Damage to all crew members for 15 seconds.'],
+                    ['Applies Lv. 3 Shield up buff to self for 26 seconds.', 'Grant 1.6x Counter to self for 26 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, applies Lv. 4 DEF up buff to all crew members for 26 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, 50% chance to evade Fixed Damage to all crew members for 16 seconds.'],
+                    ['Applies Lv. 3 Shield up buff to self for 27 seconds.', 'Grant 1.7x Counter to self for 27 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, applies Lv. 4 DEF up buff to all crew members for 27 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, 50% chance to evade Fixed Damage to all crew members for 17 seconds.'],
+                    ['Applies Lv. 3 Shield up buff to self for 28 seconds.', 'Grant 1.8x Counter to self for 28 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, applies Lv. 5 DEF up buff to all crew members for 28 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, 50% chance to evade Fixed Damage to all crew members for 18 seconds.'],
+                    ['Applies Lv. 4 Shield up buff to self for 29 seconds.', 'Grant 1.9x Counter to self for 29 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, applies Lv. 5 DEF up buff to all crew members for 29 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, 50% chance to evade Fixed Damage to all crew members for 19 seconds.'],
+                    ['Applies Lv. 5 Shield up buff to self for 30 seconds.', 'Grant 2x Counter to self for 30 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, applies Lv. 6 DEF up buff to all crew members for 30 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, 50% chance to evade Fixed Damage to all crew members for 20 seconds.']
+                ]
+            }
+        }
+    },
     4371: {
         festStats: {
             def: 194,
@@ -76856,6 +76932,126 @@ window.rumble = {
                     ['Deals 1.5x ATK in damage to all enemies in a large, forward range.', 'When there are 50 seconds or less remaining, deals 2.2x ATK in damage to all enemies in a large, forward range.', 'When there are 30 seconds or less remaining, deals 2.5x ATK in damage to all enemies in a large, forward range.', 'When there are 30 seconds or less remaining, 50% chance to inflict Action Bind to all enemies in a large, forward range for 5 seconds.']
                 ]
             }
+        }
+    },
+    4379: {
+        festStats: {
+            def: 279,
+            spd: 121,
+            style: "DEF"
+        },
+        festAttackPattern: ['Normal Attack', '<b><i>Power Attack</b></i>', '<i>Level 1 Small Range Heal</i>', 'Normal Attack'],
+        festAttackTarget: "Enemies with the lowest HP.",
+        festResistance: {
+            base: ['100% chance to resist Forced Out.', '100% chance to resist Special Bind.', '30% damage reduction from [PSY] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 3 HP, ATK and DEF up buff to [INT] and Striker crew members.', 'When there is 6 or more Striker crew members, applies Lv. 1 ATK up buff to all crew members.', 'When there is 6 or more Striker crew members, applies Lv. 1 Shield up buff to self.', 'For the first 10 seconds, applies Lv. 6 Special CT up buff to self.', 'Applies Lv. 1 ATK up buff to [World Government] and [Navy] crew members.'],
+                ['Applies Lv. 4 HP, ATK and DEF up buff to [INT] and Striker crew members.', 'When there is 6 or more Striker crew members, applies Lv. 1 ATK up buff to all crew members.', 'When there is 6 or more Striker crew members, applies Lv. 2 Shield up buff to self.', 'For the first 10 seconds, applies Lv. 7 Special CT up buff to self.', 'Applies Lv. 1 ATK up buff to [World Government] and [Navy] crew members.'],
+                ['Applies Lv. 5 HP, ATK and DEF up buff to [INT] and Striker crew members.', 'When there is 6 or more Striker crew members, applies Lv. 2 ATK up buff to all crew members.', 'When there is 6 or more Striker crew members, applies Lv. 3 Shield up buff to self.', 'For the first 10 seconds, applies Lv. 8 Special CT up buff to self.', 'Applies Lv. 2 ATK up buff to [World Government] and [Navy] crew members.'],
+                ['Applies Lv. 6 HP, ATK and DEF up buff to [INT] and Striker crew members.', 'When there is 6 or more Striker crew members, applies Lv. 2 ATK up buff to all crew members.', 'When there is 6 or more Striker crew members, applies Lv. 4 Shield up buff to self.', 'For the first 10 seconds, applies Lv. 9 Special CT up buff to self.', 'Applies Lv. 2 ATK up buff to [World Government] and [Navy] crew members.'],
+                ['Applies Lv. 7 HP, ATK and DEF up buff to [INT] and Striker crew members.', 'When there is 6 or more Striker crew members, applies Lv. 3 ATK up buff to all crew members.', 'When there is 6 or more Striker crew members, applies Lv. 5 Shield up buff to self.', 'For the first 10 seconds, applies Lv. 10 Special CT up buff to self.', 'Applies Lv. 3 ATK up buff to [World Government] and [Navy] crew members.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 35,
+                descriptions: [
+                    ['Applies Lv. 2 DEF up buff to all crew members in a large, radial range for 21 seconds.', '73% chance to inflict Special Bind to 3 enemies for 10 seconds.', 'When there is 6 or more Striker crew members, deals 3.1x ATK in damage to 3 enemies with the lowest HP.', 'Heals 150 fixed HP every 3 seconds to [Navy] and [World Government] crew members for 21 seconds.'],
+                    ['Applies Lv. 2 DEF up buff to all crew members in a large, radial range for 22 seconds.', '76% chance to inflict Special Bind to 3 enemies for 10 seconds.', 'When there is 6 or more Striker crew members, deals 3.2x ATK in damage to 3 enemies with the lowest HP.', 'Heals 200 fixed HP every 3 seconds to [Navy] and [World Government] crew members for 22 seconds.'],
+                    ['Applies Lv. 3 DEF up buff to all crew members in a large, radial range for 23 seconds.', '79% chance to inflict Special Bind to 3 enemies for 10 seconds.', 'When there is 6 or more Striker crew members, deals 3.3x ATK in damage to 3 enemies with the lowest HP.', 'Heals 250 fixed HP every 3 seconds to [Navy] and [World Government] crew members for 23 seconds.'],
+                    ['Applies Lv. 3 DEF up buff to all crew members in a large, radial range for 24 seconds.', '82% chance to inflict Special Bind to 3 enemies for 10 seconds.', 'When there is 6 or more Striker crew members, deals 3.4x ATK in damage to 3 enemies with the lowest HP.', 'Heals 300 fixed HP every 3 seconds to [Navy] and [World Government] crew members for 24 seconds.'],
+                    ['Applies Lv. 4 DEF up buff to all crew members in a large, radial range for 25 seconds.', '85% chance to inflict Special Bind to 3 enemies for 10 seconds.', 'When there is 6 or more Striker crew members, deals 3.5x ATK in damage to 3 enemies with the lowest HP.', 'Heals 350 fixed HP every 3 seconds to [Navy] and [World Government] crew members for 25 seconds.'],
+                    ['Applies Lv. 4 DEF up buff to all crew members in a large, radial range for 26 seconds.', '88% chance to inflict Special Bind to 3 enemies for 10 seconds.', 'When there is 6 or more Striker crew members, deals 3.6x ATK in damage to 3 enemies with the lowest HP.', 'Heals 400 fixed HP every 3 seconds to [Navy] and [World Government] crew members for 26 seconds.'],
+                    ['Applies Lv. 5 DEF up buff to all crew members in a large, radial range for 27 seconds.', '91% chance to inflict Special Bind to 3 enemies for 10 seconds.', 'When there is 6 or more Striker crew members, deals 3.7x ATK in damage to 3 enemies with the lowest HP.', 'Heals 450 fixed HP every 3 seconds to [Navy] and [World Government] crew members for 27 seconds.'],
+                    ['Applies Lv. 5 DEF up buff to all crew members in a large, radial range for 28 seconds.', '94% chance to inflict Special Bind to 3 enemies for 10 seconds.', 'When there is 6 or more Striker crew members, deals 3.8x ATK in damage to 3 enemies with the lowest HP.', 'Heals 500 fixed HP every 3 seconds to [Navy] and [World Government] crew members for 28 seconds.'],
+                    ['Applies Lv. 6 DEF up buff to all crew members in a large, radial range for 29 seconds.', '97% chance to inflict Special Bind to 3 enemies for 10 seconds.', 'When there is 6 or more Striker crew members, deals 3.9x ATK in damage to 3 enemies with the lowest HP.', 'Heals 550 fixed HP every 3 seconds to [Navy] and [World Government] crew members for 29 seconds.'],
+                    ['Applies Lv. 7 DEF up buff to all crew members in a large, radial range for 30 seconds.', '100% chance to inflict Special Bind to 3 enemies for 10 seconds.', 'When there is 6 or more Striker crew members, deals 4x ATK in damage to 3 enemies with the lowest HP.', 'Heals 600 fixed HP every 3 seconds to [Navy] and [World Government] crew members for 30 seconds.']
+                ]
+            }
+        },
+        festAbilityGP: {
+            base: {
+                festGPAbility: [
+                    ['Applies Lv. 2 RCV and SPD up buff to [INT] crew members.', 'Applies Lv. 1 Special CT up buff to [INT] crew members.', 'Applies Lv. 2 HP and ATK up buff to Striker and Driven crew members.', 'Applies Lv. 1 DEF up buff to Striker and Driven crew members.', 'Applies Lv. 1 HP and RCV up buff to [Navy] and [World Government] crew members.', 'Applies Lv. 1 Special CT up buff to [Navy] and [World Government] crew members.'],
+                    ['Applies Lv. 3 RCV and SPD up buff to [INT] crew members.', 'Applies Lv. 2 Special CT up buff to [INT] crew members.', 'Applies Lv. 3 HP and ATK up buff to Striker and Driven crew members.', 'Applies Lv. 2 DEF up buff to Striker and Driven crew members.', 'Applies Lv. 2 HP and RCV up buff to [Navy] and [World Government] crew members.', 'Applies Lv. 1 Special CT up buff to [Navy] and [World Government] crew members.'],
+                    ['Applies Lv. 4 RCV and SPD up buff to [INT] crew members.', 'Applies Lv. 2 Special CT up buff to [INT] crew members.', 'Applies Lv. 4 HP and ATK up buff to Striker and Driven crew members.', 'Applies Lv. 3 DEF up buff to Striker and Driven crew members.', 'Applies Lv. 3 HP and RCV up buff to [Navy] and [World Government] crew members.', 'Applies Lv. 1 Special CT up buff to [Navy] and [World Government] crew members.'],
+                    ['Applies Lv. 5 RCV and SPD up buff to [INT] crew members.', 'Applies Lv. 3 Special CT up buff to [INT] crew members.', 'Applies Lv. 5 HP and ATK up buff to Striker and Driven crew members.', 'Applies Lv. 3 DEF up buff to Striker and Driven crew members.', 'Applies Lv. 4 HP and RCV up buff to [Navy] and [World Government] crew members.', 'Applies Lv. 2 Special CT up buff to [Navy] and [World Government] crew members.'],
+                    ['Applies Lv. 6 RCV and SPD up buff to [INT] crew members.', 'Applies Lv. 3 Special CT up buff to [INT] crew members.', 'Applies Lv. 6 HP and ATK up buff to Striker and Driven crew members.', 'Applies Lv. 4 DEF up buff to Striker and Driven crew members.', 'Applies Lv. 5 HP and RCV up buff to [Navy] and [World Government] crew members.', 'Applies Lv. 2 Special CT up buff to [Navy] and [World Government] crew members.']
+                ],
+                festGPSpecial: [
+                    ['100% chance to evade Damage Ignoring DEF to [PSY], [INT], Stiker and Driven crew members for 16 seconds.', 'Deals 2,000 fixed damage to all enemies.'],
+                    ['100% chance to evade Damage Ignoring DEF to [PSY], [INT], Stiker and Driven crew members for 17 seconds.', 'Deals 3,000 fixed damage to all enemies.'],
+                    ['100% chance to evade Damage Ignoring DEF to [PSY], [INT], Stiker and Driven crew members for 18 seconds.', 'Deals 4,000 fixed damage to all enemies.'],
+                    ['100% chance to evade Damage Ignoring DEF to [PSY], [INT], Stiker and Driven crew members for 19 seconds.', 'Deals 5,000 fixed damage to all enemies.'],
+                    ['100% chance to evade Damage Ignoring DEF to [PSY], [INT], Stiker and Driven crew members for 20 seconds.', 'Deals 6,000 fixed damage to all enemies.']
+                ],
+                uses: 2
+            }
+        },
+        festAbilityGPCondition: {
+            base: "After 50 seconds"
+        }
+    },
+    4380: {
+        festStats: {
+            def: 279,
+            spd: 121,
+            style: "DEF"
+        },
+        festAttackPattern: ['Normal Attack', '<b><i>Power Attack</b></i>', '<i>Level 1 Small Range Heal</i>', 'Normal Attack'],
+        festAttackTarget: "Enemies with the lowest HP.",
+        festResistance: {
+            base: ['100% chance to resist Forced Out.', '100% chance to resist Special Bind.', '30% damage reduction from [PSY] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 3 HP, ATK and DEF up buff to [INT] and Striker crew members.', 'When there is 6 or more Striker crew members, applies Lv. 1 ATK up buff to all crew members.', 'When there is 6 or more Striker crew members, applies Lv. 1 Shield up buff to self.', 'For the first 10 seconds, applies Lv. 6 Special CT up buff to self.', 'Applies Lv. 1 ATK up buff to [World Government] and [Navy] crew members.'],
+                ['Applies Lv. 4 HP, ATK and DEF up buff to [INT] and Striker crew members.', 'When there is 6 or more Striker crew members, applies Lv. 1 ATK up buff to all crew members.', 'When there is 6 or more Striker crew members, applies Lv. 2 Shield up buff to self.', 'For the first 10 seconds, applies Lv. 7 Special CT up buff to self.', 'Applies Lv. 1 ATK up buff to [World Government] and [Navy] crew members.'],
+                ['Applies Lv. 5 HP, ATK and DEF up buff to [INT] and Striker crew members.', 'When there is 6 or more Striker crew members, applies Lv. 2 ATK up buff to all crew members.', 'When there is 6 or more Striker crew members, applies Lv. 3 Shield up buff to self.', 'For the first 10 seconds, applies Lv. 8 Special CT up buff to self.', 'Applies Lv. 2 ATK up buff to [World Government] and [Navy] crew members.'],
+                ['Applies Lv. 6 HP, ATK and DEF up buff to [INT] and Striker crew members.', 'When there is 6 or more Striker crew members, applies Lv. 2 ATK up buff to all crew members.', 'When there is 6 or more Striker crew members, applies Lv. 4 Shield up buff to self.', 'For the first 10 seconds, applies Lv. 9 Special CT up buff to self.', 'Applies Lv. 2 ATK up buff to [World Government] and [Navy] crew members.'],
+                ['Applies Lv. 7 HP, ATK and DEF up buff to [INT] and Striker crew members.', 'When there is 6 or more Striker crew members, applies Lv. 3 ATK up buff to all crew members.', 'When there is 6 or more Striker crew members, applies Lv. 5 Shield up buff to self.', 'For the first 10 seconds, applies Lv. 10 Special CT up buff to self.', 'Applies Lv. 3 ATK up buff to [World Government] and [Navy] crew members.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 35,
+                descriptions: [
+                    ['Applies Lv. 2 DEF up buff to all crew members in a large, radial range for 21 seconds.', '73% chance to inflict Special Bind to 3 enemies for 10 seconds.', 'When there is 6 or more Striker crew members, deals 3.1x ATK in damage to 3 enemies with the lowest HP.', 'Heals 150 fixed HP every 3 seconds to [Navy] and [World Government] crew members for 21 seconds.'],
+                    ['Applies Lv. 2 DEF up buff to all crew members in a large, radial range for 22 seconds.', '76% chance to inflict Special Bind to 3 enemies for 10 seconds.', 'When there is 6 or more Striker crew members, deals 3.2x ATK in damage to 3 enemies with the lowest HP.', 'Heals 200 fixed HP every 3 seconds to [Navy] and [World Government] crew members for 22 seconds.'],
+                    ['Applies Lv. 3 DEF up buff to all crew members in a large, radial range for 23 seconds.', '79% chance to inflict Special Bind to 3 enemies for 10 seconds.', 'When there is 6 or more Striker crew members, deals 3.3x ATK in damage to 3 enemies with the lowest HP.', 'Heals 250 fixed HP every 3 seconds to [Navy] and [World Government] crew members for 23 seconds.'],
+                    ['Applies Lv. 3 DEF up buff to all crew members in a large, radial range for 24 seconds.', '82% chance to inflict Special Bind to 3 enemies for 10 seconds.', 'When there is 6 or more Striker crew members, deals 3.4x ATK in damage to 3 enemies with the lowest HP.', 'Heals 300 fixed HP every 3 seconds to [Navy] and [World Government] crew members for 24 seconds.'],
+                    ['Applies Lv. 4 DEF up buff to all crew members in a large, radial range for 25 seconds.', '85% chance to inflict Special Bind to 3 enemies for 10 seconds.', 'When there is 6 or more Striker crew members, deals 3.5x ATK in damage to 3 enemies with the lowest HP.', 'Heals 350 fixed HP every 3 seconds to [Navy] and [World Government] crew members for 25 seconds.'],
+                    ['Applies Lv. 4 DEF up buff to all crew members in a large, radial range for 26 seconds.', '88% chance to inflict Special Bind to 3 enemies for 10 seconds.', 'When there is 6 or more Striker crew members, deals 3.6x ATK in damage to 3 enemies with the lowest HP.', 'Heals 400 fixed HP every 3 seconds to [Navy] and [World Government] crew members for 26 seconds.'],
+                    ['Applies Lv. 5 DEF up buff to all crew members in a large, radial range for 27 seconds.', '91% chance to inflict Special Bind to 3 enemies for 10 seconds.', 'When there is 6 or more Striker crew members, deals 3.7x ATK in damage to 3 enemies with the lowest HP.', 'Heals 450 fixed HP every 3 seconds to [Navy] and [World Government] crew members for 27 seconds.'],
+                    ['Applies Lv. 5 DEF up buff to all crew members in a large, radial range for 28 seconds.', '94% chance to inflict Special Bind to 3 enemies for 10 seconds.', 'When there is 6 or more Striker crew members, deals 3.8x ATK in damage to 3 enemies with the lowest HP.', 'Heals 500 fixed HP every 3 seconds to [Navy] and [World Government] crew members for 28 seconds.'],
+                    ['Applies Lv. 6 DEF up buff to all crew members in a large, radial range for 29 seconds.', '97% chance to inflict Special Bind to 3 enemies for 10 seconds.', 'When there is 6 or more Striker crew members, deals 3.9x ATK in damage to 3 enemies with the lowest HP.', 'Heals 550 fixed HP every 3 seconds to [Navy] and [World Government] crew members for 29 seconds.'],
+                    ['Applies Lv. 7 DEF up buff to all crew members in a large, radial range for 30 seconds.', '100% chance to inflict Special Bind to 3 enemies for 10 seconds.', 'When there is 6 or more Striker crew members, deals 4x ATK in damage to 3 enemies with the lowest HP.', 'Heals 600 fixed HP every 3 seconds to [Navy] and [World Government] crew members for 30 seconds.']
+                ]
+            }
+        },
+        festAbilityGP: {
+            base: {
+                festGPAbility: [
+                    ['Applies Lv. 2 RCV and SPD up buff to [INT] crew members.', 'Applies Lv. 1 Special CT up buff to [INT] crew members.', 'Applies Lv. 2 HP and ATK up buff to Striker and Driven crew members.', 'Applies Lv. 1 DEF up buff to Striker and Driven crew members.', 'Applies Lv. 1 HP and RCV up buff to [Navy] and [World Government] crew members.', 'Applies Lv. 1 Special CT up buff to [Navy] and [World Government] crew members.'],
+                    ['Applies Lv. 3 RCV and SPD up buff to [INT] crew members.', 'Applies Lv. 2 Special CT up buff to [INT] crew members.', 'Applies Lv. 3 HP and ATK up buff to Striker and Driven crew members.', 'Applies Lv. 2 DEF up buff to Striker and Driven crew members.', 'Applies Lv. 2 HP and RCV up buff to [Navy] and [World Government] crew members.', 'Applies Lv. 1 Special CT up buff to [Navy] and [World Government] crew members.'],
+                    ['Applies Lv. 4 RCV and SPD up buff to [INT] crew members.', 'Applies Lv. 2 Special CT up buff to [INT] crew members.', 'Applies Lv. 4 HP and ATK up buff to Striker and Driven crew members.', 'Applies Lv. 3 DEF up buff to Striker and Driven crew members.', 'Applies Lv. 3 HP and RCV up buff to [Navy] and [World Government] crew members.', 'Applies Lv. 1 Special CT up buff to [Navy] and [World Government] crew members.'],
+                    ['Applies Lv. 5 RCV and SPD up buff to [INT] crew members.', 'Applies Lv. 3 Special CT up buff to [INT] crew members.', 'Applies Lv. 5 HP and ATK up buff to Striker and Driven crew members.', 'Applies Lv. 3 DEF up buff to Striker and Driven crew members.', 'Applies Lv. 4 HP and RCV up buff to [Navy] and [World Government] crew members.', 'Applies Lv. 2 Special CT up buff to [Navy] and [World Government] crew members.'],
+                    ['Applies Lv. 6 RCV and SPD up buff to [INT] crew members.', 'Applies Lv. 3 Special CT up buff to [INT] crew members.', 'Applies Lv. 6 HP and ATK up buff to Striker and Driven crew members.', 'Applies Lv. 4 DEF up buff to Striker and Driven crew members.', 'Applies Lv. 5 HP and RCV up buff to [Navy] and [World Government] crew members.', 'Applies Lv. 2 Special CT up buff to [Navy] and [World Government] crew members.']
+                ],
+                festGPSpecial: [
+                    ['100% chance to evade Damage Ignoring DEF to [PSY], [INT], Stiker and Driven crew members for 16 seconds.', 'Deals 2,000 fixed damage to all enemies.'],
+                    ['100% chance to evade Damage Ignoring DEF to [PSY], [INT], Stiker and Driven crew members for 17 seconds.', 'Deals 3,000 fixed damage to all enemies.'],
+                    ['100% chance to evade Damage Ignoring DEF to [PSY], [INT], Stiker and Driven crew members for 18 seconds.', 'Deals 4,000 fixed damage to all enemies.'],
+                    ['100% chance to evade Damage Ignoring DEF to [PSY], [INT], Stiker and Driven crew members for 19 seconds.', 'Deals 5,000 fixed damage to all enemies.'],
+                    ['100% chance to evade Damage Ignoring DEF to [PSY], [INT], Stiker and Driven crew members for 20 seconds.', 'Deals 6,000 fixed damage to all enemies.']
+                ],
+                uses: 2
+            }
+        },
+        festAbilityGPCondition: {
+            base: "After 50 seconds"
         }
     },
     4381: {
@@ -77611,6 +77807,44 @@ window.rumble = {
             }
         }
     },
+    4400: {
+        festStats: {
+            def: 146,
+            spd: 177,
+            style: "DBF"
+        },
+        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<i>Level 2 Self Heal</i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Action Bind.', '30% damage reduction from [STR] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 1 ATK and HP up buff to [QCK] and Fighter crew members.', 'Inflicts Lv. 1 ATK and Special CT down debuff to Shooter enemies.', 'When there is 5 or more Shooter enemies, applies Lv. 1 Special CT up buff to self.'],
+                ['Applies Lv. 2 ATK and HP up buff to [QCK] and Fighter crew members.', 'Inflicts Lv. 2 ATK and Special CT down debuff to Shooter enemies.', 'When there is 5 or more Shooter enemies, applies Lv. 2 Special CT up buff to self.'],
+                ['Applies Lv. 3 ATK and HP up buff to [QCK] and Fighter crew members.', 'Inflicts Lv. 3 ATK and Special CT down debuff to Shooter enemies.', 'When there is 5 or more Shooter enemies, applies Lv. 3 Special CT up buff to self.'],
+                ['Applies Lv. 4 ATK and HP up buff to [QCK] and Fighter crew members.', 'Inflicts Lv. 4 ATK and Special CT down debuff to Shooter enemies.', 'When there is 5 or more Shooter enemies, applies Lv. 4 Special CT up buff to self.'],
+                ['Applies Lv. 5 ATK and HP up buff to [QCK] and Fighter crew members.', 'Inflicts Lv. 5 ATK and Special CT down debuff to Shooter enemies.', 'When there is 5 or more Shooter enemies, applies Lv. 5 Special CT up buff to self.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 25,
+                descriptions: [
+                    ['Inflicts Lv. 2 ATK, SPD and Accuracy down debuff to all enemies in a large, radial range for 16 seconds.', '70% chance to evade Action Bind to [QCK] and Fighter crew members for 11 seconds.', '60% chance to inflict Action Bind to Shooter enemies for 6 seconds.'],
+                    ['Inflicts Lv. 2 ATK, SPD and Accuracy down debuff to all enemies in a large, radial range for 17 seconds.', '73% chance to evade Action Bind to [QCK] and Fighter crew members for 12 seconds.', '64% chance to inflict Action Bind to Shooter enemies for 6 seconds.'],
+                    ['Inflicts Lv. 3 ATK, SPD and Accuracy down debuff to all enemies in a large, radial range for 18 seconds.', '76% chance to evade Action Bind to [QCK] and Fighter crew members for 13 seconds.', '68% chance to inflict Action Bind to Shooter enemies for 7 seconds.'],
+                    ['Inflicts Lv. 3 ATK, SPD and Accuracy down debuff to all enemies in a large, radial range for 19 seconds.', '79% chance to evade Action Bind to [QCK] and Fighter crew members for 14 seconds.', '72% chance to inflict Action Bind to Shooter enemies for 7 seconds.'],
+                    ['Inflicts Lv. 4 ATK, SPD and Accuracy down debuff to all enemies in a large, radial range for 20 seconds.', '82% chance to evade Action Bind to [QCK] and Fighter crew members for 15 seconds.', '76% chance to inflict Action Bind to Shooter enemies for 8 seconds.'],
+                    ['Inflicts Lv. 4 ATK, SPD and Accuracy down debuff to all enemies in a large, radial range for 21 seconds.', '85% chance to evade Action Bind to [QCK] and Fighter crew members for 16 seconds.', '80% chance to inflict Action Bind to Shooter enemies for 8 seconds.'],
+                    ['Inflicts Lv. 5 ATK, SPD and Accuracy down debuff to all enemies in a large, radial range for 22 seconds.', '88% chance to evade Action Bind to [QCK] and Fighter crew members for 17 seconds.', '84% chance to inflict Action Bind to Shooter enemies for 9 seconds.'],
+                    ['Inflicts Lv. 5 ATK, SPD and Accuracy down debuff to all enemies in a large, radial range for 23 seconds.', '91% chance to evade Action Bind to [QCK] and Fighter crew members for 18 seconds.', '88% chance to inflict Action Bind to Shooter enemies for 9 seconds.'],
+                    ['Inflicts Lv. 6 ATK, SPD and Accuracy down debuff to all enemies in a large, radial range for 24 seconds.', '94% chance to evade Action Bind to [QCK] and Fighter crew members for 19 seconds.', '92% chance to inflict Action Bind to Shooter enemies for 10 seconds.'],
+                    ['Inflicts Lv. 7 ATK, SPD and Accuracy down debuff to all enemies in a large, radial range for 25 seconds.', '100% chance to evade Action Bind to [QCK] and Fighter crew members for 20 seconds.', '100% chance to inflict Action Bind to Shooter enemies for 10 seconds.']
+                ]
+            }
+        }
+    },
     4401: {
         festStats: {
             def: 126,
@@ -78072,6 +78306,44 @@ window.rumble = {
             }
         }
     },
+    4417: {
+        festStats: {
+            def: 225,
+            spd: 156,
+            style: "SPT"
+        },
+        festAttackPattern: ['Normal Attack', '<b><i>Power Attack</b></i>', '<i>Level 1 Small Range Heal</i>', '<b><i>Power Attack</b></i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['80% chance to resist Paralysis.', '20% damage reduction from [QCK] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 2 HP, ATK and SPD up buff to Fighter and Shooter crew members.', 'Applies Lv. 1 DEF up buff to [Egghead Arc] crew members.'],
+                ['Applies Lv. 3 HP, ATK and SPD up buff to Fighter and Shooter crew members.', 'Applies Lv. 2 DEF up buff to [Egghead Arc] crew members.'],
+                ['Applies Lv. 4 HP, ATK and SPD up buff to Fighter and Shooter crew members.', 'Applies Lv. 3 DEF up buff to [Egghead Arc] crew members.'],
+                ['Applies Lv. 5 HP, ATK and SPD up buff to Fighter and Shooter crew members.', 'Applies Lv. 4 DEF up buff to [Egghead Arc] crew members.'],
+                ['Applies Lv. 6 HP, ATK and SPD up buff to Fighter and Shooter crew members.', 'Applies Lv. 5 DEF up buff to [Egghead Arc] crew members.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 29,
+                descriptions: [
+                    ['Applies Lv. 3 ATK and RCV up buff to all crew members in a medium, radial range for 11 seconds.', 'Applies Lv. 1 Shield up buff to [Egghead] crew members for 15 seconds.', '60% chance to evade Paralysis to [Egghead] crew members for 11 seconds.'],
+                    ['Applies Lv. 3 ATK and RCV up buff to all crew members in a medium, radial range for 12 seconds.', 'Applies Lv. 1 Shield up buff to [Egghead] crew members for 15 seconds.', '62% chance to evade Paralysis to [Egghead] crew members for 12 seconds.'],
+                    ['Applies Lv. 3 ATK and RCV up buff to all crew members in a medium, radial range for 13 seconds.', 'Applies Lv. 1 Shield up buff to [Egghead] crew members for 15 seconds.', '64% chance to evade Paralysis to [Egghead] crew members for 13 seconds.'],
+                    ['Applies Lv. 3 ATK and RCV up buff to all crew members in a medium, radial range for 14 seconds.', 'Applies Lv. 1 Shield up buff to [Egghead] crew members for 15 seconds.', '66% chance to evade Paralysis to [Egghead] crew members for 14 seconds.'],
+                    ['Applies Lv. 3 ATK and RCV up buff to all crew members in a medium, radial range for 15 seconds.', 'Applies Lv. 1 Shield up buff to [Egghead] crew members for 15 seconds.', '68% chance to evade Paralysis to [Egghead] crew members for 15 seconds.'],
+                    ['Applies Lv. 4 ATK and RCV up buff to all crew members in a medium, radial range for 16 seconds.', 'Applies Lv. 2 Shield up buff to [Egghead] crew members for 15 seconds.', '70% chance to evade Paralysis to [Egghead] crew members for 16 seconds.'],
+                    ['Applies Lv. 4 ATK and RCV up buff to all crew members in a medium, radial range for 17 seconds.', 'Applies Lv. 2 Shield up buff to [Egghead] crew members for 15 seconds.', '72% chance to evade Paralysis to [Egghead] crew members for 17 seconds.'],
+                    ['Applies Lv. 4 ATK and RCV up buff to all crew members in a medium, radial range for 18 seconds.', 'Applies Lv. 2 Shield up buff to [Egghead] crew members for 15 seconds.', '74% chance to evade Paralysis to [Egghead] crew members for 18 seconds.'],
+                    ['Applies Lv. 4 ATK and RCV up buff to all crew members in a medium, radial range for 19 seconds.', 'Applies Lv. 2 Shield up buff to [Egghead] crew members for 15 seconds.', '76% chance to evade Paralysis to [Egghead] crew members for 19 seconds.'],
+                    ['Applies Lv. 5 ATK and RCV up buff to all crew members in a medium, radial range for 20 seconds.', 'Applies Lv. 3 Shield up buff to [Egghead] crew members for 15 seconds.', '80% chance to evade Paralysis to [Egghead] crew members for 20 seconds.']
+                ]
+            }
+        }
+    },
     4418: {
         festStats: {
             def: 125,
@@ -78253,6 +78525,216 @@ window.rumble = {
                     ['Deals 3,200 fixed damage to all enemies in a large, radial range.', 'Applies Lv. 5 DEF, ATK and SPD up buff to [DEX] crew members for 18 seconds.', 'When there is 8 or more [DEX] crew members, removes 20% of Special CT to 3 enemies with the highest Special CT.'],
                     ['Deals 3,300 fixed damage to all enemies in a large, radial range.', 'Applies Lv. 6 DEF, ATK and SPD up buff to [DEX] crew members for 19 seconds.', 'When there is 8 or more [DEX] crew members, removes 20% of Special CT to 3 enemies with the highest Special CT.'],
                     ['Deals 3,500 fixed damage to all enemies in a large, radial range.', 'Applies Lv. 6 DEF, ATK and SPD up buff to [DEX] crew members for 20 seconds.', 'When there is 8 or more [DEX] crew members, removes 20% of Special CT to 3 enemies with the highest Special CT.']
+                ]
+            }
+        }
+    },
+    4425: {
+        festStats: {
+            def: 281,
+            spd: 120,
+            style: "DEF"
+        },
+        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<i>Level 2 Self Heal</i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Damage Over Time.', '30% damage reduction from [STR] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 1 ATK, HP and SPD up buff to [QCK] crew members.', 'Applies Lv. 2 HP up buff to [Straw Hat Pirates], [Logia-type] and [Vegapunk] crew members.', 'Applies Lv. 1 DEF up buff to [Straw Hat Pirates], [Logia-type] and [Vegapunk] crew members.'],
+                ['Applies Lv. 2 ATK, HP and SPD up buff to [QCK] crew members.', 'Applies Lv. 2 HP up buff to [Straw Hat Pirates], [Logia-type] and [Vegapunk] crew members.', 'Applies Lv. 1 DEF up buff to [Straw Hat Pirates], [Logia-type] and [Vegapunk] crew members.'],
+                ['Applies Lv. 3 ATK, HP and SPD up buff to [QCK] crew members.', 'Applies Lv. 3 HP up buff to [Straw Hat Pirates], [Logia-type] and [Vegapunk] crew members.', 'Applies Lv. 2 DEF up buff to [Straw Hat Pirates], [Logia-type] and [Vegapunk] crew members.'],
+                ['Applies Lv. 4 ATK, HP and SPD up buff to [QCK] crew members.', 'Applies Lv. 3 HP up buff to [Straw Hat Pirates], [Logia-type] and [Vegapunk] crew members.', 'Applies Lv. 2 DEF up buff to [Straw Hat Pirates], [Logia-type] and [Vegapunk] crew members.'],
+                ['Applies Lv. 5 ATK, HP and SPD up buff to [QCK] crew members.', 'Applies Lv. 4 HP up buff to [Straw Hat Pirates], [Logia-type] and [Vegapunk] crew members.', 'Applies Lv. 3 DEF up buff to [Straw Hat Pirates], [Logia-type] and [Vegapunk] crew members.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 28,
+                descriptions: [
+                    ['Applies Lv. 1 Shield up buff to [Straw Hat Pirates], [Logia-type] and [Vegapunk] crew members for 11 seconds.', 'When there is 5 or more [QCK] crew members, 73% chance to evade Fixed Damage to [Straw Hat Pirates], [Logia-type] and [Vegapunk] crew members for 11 seconds.', 'When there is 5 or more [QCK] crew members, grant 3.1x Counter to self for 11 seconds.', 'When there is 5 or more [QCK] crew members, provoke enemies to self for 11 seconds.'],
+                    ['Applies Lv. 1 Shield up buff to [Straw Hat Pirates], [Logia-type] and [Vegapunk] crew members for 12 seconds.', 'When there is 5 or more [QCK] crew members, 76% chance to evade Fixed Damage to [Straw Hat Pirates], [Logia-type] and [Vegapunk] crew members for 12 seconds.', 'When there is 5 or more [QCK] crew members, grant 3.2x Counter to self for 12 seconds.', 'When there is 5 or more [QCK] crew members, provoke enemies to self for 12 seconds.'],
+                    ['Applies Lv. 1 Shield up buff to [Straw Hat Pirates], [Logia-type] and [Vegapunk] crew members for 13 seconds.', 'When there is 5 or more [QCK] crew members, 79% chance to evade Fixed Damage to [Straw Hat Pirates], [Logia-type] and [Vegapunk] crew members for 13 seconds.', 'When there is 5 or more [QCK] crew members, grant 3.3x Counter to self for 13 seconds.', 'When there is 5 or more [QCK] crew members, provoke enemies to self for 13 seconds.'],
+                    ['Applies Lv. 1 Shield up buff to [Straw Hat Pirates], [Logia-type] and [Vegapunk] crew members for 14 seconds.', 'When there is 5 or more [QCK] crew members, 82% chance to evade Fixed Damage to [Straw Hat Pirates], [Logia-type] and [Vegapunk] crew members for 14 seconds.', 'When there is 5 or more [QCK] crew members, grant 3.4x Counter to self for 14 seconds.', 'When there is 5 or more [QCK] crew members, provoke enemies to self for 14 seconds.'],
+                    ['Applies Lv. 1 Shield up buff to [Straw Hat Pirates], [Logia-type] and [Vegapunk] crew members for 15 seconds.', 'When there is 5 or more [QCK] crew members, 85% chance to evade Fixed Damage to [Straw Hat Pirates], [Logia-type] and [Vegapunk] crew members for 15 seconds.', 'When there is 5 or more [QCK] crew members, grant 3.5x Counter to self for 15 seconds.', 'When there is 5 or more [QCK] crew members, provoke enemies to self for 15 seconds.'],
+                    ['Applies Lv. 2 Shield up buff to [Straw Hat Pirates], [Logia-type] and [Vegapunk] crew members for 16 seconds.', 'When there is 5 or more [QCK] crew members, 88% chance to evade Fixed Damage to [Straw Hat Pirates], [Logia-type] and [Vegapunk] crew members for 16 seconds.', 'When there is 5 or more [QCK] crew members, grant 3.6x Counter to self for 16 seconds.', 'When there is 5 or more [QCK] crew members, provoke enemies to self for 16 seconds.'],
+                    ['Applies Lv. 2 Shield up buff to [Straw Hat Pirates], [Logia-type] and [Vegapunk] crew members for 17 seconds.', 'When there is 5 or more [QCK] crew members, 91% chance to evade Fixed Damage to [Straw Hat Pirates], [Logia-type] and [Vegapunk] crew members for 17 seconds.', 'When there is 5 or more [QCK] crew members, grant 3.7x Counter to self for 17 seconds.', 'When there is 5 or more [QCK] crew members, provoke enemies to self for 17 seconds.'],
+                    ['Applies Lv. 2 Shield up buff to [Straw Hat Pirates], [Logia-type] and [Vegapunk] crew members for 18 seconds.', 'When there is 5 or more [QCK] crew members, 94% chance to evade Fixed Damage to [Straw Hat Pirates], [Logia-type] and [Vegapunk] crew members for 18 seconds.', 'When there is 5 or more [QCK] crew members, grant 3.8x Counter to self for 18 seconds.', 'When there is 5 or more [QCK] crew members, provoke enemies to self for 18 seconds.'],
+                    ['Applies Lv. 2 Shield up buff to [Straw Hat Pirates], [Logia-type] and [Vegapunk] crew members for 19 seconds.', 'When there is 5 or more [QCK] crew members, 97% chance to evade Fixed Damage to [Straw Hat Pirates], [Logia-type] and [Vegapunk] crew members for 19 seconds.', 'When there is 5 or more [QCK] crew members, grant 3.9x Counter to self for 19 seconds.', 'When there is 5 or more [QCK] crew members, provoke enemies to self for 19 seconds.'],
+                    ['Applies Lv. 3 Shield up buff to [Straw Hat Pirates], [Logia-type] and [Vegapunk] crew members for 20 seconds.', 'When there is 5 or more [QCK] crew members, 100% chance to evade Fixed Damage to [Straw Hat Pirates], [Logia-type] and [Vegapunk] crew members for 20 seconds.', 'When there is 5 or more [QCK] crew members, grant 4x Counter to self for 20 seconds.', 'When there is 5 or more [QCK] crew members, provoke enemies to self for 20 seconds.']
+                ]
+            }
+        },
+        festSuperSpecial: {
+            base: {
+                condition: "After this character receives damage 5 times",
+                description: ['Applies Lv. 4 Shield up buff to [Straw Hat Pirates], [Logia-type] and [Vegapunk] crew members for 25 seconds.', 'When there is 5 or more [QCK] crew members, 100% chance to evade Fixed Damage and Percentage Damage to [Straw Hat Pirates], [Logia-type] and [Vegapunk] crew members for 25 seconds.', 'When there is 5 or more [QCK] crew members, grant 4.5x Counter to self for 30 seconds.', 'When there is 5 or more [QCK] crew members, provoke enemies to self for 30 seconds.']
+            },
+            llbbase: {
+                condition: "After this character receives damage 3 times",
+                description: ['Applies Lv. 5 Shield up buff to all crew members for 30 seconds.', 'When there is 5 or more [QCK] crew members, 100% chance to evade Fixed Damage and Percentage Damage to all crew members for 30 seconds.', 'When there is 5 or more [QCK] crew members, grant 5x Counter to self for 40 seconds.', 'When there is 5 or more [QCK] crew members, provoke enemies to self for 40 seconds.']
+            }
+        }
+    },
+    4426: {
+        festStats: {
+            def: 129,
+            spd: 181,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<b>Full Attack</b>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Action Bind.', '30% damage reduction from [INT] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 4 HP up buff to [PSY] crew members.', 'Applies Lv. 2 RCV up buff to [PSY] crew members.', 'Applies Lv. 2 SPD up buff to [Straw Hat Pirates] and [Vegapunk] crew members.', 'The first 10 times this character takes damage, applies Lv. 2 ATK up buff to self.', 'The first 10 times this character takes damage, applies Lv. 1 DEF up buff to self.'],
+                ['Applies Lv. 5 HP up buff to [PSY] crew members.', 'Applies Lv. 3 RCV up buff to [PSY] crew members.', 'Applies Lv. 3 SPD up buff to [Straw Hat Pirates] and [Vegapunk] crew members.', 'The first 10 times this character takes damage, applies Lv. 2 ATK up buff to self.', 'The first 10 times this character takes damage, applies Lv. 1 DEF up buff to self.'],
+                ['Applies Lv. 6 HP up buff to [PSY] crew members.', 'Applies Lv. 4 RCV up buff to [PSY] crew members.', 'Applies Lv. 4 SPD up buff to [Straw Hat Pirates] and [Vegapunk] crew members.', 'The first 10 times this character takes damage, applies Lv. 2 ATK up buff to self.', 'The first 10 times this character takes damage, applies Lv. 1 DEF up buff to self.'],
+                ['Applies Lv. 7 HP up buff to [PSY] crew members.', 'Applies Lv. 5 RCV up buff to [PSY] crew members.', 'Applies Lv. 5 SPD up buff to [Straw Hat Pirates] and [Vegapunk] crew members.', 'The first 10 times this character takes damage, applies Lv. 2 ATK up buff to self.', 'The first 10 times this character takes damage, applies Lv. 1 DEF up buff to self.'],
+                ['Applies Lv. 8 HP up buff to [PSY] crew members.', 'Applies Lv. 6 RCV up buff to [PSY] crew members.', 'Applies Lv. 6 SPD up buff to [Straw Hat Pirates] and [Vegapunk] crew members.', 'The first 10 times this character takes damage, applies Lv. 2 ATK up buff to self.', 'The first 10 times this character takes damage, applies Lv. 1 DEF up buff to self.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 27,
+                descriptions: [
+                    ['Deals 3.2x ATK in damage to 2 enemies.', 'When there is 4 or more [Straw Hat Pirates] crew members, 73% chance to evade Action Bind to [PSY] crew members for 11 seconds.'],
+                    ['Deals 3.4x ATK in damage to 2 enemies.', 'When there is 4 or more [Straw Hat Pirates] crew members, 76% chance to evade Action Bind to [PSY] crew members for 12 seconds.'],
+                    ['Deals 3.6x ATK in damage to 2 enemies.', 'When there is 4 or more [Straw Hat Pirates] crew members, 79% chance to evade Action Bind to [PSY] crew members for 13 seconds.'],
+                    ['Deals 3.8x ATK in damage to 2 enemies.', 'When there is 4 or more [Straw Hat Pirates] crew members, 82% chance to evade Action Bind to [PSY] crew members for 14 seconds.'],
+                    ['Deals 4x ATK in damage to 2 enemies.', 'When there is 4 or more [Straw Hat Pirates] crew members, 85% chance to evade Action Bind to [PSY] crew members for 15 seconds.'],
+                    ['Deals 4.2x ATK in damage to 2 enemies.', 'When there is 4 or more [Straw Hat Pirates] crew members, 88% chance to evade Action Bind to [PSY] crew members for 16 seconds.'],
+                    ['Deals 4.4x ATK in damage to 2 enemies.', 'When there is 4 or more [Straw Hat Pirates] crew members, 91% chance to evade Action Bind to [PSY] crew members for 17 seconds.'],
+                    ['Deals 4.6x ATK in damage to 2 enemies.', 'When there is 4 or more [Straw Hat Pirates] crew members, 94% chance to evade Action Bind to [PSY] crew members for 18 seconds.'],
+                    ['Deals 4.8x ATK in damage to 2 enemies.', 'When there is 4 or more [Straw Hat Pirates] crew members, 97% chance to evade Action Bind to [PSY] crew members for 19 seconds.'],
+                    ['Deals 5x ATK in damage to 2 enemies.', 'When there is 4 or more [Straw Hat Pirates] crew members, 100% chance to evade Action Bind to [PSY] crew members for 20 seconds.']
+                ]
+            }
+        },
+        festSuperSpecial: {
+            base: {
+                condition: "After enemies use 3 Rumble Specials",
+                description: ['Deals 5.5x ATK in damage to 2 enemies.', '70% chance to inflict Paralysis to all enemies in a large, radial range for 15 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, 100% chance to evade Action Bind to [PSY] crew members for 30 seconds.']
+            },
+            llbbase: {
+                condition: "After enemies use 1 Rumble Specials",
+                description: ['Deals 6x ATK in damage to 2 enemies.', '100% chance to inflict Paralysis to all enemies in a large, radial range for 20 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, 100% chance to evade Action Bind to [PSY] crew members for 40 seconds.']
+            }
+        }
+    },
+    4427: {
+        festStats: {
+            def: 162,
+            spd: 164,
+            style: "SPT"
+        },
+        festAttackPattern: ['Normal Attack', '<b><i>Power Attack</b></i>', '<i>Level 1 Small Range Heal</i>', '<b><i>Power Attack</b></i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['Heals 200 HP every 5 seconds.', '20% damage reduction from [STR] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 1 SPD up buff to [QCK] crew members.', 'Applies Lv. 1 HP and ATK up buff to [Straw Hat Pirates], [Logia-type] and [Vegapunk] crew members.', 'Applies Lv. 1 DEF up buff to [Straw Hat Pirates], [Logia-type] and [Vegapunk] crew members.', 'During Assault Rumble, applies Lv. 2 HP up buff to self.', 'During Assault Rumble, applies Lv. 2 Special CT up buff to self.'],
+                ['Applies Lv. 2 SPD up buff to [QCK] crew members.', 'Applies Lv. 2 HP and ATK up buff to [Straw Hat Pirates], [Logia-type] and [Vegapunk] crew members.', 'Applies Lv. 1 DEF up buff to [Straw Hat Pirates], [Logia-type] and [Vegapunk] crew members.', 'During Assault Rumble, applies Lv. 4 HP up buff to self.', 'During Assault Rumble, applies Lv. 3 Special CT up buff to self.'],
+                ['Applies Lv. 3 SPD up buff to [QCK] crew members.', 'Applies Lv. 3 HP and ATK up buff to [Straw Hat Pirates], [Logia-type] and [Vegapunk] crew members.', 'Applies Lv. 2 DEF up buff to [Straw Hat Pirates], [Logia-type] and [Vegapunk] crew members.', 'During Assault Rumble, applies Lv. 6 HP up buff to self.', 'During Assault Rumble, applies Lv. 4 Special CT up buff to self.'],
+                ['Applies Lv. 4 SPD up buff to [QCK] crew members.', 'Applies Lv. 4 HP and ATK up buff to [Straw Hat Pirates], [Logia-type] and [Vegapunk] crew members.', 'Applies Lv. 2 DEF up buff to [Straw Hat Pirates], [Logia-type] and [Vegapunk] crew members.', 'During Assault Rumble, applies Lv. 8 HP up buff to self.', 'During Assault Rumble, applies Lv. 5 Special CT up buff to self.'],
+                ['Applies Lv. 5 SPD up buff to [QCK] crew members.', 'Applies Lv. 5 HP and ATK up buff to [Straw Hat Pirates], [Logia-type] and [Vegapunk] crew members.', 'Applies Lv. 3 DEF up buff to [Straw Hat Pirates], [Logia-type] and [Vegapunk] crew members.', 'During Assault Rumble, applies Lv. 10 HP up buff to self.', 'During Assault Rumble, applies Lv. 6 Special CT up buff to self.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 32,
+                descriptions: [
+                    ['Inflicts Lv. 1 DEF down debuff to 3 enemies for 11 seconds.', '73% chance to evade Damage Over Time to [QCK] [Straw Hat Pirates], [QCK] [Logia-type] and [QCK] [Vegapunk] crew members for 11 seconds.', 'Inflicts Lv. 3 DEF down debuff to [Navy] enemies for 11 seconds.', 'During Assault Rumble, heals 200 fixed HP every 3 seconds to [QCK] crew members for 11 seconds.'],
+                    ['Inflicts Lv. 1 DEF down debuff to 3 enemies for 12 seconds.', '76% chance to evade Damage Over Time to [QCK] [Straw Hat Pirates], [QCK] [Logia-type] and [QCK] [Vegapunk] crew members for 11 seconds.', 'Inflicts Lv. 3 DEF down debuff to [Navy] enemies for 12 seconds.', 'During Assault Rumble, heals 233 fixed HP every 3 seconds to [QCK] crew members for 12 seconds.'],
+                    ['Inflicts Lv. 1 DEF down debuff to 3 enemies for 13 seconds.', '79% chance to evade Damage Over Time to [QCK] [Straw Hat Pirates], [QCK] [Logia-type] and [QCK] [Vegapunk] crew members for 12 seconds.', 'Inflicts Lv. 3 DEF down debuff to [Navy] enemies for 13 seconds.', 'During Assault Rumble, heals 266 fixed HP every 3 seconds to [QCK] crew members for 13 seconds.'],
+                    ['Inflicts Lv. 1 DEF down debuff to 3 enemies for 14 seconds.', '82% chance to evade Damage Over Time to [QCK] [Straw Hat Pirates], [QCK] [Logia-type] and [QCK] [Vegapunk] crew members for 12 seconds.', 'Inflicts Lv. 4 DEF down debuff to [Navy] enemies for 14 seconds.', 'During Assault Rumble, heals 299 fixed HP every 3 seconds to [QCK] crew members for 14 seconds.'],
+                    ['Inflicts Lv. 2 DEF down debuff to 3 enemies for 15 seconds.', '85% chance to evade Damage Over Time to [QCK] [Straw Hat Pirates], [QCK] [Logia-type] and [QCK] [Vegapunk] crew members for 13 seconds.', 'Inflicts Lv. 4 DEF down debuff to [Navy] enemies for 15 seconds.', 'During Assault Rumble, heals 332 fixed HP every 3 seconds to [QCK] crew members for 15 seconds.'],
+                    ['Inflicts Lv. 2 DEF down debuff to 3 enemies for 16 seconds.', '88% chance to evade Damage Over Time to [QCK] [Straw Hat Pirates], [QCK] [Logia-type] and [QCK] [Vegapunk] crew members for 13 seconds.', 'Inflicts Lv. 5 DEF down debuff to [Navy] enemies for 16 seconds.', 'During Assault Rumble, heals 365 fixed HP every 3 seconds to [QCK] crew members for 16 seconds.'],
+                    ['Inflicts Lv. 2 DEF down debuff to 3 enemies for 17 seconds.', '91% chance to evade Damage Over Time to [QCK] [Straw Hat Pirates], [QCK] [Logia-type] and [QCK] [Vegapunk] crew members for 14 seconds.', 'Inflicts Lv. 5 DEF down debuff to [Navy] enemies for 17 seconds.', 'During Assault Rumble, heals 398 fixed HP every 3 seconds to [QCK] crew members for 17 seconds.'],
+                    ['Inflicts Lv. 3 DEF down debuff to 3 enemies for 18 seconds.', '94% chance to evade Damage Over Time to [QCK] [Straw Hat Pirates], [QCK] [Logia-type] and [QCK] [Vegapunk] crew members for 14 seconds.', 'Inflicts Lv. 5 DEF down debuff to [Navy] enemies for 18 seconds.', 'During Assault Rumble, heals 431 fixed HP every 3 seconds to [QCK] crew members for 18 seconds.'],
+                    ['Inflicts Lv. 3 DEF down debuff to 3 enemies for 19 seconds.', '97% chance to evade Damage Over Time to [QCK] [Straw Hat Pirates], [QCK] [Logia-type] and [QCK] [Vegapunk] crew members for 15 seconds.', 'Inflicts Lv. 6 DEF down debuff to [Navy] enemies for 19 seconds.', 'During Assault Rumble, heals 464 fixed HP every 3 seconds to [QCK] crew members for 19 seconds.'],
+                    ['Inflicts Lv. 4 DEF down debuff to 3 enemies for 20 seconds.', '100% chance to evade Damage Over Time to [QCK] [Straw Hat Pirates], [QCK] [Logia-type] and [QCK] [Vegapunk] crew members for 15 seconds.', 'Inflicts Lv. 7 DEF down debuff to [Navy] enemies for 20 seconds.', 'During Assault Rumble, heals 500 fixed HP every 3 seconds to [QCK] crew members for 20 seconds.']
+                ]
+            }
+        }
+    },
+    4428: {
+        festStats: {
+            def: 170,
+            spd: 159,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<b>Full Attack</b>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Action Bind.', '20% damage reduction from [INT] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 1 SPD up buff to [PSY] crew members.', 'Applies Lv. 1 HP, SPD and Guard up buff to [Straw Hat Pirates] and [Vegapunk] crew members.', 'During Assault Rumble, applies Lv. 2 HP up buff to self.', 'During Assault Rumble, applies Lv. 2 Special CT up buff to self.'],
+                ['Applies Lv. 2 SPD up buff to [PSY] crew members.', 'Applies Lv. 2 HP, SPD and Guard up buff to [Straw Hat Pirates] and [Vegapunk] crew members.', 'During Assault Rumble, applies Lv. 4 HP up buff to self.', 'During Assault Rumble, applies Lv. 3 Special CT up buff to self.'],
+                ['Applies Lv. 3 SPD up buff to [PSY] crew members.', 'Applies Lv. 3 HP, SPD and Guard up buff to [Straw Hat Pirates] and [Vegapunk] crew members.', 'During Assault Rumble, applies Lv. 6 HP up buff to self.', 'During Assault Rumble, applies Lv. 4 Special CT up buff to self.'],
+                ['Applies Lv. 4 SPD up buff to [PSY] crew members.', 'Applies Lv. 4 HP, SPD and Guard up buff to [Straw Hat Pirates] and [Vegapunk] crew members.', 'During Assault Rumble, applies Lv. 8 HP up buff to self.', 'During Assault Rumble, applies Lv. 5 Special CT up buff to self.'],
+                ['Applies Lv. 5 SPD up buff to [PSY] crew members.', 'Applies Lv. 5 HP, SPD and Guard up buff to [Straw Hat Pirates] and [Vegapunk] crew members.', 'During Assault Rumble, applies Lv. 10 HP up buff to self.', 'During Assault Rumble, applies Lv. 6 Special CT up buff to self.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 31,
+                descriptions: [
+                    ['Applies Lv. 1 ATK up buff to self for 11 seconds.', 'Applies Lv. 4 ATK and SPD up buff to [Straw Hat Pirates] and [Vegapunk] crew members for 11 seconds.', 'Deals 2.1x ATK in damage to 2 enemies.', 'During Assault Rumble, deals 2.1x ATK in damage to 2 [Blackbeard Pirates] enemies.'],
+                    ['Applies Lv. 1 ATK up buff to self for 12 seconds.', 'Applies Lv. 4 ATK and SPD up buff to [Straw Hat Pirates] and [Vegapunk] crew members for 12 seconds.', 'Deals 2.2x ATK in damage to 2 enemies.', 'During Assault Rumble, deals 2.2x ATK in damage to 2 [Blackbeard Pirates] enemies.'],
+                    ['Applies Lv. 1 ATK up buff to self for 13 seconds.', 'Applies Lv. 4 ATK and SPD up buff to [Straw Hat Pirates] and [Vegapunk] crew members for 13 seconds.', 'Deals 2.3x ATK in damage to 2 enemies.', 'During Assault Rumble, deals 2.3x ATK in damage to 2 [Blackbeard Pirates] enemies.'],
+                    ['Applies Lv. 2 ATK up buff to self for 14 seconds.', 'Applies Lv. 5 ATK and SPD up buff to [Straw Hat Pirates] and [Vegapunk] crew members for 14 seconds.', 'Deals 2.4x ATK in damage to 2 enemies.', 'During Assault Rumble, deals 2.4x ATK in damage to 2 [Blackbeard Pirates] enemies.'],
+                    ['Applies Lv. 2 ATK up buff to self for 15 seconds.', 'Applies Lv. 5 ATK and SPD up buff to [Straw Hat Pirates] and [Vegapunk] crew members for 15 seconds.', 'Deals 2.5x ATK in damage to 2 enemies.', 'During Assault Rumble, deals 2.5x ATK in damage to 2 [Blackbeard Pirates] enemies.'],
+                    ['Applies Lv. 3 ATK up buff to self for 16 seconds.', 'Applies Lv. 6 ATK and SPD up buff to [Straw Hat Pirates] and [Vegapunk] crew members for 16 seconds.', 'Deals 2.6x ATK in damage to 2 enemies.', 'During Assault Rumble, deals 2.6x ATK in damage to 2 [Blackbeard Pirates] enemies.'],
+                    ['Applies Lv. 3 ATK up buff to self for 17 seconds.', 'Applies Lv. 6 ATK and SPD up buff to [Straw Hat Pirates] and [Vegapunk] crew members for 17 seconds.', 'Deals 2.7x ATK in damage to 2 enemies.', 'During Assault Rumble, deals 2.7x ATK in damage to 2 [Blackbeard Pirates] enemies.'],
+                    ['Applies Lv. 3 ATK up buff to self for 18 seconds.', 'Applies Lv. 6 ATK and SPD up buff to [Straw Hat Pirates] and [Vegapunk] crew members for 18 seconds.', 'Deals 2.8x ATK in damage to 2 enemies.', 'During Assault Rumble, deals 2.8x ATK in damage to 2 [Blackbeard Pirates] enemies.'],
+                    ['Applies Lv. 4 ATK up buff to self for 19 seconds.', 'Applies Lv. 7 ATK and SPD up buff to [Straw Hat Pirates] and [Vegapunk] crew members for 19 seconds.', 'Deals 2.9x ATK in damage to 2 enemies.', 'During Assault Rumble, deals 2.9x ATK in damage to 2 [Blackbeard Pirates] enemies.'],
+                    ['Applies Lv. 5 ATK up buff to self for 20 seconds.', 'Applies Lv. 8 ATK and SPD up buff to [Straw Hat Pirates] and [Vegapunk] crew members for 20 seconds.', 'Deals 3x ATK in damage to 2 enemies.', 'During Assault Rumble, deals 3x ATK in damage to 2 [Blackbeard Pirates] enemies.']
+                ]
+            }
+        }
+    },
+    4429: {
+        festStats: {
+            def: 167,
+            spd: 182,
+            style: "SPT"
+        },
+        festAttackPattern: ['Normal Attack', '<b><i>Power Attack</b></i>', '<i>Level 1 Small Range Heal</i>', '<b><i>Power Attack</b></i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['60% chance to resist Special Bind.', '20% damage reduction from [INT] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 1 HP and ATK up buff to [PSY] and Slasher crew members.'],
+                ['Applies Lv. 2 HP and ATK up buff to [PSY] and Slasher crew members.'],
+                ['Applies Lv. 3 HP and ATK up buff to [PSY] and Slasher crew members.'],
+                ['Applies Lv. 4 HP and ATK up buff to [PSY] and Slasher crew members.'],
+                ['Applies Lv. 5 HP and ATK up buff to [PSY] and Slasher crew members.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 22,
+                descriptions: [
+                    ['Deals 1,500 fixed damage to 2 enemies.', 'Applies Lv. 1 ATK and SPD up buff to [PSY] and Slasher crew members for 6 seconds.'],
+                    ['Deals 1,600 fixed damage to 2 enemies.', 'Applies Lv. 1 ATK and SPD up buff to [PSY] and Slasher crew members for 6 seconds.'],
+                    ['Deals 1,700 fixed damage to 2 enemies.', 'Applies Lv. 1 ATK and SPD up buff to [PSY] and Slasher crew members for 7 seconds.'],
+                    ['Deals 1,800 fixed damage to 2 enemies.', 'Applies Lv. 1 ATK and SPD up buff to [PSY] and Slasher crew members for 7 seconds.'],
+                    ['Deals 1,900 fixed damage to 2 enemies.', 'Applies Lv. 1 ATK and SPD up buff to [PSY] and Slasher crew members for 8 seconds.'],
+                    ['Deals 2,000 fixed damage to 2 enemies.', 'Applies Lv. 2 ATK and SPD up buff to [PSY] and Slasher crew members for 8 seconds.'],
+                    ['Deals 2,100 fixed damage to 2 enemies.', 'Applies Lv. 2 ATK and SPD up buff to [PSY] and Slasher crew members for 9 seconds.'],
+                    ['Deals 2,200 fixed damage to 2 enemies.', 'Applies Lv. 2 ATK and SPD up buff to [PSY] and Slasher crew members for 9 seconds.'],
+                    ['Deals 2,300 fixed damage to 2 enemies.', 'Applies Lv. 2 ATK and SPD up buff to [PSY] and Slasher crew members for 10 seconds.'],
+                    ['Deals 2,500 fixed damage to 2 enemies.', 'Applies Lv. 3 ATK and SPD up buff to [PSY] and Slasher crew members for 10 seconds.']
                 ]
             }
         }
