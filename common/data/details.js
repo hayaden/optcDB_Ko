@@ -173324,22 +173324,24 @@ window.details = {
         ]
     },
     4431: {//Jinbe
-        captain: "Reduces crew's Special charge time by 1 turn, reduces crew's HP to 25%, and launches the following effect at start of quest: \"Nullifies damage taken until hit 1 time; +1 hit if Captain Ability is doubled.\" Boosts [PSY], Cerebral, and Free Spirit characters' HP by 1.5x, ATK by 5x, boosts their ATK by 5.75x when crew's HP is 30% or below, makes crew's [PSY][RCV][TND] slots have matching slot effects, and reduces damage taken by 30% [Applies following effect based on number of applicable Character Tags on crew] If 4 or more [Straw Hat Pirates] characters are on the crew, reduces crew's Burn (applied by enemy) duration by 6 turns ",
-        special: "Completely removes crew's Target Lock status, reduces crew's Bind duration by 6 turns, and boosts [PSY], Cerebral, and Free Spirit characters' chain multiplier growth rate of normal attacks up to +0.7 (GOOD +0.3; GREAT +0.5; PERFECT +0.7) for 3 turns. If 5 or more [Straw Hat Pirates] characters are on the crew and one enemy with 20% HP or below remains when Special is Launched, defeats that enemy. If crew's HP is 30% or below when Special is launched and 5 or more [Egghead Arc] characters are on the crew, nullifies damage taken until hit 1 time, and boosts the ATK of the next final tap performed by a Cerebral or Free Spirit character by 30% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect)",
+        captain: "Reduces crew's current HP by 75% at the start of the fight, reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of [PSY], Cerebral and Free Spirit characters by 5x, by 5.75x instead if HP is below 30% at the start of the turn, boosts HP of [PSY], Cerebral and Free Spirit characters by 1.5x, makes [PSY], [RCV] and [TND] orbs beneficial for all characters, reduces damage received by 30%, and launches the following effect at start of quest: reduces damage received by 100% for 1 attack. If your crew has 4+ [Straw Hat Pirates] characters, reduces Burn duration by 6 turns.",
+        captainNotes: "Damage Nullification activates on the first instance of damage taken from the enemy.",
+        special: "Removes Target Lock duration completely, reduces Bind duration by 6 turns, and increases Chain Tap Timing Bonus of [PSY], Cerebral and Free Spirit characters to +0.3x-0.7x for 3 turns depending on Tap Timing. If your crew has 5+ [Straw Hat Pirates] characters, there is only 1 enemy on the stage, and that enemy has less than or equal to 20% of their MAX HP: instantly defeats that enemy. If HP is below 30% when the special is activated and your crew has 5+ [Egghead Arc] characters, reduces damage received by 100% for 1 attack, and boosts Final Tap ATK of Cerebral or Free Spirit characters by 30%.",
+        specialNotes: "GOOD: +0.3, GREAT: +0.5, PERFECT: +0.7",
         specialName: "Future Island's Fish-Man Karate Secret Art: Demon Brick Fist",
         sailor: {
-            base: "Character cannot be blown away by attack",
-            level1: "Boosts crew's base ATK by 300 when HP is 30% or below"
+            base: "This character cannot be Blown Away.",
+            level1: "If HP is below 30%, boosts base ATK of all characters by 300."
         },
         support: [
             {
                 Characters: "Characters with the following Character Tag: [Straw Hat Pirates]",
                 description: [
-                    "Reduces damage taken from [INT] characters by 1% and adds 4% of character's base HP to supported character's base HP",
-                    "Reduces damage taken from [INT] characters by 2% and adds 5% of character's base HP to supported character's base HP",
-                    "Reduces damage taken from [INT] characters by 3% and adds 6% of character's base HP to supported character's base HP",
-                    "Reduces damage taken from [INT] characters by 4% and adds 7% of character's base HP to supported character's base HP",
-                    "Reduces damage taken from [INT] characters by 5% and adds 8% of character's base HP to supported character's base HP"
+                    "Reduces damage received from [INT] characters by 1%. Adds 4% of this character's base HP to the supported character's base HP.",
+                    "Reduces damage received from [INT] characters by 2%. Adds 5% of this character's base HP to the supported character's base HP.",
+                    "Reduces damage received from [INT] characters by 3%. Adds 6% of this character's base HP to the supported character's base HP.",
+                    "Reduces damage received from [INT] characters by 4%. Adds 7% of this character's base HP to the supported character's base HP.",
+                    "Reduces damage received from [INT] characters by 5%. Adds 8% of this character's base HP to the supported character's base HP."
                 ]
             }
         ],
@@ -173416,97 +173418,7 @@ window.details = {
                     "Reduces Ship Bind duration by 5 turns"
                 ]
             }
-        ],
-        festStats: {
-            def: 210,
-            spd: 151,
-            style: "SPT"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Power Attack",
-            "Heal Lv.1 (Small Range)",
-            "Power Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "Completely evades Damage Over Time, reduce damage taken from [INT] by 30%, increase damage dealt to [INT] by 30%",
-        festAbility: [
-            "[PSY]/Cerebral class teammates HP Up Lv.2, DEF Up Lv.2, SPD Up Lv.2; Cerebral class teammates ATK Up Lv.1, SPD Up Lv.1; [Straw Hat Pirates] teammates HP Up Lv.1, ATK Up Lv.1, DEF Up Lv.1",
-            "[PSY]/Cerebral class teammates HP Up Lv.3, DEF Up Lv.3, SPD Up Lv.3; Cerebral class teammates ATK Up Lv.2, SPD Up Lv.2; [Straw Hat Pirates] teammates HP Up Lv.2, ATK Up Lv.2, DEF Up Lv.1",
-            "[PSY]/Cerebral class teammates HP Up Lv.4, DEF Up Lv.4, SPD Up Lv.4; Cerebral class teammates ATK Up Lv.3, SPD Up Lv.3; [Straw Hat Pirates] teammates HP Up Lv.3, ATK Up Lv.3, DEF Up Lv.2",
-            "[PSY]/Cerebral class teammates HP Up Lv.5, DEF Up Lv.5, SPD Up Lv.5; Cerebral class teammates ATK Up Lv.3, SPD Up Lv.3; [Straw Hat Pirates] teammates HP Up Lv.4, ATK Up Lv.4, DEF Up Lv.2",
-            "[PSY]/Cerebral class teammates HP Up Lv.6, DEF Up Lv.6, SPD Up Lv.6; Cerebral class teammates ATK Up Lv.4, SPD Up Lv.4; [Straw Hat Pirates] teammates HP Up Lv.5, ATK Up Lv.5, DEF Up Lv.3"
-        ],
-        festSpecial: [
-            {
-                cooldown: 30,
-                description: "Targets enemies within large range for ATK x 1.6 damage; targets [PSY]/Cerebral class teammates for 73% chance to evade Forced Out (11 s), ATK Up Lv.3 (11 s), ATK x 1 Counter stance (11 s); targets Cerebral class teammates for Special CT 11% reduction"
-            },
-            {
-                cooldown: 30,
-                description: "Targets enemies within large range for ATK x 1.7 damage; targets [PSY]/Cerebral class teammates for 76% chance to evade Forced Out (12 s), ATK Up Lv.3 (12 s), ATK x 1.2 Counter stance (12 s); targets Cerebral class teammates for Special CT 12% reduction"
-            },
-            {
-                cooldown: 30,
-                description: "Targets enemies within large range for ATK x 1.8 damage; targets [PSY]/Cerebral class teammates for 79% chance to evade Forced Out (13 s), ATK Up Lv.3 (13 s), ATK x 1.4 Counter stance (13 s); targets Cerebral class teammates for Special CT 13% reduction"
-            },
-            {
-                cooldown: 30,
-                description: "Targets enemies within large range for ATK x 1.9 damage; targets [PSY]/Cerebral class teammates for 82% chance to evade Forced Out (14 s), ATK Up Lv.4 (14 s), ATK x 1.6 Counter stance (14 s); targets Cerebral class teammates for Special CT 14% reduction"
-            },
-            {
-                cooldown: 30,
-                description: "Targets enemies within large range for ATK x 2 damage; targets [PSY]/Cerebral class teammates for 85% chance to evade Forced Out (15 s), ATK Up Lv.4 (15 s), ATK x 1.8 Counter stance (15 s); targets Cerebral class teammates for Special CT 15% reduction"
-            },
-            {
-                cooldown: 30,
-                description: "Targets enemies within large range for ATK x 2.1 damage; targets [PSY]/Cerebral class teammates for 88% chance to evade Forced Out (16 s), ATK Up Lv.5 (16 s), ATK x 2 Counter stance (16 s); targets Cerebral class teammates for Special CT 16% reduction"
-            },
-            {
-                cooldown: 30,
-                description: "Targets enemies within large range for ATK x 2.2 damage; targets [PSY]/Cerebral class teammates for 91% chance to evade Forced Out (17 s), ATK Up Lv.5 (17 s), ATK x 2.2 Counter stance (17 s); targets Cerebral class teammates for Special CT 17% reduction"
-            },
-            {
-                cooldown: 30,
-                description: "Targets enemies within large range for ATK x 2.3 damage; targets [PSY]/Cerebral class teammates for 94% chance to evade Forced Out (18 s), ATK Up Lv.5 (18 s), ATK x 2.4 Counter stance (18 s); targets Cerebral class teammates for Special CT 18% reduction"
-            },
-            {
-                cooldown: 30,
-                description: "Targets enemies within large range for ATK x 2.4 damage; targets [PSY]/Cerebral class teammates for 97% chance to evade Forced Out (19 s), ATK Up Lv.6 (19 s), ATK x 2.6 Counter stance (19 s); targets Cerebral class teammates for Special CT 19% reduction"
-            },
-            {
-                cooldown: 30,
-                description: "Targets enemies within large range for ATK x 2.5 damage; targets [PSY]/Cerebral class teammates for 100% chance to evade Forced Out (20 s), ATK Up Lv.7 (20 s), ATK x 3 Counter stance (20 s); targets Cerebral class teammates for Special CT 20% reduction"
-            }
-        ],
-        festAbilityGP: [
-            {
-                festGPAbility: "Team ATK Up Lv.1, HP, SPD Up Lv.1",
-                festGPSpecial: "Targets all enemies for 500 damage",
-                uses: 2
-            },
-            {
-                festGPAbility: "Team ATK Up Lv.1, HP, SPD Up Lv.2",
-                festGPSpecial: "Targets all enemies for 625 damage",
-                uses: 2
-            },
-            {
-                festGPAbility: "Team ATK Up Lv.2, HP, SPD Up Lv.2",
-                festGPSpecial: "Targets all enemies for 750 damage",
-                uses: 2
-            },
-            {
-                festGPAbility: "Team ATK Up Lv.2, HP, SPD Up Lv.3",
-                festGPSpecial: "Targets all enemies for 875 damage",
-                uses: 2
-            },
-            {
-                festGPAbility: "Team ATK Up Lv.3, HP, SPD Up Lv.3",
-                festGPSpecial: "Targets all enemies for 1000 damage",
-                uses: 2
-            }
-        ],
-        festAbilityGPCondition: "When 2 teammates are defeated"
+        ]
     },
     4986: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
