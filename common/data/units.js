@@ -4428,6 +4428,8 @@ window.units = [
     ["Dr. 베가펑크 ‘릴리스’ – 예상하지 못한 위기", "QCK", ["Cerebral", "Free Spirit"], 5, 30, 5, 4, 99, 4000000, 1818, 811, 102, 3636, 1622, 204, 1],
     ["Dr. 베가펑크 ‘아틀라스’ – 탈출하는 전선", "PSY", ["Cerebral", "Free Spirit"], 5, 30, 4, 4, 99, 4000000, 1865, 805, 97, 3729, 1609, 193, 1],
     ["키자루 – 난항 하는 임무 수행", "PSY", ["Slasher", "Powerhouse"], 5, 40, 5, 4, 99, 5000000, 1518, 788, 110, 3036, 1575, 219, 1],
+    ["", "Type", ["Class1", "Class2"], null, null, null, null, null, null, null, null, null, null, null, null, null],
+    ["징베 – 길을 여는 어인 공수도", "PSY", ["Cerebral", "Free Spirit"], 6, 55, 4, 5, 99, 5000000, 2227, 892, 94, 4454, 1784, 188, 1],
 ];
 
 var calcGhostStartID = { "start": 5000 };
