@@ -5047,6 +5047,8 @@ window.families = {
     4428: [ ...Atlas ],
     4429: [ ...Borsalino ],
     //4430: [ ...Borsalino ],
+    4431: [ ...Jinbe ],
+    //4430: [ ...Borsalino ],
     //break 해당 코드의 역할은 세부정보창의 가족부분담당
     4986: [ ...MonkeyDLuffy ],
     4987: [ ...MonkeyDLuffy ],
