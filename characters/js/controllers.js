@@ -358,7 +358,7 @@ app.controller(
       dataType: "json",
       contentType: "application/json",
     };
-//해당 코드는 디테일파일과 연결을 위해 추가한것이므로 수정금지
+//해당 코드는 디테일파일과 연결을 위해 추가한것이므로 수정금지 - $scope.details 데이터에 details_kor.js 불러오는 역할
     $scope.rumble = ($scope.details && $scope.details.festStats) ? {
        festStats: $scope.details.festStats,
         festAttackTarget: $scope.details.festAttackTarget,
@@ -367,7 +367,7 @@ app.controller(
 
       $scope.rumble = undefined;
 
-    // data
+    // data - 해당 코드는 세부정보창에 보여지는 정보를 어떻게 표시할건가를 나타내는 함수임 
     var id = parseInt($stateParams.id, 10);
     $scope.id = id; 
     $scope.unit = jQuery.extend({}, window.units[id - 1]);
