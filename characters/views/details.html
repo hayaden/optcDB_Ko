@@ -256,38 +256,36 @@
                                         <th>타입</th>
                                         <th>방어력</th>
                                         <th>속도</th>
+                                        <th>코스트</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <!-- rumble 데이터가 있는 경우 -->
-                                    <tr ng-if="rumble">
+                                    <tr>
                                         <td><span ng-if="rumble2">캐릭터 1</span></td>
-                                        <td>{{::rumble.festStats.style | decorate}}</td>
+                                        <td>{{::rumble.festStats.style | festivalTypeTranslate | decorate}}</td>
                                         <td ng-if="!compare">{{::rumble.festStats.def | number}}</td>
                                         <td ng-if="compare" comparison="positive">{{rumble.festStats.def -
                                             compare.rumble.festStats.def | number}}</td>
                                         <td ng-if="!compare">{{::rumble.festStats.spd | number}}</td>
                                         <td ng-if="compare" comparison="positive">{{rumble.festStats.spd -
                                             compare.rumble.festStats.spd | number}}</td>
+                                            <td ng-if="!compare">{{::rumble.festCost | number}}</td>
+                                            <td ng-if="compare" comparison="positive">{{rumble.festCost -
+                                                compare.rumble.festCost | number}}</td>
                                     </tr>
                                     <tr ng-if="rumble2">
                                         <td>캐릭터 2</td>
-                                        <td>{{::rumble2.festStats.style | decorate}}</td>
+                                        <td>{{::rumble2.festStats.style | festivalTypeTranslate | decorate}}</td>
                                         <td ng-if="!compare">{{::rumble2.festStats.def | number}}</td>
                                         <td ng-if="compare" comparison="positive">{{rumble2.festStats.def -
                                             compare.rumble2.festStats.def | number}}</td>
                                         <td ng-if="!compare">{{::rumble2.festStats.spd | number}}</td>
                                         <td ng-if="compare" comparison="positive">{{rumble2.festStats.spd -
                                             compare.rumble2.festStats.spd | number}}</td>
-                                    </tr>
-                                    <!-- festival 데이터가 있는 경우 해당 데이터는 원본 DB와 다르게 따로 추가한 코드임 만약 오류가 발생하면 해당 코드 삭제 및 컨트롤러에서도 해당 코드 관련 삭제 바람 -->
-                                    <tr ng-if="festivalData && !rumble">
-                                        <td>해적페스티벌</td>
-                                        <td>{{::festivalData[0] | festivalTypeTranslate}}</td> <!-- 기존 코드에서 매핑을 위한 코드 수정 -->
-                                        <td ng-if="!compare">{{::festivalData[1] | number}}</td>
-                                        <td ng-if="compare" comparison="positive">{{festivalData[1] - compare.festivalData[1] | number}}</td>
-                                        <td ng-if="!compare">{{::festivalData[2] | number}}</td>
-                                        <td ng-if="compare" comparison="positive">{{festivalData[2] - compare.festivalData[2] | number}}</td>
+                                            <td ng-if="!compare">{{::rumble2.festCost | number}}</td>
+                                            <td ng-if="compare" comparison="positive">{{rumble2.festCost -
+                                                compare.rumble2.festCost | number}}</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -1108,7 +1106,7 @@
                     <!-- Pirate Rumble -->
                     <!-- Use rumble.json if available -->
 
-                    <h3 id="rumbleSection" class="page-header" ng-hide="hidden.abilities" ng-if="rumble">해적제</h3>
+                    <h3 id="rumbleSection" class="page-header" ng-hide="hidden.abilities" ng-if="details_kor">해적제</h3>
                     <div class="panel panel-default" ng-hide="hidden.abilities" ng-if="rumble">
                         <table class="table table-striped-column abilities">
                             <tbody>
@@ -1220,8 +1218,8 @@
                     <!-- Pirate Rumble -->
                     <!-- If rumble.json is not available, then use details.js if available -->
 
-                    <h3 id="rumbleSection" class="page-header" ng-hide="hidden.abilities" ng-if="!rumble && (details.festAttackPattern || details.festAttackTarget || details.festResistance || details.festAbility || details.festSpecial || details.festSuperSpecial)">해적제 능력</h3>
-                    <div class="panel panel-default" ng-hide="hidden.abilities" ng-if="!rumble && (details.festAttackPattern || details.festAttackTarget || details.festResistance || details.festAbility || details.festSpecial || details.festSuperSpecial)">
+                    <h3 id="rumbleSection" class="page-header" ng-hide="hidden.abilities" ng-if="!details_kor && (details.festAttackPattern || details.festAttackTarget || details.festResistance || details.festAbility || details.festSpecial || details.festSuperSpecial)">해적제 능력</h3>
+                    <div class="panel panel-default" ng-hide="hidden.abilities" ng-if="!details_kor && (details.festAttackPattern || details.festAttackTarget || details.festResistance || details.festAbility || details.festSpecial || details.festSuperSpecial)">
                         <table class="table table-striped-column abilities" ng-if="details.festAttackPattern || details.festAttackTarget || details.festResistance || details.festAbility || details.festSpecial">
                             <tbody>
                                 <tr ng-if="details.festAttackPattern">

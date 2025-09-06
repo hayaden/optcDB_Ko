@@ -365,17 +365,11 @@ app.controller(
         festAttackPattern: $scope.details.festAttackPattern
     } : undefined;
 
+      $scope.rumble = undefined;
+
     // data
     var id = parseInt($stateParams.id, 10);
-    $scope.id = id;
-    
-    // festival 데이터 가져오기 (캐릭터 ID는 1부터 시작하므로 id-1 인덱스 사용)
-    //해당 데이터는 원본 DB와 다르게 따로 추가한 코드임 만약 오류가 발생하면 해당 코드 삭제 및 디테일에서도 해당 코드 관련 삭제 바람
-    if (window.festival && window.festival[id - 1]) {
-        $scope.festivalData = window.festival[id - 1];
-        // festivalData[0] = 타입, festivalData[1] = 방어력, festivalData[2] = 스피드
-    }
-    
+    $scope.id = id; 
     $scope.unit = jQuery.extend({}, window.units[id - 1]);
     $scope.hybrid = 
         $scope.unit.class && $scope.unit.class.constructor == Array;
@@ -389,6 +383,10 @@ app.controller(
     $scope.farmableVersions = CharUtils.getFarmableVersions(id);
     $scope.displayFamily = ($scope.families) ? $scope.families.join(' & ') : '';
 
+      if (window.rumble[id]) {
+        $scope.rumble = window.rumble[id].character1 ? window.rumble[id].character1 : window.rumble[id];
+        $scope.rumble2 = window.rumble[id].character2;
+      };
     // $http(rumbleRequest)
     //     .success(function (jsonData) {
     //         var key = id;

@@ -13467,6 +13467,22 @@
 				regex: /[^."]+?When this character is in Combined Form from Super Swap Effect[^."]*?/i,
 			},
 
+			/* * * * * Rumble Cost * * * * */
+
+			{
+				name: "코스트",
+				targets: ["rumbleCost"],
+				regex:
+					/(\d+)/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "",
+						groups: [1],
+					}
+				],
+			},
+
 			/* * * * * Rumble Ability * * * * */
 
 			{
