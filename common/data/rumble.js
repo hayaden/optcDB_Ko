@@ -15099,10 +15099,149 @@ window.rumble = {
         festAttackTarget: "Nearby Enemies."
     },
     1120: {
-        festCost: 55
+        festCost: 55,
+        festStats: {
+            def: 120,
+            spd: 194,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<b>Full Attack</b>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['When HP is below 50%, heals 100 HP every 5 seconds.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 1 HP up buff to [STR] crew members.', 'Applies Lv. 5 ATK up buff to self.'],
+                ['Applies Lv. 2 HP up buff to [STR] crew members.', 'Applies Lv. 5 ATK up buff to self.'],
+                ['Applies Lv. 3 HP up buff to [STR] crew members.', 'Applies Lv. 5 ATK up buff to self.'],
+                ['Applies Lv. 4 HP up buff to [STR] crew members.', 'Applies Lv. 5 ATK up buff to self.'],
+                ['Applies Lv. 5 HP up buff to [STR] crew members.', 'Applies Lv. 5 ATK up buff to self.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 35,
+                descriptions: [
+                    ['Deals 0.9x ATK in damage to all enemies in a medium, radial range.', 'When there are 50 seconds or less remaining, applies Lv. 1 SPD up buff to [STR] crew members for 30 seconds.'],
+                    ['Deals 0.94x ATK in damage to all enemies in a medium, radial range.', 'When there are 50 seconds or less remaining, applies Lv. 1 SPD up buff to [STR] crew members for 30 seconds.'],
+                    ['Deals 0.97x ATK in damage to all enemies in a medium, radial range.', 'When there are 50 seconds or less remaining, applies Lv. 1 SPD up buff to [STR] crew members for 30 seconds.'],
+                    ['Deals 1.01x ATK in damage to all enemies in a medium, radial range.', 'When there are 50 seconds or less remaining, applies Lv. 1 SPD up buff to [STR] crew members for 30 seconds.'],
+                    ['Deals 1.05x ATK in damage to all enemies in a medium, radial range.', 'When there are 50 seconds or less remaining, applies Lv. 1 SPD up buff to [STR] crew members for 30 seconds.'],
+                    ['Deals 1.09x ATK in damage to all enemies in a medium, radial range.', 'When there are 50 seconds or less remaining, applies Lv. 1 SPD up buff to [STR] crew members for 30 seconds.'],
+                    ['Deals 1.12x ATK in damage to all enemies in a medium, radial range.', 'When there are 50 seconds or less remaining, applies Lv. 2 SPD up buff to [STR] crew members for 30 seconds.'],
+                    ['Deals 1.16x ATK in damage to all enemies in a medium, radial range.', 'When there are 50 seconds or less remaining, applies Lv. 2 SPD up buff to [STR] crew members for 30 seconds.'],
+                    ['Deals 1.2x ATK in damage to all enemies in a medium, radial range.', 'When there are 50 seconds or less remaining, applies Lv. 2 SPD up buff to [STR] crew members for 30 seconds.'],
+                    ['Deals 1.35x ATK in damage to all enemies in a medium, radial range.', 'When there are 50 seconds or less remaining, applies Lv. 4 SPD up buff to [STR] crew members for 30 seconds.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 enemies are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
+        }
     },
     1121: {
-        festCost: 55
+        festCost: 55,
+        festStats: {
+            def: 120,
+            spd: 194,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<b>Full Attack</b>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['When HP is below 50%, heals 100 HP every 5 seconds.'],
+            llbbase: ['When HP is below 50%, heals 250 HP every 5 seconds.', '35% damage reduction from [DEX] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 1 HP up buff to [STR] crew members.', 'Applies Lv. 5 ATK up buff to self.'],
+                ['Applies Lv. 2 HP up buff to [STR] crew members.', 'Applies Lv. 5 ATK up buff to self.'],
+                ['Applies Lv. 3 HP up buff to [STR] crew members.', 'Applies Lv. 5 ATK up buff to self.'],
+                ['Applies Lv. 4 HP up buff to [STR] crew members.', 'Applies Lv. 5 ATK up buff to self.'],
+                ['Applies Lv. 5 HP up buff to [STR] crew members.', 'Applies Lv. 5 ATK up buff to self.']
+            ],
+            llbbase: [
+                ['Applies Lv. 3 HP up buff to [STR] crew members.', 'Applies Lv. 3 ATK up buff to self.'],
+                ['Applies Lv. 4 HP up buff to [STR] crew members.', 'Applies Lv. 4 ATK up buff to self.'],
+                ['Applies Lv. 5 HP up buff to [STR] crew members.', 'Applies Lv. 5 ATK up buff to self.'],
+                ['Applies Lv. 6 HP up buff to [STR] crew members.', 'Applies Lv. 6 ATK up buff to self.'],
+                ['Applies Lv. 7 HP up buff to [STR] crew members.', 'Applies Lv. 7 ATK up buff to self.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 35,
+                descriptions: [
+                    ['Deals 0.9x ATK in damage to all enemies in a medium, radial range.', 'When there are 50 seconds or less remaining, applies Lv. 1 SPD up buff to [STR] crew members for 30 seconds.'],
+                    ['Deals 0.94x ATK in damage to all enemies in a medium, radial range.', 'When there are 50 seconds or less remaining, applies Lv. 1 SPD up buff to [STR] crew members for 30 seconds.'],
+                    ['Deals 0.97x ATK in damage to all enemies in a medium, radial range.', 'When there are 50 seconds or less remaining, applies Lv. 1 SPD up buff to [STR] crew members for 30 seconds.'],
+                    ['Deals 1.01x ATK in damage to all enemies in a medium, radial range.', 'When there are 50 seconds or less remaining, applies Lv. 1 SPD up buff to [STR] crew members for 30 seconds.'],
+                    ['Deals 1.05x ATK in damage to all enemies in a medium, radial range.', 'When there are 50 seconds or less remaining, applies Lv. 1 SPD up buff to [STR] crew members for 30 seconds.'],
+                    ['Deals 1.09x ATK in damage to all enemies in a medium, radial range.', 'When there are 50 seconds or less remaining, applies Lv. 1 SPD up buff to [STR] crew members for 30 seconds.'],
+                    ['Deals 1.12x ATK in damage to all enemies in a medium, radial range.', 'When there are 50 seconds or less remaining, applies Lv. 2 SPD up buff to [STR] crew members for 30 seconds.'],
+                    ['Deals 1.16x ATK in damage to all enemies in a medium, radial range.', 'When there are 50 seconds or less remaining, applies Lv. 2 SPD up buff to [STR] crew members for 30 seconds.'],
+                    ['Deals 1.2x ATK in damage to all enemies in a medium, radial range.', 'When there are 50 seconds or less remaining, applies Lv. 2 SPD up buff to [STR] crew members for 30 seconds.'],
+                    ['Deals 1.35x ATK in damage to all enemies in a medium, radial range.', 'When there are 50 seconds or less remaining, applies Lv. 4 SPD up buff to [STR] crew members for 30 seconds.']
+                ]
+            },
+            llbbase: {
+                cooldown: 33,
+                descriptions: [
+                    ['Deals 1.3x ATK in damage to all enemies in a medium, radial range.', 'When there are 50 seconds or less remaining, applies Lv. 1 SPD up buff to [STR] crew members for 30 seconds.'],
+                    ['Deals 1.4x ATK in damage to all enemies in a medium, radial range.', 'When there are 50 seconds or less remaining, applies Lv. 1 SPD up buff to [STR] crew members for 30 seconds.'],
+                    ['Deals 1.5x ATK in damage to all enemies in a medium, radial range.', 'When there are 50 seconds or less remaining, applies Lv. 2 SPD up buff to [STR] crew members for 30 seconds.'],
+                    ['Deals 1.6x ATK in damage to all enemies in a medium, radial range.', 'When there are 50 seconds or less remaining, applies Lv. 2 SPD up buff to [STR] crew members for 30 seconds.'],
+                    ['Deals 1.7x ATK in damage to all enemies in a medium, radial range.', 'When there are 50 seconds or less remaining, applies Lv. 3 SPD up buff to [STR] crew members for 30 seconds.'],
+                    ['Deals 1.8x ATK in damage to all enemies in a medium, radial range.', 'When there are 50 seconds or less remaining, applies Lv. 3 SPD up buff to [STR] crew members for 30 seconds.'],
+                    ['Deals 1.9x ATK in damage to all enemies in a medium, radial range.', 'When there are 50 seconds or less remaining, applies Lv. 4 SPD up buff to [STR] crew members for 30 seconds.'],
+                    ['Deals 2x ATK in damage to all enemies in a medium, radial range.', 'When there are 50 seconds or less remaining, applies Lv. 4 SPD up buff to [STR] crew members for 30 seconds.'],
+                    ['Deals 2.1x ATK in damage to all enemies in a medium, radial range.', 'When there are 50 seconds or less remaining, applies Lv. 5 SPD up buff to [STR] crew members for 30 seconds.'],
+                    ['Deals 2.2x ATK in damage to all enemies in a medium, radial range.', 'When there are 50 seconds or less remaining, applies Lv. 6 SPD up buff to [STR] crew members for 30 seconds.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 enemies are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
+        }
     },
     1122: {
         festCost: 55,

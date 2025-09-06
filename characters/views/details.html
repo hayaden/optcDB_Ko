@@ -1106,11 +1106,11 @@
                     <!-- Pirate Rumble -->
                     <!-- Use rumble.json if available -->
 
-                    <h3 id="rumbleSection" class="page-header" ng-hide="hidden.abilities" ng-if="럼블이 있던자리">해적제</h3>
+                    <h3 id="rumbleSection" class="page-header" ng-hide="hidden.abilities" ng-if="잠시숨김">해적제</h3>
                     <div class="panel panel-default" ng-hide="hidden.abilities" ng-if="rumble">
                         <table class="table table-striped-column abilities">
                             <tbody>
-                                <tr ng-if="rumble2"><th colspan="2">Character 1</th></tr>
+                                <tr ng-if="잠시숨김"><th colspan="2">Character 1</th></tr>
                                 <tr ng-if="rumble.pattern">
                                     <td width="5%"><span ng-if="rumble2">Character 1 </span>공격 순서</td>
                                     <td colspan="2"><span ng-repeat="item in rumble.pattern track by $index"><span ng-bind-html="item | patternToString"></span>{{::$index != rumble.pattern.length - 1 ? ' \u21e8 ' : ''}}</span></td>
@@ -1161,7 +1161,7 @@
 
                             </tbody>
                         </table>
-                        <table class="table table-striped-column abilities" ng-if="rumble2">
+                        <table class="table table-striped-column abilities" ng-if="잠시숨김">
                             <tbody>
                                 <tr><th colspan="2">캐릭터 2</th></tr>
                                 <tr ng-if="rumble2.pattern">
