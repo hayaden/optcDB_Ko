@@ -6338,6 +6338,106 @@ window.rumble = {
         festAttackPattern: ['Normal Attack'],
         festAttackTarget: "Nearby Enemies."
     },
+    519: {
+        festCost: 17,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    520: {
+        festCost: 27,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    521: {
+        festCost: 17,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    522: {
+        festCost: 27,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    523: {
+        festCost: 17,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    524: {
+        festCost: 27,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    525: {
+        festCost: 17,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    526: {
+        festCost: 27,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    527: {
+        festCost: 17,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    528: {
+        festCost: 27,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     529: {
         festCost: 55,
         festStats: {
@@ -6672,6 +6772,86 @@ window.rumble = {
     },
     552: {
         festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    553: {
+        festCost: 17,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    554: {
+        festCost: 27,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    555: {
+        festCost: 17,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    556: {
+        festCost: 27,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    557: {
+        festCost: 17,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    558: {
+        festCost: 27,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    559: {
+        festCost: 17,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    560: {
+        festCost: 27,
         festStats: {
             def: 50,
             spd: 100,
@@ -9350,6 +9530,26 @@ window.rumble = {
         festAttackPattern: ['Normal Attack'],
         festAttackTarget: "Nearby Enemies."
     },
+    744: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    745: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     746: {
         festCost: 15,
         festStats: {
@@ -10392,6 +10592,26 @@ window.rumble = {
     },
     800: {
         festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    801: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    802: {
+        festCost: 20,
         festStats: {
             def: 50,
             spd: 100,
@@ -13222,6 +13442,16 @@ window.rumble = {
         festAttackTarget: "Nearby Enemies."
     },
     1008: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1009: {
         festCost: 20,
         festStats: {
             def: 50,
@@ -19012,6 +19242,16 @@ window.rumble = {
                 ]
             }
         }
+    },
+    1414: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
     },
     1415: {
         festCost: 13,
@@ -35215,6 +35455,26 @@ window.rumble = {
         festAttackPattern: ['Normal Attack'],
         festAttackTarget: "Nearby Enemies."
     },
+    2262: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2263: {
+        festCost: 50,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2264: {
         festCost: 55,
         festStats: {
@@ -38178,6 +38438,16 @@ window.rumble = {
             }
         }
     },
+    2399: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2400: {
         festCost: 15,
         festStats: {
@@ -40766,6 +41036,16 @@ window.rumble = {
         festAttackPattern: ['Normal Attack'],
         festAttackTarget: "Nearby Enemies."
     },
+    2494: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2495: {
         festCost: 15,
         festStats: {
@@ -42089,6 +42369,26 @@ window.rumble = {
     },
     2550: {
         festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2551: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2552: {
+        festCost: 50,
         festStats: {
             def: 50,
             spd: 100,
@@ -44509,6 +44809,26 @@ window.rumble = {
         festAttackPattern: ['Normal Attack'],
         festAttackTarget: "Nearby Enemies."
     },
+    2663: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2664: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2665: {
         festCost: 1,
         festStats: {
@@ -46792,6 +47112,56 @@ window.rumble = {
     },
     2767: {
         festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2768: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2769: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2770: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2771: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2772: {
+        festCost: 1,
         festStats: {
             def: 50,
             spd: 100,
@@ -50936,6 +51306,16 @@ window.rumble = {
     },
     2918: {
         festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2919: {
+        festCost: 30,
         festStats: {
             def: 50,
             spd: 100,
@@ -63761,6 +64141,166 @@ window.rumble = {
         festAttackPattern: ['Normal Attack'],
         festAttackTarget: "Nearby Enemies."
     },
+    3312: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3313: {
+        festCost: 50,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3314: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3315: {
+        festCost: 50,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3316: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3317: {
+        festCost: 50,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3318: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3319: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3320: {
+        festCost: 50,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3321: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3322: {
+        festCost: 50,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3323: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3324: {
+        festCost: 50,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3325: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3326: {
+        festCost: 50,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3327: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3328: {
         festCost: 20,
         festStats: {
@@ -63825,6 +64365,26 @@ window.rumble = {
     },
     3329: {
         festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3330: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3331: {
+        festCost: 30,
         festStats: {
             def: 50,
             spd: 100,
@@ -66183,6 +66743,26 @@ window.rumble = {
                 ]
             }
         }
+    },
+    3383: {
+        festCost: 50,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3384: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
     },
     3385: {
         festCost: 40,
@@ -70279,6 +70859,16 @@ window.rumble = {
                 ]
             }
         }
+    },
+    3478: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
     },
     3479: {
         festCost: 20,
@@ -108063,792 +108653,94 @@ window.rumble = {
             }
         }
     },
-    5259: {
-        festCost: 35,
+    4988: {
+        festCost: 15,
         festStats: {
-            def: 164,
-            spd: 158,
-            style: "ATK"
+            def: 50,
+            spd: 100,
+            style: "BAL"
         },
-        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<i>Level 1 Small Range Heal</i>'],
-        festAttackTarget: "Nearby Enemies.",
-        festAbility: {
-            base: [
-                ['When there is 4 or less crew members, applies Lv. 3 Guard up buff to all crew members.'],
-                ['When there is 4 or less crew members, applies Lv. 4 Guard up buff to all crew members.'],
-                ['When there is 4 or less crew members, applies Lv. 5 Guard up buff to all crew members.'],
-                ['When there is 4 or less crew members, applies Lv. 6 Guard up buff to all crew members.'],
-                ['When there is 4 or less crew members, applies Lv. 7 Guard up buff to all crew members.']
-            ]
-        },
-        festSpecial: {
-            base: {
-                cooldown: 32,
-                descriptions: [
-                    ['Deals 0.7x ATK in damage to 2 enemies.', 'Applies Lv. 1 DEF up buff to all crew members for 16 seconds.'],
-                    ['Deals 0.8x ATK in damage to 2 enemies.', 'Applies Lv. 1 DEF up buff to all crew members for 17 seconds.'],
-                    ['Deals 0.9x ATK in damage to 2 enemies.', 'Applies Lv. 1 DEF up buff to all crew members for 18 seconds.'],
-                    ['Deals 1x ATK in damage to 2 enemies.', 'Applies Lv. 1 DEF up buff to all crew members for 19 seconds.'],
-                    ['Deals 1.1x ATK in damage to 2 enemies.', 'Applies Lv. 2 DEF up buff to all crew members for 20 seconds.'],
-                    ['Deals 1.2x ATK in damage to 2 enemies.', 'Applies Lv. 2 DEF up buff to all crew members for 21 seconds.'],
-                    ['Deals 1.3x ATK in damage to 2 enemies.', 'Applies Lv. 2 DEF up buff to all crew members for 22 seconds.'],
-                    ['Deals 1.4x ATK in damage to 2 enemies.', 'Applies Lv. 3 DEF up buff to all crew members for 23 seconds.'],
-                    ['Deals 1.5x ATK in damage to 2 enemies.', 'Applies Lv. 3 DEF up buff to all crew members for 24 seconds.'],
-                    ['Deals 2x ATK in damage to 2 enemies.', 'Applies Lv. 4 DEF up buff to all crew members for 25 seconds.']
-                ]
-            }
-        }
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
     },
-    5260: {
-        festCost: 35,
+    4989: {
+        festCost: 30,
         festStats: {
-            def: 164,
-            spd: 158,
-            style: "ATK"
+            def: 50,
+            spd: 100,
+            style: "BAL"
         },
-        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<i>Level 1 Small Range Heal</i>'],
-        festAttackTarget: "Nearby Enemies.",
-        festAbility: {
-            base: [
-                ['When there is 4 or less crew members, applies Lv. 3 Guard up buff to all crew members.'],
-                ['When there is 4 or less crew members, applies Lv. 4 Guard up buff to all crew members.'],
-                ['When there is 4 or less crew members, applies Lv. 5 Guard up buff to all crew members.'],
-                ['When there is 4 or less crew members, applies Lv. 6 Guard up buff to all crew members.'],
-                ['When there is 4 or less crew members, applies Lv. 7 Guard up buff to all crew members.']
-            ]
-        },
-        festSpecial: {
-            base: {
-                cooldown: 32,
-                descriptions: [
-                    ['Deals 0.7x ATK in damage to 2 enemies.', 'Applies Lv. 1 DEF up buff to all crew members for 16 seconds.'],
-                    ['Deals 0.8x ATK in damage to 2 enemies.', 'Applies Lv. 1 DEF up buff to all crew members for 17 seconds.'],
-                    ['Deals 0.9x ATK in damage to 2 enemies.', 'Applies Lv. 1 DEF up buff to all crew members for 18 seconds.'],
-                    ['Deals 1x ATK in damage to 2 enemies.', 'Applies Lv. 1 DEF up buff to all crew members for 19 seconds.'],
-                    ['Deals 1.1x ATK in damage to 2 enemies.', 'Applies Lv. 2 DEF up buff to all crew members for 20 seconds.'],
-                    ['Deals 1.2x ATK in damage to 2 enemies.', 'Applies Lv. 2 DEF up buff to all crew members for 21 seconds.'],
-                    ['Deals 1.3x ATK in damage to 2 enemies.', 'Applies Lv. 2 DEF up buff to all crew members for 22 seconds.'],
-                    ['Deals 1.4x ATK in damage to 2 enemies.', 'Applies Lv. 3 DEF up buff to all crew members for 23 seconds.'],
-                    ['Deals 1.5x ATK in damage to 2 enemies.', 'Applies Lv. 3 DEF up buff to all crew members for 24 seconds.'],
-                    ['Deals 2x ATK in damage to 2 enemies.', 'Applies Lv. 4 DEF up buff to all crew members for 25 seconds.']
-                ]
-            }
-        }
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
     },
-    5261: {
-        festCost: 35,
+    4990: {
+        festCost: 15,
         festStats: {
-            def: 164,
-            spd: 158,
-            style: "ATK"
+            def: 50,
+            spd: 100,
+            style: "BAL"
         },
-        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<i>Level 1 Small Range Heal</i>'],
-        festAttackTarget: "Nearby Enemies.",
-        festAbility: {
-            base: [
-                ['When there is 4 or less crew members, applies Lv. 3 Guard up buff to all crew members.'],
-                ['When there is 4 or less crew members, applies Lv. 4 Guard up buff to all crew members.'],
-                ['When there is 4 or less crew members, applies Lv. 5 Guard up buff to all crew members.'],
-                ['When there is 4 or less crew members, applies Lv. 6 Guard up buff to all crew members.'],
-                ['When there is 4 or less crew members, applies Lv. 7 Guard up buff to all crew members.']
-            ]
-        },
-        festSpecial: {
-            base: {
-                cooldown: 32,
-                descriptions: [
-                    ['Deals 0.7x ATK in damage to 2 enemies.', 'Applies Lv. 1 DEF up buff to all crew members for 16 seconds.'],
-                    ['Deals 0.8x ATK in damage to 2 enemies.', 'Applies Lv. 1 DEF up buff to all crew members for 17 seconds.'],
-                    ['Deals 0.9x ATK in damage to 2 enemies.', 'Applies Lv. 1 DEF up buff to all crew members for 18 seconds.'],
-                    ['Deals 1x ATK in damage to 2 enemies.', 'Applies Lv. 1 DEF up buff to all crew members for 19 seconds.'],
-                    ['Deals 1.1x ATK in damage to 2 enemies.', 'Applies Lv. 2 DEF up buff to all crew members for 20 seconds.'],
-                    ['Deals 1.2x ATK in damage to 2 enemies.', 'Applies Lv. 2 DEF up buff to all crew members for 21 seconds.'],
-                    ['Deals 1.3x ATK in damage to 2 enemies.', 'Applies Lv. 2 DEF up buff to all crew members for 22 seconds.'],
-                    ['Deals 1.4x ATK in damage to 2 enemies.', 'Applies Lv. 3 DEF up buff to all crew members for 23 seconds.'],
-                    ['Deals 1.5x ATK in damage to 2 enemies.', 'Applies Lv. 3 DEF up buff to all crew members for 24 seconds.'],
-                    ['Deals 2x ATK in damage to 2 enemies.', 'Applies Lv. 4 DEF up buff to all crew members for 25 seconds.']
-                ]
-            }
-        }
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
     },
-    5262: {
-        festCost: 35,
+    4991: {
+        festCost: 30,
         festStats: {
-            def: 164,
-            spd: 158,
-            style: "ATK"
+            def: 50,
+            spd: 100,
+            style: "BAL"
         },
-        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<i>Level 1 Small Range Heal</i>'],
-        festAttackTarget: "Nearby Enemies.",
-        festAbility: {
-            base: [
-                ['When there is 4 or less crew members, applies Lv. 3 Guard up buff to all crew members.'],
-                ['When there is 4 or less crew members, applies Lv. 4 Guard up buff to all crew members.'],
-                ['When there is 4 or less crew members, applies Lv. 5 Guard up buff to all crew members.'],
-                ['When there is 4 or less crew members, applies Lv. 6 Guard up buff to all crew members.'],
-                ['When there is 4 or less crew members, applies Lv. 7 Guard up buff to all crew members.']
-            ]
-        },
-        festSpecial: {
-            base: {
-                cooldown: 32,
-                descriptions: [
-                    ['Deals 0.7x ATK in damage to 2 enemies.', 'Applies Lv. 1 DEF up buff to all crew members for 16 seconds.'],
-                    ['Deals 0.8x ATK in damage to 2 enemies.', 'Applies Lv. 1 DEF up buff to all crew members for 17 seconds.'],
-                    ['Deals 0.9x ATK in damage to 2 enemies.', 'Applies Lv. 1 DEF up buff to all crew members for 18 seconds.'],
-                    ['Deals 1x ATK in damage to 2 enemies.', 'Applies Lv. 1 DEF up buff to all crew members for 19 seconds.'],
-                    ['Deals 1.1x ATK in damage to 2 enemies.', 'Applies Lv. 2 DEF up buff to all crew members for 20 seconds.'],
-                    ['Deals 1.2x ATK in damage to 2 enemies.', 'Applies Lv. 2 DEF up buff to all crew members for 21 seconds.'],
-                    ['Deals 1.3x ATK in damage to 2 enemies.', 'Applies Lv. 2 DEF up buff to all crew members for 22 seconds.'],
-                    ['Deals 1.4x ATK in damage to 2 enemies.', 'Applies Lv. 3 DEF up buff to all crew members for 23 seconds.'],
-                    ['Deals 1.5x ATK in damage to 2 enemies.', 'Applies Lv. 3 DEF up buff to all crew members for 24 seconds.'],
-                    ['Deals 2x ATK in damage to 2 enemies.', 'Applies Lv. 4 DEF up buff to all crew members for 25 seconds.']
-                ]
-            }
-        }
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
     },
-    5263: {
-        festCost: 35,
+    4992: {
+        festCost: 13,
         festStats: {
-            def: 132,
-            spd: 205,
-            style: "ATK"
+            def: 50,
+            spd: 100,
+            style: "BAL"
         },
-        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<b>Full Attack</b>'],
-        festAttackTarget: "Nearby Enemies.",
-        festResistance: {
-            base: ['80% chance to resist Damage Over Time.']
-        },
-        festAbility: {
-            base: [
-                ['Applies Lv. 1 Guard up buff to Fighter and Free Spirit crew members.', 'Applies Lv. 3 Critical Hit up buff to Fighter and Free Spirit crew members.'],
-                ['Applies Lv. 2 Guard up buff to Fighter and Free Spirit crew members.', 'Applies Lv. 3 Critical Hit up buff to Fighter and Free Spirit crew members.'],
-                ['Applies Lv. 3 Guard up buff to Fighter and Free Spirit crew members.', 'Applies Lv. 3 Critical Hit up buff to Fighter and Free Spirit crew members.'],
-                ['Applies Lv. 4 Guard up buff to Fighter and Free Spirit crew members.', 'Applies Lv. 3 Critical Hit up buff to Fighter and Free Spirit crew members.'],
-                ['Applies Lv. 5 Guard up buff to Fighter and Free Spirit crew members.', 'Applies Lv. 3 Critical Hit up buff to Fighter and Free Spirit crew members.']
-            ]
-        },
-        festSpecial: {
-            base: {
-                cooldown: 35,
-                descriptions: [
-                    ['Deals 1.3x ATK in damage to all enemies in a medium, radial range.', 'Reduce Special Bind to all crew members for 15 seconds.'],
-                    ['Deals 1.33x ATK in damage to all enemies in a medium, radial range.', 'Reduce Special Bind to all crew members for 16 seconds.'],
-                    ['Deals 1.36x ATK in damage to all enemies in a medium, radial range.', 'Reduce Special Bind to all crew members for 17 seconds.'],
-                    ['Deals 1.39x ATK in damage to all enemies in a medium, radial range.', 'Reduce Special Bind to all crew members for 18 seconds.'],
-                    ['Deals 1.42x ATK in damage to all enemies in a medium, radial range.', 'Reduce Special Bind to all crew members for 19 seconds.'],
-                    ['Deals 1.45x ATK in damage to all enemies in a medium, radial range.', 'Reduce Special Bind to all crew members for 20 seconds.'],
-                    ['Deals 1.48x ATK in damage to all enemies in a medium, radial range.', 'Reduce Special Bind to all crew members for 21 seconds.'],
-                    ['Deals 1.51x ATK in damage to all enemies in a medium, radial range.', 'Reduce Special Bind to all crew members for 22 seconds.'],
-                    ['Deals 1.54x ATK in damage to all enemies in a medium, radial range.', 'Reduce Special Bind to all crew members for 23 seconds.'],
-                    ['Deals 1.8x ATK in damage to all enemies in a medium, radial range.', 'Reduce Special Bind to all crew members for 24 seconds.']
-                ]
-            }
-        }
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
     },
-    5264: {
-        festCost: 35,
+    4993: {
+        festCost: 20,
         festStats: {
-            def: 132,
-            spd: 205,
-            style: "ATK"
+            def: 50,
+            spd: 100,
+            style: "BAL"
         },
-        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<b>Full Attack</b>'],
-        festAttackTarget: "Nearby Enemies.",
-        festResistance: {
-            base: ['80% chance to resist Damage Over Time.']
-        },
-        festAbility: {
-            base: [
-                ['Applies Lv. 1 Guard up buff to Fighter and Free Spirit crew members.', 'Applies Lv. 3 Critical Hit up buff to Fighter and Free Spirit crew members.'],
-                ['Applies Lv. 2 Guard up buff to Fighter and Free Spirit crew members.', 'Applies Lv. 3 Critical Hit up buff to Fighter and Free Spirit crew members.'],
-                ['Applies Lv. 3 Guard up buff to Fighter and Free Spirit crew members.', 'Applies Lv. 3 Critical Hit up buff to Fighter and Free Spirit crew members.'],
-                ['Applies Lv. 4 Guard up buff to Fighter and Free Spirit crew members.', 'Applies Lv. 3 Critical Hit up buff to Fighter and Free Spirit crew members.'],
-                ['Applies Lv. 5 Guard up buff to Fighter and Free Spirit crew members.', 'Applies Lv. 3 Critical Hit up buff to Fighter and Free Spirit crew members.']
-            ]
-        },
-        festSpecial: {
-            base: {
-                cooldown: 35,
-                descriptions: [
-                    ['Deals 1.3x ATK in damage to all enemies in a medium, radial range.', 'Reduce Special Bind to all crew members for 15 seconds.'],
-                    ['Deals 1.33x ATK in damage to all enemies in a medium, radial range.', 'Reduce Special Bind to all crew members for 16 seconds.'],
-                    ['Deals 1.36x ATK in damage to all enemies in a medium, radial range.', 'Reduce Special Bind to all crew members for 17 seconds.'],
-                    ['Deals 1.39x ATK in damage to all enemies in a medium, radial range.', 'Reduce Special Bind to all crew members for 18 seconds.'],
-                    ['Deals 1.42x ATK in damage to all enemies in a medium, radial range.', 'Reduce Special Bind to all crew members for 19 seconds.'],
-                    ['Deals 1.45x ATK in damage to all enemies in a medium, radial range.', 'Reduce Special Bind to all crew members for 20 seconds.'],
-                    ['Deals 1.48x ATK in damage to all enemies in a medium, radial range.', 'Reduce Special Bind to all crew members for 21 seconds.'],
-                    ['Deals 1.51x ATK in damage to all enemies in a medium, radial range.', 'Reduce Special Bind to all crew members for 22 seconds.'],
-                    ['Deals 1.54x ATK in damage to all enemies in a medium, radial range.', 'Reduce Special Bind to all crew members for 23 seconds.'],
-                    ['Deals 1.8x ATK in damage to all enemies in a medium, radial range.', 'Reduce Special Bind to all crew members for 24 seconds.']
-                ]
-            }
-        }
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
     },
-    5265: {
-        festCost: 35,
+    4994: {
+        festCost: 25,
         festStats: {
-            def: 132,
-            spd: 205,
-            style: "ATK"
+            def: 50,
+            spd: 100,
+            style: "BAL"
         },
-        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<b>Full Attack</b>'],
-        festAttackTarget: "Nearby Enemies.",
-        festResistance: {
-            base: ['80% chance to resist Damage Over Time.']
-        },
-        festAbility: {
-            base: [
-                ['Applies Lv. 1 Guard up buff to Fighter and Free Spirit crew members.', 'Applies Lv. 3 Critical Hit up buff to Fighter and Free Spirit crew members.'],
-                ['Applies Lv. 2 Guard up buff to Fighter and Free Spirit crew members.', 'Applies Lv. 3 Critical Hit up buff to Fighter and Free Spirit crew members.'],
-                ['Applies Lv. 3 Guard up buff to Fighter and Free Spirit crew members.', 'Applies Lv. 3 Critical Hit up buff to Fighter and Free Spirit crew members.'],
-                ['Applies Lv. 4 Guard up buff to Fighter and Free Spirit crew members.', 'Applies Lv. 3 Critical Hit up buff to Fighter and Free Spirit crew members.'],
-                ['Applies Lv. 5 Guard up buff to Fighter and Free Spirit crew members.', 'Applies Lv. 3 Critical Hit up buff to Fighter and Free Spirit crew members.']
-            ]
-        },
-        festSpecial: {
-            base: {
-                cooldown: 35,
-                descriptions: [
-                    ['Deals 1.3x ATK in damage to all enemies in a medium, radial range.', 'Reduce Special Bind to all crew members for 15 seconds.'],
-                    ['Deals 1.33x ATK in damage to all enemies in a medium, radial range.', 'Reduce Special Bind to all crew members for 16 seconds.'],
-                    ['Deals 1.36x ATK in damage to all enemies in a medium, radial range.', 'Reduce Special Bind to all crew members for 17 seconds.'],
-                    ['Deals 1.39x ATK in damage to all enemies in a medium, radial range.', 'Reduce Special Bind to all crew members for 18 seconds.'],
-                    ['Deals 1.42x ATK in damage to all enemies in a medium, radial range.', 'Reduce Special Bind to all crew members for 19 seconds.'],
-                    ['Deals 1.45x ATK in damage to all enemies in a medium, radial range.', 'Reduce Special Bind to all crew members for 20 seconds.'],
-                    ['Deals 1.48x ATK in damage to all enemies in a medium, radial range.', 'Reduce Special Bind to all crew members for 21 seconds.'],
-                    ['Deals 1.51x ATK in damage to all enemies in a medium, radial range.', 'Reduce Special Bind to all crew members for 22 seconds.'],
-                    ['Deals 1.54x ATK in damage to all enemies in a medium, radial range.', 'Reduce Special Bind to all crew members for 23 seconds.'],
-                    ['Deals 1.8x ATK in damage to all enemies in a medium, radial range.', 'Reduce Special Bind to all crew members for 24 seconds.']
-                ]
-            }
-        }
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
     },
-    5266: {
-        festCost: 35,
+    4995: {
+        festCost: 40,
         festStats: {
-            def: 132,
-            spd: 205,
-            style: "ATK"
+            def: 50,
+            spd: 100,
+            style: "BAL"
         },
-        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<b>Full Attack</b>'],
-        festAttackTarget: "Nearby Enemies.",
-        festResistance: {
-            base: ['80% chance to resist Damage Over Time.']
-        },
-        festAbility: {
-            base: [
-                ['Applies Lv. 1 Guard up buff to Fighter and Free Spirit crew members.', 'Applies Lv. 3 Critical Hit up buff to Fighter and Free Spirit crew members.'],
-                ['Applies Lv. 2 Guard up buff to Fighter and Free Spirit crew members.', 'Applies Lv. 3 Critical Hit up buff to Fighter and Free Spirit crew members.'],
-                ['Applies Lv. 3 Guard up buff to Fighter and Free Spirit crew members.', 'Applies Lv. 3 Critical Hit up buff to Fighter and Free Spirit crew members.'],
-                ['Applies Lv. 4 Guard up buff to Fighter and Free Spirit crew members.', 'Applies Lv. 3 Critical Hit up buff to Fighter and Free Spirit crew members.'],
-                ['Applies Lv. 5 Guard up buff to Fighter and Free Spirit crew members.', 'Applies Lv. 3 Critical Hit up buff to Fighter and Free Spirit crew members.']
-            ]
-        },
-        festSpecial: {
-            base: {
-                cooldown: 35,
-                descriptions: [
-                    ['Deals 1.3x ATK in damage to all enemies in a medium, radial range.', 'Reduce Special Bind to all crew members for 15 seconds.'],
-                    ['Deals 1.33x ATK in damage to all enemies in a medium, radial range.', 'Reduce Special Bind to all crew members for 16 seconds.'],
-                    ['Deals 1.36x ATK in damage to all enemies in a medium, radial range.', 'Reduce Special Bind to all crew members for 17 seconds.'],
-                    ['Deals 1.39x ATK in damage to all enemies in a medium, radial range.', 'Reduce Special Bind to all crew members for 18 seconds.'],
-                    ['Deals 1.42x ATK in damage to all enemies in a medium, radial range.', 'Reduce Special Bind to all crew members for 19 seconds.'],
-                    ['Deals 1.45x ATK in damage to all enemies in a medium, radial range.', 'Reduce Special Bind to all crew members for 20 seconds.'],
-                    ['Deals 1.48x ATK in damage to all enemies in a medium, radial range.', 'Reduce Special Bind to all crew members for 21 seconds.'],
-                    ['Deals 1.51x ATK in damage to all enemies in a medium, radial range.', 'Reduce Special Bind to all crew members for 22 seconds.'],
-                    ['Deals 1.54x ATK in damage to all enemies in a medium, radial range.', 'Reduce Special Bind to all crew members for 23 seconds.'],
-                    ['Deals 1.8x ATK in damage to all enemies in a medium, radial range.', 'Reduce Special Bind to all crew members for 24 seconds.']
-                ]
-            }
-        }
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
     },
-    5267: {
-        festCost: 55,
+    4996: {
+        festCost: 1,
         festStats: {
-            def: 175,
-            spd: 210,
-            style: "ATK"
+            def: 50,
+            spd: 100,
+            style: "BAL"
         },
-        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<b>Full Attack</b>'],
-        festAttackTarget: "Enemies with the highest HP.",
-        festResistance: {
-            base: ['100% chance to resist Special Bind.']
-        },
-        festAbility: {
-            base: [
-                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 SPD up buff to all crew members.'],
-                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 SPD up buff to all crew members.'],
-                ['Applies Lv. 4 ATK up buff to all crew members.', 'Applies Lv. 3 SPD up buff to all crew members.'],
-                ['Applies Lv. 5 ATK up buff to all crew members.', 'Applies Lv. 3 SPD up buff to all crew members.'],
-                ['Applies Lv. 6 ATK up buff to all crew members.', 'Applies Lv. 3 SPD up buff to all crew members.']
-            ]
-        },
-        festSpecial: {
-            base: {
-                cooldown: 32,
-                descriptions: [
-                    ['Deals 2x ATK in damage to 2 enemies.', 'Applies Lv. 1 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 1 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.1x ATK in damage to 2 enemies.', 'Applies Lv. 1 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 1 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.2x ATK in damage to 2 enemies.', 'Applies Lv. 2 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 2 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.3x ATK in damage to 2 enemies.', 'Applies Lv. 2 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 2 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.4x ATK in damage to 2 enemies.', 'Applies Lv. 3 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 3 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.5x ATK in damage to 2 enemies.', 'Applies Lv. 3 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 3 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.6x ATK in damage to 2 enemies.', 'Applies Lv. 4 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 4 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.7x ATK in damage to 2 enemies.', 'Applies Lv. 4 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 4 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.8x ATK in damage to 2 enemies.', 'Applies Lv. 5 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 5 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 3.5x ATK in damage to 2 enemies.', 'Applies Lv. 5 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 7 SPD up buff to all crew members for 20 seconds.']
-                ]
-            }
-        },
-        festGPAbility: {
-            base: [
-                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
-                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
-                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
-                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
-                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
-            ]
-        },
-        festGPSpecial: {
-            base: {
-                uses: 2,
-                condition: "After 2 enemies are defeated",
-                descriptions: [
-                    ['Deals 500 fixed damage to all enemies.'],
-                    ['Deals 625 fixed damage to all enemies.'],
-                    ['Deals 750 fixed damage to all enemies.'],
-                    ['Deals 875 fixed damage to all enemies.'],
-                    ['Deals 1,000 fixed damage to all enemies.']
-                ]
-            }
-        }
-    },
-    5268: {
-        festCost: 55,
-        festStats: {
-            def: 175,
-            spd: 210,
-            style: "ATK"
-        },
-        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<b>Full Attack</b>'],
-        festAttackTarget: "Enemies with the highest HP.",
-        festResistance: {
-            base: ['100% chance to resist Special Bind.']
-        },
-        festAbility: {
-            base: [
-                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 SPD up buff to all crew members.'],
-                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 SPD up buff to all crew members.'],
-                ['Applies Lv. 4 ATK up buff to all crew members.', 'Applies Lv. 3 SPD up buff to all crew members.'],
-                ['Applies Lv. 5 ATK up buff to all crew members.', 'Applies Lv. 3 SPD up buff to all crew members.'],
-                ['Applies Lv. 6 ATK up buff to all crew members.', 'Applies Lv. 3 SPD up buff to all crew members.']
-            ]
-        },
-        festSpecial: {
-            base: {
-                cooldown: 32,
-                descriptions: [
-                    ['Deals 2x ATK in damage to 2 enemies.', 'Applies Lv. 1 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 1 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.1x ATK in damage to 2 enemies.', 'Applies Lv. 1 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 1 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.2x ATK in damage to 2 enemies.', 'Applies Lv. 2 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 2 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.3x ATK in damage to 2 enemies.', 'Applies Lv. 2 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 2 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.4x ATK in damage to 2 enemies.', 'Applies Lv. 3 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 3 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.5x ATK in damage to 2 enemies.', 'Applies Lv. 3 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 3 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.6x ATK in damage to 2 enemies.', 'Applies Lv. 4 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 4 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.7x ATK in damage to 2 enemies.', 'Applies Lv. 4 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 4 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.8x ATK in damage to 2 enemies.', 'Applies Lv. 5 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 5 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 3.5x ATK in damage to 2 enemies.', 'Applies Lv. 5 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 7 SPD up buff to all crew members for 20 seconds.']
-                ]
-            }
-        },
-        festGPAbility: {
-            base: [
-                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
-                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
-                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
-                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
-                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
-            ]
-        },
-        festGPSpecial: {
-            base: {
-                uses: 2,
-                condition: "After 2 enemies are defeated",
-                descriptions: [
-                    ['Deals 500 fixed damage to all enemies.'],
-                    ['Deals 625 fixed damage to all enemies.'],
-                    ['Deals 750 fixed damage to all enemies.'],
-                    ['Deals 875 fixed damage to all enemies.'],
-                    ['Deals 1,000 fixed damage to all enemies.']
-                ]
-            }
-        }
-    },
-    5269: {
-        festCost: 55,
-        festStats: {
-            def: 175,
-            spd: 210,
-            style: "ATK"
-        },
-        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<b>Full Attack</b>'],
-        festAttackTarget: "Enemies with the highest HP.",
-        festResistance: {
-            base: ['100% chance to resist Special Bind.']
-        },
-        festAbility: {
-            base: [
-                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 SPD up buff to all crew members.'],
-                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 SPD up buff to all crew members.'],
-                ['Applies Lv. 4 ATK up buff to all crew members.', 'Applies Lv. 3 SPD up buff to all crew members.'],
-                ['Applies Lv. 5 ATK up buff to all crew members.', 'Applies Lv. 3 SPD up buff to all crew members.'],
-                ['Applies Lv. 6 ATK up buff to all crew members.', 'Applies Lv. 3 SPD up buff to all crew members.']
-            ]
-        },
-        festSpecial: {
-            base: {
-                cooldown: 32,
-                descriptions: [
-                    ['Deals 2x ATK in damage to 2 enemies.', 'Applies Lv. 1 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 1 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.1x ATK in damage to 2 enemies.', 'Applies Lv. 1 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 1 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.2x ATK in damage to 2 enemies.', 'Applies Lv. 2 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 2 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.3x ATK in damage to 2 enemies.', 'Applies Lv. 2 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 2 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.4x ATK in damage to 2 enemies.', 'Applies Lv. 3 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 3 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.5x ATK in damage to 2 enemies.', 'Applies Lv. 3 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 3 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.6x ATK in damage to 2 enemies.', 'Applies Lv. 4 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 4 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.7x ATK in damage to 2 enemies.', 'Applies Lv. 4 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 4 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.8x ATK in damage to 2 enemies.', 'Applies Lv. 5 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 5 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 3.5x ATK in damage to 2 enemies.', 'Applies Lv. 5 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 7 SPD up buff to all crew members for 20 seconds.']
-                ]
-            }
-        },
-        festGPAbility: {
-            base: [
-                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
-                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
-                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
-                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
-                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
-            ]
-        },
-        festGPSpecial: {
-            base: {
-                uses: 2,
-                condition: "After 2 enemies are defeated",
-                descriptions: [
-                    ['Deals 500 fixed damage to all enemies.'],
-                    ['Deals 625 fixed damage to all enemies.'],
-                    ['Deals 750 fixed damage to all enemies.'],
-                    ['Deals 875 fixed damage to all enemies.'],
-                    ['Deals 1,000 fixed damage to all enemies.']
-                ]
-            }
-        }
-    },
-    5270: {
-        festCost: 55,
-        festStats: {
-            def: 175,
-            spd: 210,
-            style: "ATK"
-        },
-        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<b>Full Attack</b>'],
-        festAttackTarget: "Enemies with the highest HP.",
-        festResistance: {
-            base: ['100% chance to resist Special Bind.']
-        },
-        festAbility: {
-            base: [
-                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 SPD up buff to all crew members.'],
-                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 SPD up buff to all crew members.'],
-                ['Applies Lv. 4 ATK up buff to all crew members.', 'Applies Lv. 3 SPD up buff to all crew members.'],
-                ['Applies Lv. 5 ATK up buff to all crew members.', 'Applies Lv. 3 SPD up buff to all crew members.'],
-                ['Applies Lv. 6 ATK up buff to all crew members.', 'Applies Lv. 3 SPD up buff to all crew members.']
-            ]
-        },
-        festSpecial: {
-            base: {
-                cooldown: 32,
-                descriptions: [
-                    ['Deals 2x ATK in damage to 2 enemies.', 'Applies Lv. 1 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 1 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.1x ATK in damage to 2 enemies.', 'Applies Lv. 1 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 1 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.2x ATK in damage to 2 enemies.', 'Applies Lv. 2 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 2 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.3x ATK in damage to 2 enemies.', 'Applies Lv. 2 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 2 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.4x ATK in damage to 2 enemies.', 'Applies Lv. 3 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 3 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.5x ATK in damage to 2 enemies.', 'Applies Lv. 3 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 3 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.6x ATK in damage to 2 enemies.', 'Applies Lv. 4 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 4 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.7x ATK in damage to 2 enemies.', 'Applies Lv. 4 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 4 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.8x ATK in damage to 2 enemies.', 'Applies Lv. 5 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 5 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 3.5x ATK in damage to 2 enemies.', 'Applies Lv. 5 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 7 SPD up buff to all crew members for 20 seconds.']
-                ]
-            }
-        },
-        festGPAbility: {
-            base: [
-                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
-                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
-                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
-                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
-                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
-            ]
-        },
-        festGPSpecial: {
-            base: {
-                uses: 2,
-                condition: "After 2 enemies are defeated",
-                descriptions: [
-                    ['Deals 500 fixed damage to all enemies.'],
-                    ['Deals 625 fixed damage to all enemies.'],
-                    ['Deals 750 fixed damage to all enemies.'],
-                    ['Deals 875 fixed damage to all enemies.'],
-                    ['Deals 1,000 fixed damage to all enemies.']
-                ]
-            }
-        }
-    },
-    5271: {
-        festCost: 55,
-        festStats: {
-            def: 175,
-            spd: 210,
-            style: "ATK"
-        },
-        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<b>Full Attack</b>'],
-        festAttackTarget: "Enemies with the highest HP.",
-        festResistance: {
-            base: ['100% chance to resist Special Bind.']
-        },
-        festAbility: {
-            base: [
-                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 SPD up buff to all crew members.'],
-                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 SPD up buff to all crew members.'],
-                ['Applies Lv. 4 ATK up buff to all crew members.', 'Applies Lv. 3 SPD up buff to all crew members.'],
-                ['Applies Lv. 5 ATK up buff to all crew members.', 'Applies Lv. 3 SPD up buff to all crew members.'],
-                ['Applies Lv. 6 ATK up buff to all crew members.', 'Applies Lv. 3 SPD up buff to all crew members.']
-            ]
-        },
-        festSpecial: {
-            base: {
-                cooldown: 32,
-                descriptions: [
-                    ['Deals 2x ATK in damage to 2 enemies.', 'Applies Lv. 1 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 1 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.1x ATK in damage to 2 enemies.', 'Applies Lv. 1 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 1 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.2x ATK in damage to 2 enemies.', 'Applies Lv. 2 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 2 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.3x ATK in damage to 2 enemies.', 'Applies Lv. 2 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 2 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.4x ATK in damage to 2 enemies.', 'Applies Lv. 3 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 3 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.5x ATK in damage to 2 enemies.', 'Applies Lv. 3 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 3 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.6x ATK in damage to 2 enemies.', 'Applies Lv. 4 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 4 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.7x ATK in damage to 2 enemies.', 'Applies Lv. 4 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 4 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.8x ATK in damage to 2 enemies.', 'Applies Lv. 5 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 5 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 3.5x ATK in damage to 2 enemies.', 'Applies Lv. 5 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 7 SPD up buff to all crew members for 20 seconds.']
-                ]
-            }
-        },
-        festGPAbility: {
-            base: [
-                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
-                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
-                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
-                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
-                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
-            ]
-        },
-        festGPSpecial: {
-            base: {
-                uses: 2,
-                condition: "After 2 enemies are defeated",
-                descriptions: [
-                    ['Deals 500 fixed damage to all enemies.'],
-                    ['Deals 625 fixed damage to all enemies.'],
-                    ['Deals 750 fixed damage to all enemies.'],
-                    ['Deals 875 fixed damage to all enemies.'],
-                    ['Deals 1,000 fixed damage to all enemies.']
-                ]
-            }
-        }
-    },
-    5272: {
-        festCost: 55,
-        festStats: {
-            def: 175,
-            spd: 210,
-            style: "ATK"
-        },
-        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<b>Full Attack</b>'],
-        festAttackTarget: "Enemies with the highest HP.",
-        festResistance: {
-            base: ['100% chance to resist Special Bind.']
-        },
-        festAbility: {
-            base: [
-                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 SPD up buff to all crew members.'],
-                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 SPD up buff to all crew members.'],
-                ['Applies Lv. 4 ATK up buff to all crew members.', 'Applies Lv. 3 SPD up buff to all crew members.'],
-                ['Applies Lv. 5 ATK up buff to all crew members.', 'Applies Lv. 3 SPD up buff to all crew members.'],
-                ['Applies Lv. 6 ATK up buff to all crew members.', 'Applies Lv. 3 SPD up buff to all crew members.']
-            ]
-        },
-        festSpecial: {
-            base: {
-                cooldown: 32,
-                descriptions: [
-                    ['Deals 2x ATK in damage to 2 enemies.', 'Applies Lv. 1 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 1 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.1x ATK in damage to 2 enemies.', 'Applies Lv. 1 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 1 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.2x ATK in damage to 2 enemies.', 'Applies Lv. 2 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 2 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.3x ATK in damage to 2 enemies.', 'Applies Lv. 2 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 2 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.4x ATK in damage to 2 enemies.', 'Applies Lv. 3 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 3 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.5x ATK in damage to 2 enemies.', 'Applies Lv. 3 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 3 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.6x ATK in damage to 2 enemies.', 'Applies Lv. 4 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 4 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.7x ATK in damage to 2 enemies.', 'Applies Lv. 4 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 4 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.8x ATK in damage to 2 enemies.', 'Applies Lv. 5 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 5 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 3.5x ATK in damage to 2 enemies.', 'Applies Lv. 5 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 7 SPD up buff to all crew members for 20 seconds.']
-                ]
-            }
-        },
-        festGPAbility: {
-            base: [
-                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
-                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
-                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
-                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
-                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
-            ]
-        },
-        festGPSpecial: {
-            base: {
-                uses: 2,
-                condition: "After 2 enemies are defeated",
-                descriptions: [
-                    ['Deals 500 fixed damage to all enemies.'],
-                    ['Deals 625 fixed damage to all enemies.'],
-                    ['Deals 750 fixed damage to all enemies.'],
-                    ['Deals 875 fixed damage to all enemies.'],
-                    ['Deals 1,000 fixed damage to all enemies.']
-                ]
-            }
-        }
-    },
-    5273: {
-        festCost: 55,
-        festStats: {
-            def: 175,
-            spd: 210,
-            style: "ATK"
-        },
-        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<b>Full Attack</b>'],
-        festAttackTarget: "Enemies with the highest HP.",
-        festResistance: {
-            base: ['100% chance to resist Special Bind.']
-        },
-        festAbility: {
-            base: [
-                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 SPD up buff to all crew members.'],
-                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 SPD up buff to all crew members.'],
-                ['Applies Lv. 4 ATK up buff to all crew members.', 'Applies Lv. 3 SPD up buff to all crew members.'],
-                ['Applies Lv. 5 ATK up buff to all crew members.', 'Applies Lv. 3 SPD up buff to all crew members.'],
-                ['Applies Lv. 6 ATK up buff to all crew members.', 'Applies Lv. 3 SPD up buff to all crew members.']
-            ]
-        },
-        festSpecial: {
-            base: {
-                cooldown: 32,
-                descriptions: [
-                    ['Deals 2x ATK in damage to 2 enemies.', 'Applies Lv. 1 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 1 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.1x ATK in damage to 2 enemies.', 'Applies Lv. 1 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 1 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.2x ATK in damage to 2 enemies.', 'Applies Lv. 2 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 2 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.3x ATK in damage to 2 enemies.', 'Applies Lv. 2 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 2 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.4x ATK in damage to 2 enemies.', 'Applies Lv. 3 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 3 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.5x ATK in damage to 2 enemies.', 'Applies Lv. 3 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 3 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.6x ATK in damage to 2 enemies.', 'Applies Lv. 4 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 4 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.7x ATK in damage to 2 enemies.', 'Applies Lv. 4 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 4 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.8x ATK in damage to 2 enemies.', 'Applies Lv. 5 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 5 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 3.5x ATK in damage to 2 enemies.', 'Applies Lv. 5 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 7 SPD up buff to all crew members for 20 seconds.']
-                ]
-            }
-        },
-        festGPAbility: {
-            base: [
-                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
-                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
-                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
-                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
-                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
-            ]
-        },
-        festGPSpecial: {
-            base: {
-                uses: 2,
-                condition: "After 2 enemies are defeated",
-                descriptions: [
-                    ['Deals 500 fixed damage to all enemies.'],
-                    ['Deals 625 fixed damage to all enemies.'],
-                    ['Deals 750 fixed damage to all enemies.'],
-                    ['Deals 875 fixed damage to all enemies.'],
-                    ['Deals 1,000 fixed damage to all enemies.']
-                ]
-            }
-        }
-    },
-    5274: {
-        festCost: 55,
-        festStats: {
-            def: 175,
-            spd: 210,
-            style: "ATK"
-        },
-        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<b>Full Attack</b>'],
-        festAttackTarget: "Enemies with the highest HP.",
-        festResistance: {
-            base: ['100% chance to resist Special Bind.']
-        },
-        festAbility: {
-            base: [
-                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 SPD up buff to all crew members.'],
-                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 SPD up buff to all crew members.'],
-                ['Applies Lv. 4 ATK up buff to all crew members.', 'Applies Lv. 3 SPD up buff to all crew members.'],
-                ['Applies Lv. 5 ATK up buff to all crew members.', 'Applies Lv. 3 SPD up buff to all crew members.'],
-                ['Applies Lv. 6 ATK up buff to all crew members.', 'Applies Lv. 3 SPD up buff to all crew members.']
-            ]
-        },
-        festSpecial: {
-            base: {
-                cooldown: 32,
-                descriptions: [
-                    ['Deals 2x ATK in damage to 2 enemies.', 'Applies Lv. 1 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 1 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.1x ATK in damage to 2 enemies.', 'Applies Lv. 1 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 1 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.2x ATK in damage to 2 enemies.', 'Applies Lv. 2 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 2 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.3x ATK in damage to 2 enemies.', 'Applies Lv. 2 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 2 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.4x ATK in damage to 2 enemies.', 'Applies Lv. 3 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 3 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.5x ATK in damage to 2 enemies.', 'Applies Lv. 3 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 3 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.6x ATK in damage to 2 enemies.', 'Applies Lv. 4 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 4 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.7x ATK in damage to 2 enemies.', 'Applies Lv. 4 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 4 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 2.8x ATK in damage to 2 enemies.', 'Applies Lv. 5 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 5 SPD up buff to all crew members for 20 seconds.'],
-                    ['Deals 3.5x ATK in damage to 2 enemies.', 'Applies Lv. 5 ATK up buff to all crew members for 20 seconds.', 'Applies Lv. 7 SPD up buff to all crew members for 20 seconds.']
-                ]
-            }
-        },
-        festGPAbility: {
-            base: [
-                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
-                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
-                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
-                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
-                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
-            ]
-        },
-        festGPSpecial: {
-            base: {
-                uses: 2,
-                condition: "After 2 enemies are defeated",
-                descriptions: [
-                    ['Deals 500 fixed damage to all enemies.'],
-                    ['Deals 625 fixed damage to all enemies.'],
-                    ['Deals 750 fixed damage to all enemies.'],
-                    ['Deals 875 fixed damage to all enemies.'],
-                    ['Deals 1,000 fixed damage to all enemies.']
-                ]
-            }
-        }
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
     }
 };
