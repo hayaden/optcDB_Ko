@@ -1,5 +1,126 @@
 window.rumble = {
+    1: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2: {
+        festCost: 4,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3: {
+        festCost: 7,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    5: {
+        festCost: 4,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    6: {
+        festCost: 7,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    7: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    8: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    9: {
+        festCost: 4,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    10: {
+        festCost: 7,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    11: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    12: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     13: {
+        festCost: 20,
         festStats: {
             def: 164,
             spd: 124,
@@ -35,6 +156,7 @@ window.rumble = {
         }
     },
     14: {
+        festCost: 20,
         festStats: {
             def: 164,
             spd: 124,
@@ -70,6 +192,7 @@ window.rumble = {
         }
     },
     15: {
+        festCost: 20,
         festStats: {
             def: 164,
             spd: 124,
@@ -105,6 +228,7 @@ window.rumble = {
         }
     },
     16: {
+        festCost: 20,
         festStats: {
             def: 164,
             spd: 124,
@@ -139,7 +263,2098 @@ window.rumble = {
             }
         }
     },
+    17: {
+        festCost: 4,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    18: {
+        festCost: 7,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    19: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    20: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    21: {
+        festCost: 4,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    22: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    23: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    24: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    25: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    26: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    27: {
+        festCost: 8,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    28: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    29: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    30: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    31: {
+        festCost: 4,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    32: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    33: {
+        festCost: 4,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    34: {
+        festCost: 8,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    35: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    36: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    37: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    38: {
+        festCost: 8,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    39: {
+        festCost: 11,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    40: {
+        festCost: 3,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    41: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    42: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    43: {
+        festCost: 8,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    44: {
+        festCost: 11,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    45: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    46: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    47: {
+        festCost: 5,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    48: {
+        festCost: 7,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    49: {
+        festCost: 3,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    50: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    51: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    52: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    53: {
+        festCost: 8,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    54: {
+        festCost: 11,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    55: {
+        festCost: 8,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    56: {
+        festCost: 11,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    57: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    58: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    59: {
+        festCost: 6,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    60: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    61: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    62: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    63: {
+        festCost: 8,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    64: {
+        festCost: 11,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    65: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    66: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    67: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    68: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    69: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    70: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    71: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    72: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    73: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    74: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    75: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    76: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    77: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    78: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    79: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    80: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    81: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    82: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    83: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    84: {
+        festCost: 3,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    85: {
+        festCost: 3,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    86: {
+        festCost: 3,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    87: {
+        festCost: 3,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    88: {
+        festCost: 3,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    89: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    90: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    91: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    92: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    93: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    94: {
+        festCost: 3,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    95: {
+        festCost: 2,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    96: {
+        festCost: 2,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    97: {
+        festCost: 2,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    98: {
+        festCost: 2,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    99: {
+        festCost: 2,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    100: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    101: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    102: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    103: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    104: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    105: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    106: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    107: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    108: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    109: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    110: {
+        festCost: 2,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    111: {
+        festCost: 2,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    112: {
+        festCost: 2,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    113: {
+        festCost: 2,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    114: {
+        festCost: 2,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    115: {
+        festCost: 2,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    116: {
+        festCost: 4,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    117: {
+        festCost: 6,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    118: {
+        festCost: 8,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    119: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    120: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    121: {
+        festCost: 2,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    122: {
+        festCost: 2,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    123: {
+        festCost: 2,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    124: {
+        festCost: 2,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    125: {
+        festCost: 2,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    126: {
+        festCost: 3,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    127: {
+        festCost: 3,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    128: {
+        festCost: 3,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    129: {
+        festCost: 3,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    130: {
+        festCost: 3,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    131: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    132: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    133: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    134: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    135: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    136: {
+        festCost: 3,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    137: {
+        festCost: 3,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    138: {
+        festCost: 3,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    139: {
+        festCost: 3,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    140: {
+        festCost: 3,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    141: {
+        festCost: 4,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    142: {
+        festCost: 6,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    143: {
+        festCost: 6,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    144: {
+        festCost: 6,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    145: {
+        festCost: 6,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    146: {
+        festCost: 6,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    147: {
+        festCost: 7,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    148: {
+        festCost: 7,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    149: {
+        festCost: 7,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    150: {
+        festCost: 7,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    151: {
+        festCost: 7,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    152: {
+        festCost: 5,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    153: {
+        festCost: 5,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    154: {
+        festCost: 5,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    155: {
+        festCost: 5,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    156: {
+        festCost: 5,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    157: {
+        festCost: 7,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    158: {
+        festCost: 7,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    159: {
+        festCost: 7,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    160: {
+        festCost: 7,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    161: {
+        festCost: 7,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    162: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    163: {
+        festCost: 4,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    164: {
+        festCost: 4,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    165: {
+        festCost: 6,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    166: {
+        festCost: 6,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    167: {
+        festCost: 6,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    168: {
+        festCost: 6,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    169: {
+        festCost: 6,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    170: {
+        festCost: 7,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    171: {
+        festCost: 7,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    172: {
+        festCost: 7,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    173: {
+        festCost: 7,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    174: {
+        festCost: 7,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    175: {
+        festCost: 7,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    176: {
+        festCost: 7,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    177: {
+        festCost: 7,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    178: {
+        festCost: 7,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    179: {
+        festCost: 3,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    180: {
+        festCost: 4,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    181: {
+        festCost: 3,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    182: {
+        festCost: 3,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    183: {
+        festCost: 5,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    184: {
+        festCost: 5,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    185: {
+        festCost: 6,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    186: {
+        festCost: 5,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    187: {
+        festCost: 6,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    188: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    189: {
+        festCost: 4,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    190: {
+        festCost: 4,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    191: {
+        festCost: 4,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    192: {
+        festCost: 4,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    193: {
+        festCost: 4,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    194: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    195: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    196: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    197: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    198: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    199: {
+        festCost: 11,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    200: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    201: {
+        festCost: 11,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    202: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    203: {
+        festCost: 11,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    204: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    205: {
+        festCost: 11,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    206: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    207: {
+        festCost: 11,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    208: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    209: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    210: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    211: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    212: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    213: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    214: {
+        festCost: 22,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    215: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    216: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    217: {
+        festCost: 22,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    218: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    219: {
+        festCost: 22,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    220: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    221: {
+        festCost: 22,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    222: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    223: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    224: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    225: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     226: {
+        festCost: 30,
         festStats: {
             def: 126,
             spd: 158,
@@ -175,6 +2390,7 @@ window.rumble = {
         }
     },
     227: {
+        festCost: 30,
         festStats: {
             def: 126,
             spd: 158,
@@ -209,7 +2425,208 @@ window.rumble = {
             }
         }
     },
+    228: {
+        festCost: 17,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    229: {
+        festCost: 11,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    230: {
+        festCost: 11,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    231: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    232: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    233: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    234: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    235: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    236: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    237: {
+        festCost: 5,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    238: {
+        festCost: 5,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    239: {
+        festCost: 5,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    240: {
+        festCost: 5,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    241: {
+        festCost: 5,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    242: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    243: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    244: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    245: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    246: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    247: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     248: {
+        festCost: 30,
         festStats: {
             def: 121,
             spd: 151,
@@ -245,6 +2662,7 @@ window.rumble = {
         }
     },
     249: {
+        festCost: 30,
         festStats: {
             def: 121,
             spd: 151,
@@ -279,7 +2697,28 @@ window.rumble = {
             }
         }
     },
+    250: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    251: {
+        festCost: 28,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     252: {
+        festCost: 30,
         festStats: {
             def: 168,
             spd: 132,
@@ -315,6 +2754,7 @@ window.rumble = {
         }
     },
     253: {
+        festCost: 30,
         festStats: {
             def: 168,
             spd: 132,
@@ -349,7 +2789,28 @@ window.rumble = {
             }
         }
     },
+    254: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    255: {
+        festCost: 28,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     256: {
+        festCost: 30,
         festStats: {
             def: 113,
             spd: 149,
@@ -385,6 +2846,7 @@ window.rumble = {
         }
     },
     257: {
+        festCost: 30,
         festStats: {
             def: 113,
             spd: 149,
@@ -420,6 +2882,7 @@ window.rumble = {
         }
     },
     258: {
+        festCost: 30,
         festStats: {
             def: 186,
             spd: 110,
@@ -455,6 +2918,7 @@ window.rumble = {
         }
     },
     259: {
+        festCost: 30,
         festStats: {
             def: 186,
             spd: 110,
@@ -490,6 +2954,7 @@ window.rumble = {
         }
     },
     260: {
+        festCost: 55,
         festStats: {
             def: 121,
             spd: 145,
@@ -550,6 +3015,7 @@ window.rumble = {
         }
     },
     261: {
+        festCost: 55,
         festStats: {
             def: 121,
             spd: 145,
@@ -609,7 +3075,438 @@ window.rumble = {
             }
         }
     },
+    262: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    263: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    264: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    265: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    266: {
+        festCost: 6,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    267: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    268: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    269: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    270: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    271: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    272: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    273: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    274: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    275: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    276: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    277: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    278: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    279: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    280: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    281: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    282: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    283: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    284: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    285: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    286: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    287: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    288: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    289: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    290: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    291: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    292: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    293: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    294: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    295: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    296: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    297: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    298: {
+        festCost: 11,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    299: {
+        festCost: 11,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    300: {
+        festCost: 7,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    301: {
+        festCost: 7,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    302: {
+        festCost: 7,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    303: {
+        festCost: 7,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    304: {
+        festCost: 7,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     305: {
+        festCost: 30,
         festStats: {
             def: 162,
             spd: 163,
@@ -645,6 +3542,7 @@ window.rumble = {
         }
     },
     306: {
+        festCost: 30,
         festStats: {
             def: 162,
             spd: 163,
@@ -679,7 +3577,458 @@ window.rumble = {
             }
         }
     },
+    307: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    308: {
+        festCost: 28,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    309: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    310: {
+        festCost: 28,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    311: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    312: {
+        festCost: 28,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    313: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    314: {
+        festCost: 28,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    315: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    316: {
+        festCost: 28,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    317: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    318: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    319: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    320: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    321: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    322: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    323: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    324: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    325: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    326: {
+        festCost: 8,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    327: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    328: {
+        festCost: 7,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    329: {
+        festCost: 11,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    330: {
+        festCost: 7,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    331: {
+        festCost: 7,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    332: {
+        festCost: 11,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    333: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    334: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    335: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    336: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    337: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    338: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    339: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    340: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    341: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    342: {
+        festCost: 2,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    343: {
+        festCost: 2,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    344: {
+        festCost: 2,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    345: {
+        festCost: 2,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    346: {
+        festCost: 2,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    347: {
+        festCost: 5,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    348: {
+        festCost: 5,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    349: {
+        festCost: 5,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    350: {
+        festCost: 5,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    351: {
+        festCost: 5,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     352: {
+        festCost: 30,
         festStats: {
             def: 167,
             spd: 158,
@@ -715,6 +4064,7 @@ window.rumble = {
         }
     },
     353: {
+        festCost: 30,
         festStats: {
             def: 167,
             spd: 158,
@@ -749,7 +4099,128 @@ window.rumble = {
             }
         }
     },
+    354: {
+        festCost: 8,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    355: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    356: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    357: {
+        festCost: 28,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    358: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    359: {
+        festCost: 28,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    360: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    361: {
+        festCost: 28,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    362: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    363: {
+        festCost: 28,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    364: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    365: {
+        festCost: 28,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     366: {
+        festCost: 55,
         festStats: {
             def: 104,
             spd: 146,
@@ -810,6 +4281,7 @@ window.rumble = {
         }
     },
     367: {
+        festCost: 55,
         festStats: {
             def: 104,
             spd: 146,
@@ -869,7 +4341,218 @@ window.rumble = {
             }
         }
     },
+    368: {
+        festCost: 8,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    369: {
+        festCost: 8,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    370: {
+        festCost: 8,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    371: {
+        festCost: 8,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    372: {
+        festCost: 8,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    373: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    374: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    375: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    376: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    377: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    378: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    379: {
+        festCost: 7,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    380: {
+        festCost: 11,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    381: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    382: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    383: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    384: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    385: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    386: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    387: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    388: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     389: {
+        festCost: 30,
         festStats: {
             def: 270,
             spd: 130,
@@ -905,6 +4588,7 @@ window.rumble = {
         }
     },
     390: {
+        festCost: 30,
         festStats: {
             def: 270,
             spd: 130,
@@ -939,7 +4623,228 @@ window.rumble = {
             }
         }
     },
+    391: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    392: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    393: {
+        festCost: 11,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    394: {
+        festCost: 11,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    395: {
+        festCost: 11,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    396: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    397: {
+        festCost: 11,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    398: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    399: {
+        festCost: 11,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    400: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    401: {
+        festCost: 11,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    402: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    403: {
+        festCost: 14,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    404: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    405: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    406: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    407: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    408: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    409: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    410: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    411: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    412: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     413: {
+        festCost: 30,
         festStats: {
             def: 261,
             spd: 113,
@@ -975,6 +4880,7 @@ window.rumble = {
         }
     },
     414: {
+        festCost: 30,
         festStats: {
             def: 261,
             spd: 113,
@@ -1010,6 +4916,7 @@ window.rumble = {
         }
     },
     415: {
+        festCost: 55,
         festStats: {
             def: 100,
             spd: 168,
@@ -1070,6 +4977,7 @@ window.rumble = {
         }
     },
     416: {
+        festCost: 55,
         festStats: {
             def: 100,
             spd: 168,
@@ -1130,6 +5038,7 @@ window.rumble = {
         }
     },
     417: {
+        festCost: 30,
         festStats: {
             def: 128,
             spd: 161,
@@ -1165,6 +5074,7 @@ window.rumble = {
         }
     },
     418: {
+        festCost: 30,
         festStats: {
             def: 128,
             spd: 161,
@@ -1199,7 +5109,278 @@ window.rumble = {
             }
         }
     },
+    419: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    420: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    421: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    422: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    423: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    424: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    425: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    426: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    427: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    428: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    429: {
+        festCost: 8,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    430: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    431: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    432: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    433: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    434: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    435: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    436: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    437: {
+        festCost: 11,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    438: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    439: {
+        festCost: 11,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    440: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    441: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    442: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    443: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    444: {
+        festCost: 6,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    445: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     446: {
+        festCost: 30,
         festStats: {
             def: 105,
             spd: 144,
@@ -1235,6 +5416,7 @@ window.rumble = {
         }
     },
     447: {
+        festCost: 30,
         festStats: {
             def: 105,
             spd: 144,
@@ -1269,7 +5451,108 @@ window.rumble = {
             }
         }
     },
+    448: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    449: {
+        festCost: 28,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    450: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    451: {
+        festCost: 28,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    452: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    453: {
+        festCost: 28,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    454: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    455: {
+        festCost: 28,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    456: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    457: {
+        festCost: 28,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     458: {
+        festCost: 55,
         festStats: {
             def: 204,
             spd: 140,
@@ -1330,6 +5613,7 @@ window.rumble = {
         }
     },
     459: {
+        festCost: 55,
         festStats: {
             def: 204,
             spd: 140,
@@ -1412,7 +5696,558 @@ window.rumble = {
             }
         }
     },
+    460: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    461: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    462: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    463: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    464: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    465: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    466: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    467: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    468: {
+        festCost: 3,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    469: {
+        festCost: 3,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    470: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    471: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    472: {
+        festCost: 8,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    473: {
+        festCost: 8,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    474: {
+        festCost: 8,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    475: {
+        festCost: 8,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    476: {
+        festCost: 8,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    477: {
+        festCost: 6,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    478: {
+        festCost: 6,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    479: {
+        festCost: 6,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    480: {
+        festCost: 6,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    481: {
+        festCost: 6,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    482: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    483: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    484: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    485: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    486: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    487: {
+        festCost: 6,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    488: {
+        festCost: 6,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    489: {
+        festCost: 6,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    490: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    491: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    492: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    493: {
+        festCost: 5,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    494: {
+        festCost: 5,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    495: {
+        festCost: 11,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    496: {
+        festCost: 11,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    497: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    498: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    499: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    500: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    501: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    502: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    503: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    504: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    505: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    506: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    507: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    508: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    509: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    510: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    511: {
+        festCost: 16,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    512: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    513: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    514: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     515: {
+        festCost: 30,
         festStats: {
             def: 143,
             spd: 145,
@@ -1448,6 +6283,7 @@ window.rumble = {
         }
     },
     516: {
+        festCost: 30,
         festStats: {
             def: 143,
             spd: 145,
@@ -1482,7 +6318,28 @@ window.rumble = {
             }
         }
     },
+    517: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    518: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     529: {
+        festCost: 55,
         festStats: {
             def: 151,
             spd: 144,
@@ -1543,6 +6400,7 @@ window.rumble = {
         }
     },
     530: {
+        festCost: 55,
         festStats: {
             def: 151,
             spd: 144,
@@ -1602,7 +6460,228 @@ window.rumble = {
             }
         }
     },
+    531: {
+        festCost: 11,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    532: {
+        festCost: 19,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    533: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    534: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    535: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    536: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    537: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    538: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    539: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    540: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    541: {
+        festCost: 16,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    542: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    543: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    544: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    545: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    546: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    547: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    548: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    549: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    550: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    551: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    552: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     561: {
+        festCost: 55,
         festStats: {
             def: 101,
             spd: 185,
@@ -1663,6 +6742,7 @@ window.rumble = {
         }
     },
     562: {
+        festCost: 55,
         festStats: {
             def: 101,
             spd: 185,
@@ -1722,7 +6802,118 @@ window.rumble = {
             }
         }
     },
+    563: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    564: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    565: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    566: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    567: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    568: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    569: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    570: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    571: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    572: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    573: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     574: {
+        festCost: 30,
         festStats: {
             def: 162,
             spd: 159,
@@ -1758,6 +6949,7 @@ window.rumble = {
         }
     },
     575: {
+        festCost: 30,
         festStats: {
             def: 162,
             spd: 159,
@@ -1792,7 +6984,18 @@ window.rumble = {
             }
         }
     },
+    576: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     577: {
+        festCost: 55,
         festStats: {
             def: 120,
             spd: 194,
@@ -1853,6 +7056,7 @@ window.rumble = {
         }
     },
     578: {
+        festCost: 55,
         festStats: {
             def: 120,
             spd: 194,
@@ -1935,7 +7139,238 @@ window.rumble = {
             }
         }
     },
+    579: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    580: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    581: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    582: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    583: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    584: {
+        festCost: 11,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    585: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    586: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    587: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    588: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    589: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    590: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    591: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    592: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    593: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    594: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    595: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    596: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    597: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    598: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    599: {
+        festCost: 19,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    600: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    601: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     602: {
+        festCost: 30,
         festStats: {
             def: 117,
             spd: 196,
@@ -1971,6 +7406,7 @@ window.rumble = {
         }
     },
     603: {
+        festCost: 30,
         festStats: {
             def: 117,
             spd: 196,
@@ -2005,7 +7441,448 @@ window.rumble = {
             }
         }
     },
+    604: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    605: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    606: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    607: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    608: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    609: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    610: {
+        festCost: 7,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    611: {
+        festCost: 7,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    612: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    613: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    614: {
+        festCost: 16,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    615: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    616: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    617: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    618: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    619: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    620: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    621: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    622: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    623: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    624: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    625: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    626: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    627: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    628: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    629: {
+        festCost: 17,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    630: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    631: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    632: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    633: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    634: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    635: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    636: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    637: {
+        festCost: 16,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    638: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    639: {
+        festCost: 29,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    640: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    641: {
+        festCost: 29,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    642: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    643: {
+        festCost: 29,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    644: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    645: {
+        festCost: 29,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    646: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    647: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     648: {
+        festCost: 55,
         festStats: {
             def: 141,
             spd: 139,
@@ -2066,6 +7943,7 @@ window.rumble = {
         }
     },
     649: {
+        festCost: 55,
         festStats: {
             def: 141,
             spd: 139,
@@ -2125,7 +8003,28 @@ window.rumble = {
             }
         }
     },
+    650: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    651: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     652: {
+        festCost: 30,
         festStats: {
             def: 287,
             spd: 123,
@@ -2161,6 +8060,7 @@ window.rumble = {
         }
     },
     653: {
+        festCost: 30,
         festStats: {
             def: 287,
             spd: 123,
@@ -2196,6 +8096,7 @@ window.rumble = {
         }
     },
     654: {
+        festCost: 30,
         festStats: {
             def: 287,
             spd: 123,
@@ -2230,7 +8131,138 @@ window.rumble = {
             }
         }
     },
+    655: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    656: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    657: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    658: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    659: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    660: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    661: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    662: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    663: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    664: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    665: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    666: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    667: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     668: {
+        festCost: 55,
         festStats: {
             def: 169,
             spd: 172,
@@ -2291,6 +8323,7 @@ window.rumble = {
         }
     },
     669: {
+        festCost: 55,
         festStats: {
             def: 169,
             spd: 172,
@@ -2350,7 +8383,478 @@ window.rumble = {
             }
         }
     },
+    670: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    671: {
+        festCost: 29,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    672: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    673: {
+        festCost: 29,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    674: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    675: {
+        festCost: 29,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    676: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    677: {
+        festCost: 29,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    678: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    679: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    680: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    681: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    682: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    683: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    684: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    685: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    686: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    687: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    688: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    689: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    690: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    691: {
+        festCost: 7,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    692: {
+        festCost: 7,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    693: {
+        festCost: 7,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    694: {
+        festCost: 7,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    695: {
+        festCost: 7,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    696: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    697: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    698: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    699: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    700: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    701: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    702: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    703: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    704: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    705: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    706: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    707: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    708: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    709: {
+        festCost: 16,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    710: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    711: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    712: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    713: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    714: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    715: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    716: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     717: {
+        festCost: 55,
         festStats: {
             def: 131,
             spd: 162,
@@ -2411,6 +8915,7 @@ window.rumble = {
         }
     },
     718: {
+        festCost: 55,
         festStats: {
             def: 131,
             spd: 162,
@@ -2471,6 +8976,7 @@ window.rumble = {
         }
     },
     719: {
+        festCost: 55,
         festStats: {
             def: 101,
             spd: 169,
@@ -2531,6 +9037,7 @@ window.rumble = {
         }
     },
     720: {
+        festCost: 55,
         festStats: {
             def: 101,
             spd: 169,
@@ -2613,7 +9120,248 @@ window.rumble = {
             }
         }
     },
+    721: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    722: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    723: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    724: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    725: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    726: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    727: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    728: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    729: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    730: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    731: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    732: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    733: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    734: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    735: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    736: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    737: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    738: {
+        festCost: 7,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    739: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    740: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    741: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    742: {
+        festCost: 11,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    743: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    746: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     747: {
+        festCost: 55,
         festStats: {
             def: 99,
             spd: 189,
@@ -2652,6 +9400,7 @@ window.rumble = {
         }
     },
     748: {
+        festCost: 55,
         festStats: {
             def: 99,
             spd: 189,
@@ -2690,6 +9439,7 @@ window.rumble = {
         }
     },
     749: {
+        festCost: 30,
         festStats: {
             def: 119,
             spd: 140,
@@ -2725,6 +9475,7 @@ window.rumble = {
         }
     },
     750: {
+        festCost: 30,
         festStats: {
             def: 119,
             spd: 140,
@@ -2760,6 +9511,7 @@ window.rumble = {
         }
     },
     751: {
+        festCost: 30,
         festStats: {
             def: 99,
             spd: 151,
@@ -2795,6 +9547,7 @@ window.rumble = {
         }
     },
     752: {
+        festCost: 30,
         festStats: {
             def: 99,
             spd: 151,
@@ -2830,6 +9583,7 @@ window.rumble = {
         }
     },
     753: {
+        festCost: 30,
         festStats: {
             def: 145,
             spd: 149,
@@ -2865,6 +9619,7 @@ window.rumble = {
         }
     },
     754: {
+        festCost: 30,
         festStats: {
             def: 145,
             spd: 149,
@@ -2900,6 +9655,7 @@ window.rumble = {
         }
     },
     755: {
+        festCost: 30,
         festStats: {
             def: 203,
             spd: 100,
@@ -2935,6 +9691,7 @@ window.rumble = {
         }
     },
     756: {
+        festCost: 30,
         festStats: {
             def: 203,
             spd: 100,
@@ -2970,6 +9727,7 @@ window.rumble = {
         }
     },
     757: {
+        festCost: 30,
         festStats: {
             def: 118,
             spd: 126,
@@ -3005,6 +9763,7 @@ window.rumble = {
         }
     },
     758: {
+        festCost: 30,
         festStats: {
             def: 118,
             spd: 126,
@@ -3040,6 +9799,7 @@ window.rumble = {
         }
     },
     759: {
+        festCost: 30,
         festStats: {
             def: 152,
             spd: 128,
@@ -3075,6 +9835,7 @@ window.rumble = {
         }
     },
     760: {
+        festCost: 30,
         festStats: {
             def: 152,
             spd: 128,
@@ -3109,7 +9870,98 @@ window.rumble = {
             }
         }
     },
+    761: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    762: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    763: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    764: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    765: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    766: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    767: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    768: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    769: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     770: {
+        festCost: 30,
         festStats: {
             def: 121,
             spd: 168,
@@ -3145,6 +9997,7 @@ window.rumble = {
         }
     },
     771: {
+        festCost: 30,
         festStats: {
             def: 130,
             spd: 188,
@@ -3180,6 +10033,7 @@ window.rumble = {
         }
     },
     772: {
+        festCost: 30,
         festStats: {
             def: 148,
             spd: 126,
@@ -3214,7 +10068,218 @@ window.rumble = {
             }
         }
     },
+    773: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    774: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    775: {
+        festCost: 16,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    776: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    777: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    778: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    779: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    780: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    781: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    782: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    783: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    784: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    785: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    786: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    787: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    788: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    789: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    790: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    791: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    792: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    793: {
+        festCost: 16,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     794: {
+        festCost: 30,
         festStats: {
             def: 165,
             spd: 160,
@@ -3250,6 +10315,7 @@ window.rumble = {
         }
     },
     795: {
+        festCost: 30,
         festStats: {
             def: 165,
             spd: 160,
@@ -3284,7 +10350,378 @@ window.rumble = {
             }
         }
     },
+    796: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    797: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    798: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    799: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    800: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    803: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    804: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    805: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    806: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    807: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    808: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    809: {
+        festCost: 11,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    810: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    811: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    812: {
+        festCost: 14,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    813: {
+        festCost: 14,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    814: {
+        festCost: 14,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    815: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    816: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    817: {
+        festCost: 7,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    818: {
+        festCost: 7,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    819: {
+        festCost: 7,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    820: {
+        festCost: 7,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    821: {
+        festCost: 7,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    822: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    823: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    824: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    825: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    826: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    827: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    828: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    829: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    830: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    831: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    832: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    833: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    834: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     835: {
+        festCost: 30,
         festStats: {
             def: 219,
             spd: 99,
@@ -3320,6 +10757,7 @@ window.rumble = {
         }
     },
     836: {
+        festCost: 30,
         festStats: {
             def: 219,
             spd: 99,
@@ -3354,7 +10792,48 @@ window.rumble = {
             }
         }
     },
+    837: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    838: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    839: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    840: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     841: {
+        festCost: 30,
         festStats: {
             def: 132,
             spd: 141,
@@ -3390,6 +10869,7 @@ window.rumble = {
         }
     },
     842: {
+        festCost: 30,
         festStats: {
             def: 132,
             spd: 141,
@@ -3424,7 +10904,218 @@ window.rumble = {
             }
         }
     },
+    843: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    844: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    845: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    846: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    847: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    848: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    849: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    850: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    851: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    852: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    853: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    854: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    855: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    856: {
+        festCost: 19,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    857: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    858: {
+        festCost: 19,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    859: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    860: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    861: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    862: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    863: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     864: {
+        festCost: 30,
         festStats: {
             def: 146,
             spd: 143,
@@ -3460,6 +11151,7 @@ window.rumble = {
         }
     },
     865: {
+        festCost: 30,
         festStats: {
             def: 146,
             spd: 143,
@@ -3494,7 +11186,38 @@ window.rumble = {
             }
         }
     },
+    866: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    867: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    868: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     869: {
+        festCost: 55,
         festStats: {
             def: 262,
             spd: 129,
@@ -3555,6 +11278,7 @@ window.rumble = {
         }
     },
     870: {
+        festCost: 55,
         festStats: {
             def: 262,
             spd: 129,
@@ -3638,6 +11362,7 @@ window.rumble = {
         }
     },
     871: {
+        festCost: 30,
         festStats: {
             def: 102,
             spd: 134,
@@ -3673,6 +11398,7 @@ window.rumble = {
         }
     },
     872: {
+        festCost: 30,
         festStats: {
             def: 102,
             spd: 134,
@@ -3707,7 +11433,28 @@ window.rumble = {
             }
         }
     },
+    873: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    874: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     875: {
+        festCost: 30,
         festStats: {
             def: 132,
             spd: 129,
@@ -3743,6 +11490,7 @@ window.rumble = {
         }
     },
     876: {
+        festCost: 30,
         festStats: {
             def: 132,
             spd: 129,
@@ -3777,7 +11525,228 @@ window.rumble = {
             }
         }
     },
+    877: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    878: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    879: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    880: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    881: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    882: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    883: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    884: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    885: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    886: {
+        festCost: 17,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    887: {
+        festCost: 17,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    888: {
+        festCost: 6,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    889: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    890: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    891: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    892: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    893: {
+        festCost: 50,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    894: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    895: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    896: {
+        festCost: 16,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    897: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    898: {
+        festCost: 17,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     899: {
+        festCost: 20,
         festStats: {
             def: 112,
             spd: 134,
@@ -3812,7 +11781,328 @@ window.rumble = {
             }
         }
     },
+    900: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    901: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    902: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    903: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    904: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    905: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    906: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    907: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    908: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    909: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    910: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    911: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    912: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    913: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    914: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    915: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    916: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    917: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    918: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    919: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    920: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    921: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    922: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    923: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    924: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    925: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    926: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    927: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    928: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    929: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    930: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    931: {
+        festCost: 11,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     932: {
+        festCost: 30,
         festStats: {
             def: 279,
             spd: 104,
@@ -3848,6 +12138,7 @@ window.rumble = {
         }
     },
     933: {
+        festCost: 30,
         festStats: {
             def: 279,
             spd: 104,
@@ -3883,6 +12174,7 @@ window.rumble = {
         }
     },
     934: {
+        festCost: 55,
         festStats: {
             def: 246,
             spd: 100,
@@ -3943,6 +12235,7 @@ window.rumble = {
         }
     },
     935: {
+        festCost: 55,
         festStats: {
             def: 246,
             spd: 100,
@@ -4002,7 +12295,418 @@ window.rumble = {
             }
         }
     },
+    936: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    937: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    938: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    939: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    940: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    941: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    942: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    943: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    944: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    945: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    946: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    947: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    948: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    949: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    950: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    951: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    952: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    953: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    954: {
+        festCost: 7,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    955: {
+        festCost: 7,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    956: {
+        festCost: 7,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    957: {
+        festCost: 11,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    958: {
+        festCost: 11,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    959: {
+        festCost: 11,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    960: {
+        festCost: 11,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    961: {
+        festCost: 11,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    962: {
+        festCost: 11,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    963: {
+        festCost: 99,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    964: {
+        festCost: 99,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    965: {
+        festCost: 99,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    966: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    967: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    968: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    969: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    970: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    971: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    972: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    973: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    974: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    975: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    976: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     977: {
+        festCost: 30,
         festStats: {
             def: 159,
             spd: 225,
@@ -4038,6 +12742,7 @@ window.rumble = {
         }
     },
     978: {
+        festCost: 30,
         festStats: {
             def: 159,
             spd: 225,
@@ -4072,7 +12777,198 @@ window.rumble = {
             }
         }
     },
+    979: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    980: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    981: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    982: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    983: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    984: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    985: {
+        festCost: 5,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    986: {
+        festCost: 5,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    987: {
+        festCost: 5,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    988: {
+        festCost: 5,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    989: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    990: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    991: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    992: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    993: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    994: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    995: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    996: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    997: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     998: {
+        festCost: 30,
         festStats: {
             def: 106,
             spd: 157,
@@ -4108,6 +13004,7 @@ window.rumble = {
         }
     },
     999: {
+        festCost: 30,
         festStats: {
             def: 106,
             spd: 157,
@@ -4143,6 +13040,7 @@ window.rumble = {
         }
     },
     1000: {
+        festCost: 55,
         festStats: {
             def: 127,
             spd: 124,
@@ -4203,6 +13101,7 @@ window.rumble = {
         }
     },
     1001: {
+        festCost: 55,
         festStats: {
             def: 127,
             spd: 124,
@@ -4262,7 +13161,318 @@ window.rumble = {
             }
         }
     },
+    1002: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1003: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1004: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1005: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1006: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1007: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1008: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1010: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1011: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1012: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1013: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1014: {
+        festCost: 16,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1015: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1016: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1017: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1018: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1019: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1020: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1021: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1022: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1023: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1024: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1025: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1026: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1027: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1028: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1029: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1030: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1031: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1032: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1033: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1034: {
+        festCost: 55,
         festStats: {
             def: 205,
             spd: 127,
@@ -4323,6 +13533,7 @@ window.rumble = {
         }
     },
     1035: {
+        festCost: 55,
         festStats: {
             def: 205,
             spd: 127,
@@ -4405,7 +13616,88 @@ window.rumble = {
             }
         }
     },
+    1036: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1037: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1038: {
+        festCost: 7,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1039: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1040: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1041: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1042: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1043: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1044: {
+        festCost: 55,
         festStats: {
             def: 134,
             spd: 189,
@@ -4466,6 +13758,7 @@ window.rumble = {
         }
     },
     1045: {
+        festCost: 55,
         festStats: {
             def: 134,
             spd: 189,
@@ -4526,6 +13819,7 @@ window.rumble = {
         }
     },
     1046: {
+        festCost: 30,
         festStats: {
             def: 124,
             spd: 168,
@@ -4561,6 +13855,7 @@ window.rumble = {
         }
     },
     1047: {
+        festCost: 30,
         festStats: {
             def: 124,
             spd: 168,
@@ -4596,6 +13891,7 @@ window.rumble = {
         }
     },
     1048: {
+        festCost: 20,
         festStats: {
             def: 88,
             spd: 125,
@@ -4631,6 +13927,7 @@ window.rumble = {
         }
     },
     1049: {
+        festCost: 20,
         festStats: {
             def: 88,
             spd: 125,
@@ -4665,7 +13962,328 @@ window.rumble = {
             }
         }
     },
+    1050: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1051: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1052: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1053: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1054: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1055: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1056: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1057: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1058: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1059: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1060: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1061: {
+        festCost: 14,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1062: {
+        festCost: 14,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1063: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1064: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1065: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1066: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1067: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1068: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1069: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1070: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1071: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1072: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1073: {
+        festCost: 14,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1074: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1075: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1076: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1077: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1078: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1079: {
+        festCost: 28,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1080: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1081: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1082: {
+        festCost: 30,
         festStats: {
             def: 120,
             spd: 132,
@@ -4701,6 +14319,7 @@ window.rumble = {
         }
     },
     1083: {
+        festCost: 30,
         festStats: {
             def: 120,
             spd: 132,
@@ -4736,6 +14355,7 @@ window.rumble = {
         }
     },
     1084: {
+        festCost: 55,
         festStats: {
             def: 119,
             spd: 104,
@@ -4796,6 +14416,7 @@ window.rumble = {
         }
     },
     1085: {
+        festCost: 55,
         festStats: {
             def: 119,
             spd: 104,
@@ -4855,7 +14476,218 @@ window.rumble = {
             }
         }
     },
+    1086: {
+        festCost: 16,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1087: {
+        festCost: 26,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1088: {
+        festCost: 16,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1089: {
+        festCost: 26,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1090: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1091: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1092: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1093: {
+        festCost: 17,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1094: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1095: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1096: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1097: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1098: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1099: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1100: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1101: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1102: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1103: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1104: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1105: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1106: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1107: {
+        festCost: 30,
         festStats: {
             def: 155,
             spd: 170,
@@ -4891,6 +14723,7 @@ window.rumble = {
         }
     },
     1108: {
+        festCost: 30,
         festStats: {
             def: 155,
             spd: 170,
@@ -4925,9 +14758,124 @@ window.rumble = {
             }
         }
     },
-    1120: {},
-    1121: {},
+    1109: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1110: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1111: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1112: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1113: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1114: {
+        festCost: 17,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1115: {
+        festCost: 27,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1116: {
+        festCost: 17,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1117: {
+        festCost: 27,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1118: {
+        festCost: 17,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1119: {
+        festCost: 27,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1120: {
+        festCost: 55
+    },
+    1121: {
+        festCost: 55
+    },
     1122: {
+        festCost: 55,
         festStats: {
             def: 121,
             spd: 193,
@@ -4988,6 +14936,7 @@ window.rumble = {
         }
     },
     1123: {
+        festCost: 55,
         festStats: {
             def: 121,
             spd: 193,
@@ -5047,7 +14996,28 @@ window.rumble = {
             }
         }
     },
+    1124: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1125: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1126: {
+        festCost: 30,
         festStats: {
             def: 138,
             spd: 123,
@@ -5083,6 +15053,7 @@ window.rumble = {
         }
     },
     1127: {
+        festCost: 30,
         festStats: {
             def: 138,
             spd: 123,
@@ -5117,7 +15088,348 @@ window.rumble = {
             }
         }
     },
+    1128: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1129: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1130: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1131: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1132: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1133: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1134: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1135: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1136: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1137: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1138: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1139: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1140: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1141: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1142: {
+        festCost: 16,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1143: {
+        festCost: 26,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1144: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1145: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1146: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1147: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1148: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1149: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1150: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1151: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1152: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1153: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1154: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1155: {
+        festCost: 8,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1156: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1157: {
+        festCost: 16,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1158: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1159: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1160: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1161: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1162: {
+        festCost: 30,
         festStats: {
             def: 200,
             spd: 136,
@@ -5153,6 +15465,7 @@ window.rumble = {
         }
     },
     1163: {
+        festCost: 30,
         festStats: {
             def: 200,
             spd: 136,
@@ -5187,7 +15500,238 @@ window.rumble = {
             }
         }
     },
+    1164: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1165: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1166: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1167: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1168: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1169: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1170: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1171: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1172: {
+        festCost: 17,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1173: {
+        festCost: 27,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1174: {
+        festCost: 17,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1175: {
+        festCost: 27,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1176: {
+        festCost: 17,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1177: {
+        festCost: 27,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1178: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1179: {
+        festCost: 50,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1180: {
+        festCost: 4,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1181: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1182: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1183: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1184: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1185: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1186: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1187: {
+        festCost: 30,
         festStats: {
             def: 114,
             spd: 146,
@@ -5223,6 +15767,7 @@ window.rumble = {
         }
     },
     1188: {
+        festCost: 30,
         festStats: {
             def: 114,
             spd: 146,
@@ -5257,7 +15802,28 @@ window.rumble = {
             }
         }
     },
+    1189: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1190: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1191: {
+        festCost: 55,
         festStats: {
             def: 153,
             spd: 175,
@@ -5315,6 +15881,7 @@ window.rumble = {
         }
     },
     1192: {
+        festCost: 55,
         festStats: {
             def: 153,
             spd: 175,
@@ -5371,7 +15938,468 @@ window.rumble = {
             }
         }
     },
+    1193: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1194: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1195: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1196: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1197: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1198: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1199: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1200: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1201: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1202: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1203: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1204: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1205: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1206: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1207: {
+        festCost: 17,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1208: {
+        festCost: 27,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1209: {
+        festCost: 17,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1210: {
+        festCost: 27,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1211: {
+        festCost: 17,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1212: {
+        festCost: 27,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1213: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1214: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1215: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1216: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1217: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1218: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1219: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1220: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1221: {
+        festCost: 16,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1222: {
+        festCost: 26,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1223: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1224: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1225: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1226: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1227: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1228: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1229: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1230: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1231: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1232: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1233: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1234: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1235: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1236: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1237: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1238: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1239: {
+        festCost: 55,
         festStats: {
             def: 162,
             spd: 195,
@@ -5432,6 +16460,7 @@ window.rumble = {
         }
     },
     1240: {
+        festCost: 55,
         festStats: {
             def: 162,
             spd: 195,
@@ -5491,7 +16520,268 @@ window.rumble = {
             }
         }
     },
+    1241: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1242: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1243: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1244: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1245: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1246: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1247: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1248: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1249: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1250: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1251: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1252: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1253: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1254: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1255: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1256: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1257: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1258: {
+        festCost: 50,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1259: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1260: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1261: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1262: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1263: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1264: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1265: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1266: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1267: {
+        festCost: 55,
         festStats: {
             def: 104,
             spd: 164,
@@ -5552,6 +16842,7 @@ window.rumble = {
         }
     },
     1268: {
+        festCost: 55,
         festStats: {
             def: 104,
             spd: 164,
@@ -5611,7 +16902,288 @@ window.rumble = {
             }
         }
     },
+    1269: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1270: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1271: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1272: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1273: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1274: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1275: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1276: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1277: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1278: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1279: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1280: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1281: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1282: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1283: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1284: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1285: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1286: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1287: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1288: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1289: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1290: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1291: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1292: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1293: {
+        festCost: 16,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1294: {
+        festCost: 26,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1295: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1296: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1297: {
+        festCost: 30,
         festStats: {
             def: 117,
             spd: 181,
@@ -5647,6 +17219,7 @@ window.rumble = {
         }
     },
     1298: {
+        festCost: 30,
         festStats: {
             def: 117,
             spd: 181,
@@ -5681,7 +17254,148 @@ window.rumble = {
             }
         }
     },
+    1299: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1300: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1301: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1302: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1303: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1304: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1305: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1306: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1307: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1308: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1309: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1310: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1311: {
+        festCost: 16,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1312: {
+        festCost: 26,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1313: {
+        festCost: 55,
         festStats: {
             def: 124,
             spd: 188,
@@ -5742,6 +17456,7 @@ window.rumble = {
         }
     },
     1314: {
+        festCost: 55,
         festStats: {
             def: 124,
             spd: 188,
@@ -5801,7 +17516,468 @@ window.rumble = {
             }
         }
     },
+    1315: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1316: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1317: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1318: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1319: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1320: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1321: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1322: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1323: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1324: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1325: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1326: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1327: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1328: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1329: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1330: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1331: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1332: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1333: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1334: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1335: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1336: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1337: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1338: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1339: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1340: {
+        festCost: 16,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1341: {
+        festCost: 26,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1342: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1343: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1344: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1345: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1346: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1347: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1348: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1349: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1350: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1351: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1352: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1353: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1354: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1355: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1356: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1357: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1358: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1359: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1360: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1361: {
+        festCost: 55,
         festStats: {
             def: 132,
             spd: 192,
@@ -5862,6 +18038,7 @@ window.rumble = {
         }
     },
     1362: {
+        festCost: 55,
         festStats: {
             def: 132,
             spd: 192,
@@ -5921,7 +18098,108 @@ window.rumble = {
             }
         }
     },
+    1363: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1364: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1365: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1366: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1367: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1368: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1369: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1370: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1371: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1372: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1373: {
+        festCost: 30,
         festStats: {
             def: 154,
             spd: 162,
@@ -5957,6 +18235,7 @@ window.rumble = {
         }
     },
     1374: {
+        festCost: 30,
         festStats: {
             def: 154,
             spd: 162,
@@ -5991,7 +18270,88 @@ window.rumble = {
             }
         }
     },
+    1375: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1376: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1377: {
+        festCost: 16,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1378: {
+        festCost: 26,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1379: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1380: {
+        festCost: 50,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1381: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1382: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1383: {
+        festCost: 20,
         festStats: {
             def: 131,
             spd: 151,
@@ -6027,6 +18387,7 @@ window.rumble = {
         }
     },
     1384: {
+        festCost: 20,
         festStats: {
             def: 131,
             spd: 151,
@@ -6061,7 +18422,58 @@ window.rumble = {
             }
         }
     },
+    1385: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1386: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1387: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1388: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1389: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1390: {
+        festCost: 55,
         festStats: {
             def: 160,
             spd: 152,
@@ -6122,6 +18534,7 @@ window.rumble = {
         }
     },
     1391: {
+        festCost: 55,
         festStats: {
             def: 160,
             spd: 152,
@@ -6181,7 +18594,118 @@ window.rumble = {
             }
         }
     },
+    1392: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1393: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1394: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1395: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1396: {
+        festCost: 11,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1397: {
+        festCost: 19,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1398: {
+        festCost: 11,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1399: {
+        festCost: 19,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1400: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1401: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1402: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1403: {
+        festCost: 55,
         festStats: {
             def: 124,
             spd: 215,
@@ -6242,6 +18766,7 @@ window.rumble = {
         }
     },
     1404: {
+        festCost: 55,
         festStats: {
             def: 124,
             spd: 215,
@@ -6324,7 +18849,88 @@ window.rumble = {
             }
         }
     },
+    1405: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1406: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1407: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1408: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1409: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1410: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1411: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1412: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1413: {
+        festCost: 55,
         festStats: {
             def: 146,
             spd: 150,
@@ -6407,7 +19013,188 @@ window.rumble = {
             }
         }
     },
+    1415: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1416: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1417: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1418: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1419: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1420: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1421: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1422: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1423: {
+        festCost: 26,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1424: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1425: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1426: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1427: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1428: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1429: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1430: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1431: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1432: {
+        festCost: 50,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1433: {
+        festCost: 55,
         festStats: {
             def: 292,
             spd: 116,
@@ -6468,6 +19255,7 @@ window.rumble = {
         }
     },
     1434: {
+        festCost: 55,
         festStats: {
             def: 292,
             spd: 116,
@@ -6527,7 +19315,28 @@ window.rumble = {
             }
         }
     },
+    1435: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1436: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1437: {
+        festCost: 30,
         festStats: {
             def: 115,
             spd: 145,
@@ -6563,6 +19372,7 @@ window.rumble = {
         }
     },
     1438: {
+        festCost: 30,
         festStats: {
             def: 115,
             spd: 145,
@@ -6598,6 +19408,7 @@ window.rumble = {
         }
     },
     1439: {
+        festCost: 30,
         festStats: {
             def: 136,
             spd: 125,
@@ -6633,6 +19444,7 @@ window.rumble = {
         }
     },
     1440: {
+        festCost: 30,
         festStats: {
             def: 136,
             spd: 125,
@@ -6668,6 +19480,7 @@ window.rumble = {
         }
     },
     1441: {
+        festCost: 30,
         festStats: {
             def: 151,
             spd: 127,
@@ -6703,6 +19516,7 @@ window.rumble = {
         }
     },
     1442: {
+        festCost: 30,
         festStats: {
             def: 151,
             spd: 127,
@@ -6737,7 +19551,28 @@ window.rumble = {
             }
         }
     },
+    1443: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1444: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1445: {
+        festCost: 55,
         festStats: {
             def: 125,
             spd: 173,
@@ -6821,6 +19656,7 @@ window.rumble = {
         }
     },
     1446: {
+        festCost: 20,
         festStats: {
             def: 189,
             spd: 129,
@@ -6855,7 +19691,258 @@ window.rumble = {
             }
         }
     },
+    1447: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1448: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1449: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1450: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1451: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1452: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1453: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1454: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1455: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1456: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1457: {
+        festCost: 16,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1458: {
+        festCost: 26,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1459: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1460: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1461: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1462: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1463: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1464: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1465: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1466: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1467: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1468: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1469: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1470: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1471: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1472: {
+        festCost: 55,
         festStats: {
             def: 132,
             spd: 144,
@@ -6916,6 +20003,7 @@ window.rumble = {
         }
     },
     1473: {
+        festCost: 55,
         festStats: {
             def: 132,
             spd: 144,
@@ -6975,7 +20063,188 @@ window.rumble = {
             }
         }
     },
+    1474: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1475: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1476: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1477: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1478: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1479: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1480: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1481: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1482: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1483: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1484: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1485: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1486: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1487: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1488: {
+        festCost: 16,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1489: {
+        festCost: 26,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1490: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1491: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1492: {
+        festCost: 55,
         festStats: {
             def: 194,
             spd: 177,
@@ -7058,7 +20327,248 @@ window.rumble = {
             }
         }
     },
+    1493: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1494: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1495: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1496: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1497: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1498: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1499: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1500: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1501: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1502: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1503: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1504: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1505: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1506: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1507: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1508: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1509: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1510: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1511: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1512: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1513: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1514: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1515: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1516: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1517: {
+        festCost: 30,
         festStats: {
             def: 91,
             spd: 197,
@@ -7094,6 +20604,7 @@ window.rumble = {
         }
     },
     1518: {
+        festCost: 30,
         festStats: {
             def: 91,
             spd: 197,
@@ -7128,7 +20639,128 @@ window.rumble = {
             }
         }
     },
+    1519: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1520: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1521: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1522: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1523: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1524: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1525: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1526: {
+        festCost: 16,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1527: {
+        festCost: 26,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1528: {
+        festCost: 26,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1529: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1530: {
+        festCost: 50,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1531: {
+        festCost: 55,
         festStats: {
             def: 115,
             spd: 138,
@@ -7189,6 +20821,7 @@ window.rumble = {
         }
     },
     1532: {
+        festCost: 55,
         festStats: {
             def: 115,
             spd: 138,
@@ -7248,7 +20881,108 @@ window.rumble = {
             }
         }
     },
+    1533: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1534: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1535: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1536: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1537: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1538: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1539: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1540: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1541: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1542: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1543: {
+        festCost: 55,
         festStats: {
             def: 140,
             spd: 143,
@@ -7331,7 +21065,198 @@ window.rumble = {
             }
         }
     },
+    1544: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1545: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1546: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1547: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1548: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1549: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1550: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1551: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1552: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1553: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1554: {
+        festCost: 16,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1555: {
+        festCost: 26,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1556: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1557: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1558: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1559: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1560: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1561: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1562: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1563: {
+        festCost: 20,
         festStats: {
             def: 136,
             spd: 101,
@@ -7367,6 +21292,7 @@ window.rumble = {
         }
     },
     1564: {
+        festCost: 20,
         festStats: {
             def: 136,
             spd: 101,
@@ -7401,7 +21327,58 @@ window.rumble = {
             }
         }
     },
+    1565: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1566: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1567: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1568: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1569: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1570: {
+        festCost: 55,
         festStats: {
             def: 160,
             spd: 173,
@@ -7462,6 +21439,7 @@ window.rumble = {
         }
     },
     1571: {
+        festCost: 55,
         festStats: {
             def: 160,
             spd: 173,
@@ -7521,7 +21499,88 @@ window.rumble = {
             }
         }
     },
+    1572: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1573: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1574: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1575: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1576: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1577: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1578: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1579: {
+        festCost: 28,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1580: {
+        festCost: 20,
         festStats: {
             def: 126,
             spd: 124,
@@ -7560,6 +21619,7 @@ window.rumble = {
         }
     },
     1581: {
+        festCost: 20,
         festStats: {
             def: 126,
             spd: 124,
@@ -7597,7 +21657,58 @@ window.rumble = {
             }
         }
     },
+    1582: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1583: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1584: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1585: {
+        festCost: 16,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1586: {
+        festCost: 26,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1587: {
+        festCost: 55,
         festStats: {
             def: 130,
             spd: 179,
@@ -7658,6 +21769,7 @@ window.rumble = {
         }
     },
     1588: {
+        festCost: 55,
         festStats: {
             def: 130,
             spd: 179,
@@ -7717,7 +21829,48 @@ window.rumble = {
             }
         }
     },
+    1589: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1590: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1591: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1592: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1593: {
+        festCost: 55,
         festStats: {
             def: 149,
             spd: 220,
@@ -7801,6 +21954,7 @@ window.rumble = {
         }
     },
     1594: {
+        festCost: 30,
         festStats: {
             def: 159,
             spd: 120,
@@ -7836,6 +21990,7 @@ window.rumble = {
         }
     },
     1595: {
+        festCost: 30,
         festStats: {
             def: 159,
             spd: 120,
@@ -7870,7 +22025,138 @@ window.rumble = {
             }
         }
     },
+    1596: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1597: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1598: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1599: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1600: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1601: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1602: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1603: {
+        festCost: 26,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1604: {
+        festCost: 8,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1605: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1606: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1607: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1608: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1609: {
+        festCost: 55,
         festStats: {
             def: 204,
             spd: 140,
@@ -7931,6 +22217,7 @@ window.rumble = {
         }
     },
     1610: {
+        festCost: 55,
         festStats: {
             def: 204,
             spd: 140,
@@ -7990,7 +22277,88 @@ window.rumble = {
             }
         }
     },
+    1611: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1612: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1613: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1614: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1615: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1616: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1617: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1618: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1619: {
+        festCost: 55,
         festStats: {
             def: 129,
             spd: 151,
@@ -8051,7 +22419,118 @@ window.rumble = {
             }
         }
     },
+    1620: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1621: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1622: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1623: {
+        festCost: 50,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1624: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1625: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1626: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1627: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1628: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1629: {
+        festCost: 16,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1630: {
+        festCost: 26,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1631: {
+        festCost: 30,
         festStats: {
             def: 147,
             spd: 147,
@@ -8090,6 +22569,7 @@ window.rumble = {
         }
     },
     1632: {
+        festCost: 30,
         festStats: {
             def: 147,
             spd: 147,
@@ -8127,7 +22607,158 @@ window.rumble = {
             }
         }
     },
+    1633: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1634: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1635: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1636: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1637: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1638: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1639: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1640: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1641: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1642: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1643: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1644: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1645: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1646: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1647: {
+        festCost: 50,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1648: {
+        festCost: 20,
         festStats: {
             def: 92,
             spd: 107,
@@ -8163,6 +22794,7 @@ window.rumble = {
         }
     },
     1649: {
+        festCost: 20,
         festStats: {
             def: 92,
             spd: 107,
@@ -8197,7 +22829,18 @@ window.rumble = {
             }
         }
     },
+    1650: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1651: {
+        festCost: 55,
         festStats: {
             def: 169,
             spd: 163,
@@ -8258,6 +22901,7 @@ window.rumble = {
         }
     },
     1652: {
+        festCost: 55,
         festStats: {
             def: 169,
             spd: 163,
@@ -8317,7 +22961,108 @@ window.rumble = {
             }
         }
     },
+    1653: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1654: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1655: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1656: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1657: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1658: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1659: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1660: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1661: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1662: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1663: {
+        festCost: 55,
         festStats: {
             def: 124,
             spd: 194,
@@ -8400,7 +23145,258 @@ window.rumble = {
             }
         }
     },
+    1664: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1665: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1666: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1667: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1668: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1669: {
+        festCost: 50,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1670: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1671: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1672: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1673: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1674: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1675: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1676: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1677: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1678: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1679: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1680: {
+        festCost: 50,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1681: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1682: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1683: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1684: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1685: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1686: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1687: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1688: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1689: {
+        festCost: 20,
         festStats: {
             def: 138,
             spd: 143,
@@ -8436,6 +23432,7 @@ window.rumble = {
         }
     },
     1690: {
+        festCost: 20,
         festStats: {
             def: 138,
             spd: 143,
@@ -8470,7 +23467,48 @@ window.rumble = {
             }
         }
     },
+    1691: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1692: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1693: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1694: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1695: {
+        festCost: 30,
         festStats: {
             def: 257,
             spd: 114,
@@ -8506,6 +23544,7 @@ window.rumble = {
         }
     },
     1696: {
+        festCost: 30,
         festStats: {
             def: 257,
             spd: 114,
@@ -8541,6 +23580,7 @@ window.rumble = {
         }
     },
     1697: {
+        festCost: 55,
         festStats: {
             def: 152,
             spd: 149,
@@ -8601,6 +23641,7 @@ window.rumble = {
         }
     },
     1698: {
+        festCost: 55,
         festStats: {
             def: 152,
             spd: 149,
@@ -8660,7 +23701,88 @@ window.rumble = {
             }
         }
     },
+    1699: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1700: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1701: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1702: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1703: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1704: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1705: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1706: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1707: {
+        festCost: 55,
         festStats: {
             def: 176,
             spd: 149,
@@ -8743,7 +23865,48 @@ window.rumble = {
             }
         }
     },
+    1708: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1709: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1710: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1711: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1712: {
+        festCost: 30,
         festStats: {
             def: 177,
             spd: 125,
@@ -8782,6 +23945,7 @@ window.rumble = {
         }
     },
     1713: {
+        festCost: 30,
         festStats: {
             def: 177,
             spd: 125,
@@ -8819,7 +23983,68 @@ window.rumble = {
             }
         }
     },
+    1714: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1715: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1716: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1717: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1718: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1719: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1720: {
+        festCost: 30,
         festStats: {
             def: 241,
             spd: 110,
@@ -8858,6 +24083,7 @@ window.rumble = {
         }
     },
     1721: {
+        festCost: 30,
         festStats: {
             def: 241,
             spd: 110,
@@ -8895,7 +24121,248 @@ window.rumble = {
             }
         }
     },
+    1722: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1723: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1724: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1725: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1726: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1727: {
+        festCost: 50,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1728: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1729: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1730: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1731: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1732: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1733: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1734: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1735: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1736: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1737: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1738: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1739: {
+        festCost: 50,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1740: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1741: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1742: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1743: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1744: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1745: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1746: {
+        festCost: 55,
         festStats: {
             def: 123,
             spd: 145,
@@ -8956,6 +24423,7 @@ window.rumble = {
         }
     },
     1747: {
+        festCost: 55,
         festStats: {
             def: 123,
             spd: 145,
@@ -9015,7 +24483,28 @@ window.rumble = {
             }
         }
     },
+    1748: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1749: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1750: {
+        festCost: 55,
         festStats: {
             def: 123,
             spd: 191,
@@ -9076,6 +24565,7 @@ window.rumble = {
         }
     },
     1751: {
+        festCost: 55,
         festStats: {
             def: 123,
             spd: 191,
@@ -9158,7 +24648,108 @@ window.rumble = {
             }
         }
     },
+    1752: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1753: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1754: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1755: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1756: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1757: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1758: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1759: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1760: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1761: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1762: {
+        festCost: 55,
         festStats: {
             def: 161,
             spd: 189,
@@ -9219,6 +24810,7 @@ window.rumble = {
         }
     },
     1763: {
+        festCost: 55,
         festStats: {
             def: 161,
             spd: 189,
@@ -9302,6 +24894,7 @@ window.rumble = {
         }
     },
     1764: {
+        festCost: 55,
         festStats: {
             def: 178,
             spd: 180,
@@ -9380,7 +24973,288 @@ window.rumble = {
             }
         }
     },
+    1765: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1766: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1767: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1768: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1769: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1770: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1771: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1772: {
+        festCost: 50,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1773: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1774: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1775: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1776: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1777: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1778: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1779: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1780: {
+        festCost: 50,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1781: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1782: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1783: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1784: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1785: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1786: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1787: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1788: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1789: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1790: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1791: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1792: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1793: {
+        festCost: 55,
         festStats: {
             def: 159,
             spd: 183,
@@ -9441,6 +25315,7 @@ window.rumble = {
         }
     },
     1794: {
+        festCost: 55,
         festStats: {
             def: 159,
             spd: 183,
@@ -9523,7 +25398,148 @@ window.rumble = {
             }
         }
     },
+    1795: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1796: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1797: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1798: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1799: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1800: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1801: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1802: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1803: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1804: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1805: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1806: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1807: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1808: {
+        festCost: 60,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1809: {
+        festCost: 20,
         festStats: {
             def: 140,
             spd: 137,
@@ -9559,6 +25575,7 @@ window.rumble = {
         }
     },
     1810: {
+        festCost: 20,
         festStats: {
             def: 140,
             spd: 137,
@@ -9594,6 +25611,7 @@ window.rumble = {
         }
     },
     1811: {
+        festCost: 20,
         festStats: {
             def: 138,
             spd: 127,
@@ -9629,6 +25647,7 @@ window.rumble = {
         }
     },
     1812: {
+        festCost: 20,
         festStats: {
             def: 138,
             spd: 127,
@@ -9663,7 +25682,18 @@ window.rumble = {
             }
         }
     },
+    1813: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1814: {
+        festCost: 30,
         festStats: {
             def: 156,
             spd: 150,
@@ -9699,6 +25729,7 @@ window.rumble = {
         }
     },
     1815: {
+        festCost: 30,
         festStats: {
             def: 156,
             spd: 150,
@@ -9734,6 +25765,7 @@ window.rumble = {
         }
     },
     1816: {
+        festCost: 55,
         festStats: {
             def: 126,
             spd: 190,
@@ -9816,7 +25848,68 @@ window.rumble = {
             }
         }
     },
+    1817: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1818: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1819: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1820: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1821: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1822: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1823: {
+        festCost: 30,
         festStats: {
             def: 136,
             spd: 143,
@@ -9855,6 +25948,7 @@ window.rumble = {
         }
     },
     1824: {
+        festCost: 30,
         festStats: {
             def: 136,
             spd: 143,
@@ -9892,7 +25986,48 @@ window.rumble = {
             }
         }
     },
+    1825: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1826: {
+        festCost: 50,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1827: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1828: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1829: {
+        festCost: 30,
         festStats: {
             def: 111,
             spd: 136,
@@ -9928,6 +26063,7 @@ window.rumble = {
         }
     },
     1830: {
+        festCost: 30,
         festStats: {
             def: 111,
             spd: 136,
@@ -9963,6 +26099,7 @@ window.rumble = {
         }
     },
     1831: {
+        festCost: 55,
         festStats: {
             def: 223,
             spd: 170,
@@ -10023,6 +26160,7 @@ window.rumble = {
         }
     },
     1832: {
+        festCost: 55,
         festStats: {
             def: 223,
             spd: 170,
@@ -10105,7 +26243,88 @@ window.rumble = {
             }
         }
     },
+    1833: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1834: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1835: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1836: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1837: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1838: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1839: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1840: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1841: {
+        festCost: 20,
         festStats: {
             def: 161,
             spd: 113,
@@ -10141,6 +26360,7 @@ window.rumble = {
         }
     },
     1842: {
+        festCost: 20,
         festStats: {
             def: 161,
             spd: 113,
@@ -10175,7 +26395,48 @@ window.rumble = {
             }
         }
     },
+    1843: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1844: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1845: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1846: {
+        festCost: 50,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1847: {
+        festCost: 55,
         festStats: {
             def: 229,
             spd: 145,
@@ -10258,7 +26519,68 @@ window.rumble = {
             }
         }
     },
+    1848: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1849: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1850: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1851: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1852: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1853: {
+        festCost: 60,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1854: {
+        festCost: 20,
         festStats: {
             def: 139,
             spd: 131,
@@ -10294,6 +26616,7 @@ window.rumble = {
         }
     },
     1855: {
+        festCost: 20,
         festStats: {
             def: 139,
             spd: 131,
@@ -10328,7 +26651,108 @@ window.rumble = {
             }
         }
     },
+    1856: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1857: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1858: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1859: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1860: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1861: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1862: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1863: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1864: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1865: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1866: {
+        festCost: 20,
         festStats: {
             def: 121,
             spd: 129,
@@ -10364,6 +26788,7 @@ window.rumble = {
         }
     },
     1867: {
+        festCost: 20,
         festStats: {
             def: 121,
             spd: 129,
@@ -10399,6 +26824,7 @@ window.rumble = {
         }
     },
     1868: {
+        festCost: 55,
         festStats: {
             def: 154,
             spd: 116,
@@ -10459,6 +26885,7 @@ window.rumble = {
         }
     },
     1869: {
+        festCost: 55,
         festStats: {
             def: 154,
             spd: 116,
@@ -10518,7 +26945,88 @@ window.rumble = {
             }
         }
     },
+    1870: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1871: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1872: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1873: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1874: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1875: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1876: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1877: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1878: {
+        festCost: 30,
         festStats: {
             def: 268,
             spd: 121,
@@ -10554,6 +27062,7 @@ window.rumble = {
         }
     },
     1879: {
+        festCost: 30,
         festStats: {
             def: 268,
             spd: 121,
@@ -10589,6 +27098,7 @@ window.rumble = {
         }
     },
     1880: {
+        festCost: 55,
         festStats: {
             def: 317,
             spd: 121,
@@ -10672,6 +27182,7 @@ window.rumble = {
         }
     },
     1881: {
+        festCost: 55,
         festStats: {
             def: 156,
             spd: 167,
@@ -10755,6 +27266,7 @@ window.rumble = {
         }
     },
     1882: {
+        festCost: 55,
         festStats: {
             def: 208,
             spd: 103,
@@ -10815,6 +27327,7 @@ window.rumble = {
         }
     },
     1883: {
+        festCost: 55,
         festStats: {
             def: 208,
             spd: 103,
@@ -10874,7 +27387,68 @@ window.rumble = {
             }
         }
     },
+    1884: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1885: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1886: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1887: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1888: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1889: {
+        festCost: 60,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1890: {
+        festCost: 20,
         festStats: {
             def: 84,
             spd: 144,
@@ -10910,6 +27484,7 @@ window.rumble = {
         }
     },
     1891: {
+        festCost: 20,
         festStats: {
             def: 84,
             spd: 144,
@@ -10945,6 +27520,7 @@ window.rumble = {
         }
     },
     1892: {
+        festCost: 20,
         festStats: {
             def: 138,
             spd: 139,
@@ -10980,6 +27556,7 @@ window.rumble = {
         }
     },
     1893: {
+        festCost: 20,
         festStats: {
             def: 138,
             spd: 139,
@@ -11014,7 +27591,158 @@ window.rumble = {
             }
         }
     },
+    1894: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1895: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1896: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1897: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1898: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1899: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1900: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1901: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1902: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1903: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1904: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1905: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1906: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1907: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1908: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1909: {
+        festCost: 55,
         festStats: {
             def: 168,
             spd: 179,
@@ -11075,6 +27803,7 @@ window.rumble = {
         }
     },
     1910: {
+        festCost: 55,
         festStats: {
             def: 168,
             spd: 179,
@@ -11134,7 +27863,68 @@ window.rumble = {
             }
         }
     },
+    1911: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1912: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1913: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1914: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1915: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1916: {
+        festCost: 60,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1917: {
+        festCost: 20,
         festStats: {
             def: 175,
             spd: 143,
@@ -11170,6 +27960,7 @@ window.rumble = {
         }
     },
     1918: {
+        festCost: 20,
         festStats: {
             def: 175,
             spd: 143,
@@ -11204,7 +27995,28 @@ window.rumble = {
             }
         }
     },
+    1919: {
+        festCost: 9,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1920: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1921: {
+        festCost: 55,
         festStats: {
             def: 157,
             spd: 197,
@@ -11288,6 +28100,7 @@ window.rumble = {
         }
     },
     1922: {
+        festCost: 55,
         festStats: {
             def: 148,
             spd: 196,
@@ -11371,6 +28184,7 @@ window.rumble = {
         }
     },
     1923: {
+        festCost: 55,
         festStats: {
             def: 158,
             spd: 154,
@@ -11406,6 +28220,7 @@ window.rumble = {
         }
     },
     1924: {
+        festCost: 55,
         festStats: {
             def: 158,
             spd: 154,
@@ -11441,6 +28256,7 @@ window.rumble = {
         }
     },
     1925: {
+        festCost: 30,
         festStats: {
             def: 182,
             spd: 136,
@@ -11479,6 +28295,7 @@ window.rumble = {
         }
     },
     1926: {
+        festCost: 30,
         festStats: {
             def: 182,
             spd: 136,
@@ -11517,6 +28334,7 @@ window.rumble = {
         }
     },
     1927: {
+        festCost: 55,
         festStats: {
             def: 126,
             spd: 174,
@@ -11600,6 +28418,7 @@ window.rumble = {
         }
     },
     1928: {
+        festCost: 55,
         festStats: {
             def: 230,
             spd: 132,
@@ -11682,7 +28501,58 @@ window.rumble = {
             }
         }
     },
+    1929: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1930: {
+        festCost: 50,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1931: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1932: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1933: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1934: {
+        festCost: 55,
         festStats: {
             def: 267,
             spd: 126,
@@ -11743,6 +28613,7 @@ window.rumble = {
         }
     },
     1935: {
+        festCost: 55,
         festStats: {
             def: 267,
             spd: 126,
@@ -11802,7 +28673,68 @@ window.rumble = {
             }
         }
     },
+    1936: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1937: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1938: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1939: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1940: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1941: {
+        festCost: 60,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1942: {
+        festCost: 30,
         festStats: {
             def: 151,
             spd: 155,
@@ -11838,6 +28770,7 @@ window.rumble = {
         }
     },
     1943: {
+        festCost: 30,
         festStats: {
             def: 151,
             spd: 155,
@@ -11872,7 +28805,68 @@ window.rumble = {
             }
         }
     },
+    1944: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1945: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1946: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1947: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1948: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1949: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1950: {
+        festCost: 55,
         festStats: {
             def: 200,
             spd: 131,
@@ -11933,6 +28927,7 @@ window.rumble = {
         }
     },
     1951: {
+        festCost: 55,
         festStats: {
             def: 200,
             spd: 131,
@@ -12015,7 +29010,128 @@ window.rumble = {
             }
         }
     },
+    1952: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1953: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1954: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1955: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1956: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1957: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1958: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1959: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1960: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1961: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1962: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1963: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1964: {
+        festCost: 20,
         festStats: {
             def: 161,
             spd: 125,
@@ -12051,6 +29167,7 @@ window.rumble = {
         }
     },
     1965: {
+        festCost: 20,
         festStats: {
             def: 161,
             spd: 125,
@@ -12085,7 +29202,188 @@ window.rumble = {
             }
         }
     },
+    1966: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1967: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1968: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1969: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1970: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1971: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1972: {
+        festCost: 60,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1973: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1974: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1975: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1976: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1977: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1978: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1979: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1980: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1981: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1982: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1983: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1984: {
+        festCost: 55,
         festStats: {
             def: 139,
             spd: 187,
@@ -12146,6 +29444,7 @@ window.rumble = {
         }
     },
     1985: {
+        festCost: 55,
         festStats: {
             def: 139,
             spd: 187,
@@ -12205,7 +29504,88 @@ window.rumble = {
             }
         }
     },
+    1986: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1987: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1988: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1989: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1990: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1991: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1992: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1993: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     1994: {
+        festCost: 20,
         festStats: {
             def: 114,
             spd: 132,
@@ -12241,6 +29621,7 @@ window.rumble = {
         }
     },
     1995: {
+        festCost: 20,
         festStats: {
             def: 114,
             spd: 132,
@@ -12276,6 +29657,7 @@ window.rumble = {
         }
     },
     1996: {
+        festCost: 20,
         festStats: {
             def: 130,
             spd: 132,
@@ -12311,6 +29693,7 @@ window.rumble = {
         }
     },
     1997: {
+        festCost: 20,
         festStats: {
             def: 130,
             spd: 132,
@@ -12345,7 +29728,38 @@ window.rumble = {
             }
         }
     },
+    1998: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    1999: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2000: {
+        festCost: 60,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2001: {
+        festCost: 55,
         festStats: {
             def: 159,
             spd: 194,
@@ -12428,7 +29842,48 @@ window.rumble = {
             }
         }
     },
+    2002: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2003: {
+        festCost: 18,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2004: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2005: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2006: {
+        festCost: 55,
         festStats: {
             def: 165,
             spd: 163,
@@ -12489,6 +29944,7 @@ window.rumble = {
         }
     },
     2007: {
+        festCost: 55,
         festStats: {
             def: 165,
             spd: 163,
@@ -12548,7 +30004,68 @@ window.rumble = {
             }
         }
     },
+    2008: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2009: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2010: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2011: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2012: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2013: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2014: {
+        festCost: 30,
         festStats: {
             def: 180,
             spd: 191,
@@ -12584,6 +30101,7 @@ window.rumble = {
         }
     },
     2015: {
+        festCost: 30,
         festStats: {
             def: 180,
             spd: 191,
@@ -12618,7 +30136,28 @@ window.rumble = {
             }
         }
     },
+    2016: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2017: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2018: {
+        festCost: 20,
         festStats: {
             def: 142,
             spd: 136,
@@ -12654,6 +30193,7 @@ window.rumble = {
         }
     },
     2019: {
+        festCost: 20,
         festStats: {
             def: 142,
             spd: 136,
@@ -12688,7 +30228,28 @@ window.rumble = {
             }
         }
     },
+    2020: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2021: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2022: {
+        festCost: 55,
         festStats: {
             def: 168,
             spd: 179,
@@ -12749,6 +30310,7 @@ window.rumble = {
         }
     },
     2023: {
+        festCost: 55,
         festStats: {
             def: 168,
             spd: 179,
@@ -12809,6 +30371,7 @@ window.rumble = {
         }
     },
     2024: {
+        festCost: 55,
         festStats: {
             def: 168,
             spd: 197,
@@ -12869,6 +30432,7 @@ window.rumble = {
         }
     },
     2025: {
+        festCost: 55,
         festStats: {
             def: 168,
             spd: 197,
@@ -12928,7 +30492,68 @@ window.rumble = {
             }
         }
     },
+    2026: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2027: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2028: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2029: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2030: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2031: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2032: {
+        festCost: 30,
         festStats: {
             def: 277,
             spd: 105,
@@ -12964,6 +30589,7 @@ window.rumble = {
         }
     },
     2033: {
+        festCost: 30,
         festStats: {
             def: 277,
             spd: 105,
@@ -12999,6 +30625,7 @@ window.rumble = {
         }
     },
     2034: {
+        festCost: 55,
         festStats: {
             def: 187,
             spd: 200,
@@ -13082,6 +30709,7 @@ window.rumble = {
         }
     },
     2035: {
+        festCost: 55,
         festStats: {
             def: 185,
             spd: 157,
@@ -13164,7 +30792,108 @@ window.rumble = {
             }
         }
     },
+    2036: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2037: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2038: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2039: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2040: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2041: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2042: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2043: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2044: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2045: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2046: {
+        festCost: 20,
         festStats: {
             def: 103,
             spd: 148,
@@ -13199,7 +30928,28 @@ window.rumble = {
             }
         }
     },
+    2047: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2048: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2049: {
+        festCost: 30,
         festStats: {
             def: 150,
             spd: 144,
@@ -13238,6 +30988,7 @@ window.rumble = {
         }
     },
     2050: {
+        festCost: 30,
         festStats: {
             def: 150,
             spd: 144,
@@ -13275,7 +31026,158 @@ window.rumble = {
             }
         }
     },
+    2051: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2052: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2053: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2054: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2055: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2056: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2057: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2058: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2059: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2060: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2061: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2062: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2063: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2064: {
+        festCost: 60,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2065: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2066: {
+        festCost: 55,
         festStats: {
             def: 271,
             spd: 105,
@@ -13358,7 +31260,68 @@ window.rumble = {
             }
         }
     },
+    2067: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2068: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2069: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2070: {
+        festCost: 50,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2071: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2072: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2073: {
+        festCost: 55,
         festStats: {
             def: 119,
             spd: 179,
@@ -13419,6 +31382,7 @@ window.rumble = {
         }
     },
     2074: {
+        festCost: 55,
         festStats: {
             def: 119,
             spd: 179,
@@ -13502,6 +31466,7 @@ window.rumble = {
         }
     },
     2075: {
+        festCost: 55,
         festStats: {
             def: 99,
             spd: 139,
@@ -13562,6 +31527,7 @@ window.rumble = {
         }
     },
     2076: {
+        festCost: 55,
         festStats: {
             def: 99,
             spd: 139,
@@ -13621,7 +31587,108 @@ window.rumble = {
             }
         }
     },
+    2077: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2078: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2079: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2080: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2081: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2082: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2083: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2084: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2085: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2086: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2087: {
+        festCost: 20,
         festStats: {
             def: 102,
             spd: 150,
@@ -13656,7 +31723,78 @@ window.rumble = {
             }
         }
     },
+    2088: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2089: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2090: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2091: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2092: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2093: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2094: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2095: {
+        festCost: 20,
         festStats: {
             def: 88,
             spd: 124,
@@ -13692,6 +31830,7 @@ window.rumble = {
         }
     },
     2096: {
+        festCost: 30,
         festStats: {
             def: 121,
             spd: 176,
@@ -13727,6 +31866,7 @@ window.rumble = {
         }
     },
     2097: {
+        festCost: 30,
         festStats: {
             def: 121,
             spd: 176,
@@ -13762,6 +31902,7 @@ window.rumble = {
         }
     },
     2098: {
+        festCost: 55,
         festStats: {
             def: 304,
             spd: 128,
@@ -13822,6 +31963,7 @@ window.rumble = {
         }
     },
     2099: {
+        festCost: 55,
         festStats: {
             def: 304,
             spd: 128,
@@ -13904,7 +32046,128 @@ window.rumble = {
             }
         }
     },
+    2100: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2101: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2102: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2103: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2104: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2105: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2106: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2107: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2108: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2109: {
+        festCost: 60,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2110: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2111: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2112: {
+        festCost: 55,
         festStats: {
             def: 185,
             spd: 168,
@@ -13965,6 +32228,7 @@ window.rumble = {
         }
     },
     2113: {
+        festCost: 55,
         festStats: {
             def: 185,
             spd: 168,
@@ -14047,7 +32311,138 @@ window.rumble = {
             }
         }
     },
+    2114: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2115: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2116: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2117: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2118: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2119: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2120: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2121: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2122: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2123: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2124: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2125: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2126: {
+        festCost: 50,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2127: {
+        festCost: 20,
         festStats: {
             def: 113,
             spd: 124,
@@ -14082,7 +32477,108 @@ window.rumble = {
             }
         }
     },
+    2128: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2129: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2130: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2131: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2132: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2133: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2134: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2135: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2136: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2137: {
+        festCost: 60,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2138: {
+        festCost: 55,
         festStats: {
             def: 248,
             spd: 175,
@@ -14165,7 +32661,68 @@ window.rumble = {
             }
         }
     },
+    2139: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2140: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2141: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2142: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2143: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2144: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2145: {
+        festCost: 20,
         festStats: {
             def: 180,
             spd: 104,
@@ -14201,6 +32758,7 @@ window.rumble = {
         }
     },
     2146: {
+        festCost: 20,
         festStats: {
             def: 180,
             spd: 104,
@@ -14236,6 +32794,7 @@ window.rumble = {
         }
     },
     2147: {
+        festCost: 55,
         festStats: {
             def: 128,
             spd: 183,
@@ -14296,6 +32855,7 @@ window.rumble = {
         }
     },
     2148: {
+        festCost: 55,
         festStats: {
             def: 128,
             spd: 183,
@@ -14355,7 +32915,88 @@ window.rumble = {
             }
         }
     },
+    2149: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2150: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2151: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2152: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2153: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2154: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2155: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2156: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2157: {
+        festCost: 30,
         festStats: {
             def: 166,
             spd: 175,
@@ -14391,6 +33032,7 @@ window.rumble = {
         }
     },
     2158: {
+        festCost: 30,
         festStats: {
             def: 166,
             spd: 175,
@@ -14426,6 +33068,7 @@ window.rumble = {
         }
     },
     2159: {
+        festCost: 55,
         festStats: {
             def: 177,
             spd: 154,
@@ -14509,6 +33152,7 @@ window.rumble = {
         }
     },
     2160: {
+        festCost: 30,
         festStats: {
             def: 83,
             spd: 176,
@@ -14547,6 +33191,7 @@ window.rumble = {
         }
     },
     2161: {
+        festCost: 30,
         festStats: {
             def: 83,
             spd: 176,
@@ -14584,7 +33229,148 @@ window.rumble = {
             }
         }
     },
+    2162: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2163: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2164: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2165: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2166: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2167: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2168: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2169: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2170: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2171: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2172: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2173: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2174: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2175: {
+        festCost: 60,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2176: {
+        festCost: 20,
         festStats: {
             def: 229,
             spd: 106,
@@ -14620,6 +33406,7 @@ window.rumble = {
         }
     },
     2177: {
+        festCost: 20,
         festStats: {
             def: 229,
             spd: 106,
@@ -14654,7 +33441,28 @@ window.rumble = {
             }
         }
     },
+    2178: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2179: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2180: {
+        festCost: 55,
         festStats: {
             def: 243,
             spd: 130,
@@ -14715,6 +33523,7 @@ window.rumble = {
         }
     },
     2181: {
+        festCost: 55,
         festStats: {
             def: 243,
             spd: 130,
@@ -14774,7 +33583,138 @@ window.rumble = {
             }
         }
     },
+    2182: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2183: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2184: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2185: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2186: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2187: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2188: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2189: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2190: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2191: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2192: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2193: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2194: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2195: {
+        festCost: 55,
         festStats: {
             def: 152,
             spd: 129,
@@ -14858,6 +33798,7 @@ window.rumble = {
         }
     },
     2196: {
+        festCost: 30,
         festStats: {
             def: 116,
             spd: 130,
@@ -14893,6 +33834,7 @@ window.rumble = {
         }
     },
     2197: {
+        festCost: 30,
         festStats: {
             def: 116,
             spd: 130,
@@ -14927,7 +33869,28 @@ window.rumble = {
             }
         }
     },
+    2198: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2199: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2200: {
+        festCost: 55,
         festStats: {
             def: 143,
             spd: 171,
@@ -14985,6 +33948,7 @@ window.rumble = {
         }
     },
     2201: {
+        festCost: 55,
         festStats: {
             def: 143,
             spd: 171,
@@ -15041,7 +34005,168 @@ window.rumble = {
             }
         }
     },
+    2202: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2203: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2204: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2205: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2206: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2207: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2208: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2209: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2210: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2211: {
+        festCost: 60,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2212: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2213: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2214: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2215: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2216: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2217: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2218: {
+        festCost: 20,
         festStats: {
             def: 232,
             spd: 105,
@@ -15077,6 +34202,7 @@ window.rumble = {
         }
     },
     2219: {
+        festCost: 20,
         festStats: {
             def: 232,
             spd: 105,
@@ -15111,7 +34237,128 @@ window.rumble = {
             }
         }
     },
+    2220: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2221: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2222: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2223: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2224: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2225: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2226: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2227: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2228: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2229: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2230: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2231: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2232: {
+        festCost: 55,
         festStats: {
             def: 229,
             spd: 145,
@@ -15195,6 +34442,7 @@ window.rumble = {
         }
     },
     2233: {
+        festCost: 55,
         festStats: {
             def: 162,
             spd: 154,
@@ -15255,6 +34503,7 @@ window.rumble = {
         }
     },
     2234: {
+        festCost: 55,
         festStats: {
             def: 162,
             spd: 154,
@@ -15315,6 +34564,7 @@ window.rumble = {
         }
     },
     2235: {
+        festCost: 55,
         festStats: {
             def: 104,
             spd: 134,
@@ -15375,6 +34625,7 @@ window.rumble = {
         }
     },
     2236: {
+        festCost: 55,
         festStats: {
             def: 104,
             spd: 134,
@@ -15435,6 +34686,7 @@ window.rumble = {
         }
     },
     2237: {
+        festCost: 30,
         festStats: {
             def: 111,
             spd: 150,
@@ -15470,6 +34722,7 @@ window.rumble = {
         }
     },
     2238: {
+        festCost: 30,
         festStats: {
             def: 111,
             spd: 150,
@@ -15505,6 +34758,7 @@ window.rumble = {
         }
     },
     2239: {
+        festCost: 30,
         festStats: {
             def: 186,
             spd: 134,
@@ -15540,6 +34794,7 @@ window.rumble = {
         }
     },
     2240: {
+        festCost: 30,
         festStats: {
             def: 186,
             spd: 134,
@@ -15574,7 +34829,48 @@ window.rumble = {
             }
         }
     },
+    2241: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2242: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2243: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2244: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2245: {
+        festCost: 55,
         festStats: {
             def: 155,
             spd: 184,
@@ -15657,7 +34953,48 @@ window.rumble = {
             }
         }
     },
+    2246: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2247: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2248: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2249: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2250: {
+        festCost: 55,
         festStats: {
             def: 186,
             spd: 147,
@@ -15718,6 +35055,7 @@ window.rumble = {
         }
     },
     2251: {
+        festCost: 55,
         festStats: {
             def: 186,
             spd: 147,
@@ -15777,7 +35115,108 @@ window.rumble = {
             }
         }
     },
+    2252: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2253: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2254: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2255: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2256: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2257: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2258: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2259: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2260: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2261: {
+        festCost: 60,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2264: {
+        festCost: 55,
         festStats: {
             def: 299,
             spd: 123,
@@ -15838,6 +35277,7 @@ window.rumble = {
         }
     },
     2265: {
+        festCost: 55,
         festStats: {
             def: 299,
             spd: 123,
@@ -15897,7 +35337,108 @@ window.rumble = {
             }
         }
     },
+    2266: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2267: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2268: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2269: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2270: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2271: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2272: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2273: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2274: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2275: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2276: {
+        festCost: 20,
         festStats: {
             def: 104,
             spd: 119,
@@ -15933,6 +35474,7 @@ window.rumble = {
         }
     },
     2277: {
+        festCost: 20,
         festStats: {
             def: 104,
             spd: 119,
@@ -15967,7 +35509,28 @@ window.rumble = {
             }
         }
     },
+    2278: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2279: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2280: {
+        festCost: 30,
         festStats: {
             def: 215,
             spd: 155,
@@ -16003,6 +35566,7 @@ window.rumble = {
         }
     },
     2281: {
+        festCost: 30,
         festStats: {
             def: 215,
             spd: 155,
@@ -16037,7 +35601,28 @@ window.rumble = {
             }
         }
     },
+    2282: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2283: {
+        festCost: 50,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2284: {
+        festCost: 30,
         festStats: {
             def: 176,
             spd: 125,
@@ -16076,6 +35661,7 @@ window.rumble = {
         }
     },
     2285: {
+        festCost: 30,
         festStats: {
             def: 176,
             spd: 125,
@@ -16113,7 +35699,128 @@ window.rumble = {
             }
         }
     },
+    2286: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2287: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2288: {
+        festCost: 16,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2289: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2290: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2291: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2292: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2293: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2294: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2295: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2296: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2297: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2298: {
+        festCost: 35,
         festStats: {
             def: 160,
             spd: 146,
@@ -16152,6 +35859,7 @@ window.rumble = {
         }
     },
     2299: {
+        festCost: 35,
         festStats: {
             def: 160,
             spd: 146,
@@ -16198,6 +35906,7 @@ window.rumble = {
         }
     },
     2300: {
+        festCost: 55,
         festStats: {
             def: 292,
             spd: 131,
@@ -16281,6 +35990,7 @@ window.rumble = {
         }
     },
     2301: {
+        festCost: 55,
         festStats: {
             def: 277,
             spd: 110,
@@ -16341,6 +36051,7 @@ window.rumble = {
         }
     },
     2302: {
+        festCost: 55,
         festStats: {
             def: 277,
             spd: 110,
@@ -16400,7 +36111,238 @@ window.rumble = {
             }
         }
     },
+    2303: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2304: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2305: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2306: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2307: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2308: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2309: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2310: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2311: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2312: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2313: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2314: {
+        festCost: 10,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2315: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2316: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2317: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2318: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2319: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2320: {
+        festCost: 13,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2321: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2322: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2323: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2324: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2325: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2326: {
+        festCost: 20,
         festStats: {
             def: 122,
             spd: 128,
@@ -16436,6 +36378,7 @@ window.rumble = {
         }
     },
     2327: {
+        festCost: 20,
         festStats: {
             def: 122,
             spd: 128,
@@ -16470,7 +36413,18 @@ window.rumble = {
             }
         }
     },
+    2328: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2329: {
+        festCost: 55,
         festStats: {
             def: 153,
             spd: 184,
@@ -16531,6 +36485,7 @@ window.rumble = {
         }
     },
     2330: {
+        festCost: 55,
         festStats: {
             def: 153,
             spd: 184,
@@ -16613,7 +36568,68 @@ window.rumble = {
             }
         }
     },
+    2331: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2332: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2333: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2334: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2335: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2336: {
+        festCost: 60,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2337: {
+        festCost: 55,
         festStats: {
             def: 120,
             spd: 194,
@@ -16674,6 +36690,7 @@ window.rumble = {
         }
     },
     2338: {
+        festCost: 55,
         festStats: {
             def: 120,
             spd: 194,
@@ -16733,7 +36750,168 @@ window.rumble = {
             }
         }
     },
+    2339: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2340: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2341: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2342: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2343: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2344: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2345: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2346: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2347: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2348: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2349: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2350: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2351: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2352: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2353: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2354: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2355: {
+        festCost: 30,
         festStats: {
             def: 132,
             spd: 168,
@@ -16769,6 +36947,7 @@ window.rumble = {
         }
     },
     2356: {
+        festCost: 30,
         festStats: {
             def: 132,
             spd: 168,
@@ -16804,6 +36983,7 @@ window.rumble = {
         }
     },
     2357: {
+        festCost: 55,
         festStats: {
             def: 146,
             spd: 198,
@@ -16886,7 +37066,38 @@ window.rumble = {
             }
         }
     },
+    2358: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2359: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2360: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2361: {
+        festCost: 35,
         festStats: {
             def: 128,
             spd: 129,
@@ -16925,6 +37136,7 @@ window.rumble = {
         }
     },
     2362: {
+        festCost: 35,
         festStats: {
             def: 128,
             spd: 129,
@@ -16971,6 +37183,7 @@ window.rumble = {
         }
     },
     2363: {
+        festCost: 55,
         festStats: {
             def: 144,
             spd: 184,
@@ -17054,6 +37267,7 @@ window.rumble = {
         }
     },
     2364: {
+        festCost: 55,
         festStats: {
             def: 128,
             spd: 183,
@@ -17114,6 +37328,7 @@ window.rumble = {
         }
     },
     2365: {
+        festCost: 55,
         festStats: {
             def: 128,
             spd: 183,
@@ -17174,6 +37389,7 @@ window.rumble = {
         }
     },
     2366: {
+        festCost: 30,
         festStats: {
             def: 103,
             spd: 132,
@@ -17209,6 +37425,7 @@ window.rumble = {
         }
     },
     2367: {
+        festCost: 30,
         festStats: {
             def: 103,
             spd: 132,
@@ -17244,6 +37461,7 @@ window.rumble = {
         }
     },
     2368: {
+        festCost: 30,
         festStats: {
             def: 125,
             spd: 136,
@@ -17279,6 +37497,7 @@ window.rumble = {
         }
     },
     2369: {
+        festCost: 30,
         festStats: {
             def: 125,
             spd: 136,
@@ -17314,6 +37533,7 @@ window.rumble = {
         }
     },
     2370: {
+        festCost: 30,
         festStats: {
             def: 91,
             spd: 145,
@@ -17349,6 +37569,7 @@ window.rumble = {
         }
     },
     2371: {
+        festCost: 30,
         festStats: {
             def: 91,
             spd: 145,
@@ -17384,6 +37605,7 @@ window.rumble = {
         }
     },
     2372: {
+        festCost: 55,
         festStats: {
             def: 185,
             spd: 178,
@@ -17467,6 +37689,7 @@ window.rumble = {
         }
     },
     2373: {
+        festCost: 55,
         festStats: {
             def: 194,
             spd: 168,
@@ -17549,7 +37772,198 @@ window.rumble = {
             }
         }
     },
+    2374: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2375: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2376: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2377: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2378: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2379: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2380: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2381: {
+        festCost: 50,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2382: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2383: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2384: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2385: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2386: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2387: {
+        festCost: 60,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2388: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2389: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2390: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2391: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2392: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2393: {
+        festCost: 30,
         festStats: {
             def: 102,
             spd: 183,
@@ -17585,6 +37999,7 @@ window.rumble = {
         }
     },
     2394: {
+        festCost: 30,
         festStats: {
             def: 102,
             spd: 183,
@@ -17620,6 +38035,7 @@ window.rumble = {
         }
     },
     2395: {
+        festCost: 30,
         festStats: {
             def: 275,
             spd: 106,
@@ -17655,6 +38071,7 @@ window.rumble = {
         }
     },
     2396: {
+        festCost: 30,
         festStats: {
             def: 275,
             spd: 106,
@@ -17690,6 +38107,7 @@ window.rumble = {
         }
     },
     2397: {
+        festCost: 30,
         festStats: {
             def: 275,
             spd: 106,
@@ -17725,6 +38143,7 @@ window.rumble = {
         }
     },
     2398: {
+        festCost: 30,
         festStats: {
             def: 275,
             spd: 106,
@@ -17759,7 +38178,178 @@ window.rumble = {
             }
         }
     },
+    2400: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2401: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2402: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2403: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2404: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2405: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2406: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2407: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2408: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2409: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2410: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2411: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2412: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2413: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2414: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2415: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2416: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2417: {
+        festCost: 55,
         festStats: {
             def: 311,
             spd: 137,
@@ -17820,6 +38410,7 @@ window.rumble = {
         }
     },
     2418: {
+        festCost: 55,
         festStats: {
             def: 311,
             spd: 137,
@@ -17880,6 +38471,7 @@ window.rumble = {
         }
     },
     2419: {
+        festCost: 30,
         festStats: {
             def: 133,
             spd: 143,
@@ -17915,6 +38507,7 @@ window.rumble = {
         }
     },
     2420: {
+        festCost: 30,
         festStats: {
             def: 133,
             spd: 143,
@@ -17950,6 +38543,7 @@ window.rumble = {
         }
     },
     2421: {
+        festCost: 30,
         festStats: {
             def: 142,
             spd: 137,
@@ -17985,6 +38579,7 @@ window.rumble = {
         }
     },
     2422: {
+        festCost: 30,
         festStats: {
             def: 142,
             spd: 137,
@@ -18020,6 +38615,7 @@ window.rumble = {
         }
     },
     2423: {
+        festCost: 30,
         festStats: {
             def: 128,
             spd: 151,
@@ -18055,6 +38651,7 @@ window.rumble = {
         }
     },
     2424: {
+        festCost: 30,
         festStats: {
             def: 128,
             spd: 151,
@@ -18089,7 +38686,28 @@ window.rumble = {
             }
         }
     },
+    2425: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2426: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2427: {
+        festCost: 20,
         festStats: {
             def: 137,
             spd: 141,
@@ -18125,6 +38743,7 @@ window.rumble = {
         }
     },
     2428: {
+        festCost: 20,
         festStats: {
             def: 137,
             spd: 141,
@@ -18159,7 +38778,18 @@ window.rumble = {
             }
         }
     },
+    2429: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2430: {
+        festCost: 30,
         festStats: {
             def: 103,
             spd: 132,
@@ -18198,6 +38828,7 @@ window.rumble = {
         }
     },
     2431: {
+        festCost: 30,
         festStats: {
             def: 103,
             spd: 132,
@@ -18236,6 +38867,7 @@ window.rumble = {
         }
     },
     2432: {
+        festCost: 55,
         festStats: {
             def: 276,
             spd: 133,
@@ -18296,6 +38928,7 @@ window.rumble = {
         }
     },
     2433: {
+        festCost: 55,
         festStats: {
             def: 276,
             spd: 133,
@@ -18356,6 +38989,7 @@ window.rumble = {
         }
     },
     2434: {
+        festCost: 55,
         festStats: {
             def: 148,
             spd: 150,
@@ -18438,7 +39072,58 @@ window.rumble = {
             }
         }
     },
+    2435: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2436: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2437: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2438: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2439: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2440: {
+        festCost: 55,
         festStats: {
             def: 124,
             spd: 192,
@@ -18499,6 +39184,7 @@ window.rumble = {
         }
     },
     2441: {
+        festCost: 55,
         festStats: {
             def: 124,
             spd: 192,
@@ -18558,7 +39244,28 @@ window.rumble = {
             }
         }
     },
+    2442: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2443: {
+        festCost: 60,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2444: {
+        festCost: 55,
         festStats: {
             def: 287,
             spd: 134,
@@ -18642,6 +39349,7 @@ window.rumble = {
         }
     },
     2445: {
+        festCost: 55,
         festStats: {
             def: 237,
             spd: 186,
@@ -18702,6 +39410,7 @@ window.rumble = {
         }
     },
     2446: {
+        festCost: 55,
         festStats: {
             def: 237,
             spd: 186,
@@ -18762,6 +39471,7 @@ window.rumble = {
         }
     },
     2447: {
+        festCost: 30,
         festStats: {
             def: 150,
             spd: 176,
@@ -18797,6 +39507,7 @@ window.rumble = {
         }
     },
     2448: {
+        festCost: 30,
         festStats: {
             def: 175,
             spd: 181,
@@ -18832,6 +39543,7 @@ window.rumble = {
         }
     },
     2449: {
+        festCost: 30,
         festStats: {
             def: 148,
             spd: 178,
@@ -18867,6 +39579,7 @@ window.rumble = {
         }
     },
     2450: {
+        festCost: 30,
         festStats: {
             def: 173,
             spd: 183,
@@ -18902,6 +39615,7 @@ window.rumble = {
         }
     },
     2451: {
+        festCost: 30,
         festStats: {
             def: 156,
             spd: 169,
@@ -18937,6 +39651,7 @@ window.rumble = {
         }
     },
     2452: {
+        festCost: 30,
         festStats: {
             def: 181,
             spd: 174,
@@ -18972,6 +39687,7 @@ window.rumble = {
         }
     },
     2453: {
+        festCost: 30,
         festStats: {
             def: 158,
             spd: 167,
@@ -19007,6 +39723,7 @@ window.rumble = {
         }
     },
     2454: {
+        festCost: 30,
         festStats: {
             def: 183,
             spd: 172,
@@ -19041,7 +39758,98 @@ window.rumble = {
             }
         }
     },
+    2455: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2456: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2457: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2458: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2459: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2460: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2461: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2462: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2463: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2464: {
+        festCost: 55,
         festStats: {
             def: 166,
             spd: 167,
@@ -19102,6 +39910,7 @@ window.rumble = {
         }
     },
     2465: {
+        festCost: 55,
         festStats: {
             def: 166,
             spd: 167,
@@ -19161,7 +39970,68 @@ window.rumble = {
             }
         }
     },
+    2466: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2467: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2468: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2469: {
+        festCost: 60,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2470: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2471: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2472: {
+        festCost: 30,
         festStats: {
             def: 162,
             spd: 147,
@@ -19197,6 +40067,7 @@ window.rumble = {
         }
     },
     2473: {
+        festCost: 30,
         festStats: {
             def: 162,
             spd: 147,
@@ -19232,6 +40103,7 @@ window.rumble = {
         }
     },
     2474: {
+        festCost: 55,
         festStats: {
             def: 130,
             spd: 180,
@@ -19292,6 +40164,7 @@ window.rumble = {
         }
     },
     2475: {
+        festCost: 55,
         festStats: {
             def: 130,
             spd: 180,
@@ -19352,6 +40225,7 @@ window.rumble = {
         }
     },
     2476: {
+        festCost: 55,
         festStats: {
             def: 128,
             spd: 166,
@@ -19412,6 +40286,7 @@ window.rumble = {
         }
     },
     2477: {
+        festCost: 55,
         festStats: {
             def: 128,
             spd: 166,
@@ -19472,6 +40347,7 @@ window.rumble = {
         }
     },
     2478: {
+        festCost: 30,
         festStats: {
             def: 235,
             spd: 117,
@@ -19507,6 +40383,7 @@ window.rumble = {
         }
     },
     2479: {
+        festCost: 30,
         festStats: {
             def: 235,
             spd: 117,
@@ -19542,6 +40419,7 @@ window.rumble = {
         }
     },
     2480: {
+        festCost: 30,
         festStats: {
             def: 125,
             spd: 163,
@@ -19577,6 +40455,7 @@ window.rumble = {
         }
     },
     2481: {
+        festCost: 30,
         festStats: {
             def: 125,
             spd: 163,
@@ -19612,6 +40491,7 @@ window.rumble = {
         }
     },
     2482: {
+        festCost: 30,
         festStats: {
             def: 156,
             spd: 187,
@@ -19647,6 +40527,7 @@ window.rumble = {
         }
     },
     2483: {
+        festCost: 30,
         festStats: {
             def: 156,
             spd: 187,
@@ -19682,6 +40563,7 @@ window.rumble = {
         }
     },
     2484: {
+        festCost: 30,
         festStats: {
             def: 111,
             spd: 152,
@@ -19717,6 +40599,7 @@ window.rumble = {
         }
     },
     2485: {
+        festCost: 30,
         festStats: {
             def: 111,
             spd: 152,
@@ -19751,7 +40634,48 @@ window.rumble = {
             }
         }
     },
+    2486: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2487: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2488: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2489: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2490: {
+        festCost: 20,
         festStats: {
             def: 79,
             spd: 95,
@@ -19787,6 +40711,7 @@ window.rumble = {
         }
     },
     2491: {
+        festCost: 20,
         festStats: {
             def: 79,
             spd: 95,
@@ -19821,7 +40746,78 @@ window.rumble = {
             }
         }
     },
+    2492: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2493: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2495: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2496: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2497: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2498: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2499: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2500: {
+        festCost: 55,
         festStats: {
             def: 187,
             spd: 159,
@@ -19904,7 +40900,28 @@ window.rumble = {
             }
         }
     },
+    2501: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2502: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2503: {
+        festCost: 30,
         festStats: {
             def: 158,
             spd: 151,
@@ -19940,6 +40957,7 @@ window.rumble = {
         }
     },
     2504: {
+        festCost: 30,
         festStats: {
             def: 158,
             spd: 151,
@@ -19975,6 +40993,7 @@ window.rumble = {
         }
     },
     2505: {
+        festCost: 55,
         festStats: {
             def: 179,
             spd: 121,
@@ -20057,7 +41076,108 @@ window.rumble = {
             }
         }
     },
+    2506: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2507: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2508: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2509: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2510: {
+        festCost: 60,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2511: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2512: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2513: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2514: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2515: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2516: {
+        festCost: 30,
         festStats: {
             def: 157,
             spd: 160,
@@ -20093,6 +41213,7 @@ window.rumble = {
         }
     },
     2517: {
+        festCost: 30,
         festStats: {
             def: 157,
             spd: 160,
@@ -20127,7 +41248,38 @@ window.rumble = {
             }
         }
     },
+    2518: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2519: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2520: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2521: {
+        festCost: 20,
         festStats: {
             def: 183,
             spd: 102,
@@ -20162,7 +41314,18 @@ window.rumble = {
             }
         }
     },
+    2522: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2523: {
+        festCost: 20,
         festStats: {
             def: 124,
             spd: 139,
@@ -20198,6 +41361,7 @@ window.rumble = {
         }
     },
     2524: {
+        festCost: 20,
         festStats: {
             def: 137,
             spd: 109,
@@ -20232,7 +41396,68 @@ window.rumble = {
             }
         }
     },
+    2525: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2526: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2527: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2528: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2529: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2530: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2531: {
+        festCost: 35,
         festStats: {
             def: 179,
             spd: 189,
@@ -20270,7 +41495,18 @@ window.rumble = {
             }
         }
     },
+    2532: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2533: {
+        festCost: 55,
         festStats: {
             def: 136,
             spd: 189,
@@ -20331,6 +41567,7 @@ window.rumble = {
         }
     },
     2534: {
+        festCost: 55,
         festStats: {
             def: 136,
             spd: 189,
@@ -20391,6 +41628,7 @@ window.rumble = {
         }
     },
     2535: {
+        festCost: 55,
         festStats: {
             def: 188,
             spd: 178,
@@ -20451,6 +41689,7 @@ window.rumble = {
         }
     },
     2536: {
+        festCost: 55,
         festStats: {
             def: 188,
             spd: 178,
@@ -20511,6 +41750,7 @@ window.rumble = {
         }
     },
     2537: {
+        festCost: 30,
         festStats: {
             def: 214,
             spd: 155,
@@ -20546,6 +41786,7 @@ window.rumble = {
         }
     },
     2538: {
+        festCost: 30,
         festStats: {
             def: 214,
             spd: 155,
@@ -20581,6 +41822,7 @@ window.rumble = {
         }
     },
     2539: {
+        festCost: 30,
         festStats: {
             def: 125,
             spd: 145,
@@ -20616,6 +41858,7 @@ window.rumble = {
         }
     },
     2540: {
+        festCost: 30,
         festStats: {
             def: 125,
             spd: 145,
@@ -20651,6 +41894,7 @@ window.rumble = {
         }
     },
     2541: {
+        festCost: 30,
         festStats: {
             def: 121,
             spd: 183,
@@ -20686,6 +41930,7 @@ window.rumble = {
         }
     },
     2542: {
+        festCost: 30,
         festStats: {
             def: 121,
             spd: 183,
@@ -20721,6 +41966,7 @@ window.rumble = {
         }
     },
     2543: {
+        festCost: 30,
         festStats: {
             def: 120,
             spd: 168,
@@ -20756,6 +42002,7 @@ window.rumble = {
         }
     },
     2544: {
+        festCost: 30,
         festStats: {
             def: 120,
             spd: 168,
@@ -20790,7 +42037,138 @@ window.rumble = {
             }
         }
     },
+    2545: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2546: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2547: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2548: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2549: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2550: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2553: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2554: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2555: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2556: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2557: {
+        festCost: 60,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2558: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2559: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2560: {
+        festCost: 55,
         festStats: {
             def: 176,
             spd: 185,
@@ -20829,6 +42207,7 @@ window.rumble = {
         }
     },
     2561: {
+        festCost: 55,
         festStats: {
             def: 176,
             spd: 185,
@@ -20867,6 +42246,7 @@ window.rumble = {
         }
     },
     2562: {
+        festCost: 30,
         festStats: {
             def: 107,
             spd: 140,
@@ -20902,6 +42282,7 @@ window.rumble = {
         }
     },
     2563: {
+        festCost: 30,
         festStats: {
             def: 107,
             spd: 140,
@@ -20937,6 +42318,7 @@ window.rumble = {
         }
     },
     2564: {
+        festCost: 30,
         festStats: {
             def: 114,
             spd: 134,
@@ -20972,6 +42354,7 @@ window.rumble = {
         }
     },
     2565: {
+        festCost: 30,
         festStats: {
             def: 114,
             spd: 134,
@@ -21007,6 +42390,7 @@ window.rumble = {
         }
     },
     2566: {
+        festCost: 30,
         festStats: {
             def: 238,
             spd: 100,
@@ -21042,6 +42426,7 @@ window.rumble = {
         }
     },
     2567: {
+        festCost: 30,
         festStats: {
             def: 238,
             spd: 100,
@@ -21076,7 +42461,88 @@ window.rumble = {
             }
         }
     },
+    2568: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2569: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2570: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2571: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2572: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2573: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2574: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2575: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2576: {
+        festCost: 55,
         festStats: {
             def: 226,
             spd: 170,
@@ -21137,6 +42603,7 @@ window.rumble = {
         }
     },
     2577: {
+        festCost: 55,
         festStats: {
             def: 226,
             spd: 170,
@@ -21197,6 +42664,7 @@ window.rumble = {
         }
     },
     2578: {
+        festCost: 55,
         festStats: {
             def: 149,
             spd: 193,
@@ -21279,7 +42747,98 @@ window.rumble = {
             }
         }
     },
+    2579: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2580: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2581: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2582: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2583: {
+        festCost: 60,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2584: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2585: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2586: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2587: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2588: {
+        festCost: 55,
         festStats: {
             def: 124,
             spd: 144,
@@ -21362,7 +42921,118 @@ window.rumble = {
             }
         }
     },
+    2589: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2590: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2591: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2592: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2593: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2594: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2595: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2596: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2597: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2598: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2599: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2600: {
+        festCost: 55,
         festStats: {
             def: 139,
             spd: 170,
@@ -21423,6 +43093,7 @@ window.rumble = {
         }
     },
     2601: {
+        festCost: 55,
         festStats: {
             def: 139,
             spd: 170,
@@ -21483,6 +43154,7 @@ window.rumble = {
         }
     },
     2602: {
+        festCost: 55,
         festStats: {
             def: 142,
             spd: 163,
@@ -21543,6 +43215,7 @@ window.rumble = {
         }
     },
     2603: {
+        festCost: 55,
         festStats: {
             def: 142,
             spd: 163,
@@ -21603,6 +43276,7 @@ window.rumble = {
         }
     },
     2604: {
+        festCost: 30,
         festStats: {
             def: 245,
             spd: 120,
@@ -21638,6 +43312,7 @@ window.rumble = {
         }
     },
     2605: {
+        festCost: 30,
         festStats: {
             def: 245,
             spd: 120,
@@ -21673,6 +43348,7 @@ window.rumble = {
         }
     },
     2606: {
+        festCost: 30,
         festStats: {
             def: 118,
             spd: 130,
@@ -21708,6 +43384,7 @@ window.rumble = {
         }
     },
     2607: {
+        festCost: 30,
         festStats: {
             def: 118,
             spd: 130,
@@ -21743,6 +43420,7 @@ window.rumble = {
         }
     },
     2608: {
+        festCost: 30,
         festStats: {
             def: 110,
             spd: 149,
@@ -21778,6 +43456,7 @@ window.rumble = {
         }
     },
     2609: {
+        festCost: 30,
         festStats: {
             def: 110,
             spd: 149,
@@ -21812,7 +43491,218 @@ window.rumble = {
             }
         }
     },
+    2610: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2611: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2612: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2613: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2614: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2615: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2616: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2617: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2618: {
+        festCost: 60,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2619: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2620: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2621: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2622: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2623: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2624: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2625: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2626: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2627: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2628: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2629: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2630: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2631: {
+        festCost: 55,
         festStats: {
             def: 157,
             spd: 149,
@@ -21895,7 +43785,108 @@ window.rumble = {
             }
         }
     },
+    2632: {
+        festCost: 60,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2633: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2634: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2635: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2636: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2637: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2638: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2639: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2640: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2641: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2642: {
+        festCost: 30,
         festStats: {
             def: 156,
             spd: 165,
@@ -21931,6 +43922,7 @@ window.rumble = {
         }
     },
     2643: {
+        festCost: 30,
         festStats: {
             def: 200,
             spd: 157,
@@ -21966,6 +43958,7 @@ window.rumble = {
         }
     },
     2644: {
+        festCost: 30,
         festStats: {
             def: 164,
             spd: 161,
@@ -22001,6 +43994,7 @@ window.rumble = {
         }
     },
     2645: {
+        festCost: 30,
         festStats: {
             def: 179,
             spd: 145,
@@ -22036,6 +44030,7 @@ window.rumble = {
         }
     },
     2646: {
+        festCost: 30,
         festStats: {
             def: 115,
             spd: 144,
@@ -22071,6 +44066,7 @@ window.rumble = {
         }
     },
     2647: {
+        festCost: 30,
         festStats: {
             def: 204,
             spd: 122,
@@ -22105,7 +44101,28 @@ window.rumble = {
             }
         }
     },
+    2648: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2649: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2650: {
+        festCost: 55,
         festStats: {
             def: 301,
             spd: 117,
@@ -22166,6 +44183,7 @@ window.rumble = {
         }
     },
     2651: {
+        festCost: 55,
         festStats: {
             def: 301,
             spd: 117,
@@ -22226,6 +44244,7 @@ window.rumble = {
         }
     },
     2652: {
+        festCost: 30,
         festStats: {
             def: 108,
             spd: 134,
@@ -22261,6 +44280,7 @@ window.rumble = {
         }
     },
     2653: {
+        festCost: 30,
         festStats: {
             def: 108,
             spd: 134,
@@ -22296,6 +44316,7 @@ window.rumble = {
         }
     },
     2654: {
+        festCost: 30,
         festStats: {
             def: 113,
             spd: 135,
@@ -22331,6 +44352,7 @@ window.rumble = {
         }
     },
     2655: {
+        festCost: 30,
         festStats: {
             def: 113,
             spd: 135,
@@ -22366,6 +44388,7 @@ window.rumble = {
         }
     },
     2656: {
+        festCost: 30,
         festStats: {
             def: 110,
             spd: 145,
@@ -22401,6 +44424,7 @@ window.rumble = {
         }
     },
     2657: {
+        festCost: 30,
         festStats: {
             def: 110,
             spd: 145,
@@ -22435,7 +44459,118 @@ window.rumble = {
             }
         }
     },
+    2658: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2659: {
+        festCost: 60,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2660: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2661: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2662: {
+        festCost: 7,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2665: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2666: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2667: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2668: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2669: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2670: {
+        festCost: 50,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2671: {
+        festCost: 55,
         festStats: {
             def: 166,
             spd: 150,
@@ -22496,6 +44631,7 @@ window.rumble = {
         }
     },
     2672: {
+        festCost: 55,
         festStats: {
             def: 166,
             spd: 150,
@@ -22579,6 +44715,7 @@ window.rumble = {
         }
     },
     2673: {
+        festCost: 30,
         festStats: {
             def: 112,
             spd: 148,
@@ -22614,6 +44751,7 @@ window.rumble = {
         }
     },
     2674: {
+        festCost: 30,
         festStats: {
             def: 112,
             spd: 148,
@@ -22649,6 +44787,7 @@ window.rumble = {
         }
     },
     2675: {
+        festCost: 30,
         festStats: {
             def: 92,
             spd: 130,
@@ -22684,6 +44823,7 @@ window.rumble = {
         }
     },
     2676: {
+        festCost: 30,
         festStats: {
             def: 92,
             spd: 130,
@@ -22719,6 +44859,7 @@ window.rumble = {
         }
     },
     2677: {
+        festCost: 30,
         festStats: {
             def: 287,
             spd: 96,
@@ -22754,6 +44895,7 @@ window.rumble = {
         }
     },
     2678: {
+        festCost: 30,
         festStats: {
             def: 287,
             spd: 96,
@@ -22789,6 +44931,7 @@ window.rumble = {
         }
     },
     2679: {
+        festCost: 20,
         festStats: {
             def: 122,
             spd: 140,
@@ -22824,6 +44967,7 @@ window.rumble = {
         }
     },
     2680: {
+        festCost: 20,
         festStats: {
             def: 122,
             spd: 140,
@@ -22859,6 +45003,7 @@ window.rumble = {
         }
     },
     2681: {
+        festCost: 55,
         festStats: {
             def: 326,
             spd: 122,
@@ -22941,7 +45086,18 @@ window.rumble = {
             }
         }
     },
+    2682: {
+        festCost: 50,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2683: {
+        festCost: 30,
         festStats: {
             def: 150,
             spd: 176,
@@ -22977,6 +45133,7 @@ window.rumble = {
         }
     },
     2684: {
+        festCost: 30,
         festStats: {
             def: 150,
             spd: 176,
@@ -23012,6 +45169,7 @@ window.rumble = {
         }
     },
     2685: {
+        festCost: 55,
         festStats: {
             def: 278,
             spd: 121,
@@ -23072,6 +45230,7 @@ window.rumble = {
         }
     },
     2686: {
+        festCost: 55,
         festStats: {
             def: 278,
             spd: 121,
@@ -23131,7 +45290,88 @@ window.rumble = {
             }
         }
     },
+    2687: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2688: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2689: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2690: {
+        festCost: 60,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2691: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2692: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2693: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2694: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2695: {
+        festCost: 30,
         festStats: {
             def: 113,
             spd: 149,
@@ -23170,6 +45410,7 @@ window.rumble = {
         }
     },
     2696: {
+        festCost: 30,
         festStats: {
             def: 113,
             spd: 149,
@@ -23208,6 +45449,7 @@ window.rumble = {
         }
     },
     2697: {
+        festCost: 30,
         festStats: {
             def: 160,
             spd: 165,
@@ -23243,6 +45485,7 @@ window.rumble = {
         }
     },
     2698: {
+        festCost: 30,
         festStats: {
             def: 160,
             spd: 165,
@@ -23278,6 +45521,7 @@ window.rumble = {
         }
     },
     2699: {
+        festCost: 55,
         festStats: {
             def: 191,
             spd: 126,
@@ -23338,6 +45582,7 @@ window.rumble = {
         }
     },
     2700: {
+        festCost: 55,
         festStats: {
             def: 191,
             spd: 126,
@@ -23398,6 +45643,7 @@ window.rumble = {
         }
     },
     2701: {
+        festCost: 30,
         festStats: {
             def: 151,
             spd: 129,
@@ -23433,6 +45679,7 @@ window.rumble = {
         }
     },
     2702: {
+        festCost: 30,
         festStats: {
             def: 151,
             spd: 129,
@@ -23468,6 +45715,7 @@ window.rumble = {
         }
     },
     2703: {
+        festCost: 30,
         festStats: {
             def: 136,
             spd: 125,
@@ -23503,6 +45751,7 @@ window.rumble = {
         }
     },
     2704: {
+        festCost: 30,
         festStats: {
             def: 136,
             spd: 125,
@@ -23538,6 +45787,7 @@ window.rumble = {
         }
     },
     2705: {
+        festCost: 30,
         festStats: {
             def: 139,
             spd: 151,
@@ -23573,6 +45823,7 @@ window.rumble = {
         }
     },
     2706: {
+        festCost: 30,
         festStats: {
             def: 139,
             spd: 151,
@@ -23607,7 +45858,328 @@ window.rumble = {
             }
         }
     },
+    2707: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2708: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2709: {
+        festCost: 50,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2710: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2711: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2712: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2713: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2714: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2715: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2716: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2717: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2718: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2719: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2720: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2721: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2722: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2723: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2724: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2725: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2726: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2727: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2728: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2729: {
+        festCost: 60,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2730: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2731: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2732: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2733: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2734: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2735: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2736: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2737: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2738: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2739: {
+        festCost: 55,
         festStats: {
             def: 210,
             spd: 173,
@@ -23691,6 +46263,7 @@ window.rumble = {
         }
     },
     2740: {
+        festCost: 55,
         festStats: {
             def: 127,
             spd: 169,
@@ -23751,6 +46324,7 @@ window.rumble = {
         }
     },
     2741: {
+        festCost: 55,
         festStats: {
             def: 127,
             spd: 169,
@@ -23811,6 +46385,7 @@ window.rumble = {
         }
     },
     2742: {
+        festCost: 30,
         festStats: {
             def: 113,
             spd: 132,
@@ -23846,6 +46421,7 @@ window.rumble = {
         }
     },
     2743: {
+        festCost: 30,
         festStats: {
             def: 113,
             spd: 132,
@@ -23881,6 +46457,7 @@ window.rumble = {
         }
     },
     2744: {
+        festCost: 30,
         festStats: {
             def: 140,
             spd: 150,
@@ -23916,6 +46493,7 @@ window.rumble = {
         }
     },
     2745: {
+        festCost: 30,
         festStats: {
             def: 140,
             spd: 150,
@@ -23951,6 +46529,7 @@ window.rumble = {
         }
     },
     2746: {
+        festCost: 30,
         festStats: {
             def: 137,
             spd: 151,
@@ -23986,6 +46565,7 @@ window.rumble = {
         }
     },
     2747: {
+        festCost: 30,
         festStats: {
             def: 137,
             spd: 151,
@@ -24020,7 +46600,208 @@ window.rumble = {
             }
         }
     },
+    2748: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2749: {
+        festCost: 50,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2750: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2751: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2752: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2753: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2754: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2755: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2756: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2757: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2758: {
+        festCost: 50,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2759: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2760: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2761: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2762: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2763: {
+        festCost: 60,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2764: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2765: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2766: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2767: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2773: {
+        festCost: 55,
         festStats: {
             def: 100,
             spd: 168,
@@ -24081,6 +46862,7 @@ window.rumble = {
         }
     },
     2774: {
+        festCost: 55,
         festStats: {
             def: 100,
             spd: 168,
@@ -24141,6 +46923,7 @@ window.rumble = {
         }
     },
     2775: {
+        festCost: 55,
         festStats: {
             def: 128,
             spd: 149,
@@ -24201,6 +46984,7 @@ window.rumble = {
         }
     },
     2776: {
+        festCost: 55,
         festStats: {
             def: 128,
             spd: 149,
@@ -24284,6 +47068,7 @@ window.rumble = {
         }
     },
     2777: {
+        festCost: 30,
         festStats: {
             def: 88,
             spd: 167,
@@ -24319,6 +47104,7 @@ window.rumble = {
         }
     },
     2778: {
+        festCost: 30,
         festStats: {
             def: 88,
             spd: 167,
@@ -24354,6 +47140,7 @@ window.rumble = {
         }
     },
     2779: {
+        festCost: 30,
         festStats: {
             def: 117,
             spd: 128,
@@ -24389,6 +47176,7 @@ window.rumble = {
         }
     },
     2780: {
+        festCost: 30,
         festStats: {
             def: 117,
             spd: 128,
@@ -24424,6 +47212,7 @@ window.rumble = {
         }
     },
     2781: {
+        festCost: 30,
         festStats: {
             def: 125,
             spd: 179,
@@ -24458,7 +47247,28 @@ window.rumble = {
             }
         }
     },
+    2782: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2783: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2784: {
+        festCost: 55,
         festStats: {
             def: 186,
             spd: 194,
@@ -24541,7 +47351,18 @@ window.rumble = {
             }
         }
     },
+    2785: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2786: {
+        festCost: 30,
         festStats: {
             def: 100,
             spd: 150,
@@ -24577,6 +47398,7 @@ window.rumble = {
         }
     },
     2787: {
+        festCost: 30,
         festStats: {
             def: 100,
             spd: 150,
@@ -24612,6 +47434,7 @@ window.rumble = {
         }
     },
     2788: {
+        festCost: 30,
         festStats: {
             def: 199,
             spd: 102,
@@ -24647,6 +47470,7 @@ window.rumble = {
         }
     },
     2789: {
+        festCost: 30,
         festStats: {
             def: 199,
             spd: 102,
@@ -24681,7 +47505,18 @@ window.rumble = {
             }
         }
     },
+    2790: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2791: {
+        festCost: 35,
         festStats: {
             def: 114,
             spd: 159,
@@ -24720,6 +47555,7 @@ window.rumble = {
         }
     },
     2792: {
+        festCost: 35,
         festStats: {
             def: 114,
             spd: 159,
@@ -24757,7 +47593,28 @@ window.rumble = {
             }
         }
     },
+    2793: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2794: {
+        festCost: 50,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2795: {
+        festCost: 30,
         festStats: {
             def: 137,
             spd: 197,
@@ -24793,6 +47650,7 @@ window.rumble = {
         }
     },
     2796: {
+        festCost: 55,
         festStats: {
             def: 123,
             spd: 127,
@@ -24853,6 +47711,7 @@ window.rumble = {
         }
     },
     2797: {
+        festCost: 55,
         festStats: {
             def: 123,
             spd: 127,
@@ -24912,7 +47771,38 @@ window.rumble = {
             }
         }
     },
+    2798: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2799: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2800: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2801: {
+        festCost: 55,
         festStats: {
             def: 182,
             spd: 183,
@@ -24973,6 +47863,7 @@ window.rumble = {
         }
     },
     2802: {
+        festCost: 55,
         festStats: {
             def: 182,
             spd: 183,
@@ -25033,6 +47924,7 @@ window.rumble = {
         }
     },
     2803: {
+        festCost: 55,
         festStats: {
             def: 126,
             spd: 185,
@@ -25093,6 +47985,7 @@ window.rumble = {
         }
     },
     2804: {
+        festCost: 55,
         festStats: {
             def: 126,
             spd: 185,
@@ -25153,6 +48046,7 @@ window.rumble = {
         }
     },
     2805: {
+        festCost: 30,
         festStats: {
             def: 128,
             spd: 133,
@@ -25188,6 +48082,7 @@ window.rumble = {
         }
     },
     2806: {
+        festCost: 30,
         festStats: {
             def: 128,
             spd: 133,
@@ -25223,6 +48118,7 @@ window.rumble = {
         }
     },
     2807: {
+        festCost: 30,
         festStats: {
             def: 249,
             spd: 107,
@@ -25258,6 +48154,7 @@ window.rumble = {
         }
     },
     2808: {
+        festCost: 30,
         festStats: {
             def: 249,
             spd: 107,
@@ -25293,6 +48190,7 @@ window.rumble = {
         }
     },
     2809: {
+        festCost: 30,
         festStats: {
             def: 142,
             spd: 148,
@@ -25328,6 +48226,7 @@ window.rumble = {
         }
     },
     2810: {
+        festCost: 30,
         festStats: {
             def: 142,
             spd: 148,
@@ -25362,7 +48261,38 @@ window.rumble = {
             }
         }
     },
+    2811: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2812: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2813: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2814: {
+        festCost: 55,
         festStats: {
             def: 184,
             spd: 188,
@@ -25445,7 +48375,38 @@ window.rumble = {
             }
         }
     },
+    2815: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2816: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2817: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2818: {
+        festCost: 55,
         festStats: {
             def: 180,
             spd: 180,
@@ -25481,6 +48442,7 @@ window.rumble = {
         }
     },
     2819: {
+        festCost: 55,
         festStats: {
             def: 180,
             spd: 180,
@@ -25515,7 +48477,38 @@ window.rumble = {
             }
         }
     },
+    2820: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2821: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2822: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2823: {
+        festCost: 35,
         festStats: {
             def: 211,
             spd: 172,
@@ -25553,7 +48546,68 @@ window.rumble = {
             }
         }
     },
+    2824: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2825: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2826: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2827: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2828: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2829: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2830: {
+        festCost: 55,
         festStats: {
             def: 225,
             spd: 136,
@@ -25637,6 +48691,7 @@ window.rumble = {
         }
     },
     2831: {
+        festCost: 35,
         festStats: {
             def: 138,
             spd: 214,
@@ -25681,7 +48736,28 @@ window.rumble = {
             }
         }
     },
+    2832: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2833: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2834: {
+        festCost: 55,
         festStats: {
             def: 176,
             spd: 168,
@@ -25742,6 +48818,7 @@ window.rumble = {
         }
     },
     2835: {
+        festCost: 55,
         festStats: {
             def: 176,
             spd: 168,
@@ -25802,6 +48879,7 @@ window.rumble = {
         }
     },
     2836: {
+        festCost: 55,
         festStats: {
             def: 129,
             spd: 151,
@@ -25862,6 +48940,7 @@ window.rumble = {
         }
     },
     2837: {
+        festCost: 55,
         festStats: {
             def: 129,
             spd: 151,
@@ -25922,6 +49001,7 @@ window.rumble = {
         }
     },
     2838: {
+        festCost: 30,
         festStats: {
             def: 151,
             spd: 108,
@@ -25957,6 +49037,7 @@ window.rumble = {
         }
     },
     2839: {
+        festCost: 30,
         festStats: {
             def: 151,
             spd: 108,
@@ -25992,6 +49073,7 @@ window.rumble = {
         }
     },
     2840: {
+        festCost: 30,
         festStats: {
             def: 155,
             spd: 150,
@@ -26027,6 +49109,7 @@ window.rumble = {
         }
     },
     2841: {
+        festCost: 30,
         festStats: {
             def: 155,
             spd: 150,
@@ -26061,7 +49144,48 @@ window.rumble = {
             }
         }
     },
+    2842: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2843: {
+        festCost: 50,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2844: {
+        festCost: 25,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2845: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2846: {
+        festCost: 30,
         festStats: {
             def: 128,
             spd: 143,
@@ -26096,7 +49220,38 @@ window.rumble = {
             }
         }
     },
+    2847: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2848: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2849: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2850: {
+        festCost: 35,
         festStats: {
             def: 118,
             spd: 153,
@@ -26134,7 +49289,88 @@ window.rumble = {
             }
         }
     },
+    2851: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2852: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2853: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2854: {
+        festCost: 50,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2855: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2856: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2857: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2858: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2859: {
+        festCost: 55,
         festStats: {
             def: 188,
             spd: 178,
@@ -26195,6 +49431,7 @@ window.rumble = {
         }
     },
     2860: {
+        festCost: 55,
         festStats: {
             def: 188,
             spd: 178,
@@ -26255,6 +49492,7 @@ window.rumble = {
         }
     },
     2861: {
+        festCost: 55,
         festStats: {
             def: 237,
             spd: 133,
@@ -26315,6 +49553,7 @@ window.rumble = {
         }
     },
     2862: {
+        festCost: 55,
         festStats: {
             def: 237,
             spd: 133,
@@ -26375,6 +49614,7 @@ window.rumble = {
         }
     },
     2863: {
+        festCost: 30,
         festStats: {
             def: 163,
             spd: 161,
@@ -26410,6 +49650,7 @@ window.rumble = {
         }
     },
     2864: {
+        festCost: 30,
         festStats: {
             def: 163,
             spd: 161,
@@ -26445,6 +49686,7 @@ window.rumble = {
         }
     },
     2865: {
+        festCost: 30,
         festStats: {
             def: 146,
             spd: 183,
@@ -26480,6 +49722,7 @@ window.rumble = {
         }
     },
     2866: {
+        festCost: 30,
         festStats: {
             def: 146,
             spd: 183,
@@ -26514,7 +49757,18 @@ window.rumble = {
             }
         }
     },
+    2867: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2868: {
+        festCost: 55,
         festStats: {
             def: 166,
             spd: 144,
@@ -26597,7 +49851,128 @@ window.rumble = {
             }
         }
     },
+    2869: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2870: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2871: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2872: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2873: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2874: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2875: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2876: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2877: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2878: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2879: {
+        festCost: 60,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2880: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2881: {
+        festCost: 30,
         festStats: {
             def: 125,
             spd: 149,
@@ -26633,6 +50008,7 @@ window.rumble = {
         }
     },
     2882: {
+        festCost: 30,
         festStats: {
             def: 135,
             spd: 142,
@@ -26667,7 +50043,28 @@ window.rumble = {
             }
         }
     },
+    2883: {
+        festCost: 50,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2884: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2885: {
+        festCost: 30,
         festStats: {
             def: 187,
             spd: 163,
@@ -26703,6 +50100,7 @@ window.rumble = {
         }
     },
     2886: {
+        festCost: 30,
         festStats: {
             def: 212,
             spd: 168,
@@ -26737,7 +50135,68 @@ window.rumble = {
             }
         }
     },
+    2887: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2888: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2889: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2890: {
+        festCost: 50,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2891: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2892: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2893: {
+        festCost: 30,
         festStats: {
             def: 150,
             spd: 158,
@@ -26773,6 +50232,7 @@ window.rumble = {
         }
     },
     2894: {
+        festCost: 55,
         festStats: {
             def: 159,
             spd: 182,
@@ -26833,6 +50293,7 @@ window.rumble = {
         }
     },
     2895: {
+        festCost: 55,
         festStats: {
             def: 159,
             spd: 182,
@@ -26893,6 +50354,7 @@ window.rumble = {
         }
     },
     2896: {
+        festCost: 55,
         festStats: {
             def: 157,
             spd: 171,
@@ -26953,6 +50415,7 @@ window.rumble = {
         }
     },
     2897: {
+        festCost: 55,
         festStats: {
             def: 157,
             spd: 171,
@@ -27013,6 +50476,7 @@ window.rumble = {
         }
     },
     2898: {
+        festCost: 30,
         festStats: {
             def: 180,
             spd: 138,
@@ -27048,6 +50512,7 @@ window.rumble = {
         }
     },
     2899: {
+        festCost: 30,
         festStats: {
             def: 180,
             spd: 138,
@@ -27083,6 +50548,7 @@ window.rumble = {
         }
     },
     2900: {
+        festCost: 30,
         festStats: {
             def: 137,
             spd: 139,
@@ -27118,6 +50584,7 @@ window.rumble = {
         }
     },
     2901: {
+        festCost: 30,
         festStats: {
             def: 137,
             spd: 139,
@@ -27153,6 +50620,7 @@ window.rumble = {
         }
     },
     2902: {
+        festCost: 30,
         festStats: {
             def: 294,
             spd: 73,
@@ -27188,6 +50656,7 @@ window.rumble = {
         }
     },
     2903: {
+        festCost: 30,
         festStats: {
             def: 294,
             spd: 73,
@@ -27222,7 +50691,58 @@ window.rumble = {
             }
         }
     },
+    2904: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2905: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2906: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2907: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2908: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2909: {
+        festCost: 55,
         festStats: {
             def: 303,
             spd: 126,
@@ -27305,7 +50825,38 @@ window.rumble = {
             }
         }
     },
+    2910: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2911: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2912: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2913: {
+        festCost: 35,
         festStats: {
             def: 222,
             spd: 122,
@@ -27343,7 +50894,58 @@ window.rumble = {
             }
         }
     },
+    2914: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2915: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2916: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2917: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2918: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2920: {
+        festCost: 35,
         festStats: {
             def: 214,
             spd: 134,
@@ -27381,7 +50983,18 @@ window.rumble = {
             }
         }
     },
+    2921: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2922: {
+        festCost: 30,
         festStats: {
             def: 181,
             spd: 173,
@@ -27417,6 +51030,7 @@ window.rumble = {
         }
     },
     2923: {
+        festCost: 30,
         festStats: {
             def: 206,
             spd: 178,
@@ -27451,7 +51065,58 @@ window.rumble = {
             }
         }
     },
+    2924: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2925: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2926: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2927: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2928: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2929: {
+        festCost: 55,
         festStats: {
             def: 120,
             spd: 194,
@@ -27512,6 +51177,7 @@ window.rumble = {
         }
     },
     2930: {
+        festCost: 55,
         festStats: {
             def: 120,
             spd: 194,
@@ -27572,6 +51238,7 @@ window.rumble = {
         }
     },
     2931: {
+        festCost: 20,
         festStats: {
             def: 103,
             spd: 139,
@@ -27607,6 +51274,7 @@ window.rumble = {
         }
     },
     2932: {
+        festCost: 20,
         festStats: {
             def: 203,
             spd: 170,
@@ -27642,6 +51310,7 @@ window.rumble = {
         }
     },
     2933: {
+        festCost: 20,
         festStats: {
             def: 235,
             spd: 113,
@@ -27680,6 +51349,7 @@ window.rumble = {
         }
     },
     2934: {
+        festCost: 35,
         festStats: {
             def: 168,
             spd: 186,
@@ -27715,6 +51385,7 @@ window.rumble = {
         }
     },
     2935: {
+        festCost: 20,
         festStats: {
             def: 105,
             spd: 146,
@@ -27750,6 +51421,7 @@ window.rumble = {
         }
     },
     2936: {
+        festCost: 20,
         festStats: {
             def: 105,
             spd: 146,
@@ -27785,6 +51457,7 @@ window.rumble = {
         }
     },
     2937: {
+        festCost: 20,
         festStats: {
             def: 107,
             spd: 143,
@@ -27820,6 +51493,7 @@ window.rumble = {
         }
     },
     2938: {
+        festCost: 20,
         festStats: {
             def: 107,
             spd: 143,
@@ -27877,6 +51551,7 @@ window.rumble = {
         }
     },
     2939: {
+        festCost: 20,
         festStats: {
             def: 126,
             spd: 124,
@@ -27912,6 +51587,7 @@ window.rumble = {
         }
     },
     2940: {
+        festCost: 20,
         festStats: {
             def: 126,
             spd: 124,
@@ -27969,6 +51645,7 @@ window.rumble = {
         }
     },
     2941: {
+        festCost: 20,
         festStats: {
             def: 126,
             spd: 124,
@@ -28004,6 +51681,7 @@ window.rumble = {
         }
     },
     2942: {
+        festCost: 20,
         festStats: {
             def: 126,
             spd: 124,
@@ -28061,6 +51739,7 @@ window.rumble = {
         }
     },
     2943: {
+        festCost: 20,
         festStats: {
             def: 139,
             spd: 126,
@@ -28096,6 +51775,7 @@ window.rumble = {
         }
     },
     2944: {
+        festCost: 20,
         festStats: {
             def: 139,
             spd: 126,
@@ -28153,6 +51833,7 @@ window.rumble = {
         }
     },
     2945: {
+        festCost: 20,
         festStats: {
             def: 108,
             spd: 127,
@@ -28188,6 +51869,7 @@ window.rumble = {
         }
     },
     2946: {
+        festCost: 20,
         festStats: {
             def: 108,
             spd: 127,
@@ -28245,6 +51927,7 @@ window.rumble = {
         }
     },
     2947: {
+        festCost: 20,
         festStats: {
             def: 127,
             spd: 123,
@@ -28280,6 +51963,7 @@ window.rumble = {
         }
     },
     2948: {
+        festCost: 20,
         festStats: {
             def: 127,
             spd: 123,
@@ -28337,6 +52021,7 @@ window.rumble = {
         }
     },
     2949: {
+        festCost: 20,
         festStats: {
             def: 236,
             spd: 93,
@@ -28372,6 +52057,7 @@ window.rumble = {
         }
     },
     2950: {
+        festCost: 20,
         festStats: {
             def: 236,
             spd: 93,
@@ -28429,6 +52115,7 @@ window.rumble = {
         }
     },
     2951: {
+        festCost: 20,
         festStats: {
             def: 112,
             spd: 137,
@@ -28464,6 +52151,7 @@ window.rumble = {
         }
     },
     2952: {
+        festCost: 20,
         festStats: {
             def: 112,
             spd: 137,
@@ -28520,7 +52208,18 @@ window.rumble = {
             }
         }
     },
+    2953: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2954: {
+        festCost: 55,
         festStats: {
             def: 144,
             spd: 109,
@@ -28604,6 +52303,7 @@ window.rumble = {
         }
     },
     2955: {
+        festCost: 35,
         festStats: {
             def: 148,
             spd: 169,
@@ -28642,6 +52342,7 @@ window.rumble = {
         }
     },
     2956: {
+        festCost: 30,
         festStats: {
             def: 194,
             spd: 139,
@@ -28677,6 +52378,7 @@ window.rumble = {
         }
     },
     2957: {
+        festCost: 55,
         festStats: {
             def: 120,
             spd: 194,
@@ -28737,6 +52439,7 @@ window.rumble = {
         }
     },
     2958: {
+        festCost: 55,
         festStats: {
             def: 120,
             spd: 194,
@@ -28797,6 +52500,7 @@ window.rumble = {
         }
     },
     2959: {
+        festCost: 55,
         festStats: {
             def: 201,
             spd: 158,
@@ -28857,6 +52561,7 @@ window.rumble = {
         }
     },
     2960: {
+        festCost: 55,
         festStats: {
             def: 201,
             spd: 158,
@@ -28940,6 +52645,7 @@ window.rumble = {
         }
     },
     2961: {
+        festCost: 55,
         festStats: {
             def: 146,
             spd: 163,
@@ -29000,6 +52706,7 @@ window.rumble = {
         }
     },
     2962: {
+        festCost: 55,
         festStats: {
             def: 146,
             spd: 163,
@@ -29060,6 +52767,7 @@ window.rumble = {
         }
     },
     2963: {
+        festCost: 55,
         festStats: {
             def: 170,
             spd: 146,
@@ -29120,6 +52828,7 @@ window.rumble = {
         }
     },
     2964: {
+        festCost: 55,
         festStats: {
             def: 170,
             spd: 146,
@@ -29180,6 +52889,7 @@ window.rumble = {
         }
     },
     2965: {
+        festCost: 30,
         festStats: {
             def: 111,
             spd: 134,
@@ -29215,6 +52925,7 @@ window.rumble = {
         }
     },
     2966: {
+        festCost: 30,
         festStats: {
             def: 111,
             spd: 134,
@@ -29250,6 +52961,7 @@ window.rumble = {
         }
     },
     2967: {
+        festCost: 30,
         festStats: {
             def: 142,
             spd: 134,
@@ -29285,6 +52997,7 @@ window.rumble = {
         }
     },
     2968: {
+        festCost: 30,
         festStats: {
             def: 142,
             spd: 134,
@@ -29320,6 +53033,7 @@ window.rumble = {
         }
     },
     2969: {
+        festCost: 30,
         festStats: {
             def: 188,
             spd: 108,
@@ -29355,6 +53069,7 @@ window.rumble = {
         }
     },
     2970: {
+        festCost: 30,
         festStats: {
             def: 188,
             spd: 108,
@@ -29390,6 +53105,7 @@ window.rumble = {
         }
     },
     2971: {
+        festCost: 30,
         festStats: {
             def: 84,
             spd: 155,
@@ -29425,6 +53141,7 @@ window.rumble = {
         }
     },
     2972: {
+        festCost: 30,
         festStats: {
             def: 84,
             spd: 155,
@@ -29459,7 +53176,48 @@ window.rumble = {
             }
         }
     },
+    2973: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2974: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2975: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2976: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2977: {
+        festCost: 35,
         festStats: {
             def: 128,
             spd: 174,
@@ -29495,6 +53253,7 @@ window.rumble = {
         }
     },
     2978: {
+        festCost: 20,
         festStats: {
             def: 166,
             spd: 176,
@@ -29530,6 +53289,7 @@ window.rumble = {
         }
     },
     2979: {
+        festCost: 55,
         festStats: {
             def: 277,
             spd: 122,
@@ -29568,6 +53328,7 @@ window.rumble = {
         }
     },
     2980: {
+        festCost: 55,
         festStats: {
             def: 277,
             spd: 122,
@@ -29628,6 +53389,7 @@ window.rumble = {
         }
     },
     2981: {
+        festCost: 55,
         festStats: {
             def: 285,
             spd: 119,
@@ -29688,6 +53450,7 @@ window.rumble = {
         }
     },
     2982: {
+        festCost: 55,
         festStats: {
             def: 285,
             spd: 119,
@@ -29748,6 +53511,7 @@ window.rumble = {
         }
     },
     2983: {
+        festCost: 30,
         festStats: {
             def: 152,
             spd: 125,
@@ -29783,6 +53547,7 @@ window.rumble = {
         }
     },
     2984: {
+        festCost: 30,
         festStats: {
             def: 152,
             spd: 125,
@@ -29818,6 +53583,7 @@ window.rumble = {
         }
     },
     2985: {
+        festCost: 30,
         festStats: {
             def: 119,
             spd: 140,
@@ -29853,6 +53619,7 @@ window.rumble = {
         }
     },
     2986: {
+        festCost: 30,
         festStats: {
             def: 119,
             spd: 140,
@@ -29888,6 +53655,7 @@ window.rumble = {
         }
     },
     2987: {
+        festCost: 30,
         festStats: {
             def: 171,
             spd: 157,
@@ -29922,7 +53690,18 @@ window.rumble = {
             }
         }
     },
+    2988: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2989: {
+        festCost: 35,
         festStats: {
             def: 131,
             spd: 202,
@@ -29957,7 +53736,18 @@ window.rumble = {
             }
         }
     },
+    2990: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2991: {
+        festCost: 55,
         festStats: {
             def: 211,
             spd: 152,
@@ -30040,7 +53830,78 @@ window.rumble = {
             }
         }
     },
+    2992: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2993: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2994: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2995: {
+        festCost: 60,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2996: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2997: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    2998: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     2999: {
+        festCost: 35,
         festStats: {
             def: 164,
             spd: 158,
@@ -30076,6 +53937,7 @@ window.rumble = {
         }
     },
     3000: {
+        festCost: 20,
         festStats: {
             def: 167,
             spd: 174,
@@ -30113,7 +53975,58 @@ window.rumble = {
             }
         }
     },
+    3001: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3002: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3003: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3004: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3005: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3006: {
+        festCost: 55,
         festStats: {
             def: 208,
             spd: 179,
@@ -30174,6 +54087,7 @@ window.rumble = {
         }
     },
     3007: {
+        festCost: 55,
         festStats: {
             def: 208,
             spd: 179,
@@ -30234,6 +54148,7 @@ window.rumble = {
         }
     },
     3008: {
+        festCost: 55,
         festStats: {
             def: 140,
             spd: 195,
@@ -30294,6 +54209,7 @@ window.rumble = {
         }
     },
     3009: {
+        festCost: 55,
         festStats: {
             def: 140,
             spd: 195,
@@ -30354,6 +54270,7 @@ window.rumble = {
         }
     },
     3010: {
+        festCost: 30,
         festStats: {
             def: 240,
             spd: 110,
@@ -30389,6 +54306,7 @@ window.rumble = {
         }
     },
     3011: {
+        festCost: 30,
         festStats: {
             def: 240,
             spd: 110,
@@ -30424,6 +54342,7 @@ window.rumble = {
         }
     },
     3012: {
+        festCost: 30,
         festStats: {
             def: 110,
             spd: 136,
@@ -30459,6 +54378,7 @@ window.rumble = {
         }
     },
     3013: {
+        festCost: 30,
         festStats: {
             def: 110,
             spd: 136,
@@ -30494,6 +54414,7 @@ window.rumble = {
         }
     },
     3014: {
+        festCost: 30,
         festStats: {
             def: 105,
             spd: 158,
@@ -30529,6 +54450,7 @@ window.rumble = {
         }
     },
     3015: {
+        festCost: 30,
         festStats: {
             def: 105,
             spd: 158,
@@ -30564,6 +54486,7 @@ window.rumble = {
         }
     },
     3016: {
+        festCost: 35,
         festStats: {
             def: 195,
             spd: 208,
@@ -30598,7 +54521,18 @@ window.rumble = {
             }
         }
     },
+    3017: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3018: {
+        festCost: 55,
         festStats: {
             def: 233,
             spd: 108,
@@ -30681,7 +54615,38 @@ window.rumble = {
             }
         }
     },
+    3019: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3020: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3021: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3022: {
+        festCost: 35,
         festStats: {
             def: 163,
             spd: 168,
@@ -30716,7 +54681,28 @@ window.rumble = {
             }
         }
     },
+    3023: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3024: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3025: {
+        festCost: 20,
         festStats: {
             def: 163,
             spd: 207,
@@ -30755,6 +54741,7 @@ window.rumble = {
         }
     },
     3026: {
+        festCost: 55,
         festStats: {
             def: 167,
             spd: 165,
@@ -30815,6 +54802,7 @@ window.rumble = {
         }
     },
     3027: {
+        festCost: 55,
         festStats: {
             def: 167,
             spd: 165,
@@ -30874,7 +54862,88 @@ window.rumble = {
             }
         }
     },
+    3028: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3029: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3030: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3031: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3032: {
+        festCost: 50,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3033: {
+        festCost: 50,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3034: {
+        festCost: 50,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3035: {
+        festCost: 50,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3036: {
+        festCost: 35,
         festStats: {
             def: 121,
             spd: 202,
@@ -30910,6 +54979,7 @@ window.rumble = {
         }
     },
     3037: {
+        festCost: 55,
         festStats: {
             def: 149,
             spd: 160,
@@ -30948,6 +55018,7 @@ window.rumble = {
         }
     },
     3038: {
+        festCost: 55,
         festStats: {
             def: 149,
             spd: 160,
@@ -31008,6 +55079,7 @@ window.rumble = {
         }
     },
     3039: {
+        festCost: 30,
         festStats: {
             def: 147,
             spd: 130,
@@ -31043,6 +55115,7 @@ window.rumble = {
         }
     },
     3040: {
+        festCost: 30,
         festStats: {
             def: 147,
             spd: 130,
@@ -31078,6 +55151,7 @@ window.rumble = {
         }
     },
     3041: {
+        festCost: 30,
         festStats: {
             def: 128,
             spd: 132,
@@ -31113,6 +55187,7 @@ window.rumble = {
         }
     },
     3042: {
+        festCost: 30,
         festStats: {
             def: 128,
             spd: 132,
@@ -31148,6 +55223,7 @@ window.rumble = {
         }
     },
     3043: {
+        festCost: 30,
         festStats: {
             def: 117,
             spd: 128,
@@ -31183,6 +55259,7 @@ window.rumble = {
         }
     },
     3044: {
+        festCost: 30,
         festStats: {
             def: 117,
             spd: 128,
@@ -31218,6 +55295,7 @@ window.rumble = {
         }
     },
     3045: {
+        festCost: 30,
         festStats: {
             def: 125,
             spd: 146,
@@ -31252,7 +55330,18 @@ window.rumble = {
             }
         }
     },
+    3046: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3047: {
+        festCost: 35,
         festStats: {
             def: 162,
             spd: 210,
@@ -31291,6 +55380,7 @@ window.rumble = {
         }
     },
     3048: {
+        festCost: 55,
         festStats: {
             def: 324,
             spd: 128,
@@ -31373,7 +55463,38 @@ window.rumble = {
             }
         }
     },
+    3049: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3050: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3051: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3052: {
+        festCost: 35,
         festStats: {
             def: 153,
             spd: 192,
@@ -31408,7 +55529,58 @@ window.rumble = {
             }
         }
     },
+    3053: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3056: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3057: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3058: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3059: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3060: {
+        festCost: 35,
         festStats: {
             def: 132,
             spd: 205,
@@ -31447,6 +55619,7 @@ window.rumble = {
         }
     },
     3061: {
+        festCost: 20,
         festStats: {
             def: 133,
             spd: 226,
@@ -31508,6 +55681,7 @@ window.rumble = {
         }
     },
     3062: {
+        festCost: 20,
         festStats: {
             def: 208,
             spd: 162,
@@ -31569,6 +55743,7 @@ window.rumble = {
         }
     },
     3063: {
+        festCost: 20,
         festStats: {
             def: 133,
             spd: 191,
@@ -31630,6 +55805,7 @@ window.rumble = {
         }
     },
     3064: {
+        festCost: 55,
         festStats: {
             def: 175,
             spd: 210,
@@ -31690,6 +55866,7 @@ window.rumble = {
         }
     },
     3065: {
+        festCost: 55,
         festStats: {
             def: 175,
             spd: 210,
@@ -31750,6 +55927,7 @@ window.rumble = {
         }
     },
     3066: {
+        festCost: 30,
         festStats: {
             def: 115,
             spd: 143,
@@ -31785,6 +55963,7 @@ window.rumble = {
         }
     },
     3067: {
+        festCost: 30,
         festStats: {
             def: 115,
             spd: 143,
@@ -31820,6 +55999,7 @@ window.rumble = {
         }
     },
     3068: {
+        festCost: 30,
         festStats: {
             def: 233,
             spd: 102,
@@ -31855,6 +56035,7 @@ window.rumble = {
         }
     },
     3069: {
+        festCost: 30,
         festStats: {
             def: 233,
             spd: 102,
@@ -31890,6 +56071,7 @@ window.rumble = {
         }
     },
     3070: {
+        festCost: 55,
         festStats: {
             def: 128,
             spd: 182,
@@ -31950,6 +56132,7 @@ window.rumble = {
         }
     },
     3071: {
+        festCost: 55,
         festStats: {
             def: 128,
             spd: 182,
@@ -32010,6 +56193,7 @@ window.rumble = {
         }
     },
     3072: {
+        festCost: 55,
         festStats: {
             def: 129,
             spd: 181,
@@ -32070,6 +56254,7 @@ window.rumble = {
         }
     },
     3073: {
+        festCost: 55,
         festStats: {
             def: 129,
             spd: 181,
@@ -32129,7 +56314,48 @@ window.rumble = {
             }
         }
     },
+    3074: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3075: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3076: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3077: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3078: {
+        festCost: 30,
         festStats: {
             def: 217,
             spd: 140,
@@ -32168,6 +56394,7 @@ window.rumble = {
         }
     },
     3079: {
+        festCost: 55,
         festStats: {
             def: 302,
             spd: 115,
@@ -32250,7 +56477,28 @@ window.rumble = {
             }
         }
     },
+    3080: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3081: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3082: {
+        festCost: 35,
         festStats: {
             def: 192,
             spd: 153,
@@ -32288,7 +56536,18 @@ window.rumble = {
             }
         }
     },
+    3083: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3085: {
+        festCost: 30,
         festStats: {
             def: 125,
             spd: 149,
@@ -32323,7 +56582,88 @@ window.rumble = {
             }
         }
     },
+    3086: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3087: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3088: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3089: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3090: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3091: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3092: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3093: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3094: {
+        festCost: 35,
         festStats: {
             def: 208,
             spd: 146,
@@ -32362,6 +56702,7 @@ window.rumble = {
         }
     },
     3095: {
+        festCost: 20,
         festStats: {
             def: 214,
             spd: 158,
@@ -32423,6 +56764,7 @@ window.rumble = {
         }
     },
     3096: {
+        festCost: 20,
         festStats: {
             def: 171,
             spd: 203,
@@ -32483,7 +56825,18 @@ window.rumble = {
             }
         }
     },
+    3097: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3098: {
+        festCost: 35,
         festStats: {
             def: 140,
             spd: 211,
@@ -32522,6 +56875,7 @@ window.rumble = {
         }
     },
     3099: {
+        festCost: 55,
         festStats: {
             def: 104,
             spd: 213,
@@ -32582,6 +56936,7 @@ window.rumble = {
         }
     },
     3100: {
+        festCost: 55,
         festStats: {
             def: 104,
             spd: 213,
@@ -32642,6 +56997,7 @@ window.rumble = {
         }
     },
     3101: {
+        festCost: 55,
         festStats: {
             def: 154,
             spd: 155,
@@ -32680,6 +57036,7 @@ window.rumble = {
         }
     },
     3102: {
+        festCost: 55,
         festStats: {
             def: 154,
             spd: 155,
@@ -32740,6 +57097,7 @@ window.rumble = {
         }
     },
     3103: {
+        festCost: 30,
         festStats: {
             def: 143,
             spd: 147,
@@ -32778,6 +57136,7 @@ window.rumble = {
         }
     },
     3104: {
+        festCost: 30,
         festStats: {
             def: 143,
             spd: 147,
@@ -32816,6 +57175,7 @@ window.rumble = {
         }
     },
     3105: {
+        festCost: 30,
         festStats: {
             def: 170,
             spd: 130,
@@ -32854,6 +57214,7 @@ window.rumble = {
         }
     },
     3106: {
+        festCost: 30,
         festStats: {
             def: 170,
             spd: 130,
@@ -32892,6 +57253,7 @@ window.rumble = {
         }
     },
     3107: {
+        festCost: 35,
         festStats: {
             def: 293,
             spd: 120,
@@ -32930,6 +57292,7 @@ window.rumble = {
         }
     },
     3108: {
+        festCost: 30,
         festStats: {
             def: 146,
             spd: 157,
@@ -32967,7 +57330,68 @@ window.rumble = {
             }
         }
     },
+    3109: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3110: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3111: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3112: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3113: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3114: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3115: {
+        festCost: 35,
         festStats: {
             def: 122,
             spd: 217,
@@ -33006,6 +57430,7 @@ window.rumble = {
         }
     },
     3117: {
+        festCost: 55,
         festStats: {
             def: 130,
             spd: 200,
@@ -33044,6 +57469,7 @@ window.rumble = {
         }
     },
     3118: {
+        festCost: 55,
         festStats: {
             def: 130,
             spd: 200,
@@ -33103,7 +57529,48 @@ window.rumble = {
             }
         }
     },
+    3120: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3121: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3122: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3123: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3124: {
+        festCost: 35,
         festStats: {
             def: 214,
             spd: 154,
@@ -33142,6 +57609,7 @@ window.rumble = {
         }
     },
     3125: {
+        festCost: 20,
         festStats: {
             def: 216,
             spd: 154,
@@ -33202,7 +57670,48 @@ window.rumble = {
             }
         }
     },
+    3126: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3127: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3128: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3129: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3130: {
+        festCost: 20,
         festStats: {
             def: 218,
             spd: 174,
@@ -33265,6 +57774,7 @@ window.rumble = {
     },
     3134: {
         character1: {
+            festCost: 55,
             festStats: {
                 def: 162,
                 spd: 188,
@@ -33303,6 +57813,7 @@ window.rumble = {
             }
         },
         character2: {
+            festCost: 55,
             festStats: {
                 def: 170,
                 spd: 179,
@@ -33343,6 +57854,7 @@ window.rumble = {
     },
     3135: {
         character1: {
+            festCost: 55,
             festStats: {
                 def: 162,
                 spd: 188,
@@ -33381,6 +57893,7 @@ window.rumble = {
             }
         },
         character2: {
+            festCost: 55,
             festStats: {
                 def: 170,
                 spd: 179,
@@ -33420,6 +57933,7 @@ window.rumble = {
         }
     },
     3136: {
+        festCost: 30,
         festStats: {
             def: 110,
             spd: 196,
@@ -33458,6 +57972,7 @@ window.rumble = {
         }
     },
     3137: {
+        festCost: 30,
         festStats: {
             def: 110,
             spd: 196,
@@ -33496,6 +58011,7 @@ window.rumble = {
         }
     },
     3138: {
+        festCost: 30,
         festStats: {
             def: 154,
             spd: 126,
@@ -33534,6 +58050,7 @@ window.rumble = {
         }
     },
     3139: {
+        festCost: 30,
         festStats: {
             def: 154,
             spd: 126,
@@ -33572,6 +58089,7 @@ window.rumble = {
         }
     },
     3140: {
+        festCost: 30,
         festStats: {
             def: 150,
             spd: 144,
@@ -33610,6 +58128,7 @@ window.rumble = {
         }
     },
     3141: {
+        festCost: 30,
         festStats: {
             def: 150,
             spd: 144,
@@ -33648,6 +58167,7 @@ window.rumble = {
         }
     },
     3142: {
+        festCost: 35,
         festStats: {
             def: 166,
             spd: 169,
@@ -33686,6 +58206,7 @@ window.rumble = {
         }
     },
     3143: {
+        festCost: 30,
         festStats: {
             def: 171,
             spd: 139,
@@ -33723,7 +58244,68 @@ window.rumble = {
             }
         }
     },
+    3144: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3145: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3146: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3147: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3148: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3149: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3150: {
+        festCost: 35,
         festStats: {
             def: 136,
             spd: 167,
@@ -33761,7 +58343,28 @@ window.rumble = {
             }
         }
     },
+    3151: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3152: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3153: {
+        festCost: 35,
         festStats: {
             def: 127,
             spd: 192,
@@ -33800,6 +58403,7 @@ window.rumble = {
         }
     },
     3154: {
+        festCost: 55,
         festStats: {
             def: 129,
             spd: 169,
@@ -33883,6 +58487,7 @@ window.rumble = {
         }
     },
     3156: {
+        festCost: 55,
         festStats: {
             def: 124,
             spd: 188,
@@ -33943,6 +58548,7 @@ window.rumble = {
         }
     },
     3157: {
+        festCost: 55,
         festStats: {
             def: 124,
             spd: 188,
@@ -34003,6 +58609,7 @@ window.rumble = {
         }
     },
     3158: {
+        festCost: 20,
         festStats: {
             def: 134,
             spd: 223,
@@ -34063,7 +58670,48 @@ window.rumble = {
             }
         }
     },
+    3159: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3160: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3161: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3162: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3163: {
+        festCost: 55,
         festStats: {
             def: 174,
             spd: 220,
@@ -34124,6 +58772,7 @@ window.rumble = {
         }
     },
     3164: {
+        festCost: 55,
         festStats: {
             def: 174,
             spd: 220,
@@ -34184,6 +58833,7 @@ window.rumble = {
         }
     },
     3165: {
+        festCost: 55,
         festStats: {
             def: 184,
             spd: 163,
@@ -34244,6 +58894,7 @@ window.rumble = {
         }
     },
     3166: {
+        festCost: 55,
         festStats: {
             def: 184,
             spd: 163,
@@ -34304,6 +58955,7 @@ window.rumble = {
         }
     },
     3167: {
+        festCost: 30,
         festStats: {
             def: 139,
             spd: 156,
@@ -34342,6 +58994,7 @@ window.rumble = {
         }
     },
     3168: {
+        festCost: 30,
         festStats: {
             def: 139,
             spd: 156,
@@ -34380,6 +59033,7 @@ window.rumble = {
         }
     },
     3169: {
+        festCost: 30,
         festStats: {
             def: 134,
             spd: 140,
@@ -34418,6 +59072,7 @@ window.rumble = {
         }
     },
     3170: {
+        festCost: 30,
         festStats: {
             def: 134,
             spd: 140,
@@ -34456,6 +59111,7 @@ window.rumble = {
         }
     },
     3171: {
+        festCost: 30,
         festStats: {
             def: 164,
             spd: 145,
@@ -34494,6 +59150,7 @@ window.rumble = {
         }
     },
     3172: {
+        festCost: 30,
         festStats: {
             def: 110,
             spd: 197,
@@ -34532,6 +59189,7 @@ window.rumble = {
         }
     },
     3173: {
+        festCost: 35,
         festStats: {
             def: 218,
             spd: 137,
@@ -34570,6 +59228,7 @@ window.rumble = {
         }
     },
     3174: {
+        festCost: 55,
         festStats: {
             def: 125,
             spd: 221,
@@ -34630,6 +59289,7 @@ window.rumble = {
         }
     },
     3175: {
+        festCost: 55,
         festStats: {
             def: 125,
             spd: 221,
@@ -34690,6 +59350,7 @@ window.rumble = {
         }
     },
     3176: {
+        festCost: 55,
         festStats: {
             def: 193,
             spd: 214,
@@ -34750,6 +59411,7 @@ window.rumble = {
         }
     },
     3177: {
+        festCost: 55,
         festStats: {
             def: 193,
             spd: 214,
@@ -34810,6 +59472,7 @@ window.rumble = {
         }
     },
     3178: {
+        festCost: 30,
         festStats: {
             def: 109,
             spd: 168,
@@ -34848,6 +59511,7 @@ window.rumble = {
         }
     },
     3179: {
+        festCost: 30,
         festStats: {
             def: 109,
             spd: 168,
@@ -34886,6 +59550,7 @@ window.rumble = {
         }
     },
     3180: {
+        festCost: 30,
         festStats: {
             def: 141,
             spd: 154,
@@ -34924,6 +59589,7 @@ window.rumble = {
         }
     },
     3181: {
+        festCost: 30,
         festStats: {
             def: 141,
             spd: 154,
@@ -34962,6 +59628,7 @@ window.rumble = {
         }
     },
     3182: {
+        festCost: 30,
         festStats: {
             def: 190,
             spd: 107,
@@ -35000,6 +59667,7 @@ window.rumble = {
         }
     },
     3183: {
+        festCost: 30,
         festStats: {
             def: 190,
             spd: 107,
@@ -35038,6 +59706,7 @@ window.rumble = {
         }
     },
     3184: {
+        festCost: 30,
         festStats: {
             def: 190,
             spd: 130,
@@ -35076,6 +59745,7 @@ window.rumble = {
         }
     },
     3185: {
+        festCost: 30,
         festStats: {
             def: 190,
             spd: 130,
@@ -35113,7 +59783,28 @@ window.rumble = {
             }
         }
     },
+    3186: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3187: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3188: {
+        festCost: 30,
         festStats: {
             def: 122,
             spd: 183,
@@ -35151,7 +59842,88 @@ window.rumble = {
             }
         }
     },
+    3189: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3190: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3191: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3192: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3193: {
+        festCost: 12,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3194: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3195: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3196: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3197: {
+        festCost: 35,
         festStats: {
             def: 121,
             spd: 185,
@@ -35189,7 +59961,48 @@ window.rumble = {
             }
         }
     },
+    3198: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3199: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3200: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3201: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3202: {
+        festCost: 55,
         festStats: {
             def: 166,
             spd: 166,
@@ -35273,6 +60086,7 @@ window.rumble = {
         }
     },
     3203: {
+        festCost: 55,
         festStats: {
             def: 173,
             spd: 213,
@@ -35333,6 +60147,7 @@ window.rumble = {
         }
     },
     3204: {
+        festCost: 55,
         festStats: {
             def: 173,
             spd: 213,
@@ -35392,7 +60207,18 @@ window.rumble = {
             }
         }
     },
+    3205: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3206: {
+        festCost: 20,
         festStats: {
             def: 174,
             spd: 189,
@@ -35454,6 +60280,7 @@ window.rumble = {
         }
     },
     3207: {
+        festCost: 35,
         festStats: {
             def: 280,
             spd: 113,
@@ -35492,6 +60319,7 @@ window.rumble = {
         }
     },
     3208: {
+        festCost: 35,
         festStats: {
             def: 126,
             spd: 194,
@@ -35530,6 +60358,7 @@ window.rumble = {
         }
     },
     3209: {
+        festCost: 30,
         festStats: {
             def: 121,
             spd: 185,
@@ -35567,7 +60396,18 @@ window.rumble = {
             }
         }
     },
+    3210: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3211: {
+        festCost: 55,
         festStats: {
             def: 183,
             spd: 183,
@@ -35650,7 +60490,18 @@ window.rumble = {
             }
         }
     },
+    3212: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3213: {
+        festCost: 35,
         festStats: {
             def: 213,
             spd: 155,
@@ -35688,7 +60539,38 @@ window.rumble = {
             }
         }
     },
+    3214: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3215: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3216: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3217: {
+        festCost: 35,
         festStats: {
             def: 148,
             spd: 155,
@@ -35726,7 +60608,48 @@ window.rumble = {
             }
         }
     },
+    3218: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3219: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3220: {
+        festCost: 15,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3221: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3222: {
+        festCost: 30,
         festStats: {
             def: 169,
             spd: 141,
@@ -35765,6 +60688,7 @@ window.rumble = {
         }
     },
     3223: {
+        festCost: 30,
         festStats: {
             def: 159,
             spd: 162,
@@ -35803,6 +60727,7 @@ window.rumble = {
         }
     },
     3224: {
+        festCost: 55,
         festStats: {
             def: 190,
             spd: 167,
@@ -35863,6 +60788,7 @@ window.rumble = {
         }
     },
     3225: {
+        festCost: 55,
         festStats: {
             def: 190,
             spd: 167,
@@ -35923,6 +60849,7 @@ window.rumble = {
         }
     },
     3226: {
+        festCost: 55,
         festStats: {
             def: 184,
             spd: 172,
@@ -35983,6 +60910,7 @@ window.rumble = {
         }
     },
     3227: {
+        festCost: 55,
         festStats: {
             def: 184,
             spd: 172,
@@ -36043,6 +60971,7 @@ window.rumble = {
         }
     },
     3228: {
+        festCost: 30,
         festStats: {
             def: 165,
             spd: 134,
@@ -36081,6 +61010,7 @@ window.rumble = {
         }
     },
     3229: {
+        festCost: 30,
         festStats: {
             def: 165,
             spd: 134,
@@ -36119,6 +61049,7 @@ window.rumble = {
         }
     },
     3230: {
+        festCost: 30,
         festStats: {
             def: 114,
             spd: 161,
@@ -36157,6 +61088,7 @@ window.rumble = {
         }
     },
     3231: {
+        festCost: 30,
         festStats: {
             def: 114,
             spd: 161,
@@ -36195,6 +61127,7 @@ window.rumble = {
         }
     },
     3233: {
+        festCost: 35,
         festStats: {
             def: 124,
             spd: 197,
@@ -36232,7 +61165,58 @@ window.rumble = {
             }
         }
     },
+    3234: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3235: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3236: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3237: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3238: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3239: {
+        festCost: 35,
         festStats: {
             def: 268,
             spd: 121,
@@ -36271,6 +61255,7 @@ window.rumble = {
         }
     },
     3240: {
+        festCost: 55,
         festStats: {
             def: 195,
             spd: 195,
@@ -36354,6 +61339,7 @@ window.rumble = {
         }
     },
     3241: {
+        festCost: 35,
         festStats: {
             def: 126,
             spd: 194,
@@ -36391,7 +61377,18 @@ window.rumble = {
             }
         }
     },
+    3242: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3243: {
+        festCost: 20,
         festStats: {
             def: 169,
             spd: 195,
@@ -36453,6 +61450,7 @@ window.rumble = {
         }
     },
     3244: {
+        festCost: 20,
         festStats: {
             def: 206,
             spd: 169,
@@ -36513,6 +61511,7 @@ window.rumble = {
         }
     },
     3245: {
+        festCost: 20,
         festStats: {
             def: 206,
             spd: 169,
@@ -36572,7 +61571,48 @@ window.rumble = {
             }
         }
     },
+    3246: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3247: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3248: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3249: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3251: {
+        festCost: 35,
         festStats: {
             def: 202,
             spd: 164,
@@ -36612,6 +61652,7 @@ window.rumble = {
     },
     3252: {
         character1: {
+            festCost: 55,
             festStats: {
                 def: 158,
                 spd: 193,
@@ -36650,6 +61691,7 @@ window.rumble = {
             }
         },
         character2: {
+            festCost: 55,
             festStats: {
                 def: 160,
                 spd: 190,
@@ -36690,6 +61732,7 @@ window.rumble = {
     },
     3253: {
         character1: {
+            festCost: 55,
             festStats: {
                 def: 158,
                 spd: 193,
@@ -36728,6 +61771,7 @@ window.rumble = {
             }
         },
         character2: {
+            festCost: 55,
             festStats: {
                 def: 160,
                 spd: 190,
@@ -36767,6 +61811,7 @@ window.rumble = {
         }
     },
     3254: {
+        festCost: 30,
         festStats: {
             def: 281,
             spd: 98,
@@ -36805,6 +61850,7 @@ window.rumble = {
         }
     },
     3255: {
+        festCost: 30,
         festStats: {
             def: 281,
             spd: 98,
@@ -36843,6 +61889,7 @@ window.rumble = {
         }
     },
     3256: {
+        festCost: 30,
         festStats: {
             def: 106,
             spd: 172,
@@ -36881,6 +61928,7 @@ window.rumble = {
         }
     },
     3257: {
+        festCost: 30,
         festStats: {
             def: 106,
             spd: 172,
@@ -36919,6 +61967,7 @@ window.rumble = {
         }
     },
     3258: {
+        festCost: 30,
         festStats: {
             def: 164,
             spd: 134,
@@ -36957,6 +62006,7 @@ window.rumble = {
         }
     },
     3259: {
+        festCost: 30,
         festStats: {
             def: 164,
             spd: 134,
@@ -36995,6 +62045,7 @@ window.rumble = {
         }
     },
     3260: {
+        festCost: 30,
         festStats: {
             def: 184,
             spd: 135,
@@ -37033,6 +62084,7 @@ window.rumble = {
         }
     },
     3261: {
+        festCost: 30,
         festStats: {
             def: 184,
             spd: 135,
@@ -37070,7 +62122,118 @@ window.rumble = {
             }
         }
     },
+    3262: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3263: {
+        festCost: 50,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3264: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3265: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3266: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3267: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3268: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3269: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3270: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3271: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3272: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3273: {
+        festCost: 35,
         festStats: {
             def: 124,
             spd: 181,
@@ -37108,7 +62271,18 @@ window.rumble = {
             }
         }
     },
+    3274: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3275: {
+        festCost: 55,
         festStats: {
             def: 125,
             spd: 193,
@@ -37192,6 +62366,7 @@ window.rumble = {
         }
     },
     3276: {
+        festCost: 35,
         festStats: {
             def: 118,
             spd: 170,
@@ -37230,6 +62405,7 @@ window.rumble = {
         }
     },
     3277: {
+        festCost: 55,
         festStats: {
             def: 180,
             spd: 175,
@@ -37290,6 +62466,7 @@ window.rumble = {
         }
     },
     3278: {
+        festCost: 55,
         festStats: {
             def: 180,
             spd: 175,
@@ -37350,6 +62527,7 @@ window.rumble = {
         }
     },
     3279: {
+        festCost: 55,
         festStats: {
             def: 216,
             spd: 142,
@@ -37410,6 +62588,7 @@ window.rumble = {
         }
     },
     3280: {
+        festCost: 55,
         festStats: {
             def: 216,
             spd: 142,
@@ -37470,6 +62649,7 @@ window.rumble = {
         }
     },
     3281: {
+        festCost: 55,
         festStats: {
             def: 202,
             spd: 125,
@@ -37530,6 +62710,7 @@ window.rumble = {
         }
     },
     3282: {
+        festCost: 55,
         festStats: {
             def: 202,
             spd: 125,
@@ -37590,6 +62771,7 @@ window.rumble = {
         }
     },
     3283: {
+        festCost: 30,
         festStats: {
             def: 119,
             spd: 126,
@@ -37628,6 +62810,7 @@ window.rumble = {
         }
     },
     3284: {
+        festCost: 30,
         festStats: {
             def: 135,
             spd: 138,
@@ -37666,6 +62849,7 @@ window.rumble = {
         }
     },
     3285: {
+        festCost: 35,
         festStats: {
             def: 302,
             spd: 117,
@@ -37704,6 +62888,7 @@ window.rumble = {
         }
     },
     3286: {
+        festCost: 30,
         festStats: {
             def: 120,
             spd: 169,
@@ -37742,6 +62927,7 @@ window.rumble = {
         }
     },
     3287: {
+        festCost: 30,
         festStats: {
             def: 203,
             spd: 134,
@@ -37779,7 +62965,48 @@ window.rumble = {
             }
         }
     },
+    3288: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3289: {
+        festCost: 50,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3290: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3291: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3292: {
+        festCost: 20,
         festStats: {
             def: 126,
             spd: 202,
@@ -37840,7 +63067,48 @@ window.rumble = {
             }
         }
     },
+    3293: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3294: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3295: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3296: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3297: {
+        festCost: 35,
         festStats: {
             def: 149,
             spd: 139,
@@ -37879,6 +63147,7 @@ window.rumble = {
         }
     },
     3298: {
+        festCost: 55,
         festStats: {
             def: 191,
             spd: 172,
@@ -37962,6 +63231,7 @@ window.rumble = {
         }
     },
     3299: {
+        festCost: 55,
         festStats: {
             def: 295,
             spd: 125,
@@ -38022,6 +63292,7 @@ window.rumble = {
         }
     },
     3300: {
+        festCost: 55,
         festStats: {
             def: 295,
             spd: 125,
@@ -38081,7 +63352,28 @@ window.rumble = {
             }
         }
     },
+    3301: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3302: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3303: {
+        festCost: 35,
         festStats: {
             def: 157,
             spd: 159,
@@ -38120,6 +63412,7 @@ window.rumble = {
         }
     },
     3304: {
+        festCost: 30,
         festStats: {
             def: 95,
             spd: 224,
@@ -38158,6 +63451,7 @@ window.rumble = {
         }
     },
     3305: {
+        festCost: 30,
         festStats: {
             def: 300,
             spd: 124,
@@ -38196,6 +63490,7 @@ window.rumble = {
         }
     },
     3306: {
+        festCost: 55,
         festStats: {
             def: 175,
             spd: 184,
@@ -38256,6 +63551,7 @@ window.rumble = {
         }
     },
     3307: {
+        festCost: 55,
         festStats: {
             def: 175,
             spd: 184,
@@ -38339,6 +63635,7 @@ window.rumble = {
         }
     },
     3308: {
+        festCost: 30,
         festStats: {
             def: 133,
             spd: 128,
@@ -38377,6 +63674,7 @@ window.rumble = {
         }
     },
     3309: {
+        festCost: 30,
         festStats: {
             def: 255,
             spd: 104,
@@ -38415,6 +63713,7 @@ window.rumble = {
         }
     },
     3310: {
+        festCost: 30,
         festStats: {
             def: 200,
             spd: 124,
@@ -38452,7 +63751,18 @@ window.rumble = {
             }
         }
     },
+    3311: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3328: {
+        festCost: 20,
         festStats: {
             def: 202,
             spd: 151,
@@ -38513,7 +63823,18 @@ window.rumble = {
             }
         }
     },
+    3329: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3332: {
+        festCost: 35,
         festStats: {
             def: 171,
             spd: 168,
@@ -38552,6 +63873,7 @@ window.rumble = {
         }
     },
     3333: {
+        festCost: 55,
         festStats: {
             def: 124,
             spd: 201,
@@ -38612,6 +63934,7 @@ window.rumble = {
         }
     },
     3334: {
+        festCost: 55,
         festStats: {
             def: 124,
             spd: 201,
@@ -38672,6 +63995,7 @@ window.rumble = {
         }
     },
     3335: {
+        festCost: 55,
         festStats: {
             def: 220,
             spd: 130,
@@ -38732,6 +64056,7 @@ window.rumble = {
         }
     },
     3336: {
+        festCost: 55,
         festStats: {
             def: 220,
             spd: 130,
@@ -38792,6 +64117,7 @@ window.rumble = {
         }
     },
     3337: {
+        festCost: 55,
         festStats: {
             def: 155,
             spd: 178,
@@ -38852,6 +64178,7 @@ window.rumble = {
         }
     },
     3338: {
+        festCost: 55,
         festStats: {
             def: 155,
             spd: 178,
@@ -38934,6 +64261,7 @@ window.rumble = {
         }
     },
     3339: {
+        festCost: 35,
         festStats: {
             def: 158,
             spd: 143,
@@ -38971,7 +64299,38 @@ window.rumble = {
             }
         }
     },
+    3340: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3341: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3342: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3343: {
+        festCost: 30,
         festStats: {
             def: 129,
             spd: 145,
@@ -39010,6 +64369,7 @@ window.rumble = {
         }
     },
     3344: {
+        festCost: 30,
         festStats: {
             def: 107,
             spd: 156,
@@ -39048,6 +64408,7 @@ window.rumble = {
         }
     },
     3345: {
+        festCost: 30,
         festStats: {
             def: 136,
             spd: 143,
@@ -39086,6 +64447,7 @@ window.rumble = {
         }
     },
     3346: {
+        festCost: 30,
         festStats: {
             def: 177,
             spd: 162,
@@ -39123,7 +64485,18 @@ window.rumble = {
             }
         }
     },
+    3347: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3348: {
+        festCost: 55,
         festStats: {
             def: 136,
             spd: 208,
@@ -39184,6 +64557,7 @@ window.rumble = {
         }
     },
     3349: {
+        festCost: 55,
         festStats: {
             def: 136,
             spd: 208,
@@ -39244,6 +64618,7 @@ window.rumble = {
         }
     },
     3350: {
+        festCost: 55,
         festStats: {
             def: 153,
             spd: 154,
@@ -39327,6 +64702,7 @@ window.rumble = {
         }
     },
     3351: {
+        festCost: 35,
         festStats: {
             def: 190,
             spd: 155,
@@ -39365,6 +64741,7 @@ window.rumble = {
         }
     },
     3352: {
+        festCost: 20,
         festStats: {
             def: 190,
             spd: 155,
@@ -39403,6 +64780,7 @@ window.rumble = {
         }
     },
     3353: {
+        festCost: 30,
         festStats: {
             def: 122,
             spd: 136,
@@ -39442,6 +64820,7 @@ window.rumble = {
     },
     3354: {
         character1: {
+            festCost: 55,
             festStats: {
                 def: 295,
                 spd: 103,
@@ -39480,6 +64859,7 @@ window.rumble = {
             }
         },
         character2: {
+            festCost: 55,
             festStats: {
                 def: 217,
                 spd: 132,
@@ -39520,6 +64900,7 @@ window.rumble = {
     },
     3355: {
         character1: {
+            festCost: 55,
             festStats: {
                 def: 295,
                 spd: 103,
@@ -39558,6 +64939,7 @@ window.rumble = {
             }
         },
         character2: {
+            festCost: 55,
             festStats: {
                 def: 217,
                 spd: 132,
@@ -39597,6 +64979,7 @@ window.rumble = {
         }
     },
     3356: {
+        festCost: 55,
         festStats: {
             def: 111,
             spd: 152,
@@ -39657,6 +65040,7 @@ window.rumble = {
         }
     },
     3357: {
+        festCost: 55,
         festStats: {
             def: 111,
             spd: 152,
@@ -39717,6 +65101,7 @@ window.rumble = {
         }
     },
     3358: {
+        festCost: 30,
         festStats: {
             def: 131,
             spd: 143,
@@ -39755,6 +65140,7 @@ window.rumble = {
         }
     },
     3359: {
+        festCost: 30,
         festStats: {
             def: 96,
             spd: 153,
@@ -39793,6 +65179,7 @@ window.rumble = {
         }
     },
     3360: {
+        festCost: 30,
         festStats: {
             def: 113,
             spd: 147,
@@ -39830,7 +65217,18 @@ window.rumble = {
             }
         }
     },
+    3361: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3362: {
+        festCost: 20,
         festStats: {
             def: 174,
             spd: 172,
@@ -39892,6 +65290,7 @@ window.rumble = {
         }
     },
     3363: {
+        festCost: 55,
         festStats: {
             def: 161,
             spd: 189,
@@ -39952,6 +65351,7 @@ window.rumble = {
         }
     },
     3364: {
+        festCost: 55,
         festStats: {
             def: 161,
             spd: 189,
@@ -40012,6 +65412,7 @@ window.rumble = {
         }
     },
     3365: {
+        festCost: 30,
         festStats: {
             def: 110,
             spd: 167,
@@ -40050,6 +65451,7 @@ window.rumble = {
         }
     },
     3366: {
+        festCost: 30,
         festStats: {
             def: 115,
             spd: 130,
@@ -40088,6 +65490,7 @@ window.rumble = {
         }
     },
     3367: {
+        festCost: 30,
         festStats: {
             def: 107,
             spd: 128,
@@ -40126,6 +65529,7 @@ window.rumble = {
         }
     },
     3368: {
+        festCost: 35,
         festStats: {
             def: 126,
             spd: 161,
@@ -40164,6 +65568,7 @@ window.rumble = {
         }
     },
     3369: {
+        festCost: 55,
         festStats: {
             def: 153,
             spd: 187,
@@ -40224,6 +65629,7 @@ window.rumble = {
         }
     },
     3370: {
+        festCost: 30,
         festStats: {
             def: 132,
             spd: 128,
@@ -40262,6 +65668,7 @@ window.rumble = {
         }
     },
     3371: {
+        festCost: 30,
         festStats: {
             def: 132,
             spd: 129,
@@ -40300,6 +65707,7 @@ window.rumble = {
         }
     },
     3372: {
+        festCost: 30,
         festStats: {
             def: 259,
             spd: 92,
@@ -40338,6 +65746,7 @@ window.rumble = {
         }
     },
     3373: {
+        festCost: 35,
         festStats: {
             def: 138,
             spd: 145,
@@ -40376,6 +65785,7 @@ window.rumble = {
         }
     },
     3374: {
+        festCost: 35,
         festStats: {
             def: 132,
             spd: 168,
@@ -40414,6 +65824,7 @@ window.rumble = {
         }
     },
     3375: {
+        festCost: 55,
         festStats: {
             def: 123,
             spd: 190,
@@ -40474,6 +65885,7 @@ window.rumble = {
         }
     },
     3376: {
+        festCost: 55,
         festStats: {
             def: 123,
             spd: 190,
@@ -40534,6 +65946,7 @@ window.rumble = {
         }
     },
     3377: {
+        festCost: 55,
         festStats: {
             def: 288,
             spd: 117,
@@ -40594,6 +66007,7 @@ window.rumble = {
         }
     },
     3378: {
+        festCost: 55,
         festStats: {
             def: 288,
             spd: 117,
@@ -40654,6 +66068,7 @@ window.rumble = {
         }
     },
     3380: {
+        festCost: 30,
         festStats: {
             def: 123,
             spd: 151,
@@ -40692,6 +66107,7 @@ window.rumble = {
         }
     },
     3381: {
+        festCost: 30,
         festStats: {
             def: 140,
             spd: 136,
@@ -40730,6 +66146,7 @@ window.rumble = {
         }
     },
     3382: {
+        festCost: 30,
         festStats: {
             def: 124,
             spd: 180,
@@ -40767,7 +66184,48 @@ window.rumble = {
             }
         }
     },
+    3385: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3386: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3387: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3388: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3389: {
+        festCost: 35,
         festStats: {
             def: 165,
             spd: 113,
@@ -40806,6 +66264,7 @@ window.rumble = {
         }
     },
     3390: {
+        festCost: 55,
         festStats: {
             def: 129,
             spd: 152,
@@ -40866,6 +66325,7 @@ window.rumble = {
         }
     },
     3391: {
+        festCost: 55,
         festStats: {
             def: 129,
             spd: 152,
@@ -40925,7 +66385,18 @@ window.rumble = {
             }
         }
     },
+    3392: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3393: {
+        festCost: 55,
         festStats: {
             def: 149,
             spd: 197,
@@ -41009,6 +66480,7 @@ window.rumble = {
         }
     },
     3394: {
+        festCost: 35,
         festStats: {
             def: 165,
             spd: 157,
@@ -41047,6 +66519,7 @@ window.rumble = {
         }
     },
     3395: {
+        festCost: 20,
         festStats: {
             def: 214,
             spd: 143,
@@ -41108,6 +66581,7 @@ window.rumble = {
         }
     },
     3396: {
+        festCost: 35,
         festStats: {
             def: 123,
             spd: 198,
@@ -41146,6 +66620,7 @@ window.rumble = {
         }
     },
     3397: {
+        festCost: 20,
         festStats: {
             def: 190,
             spd: 162,
@@ -41184,6 +66659,7 @@ window.rumble = {
         }
     },
     3398: {
+        festCost: 55,
         festStats: {
             def: 161,
             spd: 189,
@@ -41244,6 +66720,7 @@ window.rumble = {
         }
     },
     3399: {
+        festCost: 30,
         festStats: {
             def: 145,
             spd: 143,
@@ -41282,6 +66759,7 @@ window.rumble = {
         }
     },
     3400: {
+        festCost: 30,
         festStats: {
             def: 142,
             spd: 146,
@@ -41320,6 +66798,7 @@ window.rumble = {
         }
     },
     3401: {
+        festCost: 30,
         festStats: {
             def: 146,
             spd: 142,
@@ -41358,6 +66837,7 @@ window.rumble = {
         }
     },
     3402: {
+        festCost: 55,
         festStats: {
             def: 220,
             spd: 144,
@@ -41418,6 +66898,7 @@ window.rumble = {
         }
     },
     3403: {
+        festCost: 55,
         festStats: {
             def: 220,
             spd: 144,
@@ -41478,6 +66959,7 @@ window.rumble = {
         }
     },
     3404: {
+        festCost: 55,
         festStats: {
             def: 157,
             spd: 171,
@@ -41538,6 +67020,7 @@ window.rumble = {
         }
     },
     3405: {
+        festCost: 55,
         festStats: {
             def: 157,
             spd: 171,
@@ -41598,6 +67081,7 @@ window.rumble = {
         }
     },
     3406: {
+        festCost: 30,
         festStats: {
             def: 146,
             spd: 131,
@@ -41636,6 +67120,7 @@ window.rumble = {
         }
     },
     3407: {
+        festCost: 30,
         festStats: {
             def: 105,
             spd: 175,
@@ -41673,7 +67158,18 @@ window.rumble = {
             }
         }
     },
+    3408: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3409: {
+        festCost: 20,
         festStats: {
             def: 205,
             spd: 150,
@@ -41735,6 +67231,7 @@ window.rumble = {
         }
     },
     3410: {
+        festCost: 20,
         festStats: {
             def: 162,
             spd: 195,
@@ -41795,6 +67292,7 @@ window.rumble = {
         }
     },
     3411: {
+        festCost: 20,
         festStats: {
             def: 162,
             spd: 195,
@@ -41854,7 +67352,38 @@ window.rumble = {
             }
         }
     },
+    3412: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3413: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3414: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3415: {
+        festCost: 35,
         festStats: {
             def: 295,
             spd: 119,
@@ -41893,6 +67422,7 @@ window.rumble = {
         }
     },
     3416: {
+        festCost: 35,
         festStats: {
             def: 150,
             spd: 171,
@@ -41931,6 +67461,7 @@ window.rumble = {
         }
     },
     3417: {
+        festCost: 55,
         festStats: {
             def: 145,
             spd: 199,
@@ -42013,7 +67544,18 @@ window.rumble = {
             }
         }
     },
+    3418: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3419: {
+        festCost: 35,
         festStats: {
             def: 156,
             spd: 145,
@@ -42051,7 +67593,18 @@ window.rumble = {
             }
         }
     },
+    3420: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3421: {
+        festCost: 55,
         festStats: {
             def: 167,
             spd: 181,
@@ -42112,6 +67665,7 @@ window.rumble = {
         }
     },
     3422: {
+        festCost: 55,
         festStats: {
             def: 167,
             spd: 181,
@@ -42172,6 +67726,7 @@ window.rumble = {
         }
     },
     3423: {
+        festCost: 30,
         festStats: {
             def: 198,
             spd: 138,
@@ -42210,6 +67765,7 @@ window.rumble = {
         }
     },
     3424: {
+        festCost: 30,
         festStats: {
             def: 142,
             spd: 149,
@@ -42248,6 +67804,7 @@ window.rumble = {
         }
     },
     3425: {
+        festCost: 30,
         festStats: {
             def: 195,
             spd: 125,
@@ -42286,6 +67843,7 @@ window.rumble = {
         }
     },
     3426: {
+        festCost: 20,
         festStats: {
             def: 187,
             spd: 119,
@@ -42346,6 +67904,7 @@ window.rumble = {
         }
     },
     3427: {
+        festCost: 20,
         festStats: {
             def: 187,
             spd: 119,
@@ -42406,6 +67965,7 @@ window.rumble = {
         }
     },
     3428: {
+        festCost: 20,
         festStats: {
             def: 134,
             spd: 172,
@@ -42467,6 +68027,7 @@ window.rumble = {
         }
     },
     3429: {
+        festCost: 55,
         festStats: {
             def: 163,
             spd: 186,
@@ -42550,6 +68111,7 @@ window.rumble = {
         }
     },
     3430: {
+        festCost: 55,
         festStats: {
             def: 188,
             spd: 191,
@@ -42633,6 +68195,7 @@ window.rumble = {
         }
     },
     3431: {
+        festCost: 30,
         festStats: {
             def: 191,
             spd: 117,
@@ -42671,6 +68234,7 @@ window.rumble = {
         }
     },
     3432: {
+        festCost: 55,
         festStats: {
             def: 181,
             spd: 184,
@@ -42731,6 +68295,7 @@ window.rumble = {
         }
     },
     3433: {
+        festCost: 55,
         festStats: {
             def: 181,
             spd: 184,
@@ -42791,6 +68356,7 @@ window.rumble = {
         }
     },
     3434: {
+        festCost: 30,
         festStats: {
             def: 124,
             spd: 137,
@@ -42829,6 +68395,7 @@ window.rumble = {
         }
     },
     3435: {
+        festCost: 30,
         festStats: {
             def: 138,
             spd: 136,
@@ -42867,6 +68434,7 @@ window.rumble = {
         }
     },
     3436: {
+        festCost: 30,
         festStats: {
             def: 160,
             spd: 165,
@@ -42905,6 +68473,7 @@ window.rumble = {
         }
     },
     3438: {
+        festCost: 35,
         festStats: {
             def: 195,
             spd: 150,
@@ -42943,6 +68512,7 @@ window.rumble = {
         }
     },
     3439: {
+        festCost: 30,
         festStats: {
             def: 146,
             spd: 163,
@@ -42981,6 +68551,7 @@ window.rumble = {
         }
     },
     3440: {
+        festCost: 30,
         festStats: {
             def: 145,
             spd: 164,
@@ -43019,6 +68590,7 @@ window.rumble = {
         }
     },
     3441: {
+        festCost: 30,
         festStats: {
             def: 116,
             spd: 132,
@@ -43057,6 +68629,7 @@ window.rumble = {
         }
     },
     3442: {
+        festCost: 30,
         festStats: {
             def: 150,
             spd: 128,
@@ -43095,6 +68668,7 @@ window.rumble = {
         }
     },
     3443: {
+        festCost: 35,
         festStats: {
             def: 124,
             spd: 181,
@@ -43133,6 +68707,7 @@ window.rumble = {
         }
     },
     3444: {
+        festCost: 35,
         festStats: {
             def: 289,
             spd: 112,
@@ -43171,6 +68746,7 @@ window.rumble = {
         }
     },
     3445: {
+        festCost: 30,
         festStats: {
             def: 111,
             spd: 165,
@@ -43209,6 +68785,7 @@ window.rumble = {
         }
     },
     3446: {
+        festCost: 30,
         festStats: {
             def: 133,
             spd: 140,
@@ -43247,6 +68824,7 @@ window.rumble = {
         }
     },
     3447: {
+        festCost: 30,
         festStats: {
             def: 261,
             spd: 101,
@@ -43285,6 +68863,7 @@ window.rumble = {
         }
     },
     3448: {
+        festCost: 55,
         festStats: {
             def: 301,
             spd: 138,
@@ -43368,6 +68947,7 @@ window.rumble = {
         }
     },
     3449: {
+        festCost: 35,
         festStats: {
             def: 206,
             spd: 142,
@@ -43406,6 +68986,7 @@ window.rumble = {
         }
     },
     3450: {
+        festCost: 20,
         festStats: {
             def: 206,
             spd: 142,
@@ -43444,6 +69025,7 @@ window.rumble = {
         }
     },
     3451: {
+        festCost: 55,
         festStats: {
             def: 124,
             spd: 174,
@@ -43504,6 +69086,7 @@ window.rumble = {
         }
     },
     3452: {
+        festCost: 55,
         festStats: {
             def: 124,
             spd: 174,
@@ -43564,6 +69147,7 @@ window.rumble = {
         }
     },
     3453: {
+        festCost: 55,
         festStats: {
             def: 102,
             spd: 183,
@@ -43624,6 +69208,7 @@ window.rumble = {
         }
     },
     3454: {
+        festCost: 55,
         festStats: {
             def: 102,
             spd: 183,
@@ -43707,6 +69292,7 @@ window.rumble = {
         }
     },
     3455: {
+        festCost: 30,
         festStats: {
             def: 120,
             spd: 125,
@@ -43745,6 +69331,7 @@ window.rumble = {
         }
     },
     3456: {
+        festCost: 30,
         festStats: {
             def: 105,
             spd: 158,
@@ -43783,6 +69370,7 @@ window.rumble = {
         }
     },
     3457: {
+        festCost: 30,
         festStats: {
             def: 144,
             spd: 144,
@@ -43821,6 +69409,7 @@ window.rumble = {
         }
     },
     3458: {
+        festCost: 20,
         festStats: {
             def: 138,
             spd: 184,
@@ -43882,6 +69471,7 @@ window.rumble = {
         }
     },
     3459: {
+        festCost: 20,
         festStats: {
             def: 128,
             spd: 162,
@@ -43942,7 +69532,18 @@ window.rumble = {
             }
         }
     },
+    3460: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3461: {
+        festCost: 55,
         festStats: {
             def: 125,
             spd: 187,
@@ -44003,6 +69604,7 @@ window.rumble = {
         }
     },
     3462: {
+        festCost: 55,
         festStats: {
             def: 125,
             spd: 187,
@@ -44062,7 +69664,28 @@ window.rumble = {
             }
         }
     },
+    3463: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3464: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3465: {
+        festCost: 30,
         festStats: {
             def: 116,
             spd: 157,
@@ -44101,6 +69724,7 @@ window.rumble = {
         }
     },
     3466: {
+        festCost: 35,
         festStats: {
             def: 163,
             spd: 172,
@@ -44139,6 +69763,7 @@ window.rumble = {
         }
     },
     3467: {
+        festCost: 35,
         festStats: {
             def: 145,
             spd: 158,
@@ -44177,6 +69802,7 @@ window.rumble = {
         }
     },
     3468: {
+        festCost: 30,
         festStats: {
             def: 114,
             spd: 134,
@@ -44215,6 +69841,7 @@ window.rumble = {
         }
     },
     3469: {
+        festCost: 55,
         festStats: {
             def: 154,
             spd: 156,
@@ -44276,6 +69903,7 @@ window.rumble = {
         }
     },
     3470: {
+        festCost: 35,
         festStats: {
             def: 128,
             spd: 174,
@@ -44314,6 +69942,7 @@ window.rumble = {
         }
     },
     3471: {
+        festCost: 55,
         festStats: {
             def: 98,
             spd: 192,
@@ -44352,6 +69981,7 @@ window.rumble = {
         }
     },
     3472: {
+        festCost: 55,
         festStats: {
             def: 98,
             spd: 192,
@@ -44412,6 +70042,7 @@ window.rumble = {
         }
     },
     3473: {
+        festCost: 55,
         festStats: {
             def: 146,
             spd: 163,
@@ -44472,6 +70103,7 @@ window.rumble = {
         }
     },
     3474: {
+        festCost: 55,
         festStats: {
             def: 146,
             spd: 163,
@@ -44532,6 +70164,7 @@ window.rumble = {
         }
     },
     3475: {
+        festCost: 30,
         festStats: {
             def: 103,
             spd: 132,
@@ -44570,6 +70203,7 @@ window.rumble = {
         }
     },
     3476: {
+        festCost: 30,
         festStats: {
             def: 142,
             spd: 153,
@@ -44608,6 +70242,7 @@ window.rumble = {
         }
     },
     3477: {
+        festCost: 30,
         festStats: {
             def: 203,
             spd: 149,
@@ -44645,7 +70280,18 @@ window.rumble = {
             }
         }
     },
+    3479: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3480: {
+        festCost: 20,
         festStats: {
             def: 209,
             spd: 165,
@@ -44707,6 +70353,7 @@ window.rumble = {
         }
     },
     3481: {
+        festCost: 30,
         festStats: {
             def: 156,
             spd: 169,
@@ -44745,6 +70392,7 @@ window.rumble = {
         }
     },
     3482: {
+        festCost: 55,
         festStats: {
             def: 124,
             spd: 189,
@@ -44805,6 +70453,7 @@ window.rumble = {
         }
     },
     3483: {
+        festCost: 55,
         festStats: {
             def: 124,
             spd: 189,
@@ -44864,7 +70513,28 @@ window.rumble = {
             }
         }
     },
+    3484: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3485: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3486: {
+        festCost: 35,
         festStats: {
             def: 168,
             spd: 171,
@@ -44903,6 +70573,7 @@ window.rumble = {
         }
     },
     3487: {
+        festCost: 30,
         festStats: {
             def: 151,
             spd: 156,
@@ -44941,6 +70612,7 @@ window.rumble = {
         }
     },
     3488: {
+        festCost: 30,
         festStats: {
             def: 98,
             spd: 207,
@@ -44979,6 +70651,7 @@ window.rumble = {
         }
     },
     3489: {
+        festCost: 35,
         festStats: {
             def: 196,
             spd: 135,
@@ -45017,6 +70690,7 @@ window.rumble = {
         }
     },
     3490: {
+        festCost: 20,
         festStats: {
             def: 196,
             spd: 135,
@@ -45055,6 +70729,7 @@ window.rumble = {
         }
     },
     3491: {
+        festCost: 35,
         festStats: {
             def: 186,
             spd: 145,
@@ -45093,6 +70768,7 @@ window.rumble = {
         }
     },
     3492: {
+        festCost: 55,
         festStats: {
             def: 160,
             spd: 181,
@@ -45153,6 +70829,7 @@ window.rumble = {
         }
     },
     3493: {
+        festCost: 55,
         festStats: {
             def: 160,
             spd: 181,
@@ -45213,6 +70890,7 @@ window.rumble = {
         }
     },
     3494: {
+        festCost: 55,
         festStats: {
             def: 295,
             spd: 138,
@@ -45273,6 +70951,7 @@ window.rumble = {
         }
     },
     3495: {
+        festCost: 55,
         festStats: {
             def: 295,
             spd: 138,
@@ -45333,6 +71012,7 @@ window.rumble = {
         }
     },
     3496: {
+        festCost: 30,
         festStats: {
             def: 113,
             spd: 149,
@@ -45371,6 +71051,7 @@ window.rumble = {
         }
     },
     3497: {
+        festCost: 30,
         festStats: {
             def: 105,
             spd: 175,
@@ -45409,6 +71090,7 @@ window.rumble = {
         }
     },
     3498: {
+        festCost: 30,
         festStats: {
             def: 197,
             spd: 137,
@@ -45446,7 +71128,28 @@ window.rumble = {
             }
         }
     },
+    3499: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3500: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3501: {
+        festCost: 20,
         festStats: {
             def: 161,
             spd: 147,
@@ -45507,7 +71210,38 @@ window.rumble = {
             }
         }
     },
+    3502: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3503: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3504: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3505: {
+        festCost: 35,
         festStats: {
             def: 115,
             spd: 158,
@@ -45546,6 +71280,7 @@ window.rumble = {
         }
     },
     3506: {
+        festCost: 35,
         festStats: {
             def: 153,
             spd: 167,
@@ -45584,6 +71319,7 @@ window.rumble = {
         }
     },
     3507: {
+        festCost: 55,
         festStats: {
             def: 209,
             spd: 184,
@@ -45644,6 +71380,7 @@ window.rumble = {
         }
     },
     3508: {
+        festCost: 55,
         festStats: {
             def: 209,
             spd: 184,
@@ -45704,6 +71441,7 @@ window.rumble = {
         }
     },
     3509: {
+        festCost: 30,
         festStats: {
             def: 153,
             spd: 153,
@@ -45742,6 +71480,7 @@ window.rumble = {
         }
     },
     3510: {
+        festCost: 55,
         festStats: {
             def: 129,
             spd: 139,
@@ -45825,6 +71564,7 @@ window.rumble = {
         }
     },
     3511: {
+        festCost: 35,
         festStats: {
             def: 169,
             spd: 170,
@@ -45863,6 +71603,7 @@ window.rumble = {
         }
     },
     3512: {
+        festCost: 55,
         festStats: {
             def: 208,
             spd: 204,
@@ -45923,6 +71664,7 @@ window.rumble = {
         }
     },
     3513: {
+        festCost: 55,
         festStats: {
             def: 208,
             spd: 204,
@@ -45983,6 +71725,7 @@ window.rumble = {
         }
     },
     3514: {
+        festCost: 55,
         festStats: {
             def: 175,
             spd: 248,
@@ -46043,6 +71786,7 @@ window.rumble = {
         }
     },
     3515: {
+        festCost: 55,
         festStats: {
             def: 175,
             spd: 248,
@@ -46103,6 +71847,7 @@ window.rumble = {
         }
     },
     3516: {
+        festCost: 30,
         festStats: {
             def: 178,
             spd: 124,
@@ -46141,6 +71886,7 @@ window.rumble = {
         }
     },
     3517: {
+        festCost: 30,
         festStats: {
             def: 217,
             spd: 119,
@@ -46179,6 +71925,7 @@ window.rumble = {
         }
     },
     3518: {
+        festCost: 30,
         festStats: {
             def: 151,
             spd: 175,
@@ -46217,6 +71964,7 @@ window.rumble = {
         }
     },
     3519: {
+        festCost: 55,
         festStats: {
             def: 150,
             spd: 226,
@@ -46300,6 +72048,7 @@ window.rumble = {
         }
     },
     3520: {
+        festCost: 30,
         festStats: {
             def: 272,
             spd: 119,
@@ -46338,6 +72087,7 @@ window.rumble = {
         }
     },
     3521: {
+        festCost: 20,
         festStats: {
             def: 166,
             spd: 163,
@@ -46399,6 +72149,7 @@ window.rumble = {
         }
     },
     3522: {
+        festCost: 55,
         festStats: {
             def: 159,
             spd: 199,
@@ -46459,6 +72210,7 @@ window.rumble = {
         }
     },
     3523: {
+        festCost: 55,
         festStats: {
             def: 159,
             spd: 199,
@@ -46518,7 +72270,28 @@ window.rumble = {
             }
         }
     },
+    3524: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3525: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3526: {
+        festCost: 35,
         festStats: {
             def: 163,
             spd: 159,
@@ -46557,6 +72330,7 @@ window.rumble = {
         }
     },
     3527: {
+        festCost: 35,
         festStats: {
             def: 100,
             spd: 178,
@@ -46595,6 +72369,7 @@ window.rumble = {
         }
     },
     3528: {
+        festCost: 30,
         festStats: {
             def: 127,
             spd: 201,
@@ -46633,6 +72408,7 @@ window.rumble = {
         }
     },
     3529: {
+        festCost: 30,
         festStats: {
             def: 130,
             spd: 176,
@@ -46670,7 +72446,18 @@ window.rumble = {
             }
         }
     },
+    3530: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3531: {
+        festCost: 35,
         festStats: {
             def: 193,
             spd: 153,
@@ -46709,6 +72496,7 @@ window.rumble = {
         }
     },
     3532: {
+        festCost: 20,
         festStats: {
             def: 193,
             spd: 153,
@@ -46747,6 +72535,7 @@ window.rumble = {
         }
     },
     3533: {
+        festCost: 55,
         festStats: {
             def: 211,
             spd: 150,
@@ -46807,6 +72596,7 @@ window.rumble = {
         }
     },
     3534: {
+        festCost: 55,
         festStats: {
             def: 211,
             spd: 150,
@@ -46867,6 +72657,7 @@ window.rumble = {
         }
     },
     3535: {
+        festCost: 55,
         festStats: {
             def: 189,
             spd: 168,
@@ -46927,6 +72718,7 @@ window.rumble = {
         }
     },
     3536: {
+        festCost: 55,
         festStats: {
             def: 189,
             spd: 168,
@@ -46987,6 +72779,7 @@ window.rumble = {
         }
     },
     3537: {
+        festCost: 30,
         festStats: {
             def: 249,
             spd: 107,
@@ -47025,6 +72818,7 @@ window.rumble = {
         }
     },
     3538: {
+        festCost: 30,
         festStats: {
             def: 112,
             spd: 164,
@@ -47063,6 +72857,7 @@ window.rumble = {
         }
     },
     3539: {
+        festCost: 30,
         festStats: {
             def: 164,
             spd: 145,
@@ -47100,7 +72895,18 @@ window.rumble = {
             }
         }
     },
+    3540: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3541: {
+        festCost: 20,
         festStats: {
             def: 182,
             spd: 165,
@@ -47162,6 +72968,7 @@ window.rumble = {
         }
     },
     3542: {
+        festCost: 55,
         festStats: {
             def: 178,
             spd: 216,
@@ -47222,6 +73029,7 @@ window.rumble = {
         }
     },
     3543: {
+        festCost: 55,
         festStats: {
             def: 178,
             spd: 216,
@@ -47281,7 +73089,28 @@ window.rumble = {
             }
         }
     },
+    3544: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3545: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3546: {
+        festCost: 35,
         festStats: {
             def: 177,
             spd: 146,
@@ -47320,6 +73149,7 @@ window.rumble = {
         }
     },
     3547: {
+        festCost: 35,
         festStats: {
             def: 139,
             spd: 164,
@@ -47358,6 +73188,7 @@ window.rumble = {
         }
     },
     3548: {
+        festCost: 30,
         festStats: {
             def: 131,
             spd: 175,
@@ -47396,6 +73227,7 @@ window.rumble = {
         }
     },
     3549: {
+        festCost: 30,
         festStats: {
             def: 170,
             spd: 171,
@@ -47434,6 +73266,7 @@ window.rumble = {
         }
     },
     3550: {
+        festCost: 55,
         festStats: {
             def: 193,
             spd: 184,
@@ -47517,6 +73350,7 @@ window.rumble = {
         }
     },
     3551: {
+        festCost: 35,
         festStats: {
             def: 132,
             spd: 151,
@@ -47555,6 +73389,7 @@ window.rumble = {
         }
     },
     3552: {
+        festCost: 55,
         festStats: {
             def: 167,
             spd: 214,
@@ -47615,6 +73450,7 @@ window.rumble = {
         }
     },
     3553: {
+        festCost: 55,
         festStats: {
             def: 167,
             spd: 214,
@@ -47675,6 +73511,7 @@ window.rumble = {
         }
     },
     3554: {
+        festCost: 55,
         festStats: {
             def: 234,
             spd: 180,
@@ -47735,6 +73572,7 @@ window.rumble = {
         }
     },
     3555: {
+        festCost: 55,
         festStats: {
             def: 234,
             spd: 180,
@@ -47795,6 +73633,7 @@ window.rumble = {
         }
     },
     3556: {
+        festCost: 30,
         festStats: {
             def: 148,
             spd: 146,
@@ -47833,6 +73672,7 @@ window.rumble = {
         }
     },
     3557: {
+        festCost: 30,
         festStats: {
             def: 130,
             spd: 143,
@@ -47871,6 +73711,7 @@ window.rumble = {
         }
     },
     3558: {
+        festCost: 30,
         festStats: {
             def: 142,
             spd: 148,
@@ -47909,6 +73750,7 @@ window.rumble = {
         }
     },
     3559: {
+        festCost: 30,
         festStats: {
             def: 141,
             spd: 162,
@@ -47947,6 +73789,7 @@ window.rumble = {
         }
     },
     3560: {
+        festCost: 30,
         festStats: {
             def: 158,
             spd: 167,
@@ -47985,6 +73828,7 @@ window.rumble = {
         }
     },
     3561: {
+        festCost: 20,
         festStats: {
             def: 133,
             spd: 191,
@@ -48046,6 +73890,7 @@ window.rumble = {
         }
     },
     3562: {
+        festCost: 55,
         festStats: {
             def: 121,
             spd: 193,
@@ -48106,6 +73951,7 @@ window.rumble = {
         }
     },
     3563: {
+        festCost: 55,
         festStats: {
             def: 121,
             spd: 193,
@@ -48165,7 +74011,28 @@ window.rumble = {
             }
         }
     },
+    3564: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3565: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3566: {
+        festCost: 20,
         festStats: {
             def: 236,
             spd: 146,
@@ -48227,6 +74094,7 @@ window.rumble = {
         }
     },
     3567: {
+        festCost: 35,
         festStats: {
             def: 117,
             spd: 191,
@@ -48265,6 +74133,7 @@ window.rumble = {
         }
     },
     3568: {
+        festCost: 30,
         festStats: {
             def: 132,
             spd: 173,
@@ -48303,6 +74172,7 @@ window.rumble = {
         }
     },
     3569: {
+        festCost: 30,
         festStats: {
             def: 170,
             spd: 171,
@@ -48340,7 +74210,18 @@ window.rumble = {
             }
         }
     },
+    3570: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3571: {
+        festCost: 35,
         festStats: {
             def: 283,
             spd: 125,
@@ -48379,6 +74260,7 @@ window.rumble = {
         }
     },
     3572: {
+        festCost: 20,
         festStats: {
             def: 283,
             spd: 125,
@@ -48417,6 +74299,7 @@ window.rumble = {
         }
     },
     3573: {
+        festCost: 55,
         festStats: {
             def: 360,
             spd: 131,
@@ -48477,6 +74360,7 @@ window.rumble = {
         }
     },
     3574: {
+        festCost: 55,
         festStats: {
             def: 360,
             spd: 131,
@@ -48537,6 +74421,7 @@ window.rumble = {
         }
     },
     3575: {
+        festCost: 55,
         festStats: {
             def: 127,
             spd: 199,
@@ -48597,6 +74482,7 @@ window.rumble = {
         }
     },
     3576: {
+        festCost: 55,
         festStats: {
             def: 127,
             spd: 199,
@@ -48657,6 +74543,7 @@ window.rumble = {
         }
     },
     3577: {
+        festCost: 30,
         festStats: {
             def: 110,
             spd: 136,
@@ -48695,6 +74582,7 @@ window.rumble = {
         }
     },
     3578: {
+        festCost: 30,
         festStats: {
             def: 110,
             spd: 167,
@@ -48733,6 +74621,7 @@ window.rumble = {
         }
     },
     3579: {
+        festCost: 30,
         festStats: {
             def: 160,
             spd: 148,
@@ -48770,7 +74659,18 @@ window.rumble = {
             }
         }
     },
+    3580: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3581: {
+        festCost: 20,
         festStats: {
             def: 295,
             spd: 114,
@@ -48831,6 +74731,7 @@ window.rumble = {
         }
     },
     3582: {
+        festCost: 20,
         festStats: {
             def: 295,
             spd: 114,
@@ -48891,6 +74792,7 @@ window.rumble = {
         }
     },
     3583: {
+        festCost: 20,
         festStats: {
             def: 183,
             spd: 164,
@@ -48951,7 +74853,38 @@ window.rumble = {
             }
         }
     },
+    3584: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3585: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3586: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3587: {
+        festCost: 35,
         festStats: {
             def: 154,
             spd: 161,
@@ -48990,6 +74923,7 @@ window.rumble = {
         }
     },
     3588: {
+        festCost: 35,
         festStats: {
             def: 191,
             spd: 155,
@@ -49028,6 +74962,7 @@ window.rumble = {
         }
     },
     3589: {
+        festCost: 55,
         festStats: {
             def: 195,
             spd: 159,
@@ -49088,6 +75023,7 @@ window.rumble = {
         }
     },
     3590: {
+        festCost: 55,
         festStats: {
             def: 195,
             spd: 159,
@@ -49147,7 +75083,18 @@ window.rumble = {
             }
         }
     },
+    3591: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3592: {
+        festCost: 55,
         festStats: {
             def: 193,
             spd: 202,
@@ -49231,6 +75178,7 @@ window.rumble = {
         }
     },
     3594: {
+        festCost: 55,
         festStats: {
             def: 174,
             spd: 157,
@@ -49291,6 +75239,7 @@ window.rumble = {
         }
     },
     3595: {
+        festCost: 55,
         festStats: {
             def: 174,
             spd: 157,
@@ -49351,6 +75300,7 @@ window.rumble = {
         }
     },
     3596: {
+        festCost: 55,
         festStats: {
             def: 237,
             spd: 137,
@@ -49411,6 +75361,7 @@ window.rumble = {
         }
     },
     3597: {
+        festCost: 55,
         festStats: {
             def: 237,
             spd: 137,
@@ -49471,6 +75422,7 @@ window.rumble = {
         }
     },
     3598: {
+        festCost: 30,
         festStats: {
             def: 172,
             spd: 128,
@@ -49509,6 +75461,7 @@ window.rumble = {
         }
     },
     3599: {
+        festCost: 30,
         festStats: {
             def: 114,
             spd: 134,
@@ -49547,6 +75500,7 @@ window.rumble = {
         }
     },
     3600: {
+        festCost: 30,
         festStats: {
             def: 185,
             spd: 119,
@@ -49585,6 +75539,7 @@ window.rumble = {
         }
     },
     3601: {
+        festCost: 30,
         festStats: {
             def: 165,
             spd: 176,
@@ -49623,6 +75578,7 @@ window.rumble = {
         }
     },
     3605: {
+        festCost: 20,
         festStats: {
             def: 159,
             spd: 161,
@@ -49661,6 +75617,7 @@ window.rumble = {
         }
     },
     3606: {
+        festCost: 55,
         festStats: {
             def: 162,
             spd: 187,
@@ -49721,6 +75678,7 @@ window.rumble = {
         }
     },
     3607: {
+        festCost: 55,
         festStats: {
             def: 162,
             spd: 187,
@@ -49781,6 +75739,7 @@ window.rumble = {
         }
     },
     3608: {
+        festCost: 55,
         festStats: {
             def: 225,
             spd: 159,
@@ -49841,6 +75800,7 @@ window.rumble = {
         }
     },
     3609: {
+        festCost: 55,
         festStats: {
             def: 225,
             spd: 159,
@@ -49901,6 +75861,7 @@ window.rumble = {
         }
     },
     3610: {
+        festCost: 55,
         festStats: {
             def: 177,
             spd: 217,
@@ -49961,6 +75922,7 @@ window.rumble = {
         }
     },
     3611: {
+        festCost: 55,
         festStats: {
             def: 177,
             spd: 217,
@@ -50021,6 +75983,7 @@ window.rumble = {
         }
     },
     3612: {
+        festCost: 55,
         festStats: {
             def: 146,
             spd: 164,
@@ -50081,6 +76044,7 @@ window.rumble = {
         }
     },
     3613: {
+        festCost: 55,
         festStats: {
             def: 146,
             spd: 164,
@@ -50182,6 +76146,7 @@ window.rumble = {
         }
     },
     3614: {
+        festCost: 30,
         festStats: {
             def: 150,
             spd: 159,
@@ -50220,6 +76185,7 @@ window.rumble = {
         }
     },
     3615: {
+        festCost: 30,
         festStats: {
             def: 144,
             spd: 165,
@@ -50258,6 +76224,7 @@ window.rumble = {
         }
     },
     3616: {
+        festCost: 30,
         festStats: {
             def: 191,
             spd: 117,
@@ -50296,6 +76263,7 @@ window.rumble = {
         }
     },
     3617: {
+        festCost: 30,
         festStats: {
             def: 145,
             spd: 134,
@@ -50334,6 +76302,7 @@ window.rumble = {
         }
     },
     3618: {
+        festCost: 30,
         festStats: {
             def: 173,
             spd: 128,
@@ -50372,6 +76341,7 @@ window.rumble = {
         }
     },
     3619: {
+        festCost: 30,
         festStats: {
             def: 165,
             spd: 176,
@@ -50410,6 +76380,7 @@ window.rumble = {
         }
     },
     3620: {
+        festCost: 20,
         festStats: {
             def: 190,
             spd: 181,
@@ -50448,6 +76419,7 @@ window.rumble = {
         }
     },
     3621: {
+        festCost: 35,
         festStats: {
             def: 122,
             spd: 183,
@@ -50485,7 +76457,38 @@ window.rumble = {
             }
         }
     },
+    3622: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3623: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3624: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3625: {
+        festCost: 55,
         festStats: {
             def: 193,
             spd: 184,
@@ -50569,6 +76572,7 @@ window.rumble = {
         }
     },
     3626: {
+        festCost: 35,
         festStats: {
             def: 206,
             spd: 157,
@@ -50607,6 +76611,7 @@ window.rumble = {
         }
     },
     3627: {
+        festCost: 20,
         festStats: {
             def: 206,
             spd: 157,
@@ -50645,6 +76650,7 @@ window.rumble = {
         }
     },
     3628: {
+        festCost: 55,
         festStats: {
             def: 157,
             spd: 194,
@@ -50705,6 +76711,7 @@ window.rumble = {
         }
     },
     3629: {
+        festCost: 55,
         festStats: {
             def: 157,
             spd: 194,
@@ -50765,6 +76772,7 @@ window.rumble = {
         }
     },
     3630: {
+        festCost: 55,
         festStats: {
             def: 188,
             spd: 169,
@@ -50825,6 +76833,7 @@ window.rumble = {
         }
     },
     3631: {
+        festCost: 55,
         festStats: {
             def: 188,
             spd: 169,
@@ -50885,6 +76894,7 @@ window.rumble = {
         }
     },
     3632: {
+        festCost: 30,
         festStats: {
             def: 132,
             spd: 128,
@@ -50923,6 +76933,7 @@ window.rumble = {
         }
     },
     3633: {
+        festCost: 30,
         festStats: {
             def: 178,
             spd: 139,
@@ -50961,6 +76972,7 @@ window.rumble = {
         }
     },
     3634: {
+        festCost: 30,
         festStats: {
             def: 163,
             spd: 162,
@@ -50998,7 +77010,18 @@ window.rumble = {
             }
         }
     },
+    3635: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3636: {
+        festCost: 20,
         festStats: {
             def: 152,
             spd: 157,
@@ -51059,6 +77082,7 @@ window.rumble = {
         }
     },
     3637: {
+        festCost: 20,
         festStats: {
             def: 152,
             spd: 157,
@@ -51119,6 +77143,7 @@ window.rumble = {
         }
     },
     3638: {
+        festCost: 20,
         festStats: {
             def: 293,
             spd: 125,
@@ -51180,6 +77205,7 @@ window.rumble = {
         }
     },
     3639: {
+        festCost: 20,
         festStats: {
             def: 162,
             spd: 185,
@@ -51241,6 +77267,7 @@ window.rumble = {
         }
     },
     3640: {
+        festCost: 55,
         festStats: {
             def: 170,
             spd: 146,
@@ -51301,6 +77328,7 @@ window.rumble = {
         }
     },
     3641: {
+        festCost: 55,
         festStats: {
             def: 170,
             spd: 146,
@@ -51360,7 +77388,28 @@ window.rumble = {
             }
         }
     },
+    3642: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3643: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3644: {
+        festCost: 35,
         festStats: {
             def: 163,
             spd: 157,
@@ -51399,6 +77448,7 @@ window.rumble = {
         }
     },
     3645: {
+        festCost: 35,
         festStats: {
             def: 166,
             spd: 143,
@@ -51436,7 +77486,28 @@ window.rumble = {
             }
         }
     },
+    3646: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3647: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3648: {
+        festCost: 35,
         festStats: {
             def: 198,
             spd: 133,
@@ -51475,6 +77546,7 @@ window.rumble = {
         }
     },
     3649: {
+        festCost: 55,
         festStats: {
             def: 208,
             spd: 168,
@@ -51535,6 +77607,7 @@ window.rumble = {
         }
     },
     3650: {
+        festCost: 55,
         festStats: {
             def: 208,
             spd: 168,
@@ -51595,6 +77668,7 @@ window.rumble = {
         }
     },
     3651: {
+        festCost: 55,
         festStats: {
             def: 124,
             spd: 223,
@@ -51655,6 +77729,7 @@ window.rumble = {
         }
     },
     3652: {
+        festCost: 55,
         festStats: {
             def: 124,
             spd: 223,
@@ -51715,6 +77790,7 @@ window.rumble = {
         }
     },
     3653: {
+        festCost: 55,
         festStats: {
             def: 337,
             spd: 116,
@@ -51775,6 +77851,7 @@ window.rumble = {
         }
     },
     3654: {
+        festCost: 55,
         festStats: {
             def: 337,
             spd: 116,
@@ -51835,6 +77912,7 @@ window.rumble = {
         }
     },
     3655: {
+        festCost: 30,
         festStats: {
             def: 132,
             spd: 142,
@@ -51873,6 +77951,7 @@ window.rumble = {
         }
     },
     3656: {
+        festCost: 30,
         festStats: {
             def: 112,
             spd: 164,
@@ -51911,6 +77990,7 @@ window.rumble = {
         }
     },
     3657: {
+        festCost: 30,
         festStats: {
             def: 199,
             spd: 136,
@@ -51949,6 +78029,7 @@ window.rumble = {
         }
     },
     3658: {
+        festCost: 20,
         festStats: {
             def: 180,
             spd: 192,
@@ -52009,7 +78090,38 @@ window.rumble = {
             }
         }
     },
+    3659: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3660: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3661: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3663: {
+        festCost: 35,
         festStats: {
             def: 277,
             spd: 117,
@@ -52047,7 +78159,28 @@ window.rumble = {
             }
         }
     },
+    3664: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3665: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3666: {
+        festCost: 55,
         festStats: {
             def: 153,
             spd: 188,
@@ -52130,7 +78263,18 @@ window.rumble = {
             }
         }
     },
+    3667: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3668: {
+        festCost: 35,
         festStats: {
             def: 127,
             spd: 193,
@@ -52169,6 +78313,7 @@ window.rumble = {
         }
     },
     3669: {
+        festCost: 20,
         festStats: {
             def: 127,
             spd: 193,
@@ -52207,6 +78352,7 @@ window.rumble = {
         }
     },
     3670: {
+        festCost: 55,
         festStats: {
             def: 189,
             spd: 185,
@@ -52266,7 +78412,18 @@ window.rumble = {
             }
         }
     },
+    3671: {
+        festCost: 50,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3672: {
+        festCost: 30,
         festStats: {
             def: 160,
             spd: 165,
@@ -52305,6 +78462,7 @@ window.rumble = {
         }
     },
     3673: {
+        festCost: 55,
         festStats: {
             def: 161,
             spd: 172,
@@ -52365,6 +78523,7 @@ window.rumble = {
         }
     },
     3674: {
+        festCost: 55,
         festStats: {
             def: 161,
             spd: 172,
@@ -52425,6 +78584,7 @@ window.rumble = {
         }
     },
     3675: {
+        festCost: 55,
         festStats: {
             def: 132,
             spd: 148,
@@ -52485,6 +78645,7 @@ window.rumble = {
         }
     },
     3676: {
+        festCost: 55,
         festStats: {
             def: 132,
             spd: 148,
@@ -52545,6 +78706,7 @@ window.rumble = {
         }
     },
     3677: {
+        festCost: 30,
         festStats: {
             def: 112,
             spd: 163,
@@ -52583,6 +78745,7 @@ window.rumble = {
         }
     },
     3678: {
+        festCost: 30,
         festStats: {
             def: 213,
             spd: 117,
@@ -52621,6 +78784,7 @@ window.rumble = {
         }
     },
     3679: {
+        festCost: 20,
         festStats: {
             def: 222,
             spd: 155,
@@ -52667,6 +78831,7 @@ window.rumble = {
         }
     },
     3680: {
+        festCost: 55,
         festStats: {
             def: 212,
             spd: 164,
@@ -52727,6 +78892,7 @@ window.rumble = {
         }
     },
     3681: {
+        festCost: 55,
         festStats: {
             def: 169,
             spd: 146,
@@ -52787,6 +78953,7 @@ window.rumble = {
         }
     },
     3682: {
+        festCost: 55,
         festStats: {
             def: 169,
             spd: 146,
@@ -52847,6 +79014,7 @@ window.rumble = {
         }
     },
     3683: {
+        festCost: 30,
         festStats: {
             def: 150,
             spd: 141,
@@ -52885,6 +79053,7 @@ window.rumble = {
         }
     },
     3684: {
+        festCost: 30,
         festStats: {
             def: 134,
             spd: 127,
@@ -52923,6 +79092,7 @@ window.rumble = {
         }
     },
     3685: {
+        festCost: 30,
         festStats: {
             def: 110,
             spd: 151,
@@ -52960,7 +79130,38 @@ window.rumble = {
             }
         }
     },
+    3686: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3687: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3688: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3689: {
+        festCost: 35,
         festStats: {
             def: 127,
             spd: 176,
@@ -52998,7 +79199,38 @@ window.rumble = {
             }
         }
     },
+    3690: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3691: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3692: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3693: {
+        festCost: 55,
         festStats: {
             def: 168,
             spd: 176,
@@ -53082,6 +79314,7 @@ window.rumble = {
         }
     },
     3694: {
+        festCost: 55,
         festStats: {
             def: 202,
             spd: 173,
@@ -53142,6 +79375,7 @@ window.rumble = {
         }
     },
     3695: {
+        festCost: 55,
         festStats: {
             def: 202,
             spd: 173,
@@ -53202,6 +79436,7 @@ window.rumble = {
         }
     },
     3696: {
+        festCost: 55,
         festStats: {
             def: 118,
             spd: 197,
@@ -53262,6 +79497,7 @@ window.rumble = {
         }
     },
     3697: {
+        festCost: 55,
         festStats: {
             def: 118,
             spd: 197,
@@ -53322,6 +79558,7 @@ window.rumble = {
         }
     },
     3698: {
+        festCost: 30,
         festStats: {
             def: 123,
             spd: 138,
@@ -53360,6 +79597,7 @@ window.rumble = {
         }
     },
     3699: {
+        festCost: 30,
         festStats: {
             def: 104,
             spd: 160,
@@ -53398,6 +79636,7 @@ window.rumble = {
         }
     },
     3700: {
+        festCost: 30,
         festStats: {
             def: 137,
             spd: 153,
@@ -53436,6 +79675,7 @@ window.rumble = {
         }
     },
     3701: {
+        festCost: 30,
         festStats: {
             def: 183,
             spd: 148,
@@ -53474,6 +79714,7 @@ window.rumble = {
         }
     },
     3702: {
+        festCost: 30,
         festStats: {
             def: 190,
             spd: 159,
@@ -53512,6 +79753,7 @@ window.rumble = {
         }
     },
     3703: {
+        festCost: 20,
         festStats: {
             def: 285,
             spd: 129,
@@ -53573,6 +79815,7 @@ window.rumble = {
         }
     },
     3704: {
+        festCost: 20,
         festStats: {
             def: 122,
             spd: 247,
@@ -53634,6 +79877,7 @@ window.rumble = {
         }
     },
     3705: {
+        festCost: 55,
         festStats: {
             def: 318,
             spd: 123,
@@ -53694,6 +79938,7 @@ window.rumble = {
         }
     },
     3706: {
+        festCost: 55,
         festStats: {
             def: 318,
             spd: 123,
@@ -53754,6 +79999,7 @@ window.rumble = {
         }
     },
     3707: {
+        festCost: 55,
         festStats: {
             def: 162,
             spd: 178,
@@ -53814,6 +80060,7 @@ window.rumble = {
         }
     },
     3708: {
+        festCost: 55,
         festStats: {
             def: 162,
             spd: 178,
@@ -53874,6 +80121,7 @@ window.rumble = {
         }
     },
     3709: {
+        festCost: 30,
         festStats: {
             def: 254,
             spd: 104,
@@ -53912,6 +80160,7 @@ window.rumble = {
         }
     },
     3710: {
+        festCost: 30,
         festStats: {
             def: 113,
             spd: 162,
@@ -53950,6 +80199,7 @@ window.rumble = {
         }
     },
     3711: {
+        festCost: 30,
         festStats: {
             def: 188,
             spd: 132,
@@ -53988,6 +80238,7 @@ window.rumble = {
         }
     },
     3712: {
+        festCost: 35,
         festStats: {
             def: 127,
             spd: 144,
@@ -54026,6 +80277,7 @@ window.rumble = {
         }
     },
     3713: {
+        festCost: 20,
         festStats: {
             def: 208,
             spd: 153,
@@ -54063,7 +80315,48 @@ window.rumble = {
             }
         }
     },
+    3714: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3715: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3716: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3717: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3718: {
+        festCost: 55,
         festStats: {
             def: 226,
             spd: 163,
@@ -54147,6 +80440,7 @@ window.rumble = {
         }
     },
     3719: {
+        festCost: 35,
         festStats: {
             def: 128,
             spd: 173,
@@ -54185,6 +80479,7 @@ window.rumble = {
         }
     },
     3720: {
+        festCost: 20,
         festStats: {
             def: 153,
             spd: 178,
@@ -54223,6 +80518,7 @@ window.rumble = {
         }
     },
     3721: {
+        festCost: 55,
         festStats: {
             def: 237,
             spd: 169,
@@ -54283,6 +80579,7 @@ window.rumble = {
         }
     },
     3722: {
+        festCost: 55,
         festStats: {
             def: 235,
             spd: 140,
@@ -54343,6 +80640,7 @@ window.rumble = {
         }
     },
     3723: {
+        festCost: 55,
         festStats: {
             def: 235,
             spd: 140,
@@ -54403,6 +80701,7 @@ window.rumble = {
         }
     },
     3724: {
+        festCost: 30,
         festStats: {
             def: 144,
             spd: 146,
@@ -54441,6 +80740,7 @@ window.rumble = {
         }
     },
     3725: {
+        festCost: 30,
         festStats: {
             def: 135,
             spd: 160,
@@ -54479,6 +80779,7 @@ window.rumble = {
         }
     },
     3726: {
+        festCost: 30,
         festStats: {
             def: 234,
             spd: 113,
@@ -54517,6 +80818,7 @@ window.rumble = {
         }
     },
     3727: {
+        festCost: 30,
         festStats: {
             def: 185,
             spd: 119,
@@ -54555,6 +80857,7 @@ window.rumble = {
         }
     },
     3728: {
+        festCost: 30,
         festStats: {
             def: 151,
             spd: 175,
@@ -54593,6 +80896,7 @@ window.rumble = {
         }
     },
     3729: {
+        festCost: 20,
         festStats: {
             def: 167,
             spd: 165,
@@ -54653,6 +80957,7 @@ window.rumble = {
         }
     },
     3730: {
+        festCost: 20,
         festStats: {
             def: 167,
             spd: 165,
@@ -54713,6 +81018,7 @@ window.rumble = {
         }
     },
     3731: {
+        festCost: 20,
         festStats: {
             def: 208,
             spd: 133,
@@ -54750,7 +81056,28 @@ window.rumble = {
             }
         }
     },
+    3732: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3733: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3734: {
+        festCost: 55,
         festStats: {
             def: 142,
             spd: 168,
@@ -54811,6 +81138,7 @@ window.rumble = {
         }
     },
     3735: {
+        festCost: 55,
         festStats: {
             def: 142,
             spd: 168,
@@ -54871,6 +81199,7 @@ window.rumble = {
         }
     },
     3736: {
+        festCost: 35,
         festStats: {
             def: 149,
             spd: 153,
@@ -54908,7 +81237,28 @@ window.rumble = {
             }
         }
     },
+    3737: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3738: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3739: {
+        festCost: 55,
         festStats: {
             def: 195,
             spd: 151,
@@ -54969,6 +81319,7 @@ window.rumble = {
         }
     },
     3740: {
+        festCost: 55,
         festStats: {
             def: 165,
             spd: 148,
@@ -55029,6 +81380,7 @@ window.rumble = {
         }
     },
     3741: {
+        festCost: 55,
         festStats: {
             def: 165,
             spd: 148,
@@ -55089,6 +81441,7 @@ window.rumble = {
         }
     },
     3742: {
+        festCost: 55,
         festStats: {
             def: 152,
             spd: 174,
@@ -55172,6 +81525,7 @@ window.rumble = {
         }
     },
     3743: {
+        festCost: 30,
         festStats: {
             def: 189,
             spd: 143,
@@ -55210,6 +81564,7 @@ window.rumble = {
         }
     },
     3744: {
+        festCost: 55,
         festStats: {
             def: 162,
             spd: 170,
@@ -55270,6 +81625,7 @@ window.rumble = {
         }
     },
     3745: {
+        festCost: 55,
         festStats: {
             def: 162,
             spd: 170,
@@ -55329,7 +81685,48 @@ window.rumble = {
             }
         }
     },
+    3746: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3747: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3748: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3749: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3750: {
+        festCost: 30,
         festStats: {
             def: 156,
             spd: 169,
@@ -55368,6 +81765,7 @@ window.rumble = {
         }
     },
     3751: {
+        festCost: 20,
         festStats: {
             def: 190,
             spd: 133,
@@ -55428,6 +81826,7 @@ window.rumble = {
         }
     },
     3752: {
+        festCost: 20,
         festStats: {
             def: 190,
             spd: 133,
@@ -55488,6 +81887,7 @@ window.rumble = {
         }
     },
     3753: {
+        festCost: 20,
         festStats: {
             def: 206,
             spd: 167,
@@ -55526,6 +81926,7 @@ window.rumble = {
         }
     },
     3754: {
+        festCost: 55,
         festStats: {
             def: 169,
             spd: 163,
@@ -55586,6 +81987,7 @@ window.rumble = {
         }
     },
     3755: {
+        festCost: 55,
         festStats: {
             def: 169,
             spd: 163,
@@ -55667,7 +82069,28 @@ window.rumble = {
             }
         }
     },
+    3756: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3757: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3758: {
+        festCost: 35,
         festStats: {
             def: 215,
             spd: 145,
@@ -55705,7 +82128,38 @@ window.rumble = {
             }
         }
     },
+    3759: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3760: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3761: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3762: {
+        festCost: 55,
         festStats: {
             def: 302,
             spd: 127,
@@ -55789,6 +82243,7 @@ window.rumble = {
         }
     },
     3763: {
+        festCost: 35,
         festStats: {
             def: 171,
             spd: 164,
@@ -55827,6 +82282,7 @@ window.rumble = {
         }
     },
     3764: {
+        festCost: 20,
         festStats: {
             def: 196,
             spd: 169,
@@ -55887,6 +82343,7 @@ window.rumble = {
         }
     },
     3765: {
+        festCost: 55,
         festStats: {
             def: 252,
             spd: 145,
@@ -55947,6 +82404,7 @@ window.rumble = {
         }
     },
     3766: {
+        festCost: 55,
         festStats: {
             def: 252,
             spd: 145,
@@ -56006,7 +82464,38 @@ window.rumble = {
             }
         }
     },
+    3767: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3768: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3769: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3770: {
+        festCost: 30,
         festStats: {
             def: 202,
             spd: 150,
@@ -56045,6 +82534,7 @@ window.rumble = {
         }
     },
     3771: {
+        festCost: 20,
         festStats: {
             def: 161,
             spd: 172,
@@ -56105,6 +82595,7 @@ window.rumble = {
         }
     },
     3772: {
+        festCost: 20,
         festStats: {
             def: 161,
             spd: 172,
@@ -56165,6 +82656,7 @@ window.rumble = {
         }
     },
     3773: {
+        festCost: 35,
         festStats: {
             def: 206,
             spd: 128,
@@ -56203,6 +82695,7 @@ window.rumble = {
         }
     },
     3774: {
+        festCost: 55,
         festStats: {
             def: 284,
             spd: 119,
@@ -56263,6 +82756,7 @@ window.rumble = {
         }
     },
     3775: {
+        festCost: 55,
         festStats: {
             def: 284,
             spd: 119,
@@ -56322,7 +82816,28 @@ window.rumble = {
             }
         }
     },
+    3776: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3777: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3778: {
+        festCost: 35,
         festStats: {
             def: 198,
             spd: 150,
@@ -56361,6 +82876,7 @@ window.rumble = {
         }
     },
     3779: {
+        festCost: 55,
         festStats: {
             def: 188,
             spd: 150,
@@ -56421,6 +82937,7 @@ window.rumble = {
         }
     },
     3780: {
+        festCost: 55,
         festStats: {
             def: 188,
             spd: 150,
@@ -56480,7 +82997,28 @@ window.rumble = {
             }
         }
     },
+    3781: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3782: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3784: {
+        festCost: 55,
         festStats: {
             def: 148,
             spd: 132,
@@ -56564,6 +83102,7 @@ window.rumble = {
         }
     },
     3785: {
+        festCost: 30,
         festStats: {
             def: 151,
             spd: 175,
@@ -56602,6 +83141,7 @@ window.rumble = {
         }
     },
     3786: {
+        festCost: 55,
         festStats: {
             def: 218,
             spd: 219,
@@ -56663,6 +83203,7 @@ window.rumble = {
     },
     3787: {
         character1: {
+            festCost: 55,
             festStats: {
                 def: 188,
                 spd: 169,
@@ -56723,6 +83264,7 @@ window.rumble = {
             }
         },
         character2: {
+            festCost: 55,
             festStats: {
                 def: 164,
                 spd: 193,
@@ -56785,6 +83327,7 @@ window.rumble = {
     },
     3788: {
         character1: {
+            festCost: 55,
             festStats: {
                 def: 188,
                 spd: 169,
@@ -56845,6 +83388,7 @@ window.rumble = {
             }
         },
         character2: {
+            festCost: 55,
             festStats: {
                 def: 164,
                 spd: 193,
@@ -56906,6 +83450,7 @@ window.rumble = {
         }
     },
     3789: {
+        festCost: 55,
         festStats: {
             def: 162,
             spd: 165,
@@ -56966,6 +83511,7 @@ window.rumble = {
         }
     },
     3790: {
+        festCost: 55,
         festStats: {
             def: 162,
             spd: 165,
@@ -57026,6 +83572,7 @@ window.rumble = {
         }
     },
     3791: {
+        festCost: 55,
         festStats: {
             def: 187,
             spd: 151,
@@ -57086,6 +83633,7 @@ window.rumble = {
         }
     },
     3792: {
+        festCost: 55,
         festStats: {
             def: 187,
             spd: 151,
@@ -57145,7 +83693,28 @@ window.rumble = {
             }
         }
     },
+    3793: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3794: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3795: {
+        festCost: 30,
         festStats: {
             def: 274,
             spd: 118,
@@ -57184,6 +83753,7 @@ window.rumble = {
         }
     },
     3796: {
+        festCost: 30,
         festStats: {
             def: 276,
             spd: 117,
@@ -57222,6 +83792,7 @@ window.rumble = {
         }
     },
     3797: {
+        festCost: 20,
         festStats: {
             def: 168,
             spd: 179,
@@ -57259,7 +83830,38 @@ window.rumble = {
             }
         }
     },
+    3798: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3799: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3800: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3801: {
+        festCost: 35,
         festStats: {
             def: 118,
             spd: 190,
@@ -57297,7 +83899,38 @@ window.rumble = {
             }
         }
     },
+    3802: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3803: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3804: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3805: {
+        festCost: 55,
         festStats: {
             def: 165,
             spd: 200,
@@ -57381,6 +84014,7 @@ window.rumble = {
         }
     },
     3806: {
+        festCost: 35,
         festStats: {
             def: 186,
             spd: 158,
@@ -57419,6 +84053,7 @@ window.rumble = {
         }
     },
     3807: {
+        festCost: 20,
         festStats: {
             def: 211,
             spd: 163,
@@ -57479,6 +84114,7 @@ window.rumble = {
         }
     },
     3808: {
+        festCost: 55,
         festStats: {
             def: 292,
             spd: 116,
@@ -57539,6 +84175,7 @@ window.rumble = {
         }
     },
     3809: {
+        festCost: 55,
         festStats: {
             def: 292,
             spd: 116,
@@ -57599,6 +84236,7 @@ window.rumble = {
         }
     },
     3810: {
+        festCost: 55,
         festStats: {
             def: 176,
             spd: 185,
@@ -57659,6 +84297,7 @@ window.rumble = {
         }
     },
     3811: {
+        festCost: 55,
         festStats: {
             def: 176,
             spd: 185,
@@ -57718,7 +84357,28 @@ window.rumble = {
             }
         }
     },
+    3812: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3813: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3814: {
+        festCost: 55,
         festStats: {
             def: 149,
             spd: 206,
@@ -57802,6 +84462,7 @@ window.rumble = {
         }
     },
     3815: {
+        festCost: 30,
         festStats: {
             def: 165,
             spd: 160,
@@ -57840,6 +84501,7 @@ window.rumble = {
         }
     },
     3816: {
+        festCost: 55,
         festStats: {
             def: 262,
             spd: 174,
@@ -57900,6 +84562,7 @@ window.rumble = {
         }
     },
     3817: {
+        festCost: 20,
         festStats: {
             def: 173,
             spd: 168,
@@ -57938,6 +84601,7 @@ window.rumble = {
         }
     },
     3818: {
+        festCost: 20,
         festStats: {
             def: 296,
             spd: 124,
@@ -57975,7 +84639,38 @@ window.rumble = {
             }
         }
     },
+    3819: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3820: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3821: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3822: {
+        festCost: 35,
         festStats: {
             def: 158,
             spd: 167,
@@ -58014,6 +84709,7 @@ window.rumble = {
         }
     },
     3823: {
+        festCost: 55,
         festStats: {
             def: 192,
             spd: 146,
@@ -58074,6 +84770,7 @@ window.rumble = {
         }
     },
     3824: {
+        festCost: 55,
         festStats: {
             def: 192,
             spd: 146,
@@ -58133,7 +84830,18 @@ window.rumble = {
             }
         }
     },
+    3825: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3828: {
+        festCost: 55,
         festStats: {
             def: 251,
             spd: 175,
@@ -58217,6 +84925,7 @@ window.rumble = {
         }
     },
     3829: {
+        festCost: 55,
         festStats: {
             def: 125,
             spd: 187,
@@ -58277,6 +84986,7 @@ window.rumble = {
         }
     },
     3830: {
+        festCost: 55,
         festStats: {
             def: 125,
             spd: 187,
@@ -58337,6 +85047,7 @@ window.rumble = {
         }
     },
     3831: {
+        festCost: 55,
         festStats: {
             def: 127,
             spd: 169,
@@ -58397,6 +85108,7 @@ window.rumble = {
         }
     },
     3832: {
+        festCost: 55,
         festStats: {
             def: 127,
             spd: 169,
@@ -58456,7 +85168,28 @@ window.rumble = {
             }
         }
     },
+    3833: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3834: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3835: {
+        festCost: 30,
         festStats: {
             def: 184,
             spd: 147,
@@ -58495,6 +85228,7 @@ window.rumble = {
         }
     },
     3836: {
+        festCost: 20,
         festStats: {
             def: 198,
             spd: 139,
@@ -58533,6 +85267,7 @@ window.rumble = {
         }
     },
     3837: {
+        festCost: 20,
         festStats: {
             def: 173,
             spd: 156,
@@ -58571,6 +85306,7 @@ window.rumble = {
         }
     },
     3838: {
+        festCost: 55,
         festStats: {
             def: 155,
             spd: 173,
@@ -58631,6 +85367,7 @@ window.rumble = {
         }
     },
     3839: {
+        festCost: 55,
         festStats: {
             def: 155,
             spd: 173,
@@ -58690,7 +85427,28 @@ window.rumble = {
             }
         }
     },
+    3840: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3841: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3842: {
+        festCost: 35,
         festStats: {
             def: 203,
             spd: 134,
@@ -58728,7 +85486,28 @@ window.rumble = {
             }
         }
     },
+    3843: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3844: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3845: {
+        festCost: 55,
         festStats: {
             def: 262,
             spd: 138,
@@ -58810,7 +85589,18 @@ window.rumble = {
             }
         }
     },
+    3846: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3847: {
+        festCost: 35,
         festStats: {
             def: 299,
             spd: 118,
@@ -58871,6 +85661,7 @@ window.rumble = {
         }
     },
     3848: {
+        festCost: 20,
         festStats: {
             def: 324,
             spd: 123,
@@ -58931,6 +85722,7 @@ window.rumble = {
         }
     },
     3849: {
+        festCost: 55,
         festStats: {
             def: 163,
             spd: 169,
@@ -58991,6 +85783,7 @@ window.rumble = {
         }
     },
     3850: {
+        festCost: 55,
         festStats: {
             def: 163,
             spd: 169,
@@ -59051,6 +85844,7 @@ window.rumble = {
         }
     },
     3851: {
+        festCost: 55,
         festStats: {
             def: 192,
             spd: 147,
@@ -59111,6 +85905,7 @@ window.rumble = {
         }
     },
     3852: {
+        festCost: 55,
         festStats: {
             def: 192,
             spd: 147,
@@ -59170,7 +85965,28 @@ window.rumble = {
             }
         }
     },
+    3853: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3854: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3855: {
+        festCost: 30,
         festStats: {
             def: 165,
             spd: 160,
@@ -59209,6 +86025,7 @@ window.rumble = {
         }
     },
     3856: {
+        festCost: 30,
         festStats: {
             def: 157,
             spd: 163,
@@ -59247,6 +86064,7 @@ window.rumble = {
         }
     },
     3857: {
+        festCost: 20,
         festStats: {
             def: 157,
             spd: 163,
@@ -59285,6 +86103,7 @@ window.rumble = {
         }
     },
     3858: {
+        festCost: 20,
         festStats: {
             def: 160,
             spd: 168,
@@ -59345,6 +86164,7 @@ window.rumble = {
         }
     },
     3859: {
+        festCost: 20,
         festStats: {
             def: 160,
             spd: 168,
@@ -59405,6 +86225,7 @@ window.rumble = {
         }
     },
     3860: {
+        festCost: 55,
         festStats: {
             def: 161,
             spd: 172,
@@ -59465,6 +86286,7 @@ window.rumble = {
         }
     },
     3861: {
+        festCost: 55,
         festStats: {
             def: 161,
             spd: 172,
@@ -59524,7 +86346,28 @@ window.rumble = {
             }
         }
     },
+    3862: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3863: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3864: {
+        festCost: 35,
         festStats: {
             def: 188,
             spd: 129,
@@ -59562,7 +86405,38 @@ window.rumble = {
             }
         }
     },
+    3865: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3866: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3867: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3868: {
+        festCost: 55,
         festStats: {
             def: 336,
             spd: 142,
@@ -59646,6 +86520,7 @@ window.rumble = {
         }
     },
     3869: {
+        festCost: 55,
         festStats: {
             def: 163,
             spd: 169,
@@ -59706,6 +86581,7 @@ window.rumble = {
         }
     },
     3870: {
+        festCost: 55,
         festStats: {
             def: 163,
             spd: 169,
@@ -59765,7 +86641,38 @@ window.rumble = {
             }
         }
     },
+    3871: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3872: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3873: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3874: {
+        festCost: 30,
         festStats: {
             def: 163,
             spd: 157,
@@ -59804,6 +86711,7 @@ window.rumble = {
         }
     },
     3875: {
+        festCost: 20,
         festStats: {
             def: 293,
             spd: 125,
@@ -59842,6 +86750,7 @@ window.rumble = {
         }
     },
     3876: {
+        festCost: 20,
         festStats: {
             def: 199,
             spd: 138,
@@ -59880,6 +86789,7 @@ window.rumble = {
         }
     },
     3877: {
+        festCost: 55,
         festStats: {
             def: 179,
             spd: 206,
@@ -59940,6 +86850,7 @@ window.rumble = {
         }
     },
     3878: {
+        festCost: 55,
         festStats: {
             def: 179,
             spd: 206,
@@ -60000,6 +86911,7 @@ window.rumble = {
         }
     },
     3879: {
+        festCost: 55,
         festStats: {
             def: 182,
             spd: 202,
@@ -60060,6 +86972,7 @@ window.rumble = {
         }
     },
     3880: {
+        festCost: 55,
         festStats: {
             def: 182,
             spd: 202,
@@ -60119,7 +87032,38 @@ window.rumble = {
             }
         }
     },
+    3881: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3882: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3883: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3884: {
+        festCost: 20,
         festStats: {
             def: 180,
             spd: 114,
@@ -60177,6 +87121,7 @@ window.rumble = {
         }
     },
     3885: {
+        festCost: 30,
         festStats: {
             def: 202,
             spd: 150,
@@ -60215,6 +87160,7 @@ window.rumble = {
         }
     },
     3886: {
+        festCost: 20,
         festStats: {
             def: 127,
             spd: 193,
@@ -60275,6 +87221,7 @@ window.rumble = {
         }
     },
     3887: {
+        festCost: 30,
         festStats: {
             def: 128,
             spd: 175,
@@ -60313,6 +87260,7 @@ window.rumble = {
         }
     },
     3888: {
+        festCost: 55,
         festStats: {
             def: 161,
             spd: 197,
@@ -60373,6 +87321,7 @@ window.rumble = {
         }
     },
     3889: {
+        festCost: 55,
         festStats: {
             def: 161,
             spd: 197,
@@ -60433,6 +87382,7 @@ window.rumble = {
         }
     },
     3890: {
+        festCost: 55,
         festStats: {
             def: 223,
             spd: 160,
@@ -60493,6 +87443,7 @@ window.rumble = {
         }
     },
     3891: {
+        festCost: 55,
         festStats: {
             def: 223,
             spd: 160,
@@ -60552,7 +87503,28 @@ window.rumble = {
             }
         }
     },
+    3892: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3893: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3894: {
+        festCost: 35,
         festStats: {
             def: 204,
             spd: 149,
@@ -60591,6 +87563,7 @@ window.rumble = {
         }
     },
     3895: {
+        festCost: 55,
         festStats: {
             def: 212,
             spd: 135,
@@ -60651,6 +87624,7 @@ window.rumble = {
         }
     },
     3896: {
+        festCost: 55,
         festStats: {
             def: 212,
             spd: 135,
@@ -60711,6 +87685,7 @@ window.rumble = {
         }
     },
     3897: {
+        festCost: 55,
         festStats: {
             def: 218,
             spd: 145,
@@ -60771,6 +87746,7 @@ window.rumble = {
         }
     },
     3898: {
+        festCost: 55,
         festStats: {
             def: 218,
             spd: 145,
@@ -60830,7 +87806,38 @@ window.rumble = {
             }
         }
     },
+    3899: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3900: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3901: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3902: {
+        festCost: 55,
         festStats: {
             def: 213,
             spd: 183,
@@ -60914,6 +87921,7 @@ window.rumble = {
         }
     },
     3903: {
+        festCost: 20,
         festStats: {
             def: 153,
             spd: 180,
@@ -60952,6 +87960,7 @@ window.rumble = {
         }
     },
     3904: {
+        festCost: 20,
         festStats: {
             def: 155,
             spd: 173,
@@ -61012,6 +88021,7 @@ window.rumble = {
         }
     },
     3905: {
+        festCost: 20,
         festStats: {
             def: 155,
             spd: 173,
@@ -61072,6 +88082,7 @@ window.rumble = {
         }
     },
     3906: {
+        festCost: 20,
         festStats: {
             def: 126,
             spd: 202,
@@ -61111,6 +88122,7 @@ window.rumble = {
     },
     3907: {
         character1: {
+            festCost: 55,
             festStats: {
                 def: 130,
                 spd: 180,
@@ -61171,6 +88183,7 @@ window.rumble = {
             }
         },
         character2: {
+            festCost: 55,
             festStats: {
                 def: 123,
                 spd: 141,
@@ -61233,6 +88246,7 @@ window.rumble = {
     },
     3908: {
         character1: {
+            festCost: 55,
             festStats: {
                 def: 130,
                 spd: 180,
@@ -61293,6 +88307,7 @@ window.rumble = {
             }
         },
         character2: {
+            festCost: 55,
             festStats: {
                 def: 123,
                 spd: 141,
@@ -61354,6 +88369,7 @@ window.rumble = {
         }
     },
     3909: {
+        festCost: 55,
         festStats: {
             def: 137,
             spd: 207,
@@ -61414,6 +88430,7 @@ window.rumble = {
         }
     },
     3910: {
+        festCost: 55,
         festStats: {
             def: 137,
             spd: 207,
@@ -61473,7 +88490,48 @@ window.rumble = {
             }
         }
     },
+    3911: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3912: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3913: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3914: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3915: {
+        festCost: 35,
         festStats: {
             def: 127,
             spd: 161,
@@ -61512,6 +88570,7 @@ window.rumble = {
         }
     },
     3916: {
+        festCost: 55,
         festStats: {
             def: 206,
             spd: 165,
@@ -61572,6 +88631,7 @@ window.rumble = {
         }
     },
     3917: {
+        festCost: 55,
         festStats: {
             def: 206,
             spd: 165,
@@ -61631,7 +88691,28 @@ window.rumble = {
             }
         }
     },
+    3918: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3919: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3920: {
+        festCost: 55,
         festStats: {
             def: 164,
             spd: 192,
@@ -61715,6 +88796,7 @@ window.rumble = {
         }
     },
     3921: {
+        festCost: 55,
         festStats: {
             def: 137,
             spd: 207,
@@ -61775,6 +88857,7 @@ window.rumble = {
         }
     },
     3922: {
+        festCost: 55,
         festStats: {
             def: 137,
             spd: 207,
@@ -61835,6 +88918,7 @@ window.rumble = {
         }
     },
     3923: {
+        festCost: 55,
         festStats: {
             def: 206,
             spd: 165,
@@ -61895,6 +88979,7 @@ window.rumble = {
         }
     },
     3924: {
+        festCost: 55,
         festStats: {
             def: 206,
             spd: 165,
@@ -61954,7 +89039,28 @@ window.rumble = {
             }
         }
     },
+    3925: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3926: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3927: {
+        festCost: 20,
         festStats: {
             def: 122,
             spd: 184,
@@ -61992,7 +89098,18 @@ window.rumble = {
             }
         }
     },
+    3928: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3929: {
+        festCost: 20,
         festStats: {
             def: 210,
             spd: 164,
@@ -62031,6 +89148,7 @@ window.rumble = {
         }
     },
     3930: {
+        festCost: 20,
         festStats: {
             def: 154,
             spd: 168,
@@ -62069,6 +89187,7 @@ window.rumble = {
         }
     },
     3931: {
+        festCost: 20,
         festStats: {
             def: 159,
             spd: 142,
@@ -62107,6 +89226,7 @@ window.rumble = {
         }
     },
     3932: {
+        festCost: 55,
         festStats: {
             def: 176,
             spd: 185,
@@ -62167,6 +89287,7 @@ window.rumble = {
         }
     },
     3933: {
+        festCost: 55,
         festStats: {
             def: 176,
             spd: 185,
@@ -62226,7 +89347,28 @@ window.rumble = {
             }
         }
     },
+    3934: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3935: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3936: {
+        festCost: 20,
         festStats: {
             def: 117,
             spd: 142,
@@ -62264,7 +89406,38 @@ window.rumble = {
             }
         }
     },
+    3937: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3938: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3939: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3940: {
+        festCost: 55,
         festStats: {
             def: 201,
             spd: 173,
@@ -62348,6 +89521,7 @@ window.rumble = {
         }
     },
     3941: {
+        festCost: 20,
         festStats: {
             def: 152,
             spd: 149,
@@ -62386,6 +89560,7 @@ window.rumble = {
         }
     },
     3942: {
+        festCost: 20,
         festStats: {
             def: 177,
             spd: 154,
@@ -62424,6 +89599,7 @@ window.rumble = {
         }
     },
     3943: {
+        festCost: 55,
         festStats: {
             def: 173,
             spd: 144,
@@ -62484,6 +89660,7 @@ window.rumble = {
         }
     },
     3944: {
+        festCost: 55,
         festStats: {
             def: 173,
             spd: 144,
@@ -62543,7 +89720,18 @@ window.rumble = {
             }
         }
     },
+    3945: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3946: {
+        festCost: 20,
         festStats: {
             def: 114,
             spd: 146,
@@ -62582,6 +89770,7 @@ window.rumble = {
         }
     },
     3947: {
+        festCost: 55,
         festStats: {
             def: 123,
             spd: 191,
@@ -62642,6 +89831,7 @@ window.rumble = {
         }
     },
     3948: {
+        festCost: 55,
         festStats: {
             def: 123,
             spd: 191,
@@ -62701,7 +89891,38 @@ window.rumble = {
             }
         }
     },
+    3949: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3950: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3951: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3952: {
+        festCost: 20,
         festStats: {
             def: 120,
             spd: 186,
@@ -62740,6 +89961,7 @@ window.rumble = {
         }
     },
     3953: {
+        festCost: 20,
         festStats: {
             def: 166,
             spd: 162,
@@ -62800,6 +90022,7 @@ window.rumble = {
         }
     },
     3954: {
+        festCost: 20,
         festStats: {
             def: 166,
             spd: 162,
@@ -62860,6 +90083,7 @@ window.rumble = {
         }
     },
     3955: {
+        festCost: 55,
         festStats: {
             def: 161,
             spd: 189,
@@ -62920,6 +90144,7 @@ window.rumble = {
         }
     },
     3956: {
+        festCost: 55,
         festStats: {
             def: 161,
             spd: 189,
@@ -62980,6 +90205,7 @@ window.rumble = {
         }
     },
     3957: {
+        festCost: 55,
         festStats: {
             def: 186,
             spd: 194,
@@ -63040,6 +90266,7 @@ window.rumble = {
         }
     },
     3958: {
+        festCost: 55,
         festStats: {
             def: 287,
             spd: 130,
@@ -63100,6 +90327,7 @@ window.rumble = {
         }
     },
     3959: {
+        festCost: 55,
         festStats: {
             def: 287,
             spd: 130,
@@ -63159,7 +90387,58 @@ window.rumble = {
             }
         }
     },
+    3960: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3961: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3962: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3963: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3964: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3965: {
+        festCost: 20,
         festStats: {
             def: 207,
             spd: 120,
@@ -63198,6 +90477,7 @@ window.rumble = {
         }
     },
     3966: {
+        festCost: 55,
         festStats: {
             def: 153,
             spd: 155,
@@ -63258,6 +90538,7 @@ window.rumble = {
         }
     },
     3967: {
+        festCost: 55,
         festStats: {
             def: 153,
             spd: 155,
@@ -63317,7 +90598,18 @@ window.rumble = {
             }
         }
     },
+    3968: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3969: {
+        festCost: 55,
         festStats: {
             def: 262,
             spd: 191,
@@ -63401,6 +90693,7 @@ window.rumble = {
         }
     },
     3970: {
+        festCost: 55,
         festStats: {
             def: 136,
             spd: 209,
@@ -63461,6 +90754,7 @@ window.rumble = {
         }
     },
     3971: {
+        festCost: 55,
         festStats: {
             def: 136,
             spd: 209,
@@ -63521,6 +90815,7 @@ window.rumble = {
         }
     },
     3972: {
+        festCost: 55,
         festStats: {
             def: 194,
             spd: 164,
@@ -63581,6 +90876,7 @@ window.rumble = {
         }
     },
     3973: {
+        festCost: 55,
         festStats: {
             def: 194,
             spd: 164,
@@ -63640,7 +90936,28 @@ window.rumble = {
             }
         }
     },
+    3974: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3975: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3976: {
+        festCost: 20,
         festStats: {
             def: 127,
             spd: 144,
@@ -63679,6 +90996,7 @@ window.rumble = {
         }
     },
     3977: {
+        festCost: 20,
         festStats: {
             def: 203,
             spd: 150,
@@ -63716,7 +91034,38 @@ window.rumble = {
             }
         }
     },
+    3978: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3979: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3980: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3981: {
+        festCost: 20,
         festStats: {
             def: 158,
             spd: 167,
@@ -63754,7 +91103,18 @@ window.rumble = {
             }
         }
     },
+    3982: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3983: {
+        festCost: 55,
         festStats: {
             def: 162,
             spd: 188,
@@ -63815,6 +91175,7 @@ window.rumble = {
         }
     },
     3984: {
+        festCost: 55,
         festStats: {
             def: 162,
             spd: 188,
@@ -63875,6 +91236,7 @@ window.rumble = {
         }
     },
     3985: {
+        festCost: 55,
         festStats: {
             def: 148,
             spd: 161,
@@ -63935,6 +91297,7 @@ window.rumble = {
         }
     },
     3986: {
+        festCost: 55,
         festStats: {
             def: 148,
             spd: 161,
@@ -63994,7 +91357,28 @@ window.rumble = {
             }
         }
     },
+    3987: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3988: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3989: {
+        festCost: 55,
         festStats: {
             def: 268,
             spd: 135,
@@ -64078,6 +91462,7 @@ window.rumble = {
         }
     },
     3990: {
+        festCost: 20,
         festStats: {
             def: 157,
             spd: 145,
@@ -64116,6 +91501,7 @@ window.rumble = {
         }
     },
     3991: {
+        festCost: 20,
         festStats: {
             def: 182,
             spd: 150,
@@ -64154,6 +91540,7 @@ window.rumble = {
         }
     },
     3992: {
+        festCost: 55,
         festStats: {
             def: 161,
             spd: 167,
@@ -64214,6 +91601,7 @@ window.rumble = {
         }
     },
     3993: {
+        festCost: 55,
         festStats: {
             def: 161,
             spd: 167,
@@ -64274,6 +91662,7 @@ window.rumble = {
         }
     },
     3994: {
+        festCost: 55,
         festStats: {
             def: 179,
             spd: 187,
@@ -64334,6 +91723,7 @@ window.rumble = {
         }
     },
     3995: {
+        festCost: 55,
         festStats: {
             def: 179,
             spd: 187,
@@ -64393,7 +91783,38 @@ window.rumble = {
             }
         }
     },
+    3996: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3997: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    3998: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     3999: {
+        festCost: 20,
         festStats: {
             def: 158,
             spd: 163,
@@ -64432,6 +91853,7 @@ window.rumble = {
         }
     },
     4000: {
+        festCost: 55,
         festStats: {
             def: 329,
             spd: 133,
@@ -64515,6 +91937,7 @@ window.rumble = {
         }
     },
     4001: {
+        festCost: 20,
         festStats: {
             def: 136,
             spd: 187,
@@ -64553,6 +91976,7 @@ window.rumble = {
         }
     },
     4002: {
+        festCost: 55,
         festStats: {
             def: 130,
             spd: 177,
@@ -64613,6 +92037,7 @@ window.rumble = {
         }
     },
     4003: {
+        festCost: 55,
         festStats: {
             def: 130,
             spd: 177,
@@ -64672,7 +92097,28 @@ window.rumble = {
             }
         }
     },
+    4004: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4005: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4006: {
+        festCost: 20,
         festStats: {
             def: 144,
             spd: 158,
@@ -64711,6 +92157,7 @@ window.rumble = {
         }
     },
     4007: {
+        festCost: 55,
         festStats: {
             def: 124,
             spd: 169,
@@ -64771,6 +92218,7 @@ window.rumble = {
         }
     },
     4008: {
+        festCost: 55,
         festStats: {
             def: 124,
             spd: 169,
@@ -64830,7 +92278,18 @@ window.rumble = {
             }
         }
     },
+    4009: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4010: {
+        festCost: 55,
         festStats: {
             def: 178,
             spd: 189,
@@ -64914,6 +92373,7 @@ window.rumble = {
         }
     },
     4011: {
+        festCost: 55,
         festStats: {
             def: 126,
             spd: 186,
@@ -64974,6 +92434,7 @@ window.rumble = {
         }
     },
     4012: {
+        festCost: 55,
         festStats: {
             def: 124,
             spd: 189,
@@ -65034,6 +92495,7 @@ window.rumble = {
         }
     },
     4019: {
+        festCost: 55,
         festStats: {
             def: 202,
             spd: 153,
@@ -65094,6 +92556,7 @@ window.rumble = {
         }
     },
     4020: {
+        festCost: 55,
         festStats: {
             def: 202,
             spd: 153,
@@ -65154,6 +92617,7 @@ window.rumble = {
         }
     },
     4021: {
+        festCost: 20,
         festStats: {
             def: 158,
             spd: 163,
@@ -65191,7 +92655,28 @@ window.rumble = {
             }
         }
     },
+    4022: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4023: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4024: {
+        festCost: 20,
         festStats: {
             def: 118,
             spd: 190,
@@ -65230,6 +92715,7 @@ window.rumble = {
         }
     },
     4025: {
+        festCost: 20,
         festStats: {
             def: 163,
             spd: 158,
@@ -65268,6 +92754,7 @@ window.rumble = {
         }
     },
     4026: {
+        festCost: 20,
         festStats: {
             def: 127,
             spd: 200,
@@ -65306,6 +92793,7 @@ window.rumble = {
         }
     },
     4027: {
+        festCost: 20,
         festStats: {
             def: 137,
             spd: 167,
@@ -65344,6 +92832,7 @@ window.rumble = {
         }
     },
     4028: {
+        festCost: 55,
         festStats: {
             def: 198,
             spd: 160,
@@ -65404,6 +92893,7 @@ window.rumble = {
         }
     },
     4029: {
+        festCost: 55,
         festStats: {
             def: 198,
             spd: 160,
@@ -65463,7 +92953,38 @@ window.rumble = {
             }
         }
     },
+    4030: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4031: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4032: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4033: {
+        festCost: 20,
         festStats: {
             def: 178,
             spd: 172,
@@ -65501,7 +93022,38 @@ window.rumble = {
             }
         }
     },
+    4034: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4035: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4036: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4037: {
+        festCost: 55,
         festStats: {
             def: 191,
             spd: 155,
@@ -65585,6 +93137,7 @@ window.rumble = {
         }
     },
     4038: {
+        festCost: 20,
         festStats: {
             def: 283,
             spd: 125,
@@ -65623,6 +93176,7 @@ window.rumble = {
         }
     },
     4039: {
+        festCost: 20,
         festStats: {
             def: 308,
             spd: 130,
@@ -65661,6 +93215,7 @@ window.rumble = {
         }
     },
     4040: {
+        festCost: 55,
         festStats: {
             def: 161,
             spd: 172,
@@ -65721,6 +93276,7 @@ window.rumble = {
         }
     },
     4041: {
+        festCost: 55,
         festStats: {
             def: 161,
             spd: 172,
@@ -65781,6 +93337,7 @@ window.rumble = {
         }
     },
     4042: {
+        festCost: 55,
         festStats: {
             def: 159,
             spd: 169,
@@ -65841,6 +93398,7 @@ window.rumble = {
         }
     },
     4043: {
+        festCost: 55,
         festStats: {
             def: 159,
             spd: 169,
@@ -65900,7 +93458,38 @@ window.rumble = {
             }
         }
     },
+    4044: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4045: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4046: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4047: {
+        festCost: 20,
         festStats: {
             def: 149,
             spd: 172,
@@ -65939,6 +93528,7 @@ window.rumble = {
         }
     },
     4048: {
+        festCost: 20,
         festStats: {
             def: 158,
             spd: 170,
@@ -65999,6 +93589,7 @@ window.rumble = {
         }
     },
     4049: {
+        festCost: 20,
         festStats: {
             def: 174,
             spd: 172,
@@ -66037,6 +93628,7 @@ window.rumble = {
         }
     },
     4050: {
+        festCost: 55,
         festStats: {
             def: 125,
             spd: 152,
@@ -66096,7 +93688,28 @@ window.rumble = {
             }
         }
     },
+    4051: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4052: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4053: {
+        festCost: 20,
         festStats: {
             def: 174,
             spd: 177,
@@ -66135,6 +93748,7 @@ window.rumble = {
         }
     },
     4054: {
+        festCost: 55,
         festStats: {
             def: 151,
             spd: 139,
@@ -66194,7 +93808,18 @@ window.rumble = {
             }
         }
     },
+    4055: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4056: {
+        festCost: 55,
         festStats: {
             def: 190,
             spd: 168,
@@ -66278,6 +93903,7 @@ window.rumble = {
         }
     },
     4057: {
+        festCost: 55,
         festStats: {
             def: 159,
             spd: 191,
@@ -66338,6 +93964,7 @@ window.rumble = {
         }
     },
     4058: {
+        festCost: 55,
         festStats: {
             def: 159,
             spd: 191,
@@ -66398,6 +94025,7 @@ window.rumble = {
         }
     },
     4059: {
+        festCost: 55,
         festStats: {
             def: 309,
             spd: 132,
@@ -66458,6 +94086,7 @@ window.rumble = {
         }
     },
     4060: {
+        festCost: 55,
         festStats: {
             def: 309,
             spd: 132,
@@ -66518,6 +94147,7 @@ window.rumble = {
         }
     },
     4061: {
+        festCost: 55,
         festStats: {
             def: 180,
             spd: 180,
@@ -66578,6 +94208,7 @@ window.rumble = {
         }
     },
     4062: {
+        festCost: 55,
         festStats: {
             def: 180,
             spd: 180,
@@ -66638,6 +94269,7 @@ window.rumble = {
         }
     },
     4063: {
+        festCost: 55,
         festStats: {
             def: 245,
             spd: 135,
@@ -66697,7 +94329,28 @@ window.rumble = {
             }
         }
     },
+    4064: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4065: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4066: {
+        festCost: 20,
         festStats: {
             def: 170,
             spd: 156,
@@ -66736,6 +94389,7 @@ window.rumble = {
         }
     },
     4067: {
+        festCost: 55,
         festStats: {
             def: 120,
             spd: 195,
@@ -66796,6 +94450,7 @@ window.rumble = {
         }
     },
     4068: {
+        festCost: 55,
         festStats: {
             def: 145,
             spd: 200,
@@ -66897,6 +94552,7 @@ window.rumble = {
         }
     },
     4069: {
+        festCost: 20,
         festStats: {
             def: 129,
             spd: 197,
@@ -66935,6 +94591,7 @@ window.rumble = {
         }
     },
     4071: {
+        festCost: 55,
         festStats: {
             def: 153,
             spd: 175,
@@ -66994,7 +94651,28 @@ window.rumble = {
             }
         }
     },
+    4072: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4073: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4074: {
+        festCost: 20,
         festStats: {
             def: 181,
             spd: 175,
@@ -67032,7 +94710,38 @@ window.rumble = {
             }
         }
     },
+    4075: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4076: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4077: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4078: {
+        festCost: 20,
         festStats: {
             def: 274,
             spd: 129,
@@ -67071,6 +94780,7 @@ window.rumble = {
         }
     },
     4079: {
+        festCost: 20,
         festStats: {
             def: 299,
             spd: 134,
@@ -67109,6 +94819,7 @@ window.rumble = {
         }
     },
     4080: {
+        festCost: 55,
         festStats: {
             def: 209,
             spd: 177,
@@ -67192,6 +94903,7 @@ window.rumble = {
         }
     },
     4081: {
+        festCost: 55,
         festStats: {
             def: 150,
             spd: 159,
@@ -67252,6 +94964,7 @@ window.rumble = {
         }
     },
     4082: {
+        festCost: 55,
         festStats: {
             def: 150,
             spd: 159,
@@ -67312,6 +95025,7 @@ window.rumble = {
         }
     },
     4083: {
+        festCost: 55,
         festStats: {
             def: 132,
             spd: 144,
@@ -67372,6 +95086,7 @@ window.rumble = {
         }
     },
     4084: {
+        festCost: 55,
         festStats: {
             def: 132,
             spd: 144,
@@ -67432,6 +95147,7 @@ window.rumble = {
         }
     },
     4085: {
+        festCost: 30,
         festStats: {
             def: 112,
             spd: 149,
@@ -67469,7 +95185,28 @@ window.rumble = {
             }
         }
     },
+    4086: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4087: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4088: {
+        festCost: 20,
         festStats: {
             def: 271,
             spd: 119,
@@ -67508,6 +95245,7 @@ window.rumble = {
         }
     },
     4089: {
+        festCost: 20,
         festStats: {
             def: 296,
             spd: 124,
@@ -67546,6 +95284,7 @@ window.rumble = {
         }
     },
     4090: {
+        festCost: 20,
         festStats: {
             def: 131,
             spd: 194,
@@ -67584,6 +95323,7 @@ window.rumble = {
         }
     },
     4091: {
+        festCost: 20,
         festStats: {
             def: 163,
             spd: 145,
@@ -67621,7 +95361,38 @@ window.rumble = {
             }
         }
     },
+    4092: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4093: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4094: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4095: {
+        festCost: 55,
         festStats: {
             def: 194,
             spd: 145,
@@ -67682,6 +95453,7 @@ window.rumble = {
         }
     },
     4096: {
+        festCost: 55,
         festStats: {
             def: 194,
             spd: 145,
@@ -67741,7 +95513,18 @@ window.rumble = {
             }
         }
     },
+    4097: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4098: {
+        festCost: 55,
         festStats: {
             def: 182,
             spd: 176,
@@ -67825,6 +95608,7 @@ window.rumble = {
         }
     },
     4099: {
+        festCost: 55,
         festStats: {
             def: 192,
             spd: 146,
@@ -67885,6 +95669,7 @@ window.rumble = {
         }
     },
     4100: {
+        festCost: 55,
         festStats: {
             def: 192,
             spd: 146,
@@ -67945,6 +95730,7 @@ window.rumble = {
         }
     },
     4101: {
+        festCost: 55,
         festStats: {
             def: 117,
             spd: 181,
@@ -68005,6 +95791,7 @@ window.rumble = {
         }
     },
     4102: {
+        festCost: 55,
         festStats: {
             def: 117,
             spd: 181,
@@ -68064,7 +95851,48 @@ window.rumble = {
             }
         }
     },
+    4103: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4104: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4105: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4106: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4107: {
+        festCost: 20,
         festStats: {
             def: 160,
             spd: 175,
@@ -68103,6 +95931,7 @@ window.rumble = {
         }
     },
     4108: {
+        festCost: 20,
         festStats: {
             def: 185,
             spd: 180,
@@ -68141,6 +95970,7 @@ window.rumble = {
         }
     },
     4109: {
+        festCost: 20,
         festStats: {
             def: 128,
             spd: 182,
@@ -68201,6 +96031,7 @@ window.rumble = {
         }
     },
     4110: {
+        festCost: 55,
         festStats: {
             def: 201,
             spd: 157,
@@ -68261,6 +96092,7 @@ window.rumble = {
         }
     },
     4111: {
+        festCost: 55,
         festStats: {
             def: 201,
             spd: 157,
@@ -68320,7 +96152,28 @@ window.rumble = {
             }
         }
     },
+    4112: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4113: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4114: {
+        festCost: 55,
         festStats: {
             def: 162,
             spd: 171,
@@ -68381,6 +96234,7 @@ window.rumble = {
         }
     },
     4115: {
+        festCost: 55,
         festStats: {
             def: 162,
             spd: 171,
@@ -68440,7 +96294,28 @@ window.rumble = {
             }
         }
     },
+    4116: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4117: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4118: {
+        festCost: 55,
         festStats: {
             def: 213,
             spd: 183,
@@ -68524,6 +96399,7 @@ window.rumble = {
         }
     },
     4119: {
+        festCost: 20,
         festStats: {
             def: 163,
             spd: 177,
@@ -68562,6 +96438,7 @@ window.rumble = {
         }
     },
     4120: {
+        festCost: 20,
         festStats: {
             def: 188,
             spd: 182,
@@ -68600,6 +96477,7 @@ window.rumble = {
         }
     },
     4121: {
+        festCost: 55,
         festStats: {
             def: 206,
             spd: 165,
@@ -68660,6 +96538,7 @@ window.rumble = {
         }
     },
     4122: {
+        festCost: 55,
         festStats: {
             def: 206,
             spd: 165,
@@ -68720,6 +96599,7 @@ window.rumble = {
         }
     },
     4123: {
+        festCost: 55,
         festStats: {
             def: 223,
             spd: 172,
@@ -68780,6 +96660,7 @@ window.rumble = {
         }
     },
     4124: {
+        festCost: 55,
         festStats: {
             def: 223,
             spd: 172,
@@ -68839,7 +96720,28 @@ window.rumble = {
             }
         }
     },
+    4125: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4126: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4127: {
+        festCost: 20,
         festStats: {
             def: 150,
             spd: 194,
@@ -68878,6 +96780,7 @@ window.rumble = {
         }
     },
     4128: {
+        festCost: 20,
         festStats: {
             def: 175,
             spd: 199,
@@ -68916,6 +96819,7 @@ window.rumble = {
         }
     },
     4129: {
+        festCost: 30,
         festStats: {
             def: 67,
             spd: 104,
@@ -68954,6 +96858,7 @@ window.rumble = {
         }
     },
     4130: {
+        festCost: 20,
         festStats: {
             def: 131,
             spd: 169,
@@ -68992,6 +96897,7 @@ window.rumble = {
         }
     },
     4131: {
+        festCost: 20,
         festStats: {
             def: 156,
             spd: 174,
@@ -69030,6 +96936,7 @@ window.rumble = {
         }
     },
     4132: {
+        festCost: 20,
         festStats: {
             def: 275,
             spd: 111,
@@ -69090,6 +96997,7 @@ window.rumble = {
         }
     },
     4133: {
+        festCost: 55,
         festStats: {
             def: 162,
             spd: 171,
@@ -69149,7 +97057,28 @@ window.rumble = {
             }
         }
     },
+    4134: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4135: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4136: {
+        festCost: 55,
         festStats: {
             def: 198,
             spd: 142,
@@ -69210,6 +97139,7 @@ window.rumble = {
         }
     },
     4137: {
+        festCost: 55,
         festStats: {
             def: 198,
             spd: 142,
@@ -69269,7 +97199,18 @@ window.rumble = {
             }
         }
     },
+    4138: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4139: {
+        festCost: 55,
         festStats: {
             def: 200,
             spd: 189,
@@ -69353,6 +97294,7 @@ window.rumble = {
         }
     },
     4140: {
+        festCost: 55,
         festStats: {
             def: 145,
             spd: 175,
@@ -69413,6 +97355,7 @@ window.rumble = {
         }
     },
     4141: {
+        festCost: 55,
         festStats: {
             def: 166,
             spd: 174,
@@ -69473,6 +97416,7 @@ window.rumble = {
         }
     },
     4142: {
+        festCost: 55,
         festStats: {
             def: 166,
             spd: 174,
@@ -69532,7 +97476,38 @@ window.rumble = {
             }
         }
     },
+    4143: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4144: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4145: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4146: {
+        festCost: 20,
         festStats: {
             def: 196,
             spd: 124,
@@ -69571,6 +97546,7 @@ window.rumble = {
         }
     },
     4147: {
+        festCost: 20,
         festStats: {
             def: 221,
             spd: 129,
@@ -69609,6 +97585,7 @@ window.rumble = {
         }
     },
     4148: {
+        festCost: 20,
         festStats: {
             def: 136,
             spd: 153,
@@ -69647,6 +97624,7 @@ window.rumble = {
         }
     },
     4149: {
+        festCost: 55,
         festStats: {
             def: 130,
             spd: 179,
@@ -69707,6 +97685,7 @@ window.rumble = {
         }
     },
     4150: {
+        festCost: 55,
         festStats: {
             def: 130,
             spd: 179,
@@ -69767,6 +97746,7 @@ window.rumble = {
         }
     },
     4151: {
+        festCost: 55,
         festStats: {
             def: 174,
             spd: 174,
@@ -69827,6 +97807,7 @@ window.rumble = {
         }
     },
     4152: {
+        festCost: 55,
         festStats: {
             def: 212,
             spd: 165,
@@ -69887,6 +97868,7 @@ window.rumble = {
         }
     },
     4153: {
+        festCost: 55,
         festStats: {
             def: 212,
             spd: 165,
@@ -69947,6 +97929,7 @@ window.rumble = {
         }
     },
     4154: {
+        festCost: 55,
         festStats: {
             def: 126,
             spd: 185,
@@ -70006,7 +97989,58 @@ window.rumble = {
             }
         }
     },
+    4155: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4156: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4157: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4158: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4159: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4162: {
+        festCost: 55,
         festStats: {
             def: 187,
             spd: 192,
@@ -70067,6 +98101,7 @@ window.rumble = {
         }
     },
     4163: {
+        festCost: 20,
         festStats: {
             def: 129,
             spd: 174,
@@ -70105,6 +98140,7 @@ window.rumble = {
         }
     },
     4164: {
+        festCost: 20,
         festStats: {
             def: 154,
             spd: 179,
@@ -70142,7 +98178,18 @@ window.rumble = {
             }
         }
     },
+    4165: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4166: {
+        festCost: 55,
         festStats: {
             def: 202,
             spd: 139,
@@ -70181,6 +98228,7 @@ window.rumble = {
         }
     },
     4167: {
+        festCost: 55,
         festStats: {
             def: 202,
             spd: 139,
@@ -70218,7 +98266,28 @@ window.rumble = {
             }
         }
     },
+    4168: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4169: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4170: {
+        festCost: 55,
         festStats: {
             def: 192,
             spd: 186,
@@ -70280,6 +98349,7 @@ window.rumble = {
         }
     },
     4171: {
+        festCost: 55,
         festStats: {
             def: 290,
             spd: 117,
@@ -70340,6 +98410,7 @@ window.rumble = {
         }
     },
     4172: {
+        festCost: 55,
         festStats: {
             def: 124,
             spd: 189,
@@ -70399,7 +98470,28 @@ window.rumble = {
             }
         }
     },
+    4173: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4174: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4176: {
+        festCost: 20,
         festStats: {
             def: 165,
             spd: 176,
@@ -70438,6 +98530,7 @@ window.rumble = {
         }
     },
     4177: {
+        festCost: 20,
         festStats: {
             def: 190,
             spd: 181,
@@ -70476,6 +98569,7 @@ window.rumble = {
         }
     },
     4178: {
+        festCost: 20,
         festStats: {
             def: 128,
             spd: 198,
@@ -70514,6 +98608,7 @@ window.rumble = {
         }
     },
     4179: {
+        festCost: 55,
         festStats: {
             def: 150,
             spd: 144,
@@ -70551,7 +98646,28 @@ window.rumble = {
             }
         }
     },
+    4180: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4181: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4182: {
+        festCost: 55,
         festStats: {
             def: 160,
             spd: 152,
@@ -70589,7 +98705,28 @@ window.rumble = {
             }
         }
     },
+    4183: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4184: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4185: {
+        festCost: 55,
         festStats: {
             def: 192,
             spd: 170,
@@ -70651,6 +98788,7 @@ window.rumble = {
         }
     },
     4186: {
+        festCost: 55,
         festStats: {
             def: 210,
             spd: 151,
@@ -70711,6 +98849,7 @@ window.rumble = {
         }
     },
     4187: {
+        festCost: 55,
         festStats: {
             def: 122,
             spd: 192,
@@ -70770,7 +98909,28 @@ window.rumble = {
             }
         }
     },
+    4188: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4189: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4190: {
+        festCost: 20,
         festStats: {
             def: 131,
             spd: 155,
@@ -70809,6 +98969,7 @@ window.rumble = {
         }
     },
     4191: {
+        festCost: 20,
         festStats: {
             def: 156,
             spd: 160,
@@ -70847,6 +99008,7 @@ window.rumble = {
         }
     },
     4192: {
+        festCost: 20,
         festStats: {
             def: 283,
             spd: 117,
@@ -70885,6 +99047,7 @@ window.rumble = {
         }
     },
     4193: {
+        festCost: 55,
         festStats: {
             def: 169,
             spd: 163,
@@ -70922,7 +99085,38 @@ window.rumble = {
             }
         }
     },
+    4194: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4195: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4196: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4197: {
+        festCost: 55,
         festStats: {
             def: 131,
             spd: 178,
@@ -70960,7 +99154,18 @@ window.rumble = {
             }
         }
     },
+    4198: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4199: {
+        festCost: 55,
         festStats: {
             def: 174,
             spd: 165,
@@ -71022,6 +99227,7 @@ window.rumble = {
         }
     },
     4200: {
+        festCost: 20,
         festStats: {
             def: 157,
             spd: 144,
@@ -71060,6 +99266,7 @@ window.rumble = {
         }
     },
     4201: {
+        festCost: 20,
         festStats: {
             def: 182,
             spd: 149,
@@ -71098,6 +99305,7 @@ window.rumble = {
         }
     },
     4202: {
+        festCost: 55,
         festStats: {
             def: 281,
             spd: 120,
@@ -71157,7 +99365,28 @@ window.rumble = {
             }
         }
     },
+    4203: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4204: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4205: {
+        festCost: 20,
         festStats: {
             def: 124,
             spd: 181,
@@ -71196,6 +99425,7 @@ window.rumble = {
         }
     },
     4206: {
+        festCost: 20,
         festStats: {
             def: 149,
             spd: 186,
@@ -71234,6 +99464,7 @@ window.rumble = {
         }
     },
     4207: {
+        festCost: 20,
         festStats: {
             def: 197,
             spd: 155,
@@ -71272,6 +99503,7 @@ window.rumble = {
         }
     },
     4208: {
+        festCost: 20,
         festStats: {
             def: 131,
             spd: 139,
@@ -71310,6 +99542,7 @@ window.rumble = {
         }
     },
     4209: {
+        festCost: 20,
         festStats: {
             def: 156,
             spd: 144,
@@ -71349,6 +99582,7 @@ window.rumble = {
     },
     4210: {
         character1: {
+            festCost: 55,
             festStats: {
                 def: 154,
                 spd: 196,
@@ -71409,6 +99643,7 @@ window.rumble = {
             }
         },
         character2: {
+            festCost: 55,
             festStats: {
                 def: 194,
                 spd: 180,
@@ -71471,6 +99706,7 @@ window.rumble = {
     },
     4211: {
         character1: {
+            festCost: 55,
             festStats: {
                 def: 154,
                 spd: 196,
@@ -71531,6 +99767,7 @@ window.rumble = {
             }
         },
         character2: {
+            festCost: 55,
             festStats: {
                 def: 194,
                 spd: 180,
@@ -71592,6 +99829,7 @@ window.rumble = {
         }
     },
     4212: {
+        festCost: 55,
         festStats: {
             def: 153,
             spd: 185,
@@ -71652,6 +99890,7 @@ window.rumble = {
         }
     },
     4213: {
+        festCost: 55,
         festStats: {
             def: 162,
             spd: 187,
@@ -71689,7 +99928,28 @@ window.rumble = {
             }
         }
     },
+    4214: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4215: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4216: {
+        festCost: 55,
         festStats: {
             def: 171,
             spd: 162,
@@ -71728,6 +99988,7 @@ window.rumble = {
         }
     },
     4217: {
+        festCost: 20,
         festStats: {
             def: 149,
             spd: 193,
@@ -71790,6 +100051,7 @@ window.rumble = {
     },
     4218: {
         character1: {
+            festCost: 55,
             festStats: {
                 def: 202,
                 spd: 139,
@@ -71850,6 +100112,7 @@ window.rumble = {
             }
         },
         character2: {
+            festCost: 55,
             festStats: {
                 def: 124,
                 spd: 188,
@@ -71912,6 +100175,7 @@ window.rumble = {
     },
     4219: {
         character1: {
+            festCost: 55,
             festStats: {
                 def: 202,
                 spd: 139,
@@ -71972,6 +100236,7 @@ window.rumble = {
             }
         },
         character2: {
+            festCost: 55,
             festStats: {
                 def: 124,
                 spd: 188,
@@ -72033,6 +100298,7 @@ window.rumble = {
         }
     },
     4220: {
+        festCost: 55,
         festStats: {
             def: 209,
             spd: 167,
@@ -72071,6 +100337,7 @@ window.rumble = {
         }
     },
     4221: {
+        festCost: 55,
         festStats: {
             def: 209,
             spd: 167,
@@ -72108,7 +100375,28 @@ window.rumble = {
             }
         }
     },
+    4222: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4223: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4224: {
+        festCost: 20,
         festStats: {
             def: 164,
             spd: 157,
@@ -72147,6 +100435,7 @@ window.rumble = {
         }
     },
     4225: {
+        festCost: 20,
         festStats: {
             def: 189,
             spd: 162,
@@ -72185,6 +100474,7 @@ window.rumble = {
         }
     },
     4226: {
+        festCost: 20,
         festStats: {
             def: 199,
             spd: 127,
@@ -72223,6 +100513,7 @@ window.rumble = {
         }
     },
     4227: {
+        festCost: 55,
         festStats: {
             def: 171,
             spd: 195,
@@ -72260,8 +100551,29 @@ window.rumble = {
             }
         }
     },
+    4228: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4229: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4230: {
         character1: {
+            festCost: 55,
             festStats: {
                 def: 130,
                 spd: 180,
@@ -72322,6 +100634,7 @@ window.rumble = {
             }
         },
         character2: {
+            festCost: 55,
             festStats: {
                 def: 154,
                 spd: 180,
@@ -72384,6 +100697,7 @@ window.rumble = {
     },
     4231: {
         character1: {
+            festCost: 55,
             festStats: {
                 def: 130,
                 spd: 180,
@@ -72444,6 +100758,7 @@ window.rumble = {
             }
         },
         character2: {
+            festCost: 55,
             festStats: {
                 def: 154,
                 spd: 180,
@@ -72505,6 +100820,7 @@ window.rumble = {
         }
     },
     4232: {
+        festCost: 55,
         festStats: {
             def: 162,
             spd: 170,
@@ -72543,6 +100859,7 @@ window.rumble = {
         }
     },
     4233: {
+        festCost: 55,
         festStats: {
             def: 162,
             spd: 170,
@@ -72580,7 +100897,38 @@ window.rumble = {
             }
         }
     },
+    4234: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "DEF"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4235: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "SPT"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4236: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4237: {
+        festCost: 55,
         festStats: {
             def: 310,
             spd: 124,
@@ -72642,6 +100990,7 @@ window.rumble = {
         }
     },
     4238: {
+        festCost: 55,
         festStats: {
             def: 136,
             spd: 154,
@@ -72743,6 +101092,7 @@ window.rumble = {
         }
     },
     4239: {
+        festCost: 55,
         festStats: {
             def: 161,
             spd: 172,
@@ -72803,6 +101153,7 @@ window.rumble = {
         }
     },
     4240: {
+        festCost: 55,
         festStats: {
             def: 161,
             spd: 172,
@@ -72863,6 +101214,7 @@ window.rumble = {
         }
     },
     4241: {
+        festCost: 55,
         festStats: {
             def: 195,
             spd: 144,
@@ -72923,6 +101275,7 @@ window.rumble = {
         }
     },
     4242: {
+        festCost: 55,
         festStats: {
             def: 195,
             spd: 144,
@@ -72982,7 +101335,28 @@ window.rumble = {
             }
         }
     },
+    4243: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4244: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4245: {
+        festCost: 20,
         festStats: {
             def: 147,
             spd: 155,
@@ -73021,6 +101395,7 @@ window.rumble = {
         }
     },
     4246: {
+        festCost: 20,
         festStats: {
             def: 172,
             spd: 160,
@@ -73059,6 +101434,7 @@ window.rumble = {
         }
     },
     4247: {
+        festCost: 20,
         festStats: {
             def: 205,
             spd: 137,
@@ -73097,6 +101473,7 @@ window.rumble = {
         }
     },
     4248: {
+        festCost: 20,
         festStats: {
             def: 346,
             spd: 86,
@@ -73135,6 +101512,7 @@ window.rumble = {
         }
     },
     4249: {
+        festCost: 55,
         festStats: {
             def: 158,
             spd: 174,
@@ -73173,6 +101551,7 @@ window.rumble = {
         }
     },
     4250: {
+        festCost: 55,
         festStats: {
             def: 158,
             spd: 174,
@@ -73210,7 +101589,28 @@ window.rumble = {
             }
         }
     },
+    4251: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4252: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4253: {
+        festCost: 55,
         festStats: {
             def: 129,
             spd: 181,
@@ -73248,7 +101648,28 @@ window.rumble = {
             }
         }
     },
+    4254: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4255: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "SPT"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4256: {
+        festCost: 55,
         festStats: {
             def: 165,
             spd: 200,
@@ -73310,6 +101731,7 @@ window.rumble = {
         }
     },
     4257: {
+        festCost: 55,
         festStats: {
             def: 182,
             spd: 183,
@@ -73357,7 +101779,28 @@ window.rumble = {
             }
         }
     },
+    4258: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "DEF"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4259: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "DEF"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4260: {
+        festCost: 20,
         festStats: {
             def: 153,
             spd: 167,
@@ -73396,6 +101839,7 @@ window.rumble = {
         }
     },
     4261: {
+        festCost: 20,
         festStats: {
             def: 178,
             spd: 172,
@@ -73434,6 +101878,7 @@ window.rumble = {
         }
     },
     4262: {
+        festCost: 55,
         festStats: {
             def: 207,
             spd: 153,
@@ -73482,6 +101927,7 @@ window.rumble = {
         }
     },
     4263: {
+        festCost: 55,
         festStats: {
             def: 192,
             spd: 186,
@@ -73543,6 +101989,7 @@ window.rumble = {
         }
     },
     4264: {
+        festCost: 20,
         festStats: {
             def: 208,
             spd: 166,
@@ -73581,6 +102028,7 @@ window.rumble = {
         }
     },
     4265: {
+        festCost: 20,
         festStats: {
             def: 125,
             spd: 178,
@@ -73619,6 +102067,7 @@ window.rumble = {
         }
     },
     4266: {
+        festCost: 20,
         festStats: {
             def: 154,
             spd: 179,
@@ -73657,6 +102106,7 @@ window.rumble = {
         }
     },
     4267: {
+        festCost: 55,
         festStats: {
             def: 181,
             spd: 184,
@@ -73705,6 +102155,7 @@ window.rumble = {
         }
     },
     4268: {
+        festCost: 55,
         festStats: {
             def: 166,
             spd: 174,
@@ -73752,7 +102203,58 @@ window.rumble = {
             }
         }
     },
+    4269: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4270: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4271: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "SPT"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4272: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "DBF"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4273: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "RCV"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4274: {
+        festCost: 55,
         festStats: {
             def: 149,
             spd: 194,
@@ -73814,6 +102316,7 @@ window.rumble = {
         }
     },
     4275: {
+        festCost: 55,
         festStats: {
             def: 182,
             spd: 183,
@@ -73862,6 +102365,7 @@ window.rumble = {
         }
     },
     4276: {
+        festCost: 55,
         festStats: {
             def: 227,
             spd: 169,
@@ -73909,7 +102413,28 @@ window.rumble = {
             }
         }
     },
+    4277: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4278: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4279: {
+        festCost: 20,
         festStats: {
             def: 198,
             spd: 136,
@@ -73948,6 +102473,7 @@ window.rumble = {
         }
     },
     4280: {
+        festCost: 20,
         festStats: {
             def: 223,
             spd: 141,
@@ -73986,6 +102512,7 @@ window.rumble = {
         }
     },
     4281: {
+        festCost: 20,
         festStats: {
             def: 278,
             spd: 121,
@@ -74024,6 +102551,7 @@ window.rumble = {
         }
     },
     4282: {
+        festCost: 55,
         festStats: {
             def: 149,
             spd: 160,
@@ -74061,7 +102589,28 @@ window.rumble = {
             }
         }
     },
+    4283: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "DEF"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4284: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "DEF"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4285: {
+        festCost: 55,
         festStats: {
             def: 165,
             spd: 163,
@@ -74099,7 +102648,18 @@ window.rumble = {
             }
         }
     },
+    4286: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "SPT"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4287: {
+        festCost: 55,
         festStats: {
             def: 198,
             spd: 218,
@@ -74161,6 +102721,7 @@ window.rumble = {
         }
     },
     4288: {
+        festCost: 55,
         festStats: {
             def: 200,
             spd: 175,
@@ -74209,6 +102770,7 @@ window.rumble = {
         }
     },
     4289: {
+        festCost: 55,
         festStats: {
             def: 189,
             spd: 232,
@@ -74273,6 +102835,7 @@ window.rumble = {
         }
     },
     4290: {
+        festCost: 55,
         festStats: {
             def: 156,
             spd: 194,
@@ -74333,6 +102896,7 @@ window.rumble = {
         }
     },
     4291: {
+        festCost: 55,
         festStats: {
             def: 160,
             spd: 168,
@@ -74393,6 +102957,7 @@ window.rumble = {
         }
     },
     4292: {
+        festCost: 55,
         festStats: {
             def: 160,
             spd: 168,
@@ -74453,6 +103018,7 @@ window.rumble = {
         }
     },
     4293: {
+        festCost: 55,
         festStats: {
             def: 180,
             spd: 185,
@@ -74513,6 +103079,7 @@ window.rumble = {
         }
     },
     4294: {
+        festCost: 55,
         festStats: {
             def: 237,
             spd: 169,
@@ -74623,7 +103190,28 @@ window.rumble = {
             }
         }
     },
+    4295: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "DEF"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4296: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "RCV"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4297: {
+        festCost: 20,
         festStats: {
             def: 156,
             spd: 169,
@@ -74662,6 +103250,7 @@ window.rumble = {
         }
     },
     4298: {
+        festCost: 20,
         festStats: {
             def: 200,
             spd: 189,
@@ -74700,6 +103289,7 @@ window.rumble = {
         }
     },
     4299: {
+        festCost: 20,
         festStats: {
             def: 186,
             spd: 152,
@@ -74738,6 +103328,7 @@ window.rumble = {
         }
     },
     4300: {
+        festCost: 55,
         festStats: {
             def: 151,
             spd: 158,
@@ -74775,7 +103366,28 @@ window.rumble = {
             }
         }
     },
+    4301: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "DBF"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4302: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4303: {
+        festCost: 55,
         festStats: {
             def: 126,
             spd: 185,
@@ -74813,7 +103425,28 @@ window.rumble = {
             }
         }
     },
+    4304: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "SPT"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4305: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "RCV"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4306: {
+        festCost: 20,
         festStats: {
             def: 213,
             spd: 183,
@@ -74875,6 +103508,7 @@ window.rumble = {
         }
     },
     4307: {
+        festCost: 55,
         festStats: {
             def: 160,
             spd: 181,
@@ -74923,6 +103557,7 @@ window.rumble = {
         }
     },
     4308: {
+        festCost: 55,
         festStats: {
             def: 133,
             spd: 213,
@@ -74970,7 +103605,28 @@ window.rumble = {
             }
         }
     },
+    4309: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "DEF"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4310: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4311: {
+        festCost: 20,
         festStats: {
             def: 162,
             spd: 158,
@@ -75009,6 +103665,7 @@ window.rumble = {
         }
     },
     4312: {
+        festCost: 20,
         festStats: {
             def: 178,
             spd: 172,
@@ -75047,6 +103704,7 @@ window.rumble = {
         }
     },
     4313: {
+        festCost: 20,
         festStats: {
             def: 209,
             spd: 152,
@@ -75085,6 +103743,7 @@ window.rumble = {
         }
     },
     4314: {
+        festCost: 55,
         festStats: {
             def: 141,
             spd: 139,
@@ -75122,7 +103781,28 @@ window.rumble = {
             }
         }
     },
+    4315: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "DBF"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4316: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4317: {
+        festCost: 20,
         festStats: {
             def: 160,
             spd: 146,
@@ -75161,6 +103841,7 @@ window.rumble = {
         }
     },
     4318: {
+        festCost: 20,
         festStats: {
             def: 185,
             spd: 151,
@@ -75199,6 +103880,7 @@ window.rumble = {
         }
     },
     4319: {
+        festCost: 55,
         festStats: {
             def: 139,
             spd: 183,
@@ -75236,7 +103918,18 @@ window.rumble = {
             }
         }
     },
+    4320: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "SPT"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4321: {
+        festCost: 20,
         festStats: {
             def: 178,
             spd: 172,
@@ -75298,6 +103991,7 @@ window.rumble = {
         }
     },
     4322: {
+        festCost: 55,
         festStats: {
             def: 132,
             spd: 214,
@@ -75346,6 +104040,7 @@ window.rumble = {
         }
     },
     4323: {
+        festCost: 55,
         festStats: {
             def: 179,
             spd: 187,
@@ -75393,7 +104088,28 @@ window.rumble = {
             }
         }
     },
+    4324: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "SPT"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4325: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "DBF"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4326: {
+        festCost: 20,
         festStats: {
             def: 148,
             spd: 196,
@@ -75432,6 +104148,7 @@ window.rumble = {
         }
     },
     4327: {
+        festCost: 20,
         festStats: {
             def: 173,
             spd: 201,
@@ -75470,6 +104187,7 @@ window.rumble = {
         }
     },
     4328: {
+        festCost: 20,
         festStats: {
             def: 159,
             spd: 156,
@@ -75508,6 +104226,7 @@ window.rumble = {
         }
     },
     4329: {
+        festCost: 55,
         festStats: {
             def: 140,
             spd: 139,
@@ -75555,7 +104274,38 @@ window.rumble = {
             }
         }
     },
+    4330: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "RCV"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4331: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4332: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "RCV"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4333: {
+        festCost: 55,
         festStats: {
             def: 139,
             spd: 172,
@@ -75593,7 +104343,18 @@ window.rumble = {
             }
         }
     },
+    4334: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "RCV"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4335: {
+        festCost: 55,
         festStats: {
             def: 149,
             spd: 194,
@@ -75655,6 +104416,7 @@ window.rumble = {
         }
     },
     4336: {
+        festCost: 55,
         festStats: {
             def: 282,
             spd: 132,
@@ -75703,6 +104465,7 @@ window.rumble = {
         }
     },
     4337: {
+        festCost: 55,
         festStats: {
             def: 127,
             spd: 184,
@@ -75751,6 +104514,7 @@ window.rumble = {
         }
     },
     4338: {
+        festCost: 55,
         festStats: {
             def: 187,
             spd: 151,
@@ -75798,7 +104562,28 @@ window.rumble = {
             }
         }
     },
+    4339: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "DBF"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4340: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "SPT"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4341: {
+        festCost: 20,
         festStats: {
             def: 199,
             spd: 152,
@@ -75837,6 +104622,7 @@ window.rumble = {
         }
     },
     4342: {
+        festCost: 20,
         festStats: {
             def: 224,
             spd: 157,
@@ -75875,6 +104661,7 @@ window.rumble = {
         }
     },
     4343: {
+        festCost: 20,
         festStats: {
             def: 209,
             spd: 155,
@@ -75913,6 +104700,7 @@ window.rumble = {
         }
     },
     4344: {
+        festCost: 55,
         festStats: {
             def: 149,
             spd: 194,
@@ -75984,6 +104772,7 @@ window.rumble = {
         }
     },
     4345: {
+        festCost: 55,
         festStats: {
             def: 165,
             spd: 167,
@@ -76021,7 +104810,28 @@ window.rumble = {
             }
         }
     },
+    4346: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "DBF"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4347: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "SPT"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4348: {
+        festCost: 55,
         festStats: {
             def: 158,
             spd: 183,
@@ -76059,7 +104869,18 @@ window.rumble = {
             }
         }
     },
+    4349: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "RCV"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4350: {
+        festCost: 55,
         festStats: {
             def: 164,
             spd: 175,
@@ -76121,6 +104942,7 @@ window.rumble = {
         }
     },
     4351: {
+        festCost: 20,
         festStats: {
             def: 132,
             spd: 150,
@@ -76159,6 +104981,7 @@ window.rumble = {
         }
     },
     4352: {
+        festCost: 20,
         festStats: {
             def: 132,
             spd: 150,
@@ -76197,6 +105020,7 @@ window.rumble = {
         }
     },
     4353: {
+        festCost: 55,
         festStats: {
             def: 332,
             spd: 106,
@@ -76245,6 +105069,7 @@ window.rumble = {
         }
     },
     4354: {
+        festCost: 55,
         festStats: {
             def: 107,
             spd: 158,
@@ -76292,7 +105117,28 @@ window.rumble = {
             }
         }
     },
+    4355: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "DBF"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4356: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "DEF"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4357: {
+        festCost: 20,
         festStats: {
             def: 269,
             spd: 120,
@@ -76331,6 +105177,7 @@ window.rumble = {
         }
     },
     4358: {
+        festCost: 20,
         festStats: {
             def: 299,
             spd: 134,
@@ -76368,7 +105215,18 @@ window.rumble = {
             }
         }
     },
+    4359: {
+        festCost: 40,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "DBF"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4360: {
+        festCost: 20,
         festStats: {
             def: 128,
             spd: 199,
@@ -76407,6 +105265,7 @@ window.rumble = {
         }
     },
     4361: {
+        festCost: 20,
         festStats: {
             def: 126,
             spd: 124,
@@ -76445,6 +105304,7 @@ window.rumble = {
         }
     },
     4362: {
+        festCost: 20,
         festStats: {
             def: 107,
             spd: 157,
@@ -76482,7 +105342,28 @@ window.rumble = {
             }
         }
     },
+    4363: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "SPT"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4364: {
+        festCost: 20,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4365: {
+        festCost: 55,
         festStats: {
             def: 167,
             spd: 181,
@@ -76543,6 +105424,7 @@ window.rumble = {
         }
     },
     4366: {
+        festCost: 55,
         festStats: {
             def: 128,
             spd: 216,
@@ -76603,6 +105485,7 @@ window.rumble = {
         }
     },
     4367: {
+        festCost: 55,
         festStats: {
             def: 152,
             spd: 143,
@@ -76651,6 +105534,7 @@ window.rumble = {
         }
     },
     4368: {
+        festCost: 20,
         festStats: {
             def: 169,
             spd: 157,
@@ -76689,6 +105573,7 @@ window.rumble = {
         }
     },
     4369: {
+        festCost: 20,
         festStats: {
             def: 137,
             spd: 151,
@@ -76727,6 +105612,7 @@ window.rumble = {
         }
     },
     4370: {
+        festCost: 20,
         festStats: {
             def: 290,
             spd: 114,
@@ -76765,6 +105651,7 @@ window.rumble = {
         }
     },
     4371: {
+        festCost: 55,
         festStats: {
             def: 194,
             spd: 168,
@@ -76858,6 +105745,7 @@ window.rumble = {
         }
     },
     4372: {
+        festCost: 20,
         festStats: {
             def: 129,
             spd: 197,
@@ -76896,6 +105784,7 @@ window.rumble = {
         }
     },
     4373: {
+        festCost: 20,
         festStats: {
             def: 149,
             spd: 154,
@@ -76934,6 +105823,7 @@ window.rumble = {
         }
     },
     4374: {
+        festCost: 20,
         festStats: {
             def: 155,
             spd: 161,
@@ -76972,6 +105862,7 @@ window.rumble = {
         }
     },
     4375: {
+        festCost: 20,
         festStats: {
             def: 156,
             spd: 166,
@@ -77010,6 +105901,7 @@ window.rumble = {
         }
     },
     4376: {
+        festCost: 20,
         festStats: {
             def: 172,
             spd: 175,
@@ -77047,7 +105939,18 @@ window.rumble = {
             }
         }
     },
+    4377: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "DBF"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4378: {
+        festCost: 55,
         festStats: {
             def: 215,
             spd: 172,
@@ -77108,6 +106011,7 @@ window.rumble = {
         }
     },
     4379: {
+        festCost: 55,
         festStats: {
             def: 279,
             spd: 121,
@@ -77168,6 +106072,7 @@ window.rumble = {
         }
     },
     4380: {
+        festCost: 55,
         festStats: {
             def: 279,
             spd: 121,
@@ -77228,6 +106133,7 @@ window.rumble = {
         }
     },
     4381: {
+        festCost: 55,
         festStats: {
             def: 152,
             spd: 143,
@@ -77276,6 +106182,7 @@ window.rumble = {
         }
     },
     4382: {
+        festCost: 20,
         festStats: {
             def: 153,
             spd: 170,
@@ -77314,6 +106221,7 @@ window.rumble = {
         }
     },
     4383: {
+        festCost: 20,
         festStats: {
             def: 288,
             spd: 127,
@@ -77352,6 +106260,7 @@ window.rumble = {
         }
     },
     4384: {
+        festCost: 20,
         festStats: {
             def: 269,
             spd: 132,
@@ -77390,6 +106299,7 @@ window.rumble = {
         }
     },
     4385: {
+        festCost: 20,
         festStats: {
             def: 294,
             spd: 137,
@@ -77428,6 +106338,7 @@ window.rumble = {
         }
     },
     4386: {
+        festCost: 20,
         festStats: {
             def: 172,
             spd: 175,
@@ -77466,6 +106377,7 @@ window.rumble = {
         }
     },
     4387: {
+        festCost: 55,
         festStats: {
             def: 169,
             spd: 180,
@@ -77526,6 +106438,7 @@ window.rumble = {
         }
     },
     4388: {
+        festCost: 55,
         festStats: {
             def: 164,
             spd: 185,
@@ -77585,7 +106498,28 @@ window.rumble = {
             }
         }
     },
+    4389: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "SPT"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4390: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4391: {
+        festCost: 55,
         festStats: {
             def: 163,
             spd: 164,
@@ -77634,6 +106568,7 @@ window.rumble = {
         }
     },
     4392: {
+        festCost: 55,
         festStats: {
             def: 208,
             spd: 153,
@@ -77672,6 +106607,7 @@ window.rumble = {
         }
     },
     4393: {
+        festCost: 55,
         festStats: {
             def: 201,
             spd: 190,
@@ -77733,6 +106669,7 @@ window.rumble = {
         }
     },
     4394: {
+        festCost: 55,
         festStats: {
             def: 127,
             spd: 166,
@@ -77781,6 +106718,7 @@ window.rumble = {
         }
     },
     4395: {
+        festCost: 55,
         festStats: {
             def: 186,
             spd: 171,
@@ -77829,6 +106767,7 @@ window.rumble = {
         }
     },
     4396: {
+        festCost: 20,
         festStats: {
             def: 133,
             spd: 175,
@@ -77867,6 +106806,7 @@ window.rumble = {
         }
     },
     4397: {
+        festCost: 20,
         festStats: {
             def: 203,
             spd: 135,
@@ -77905,6 +106845,7 @@ window.rumble = {
         }
     },
     4398: {
+        festCost: 20,
         festStats: {
             def: 142,
             spd: 161,
@@ -77943,6 +106884,7 @@ window.rumble = {
         }
     },
     4399: {
+        festCost: 20,
         festStats: {
             def: 167,
             spd: 166,
@@ -77981,6 +106923,7 @@ window.rumble = {
         }
     },
     4400: {
+        festCost: 20,
         festStats: {
             def: 146,
             spd: 177,
@@ -78019,6 +106962,7 @@ window.rumble = {
         }
     },
     4401: {
+        festCost: 55,
         festStats: {
             def: 126,
             spd: 185,
@@ -78056,7 +107000,28 @@ window.rumble = {
             }
         }
     },
+    4402: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "DBF"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4404: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "RCV"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4405: {
+        festCost: 55,
         festStats: {
             def: 209,
             spd: 147,
@@ -78094,7 +107059,28 @@ window.rumble = {
             }
         }
     },
+    4406: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4407: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "SPT"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4408: {
+        festCost: 55,
         festStats: {
             def: 184,
             spd: 187,
@@ -78156,6 +107142,7 @@ window.rumble = {
         }
     },
     4409: {
+        festCost: 55,
         festStats: {
             def: 205,
             spd: 155,
@@ -78204,6 +107191,7 @@ window.rumble = {
         }
     },
     4410: {
+        festCost: 55,
         festStats: {
             def: 128,
             spd: 182,
@@ -78252,6 +107240,7 @@ window.rumble = {
         }
     },
     4411: {
+        festCost: 20,
         festStats: {
             def: 138,
             spd: 150,
@@ -78290,6 +107279,7 @@ window.rumble = {
         }
     },
     4412: {
+        festCost: 20,
         festStats: {
             def: 170,
             spd: 156,
@@ -78328,6 +107318,7 @@ window.rumble = {
         }
     },
     4413: {
+        festCost: 20,
         festStats: {
             def: 166,
             spd: 159,
@@ -78366,6 +107357,7 @@ window.rumble = {
         }
     },
     4414: {
+        festCost: 20,
         festStats: {
             def: 191,
             spd: 164,
@@ -78404,6 +107396,7 @@ window.rumble = {
         }
     },
     4415: {
+        festCost: 20,
         festStats: {
             def: 156,
             spd: 166,
@@ -78442,6 +107435,7 @@ window.rumble = {
         }
     },
     4416: {
+        festCost: 20,
         festStats: {
             def: 200,
             spd: 151,
@@ -78480,6 +107474,7 @@ window.rumble = {
         }
     },
     4417: {
+        festCost: 20,
         festStats: {
             def: 225,
             spd: 156,
@@ -78518,6 +107513,7 @@ window.rumble = {
         }
     },
     4418: {
+        festCost: 55,
         festStats: {
             def: 125,
             spd: 187,
@@ -78566,6 +107562,7 @@ window.rumble = {
         }
     },
     4419: {
+        festCost: 55,
         festStats: {
             def: 160,
             spd: 172,
@@ -78603,7 +107600,28 @@ window.rumble = {
             }
         }
     },
+    4420: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4421: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "SPT"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4422: {
+        festCost: 55,
         festStats: {
             def: 186,
             spd: 167,
@@ -78641,7 +107659,18 @@ window.rumble = {
             }
         }
     },
+    4423: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "SPT"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4424: {
+        festCost: 20,
         festStats: {
             def: 187,
             spd: 200,
@@ -78703,6 +107732,7 @@ window.rumble = {
         }
     },
     4425: {
+        festCost: 55,
         festStats: {
             def: 281,
             spd: 120,
@@ -78751,6 +107781,7 @@ window.rumble = {
         }
     },
     4426: {
+        festCost: 55,
         festStats: {
             def: 129,
             spd: 181,
@@ -78799,6 +107830,7 @@ window.rumble = {
         }
     },
     4427: {
+        festCost: 20,
         festStats: {
             def: 162,
             spd: 164,
@@ -78837,6 +107869,7 @@ window.rumble = {
         }
     },
     4428: {
+        festCost: 20,
         festStats: {
             def: 170,
             spd: 159,
@@ -78875,6 +107908,7 @@ window.rumble = {
         }
     },
     4429: {
+        festCost: 20,
         festStats: {
             def: 167,
             spd: 182,
@@ -78913,6 +107947,7 @@ window.rumble = {
         }
     },
     4431: {
+        festCost: 20,
         festStats: {
             def: 210,
             spd: 151,
@@ -78951,6 +107986,7 @@ window.rumble = {
         }
     },
     4986: {
+        festCost: 55,
         festStats: {
             def: 162,
             spd: 187,
@@ -78989,6 +108025,7 @@ window.rumble = {
         }
     },
     4987: {
+        festCost: 55,
         festStats: {
             def: 162,
             spd: 187,
@@ -79027,6 +108064,7 @@ window.rumble = {
         }
     },
     5259: {
+        festCost: 35,
         festStats: {
             def: 164,
             spd: 158,
@@ -79062,6 +108100,7 @@ window.rumble = {
         }
     },
     5260: {
+        festCost: 35,
         festStats: {
             def: 164,
             spd: 158,
@@ -79097,6 +108136,7 @@ window.rumble = {
         }
     },
     5261: {
+        festCost: 35,
         festStats: {
             def: 164,
             spd: 158,
@@ -79132,6 +108172,7 @@ window.rumble = {
         }
     },
     5262: {
+        festCost: 35,
         festStats: {
             def: 164,
             spd: 158,
@@ -79167,6 +108208,7 @@ window.rumble = {
         }
     },
     5263: {
+        festCost: 35,
         festStats: {
             def: 132,
             spd: 205,
@@ -79205,6 +108247,7 @@ window.rumble = {
         }
     },
     5264: {
+        festCost: 35,
         festStats: {
             def: 132,
             spd: 205,
@@ -79243,6 +108286,7 @@ window.rumble = {
         }
     },
     5265: {
+        festCost: 35,
         festStats: {
             def: 132,
             spd: 205,
@@ -79281,6 +108325,7 @@ window.rumble = {
         }
     },
     5266: {
+        festCost: 35,
         festStats: {
             def: 132,
             spd: 205,
@@ -79319,6 +108364,7 @@ window.rumble = {
         }
     },
     5267: {
+        festCost: 55,
         festStats: {
             def: 175,
             spd: 210,
@@ -79379,6 +108425,7 @@ window.rumble = {
         }
     },
     5268: {
+        festCost: 55,
         festStats: {
             def: 175,
             spd: 210,
@@ -79439,6 +108486,7 @@ window.rumble = {
         }
     },
     5269: {
+        festCost: 55,
         festStats: {
             def: 175,
             spd: 210,
@@ -79499,6 +108547,7 @@ window.rumble = {
         }
     },
     5270: {
+        festCost: 55,
         festStats: {
             def: 175,
             spd: 210,
@@ -79559,6 +108608,7 @@ window.rumble = {
         }
     },
     5271: {
+        festCost: 55,
         festStats: {
             def: 175,
             spd: 210,
@@ -79619,6 +108669,7 @@ window.rumble = {
         }
     },
     5272: {
+        festCost: 55,
         festStats: {
             def: 175,
             spd: 210,
@@ -79679,6 +108730,7 @@ window.rumble = {
         }
     },
     5273: {
+        festCost: 55,
         festStats: {
             def: 175,
             spd: 210,
@@ -79739,6 +108791,7 @@ window.rumble = {
         }
     },
     5274: {
+        festCost: 55,
         festStats: {
             def: 175,
             spd: 210,
