@@ -1219,7 +1219,7 @@
                     <!-- If rumble.json is not available, then use details.js if available -->
 
                     <h3 id="rumbleSection" class="page-header" ng-hide="hidden.abilities" ng-if="!details_kor && (details.festAttackPattern || details.festAttackTarget || details.festResistance || details.festAbility || details.festSpecial || details.festSuperSpecial)">해적제 능력</h3>
-                    <div class="panel panel-default" ng-hide="hidden.abilities" ng-if="!details_kor && (details.festAttackPattern || details.festAttackTarget || details.festResistance || details.festAbility || details.festSpecial || details.festSuperSpecial)">
+                    <div class="panel panel-default" ng-hide="hidden.abilities" ng-if="(details.festAttackPattern || details.festAttackTarget || details.festResistance || details.festAbility || details.festSpecial || details.festSuperSpecial)">
                         <table class="table table-striped-column abilities" ng-if="details.festAttackPattern || details.festAttackTarget || details.festResistance || details.festAbility || details.festSpecial">
                             <tbody>
                                 <tr ng-if="details.festAttackPattern">

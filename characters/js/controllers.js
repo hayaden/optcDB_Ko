@@ -375,7 +375,7 @@ app.controller(
         $scope.unit.class && $scope.unit.class.constructor == Array;
     $scope.dualunit = 
         $scope.unit.type && $scope.unit.type.constructor == Array;
-    $scope.details = window.details_kor[id];
+    $scope.details = window.details_kor[id]; //해당 코드는 $scope.details라는 변수에 보여지는 정보를 window.details_kor에 할당하겠다. 를 뜻함
     $scope.cooldown = window.cooldowns[id - 1];
     $scope.evolution = window.evolutions[id];
     $scope.families = window.families[id];
