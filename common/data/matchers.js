@@ -11169,7 +11169,7 @@
 				],
 					},
 			{
-				name: "Provoke: Enemies",
+				name: "도발상태",
 				targets: ["gpSpecial"],
 				regex:
 					/Provoke enemies to (\d)?(?=((?:[^c]+|c(?!rew))*))\2crew members?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: for (\d+) seconds)?/i,
