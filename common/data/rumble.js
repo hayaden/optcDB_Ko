@@ -141,16 +141,16 @@ window.rumble = {
             base: {
                 cooldown: 23,
                 descriptions: [
-                    ['80% chance to inflict Special Bind to 1 enemy with the highest ATK for 10 seconds.', 'Deals 5 fixed damage to 1 enemy with the highest ATK.'],
-                    ['80% chance to inflict Special Bind to 1 enemy with the highest ATK for 11 seconds.', 'Deals 5 fixed damage to 1 enemy with the highest ATK.'],
-                    ['80% chance to inflict Special Bind to 1 enemy with the highest ATK for 12 seconds.', 'Deals 5 fixed damage to 1 enemy with the highest ATK.'],
-                    ['80% chance to inflict Special Bind to 1 enemy with the highest ATK for 13 seconds.', 'Deals 5 fixed damage to 1 enemy with the highest ATK.'],
-                    ['80% chance to inflict Special Bind to 1 enemy with the highest ATK for 14 seconds.', 'Deals 5 fixed damage to 1 enemy with the highest ATK.'],
-                    ['80% chance to inflict Special Bind to 1 enemy with the highest ATK for 15 seconds.', 'Deals 5 fixed damage to 1 enemy with the highest ATK.'],
-                    ['80% chance to inflict Special Bind to 1 enemy with the highest ATK for 16 seconds.', 'Deals 5 fixed damage to 1 enemy with the highest ATK.'],
-                    ['80% chance to inflict Special Bind to 1 enemy with the highest ATK for 17 seconds.', 'Deals 5 fixed damage to 1 enemy with the highest ATK.'],
-                    ['80% chance to inflict Special Bind to 1 enemy with the highest ATK for 18 seconds.', 'Deals 5 fixed damage to 1 enemy with the highest ATK.'],
-                    ['80% chance to inflict Special Bind to 1 enemy with the highest ATK for 19 seconds.', 'Deals 5 fixed damage to 1 enemy with the highest ATK.']
+                    ['Deals 5 fixed damage to 1 enemy with the highest ATK.', '80% chance to inflict Special Bind to 1 enemy with the highest ATK for 10 seconds.'],
+                    ['Deals 5 fixed damage to 1 enemy with the highest ATK.', '80% chance to inflict Special Bind to 1 enemy with the highest ATK for 11 seconds.'],
+                    ['Deals 5 fixed damage to 1 enemy with the highest ATK.', '80% chance to inflict Special Bind to 1 enemy with the highest ATK for 12 seconds.'],
+                    ['Deals 5 fixed damage to 1 enemy with the highest ATK.', '80% chance to inflict Special Bind to 1 enemy with the highest ATK for 13 seconds.'],
+                    ['Deals 5 fixed damage to 1 enemy with the highest ATK.', '80% chance to inflict Special Bind to 1 enemy with the highest ATK for 14 seconds.'],
+                    ['Deals 5 fixed damage to 1 enemy with the highest ATK.', '80% chance to inflict Special Bind to 1 enemy with the highest ATK for 15 seconds.'],
+                    ['Deals 5 fixed damage to 1 enemy with the highest ATK.', '80% chance to inflict Special Bind to 1 enemy with the highest ATK for 16 seconds.'],
+                    ['Deals 5 fixed damage to 1 enemy with the highest ATK.', '80% chance to inflict Special Bind to 1 enemy with the highest ATK for 17 seconds.'],
+                    ['Deals 5 fixed damage to 1 enemy with the highest ATK.', '80% chance to inflict Special Bind to 1 enemy with the highest ATK for 18 seconds.'],
+                    ['Deals 5 fixed damage to 1 enemy with the highest ATK.', '80% chance to inflict Special Bind to 1 enemy with the highest ATK for 19 seconds.']
                 ]
             }
         }
@@ -213,16 +213,16 @@ window.rumble = {
             base: {
                 cooldown: 23,
                 descriptions: [
-                    ['80% chance to inflict Special Bind to 1 enemy with the highest ATK for 10 seconds.', 'Deals 10 fixed damage to 1 enemy with the highest ATK.'],
-                    ['80% chance to inflict Special Bind to 1 enemy with the highest ATK for 11 seconds.', 'Deals 10 fixed damage to 1 enemy with the highest ATK.'],
-                    ['80% chance to inflict Special Bind to 1 enemy with the highest ATK for 12 seconds.', 'Deals 10 fixed damage to 1 enemy with the highest ATK.'],
-                    ['80% chance to inflict Special Bind to 1 enemy with the highest ATK for 13 seconds.', 'Deals 10 fixed damage to 1 enemy with the highest ATK.'],
-                    ['80% chance to inflict Special Bind to 1 enemy with the highest ATK for 14 seconds.', 'Deals 10 fixed damage to 1 enemy with the highest ATK.'],
-                    ['80% chance to inflict Special Bind to 1 enemy with the highest ATK for 15 seconds.', 'Deals 10 fixed damage to 1 enemy with the highest ATK.'],
-                    ['80% chance to inflict Special Bind to 1 enemy with the highest ATK for 16 seconds.', 'Deals 10 fixed damage to 1 enemy with the highest ATK.'],
-                    ['80% chance to inflict Special Bind to 1 enemy with the highest ATK for 17 seconds.', 'Deals 10 fixed damage to 1 enemy with the highest ATK.'],
-                    ['80% chance to inflict Special Bind to 1 enemy with the highest ATK for 18 seconds.', 'Deals 10 fixed damage to 1 enemy with the highest ATK.'],
-                    ['80% chance to inflict Special Bind to 1 enemy with the highest ATK for 20 seconds.', 'Deals 10 fixed damage to 1 enemy with the highest ATK.']
+                    ['Deals 10 fixed damage to 1 enemy with the highest ATK.', '80% chance to inflict Special Bind to 1 enemy with the highest ATK for 10 seconds.'],
+                    ['Deals 10 fixed damage to 1 enemy with the highest ATK.', '80% chance to inflict Special Bind to 1 enemy with the highest ATK for 11 seconds.'],
+                    ['Deals 10 fixed damage to 1 enemy with the highest ATK.', '80% chance to inflict Special Bind to 1 enemy with the highest ATK for 12 seconds.'],
+                    ['Deals 10 fixed damage to 1 enemy with the highest ATK.', '80% chance to inflict Special Bind to 1 enemy with the highest ATK for 13 seconds.'],
+                    ['Deals 10 fixed damage to 1 enemy with the highest ATK.', '80% chance to inflict Special Bind to 1 enemy with the highest ATK for 14 seconds.'],
+                    ['Deals 10 fixed damage to 1 enemy with the highest ATK.', '80% chance to inflict Special Bind to 1 enemy with the highest ATK for 15 seconds.'],
+                    ['Deals 10 fixed damage to 1 enemy with the highest ATK.', '80% chance to inflict Special Bind to 1 enemy with the highest ATK for 16 seconds.'],
+                    ['Deals 10 fixed damage to 1 enemy with the highest ATK.', '80% chance to inflict Special Bind to 1 enemy with the highest ATK for 17 seconds.'],
+                    ['Deals 10 fixed damage to 1 enemy with the highest ATK.', '80% chance to inflict Special Bind to 1 enemy with the highest ATK for 18 seconds.'],
+                    ['Deals 10 fixed damage to 1 enemy with the highest ATK.', '80% chance to inflict Special Bind to 1 enemy with the highest ATK for 20 seconds.']
                 ]
             }
         }
@@ -259,6 +259,28 @@ window.rumble = {
                     ['87% chance to inflict Special Bind to 1 enemy with the highest ATK for 10 seconds.', 'Inflicts Lv. 9 Accuracy down debuff to all enemies for 15 seconds.'],
                     ['91% chance to inflict Special Bind to 1 enemy with the highest ATK for 10 seconds.', 'Inflicts Lv. 9 Accuracy down debuff to all enemies for 15 seconds.'],
                     ['96% chance to inflict Special Bind to 1 enemy with the highest ATK for 10 seconds.', 'Inflicts Lv. 11 Accuracy down debuff to all enemies for 15 seconds.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
                 ]
             }
         }
@@ -3003,7 +3025,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -3064,7 +3086,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -4269,7 +4291,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -4330,7 +4352,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -4965,7 +4987,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -5026,7 +5048,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -5601,7 +5623,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -5685,7 +5707,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -6488,7 +6510,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -6549,7 +6571,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -6910,7 +6932,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -6971,7 +6993,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -7224,7 +7246,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -7308,7 +7330,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -8111,7 +8133,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -8172,7 +8194,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -8491,7 +8513,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -8552,7 +8574,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -9083,7 +9105,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -9144,7 +9166,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -9205,7 +9227,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -9289,7 +9311,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -9597,6 +9619,28 @@ window.rumble = {
                     ['Deals 4,100 fixed damage to 1 enemy.']
                 ]
             }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
         }
     },
     748: {
@@ -9634,6 +9678,28 @@ window.rumble = {
                     ['Deals 3,625 fixed damage to 1 enemy.'],
                     ['Deals 3,800 fixed damage to 1 enemy.'],
                     ['Deals 4,100 fixed damage to 1 enemy.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
                 ]
             }
         }
@@ -11486,7 +11552,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -11570,7 +11636,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -12443,7 +12509,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -12504,7 +12570,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -13309,7 +13375,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -13370,7 +13436,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -13751,7 +13817,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -13835,7 +13901,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -13976,7 +14042,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -14037,7 +14103,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -14634,7 +14700,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -14695,7 +14761,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -15148,7 +15214,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -15232,7 +15298,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -15293,7 +15359,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -15354,7 +15420,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -16238,7 +16304,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -16296,7 +16362,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -16817,7 +16883,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -16878,7 +16944,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -17199,7 +17265,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -17260,7 +17326,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -17813,7 +17879,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -17874,7 +17940,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -18395,7 +18461,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -18456,7 +18522,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -18891,7 +18957,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -18952,7 +19018,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -19123,7 +19189,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -19207,7 +19273,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -19371,7 +19437,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -19622,7 +19688,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -19683,7 +19749,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -20023,7 +20089,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -20370,7 +20436,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -20431,7 +20497,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -20695,7 +20761,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -21188,7 +21254,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -21249,7 +21315,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -21433,7 +21499,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -21806,7 +21872,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -21867,7 +21933,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -22136,7 +22202,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -22197,7 +22263,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -22321,7 +22387,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -22584,7 +22650,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -22645,7 +22711,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -22794,6 +22860,28 @@ window.rumble = {
                     ['Reduce Special Bind to all crew members for 27 seconds.', '63% chance to inflict Special Bind to all enemies in a large, radial range for 10 seconds.', 'Inflicts Lv. 7 ATK down debuff to all enemies in a large, radial range for 18 seconds.'],
                     ['Reduce Special Bind to all crew members for 28 seconds.', '67% chance to inflict Special Bind to all enemies in a large, radial range for 10 seconds.', 'Inflicts Lv. 8 ATK down debuff to all enemies in a large, radial range for 19 seconds.'],
                     ['Reduce Special Bind to all crew members for 29 seconds.', '75% chance to inflict Special Bind to all enemies in a large, radial range for 10 seconds.', 'Inflicts Lv. 9 ATK down debuff to all enemies in a large, radial range for 20 seconds.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
                 ]
             }
         }
@@ -23268,7 +23356,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -23329,7 +23417,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -23513,7 +23601,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -24008,7 +24096,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -24069,7 +24157,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -24233,7 +24321,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -24790,7 +24878,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -24851,7 +24939,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -24932,7 +25020,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -25016,7 +25104,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -25177,7 +25265,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -25261,7 +25349,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -25341,7 +25429,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -25682,7 +25770,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -25766,7 +25854,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -26216,7 +26304,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -26527,7 +26615,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -26611,7 +26699,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -26887,7 +26975,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -27252,7 +27340,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -27313,7 +27401,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -27549,7 +27637,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -27633,7 +27721,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -27694,7 +27782,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -27755,7 +27843,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -28170,7 +28258,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -28231,7 +28319,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -28467,7 +28555,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -28551,7 +28639,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -28785,7 +28873,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -28869,7 +28957,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -28980,7 +29068,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -29041,7 +29129,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -29294,7 +29382,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -29378,7 +29466,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -29811,7 +29899,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -29872,7 +29960,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -30210,7 +30298,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -30311,7 +30399,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -30372,7 +30460,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -30677,7 +30765,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -30738,7 +30826,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -30799,7 +30887,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -30860,7 +30948,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -31076,7 +31164,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -31160,7 +31248,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -31628,7 +31716,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -31749,7 +31837,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -31833,7 +31921,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -31894,7 +31982,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -31955,7 +32043,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -32330,7 +32418,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -32414,7 +32502,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -32595,7 +32683,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -32679,7 +32767,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -33029,7 +33117,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -33222,7 +33310,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -33283,7 +33371,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -33519,7 +33607,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -33890,7 +33978,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -33951,7 +34039,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -34165,7 +34253,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -34315,7 +34403,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -34373,7 +34461,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -34809,7 +34897,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -34870,7 +34958,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -34931,7 +35019,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -34992,7 +35080,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -35053,7 +35141,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -35321,7 +35409,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -35422,7 +35510,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -35483,7 +35571,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -35664,7 +35752,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -35725,7 +35813,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -36392,7 +36480,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -36453,7 +36541,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -36514,7 +36602,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -36887,7 +36975,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -36971,7 +37059,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -37092,7 +37180,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -37153,7 +37241,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -37469,7 +37557,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -37684,7 +37772,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -37745,7 +37833,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -37806,7 +37894,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -38106,7 +38194,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -38190,7 +38278,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -38837,7 +38925,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -38898,7 +38986,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -39355,7 +39443,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -39416,7 +39504,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -39500,7 +39588,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -39611,7 +39699,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -39672,7 +39760,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -39776,7 +39864,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -39837,7 +39925,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -39898,7 +39986,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -40337,7 +40425,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -40398,7 +40486,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -40591,7 +40679,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -40652,7 +40740,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -40713,7 +40801,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -40774,7 +40862,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -41338,7 +41426,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -41514,7 +41602,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -42126,7 +42214,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -42187,7 +42275,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -42673,6 +42761,28 @@ window.rumble = {
                     ['Deals 0.65x ATK in damage to all enemies in a medium, forward range.', 'Inflicts Lv. 3 DEF down debuff to all enemies in a medium, forward range for 25 seconds.', 'Deals 1.15x ATK in damage to all enemies in a small, forward range.']
                 ]
             }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
         }
     },
     2561: {
@@ -42710,6 +42820,28 @@ window.rumble = {
                     ['Deals 0.57x ATK in damage to all enemies in a medium, forward range.', 'Inflicts Lv. 2 DEF down debuff to all enemies in a medium, forward range for 22 seconds.', 'Deals 1.01x ATK in damage to all enemies in a small, forward range.'],
                     ['Deals 0.59x ATK in damage to all enemies in a medium, forward range.', 'Inflicts Lv. 2 DEF down debuff to all enemies in a medium, forward range for 23 seconds.', 'Deals 1.05x ATK in damage to all enemies in a small, forward range.'],
                     ['Deals 0.65x ATK in damage to all enemies in a medium, forward range.', 'Inflicts Lv. 3 DEF down debuff to all enemies in a medium, forward range for 25 seconds.', 'Deals 1.15x ATK in damage to all enemies in a small, forward range.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
                 ]
             }
         }
@@ -43060,7 +43192,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -43121,7 +43253,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -43205,7 +43337,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -43379,7 +43511,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -43550,7 +43682,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -43611,7 +43743,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -43672,7 +43804,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -43733,7 +43865,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -44243,7 +44375,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -44640,7 +44772,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -44701,7 +44833,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -45108,7 +45240,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -45192,7 +45324,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -45564,7 +45696,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -45707,7 +45839,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -45768,7 +45900,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -46740,7 +46872,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -46801,7 +46933,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -46862,7 +46994,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -47389,7 +47521,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -47450,7 +47582,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -47511,7 +47643,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -47595,7 +47727,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -47879,7 +48011,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -48238,7 +48370,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -48299,7 +48431,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -48390,7 +48522,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -48451,7 +48583,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -48512,7 +48644,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -48573,7 +48705,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -48903,7 +49035,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -49218,7 +49350,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -49345,7 +49477,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -49406,7 +49538,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -49467,7 +49599,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -49528,7 +49660,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -49958,7 +50090,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -50019,7 +50151,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -50080,7 +50212,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -50141,7 +50273,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -50379,7 +50511,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -50820,7 +50952,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -50881,7 +51013,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -50942,7 +51074,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -51003,7 +51135,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -51353,7 +51485,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -51714,7 +51846,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -51775,7 +51907,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -52840,7 +52972,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -52976,7 +53108,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -53037,7 +53169,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -53098,7 +53230,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -53182,7 +53314,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -53243,7 +53375,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -53304,7 +53436,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -53365,7 +53497,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -53426,7 +53558,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -53874,6 +54006,28 @@ window.rumble = {
                     ['Applies Lv. 3 DEF up buff to all crew members for 25 seconds.', 'Deals 2x ATK in damage to all enemies in a large, sideways range.']
                 ]
             }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
         }
     },
     2980: {
@@ -53926,7 +54080,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -53987,7 +54141,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -54048,7 +54202,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -54368,7 +54522,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -54624,7 +54778,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -54685,7 +54839,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -54746,7 +54900,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -54807,7 +54961,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -55153,7 +55307,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -55339,7 +55493,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -55400,7 +55554,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -55564,6 +55718,28 @@ window.rumble = {
                     ['Deals 4,000 fixed damage to 1 enemy with the lowest HP.', 'Inflicts Lv. 11 ATK down debuff to all enemies in a large, sideways range for 15 seconds.', 'Applies Lv. 6 ATK up buff to [PSY] crew members for 15 seconds.']
                 ]
             }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
         }
     },
     3038: {
@@ -55616,7 +55792,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -56001,7 +56177,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -56403,7 +56579,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -56464,7 +56640,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -56669,7 +56845,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -56730,7 +56906,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -56791,7 +56967,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -56852,7 +57028,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -57015,7 +57191,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -57473,7 +57649,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -57534,7 +57710,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -57580,6 +57756,28 @@ window.rumble = {
                     ['85% chance to inflict Special Bind to all enemies for 8 seconds.', 'Deals 1.35x ATK in damage to all enemies in a medium, sideways range.'],
                     ['90% chance to inflict Special Bind to all enemies for 8 seconds.', 'Deals 1.4x ATK in damage to all enemies in a medium, sideways range.'],
                     ['100% chance to inflict Special Bind to all enemies for 8 seconds.', 'Deals 1.5x ATK in damage to all enemies in a medium, sideways range.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
                 ]
             }
         }
@@ -57634,7 +57832,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -58015,6 +58213,28 @@ window.rumble = {
                     ['70% chance to inflict Action Bind to 4 enemies for 6 seconds.', 'Deals 2x ATK in damage to all enemies in a large, forward range.']
                 ]
             }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
         }
     },
     3118: {
@@ -58067,7 +58287,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -59024,7 +59244,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -59085,7 +59305,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -59146,7 +59366,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -59309,7 +59529,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -59370,7 +59590,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -59431,7 +59651,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -59492,7 +59712,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -59826,7 +60046,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -59887,7 +60107,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -60623,7 +60843,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -60684,7 +60904,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -60745,7 +60965,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -61028,7 +61248,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -61325,7 +61545,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -61386,7 +61606,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -61447,7 +61667,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -61508,7 +61728,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -61876,7 +62096,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -62048,7 +62268,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -62109,7 +62329,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -62903,7 +63123,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -63003,7 +63223,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -63064,7 +63284,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -63125,7 +63345,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -63186,7 +63406,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -63247,7 +63467,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -63308,7 +63528,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -63768,7 +63988,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -63829,7 +64049,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -63890,7 +64110,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -64088,7 +64308,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -64172,7 +64392,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -65274,7 +65494,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -65335,7 +65555,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -65419,7 +65639,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -65757,7 +65977,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -65818,7 +66038,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -66068,7 +66288,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -66129,7 +66349,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -66346,7 +66566,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -66602,7 +66822,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -66663,7 +66883,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -66724,7 +66944,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -66785,7 +67005,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -67062,7 +67282,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -67123,7 +67343,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -67217,7 +67437,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -67457,7 +67677,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -67635,7 +67855,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -67696,7 +67916,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -67757,7 +67977,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -67818,7 +68038,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -68029,7 +68249,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -68090,7 +68310,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -68282,7 +68502,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -68402,7 +68622,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -68463,7 +68683,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -68641,7 +68861,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -68702,7 +68922,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -69032,7 +69252,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -69093,7 +69313,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -69684,7 +69904,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -69823,7 +70043,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -69884,7 +70104,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -69945,7 +70165,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -70029,7 +70249,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -70341,7 +70561,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -70402,7 +70622,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -70649,6 +70869,28 @@ window.rumble = {
                     ['Reduces 35% of Special CT to [INT] crew members.', 'Applies Lv. 5 ATK up buff to [INT] crew members for 28 seconds.', 'Applies Lv. 8 ATK up buff to 1 crew member with the highest ATK for 28 seconds.']
                 ]
             }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
         }
     },
     3470: {
@@ -70727,6 +70969,28 @@ window.rumble = {
                     ['Inflicts Lv. 7 ATK down debuff to all enemies in a large, radial range for 20 seconds.', 'Deals 2.5x ATK in damage to all enemies in a large, radial range.', 'When HP is above 50%, deals 2x ATK in damage ignoring DEF to 1 enemy with the highest HP.']
                 ]
             }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
         }
     },
     3472: {
@@ -70788,6 +71052,28 @@ window.rumble = {
                     ['Inflicts Lv. 7 ATK down debuff to all enemies in a large, radial range for 20 seconds.', 'Deals 3x ATK in damage to all enemies in a large, radial range.', 'When HP is above 40%, deals 2x ATK in damage ignoring DEF to 1 enemy with the highest HP.']
                 ]
             }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
         }
     },
     3473: {
@@ -70840,7 +71126,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -70901,7 +71187,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -71200,7 +71486,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -71261,7 +71547,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -71576,7 +71862,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -71637,7 +71923,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -71698,7 +71984,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -71759,7 +72045,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -72127,7 +72413,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -72188,7 +72474,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -72311,7 +72597,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -72957,7 +73243,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -73018,7 +73304,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -73343,7 +73629,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -73404,7 +73690,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -73465,7 +73751,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -73526,7 +73812,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -73776,7 +74062,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -73837,7 +74123,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -74097,7 +74383,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -74197,7 +74483,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -74258,7 +74544,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -74319,7 +74605,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -74380,7 +74666,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -74698,7 +74984,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -74759,7 +75045,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -75107,7 +75393,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -75168,7 +75454,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -75229,7 +75515,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -75290,7 +75576,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -75478,7 +75764,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -75539,7 +75825,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -75770,7 +76056,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -75831,7 +76117,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -75925,7 +76211,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -75986,7 +76272,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -76047,7 +76333,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -76108,7 +76394,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -76169,7 +76455,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -77319,7 +77605,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -77458,7 +77744,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -77519,7 +77805,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -77580,7 +77866,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -77641,7 +77927,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -77829,7 +78115,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -77890,7 +78176,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -78075,7 +78361,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -78136,7 +78422,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -78354,7 +78640,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -78415,7 +78701,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -78476,7 +78762,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -78537,7 +78823,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -78598,7 +78884,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -78659,7 +78945,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -79011,7 +79297,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -79160,7 +79446,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -79270,7 +79556,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -79331,7 +79617,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -79392,7 +79678,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -79453,7 +79739,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -79715,7 +80001,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -79776,7 +80062,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -80076,7 +80362,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -80259,7 +80545,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -80320,7 +80606,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -80822,7 +81108,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -80883,7 +81169,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -81202,7 +81488,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -81402,7 +81688,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -81463,7 +81749,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -81719,7 +82005,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -81780,7 +82066,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -81900,7 +82186,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -81961,7 +82247,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -82081,7 +82367,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -82142,7 +82428,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -82203,7 +82489,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -82287,7 +82573,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -82588,7 +82874,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -82649,7 +82935,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -83011,7 +83297,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -83363,7 +83649,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -83424,7 +83710,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -83524,7 +83810,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -83585,7 +83871,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -83705,7 +83991,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -83766,7 +84052,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -83870,7 +84156,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -84782,7 +85068,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -85538,7 +85824,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -85599,7 +85885,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -85693,7 +85979,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -86358,7 +86644,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -86932,7 +87218,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -86993,7 +87279,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -87054,7 +87340,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -87115,7 +87401,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -87288,7 +87574,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -88221,7 +88507,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -88282,7 +88568,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -88524,7 +88810,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -88585,7 +88871,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -88699,7 +88985,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -88799,7 +89085,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -88860,7 +89146,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -89409,7 +89695,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -89470,7 +89756,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -89574,7 +89860,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -90065,7 +90351,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -90126,7 +90412,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -90299,7 +90585,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -90438,7 +90724,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -90499,7 +90785,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -90800,7 +91086,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -90861,7 +91147,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -91105,7 +91391,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -91166,7 +91452,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -91316,7 +91602,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -91377,7 +91663,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -91471,7 +91757,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -92075,7 +92361,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -92136,7 +92422,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -92240,7 +92526,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -92715,7 +93001,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -92815,7 +93101,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -92876,7 +93162,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -92996,7 +93282,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -93057,7 +93343,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -93151,7 +93437,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -93915,7 +94201,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -94367,7 +94653,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -94467,7 +94753,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -94587,7 +94873,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -94681,7 +94967,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -95430,7 +95716,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -95681,7 +95967,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -96231,7 +96517,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -96292,7 +96578,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -96386,7 +96672,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -96809,7 +97095,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -97012,7 +97298,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -97073,7 +97359,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -97177,7 +97463,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -97775,7 +98061,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -97836,7 +98122,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -97917,7 +98203,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -97978,7 +98264,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -98072,7 +98358,7 @@ window.rumble = {
         festGPSpecial: {
             base: {
                 uses: 2,
-                condition: "After 2 enemies are defeated",
+                condition: "After 2 crew members are defeated",
                 descriptions: [
                     ['Deals 500 fixed damage to all enemies.'],
                     ['Deals 625 fixed damage to all enemies.'],
@@ -99015,6 +99301,28 @@ window.rumble = {
                     ['Inflicts Lv. 7 ATK and SPD down debuff to all enemies in a large, radial range for 30 seconds.', 'Deals 2.5x ATK in damage to all enemies in a large, radial range.', '100% chance to inflict Confusion to 2 Free Spirit enemies for 10 seconds.']
                 ]
             }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
         }
     },
     4167: {
@@ -99052,6 +99360,28 @@ window.rumble = {
                     ['Inflicts Lv. 5 ATK and SPD down debuff to all enemies in a large, radial range for 28 seconds.', 'Deals 2.2x ATK in damage to all enemies in a large, radial range.', '85% chance to inflict Confusion to 2 Free Spirit enemies for 10 seconds.'],
                     ['Inflicts Lv. 6 ATK and SPD down debuff to all enemies in a large, radial range for 29 seconds.', 'Deals 2.3x ATK in damage to all enemies in a large, radial range.', '90% chance to inflict Confusion to 2 Free Spirit enemies for 10 seconds.'],
                     ['Inflicts Lv. 7 ATK and SPD down debuff to all enemies in a large, radial range for 30 seconds.', 'Deals 2.5x ATK in damage to all enemies in a large, radial range.', '100% chance to inflict Confusion to 2 Free Spirit enemies for 10 seconds.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
                 ]
             }
         }
@@ -99134,6 +99464,28 @@ window.rumble = {
                     ['Inflicts Lv. 3 DEF down debuff to all enemies in a large, radial range for 5 seconds.', 'Deals 2.55x ATK in damage to all enemies in a large, radial range.', 'Applies Lv. 3 SPD up buff to [DEX] crew members for 18 seconds.', 'Deals 1.8x ATK in damage to [QCK] enemies.'],
                     ['Inflicts Lv. 4 DEF down debuff to all enemies in a large, radial range for 5 seconds.', 'Deals 2.65x ATK in damage to all enemies in a large, radial range.', 'Applies Lv. 4 SPD up buff to [DEX] crew members for 19 seconds.', 'Deals 1.9x ATK in damage to [QCK] enemies.'],
                     ['Inflicts Lv. 5 DEF down debuff to all enemies in a large, radial range for 5 seconds.', 'Deals 2.75x ATK in damage to all enemies in a large, radial range.', 'Applies Lv. 5 SPD up buff to [DEX] crew members for 20 seconds.', 'Deals 2x ATK in damage to [QCK] enemies.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
                 ]
             }
         }
@@ -99434,6 +99786,28 @@ window.rumble = {
                     ['Inflicts Lv. 7 SPD down debuff to all enemies in a large, radial range for 15 seconds.', 'Inflicts Lv. 2 Damage Over Time to all enemies in a large, radial range for 15 seconds.', 'Inflicts Lv. 3 Special CT down debuff to 1 enemy with the highest Special CT for 15 seconds.', 'Removes 20% of Special CT to 1 enemy with the highest Special CT.']
                 ]
             }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
         }
     },
     4180: {
@@ -99491,6 +99865,28 @@ window.rumble = {
                     ['Applies Lv. 4 ATK and DEF up buff to [INT] crew members for 23 seconds.', 'Reduces 27% of Special CT to 3 Cerebral crew members.', 'Removes 27% of Special CT to 3 Striker and Free Spirit enemies.'],
                     ['Applies Lv. 5 ATK and DEF up buff to [INT] crew members for 24 seconds.', 'Reduces 28% of Special CT to 3 Cerebral crew members.', 'Removes 28% of Special CT to 3 Striker and Free Spirit enemies.'],
                     ['Applies Lv. 6 ATK and DEF up buff to [INT] crew members for 25 seconds.', 'Reduces 30% of Special CT to 3 Cerebral crew members.', 'Removes 30% of Special CT to 3 Striker and Free Spirit enemies.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
                 ]
             }
         }
@@ -99573,6 +99969,28 @@ window.rumble = {
                     ['Deals 3,300 fixed damage to all enemies in a large, radial range.', 'Reduce Special Bind, Paralysis, Action Bind and Half Stats to [PSY] crew members for 23 seconds.'],
                     ['Deals 3,400 fixed damage to all enemies in a large, radial range.', 'Reduce Special Bind, Paralysis, Action Bind and Half Stats to [PSY] crew members for 24 seconds.'],
                     ['Deals 3,500 fixed damage to all enemies in a large, radial range.', 'Reduce Special Bind, Paralysis, Action Bind and Half Stats to [PSY] crew members for 25 seconds.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
                 ]
             }
         }
@@ -99873,6 +100291,28 @@ window.rumble = {
                     ['For the first 40 seconds, inflicts Lv. 4 DEF down debuff to 1 enemy with the highest HP for 20 seconds 5 times.', 'For the first 40 seconds, deals 1x ATK in damage to 1 enemy with the highest HP 5 times.', 'When there are 60 seconds or less remaining, deals 2.5x ATK in damage to all enemies.', 'When there is 5 or More Shooter crew members, deals 1.5x ATK in damage ignoring DEF to 2 enemies with the highest DEF.']
                 ]
             }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
         }
     },
     4194: {
@@ -99940,6 +100380,28 @@ window.rumble = {
                     ['Deals 2.3x ATK in damage to all enemies in a large, sideways range.', '41% chance to inflict Half Stats to all enemies in a large, sideways range for 18 seconds.', 'Applies Lv. 3 Special CT up buff to Free Spirit crew members for 10 seconds.'],
                     ['Deals 2.4x ATK in damage to all enemies in a large, sideways range.', '44% chance to inflict Half Stats to all enemies in a large, sideways range for 19 seconds.', 'Applies Lv. 4 Special CT up buff to Free Spirit crew members for 10 seconds.'],
                     ['Deals 2.5x ATK in damage to all enemies in a large, sideways range.', '50% chance to inflict Half Stats to all enemies in a large, sideways range for 20 seconds.', 'Applies Lv. 5 Special CT up buff to Free Spirit crew members for 10 seconds.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
                 ]
             }
         }
@@ -100012,6 +100474,28 @@ window.rumble = {
                     ['Deals 3,500 fixed damage to 2 enemies with the lowest HP.', 'Applies Lv. 5 ATK up buff to [PSY] crew members for 19 seconds.', 'Inflicts Lv. 9 ATK down debuff to all enemies in a large, sideways range for 19 seconds.'],
                     ['Deals 3,750 fixed damage to 2 enemies with the lowest HP.', 'Applies Lv. 6 ATK up buff to [PSY] crew members for 20 seconds.', 'Inflicts Lv. 10 ATK down debuff to all enemies in a large, sideways range for 20 seconds.'],
                     ['Deals 4,000 fixed damage to 2 enemies with the lowest HP.', 'Applies Lv. 7 ATK up buff to [PSY] crew members for 20 seconds.', 'Inflicts Lv. 12 ATK down debuff to all enemies in a large, sideways range for 20 seconds.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
                 ]
             }
         }
@@ -100716,6 +101200,28 @@ window.rumble = {
                     ['Applies Lv. 6 ATK up buff to all crew members in a large, radial range for 20 seconds.', 'When there is 6 or More [STR] crew members, 35% HP cut to all enemies.', 'When there is 6 or More Free Spirit crew members, deals 4x ATK in damage to 3 enemies.']
                 ]
             }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
         }
     },
     4214: {
@@ -100773,6 +101279,28 @@ window.rumble = {
                     ['48% HP cut to SPT Style enemies.', 'Applies Lv. 5 ATK up buff to [DEX] and Striker crew members for 13 seconds.', 'Deals 3x ATK in damage to all enemies.'],
                     ['49% HP cut to SPT Style enemies.', 'Applies Lv. 6 ATK up buff to [DEX] and Striker crew members for 14 seconds.', 'Deals 3.2x ATK in damage to all enemies.'],
                     ['50% HP cut to SPT Style enemies.', 'Applies Lv. 7 ATK up buff to [DEX] and Striker crew members for 15 seconds.', 'Deals 3.6x ATK in damage to all enemies.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
                 ]
             }
         }
@@ -100835,6 +101363,28 @@ window.rumble = {
                     ['Inflicts Lv. 5 DEF down debuff to 2 enemies with the highest RCV for 18 seconds.', 'Deals 4.5x ATK in damage to 2 enemies with the highest RCV.', 'Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 33 seconds.'],
                     ['Inflicts Lv. 6 DEF down debuff to 2 enemies with the highest RCV for 19 seconds.', 'Deals 4.8x ATK in damage to 2 enemies with the highest RCV.', 'Inflicts Lv. 1 Damage Over Time to all enemies in a large, radial range for 34 seconds.'],
                     ['Inflicts Lv. 7 DEF down debuff to 2 enemies with the highest RCV for 20 seconds.', 'Deals 5.4x ATK in damage to 2 enemies with the highest RCV.', 'Inflicts Lv. 2 Damage Over Time to all enemies in a large, radial range for 35 seconds.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
                 ]
             }
         }
@@ -101124,6 +101674,28 @@ window.rumble = {
                     ['Applies Lv. 6 ATK and SPD up buff to [QCK] and Powerhouse crew members for 25 seconds.', 'When Marshall D. Teach (Blackbeard), Jesus Burgess (Mr. Store), Shiryu, Van Ogre, Avalo Pizarro, Lafitte, Catarina Devon, San Juan Wolf, Vasco Shot or Doc Q is on your crew, reduces 20% of Special CT to 3 [QCK] and Powerhouse crew members, excluding self, with below 100% Special CT.']
                 ]
             }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
         }
     },
     4221: {
@@ -101161,6 +101733,28 @@ window.rumble = {
                     ['Applies Lv. 4 ATK and SPD up buff to [QCK] and Powerhouse crew members for 23 seconds.', 'When Marshall D. Teach (Blackbeard), Jesus Burgess (Mr. Store), Shiryu, Van Ogre, Avalo Pizarro, Lafitte, Catarina Devon, San Juan Wolf, Vasco Shot or Doc Q is on your crew, reduces 17% of Special CT to 3 [QCK] and Powerhouse crew members, excluding self, with below 100% Special CT.'],
                     ['Applies Lv. 5 ATK and SPD up buff to [QCK] and Powerhouse crew members for 24 seconds.', 'When Marshall D. Teach (Blackbeard), Jesus Burgess (Mr. Store), Shiryu, Van Ogre, Avalo Pizarro, Lafitte, Catarina Devon, San Juan Wolf, Vasco Shot or Doc Q is on your crew, reduces 18% of Special CT to 3 [QCK] and Powerhouse crew members, excluding self, with below 100% Special CT.'],
                     ['Applies Lv. 6 ATK and SPD up buff to [QCK] and Powerhouse crew members for 25 seconds.', 'When Marshall D. Teach (Blackbeard), Jesus Burgess (Mr. Store), Shiryu, Van Ogre, Avalo Pizarro, Lafitte, Catarina Devon, San Juan Wolf, Vasco Shot or Doc Q is on your crew, reduces 20% of Special CT to 3 [QCK] and Powerhouse crew members, excluding self, with below 100% Special CT.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
                 ]
             }
         }
@@ -101300,6 +101894,28 @@ window.rumble = {
                     ['Deals 3.75x ATK in damage to all enemies in a large, forward range.', 'When there is 0 or Less [INT] crew members, 100% chance to inflict Forced Out to 1 enemy with the highest Special CT for 15 seconds.']
                 ]
             }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
         }
     },
     4227: {
@@ -101337,6 +101953,28 @@ window.rumble = {
                     ['Applies Lv. 12 ATK up buff to self for 5 seconds.', 'Deals 2.2x ATK in damage to 2 enemies with the lowest HP.', 'When there is 5 or More Driven and Fighter crew members, deals 2.4x ATK in damage to 2 enemies with the lowest HP.', 'When there is 8 or More Driven and Fighter crew members, deals 3.1x ATK in damage to 2 enemies with the lowest HP.'],
                     ['Applies Lv. 13 ATK up buff to self for 5 seconds.', 'Deals 2.3x ATK in damage to 2 enemies with the lowest HP.', 'When there is 5 or More Driven and Fighter crew members, deals 2.6x ATK in damage to 2 enemies with the lowest HP.', 'When there is 8 or More Driven and Fighter crew members, deals 3.4x ATK in damage to 2 enemies with the lowest HP.'],
                     ['Applies Lv. 15 ATK up buff to self for 5 seconds.', 'Deals 2.5x ATK in damage to 2 enemies with the lowest HP.', 'When there is 5 or More Driven and Fighter crew members, deals 3x ATK in damage to 2 enemies with the lowest HP.', 'When there is 8 or More Driven and Fighter crew members, deals 4x ATK in damage to 2 enemies with the lowest HP.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
                 ]
             }
         }
@@ -101646,6 +102284,28 @@ window.rumble = {
                     ['Deals 4x ATK in damage to all enemies in a large, sideways range.', 'Applies Lv. 5 ATK up buff to [STR] crew members for 20 seconds.', 'Applies Lv. 5 ATK up buff to Slasher crew members for 20 seconds.', 'When Shanks, Ben Beckman, Yasopp, Lucky Roux, Monster, Bonk Punch, Lime Juice, Hongo, Building Snake, Howling Gabu or Rockstar is on your crew, 100% chance to inflict Half DEF to all enemies for 10 seconds.', 'When Shanks, Ben Beckman, Yasopp, Lucky Roux, Monster, Bonk Punch, Lime Juice, Hongo, Building Snake, Howling Gabu or Rockstar is on your crew, deals 2x ATK in damage to all enemies.']
                 ]
             }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
         }
     },
     4233: {
@@ -101683,6 +102343,28 @@ window.rumble = {
                     ['Deals 3.7x ATK in damage to all enemies in a large, sideways range.', 'Applies Lv. 3 ATK up buff to [STR] crew members for 18 seconds.', 'Applies Lv. 3 ATK up buff to Slasher crew members for 18 seconds.', 'When Shanks, Ben Beckman, Yasopp, Lucky Roux, Monster, Bonk Punch, Lime Juice, Hongo, Building Snake, Howling Gabu or Rockstar is on your crew, 85% chance to inflict Half DEF to all enemies for 10 seconds.', 'When Shanks, Ben Beckman, Yasopp, Lucky Roux, Monster, Bonk Punch, Lime Juice, Hongo, Building Snake, Howling Gabu or Rockstar is on your crew, deals 1.8x ATK in damage to all enemies.'],
                     ['Deals 3.8x ATK in damage to all enemies in a large, sideways range.', 'Applies Lv. 4 ATK up buff to [STR] crew members for 19 seconds.', 'Applies Lv. 4 ATK up buff to Slasher crew members for 19 seconds.', 'When Shanks, Ben Beckman, Yasopp, Lucky Roux, Monster, Bonk Punch, Lime Juice, Hongo, Building Snake, Howling Gabu or Rockstar is on your crew, 90% chance to inflict Half DEF to all enemies for 10 seconds.', 'When Shanks, Ben Beckman, Yasopp, Lucky Roux, Monster, Bonk Punch, Lime Juice, Hongo, Building Snake, Howling Gabu or Rockstar is on your crew, deals 1.9x ATK in damage to all enemies.'],
                     ['Deals 4x ATK in damage to all enemies in a large, sideways range.', 'Applies Lv. 5 ATK up buff to [STR] crew members for 20 seconds.', 'Applies Lv. 5 ATK up buff to Slasher crew members for 20 seconds.', 'When Shanks, Ben Beckman, Yasopp, Lucky Roux, Monster, Bonk Punch, Lime Juice, Hongo, Building Snake, Howling Gabu or Rockstar is on your crew, 100% chance to inflict Half DEF to all enemies for 10 seconds.', 'When Shanks, Ben Beckman, Yasopp, Lucky Roux, Monster, Bonk Punch, Lime Juice, Hongo, Building Snake, Howling Gabu or Rockstar is on your crew, deals 2x ATK in damage to all enemies.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
                 ]
             }
         }
@@ -101775,6 +102457,28 @@ window.rumble = {
                     ['Applies Lv. 5 DEF up buff to self for 28 seconds.', 'Applies Lv. 6 ATK up buff to self for 28 seconds.', 'Applies Lv. 5 Shield up buff to self for 15 seconds.', 'Provoke enemies to self for 28 seconds.', 'Deals 1.75x ATK in damage to all enemies in a large, radial range.', 'When HP is below 60%, deals 2.2x ATK in damage to all enemies in a large, radial range.'],
                     ['Applies Lv. 6 DEF up buff to self for 29 seconds.', 'Applies Lv. 6 ATK up buff to self for 29 seconds.', 'Applies Lv. 6 Shield up buff to self for 15 seconds.', 'Provoke enemies to self for 29 seconds.', 'Deals 1.75x ATK in damage to all enemies in a large, radial range.', 'When HP is below 60%, deals 2.3x ATK in damage to all enemies in a large, radial range.'],
                     ['Applies Lv. 7 DEF up buff to self for 30 seconds.', 'Applies Lv. 7 ATK up buff to self for 30 seconds.', 'Applies Lv. 7 Shield up buff to self for 15 seconds.', 'Provoke enemies to self for 30 seconds.', 'Deals 1.75x ATK in damage to all enemies in a large, radial range.', 'When HP is below 60%, deals 2.5x ATK in damage to all enemies in a large, radial range.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
                 ]
             }
         }
@@ -102260,6 +102964,28 @@ window.rumble = {
                     ['Inflicts Lv. 8 Accuracy down debuff to all enemies in a large, radial range for 20 seconds.', '80% chance to inflict Special Bind to 3 enemies with the highest Special CT for 10 seconds.', 'When there is 6 or More Powerhouse and Free Spirit crew members, 100% chance to inflict Half ATK and Half DEF to all enemies in a large, radial range for 20 seconds.', 'When there is 6 or More Powerhouse and Free Spirit crew members, applies Lv. 10 ATK up buff to self for 30 seconds.', 'When there is 6 or More Powerhouse and Free Spirit crew members, applies Lv. 5 DEF up buff to self for 30 seconds.']
                 ]
             }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
         }
     },
     4248: {
@@ -102338,6 +103064,28 @@ window.rumble = {
                     ['Deals 5,000 fixed damage to all enemies in a large, sideways range.', 'Applies Lv. 8 ATK up buff to Fighter crew members for 20 seconds.', 'Reduces 10% of Special CT to all crew members.', '100% chance to grant Haste to 1 crew member with exactly 100% Special CT.']
                 ]
             }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
         }
     },
     4250: {
@@ -102375,6 +103123,28 @@ window.rumble = {
                     ['Deals 4,250 fixed damage to all enemies in a large, sideways range.', 'Applies Lv. 5 ATK up buff to Fighter crew members for 20 seconds.', 'Reduces 8% of Special CT to all crew members.', '85% chance to grant Haste to 1 crew member with exactly 100% Special CT.'],
                     ['Deals 4,500 fixed damage to all enemies in a large, sideways range.', 'Applies Lv. 6 ATK up buff to Fighter crew members for 20 seconds.', 'Reduces 9% of Special CT to all crew members.', '90% chance to grant Haste to 1 crew member with exactly 100% Special CT.'],
                     ['Deals 5,000 fixed damage to all enemies in a large, sideways range.', 'Applies Lv. 8 ATK up buff to Fighter crew members for 20 seconds.', 'Reduces 10% of Special CT to all crew members.', '100% chance to grant Haste to 1 crew member with exactly 100% Special CT.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
                 ]
             }
         }
@@ -102434,6 +103204,28 @@ window.rumble = {
                     ['Applies Lv. 3 ATK and Critical Hit up buff to self for 13 seconds.', 'Deals 2.2x ATK in damage ignoring DEF to 1 enemy with the lowest HP.', 'When Marshall D. Teach (Blackbeard), Jesus Burgess (Mr. Store), Van Ogre, Avalo Pizarro, Lafitte, Catarina Devon, San Juan Wolf, Vasco Shot, Doc Q or Kuzan (Aokiji) is on your crew, applies Lv. 4 ATK and Critical Hit up buff to Powerhouse crew members for 13 seconds.'],
                     ['Applies Lv. 3 ATK and Critical Hit up buff to self for 14 seconds.', 'Deals 2.3x ATK in damage ignoring DEF to 1 enemy with the lowest HP.', 'When Marshall D. Teach (Blackbeard), Jesus Burgess (Mr. Store), Van Ogre, Avalo Pizarro, Lafitte, Catarina Devon, San Juan Wolf, Vasco Shot, Doc Q or Kuzan (Aokiji) is on your crew, applies Lv. 5 ATK and Critical Hit up buff to Powerhouse crew members for 14 seconds.'],
                     ['Applies Lv. 4 ATK and Critical Hit up buff to self for 15 seconds.', 'Deals 2.5x ATK in damage ignoring DEF to 1 enemy with the lowest HP.', 'When Marshall D. Teach (Blackbeard), Jesus Burgess (Mr. Store), Van Ogre, Avalo Pizarro, Lafitte, Catarina Devon, San Juan Wolf, Vasco Shot, Doc Q or Kuzan (Aokiji) is on your crew, applies Lv. 6 ATK and Critical Hit up buff to Powerhouse crew members for 15 seconds.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
                 ]
             }
         }
@@ -102518,6 +103310,28 @@ window.rumble = {
                     ['Inflicts Lv. 5 DEF down debuff to all enemies in a large, radial range for 25 seconds.', 'Deals 3x ATK in damage to all enemies in a large, radial range.', '100% chance to grant Haste to self.', '50% chance to grant Haste to 1 [QCK] crew member.', 'For the first 40 seconds, inflicts Lv. 5 DEF down debuff to all enemies for 25 seconds.']
                 ]
             }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
         }
     },
     4257: {
@@ -102566,6 +103380,28 @@ window.rumble = {
             llbbase: {
                 condition: "After this character receives enemies' Rumble Specials 2 times",
                 description: ['60% HP cut to all enemies.', '100% chance to inflict Half DEF to all enemies for 30 seconds.', 'Deals 5x ATK in damage to 3 enemies with the lowest HP.', 'Heals 100% of HP to self.']
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
             }
         }
     },
@@ -102714,6 +103550,28 @@ window.rumble = {
                 condition: "After this character receives enemies' Rumble Specials 3 times",
                 description: ['Applies Lv. 10 ATK and SPD up buff to [DEX] crew members for 30 seconds.', 'Applies Lv. 6 DEF up buff to [DEX] crew members for 30 seconds.', 'Reduces 50% of Special CT to all crew members.', 'Applies Lv. 5 Shield up buff to all crew members for 30 seconds.', '100% chance to grant Haste to [DEX] crew members with exactly 100% Special CT.']
             }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
         }
     },
     4263: {
@@ -102774,6 +103632,28 @@ window.rumble = {
                     ['Inflicts Lv. 17 ATK down debuff to 1 enemy with the highest ATK for 20 seconds.', 'Inflicts Lv. 17 DEF down debuff to 1 enemy with the highest DEF for 20 seconds.', 'Inflicts Lv. 17 SPD down debuff to 1 enemy with the highest SPD for 20 seconds.', 'Heals 2.7x RCV of HP to Shooter crew members.'],
                     ['Inflicts Lv. 18 ATK down debuff to 1 enemy with the highest ATK for 20 seconds.', 'Inflicts Lv. 18 DEF down debuff to 1 enemy with the highest DEF for 20 seconds.', 'Inflicts Lv. 18 SPD down debuff to 1 enemy with the highest SPD for 20 seconds.', 'Heals 2.8x RCV of HP to Shooter crew members.'],
                     ['Inflicts Lv. 20 ATK down debuff to 1 enemy with the highest ATK for 20 seconds.', 'Inflicts Lv. 20 DEF down debuff to 1 enemy with the highest DEF for 20 seconds.', 'Inflicts Lv. 20 SPD down debuff to 1 enemy with the highest SPD for 20 seconds.', 'Heals 3x RCV of HP to Shooter crew members.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
                 ]
             }
         }
@@ -102942,6 +103822,28 @@ window.rumble = {
                 condition: "After this character receives enemies' Rumble Specials 3 times",
                 description: ['Applies Lv. 8 DEF, ATK and SPD up buff to Driven and Powerhouse crew members for 60 seconds.', 'Deals 3.5x ATK in damage to all enemies in a large, radial range.', 'When there is 6 or More Driven and Powerhouse crew members, deals 5.5x ATK in damage to all enemies.', 'Heals 1,000 fixed HP every 3 seconds to self for 60 seconds.', 'Applies Lv. 5 Special CT up buff to self for 60 seconds.']
             }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
         }
     },
     4268: {
@@ -102990,6 +103892,28 @@ window.rumble = {
             llbbase: {
                 condition: "After this character receives enemies' Rumble Specials 2 times",
                 description: ['100% chance to inflict Half Stats to all enemies for 40 seconds.', '100% chance to inflict Special Bind to all enemies for 10 seconds.', 'Applies Lv. 15 ATK and DEF up buff to self for 60 seconds.', 'Deals 5x ATK in damage to 2 enemies with the highest HP.', 'Grant 5x Counter to self for 60 seconds.', 'Provoke enemies to self for 60 seconds.']
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
             }
         }
     },
@@ -103103,6 +104027,28 @@ window.rumble = {
                     ['Deals 6,000 fixed damage to 1 enemy.', 'Heals 3,000 fixed HP to self.', 'Applies Lv. 6 ATK and DEF up buff to self for 30 seconds.']
                 ]
             }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
         }
     },
     4275: {
@@ -103152,6 +104098,28 @@ window.rumble = {
                 condition: "After this character receives enemies' Rumble Specials 3 times",
                 description: ['Applies Lv. 10 ATK up buff to Free Spirit crew members for 40 seconds.', 'Deals 5x ATK in damage to 3 enemies.', '70% chance to inflict Forced Out to 3 enemies for 10 seconds.']
             }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
         }
     },
     4276: {
@@ -103200,6 +104168,28 @@ window.rumble = {
             llbbase: {
                 condition: "After this character receives enemies' Rumble Specials 2 times",
                 description: ['Applies Lv. 10 ATK and SPD up buff to Fighter and Slasher crew members for 40 seconds.', 'Grant 4x Counter to Fighter and Slasher crew members for 40 seconds.', 'Provoke enemies to self for 40 seconds.', 'Applies Lv. 6 Shield up buff to all crew members for 40 seconds.']
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
             }
         }
     },
@@ -103338,6 +104328,28 @@ window.rumble = {
                     ['Applies Lv. 7 DEF up buff to [INT] crew members for 25 seconds.', 'Provoke enemies to self for 25 seconds.', 'Grant 4x Counter to self for 25 seconds.', 'When there is 6 or More Cerebral crew members, applies Lv. 5 Special CT up buff to all crew members for 25 seconds.', 'When there is 6 or More Cerebral crew members, heals 600 fixed HP every 3 seconds to self for 25 seconds.', 'When there is 6 or More Driven crew members, inflicts Lv. 9 DEF and SPD down debuff to 2 enemies with the lowest DEF for 25 seconds.']
                 ]
             }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
         }
     },
     4282: {
@@ -103375,6 +104387,28 @@ window.rumble = {
                     ['Deals 5,600 fixed damage to 1 enemy with the highest ATK.', 'Inflicts Lv. 5 DEF down debuff to 1 enemy with the highest ATK for 18 seconds.', '80% chance to inflict Action Bind to 1 enemy with the highest ATK for 10 seconds.'],
                     ['Deals 5,800 fixed damage to 1 enemy with the highest ATK.', 'Inflicts Lv. 6 DEF down debuff to 1 enemy with the highest ATK for 19 seconds.', '90% chance to inflict Action Bind to 1 enemy with the highest ATK for 10 seconds.'],
                     ['Deals 6,000 fixed damage to 1 enemy with the highest ATK.', 'Inflicts Lv. 7 DEF down debuff to 1 enemy with the highest ATK for 20 seconds.', '100% chance to inflict Action Bind to 1 enemy with the highest ATK for 10 seconds.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
                 ]
             }
         }
@@ -103434,6 +104468,28 @@ window.rumble = {
                     ['Applies Lv. 6 ATK and SPD up buff to [INT] and Cerebral crew members for 18 seconds.', 'When Dr. Vegapunk (Stella), Dr. Vegapunk "Lilith the Evil", Dr. Vegapunk "York the Greedy" or Dr. Vegapunk "Atlas the Violent" is on your crew, reduces 27% of Special CT to 3 crew members, excluding self, with the highest Special CT.', '85% chance to grant Haste to Dr. Vegapunk (Stella), Dr. Vegapunk "Lilith the Evil", Dr. Vegapunk "York the Greedy" and Dr. Vegapunk "Atlas the Violent" all crew members.'],
                     ['Applies Lv. 7 ATK and SPD up buff to [INT] and Cerebral crew members for 19 seconds.', 'When Dr. Vegapunk (Stella), Dr. Vegapunk "Lilith the Evil", Dr. Vegapunk "York the Greedy" or Dr. Vegapunk "Atlas the Violent" is on your crew, reduces 28% of Special CT to 3 crew members, excluding self, with the highest Special CT.', '90% chance to grant Haste to Dr. Vegapunk (Stella), Dr. Vegapunk "Lilith the Evil", Dr. Vegapunk "York the Greedy" and Dr. Vegapunk "Atlas the Violent" all crew members.'],
                     ['Applies Lv. 8 ATK and SPD up buff to [INT] and Cerebral crew members for 20 seconds.', 'When Dr. Vegapunk (Stella), Dr. Vegapunk "Lilith the Evil", Dr. Vegapunk "York the Greedy" or Dr. Vegapunk "Atlas the Violent" is on your crew, reduces 30% of Special CT to 3 crew members, excluding self, with the highest Special CT.', '100% chance to grant Haste to Dr. Vegapunk (Stella), Dr. Vegapunk "Lilith the Evil", Dr. Vegapunk "York the Greedy" and Dr. Vegapunk "Atlas the Violent" all crew members.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
                 ]
             }
         }
@@ -103508,6 +104564,28 @@ window.rumble = {
                     ['Deals 3.5x ATK in damage to 3 enemies.', 'Inflicts Lv. 11 ATK and SPD down debuff to all enemies for 20 seconds.']
                 ]
             }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
         }
     },
     4288: {
@@ -103556,6 +104634,28 @@ window.rumble = {
             llbbase: {
                 condition: "After this character receives enemies' Rumble Specials 3 times",
                 description: ['Applies Lv. 10 ATK, SPD and DEF up buff to [STR] crew members for 30 seconds.', 'Reduces 50% of Special CT to [STR] crew members, excluding self.', 'Heals 600 fixed HP every 3 seconds to all crew members for 30 seconds.', 'Heals 50% of HP to 3 [STR] crew members with below 50% HP.']
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
             }
         }
     },
@@ -103621,6 +104721,28 @@ window.rumble = {
             llbbase: {
                 condition: "After this character receives enemies' Rumble Specials 2 times",
                 description: ['Deals 4,000 fixed damage to all enemies in a large, radial range.', 'Applies Lv. 10 ATK, SPD and Critical Hit up buff to all crew members for 30 seconds.']
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
             }
         }
     },
@@ -104115,6 +105237,28 @@ window.rumble = {
                     ['Deals 4x ATK in damage to all enemies in a large, radial range.', '60% chance to inflict Action Bind to all enemies in a large, radial range for 10 seconds.', 'Applies Lv. 5 Critical Hit up buff to self for 20 seconds.', 'When HP is below 50%, heals 50% of HP to self.']
                 ]
             }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
         }
     },
     4300: {
@@ -104152,6 +105296,28 @@ window.rumble = {
                     ['Inflicts Lv. 5 ATK and SPD down debuff to all enemies for 28 seconds.', 'Inflicts Lv. 4 Damage Over Time to 3 enemies with the lowest HP for 28 seconds.', 'When there is 5 or More Free Spirit crew members, 45% chance to inflict Special Bind to all enemies for 10 seconds.', 'When there is 8 or More Free Spirit crew members, 85% chance to inflict Forced Out to 1 enemy with the highest Special CT for 10 seconds.'],
                     ['Inflicts Lv. 6 ATK and SPD down debuff to all enemies for 29 seconds.', 'Inflicts Lv. 4 Damage Over Time to 3 enemies with the lowest HP for 29 seconds.', 'When there is 5 or More Free Spirit crew members, 50% chance to inflict Special Bind to all enemies for 10 seconds.', 'When there is 8 or More Free Spirit crew members, 90% chance to inflict Forced Out to 1 enemy with the highest Special CT for 10 seconds.'],
                     ['Inflicts Lv. 7 ATK and SPD down debuff to all enemies for 30 seconds.', 'Inflicts Lv. 5 Damage Over Time to 3 enemies with the lowest HP for 30 seconds.', 'When there is 5 or More Free Spirit crew members, 60% chance to inflict Special Bind to all enemies for 10 seconds.', 'When there is 8 or More Free Spirit crew members, 100% chance to inflict Forced Out to 1 enemy with the highest Special CT for 10 seconds.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
                 ]
             }
         }
@@ -104211,6 +105377,28 @@ window.rumble = {
                     ['81% HP cut to 1 enemy with the highest HP.', 'Inflicts Lv. 7 DEF and Special CT down debuff to self for 20 seconds.'],
                     ['84% HP cut to 1 enemy with the highest HP.', 'Inflicts Lv. 7 DEF and Special CT down debuff to self for 20 seconds.'],
                     ['90% HP cut to 1 enemy with the highest HP.', 'Inflicts Lv. 7 DEF and Special CT down debuff to self for 20 seconds.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
                 ]
             }
         }
@@ -104295,6 +105483,28 @@ window.rumble = {
                     ['Deals 2.75x ATK in damage to all enemies in a large, radial range.', 'Deals 2.1x ATK in damage ignoring DEF to 3 enemies.', 'When there is 6 or More [STR] crew members, 100% chance to inflict Forced Out to 2 DBF-Style enemies for 10 seconds.']
                 ]
             }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
         }
     },
     4307: {
@@ -104344,6 +105554,28 @@ window.rumble = {
                 condition: "After this character receives enemies' Rumble Specials 3 times",
                 description: ['Inflicts Lv. 10 DEF down debuff to all enemies for 30 seconds.', 'Removes 50% of Special CT to all enemies.', 'When there is 6 or More Shooter and Cerebral crew members, 100% chance to inflict Action Bind to 3 enemies with the highest Special CT for 20 seconds.']
             }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
         }
     },
     4308: {
@@ -104392,6 +105624,28 @@ window.rumble = {
             llbbase: {
                 condition: "After this character receives enemies' Rumble Specials 2 times",
                 description: ['Applies Lv. 10 ATK, DEF and Critical Hit up buff to all crew members in a large, radial range for 20 seconds.', 'Deals 5x ATK in damage to all enemies.', '100% chance to inflict Paralysis to all enemies for 30 seconds.']
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
             }
         }
     },
@@ -104530,6 +105784,28 @@ window.rumble = {
                     ['Applies Lv. 10 ATK and SPD up buff to 1 crew member with the highest ATK for 20 seconds.', 'Applies Lv. 5 Special CT up buff to 1 crew member with the highest ATK for 20 seconds.', 'Reduce Special Bind to 1 crew member with the highest ATK for 20 seconds.', 'Deals 4,000 fixed damage to 1 enemy with the lowest HP.', 'Applies Lv. 3 Shield up buff to self for 20 seconds.']
                 ]
             }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
         }
     },
     4314: {
@@ -104567,6 +105843,28 @@ window.rumble = {
                     ['Removes 56% of Special CT to 1 enemy with the highest Special CT.', 'Applies Lv. 3 Special CT up buff to [STR] and Shooter crew members for 20 seconds.', '10% HP cut to self.'],
                     ['Removes 58% of Special CT to 1 enemy with the highest Special CT.', 'Applies Lv. 4 Special CT up buff to [STR] and Shooter crew members for 20 seconds.', '10% HP cut to self.'],
                     ['Removes 60% of Special CT to 1 enemy with the highest Special CT.', 'Applies Lv. 5 Special CT up buff to [STR] and Shooter crew members for 20 seconds.', '10% HP cut to self.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
                 ]
             }
         }
@@ -104706,6 +106004,28 @@ window.rumble = {
                     ['Reduce RCV Bind to Fighter crew members for 20 seconds.', 'Heals 3x RCV of HP to Fighter crew members.', 'Heals 30% of HP to 1 crew member with the lowest HP.', 'Heals 500 fixed HP every 3 seconds to 1 crew member with the highest ATK for 30 seconds.']
                 ]
             }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
         }
     },
     4320: {
@@ -104778,6 +106098,28 @@ window.rumble = {
                     ['Deals 4x ATK in damage to all enemies in a large, radial range.', '100% chance to inflict Special Bind to 2 enemies with the highest ATK for 10 seconds.']
                 ]
             }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
         }
     },
     4322: {
@@ -104827,6 +106169,28 @@ window.rumble = {
                 condition: "After this character receives enemies' Rumble Specials 2 times",
                 description: ['Applies Lv. 8 ATK and DEF up buff to Shooter crew members for 30 seconds.', 'Deals 10,000 fixed damage to 2 Powerhouse enemies.', 'Deals 1.6x ATK in damage ignoring DEF to 3 enemies with the lowest HP 2 times.']
             }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
         }
     },
     4323: {
@@ -104875,6 +106239,28 @@ window.rumble = {
             llbbase: {
                 condition: "After this character receives enemies' Rumble Specials 2 times",
                 description: ['Applies Lv. 8 ATK up buff to self for 20 seconds.', 'Deals 2x ATK in damage ignoring DEF to 2 Slasher enemies.', 'Inflicts Lv. 8 DEF down debuff to 1 enemy with the highest ATK for 20 seconds 3 times.', 'Deals 5x ATK in damage to 1 enemy with the highest ATK 3 times.', 'Inflicts Lv. 8 ATK down debuff to 1 enemy with the highest ATK for 20 seconds 3 times.']
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
             }
         }
     },
@@ -105013,6 +106399,28 @@ window.rumble = {
                     ['Applies Lv. 5 Blow Away up buff to self for 15 seconds.', 'When there is 8 or More [QCK] crew members, 100% chance to cleanse ATK down debuffs to all crew members.', 'Deals 2.2x ATK in damage ignoring DEF to 3 enemies with the highest DEF.']
                 ]
             }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
         }
     },
     4329: {
@@ -105061,6 +106469,28 @@ window.rumble = {
             llbbase: {
                 condition: "After this character receives enemies' Rumble Specials 2 times",
                 description: ['Inflicts Lv. 7 Special CT down debuff to all enemies for 30 seconds.', 'Inflicts Lv. 10 Damage Over Time to all enemies for 30 seconds.', 'When there is 8 or More Fighter and Shooter crew members, 100% chance to inflict Confusion to 2 enemies with the highest ATK for 20 seconds.']
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
             }
         }
     },
@@ -105129,6 +106559,28 @@ window.rumble = {
                     ['Inflicts Lv. 3 DEF down debuff to all enemies in a large, sideways range for 18 seconds.', 'Applies Lv. 3 ATK up buff to Spandam, Rob Lucci, Kaku, Kalifa, Jabra, Blueno, Kumadori, Fukuro and Stussy all crew members for 18 seconds.', 'When there is 8 or More Fighter and Shooter crew members, 88% chance to inflict Half DEF to 3 enemies with the highest DEF for 18 seconds.', 'When there is 8 or More Fighter and Shooter crew members, deals 3.55x ATK in damage to 1 enemy with the lowest DEF.'],
                     ['Inflicts Lv. 4 DEF down debuff to all enemies in a large, sideways range for 19 seconds.', 'Applies Lv. 4 ATK up buff to Spandam, Rob Lucci, Kaku, Kalifa, Jabra, Blueno, Kumadori, Fukuro and Stussy all crew members for 19 seconds.', 'When there is 8 or More Fighter and Shooter crew members, 92% chance to inflict Half DEF to 3 enemies with the highest DEF for 19 seconds.', 'When there is 8 or More Fighter and Shooter crew members, deals 3.7x ATK in damage to 1 enemy with the lowest DEF.'],
                     ['Inflicts Lv. 5 DEF down debuff to all enemies in a large, sideways range for 20 seconds.', 'Applies Lv. 5 ATK up buff to Spandam, Rob Lucci, Kaku, Kalifa, Jabra, Blueno, Kumadori, Fukuro and Stussy all crew members for 20 seconds.', 'When there is 8 or More Fighter and Shooter crew members, 100% chance to inflict Half DEF to 3 enemies with the highest DEF for 20 seconds.', 'When there is 8 or More Fighter and Shooter crew members, deals 4x ATK in damage to 1 enemy with the lowest DEF.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
                 ]
             }
         }
@@ -105203,6 +106655,28 @@ window.rumble = {
                     ['Deals 3x ATK in damage to all enemies in a large, radial range.', 'Inflicts Lv. 5 Accuracy down debuff to all enemies for 20 seconds.', 'When there are 40 seconds or less remaining, inflicts Lv. 8 ATK down debuff to [STR] enemies for 20 seconds.', 'After the first 40 seconds, deals 3x ATK in damage to [STR] enemies.']
                 ]
             }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
         }
     },
     4336: {
@@ -105251,6 +106725,28 @@ window.rumble = {
             llbbase: {
                 condition: "After this character receives enemies' Rumble Specials 1 times",
                 description: ['Provoke enemies to self for 30 seconds.', 'Grant 4x Counter to self for 30 seconds.', 'Applies Lv. 15 DEF up buff to Slasher and Driven crew members for 30 seconds.', 'Heals 1,000 fixed HP every 3 seconds to all crew members for 30 seconds.', 'When there is 8 or More Slasher and Driven crew members, deals 8,000 fixed damage to 2 enemies with the highest HP.']
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
             }
         }
     },
@@ -105301,6 +106797,28 @@ window.rumble = {
                 condition: "After this character receives enemies' Rumble Specials 2 times",
                 description: ['Applies Lv. 10 ATK up buff to Slasher and Cerebral crew members for 60 seconds.', 'Deals 1.7x ATK in damage ignoring DEF to all enemies.', 'Deals 1.7x ATK in damage ignoring DEF to 2 enemies with the highest DEF.']
             }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
         }
     },
     4338: {
@@ -105349,6 +106867,28 @@ window.rumble = {
             llbbase: {
                 condition: "After this character receives enemies' Rumble Specials 2 times",
                 description: ['50% HP cut to 3 enemies with the highest HP.', 'Inflicts Lv. 10 Damage Over Time to 3 enemies with the highest HP for 30 seconds.', 'When there is 6 or More Slasher crew members, applies Lv. 8 Shield up buff to self for 30 seconds.']
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
             }
         }
     },
@@ -105487,6 +107027,28 @@ window.rumble = {
                     ['100% chance to inflict Half ATK to 3 enemies with the highest ATK for 20 seconds.', '100% chance to inflict Half DEF to 3 enemies with the highest DEF for 20 seconds.', 'When there is 6 or More Fighter and Driven crew members, 80% chance to inflict Paralysis to all enemies for 20 seconds.', 'When there is 6 or More Fighter and Driven crew members, applies Lv. 4 Shield up buff to all crew members in a large, radial range for 20 seconds.']
                 ]
             }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
         }
     },
     4344: {
@@ -105559,6 +107121,28 @@ window.rumble = {
                 condition: "After this character receives enemies' Rumble Specials 2 times",
                 description: ['Inflicts Lv. 10 ATK and DEF down debuff to all enemies in a large, radial range for 30 seconds.', 'Deals 4x ATK in damage to all enemies in a large, radial range.', 'Deals 2.5x ATK in damage ignoring DEF to 2 enemies with the highest HP.']
             }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
         }
     },
     4345: {
@@ -105596,6 +107180,28 @@ window.rumble = {
                     ['Deals 3,400 fixed damage to all enemies in a large, sideways range.', 'Deals 5,400 fixed damage to 1 enemy with the highest DEF.', 'Applies Lv. 6 Critical Hit and Blow Away up buff to 1 ATK-Style crew member, excluding self, for 13 seconds.', 'Applies Lv. 4 Special CT up buff to 1 ATK-Style crew member, excluding self, for 13 seconds.'],
                     ['Deals 3,600 fixed damage to all enemies in a large, sideways range.', 'Deals 5,600 fixed damage to 1 enemy with the highest DEF.', 'Applies Lv. 7 Critical Hit and Blow Away up buff to 1 ATK-Style crew member, excluding self, for 14 seconds.', 'Applies Lv. 4 Special CT up buff to 1 ATK-Style crew member, excluding self, for 14 seconds.'],
                     ['Deals 4,000 fixed damage to all enemies in a large, sideways range.', 'Deals 6,000 fixed damage to 1 enemy with the highest DEF.', 'Applies Lv. 8 Critical Hit and Blow Away up buff to 1 ATK-Style crew member, excluding self, for 15 seconds.', 'Applies Lv. 5 Special CT up buff to 1 ATK-Style crew member, excluding self, for 15 seconds.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
                 ]
             }
         }
@@ -105655,6 +107261,28 @@ window.rumble = {
                     ['Inflicts Lv. 5 ATK and SPD down debuff to all enemies in a large, sideways range for 18 seconds.', 'When there is 8 or More Cerebral and Fighter crew members, removes 28% of Special CT to 2 enemies with the highest Special CT.', 'When there is 8 or More Cerebral and Fighter crew members, 85% chance to grant Haste to 1 crew member with the highest ATK.'],
                     ['Inflicts Lv. 5 ATK and SPD down debuff to all enemies in a large, sideways range for 19 seconds.', 'When there is 8 or More Cerebral and Fighter crew members, removes 29% of Special CT to 2 enemies with the highest Special CT.', 'When there is 8 or More Cerebral and Fighter crew members, 90% chance to grant Haste to 1 crew member with the highest ATK.'],
                     ['Inflicts Lv. 7 ATK and SPD down debuff to all enemies in a large, sideways range for 20 seconds.', 'When there is 8 or More Cerebral and Fighter crew members, removes 30% of Special CT to 2 enemies with the highest Special CT.', 'When there is 8 or More Cerebral and Fighter crew members, 100% chance to grant Haste to 1 crew member with the highest ATK.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
                 ]
             }
         }
@@ -105727,6 +107355,28 @@ window.rumble = {
                     ['Inflicts Lv. 4 DEF down debuff to all enemies for 28 seconds.', 'Applies Lv. 6 ATK and SPD up buff to Striker and Cerebral crew members for 28 seconds.', 'When there are 70 seconds or less remaining, reduces 28% of Special CT to 1 crew member, excluding self, with the highest ATK.'],
                     ['Inflicts Lv. 4 DEF down debuff to all enemies for 29 seconds.', 'Applies Lv. 6 ATK and SPD up buff to Striker and Cerebral crew members for 29 seconds.', 'When there are 70 seconds or less remaining, reduces 29% of Special CT to 1 crew member, excluding self, with the highest ATK.'],
                     ['Inflicts Lv. 5 DEF down debuff to all enemies for 30 seconds.', 'Applies Lv. 7 ATK and SPD up buff to Striker and Cerebral crew members for 30 seconds.', 'When there are 70 seconds or less remaining, reduces 30% of Special CT to 1 crew member, excluding self, with the highest ATK.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
                 ]
             }
         }
@@ -105856,6 +107506,28 @@ window.rumble = {
                 condition: "After this character receives enemies' Rumble Specials 3 times",
                 description: ['Deals 4x ATK in damage to all enemies.', 'Applies Lv. 8 DEF up buff to [PSY] and Cerebral crew members for 30 seconds.', 'Provoke enemies to self for 30 seconds.', 'Grant 4x Counter to [PSY] and Cerebral crew members for 30 seconds.', 'When there is 8 or More Cerebral and Powerhouse crew members, 100% chance to inflict Forced Out to 3 enemies with the highest ATK for 15 seconds.']
             }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
         }
     },
     4354: {
@@ -105904,6 +107576,28 @@ window.rumble = {
             llbbase: {
                 condition: "After this character receives enemies' Rumble Specials 1 times",
                 description: ['Heals 4x RCV of HP to [DEX] and Free Spirit crew members.', 'Reduce Special Bind to [DEX] and Free Spirit crew members for 20 seconds.', 'Applies Lv. 7 Special CT up buff to [DEX] and Free Spirit crew members for 30 seconds.', 'Applies Lv. 5 Shield up buff to [DEX] and Free Spirit crew members for 30 seconds.', 'Heals 2x RCV of HP to all crew members with below 50% HP.', '100% chance to cleanse ATK and DEF down debuffs to all crew members.']
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
             }
         }
     },
@@ -106320,6 +108014,28 @@ window.rumble = {
             llbbase: {
                 condition: "After this character receives enemies' Rumble Specials 2 times",
                 description: ['Deals 6,000 fixed damage to all enemies.', 'Inflicts Lv. 6 ATK down debuff to 3 enemies with the highest Special CT for 30 seconds 3 times.', 'Removes 30% of Special CT to 3 enemies with the highest Special CT 3 times.']
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
             }
         }
     },
@@ -106798,6 +108514,28 @@ window.rumble = {
                     ['Deals 1.5x ATK in damage to all enemies in a large, forward range.', 'When there are 50 seconds or less remaining, deals 2.2x ATK in damage to all enemies in a large, forward range.', 'When there are 30 seconds or less remaining, deals 2.5x ATK in damage to all enemies in a large, forward range.', 'When there are 30 seconds or less remaining, 50% chance to inflict Action Bind to all enemies in a large, forward range for 5 seconds.']
                 ]
             }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
         }
     },
     4379: {
@@ -106968,6 +108706,28 @@ window.rumble = {
             llbbase: {
                 condition: "After this character receives enemies' Rumble Specials 2 times",
                 description: ['100% chance to inflict Half Stats to all enemies for 40 seconds.', 'Removes 40% of Special CT to all enemies.', 'Deals 4x ATK in damage to [World Government] enemies.']
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
             }
         }
     },
@@ -107355,6 +109115,28 @@ window.rumble = {
                 condition: "After this character receives enemies' Rumble Specials 2 times",
                 description: ['Deals 3x ATK in damage to all enemies.', 'Reduces 40% of Special CT to all crew members, excluding self.', 'Removes 40% of Special CT to all enemies.', '100% chance to grant Haste to all crew members.']
             }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
         }
     },
     4392: {
@@ -107392,6 +109174,28 @@ window.rumble = {
                     ['Applies Lv. 5 DEF and SPD up buff to [DEX] and Cerebral crew members for 18 seconds.', 'Heals 510 fixed HP every 3 seconds to [Revolutionary Army] crew members for 28 seconds.', 'When there is 5 or more Cerebral crew members, applies Lv. 8 ATK up buff to ATK-Style crew members for 28 seconds.', 'When there is 5 or more Cerebral crew members, applies Lv. 3 Special CT up buff to ATK-Style crew members for 28 seconds.'],
                     ['Applies Lv. 6 DEF and SPD up buff to [DEX] and Cerebral crew members for 19 seconds.', 'Heals 540 fixed HP every 3 seconds to [Revolutionary Army] crew members for 29 seconds.', 'When there is 5 or more Cerebral crew members, applies Lv. 9 ATK up buff to ATK-Style crew members for 29 seconds.', 'When there is 5 or more Cerebral crew members, applies Lv. 4 Special CT up buff to ATK-Style crew members for 29 seconds.'],
                     ['Applies Lv. 7 DEF and SPD up buff to [DEX] and Cerebral crew members for 20 seconds.', 'Heals 600 fixed HP every 3 seconds to [Revolutionary Army] crew members for 30 seconds.', 'When there is 5 or more Cerebral crew members, applies Lv. 10 ATK up buff to ATK-Style crew members for 30 seconds.', 'When there is 5 or more Cerebral crew members, applies Lv. 5 Special CT up buff to ATK-Style crew members for 30 seconds.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
                 ]
             }
         }
@@ -107456,6 +109260,28 @@ window.rumble = {
                     ['Deals 2.3x ATK in damage to all enemies in a large, forward range.', 'Inflicts Lv. 5 DEF down debuff to all enemies in a large, forward range for 25 seconds.', 'Deals 3.5x ATK in damage to all enemies in a medium, forward range.']
                 ]
             }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
         }
     },
     4394: {
@@ -107505,6 +109331,28 @@ window.rumble = {
                 condition: "After this character receives enemies' Rumble Specials 2 times",
                 description: ['Heals 4.5x RCV of HP to all crew members.', 'Heals 500 fixed HP every 3 seconds to all crew members for 30 seconds.', 'Reduces 40% of Special CT to all crew members, excluding self.', 'Applies Lv. 7 Shield up buff to all crew members for 30 seconds.']
             }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
         }
     },
     4395: {
@@ -107553,6 +109401,28 @@ window.rumble = {
             llbbase: {
                 condition: "After this character receives enemies' Rumble Specials 2 times",
                 description: ['Applies Lv. 8 ATK up buff to self for 30 seconds.', 'Deals 5x ATK in damage to all enemies.', 'Deals 6x ATK in damage to [Mythical Zoan-type] enemies.']
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
             }
         }
     },
@@ -107788,6 +109658,28 @@ window.rumble = {
                     ['Deals 3.5x ATK in damage to all enemies in a large, sideways range.', 'Reduces 50% of Special CT to 1 [STR] and Striker crew member, excluding self, with the lowest Special CT.', 'When there is 3 or more [Whitebeard Pirates] crew members, inflicts Lv. 3 Damage Over Time to all enemies for 15 seconds.', 'When there is 3 or more [Whitebeard Pirates] crew members, deals 4,000 fixed damage to all enemies.']
                 ]
             }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
         }
     },
     4402: {
@@ -107845,6 +109737,28 @@ window.rumble = {
                     ['Inflicts Lv. 8 ATK and SPD down debuff to all enemies in a medium, radial range for 18 seconds.', 'Deals 1.7x ATK in damage to all enemies in a large, radial range.', '74% chance to inflict Paralysis to all enemies in a large, radial range for 9 seconds.', 'Removes 34% of Special CT to Slasher and Free Spirit enemies.', 'Applies Lv. 4 DEF up buff to [Baroque Works], [Logia-type], [Seven Warlords of the Sea] and [World Government] crew members for 18 seconds.'],
                     ['Inflicts Lv. 9 ATK and SPD down debuff to all enemies in a medium, radial range for 19 seconds.', 'Deals 1.8x ATK in damage to all enemies in a large, radial range.', '76% chance to inflict Paralysis to all enemies in a large, radial range for 10 seconds.', 'Removes 36% of Special CT to Slasher and Free Spirit enemies.', 'Applies Lv. 5 DEF up buff to [Baroque Works], [Logia-type], [Seven Warlords of the Sea] and [World Government] crew members for 19 seconds.'],
                     ['Inflicts Lv. 10 ATK and SPD down debuff to all enemies in a medium, radial range for 20 seconds.', 'Deals 2x ATK in damage to all enemies in a large, radial range.', '80% chance to inflict Paralysis to all enemies in a large, radial range for 10 seconds.', 'Removes 40% of Special CT to Slasher and Free Spirit enemies.', 'Applies Lv. 5 DEF up buff to [Baroque Works], [Logia-type], [Seven Warlords of the Sea] and [World Government] crew members for 20 seconds.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
                 ]
             }
         }
@@ -107929,6 +109843,28 @@ window.rumble = {
                     ['Inflicts Lv. 7 ATK down debuff to all enemies in a large, forward range for 30 seconds.', 'Inflicts Lv. 5 DEF down debuff to all enemies in a large, forward range for 30 seconds.', '40% HP cut to all enemies in a large, forward range.', '100% chance to inflict Action Bind to 3 Free Spirit and Cerebral enemies for 10 seconds.']
                 ]
             }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
         }
     },
     4409: {
@@ -107978,6 +109914,28 @@ window.rumble = {
                 condition: "After this character receives enemies' Rumble Specials 2 times",
                 description: ['Deals 5,000 fixed damage to all enemies.', 'Applies Lv. 8 ATK, DEF and SPD up buff to [DEX] and Fighter crew members for 30 seconds.', '100% chance to cleanse ATK down debuffs to all crew members.', 'Deals 4.5x ATK in damage to all enemies.', 'Deals 4x ATK in damage to all enemies.']
             }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
         }
     },
     4410: {
@@ -108026,6 +109984,28 @@ window.rumble = {
             llbbase: {
                 condition: "After this character receives enemies' Rumble Specials 2 times",
                 description: ['100% chance to inflict Half DEF to 2 enemies with the highest ATK for 20 seconds.', 'Inflicts Lv. 10 DEF down debuff to 2 enemies with the highest ATK for 30 seconds.', 'Deals 6x ATK in damage to 2 enemies with the highest ATK.', 'When there is 5 or more Driven crew members, deals 6x ATK in damage to 2 enemies with the lowest DEF.', 'Applies Lv. 7 Shield up buff to [Holy Knights], [Celestial Dragon] and [World Government] crew members for 40 seconds.', 'Applies Lv. 5 DEF up buff to [Holy Knights], [Celestial Dragon] and [World Government] crew members for 40 seconds.']
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
             }
         }
     },
@@ -108349,6 +110329,28 @@ window.rumble = {
                 condition: "After this character receives enemies' Rumble Specials 2 times",
                 description: ['Inflicts Lv. 10 DEF down debuff to all enemies for 20 seconds.', 'Deals 4x ATK in damage to all enemies.', '100% chance to inflict Paralysis to all enemies for 30 seconds.', 'When there is 6 or more [QCK] crew members, deals 5x ATK in damage to all enemies.', 'When there is 6 or more [QCK] crew members, 100% chance to inflict Special Bind to all enemies for 10 seconds.', 'When there is 6 or more [QCK] crew members, inflicts Lv. 7 ATK down debuff to all enemies for 30 seconds.']
             }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
         }
     },
     4419: {
@@ -108386,6 +110388,28 @@ window.rumble = {
                     ['Applies Lv. 4 ATK and SPD up buff to [DEX] and Cerebral crew members for 18 seconds.', 'Deals 3.8x ATK in damage to all enemies in a large, radial range.', 'Applies Lv. 4 DEF up buff to [Revolutionary Army] crew members for 18 seconds.', 'Applies Lv. 2 Shield up buff to [Revolutionary Army] crew members for 13 seconds.'],
                     ['Applies Lv. 5 ATK and SPD up buff to [DEX] and Cerebral crew members for 19 seconds.', 'Deals 3.9x ATK in damage to all enemies in a large, radial range.', 'Applies Lv. 5 DEF up buff to [Revolutionary Army] crew members for 19 seconds.', 'Applies Lv. 2 Shield up buff to [Revolutionary Army] crew members for 14 seconds.'],
                     ['Applies Lv. 5 ATK and SPD up buff to [DEX] and Cerebral crew members for 20 seconds.', 'Deals 4x ATK in damage to all enemies in a large, radial range.', 'Applies Lv. 5 DEF up buff to [Revolutionary Army] crew members for 20 seconds.', 'Applies Lv. 3 Shield up buff to [Revolutionary Army] crew members for 15 seconds.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
                 ]
             }
         }
@@ -108445,6 +110469,28 @@ window.rumble = {
                     ['Removes 28% of Special CT to 3 enemies with the highest Special CT.', 'Applies Lv. 3 ATK up buff to [STR] crew members for 18 seconds.', 'Inflicts Lv. 3 Special CT down debuff to [World Government] enemies for 18 seconds.', 'When Bartholomew Kuma or Ginny is on your crew, removes 8% of Special CT to [World Government] enemies.'],
                     ['Removes 29% of Special CT to 3 enemies with the highest Special CT.', 'Applies Lv. 4 ATK up buff to [STR] crew members for 19 seconds.', 'Inflicts Lv. 4 Special CT down debuff to [World Government] enemies for 19 seconds.', 'When Bartholomew Kuma or Ginny is on your crew, removes 9% of Special CT to [World Government] enemies.'],
                     ['Removes 30% of Special CT to 3 enemies with the highest Special CT.', 'Applies Lv. 5 ATK up buff to [STR] crew members for 20 seconds.', 'Inflicts Lv. 5 Special CT down debuff to [World Government] enemies for 20 seconds.', 'When Bartholomew Kuma or Ginny is on your crew, removes 10% of Special CT to [World Government] enemies.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
                 ]
             }
         }
@@ -108519,6 +110565,28 @@ window.rumble = {
                     ['Deals 3,500 fixed damage to all enemies in a large, radial range.', 'Applies Lv. 6 DEF, ATK and SPD up buff to [DEX] crew members for 20 seconds.', 'When there is 8 or more [DEX] crew members, removes 20% of Special CT to 3 enemies with the highest Special CT.']
                 ]
             }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
         }
     },
     4425: {
@@ -108568,6 +110636,28 @@ window.rumble = {
                 condition: "After this character receives damage 3 times",
                 description: ['Applies Lv. 5 Shield up buff to all crew members for 30 seconds.', 'When there is 5 or more [QCK] crew members, 100% chance to evade Fixed Damage and Percentage Damage to all crew members for 30 seconds.', 'When there is 5 or more [QCK] crew members, grant 5x Counter to self for 40 seconds.', 'When there is 5 or more [QCK] crew members, provoke enemies to self for 40 seconds.']
             }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
         }
     },
     4426: {
@@ -108616,6 +110706,28 @@ window.rumble = {
             llbbase: {
                 condition: "After enemies use 1 Rumble Specials",
                 description: ['Deals 6x ATK in damage to 2 enemies.', '100% chance to inflict Paralysis to all enemies in a large, radial range for 20 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, 100% chance to evade Action Bind to [PSY] crew members for 40 seconds.']
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
             }
         }
     },
@@ -108771,6 +110883,28 @@ window.rumble = {
                     ['Deals 2.3x ATK in damage to all enemies in a large, radial range.', '94% chance to evade Forced Out to [PSY] and Cerebral crew members for 18 seconds.', 'Applies Lv. 5 ATK up buff to [PSY] and Cerebral crew members for 18 seconds.', 'Grant 2.4x Counter to [PSY] and Cerebral crew members for 18 seconds.', 'Reduces 18% of Special CT to Cerebral crew members.'],
                     ['Deals 2.4x ATK in damage to all enemies in a large, radial range.', '97% chance to evade Forced Out to [PSY] and Cerebral crew members for 19 seconds.', 'Applies Lv. 6 ATK up buff to [PSY] and Cerebral crew members for 19 seconds.', 'Grant 2.6x Counter to [PSY] and Cerebral crew members for 19 seconds.', 'Reduces 19% of Special CT to Cerebral crew members.'],
                     ['Deals 2.5x ATK in damage to all enemies in a large, radial range.', '100% chance to evade Forced Out to [PSY] and Cerebral crew members for 20 seconds.', 'Applies Lv. 7 ATK up buff to [PSY] and Cerebral crew members for 20 seconds.', 'Grant 3x Counter to [PSY] and Cerebral crew members for 20 seconds.', 'Reduces 20% of Special CT to Cerebral crew members.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
                 ]
             }
         }
