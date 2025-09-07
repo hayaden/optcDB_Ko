@@ -455,7 +455,7 @@
 
 			if (filters.noSupport && window.details[id])
 				if ("support" in window.details[id]) return false;
-			if (
+			if ( //트레저 맵 포뻥캐
 				filters.globalTM &&
 				[
 					804, 1916, 2893, 2936, 2938, 2940, 2942, 2944, 2946, 2948,
@@ -469,7 +469,7 @@
 				].indexOf(id) == -1
 			)
 				return false;
-			if (
+			if ( //유대결전 포뻥캐
 				filters.globalKC &&
 				[
 					2936, 2938, 2940, 2942, 2944, 2946, 2948, 2950, 2952, 3204,
@@ -483,7 +483,7 @@
 				].indexOf(id) == -1
 			)
 				return false;
-			if (
+			if ( //해적왕의 궤적 포뻥캐
 				filters.globalPKA &&
 				[
 					2749, 2767, 2815, 2867, 2883, 2936, 2938, 2940, 2942, 2944,
@@ -504,7 +504,7 @@
 			)
 				return false;
 
-			if (
+			if ( //대난투 포뻥캐
 				filters.comodorevsempress &&
 				[
 			4365, 4367, 4366, 4368, 4369, 4370, 4371, 4350, 4357, 4372, 4353,
