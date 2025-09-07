@@ -28563,7 +28563,7 @@ window.rumble = {
         }
     },
     1923: {
-        festCost: 55,
+        festCost: 30,
         festStats: {
             def: 158,
             spd: 154,
@@ -28599,7 +28599,7 @@ window.rumble = {
         }
     },
     1924: {
-        festCost: 55,
+        festCost: 30,
         festStats: {
             def: 158,
             spd: 154,
@@ -36301,6 +36301,21 @@ window.rumble = {
                     ['Deals 0.44x ATK in damage to all enemies in a medium, radial range.', 'Inflicts Lv. 1 DEF down debuff to all enemies in a medium, radial range for 23 seconds.', 'Applies Lv. 2 Critical Hit up buff to Shooter crew members for 23 seconds.'],
                     ['Deals 0.5x ATK in damage to all enemies in a medium, radial range.', 'Inflicts Lv. 3 DEF down debuff to all enemies in a medium, radial range for 25 seconds.', 'Applies Lv. 4 Critical Hit up buff to Shooter crew members for 25 seconds.']
                 ]
+            },
+            llbbase: {
+                cooldown: 27,
+                descriptions: [
+                    ['Deals 0.35x ATK in damage to all enemies in a medium, radial range.', 'Inflicts Lv. 2 DEF down debuff to all enemies in a medium, radial range for 15 seconds.', 'Applies Lv. 1 Critical Hit up buff to Shooter crew members for 15 seconds.'],
+                    ['Deals 0.39x ATK in damage to all enemies in a medium, radial range.', 'Inflicts Lv. 2 DEF down debuff to all enemies in a medium, radial range for 16 seconds.', 'Applies Lv. 1 Critical Hit up buff to Shooter crew members for 16 seconds.'],
+                    ['Deals 0.43x ATK in damage to all enemies in a medium, radial range.', 'Inflicts Lv. 2 DEF down debuff to all enemies in a medium, radial range for 17 seconds.', 'Applies Lv. 1 Critical Hit up buff to Shooter crew members for 17 seconds.'],
+                    ['Deals 0.47x ATK in damage to all enemies in a medium, radial range.', 'Inflicts Lv. 2 DEF down debuff to all enemies in a medium, radial range for 18 seconds.', 'Applies Lv. 1 Critical Hit up buff to Shooter crew members for 18 seconds.'],
+                    ['Deals 0.51x ATK in damage to all enemies in a medium, radial range.', 'Inflicts Lv. 2 DEF down debuff to all enemies in a medium, radial range for 19 seconds.', 'Applies Lv. 1 Critical Hit up buff to Shooter crew members for 19 seconds.'],
+                    ['Deals 0.55x ATK in damage to all enemies in a medium, radial range.', 'Inflicts Lv. 2 DEF down debuff to all enemies in a medium, radial range for 20 seconds.', 'Applies Lv. 2 Critical Hit up buff to Shooter crew members for 20 seconds.'],
+                    ['Deals 0.59x ATK in damage to all enemies in a medium, radial range.', 'Inflicts Lv. 2 DEF down debuff to all enemies in a medium, radial range for 21 seconds.', 'Applies Lv. 2 Critical Hit up buff to Shooter crew members for 21 seconds.'],
+                    ['Deals 0.63x ATK in damage to all enemies in a medium, radial range.', 'Inflicts Lv. 2 DEF down debuff to all enemies in a medium, radial range for 22 seconds.', 'Applies Lv. 2 Critical Hit up buff to Shooter crew members for 22 seconds.'],
+                    ['Deals 0.67x ATK in damage to all enemies in a medium, radial range.', 'Inflicts Lv. 2 DEF down debuff to all enemies in a medium, radial range for 23 seconds.', 'Applies Lv. 2 Critical Hit up buff to Shooter crew members for 23 seconds.'],
+                    ['Deals 0.75x ATK in damage to all enemies in a medium, radial range.', 'Inflicts Lv. 4 DEF down debuff to all enemies in a medium, radial range for 25 seconds.', 'Applies Lv. 4 Critical Hit up buff to Shooter crew members for 25 seconds.']
+                ]
             }
         }
     },
@@ -37577,6 +37592,21 @@ window.rumble = {
                     ['Reduce Damage Over Time to all crew members for 17 seconds.', 'Heals 0.86x RCV of HP to all crew members in a large, radial range.', 'When HP is below 70%, heals 1.25x RCV of HP to all crew members in a large, radial range.'],
                     ['Reduce Damage Over Time to all crew members for 18 seconds.', 'Heals 0.9x RCV of HP to all crew members in a large, radial range.', 'When HP is below 70%, heals 1.31x RCV of HP to all crew members in a large, radial range.'],
                     ['Reduce Damage Over Time to all crew members for 20 seconds.', 'Heals 0.95x RCV of HP to all crew members in a large, radial range.', 'When HP is below 70%, heals 1.4x RCV of HP to all crew members in a large, radial range.']
+                ]
+            },
+            llbbase: {
+                cooldown: 41,
+                descriptions: [
+                    ['Reduce Damage Over Time to all crew members for 11 seconds.', 'Heals 0.85x RCV of HP to all crew members in a large, radial range.', 'When HP is below 70%, heals 0.85x RCV of HP to all crew members.'],
+                    ['Reduce Damage Over Time to all crew members for 12 seconds.', 'Heals 0.89x RCV of HP to all crew members in a large, radial range.', 'When HP is below 70%, heals 0.91x RCV of HP to all crew members.'],
+                    ['Reduce Damage Over Time to all crew members for 13 seconds.', 'Heals 0.92x RCV of HP to all crew members in a large, radial range.', 'When HP is below 70%, heals 0.96x RCV of HP to all crew members.'],
+                    ['Reduce Damage Over Time to all crew members for 14 seconds.', 'Heals 0.96x RCV of HP to all crew members in a large, radial range.', 'When HP is below 70%, heals 1.02x RCV of HP to all crew members.'],
+                    ['Reduce Damage Over Time to all crew members for 15 seconds.', 'Heals 1x RCV of HP to all crew members in a large, radial range.', 'When HP is below 70%, heals 1.08x RCV of HP to all crew members.'],
+                    ['Reduce Damage Over Time to all crew members for 16 seconds.', 'Heals 1.04x RCV of HP to all crew members in a large, radial range.', 'When HP is below 70%, heals 1.14x RCV of HP to all crew members.'],
+                    ['Reduce Damage Over Time to all crew members for 17 seconds.', 'Heals 1.07x RCV of HP to all crew members in a large, radial range.', 'When HP is below 70%, heals 1.19x RCV of HP to all crew members.'],
+                    ['Reduce Damage Over Time to all crew members for 18 seconds.', 'Heals 1.11x RCV of HP to all crew members in a large, radial range.', 'When HP is below 70%, heals 1.25x RCV of HP to all crew members.'],
+                    ['Reduce Damage Over Time to all crew members for 19 seconds.', 'Heals 1.15x RCV of HP to all crew members in a large, radial range.', 'When HP is below 70%, heals 1.31x RCV of HP to all crew members.'],
+                    ['Reduce Damage Over Time to all crew members for 20 seconds.', 'Heals 1.2x RCV of HP to all crew members in a large, radial range.', 'When HP is below 70%, heals 1.4x RCV of HP to all crew members.']
                 ]
             }
         }
@@ -48915,7 +48945,7 @@ window.rumble = {
         festAttackTarget: "Nearby Enemies."
     },
     2818: {
-        festCost: 55,
+        festCost: 30,
         festStats: {
             def: 180,
             spd: 180,
@@ -48951,7 +48981,7 @@ window.rumble = {
         }
     },
     2819: {
-        festCost: 55,
+        festCost: 30,
         festStats: {
             def: 180,
             spd: 180,
@@ -51635,7 +51665,7 @@ window.rumble = {
         festAttackTarget: "Nearby Enemies."
     },
     2929: {
-        festCost: 55,
+        festCost: 20,
         festStats: {
             def: 120,
             spd: 194,
@@ -51696,7 +51726,7 @@ window.rumble = {
         }
     },
     2930: {
-        festCost: 55,
+        festCost: 20,
         festStats: {
             def: 120,
             spd: 194,
@@ -59006,7 +59036,7 @@ window.rumble = {
         }
     },
     3156: {
-        festCost: 55,
+        festCost: 20,
         festStats: {
             def: 124,
             spd: 188,
@@ -59067,7 +59097,7 @@ window.rumble = {
         }
     },
     3157: {
-        festCost: 55,
+        festCost: 20,
         festStats: {
             def: 124,
             spd: 188,
@@ -79556,6 +79586,21 @@ window.rumble = {
                     ['Applies Lv. 6 Critical Hit and ATK up buff to all crew members in a medium, radial range for 19 seconds.', 'Reduces 26% of Special CT to 2 crew members, excluding self, with the lowest Special CT.', 'Inflicts Lv. 9 ATK down debuff to 2 enemies with the highest ATK for 14 seconds.'],
                     ['Applies Lv. 7 Critical Hit and ATK up buff to all crew members in a medium, radial range for 20 seconds.', 'Reduces 30% of Special CT to 2 crew members, excluding self, with the lowest Special CT.', 'Inflicts Lv. 10 ATK down debuff to 2 enemies with the highest ATK for 15 seconds.']
                 ]
+            },
+            llbbase: {
+                cooldown: 25,
+                descriptions: [
+                    ['Applies Lv. 2 Critical Hit and ATK up buff to all crew members in a large, radial range for 11 seconds.', 'Reduces 10% of Special CT to 2 crew members, excluding self, with the lowest Special CT.', 'Inflicts Lv. 1 ATK down debuff to 2 enemies with the highest ATK for 6 seconds.', 'When there is 5 or more Shooter crew members, reduces 30% of Special CT to 1 crew member, excluding self, with the lowest Special CT.'],
+                    ['Applies Lv. 2 Critical Hit and ATK up buff to all crew members in a large, radial range for 12 seconds.', 'Reduces 12% of Special CT to 2 crew members, excluding self, with the lowest Special CT.', 'Inflicts Lv. 2 ATK down debuff to 2 enemies with the highest ATK for 7 seconds.', 'When there is 5 or more Shooter crew members, reduces 32% of Special CT to 1 crew member, excluding self, with the lowest Special CT.'],
+                    ['Applies Lv. 3 Critical Hit and ATK up buff to all crew members in a large, radial range for 13 seconds.', 'Reduces 14% of Special CT to 2 crew members, excluding self, with the lowest Special CT.', 'Inflicts Lv. 3 ATK down debuff to 2 enemies with the highest ATK for 8 seconds.', 'When there is 5 or more Shooter crew members, reduces 34% of Special CT to 1 crew member, excluding self, with the lowest Special CT.'],
+                    ['Applies Lv. 3 Critical Hit and ATK up buff to all crew members in a large, radial range for 14 seconds.', 'Reduces 16% of Special CT to 2 crew members, excluding self, with the lowest Special CT.', 'Inflicts Lv. 4 ATK down debuff to 2 enemies with the highest ATK for 9 seconds.', 'When there is 5 or more Shooter crew members, reduces 36% of Special CT to 1 crew member, excluding self, with the lowest Special CT.'],
+                    ['Applies Lv. 4 Critical Hit and ATK up buff to all crew members in a large, radial range for 15 seconds.', 'Reduces 18% of Special CT to 2 crew members, excluding self, with the lowest Special CT.', 'Inflicts Lv. 5 ATK down debuff to 2 enemies with the highest ATK for 10 seconds.', 'When there is 5 or more Shooter crew members, reduces 38% of Special CT to 1 crew member, excluding self, with the lowest Special CT.'],
+                    ['Applies Lv. 4 Critical Hit and ATK up buff to all crew members in a large, radial range for 16 seconds.', 'Reduces 20% of Special CT to 2 crew members, excluding self, with the lowest Special CT.', 'Inflicts Lv. 6 ATK down debuff to 2 enemies with the highest ATK for 11 seconds.', 'When there is 5 or more Shooter crew members, reduces 40% of Special CT to 1 crew member, excluding self, with the lowest Special CT.'],
+                    ['Applies Lv. 5 Critical Hit and ATK up buff to all crew members in a large, radial range for 17 seconds.', 'Reduces 22% of Special CT to 2 crew members, excluding self, with the lowest Special CT.', 'Inflicts Lv. 7 ATK down debuff to 2 enemies with the highest ATK for 12 seconds.', 'When there is 5 or more Shooter crew members, reduces 42% of Special CT to 1 crew member, excluding self, with the lowest Special CT.'],
+                    ['Applies Lv. 5 Critical Hit and ATK up buff to all crew members in a large, radial range for 18 seconds.', 'Reduces 24% of Special CT to 2 crew members, excluding self, with the lowest Special CT.', 'Inflicts Lv. 8 ATK down debuff to 2 enemies with the highest ATK for 13 seconds.', 'When there is 5 or more Shooter crew members, reduces 44% of Special CT to 1 crew member, excluding self, with the lowest Special CT.'],
+                    ['Applies Lv. 6 Critical Hit and ATK up buff to all crew members in a large, radial range for 19 seconds.', 'Reduces 26% of Special CT to 2 crew members, excluding self, with the lowest Special CT.', 'Inflicts Lv. 9 ATK down debuff to 2 enemies with the highest ATK for 14 seconds.', 'When there is 5 or more Shooter crew members, reduces 46% of Special CT to 1 crew member, excluding self, with the lowest Special CT.'],
+                    ['Applies Lv. 7 Critical Hit and ATK up buff to all crew members in a large, radial range for 20 seconds.', 'Reduces 30% of Special CT to 2 crew members, excluding self, with the lowest Special CT.', 'Inflicts Lv. 10 ATK down debuff to 2 enemies with the highest ATK for 15 seconds.', 'When there is 5 or more Shooter crew members, reduces 50% of Special CT to 1 crew member, excluding self, with the lowest Special CT.']
+                ]
             }
         }
     },
@@ -82773,6 +82818,12 @@ window.rumble = {
                     ['Applies Lv. 6 ATK up buff to Slasher crew members for 20 seconds.', 'Deals 2.9x ATK in damage to all enemies in a large, sideways range.', 'Deals 1.65x ATK in damage ignoring DEF to 1 enemy.'],
                     ['Applies Lv. 7 ATK up buff to Slasher crew members for 20 seconds.', 'Deals 3x ATK in damage to all enemies in a large, sideways range.', 'Deals 1.7x ATK in damage ignoring DEF to 1 enemy.']
                 ]
+            }
+        },
+        festSuperSpecial: {
+            llbbase: {
+                condition: "After this character receives enemies' Rumble Specials 2 times",
+                description: ['Applies Lv. 10 ATK up buff to Slasher crew members for 30 seconds.', 'Deals 4x ATK in damage to all enemies.', 'Deals 2x ATK in damage ignoring DEF to 2 enemies.']
             }
         },
         festGPAbility: {
@@ -87929,7 +87980,7 @@ window.rumble = {
                     ['Deals 1,650 fixed damage to all enemies in a medium, radial range.', 'When HP is below 50%, applies Lv. 3 ATK and SPD up buff to self for 20 seconds.'],
                     ['Deals 1,850 fixed damage to all enemies in a medium, radial range.', 'When HP is below 50%, applies Lv. 3 ATK and SPD up buff to self for 20 seconds.'],
                     ['Deals 2,050 fixed damage to all enemies in a medium, radial range.', 'When HP is below 50%, applies Lv. 4 ATK and SPD up buff to self for 20 seconds.'],
-                    ['Deals 2,250 fixed damage to all enemies in a medium, radial range.', 'When HP is below 50%, applies Lv. 4 ATK and SPD up buff to self for 20 seconds.']
+                    ['Deals 2,250 fixed damage to all enemies in a medium, radial range.', 'When HP is below 50%, applies Lv. 5 ATK and SPD up buff to self for 20 seconds.']
                 ]
             },
             llbbase: {
@@ -87946,6 +87997,16 @@ window.rumble = {
                     ['Deals 2,300 fixed damage to all enemies in a medium, radial range.', 'Applies Lv. 2 DEF up buff to [Straw Hat Pirates] crew members for 20 seconds.', 'When HP is below 50%, applies Lv. 5 ATK and SPD up buff to self for 20 seconds.'],
                     ['Deals 2,500 fixed damage to all enemies in a medium, radial range.', 'Applies Lv. 3 DEF up buff to [Straw Hat Pirates] crew members for 20 seconds.', 'When HP is below 50%, applies Lv. 6 ATK and SPD up buff to self for 20 seconds.']
                 ]
+            }
+        },
+        festSuperSpecial: {
+            base: {
+                condition: "After this character receives enemies' Rumble Specials 2 times",
+                description: ['Deals 2,500 fixed damage to all enemies in a large, radial range.', 'Applies Lv. 6 ATK and SPD up buff to self for 40 seconds.']
+            },
+            llbbase: {
+                condition: "After this character receives enemies' Rumble Specials 2 times",
+                description: ['Deals 2,750 fixed damage to all enemies in a large, radial range.', 'Applies Lv. 7 ATK and SPD up buff to self for 40 seconds.']
             }
         }
     },
