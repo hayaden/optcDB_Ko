@@ -272,7 +272,7 @@
 	function createPositionsSubmatchers(
 		groups,
 		includeUniversal = true,
-		universalRegex = "모두",
+		universalRegex = "all",
 		excludedSubmatchers = [],
 		useRowsAndColumns = true
 	) {
@@ -13430,7 +13430,30 @@
 			{
 				name: "초연계기술",
 				targets: ["potential"],
-				regex: /Super Tandem(?! Boost)/i,
+				regex: /(?:Super Tandem(?! Boost)|Boosts Tandem ATK of (?=((?:[^c."]+|c(?!har))*))\1characters? by ([.\d]+)x for (\d+) turns?)/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "배수:",
+						groups: [2],
+					},
+					...createUniversalSubmatcher([1]),
+					{
+						type: "separator",
+						description: "영향을 받는 속성:",
+					},
+					...createTypesSubmatchers([1]),
+					{
+						type: "separator",
+						description: "영향을 받는 타입:",
+					},
+					...createClassesSubmatchers([1]),
+					{
+						type: "separator",
+						description: "영향을 받는 위치:",
+					},
+					...createPositionsSubmatchers([1]),
+				]
 			},
 
 			{
