@@ -1549,7 +1549,7 @@
 					},
 					{
 						type: "option",
-						description: "모든",
+						description: "모두",
 						regex: /all/i,
 						groups: [3],
 						cssClasses: ["min-width-6"],
@@ -3754,7 +3754,14 @@
 					},
 					{
 						type: "option",
-						description: "턴 종료시 데미지",
+						description: "데미지 무효",
+						regex: /Damage Nullification/i,
+						groups: [1],
+						cssClasses: ["min-width-12"],
+					},
+					{
+						type: "option",
+						description: " 턴 종료 시 추가 데미지",
 						regex: /End of Turn Damage/i,
 						groups: [1],
 						cssClasses: ["min-width-6"],
@@ -3877,7 +3884,14 @@
 					},
 					{
 						type: "option",
-						description: "턴 종료시 데미지",
+						description: "데미지 무효",
+						regex: /Damage Nullification/i,
+						groups: [1],
+						cssClasses: ["min-width-12"],
+					},
+					{
+						type: "option",
+						description: " 턴 종료 시 추가 데미지",
 						regex: /End of Turn Damage/i,
 						groups: [1],
 						cssClasses: ["min-width-6"],
@@ -9685,7 +9699,7 @@
 					},
 					{
 						type: "option",
-						description: "모든",
+						description: "모두",
 						regex: /all/i,
 						groups: [3],
 						cssClasses: ["min-width-6"],
@@ -10612,7 +10626,7 @@
 					},
 					{
 						type: "option",
-						description: "모든",
+						description: "모두",
 						regex: /all/i,
 						groups: [3],
 						cssClasses: ["min-width-6"],
@@ -11168,6 +11182,7 @@
 					...createClassesSubmatchers([2]),
 				],
 					},
+
 			{
 				name: "도발상태",
 				targets: ["gpSpecial"],
@@ -11176,33 +11191,33 @@
 				submatchers: [
 					{
 						type: "number",
-						description: "Duration:",
+						description: "지속시간:",
 						groups: [4],
 					},
 					{
 						type: "separator",
-						description: "Targeting:",
+						description: "대상:",
 					},
 					{
 						type: "number",
-						description: "Count:",
+						description: "대상 수:",
 						groups: [1],
 					},
 					{
 						type: "option",
-						description: "Universal",
+						description: "모두",
 						regex: /all/i,
 						groups: [2],
 						cssClasses: ["min-width-6"],
 					},
 					{
 						type: "separator",
-						description: "Types:",
+						description: "속성:",
 					},
 					...createTypesSubmatchers([2]),
 					{
 						type: "separator",
-						description: "Classes:",
+						description: "타입:",
 					},
 					...createClassesSubmatchers([2]),
 				],
@@ -12879,6 +12894,86 @@
 				targets: ["gpSpecial"],
 				regex:
 					/([.\d]+)% chance to evade[^.]+Special Bind[^.]+to (?=((?:[^c]+|c(?!rew))*))\2crew members?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: for (\d+) seconds)?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "확률:",
+						groups: [1],
+					},
+					{
+						type: "number",
+						description: "지속시간:",
+						groups: [4],
+					},
+					{
+						type: "separator",
+						description: "대상:",
+					},
+					{
+						type: "option",
+						description: "모두",
+						regex: /all/i,
+						groups: [2],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "속성:",
+					},
+					...createTypesSubmatchers([2]),
+					{
+						type: "separator",
+						description: "타입:",
+					},
+					...createClassesSubmatchers([2]),
+				],
+			},
+
+			{
+				name: "필살기 쿨타임 지연",
+				targets: ["rumbleSpecial"],
+				regex:
+					/([.\d]+)% chance to evade[^.]+Special CT[^.]+to (self|(?=((?:[^c]+|c(?!rew))*))\3crew members?)(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: for (\d+) seconds)?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "확률:",
+						groups: [1],
+					},
+					{
+						type: "number",
+						description: "지속시간:",
+						groups: [5],
+					},
+					{
+						type: "separator",
+						description: "대상:",
+					},
+					{
+						type: "option",
+						description: "모두",
+						regex: /all/i,
+						groups: [2],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "속성:",
+					},
+					...createTypesSubmatchers([2]),
+					{
+						type: "separator",
+						description: "타입:",
+					},
+					...createClassesSubmatchers([2]),
+				],
+			},
+
+			{
+				name: "필살기 쿨타임 지연",
+				targets: ["gpSpecial"],
+				regex:
+					/([.\d]+)% chance to evade[^.]+Special CT[^.]+to (?=((?:[^c]+|c(?!rew))*))\2crew members?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: for (\d+) seconds)?/i,
 				submatchers: [
 					{
 						type: "number",

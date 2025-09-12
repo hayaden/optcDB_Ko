@@ -65173,16 +65173,16 @@ window.rumble = {
             llbbase: {
                 cooldown: 32,
                 descriptions: [
-                    ['Deals 0.6x ATK in damage ignoring DEF to all enemies in a large, forward range.', 'Applies Lv. 1 DEF up buff to [STR] crew members for 11 seconds.', 'When there is 4 or more [Worst Generation], [Kid Pirates] and [Land of Wano] crew members, applies Lv. 1 ATK up buff to all crew members for 11 seconds.'],
-                    ['Deals 0.7x ATK in damage ignoring DEF to all enemies in a large, forward range.', 'Applies Lv. 1 DEF up buff to [STR] crew members for 11 seconds.', 'When there is 4 or more [Worst Generation], [Kid Pirates] and [Land of Wano] crew members, applies Lv. 1 ATK up buff to all crew members for 11 seconds.'],
-                    ['Deals 0.8x ATK in damage ignoring DEF to all enemies in a large, forward range.', 'Applies Lv. 1 DEF up buff to [STR] crew members for 12 seconds.', 'When there is 4 or more [Worst Generation], [Kid Pirates] and [Land of Wano] crew members, applies Lv. 1 ATK up buff to all crew members for 12 seconds.'],
-                    ['Deals 0.9x ATK in damage ignoring DEF to all enemies in a large, forward range.', 'Applies Lv. 2 DEF up buff to [STR] crew members for 12 seconds.', 'When there is 4 or more [Worst Generation], [Kid Pirates] and [Land of Wano] crew members, applies Lv. 2 ATK up buff to all crew members for 12 seconds.'],
-                    ['Deals 1x ATK in damage ignoring DEF to all enemies in a large, forward range.', 'Applies Lv. 2 DEF up buff to [STR] crew members for 13 seconds.', 'When there is 4 or more [Worst Generation], [Kid Pirates] and [Land of Wano] crew members, applies Lv. 2 ATK up buff to all crew members for 13 seconds.'],
-                    ['Deals 1.1x ATK in damage ignoring DEF to all enemies in a large, forward range.', 'Applies Lv. 3 DEF up buff to [STR] crew members for 13 seconds.', 'When there is 4 or more [Worst Generation], [Kid Pirates] and [Land of Wano] crew members, applies Lv. 3 ATK up buff to all crew members for 13 seconds.'],
-                    ['Deals 1.2x ATK in damage ignoring DEF to all enemies in a large, forward range.', 'Applies Lv. 3 DEF up buff to [STR] crew members for 14 seconds.', 'When there is 4 or more [Worst Generation], [Kid Pirates] and [Land of Wano] crew members, applies Lv. 3 ATK up buff to all crew members for 14 seconds.'],
-                    ['Deals 1.3x ATK in damage ignoring DEF to all enemies in a large, forward range.', 'Applies Lv. 3 DEF up buff to [STR] crew members for 14 seconds.', 'When there is 4 or more [Worst Generation], [Kid Pirates] and [Land of Wano] crew members, applies Lv. 3 ATK up buff to all crew members for 14 seconds.'],
-                    ['Deals 1.4x ATK in damage ignoring DEF to all enemies in a large, forward range.', 'Applies Lv. 4 DEF up buff to [STR] crew members for 15 seconds.', 'When there is 4 or more [Worst Generation], [Kid Pirates] and [Land of Wano] crew members, applies Lv. 4 ATK up buff to all crew members for 15 seconds.'],
-                    ['Deals 1.5x ATK in damage ignoring DEF to all enemies in a large, forward range.', 'Applies Lv. 5 DEF up buff to [STR] crew members for 15 seconds.', 'When there is 4 or more [Worst Generation], [Kid Pirates] and [Land of Wano] crew members, applies Lv. 5 ATK up buff to all crew members for 15 seconds.']
+                    ['Deals 0.6x ATK in damage ignoring DEF to all enemies in a large, forward range.', 'Applies Lv. 1 DEF up buff to [STR] crew members for 11 seconds.', 'When there is 4 or more [Worst Generation], [Kid Pirates] and [Land of Wano Arc] crew members, applies Lv. 1 ATK up buff to all crew members for 11 seconds.'],
+                    ['Deals 0.7x ATK in damage ignoring DEF to all enemies in a large, forward range.', 'Applies Lv. 1 DEF up buff to [STR] crew members for 11 seconds.', 'When there is 4 or more [Worst Generation], [Kid Pirates] and [Land of Wano Arc] crew members, applies Lv. 1 ATK up buff to all crew members for 11 seconds.'],
+                    ['Deals 0.8x ATK in damage ignoring DEF to all enemies in a large, forward range.', 'Applies Lv. 1 DEF up buff to [STR] crew members for 12 seconds.', 'When there is 4 or more [Worst Generation], [Kid Pirates] and [Land of Wano Arc] crew members, applies Lv. 1 ATK up buff to all crew members for 12 seconds.'],
+                    ['Deals 0.9x ATK in damage ignoring DEF to all enemies in a large, forward range.', 'Applies Lv. 2 DEF up buff to [STR] crew members for 12 seconds.', 'When there is 4 or more [Worst Generation], [Kid Pirates] and [Land of Wano Arc] crew members, applies Lv. 2 ATK up buff to all crew members for 12 seconds.'],
+                    ['Deals 1x ATK in damage ignoring DEF to all enemies in a large, forward range.', 'Applies Lv. 2 DEF up buff to [STR] crew members for 13 seconds.', 'When there is 4 or more [Worst Generation], [Kid Pirates] and [Land of Wano Arc] crew members, applies Lv. 2 ATK up buff to all crew members for 13 seconds.'],
+                    ['Deals 1.1x ATK in damage ignoring DEF to all enemies in a large, forward range.', 'Applies Lv. 3 DEF up buff to [STR] crew members for 13 seconds.', 'When there is 4 or more [Worst Generation], [Kid Pirates] and [Land of Wano Arc] crew members, applies Lv. 3 ATK up buff to all crew members for 13 seconds.'],
+                    ['Deals 1.2x ATK in damage ignoring DEF to all enemies in a large, forward range.', 'Applies Lv. 3 DEF up buff to [STR] crew members for 14 seconds.', 'When there is 4 or more [Worst Generation], [Kid Pirates] and [Land of Wano Arc] crew members, applies Lv. 3 ATK up buff to all crew members for 14 seconds.'],
+                    ['Deals 1.3x ATK in damage ignoring DEF to all enemies in a large, forward range.', 'Applies Lv. 3 DEF up buff to [STR] crew members for 14 seconds.', 'When there is 4 or more [Worst Generation], [Kid Pirates] and [Land of Wano Arc] crew members, applies Lv. 3 ATK up buff to all crew members for 14 seconds.'],
+                    ['Deals 1.4x ATK in damage ignoring DEF to all enemies in a large, forward range.', 'Applies Lv. 4 DEF up buff to [STR] crew members for 15 seconds.', 'When there is 4 or more [Worst Generation], [Kid Pirates] and [Land of Wano Arc] crew members, applies Lv. 4 ATK up buff to all crew members for 15 seconds.'],
+                    ['Deals 1.5x ATK in damage ignoring DEF to all enemies in a large, forward range.', 'Applies Lv. 5 DEF up buff to [STR] crew members for 15 seconds.', 'When there is 4 or more [Worst Generation], [Kid Pirates] and [Land of Wano Arc] crew members, applies Lv. 5 ATK up buff to all crew members for 15 seconds.']
                 ]
             }
         },
@@ -98097,16 +98097,16 @@ window.rumble = {
             base: {
                 cooldown: 33,
                 descriptions: [
-                    ['Deals 0.5x ATK in damage to 1 enemy 5 times.', 'When there is 5 or more [INT] crew members, deals 1.5x ATK in damage to 3 enemies.', 'When there is 5 or more Cerebral crew members, deals 1x ATK in damage to 3 enemies.'],
-                    ['Deals 0.6x ATK in damage to 1 enemy 5 times.', 'When there is 5 or more [INT] crew members, deals 1.7x ATK in damage to 3 enemies.', 'When there is 5 or more Cerebral crew members, deals 1.1x ATK in damage to 3 enemies.'],
-                    ['Deals 0.7x ATK in damage to 1 enemy 5 times.', 'When there is 5 or more [INT] crew members, deals 1.9x ATK in damage to 3 enemies.', 'When there is 5 or more Cerebral crew members, deals 1.2x ATK in damage to 3 enemies.'],
-                    ['Deals 0.8x ATK in damage to 1 enemy 5 times.', 'When there is 5 or more [INT] crew members, deals 2.1x ATK in damage to 3 enemies.', 'When there is 5 or more Cerebral crew members, deals 1.3x ATK in damage to 3 enemies.'],
-                    ['Deals 0.9x ATK in damage to 1 enemy 5 times.', 'When there is 5 or more [INT] crew members, deals 2.3x ATK in damage to 3 enemies.', 'When there is 5 or more Cerebral crew members, deals 1.4x ATK in damage to 3 enemies.'],
-                    ['Deals 1x ATK in damage to 1 enemy 5 times.', 'When there is 5 or more [INT] crew members, deals 2.5x ATK in damage to 3 enemies.', 'When there is 5 or more Cerebral crew members, deals 1.5x ATK in damage to 3 enemies.'],
-                    ['Deals 1.1x ATK in damage to 1 enemy 5 times.', 'When there is 5 or more [INT] crew members, deals 2.7x ATK in damage to 3 enemies.', 'When there is 5 or more Cerebral crew members, deals 1.6x ATK in damage to 3 enemies.'],
-                    ['Deals 1.2x ATK in damage to 1 enemy 5 times.', 'When there is 5 or more [INT] crew members, deals 2.9x ATK in damage to 3 enemies.', 'When there is 5 or more Cerebral crew members, deals 1.7x ATK in damage to 3 enemies.'],
-                    ['Deals 1.3x ATK in damage to 1 enemy 5 times.', 'When there is 5 or more [INT] crew members, deals 3.1x ATK in damage to 3 enemies.', 'When there is 5 or more Cerebral crew members, deals 1.8x ATK in damage to 3 enemies.'],
-                    ['Deals 1.5x ATK in damage to 1 enemy 5 times.', 'When there is 5 or more [INT] crew members, deals 3.5x ATK in damage to 3 enemies.', 'When there is 5 or more Cerebral crew members, deals 2x ATK in damage to 3 enemies.']
+                    ['Deals 0.5x ATK in damage to 1 enemy 5 times.', 'When there is 5 or more [INT] crew members, deals 1.5x ATK in damage to 3 enemies.', 'When there is 5 or more Cerebral crew members, deals 1x ATK in damage ignoring DEF to 1 enemy.'],
+                    ['Deals 0.6x ATK in damage to 1 enemy 5 times.', 'When there is 5 or more [INT] crew members, deals 1.7x ATK in damage to 3 enemies.', 'When there is 5 or more Cerebral crew members, deals 1.1x ATK in damage ignoring DEF to 1 enemy.'],
+                    ['Deals 0.7x ATK in damage to 1 enemy 5 times.', 'When there is 5 or more [INT] crew members, deals 1.9x ATK in damage to 3 enemies.', 'When there is 5 or more Cerebral crew members, deals 1.2x ATK in damage ignoring DEF to 1 enemy.'],
+                    ['Deals 0.8x ATK in damage to 1 enemy 5 times.', 'When there is 5 or more [INT] crew members, deals 2.1x ATK in damage to 3 enemies.', 'When there is 5 or more Cerebral crew members, deals 1.3x ATK in damage ignoring DEF to 1 enemy.'],
+                    ['Deals 0.9x ATK in damage to 1 enemy 5 times.', 'When there is 5 or more [INT] crew members, deals 2.3x ATK in damage to 3 enemies.', 'When there is 5 or more Cerebral crew members, deals 1.4x ATK in damage ignoring DEF to 1 enemy.'],
+                    ['Deals 1x ATK in damage to 1 enemy 5 times.', 'When there is 5 or more [INT] crew members, deals 2.5x ATK in damage to 3 enemies.', 'When there is 5 or more Cerebral crew members, deals 1.5x ATK in damage ignoring DEF to 1 enemy.'],
+                    ['Deals 1.1x ATK in damage to 1 enemy 5 times.', 'When there is 5 or more [INT] crew members, deals 2.7x ATK in damage to 3 enemies.', 'When there is 5 or more Cerebral crew members, deals 1.6x ATK in damage ignoring DEF to 1 enemy.'],
+                    ['Deals 1.2x ATK in damage to 1 enemy 5 times.', 'When there is 5 or more [INT] crew members, deals 2.9x ATK in damage to 3 enemies.', 'When there is 5 or more Cerebral crew members, deals 1.7x ATK in damage ignoring DEF to 1 enemy.'],
+                    ['Deals 1.3x ATK in damage to 1 enemy 5 times.', 'When there is 5 or more [INT] crew members, deals 3.1x ATK in damage to 3 enemies.', 'When there is 5 or more Cerebral crew members, deals 1.8x ATK in damage ignoring DEF to 1 enemy.'],
+                    ['Deals 1.5x ATK in damage to 1 enemy 5 times.', 'When there is 5 or more [INT] crew members, deals 3.5x ATK in damage to 3 enemies.', 'When there is 5 or more Cerebral crew members, deals 2x ATK in damage ignoring DEF to 1 enemy.']
                 ]
             }
         },
@@ -108756,16 +108756,16 @@ window.rumble = {
             base: {
                 cooldown: 25,
                 descriptions: [
-                    ['Inflicts Lv. 1 DEF down debuff to 3 enemies with the highest DEF for 21 seconds.', 'Reduces 11% of Special CT to 2 [Egghead] crew members, excluding self, with the lowest Special CT.', 'Inflicts Lv. 3 ATK and SPD down debuff to [PSY] Slasher enemies for 21 seconds.'],
-                    ['Inflicts Lv. 1 DEF down debuff to 3 enemies with the highest DEF for 22 seconds.', 'Reduces 12% of Special CT to 2 [Egghead] crew members, excluding self, with the lowest Special CT.', 'Inflicts Lv. 3 ATK and SPD down debuff to [PSY] Slasher enemies for 22 seconds.'],
-                    ['Inflicts Lv. 2 DEF down debuff to 3 enemies with the highest DEF for 23 seconds.', 'Reduces 13% of Special CT to 2 [Egghead] crew members, excluding self, with the lowest Special CT.', 'Inflicts Lv. 4 ATK and SPD down debuff to [PSY] Slasher enemies for 23 seconds.'],
-                    ['Inflicts Lv. 2 DEF down debuff to 3 enemies with the highest DEF for 24 seconds.', 'Reduces 14% of Special CT to 2 [Egghead] crew members, excluding self, with the lowest Special CT.', 'Inflicts Lv. 4 ATK and SPD down debuff to [PSY] Slasher enemies for 24 seconds.'],
-                    ['Inflicts Lv. 3 DEF down debuff to 3 enemies with the highest DEF for 25 seconds.', 'Reduces 15% of Special CT to 2 [Egghead] crew members, excluding self, with the lowest Special CT.', 'Inflicts Lv. 5 ATK and SPD down debuff to [PSY] Slasher enemies for 25 seconds.'],
-                    ['Inflicts Lv. 3 DEF down debuff to 3 enemies with the highest DEF for 26 seconds.', 'Reduces 16% of Special CT to 2 [Egghead] crew members, excluding self, with the lowest Special CT.', 'Inflicts Lv. 5 ATK and SPD down debuff to [PSY] Slasher enemies for 26 seconds.'],
-                    ['Inflicts Lv. 4 DEF down debuff to 3 enemies with the highest DEF for 27 seconds.', 'Reduces 17% of Special CT to 2 [Egghead] crew members, excluding self, with the lowest Special CT.', 'Inflicts Lv. 6 ATK and SPD down debuff to [PSY] Slasher enemies for 27 seconds.'],
-                    ['Inflicts Lv. 4 DEF down debuff to 3 enemies with the highest DEF for 28 seconds.', 'Reduces 18% of Special CT to 2 [Egghead] crew members, excluding self, with the lowest Special CT.', 'Inflicts Lv. 6 ATK and SPD down debuff to [PSY] Slasher enemies for 28 seconds.'],
-                    ['Inflicts Lv. 5 DEF down debuff to 3 enemies with the highest DEF for 29 seconds.', 'Reduces 19% of Special CT to 2 [Egghead] crew members, excluding self, with the lowest Special CT.', 'Inflicts Lv. 7 ATK and SPD down debuff to [PSY] Slasher enemies for 29 seconds.'],
-                    ['Inflicts Lv. 5 DEF down debuff to 3 enemies with the highest DEF for 30 seconds.', 'Reduces 20% of Special CT to 2 [Egghead] crew members, excluding self, with the lowest Special CT.', 'Inflicts Lv. 8 ATK and SPD down debuff to [PSY] Slasher enemies for 30 seconds.']
+                    ['Inflicts Lv. 1 DEF down debuff to 3 enemies with the highest DEF for 21 seconds.', 'Reduces 11% of Special CT to 2 [Egghead Arc] crew members, excluding self, with the lowest Special CT.', 'Inflicts Lv. 3 ATK and SPD down debuff to [PSY] Slasher enemies for 21 seconds.'],
+                    ['Inflicts Lv. 1 DEF down debuff to 3 enemies with the highest DEF for 22 seconds.', 'Reduces 12% of Special CT to 2 [Egghead Arc] crew members, excluding self, with the lowest Special CT.', 'Inflicts Lv. 3 ATK and SPD down debuff to [PSY] Slasher enemies for 22 seconds.'],
+                    ['Inflicts Lv. 2 DEF down debuff to 3 enemies with the highest DEF for 23 seconds.', 'Reduces 13% of Special CT to 2 [Egghead Arc] crew members, excluding self, with the lowest Special CT.', 'Inflicts Lv. 4 ATK and SPD down debuff to [PSY] Slasher enemies for 23 seconds.'],
+                    ['Inflicts Lv. 2 DEF down debuff to 3 enemies with the highest DEF for 24 seconds.', 'Reduces 14% of Special CT to 2 [Egghead Arc] crew members, excluding self, with the lowest Special CT.', 'Inflicts Lv. 4 ATK and SPD down debuff to [PSY] Slasher enemies for 24 seconds.'],
+                    ['Inflicts Lv. 3 DEF down debuff to 3 enemies with the highest DEF for 25 seconds.', 'Reduces 15% of Special CT to 2 [Egghead Arc] crew members, excluding self, with the lowest Special CT.', 'Inflicts Lv. 5 ATK and SPD down debuff to [PSY] Slasher enemies for 25 seconds.'],
+                    ['Inflicts Lv. 3 DEF down debuff to 3 enemies with the highest DEF for 26 seconds.', 'Reduces 16% of Special CT to 2 [Egghead Arc] crew members, excluding self, with the lowest Special CT.', 'Inflicts Lv. 5 ATK and SPD down debuff to [PSY] Slasher enemies for 26 seconds.'],
+                    ['Inflicts Lv. 4 DEF down debuff to 3 enemies with the highest DEF for 27 seconds.', 'Reduces 17% of Special CT to 2 [Egghead Arc] crew members, excluding self, with the lowest Special CT.', 'Inflicts Lv. 6 ATK and SPD down debuff to [PSY] Slasher enemies for 27 seconds.'],
+                    ['Inflicts Lv. 4 DEF down debuff to 3 enemies with the highest DEF for 28 seconds.', 'Reduces 18% of Special CT to 2 [Egghead Arc] crew members, excluding self, with the lowest Special CT.', 'Inflicts Lv. 6 ATK and SPD down debuff to [PSY] Slasher enemies for 28 seconds.'],
+                    ['Inflicts Lv. 5 DEF down debuff to 3 enemies with the highest DEF for 29 seconds.', 'Reduces 19% of Special CT to 2 [Egghead Arc] crew members, excluding self, with the lowest Special CT.', 'Inflicts Lv. 7 ATK and SPD down debuff to [PSY] Slasher enemies for 29 seconds.'],
+                    ['Inflicts Lv. 5 DEF down debuff to 3 enemies with the highest DEF for 30 seconds.', 'Reduces 20% of Special CT to 2 [Egghead Arc] crew members, excluding self, with the lowest Special CT.', 'Inflicts Lv. 8 ATK and SPD down debuff to [PSY] Slasher enemies for 30 seconds.']
                 ]
             }
         }
@@ -108795,16 +108795,16 @@ window.rumble = {
             base: {
                 cooldown: 32,
                 descriptions: [
-                    ['Applies Lv. 1 Shield up buff to [Egghead] crew members for 21 seconds.', 'Deals 1.3x ATK in damage to 3 enemies.', 'Deals 2.1x ATK in damage to [PSY] Slasher enemies.', 'Deals 1.1x ATK in damage to Fighter and Slasher enemies.'],
-                    ['Applies Lv. 1 Shield up buff to [Egghead] crew members for 22 seconds.', 'Deals 1.4x ATK in damage to 3 enemies.', 'Deals 2.2x ATK in damage to [PSY] Slasher enemies.', 'Deals 1.2x ATK in damage to Fighter and Slasher enemies.'],
-                    ['Applies Lv. 1 Shield up buff to [Egghead] crew members for 23 seconds.', 'Deals 1.5x ATK in damage to 3 enemies.', 'Deals 2.3x ATK in damage to [PSY] Slasher enemies.', 'Deals 1.3x ATK in damage to Fighter and Slasher enemies.'],
-                    ['Applies Lv. 1 Shield up buff to [Egghead] crew members for 24 seconds.', 'Deals 1.6x ATK in damage to 3 enemies.', 'Deals 2.4x ATK in damage to [PSY] Slasher enemies.', 'Deals 1.4x ATK in damage to Fighter and Slasher enemies.'],
-                    ['Applies Lv. 1 Shield up buff to [Egghead] crew members for 25 seconds.', 'Deals 1.7x ATK in damage to 3 enemies.', 'Deals 2.5x ATK in damage to [PSY] Slasher enemies.', 'Deals 1.5x ATK in damage to Fighter and Slasher enemies.'],
-                    ['Applies Lv. 2 Shield up buff to [Egghead] crew members for 26 seconds.', 'Deals 1.8x ATK in damage to 3 enemies.', 'Deals 2.6x ATK in damage to [PSY] Slasher enemies.', 'Deals 1.6x ATK in damage to Fighter and Slasher enemies.'],
-                    ['Applies Lv. 2 Shield up buff to [Egghead] crew members for 27 seconds.', 'Deals 1.9x ATK in damage to 3 enemies.', 'Deals 2.7x ATK in damage to [PSY] Slasher enemies.', 'Deals 1.7x ATK in damage to Fighter and Slasher enemies.'],
-                    ['Applies Lv. 2 Shield up buff to [Egghead] crew members for 28 seconds.', 'Deals 2x ATK in damage to 3 enemies.', 'Deals 2.8x ATK in damage to [PSY] Slasher enemies.', 'Deals 1.8x ATK in damage to Fighter and Slasher enemies.'],
-                    ['Applies Lv. 2 Shield up buff to [Egghead] crew members for 29 seconds.', 'Deals 2.1x ATK in damage to 3 enemies.', 'Deals 2.9x ATK in damage to [PSY] Slasher enemies.', 'Deals 1.9x ATK in damage to Fighter and Slasher enemies.'],
-                    ['Applies Lv. 3 Shield up buff to [Egghead] crew members for 30 seconds.', 'Deals 2.2x ATK in damage to 3 enemies.', 'Deals 3x ATK in damage to [PSY] Slasher enemies.', 'Deals 2x ATK in damage to Fighter and Slasher enemies.']
+                    ['Applies Lv. 1 Shield up buff to [Egghead Arc] crew members for 21 seconds.', 'Deals 1.3x ATK in damage to 3 enemies.', 'Deals 2.1x ATK in damage to [PSY] Slasher enemies.', 'Deals 1.1x ATK in damage to Fighter and Slasher enemies.'],
+                    ['Applies Lv. 1 Shield up buff to [Egghead Arc] crew members for 22 seconds.', 'Deals 1.4x ATK in damage to 3 enemies.', 'Deals 2.2x ATK in damage to [PSY] Slasher enemies.', 'Deals 1.2x ATK in damage to Fighter and Slasher enemies.'],
+                    ['Applies Lv. 1 Shield up buff to [Egghead Arc] crew members for 23 seconds.', 'Deals 1.5x ATK in damage to 3 enemies.', 'Deals 2.3x ATK in damage to [PSY] Slasher enemies.', 'Deals 1.3x ATK in damage to Fighter and Slasher enemies.'],
+                    ['Applies Lv. 1 Shield up buff to [Egghead Arc] crew members for 24 seconds.', 'Deals 1.6x ATK in damage to 3 enemies.', 'Deals 2.4x ATK in damage to [PSY] Slasher enemies.', 'Deals 1.4x ATK in damage to Fighter and Slasher enemies.'],
+                    ['Applies Lv. 1 Shield up buff to [Egghead Arc] crew members for 25 seconds.', 'Deals 1.7x ATK in damage to 3 enemies.', 'Deals 2.5x ATK in damage to [PSY] Slasher enemies.', 'Deals 1.5x ATK in damage to Fighter and Slasher enemies.'],
+                    ['Applies Lv. 2 Shield up buff to [Egghead Arc] crew members for 26 seconds.', 'Deals 1.8x ATK in damage to 3 enemies.', 'Deals 2.6x ATK in damage to [PSY] Slasher enemies.', 'Deals 1.6x ATK in damage to Fighter and Slasher enemies.'],
+                    ['Applies Lv. 2 Shield up buff to [Egghead Arc] crew members for 27 seconds.', 'Deals 1.9x ATK in damage to 3 enemies.', 'Deals 2.7x ATK in damage to [PSY] Slasher enemies.', 'Deals 1.7x ATK in damage to Fighter and Slasher enemies.'],
+                    ['Applies Lv. 2 Shield up buff to [Egghead Arc] crew members for 28 seconds.', 'Deals 2x ATK in damage to 3 enemies.', 'Deals 2.8x ATK in damage to [PSY] Slasher enemies.', 'Deals 1.8x ATK in damage to Fighter and Slasher enemies.'],
+                    ['Applies Lv. 2 Shield up buff to [Egghead Arc] crew members for 29 seconds.', 'Deals 2.1x ATK in damage to 3 enemies.', 'Deals 2.9x ATK in damage to [PSY] Slasher enemies.', 'Deals 1.9x ATK in damage to Fighter and Slasher enemies.'],
+                    ['Applies Lv. 3 Shield up buff to [Egghead Arc] crew members for 30 seconds.', 'Deals 2.2x ATK in damage to 3 enemies.', 'Deals 3x ATK in damage to [PSY] Slasher enemies.', 'Deals 2x ATK in damage to Fighter and Slasher enemies.']
                 ]
             }
         }
@@ -108912,16 +108912,16 @@ window.rumble = {
             base: {
                 cooldown: 30,
                 descriptions: [
-                    ['Applies Lv. 1 ATK up buff to self for 21 seconds.', 'Deals 2.1x ATK in damage to all enemies in a large, sideways range.', 'Deals 2.1x ATK in damage to all enemies in a large, forward range.', 'Deals 2.1x ATK in damage to all enemies in a medium, radial range.', 'When there is 6 or more [Egghead] crew members, deals 2.1x ATK in damage to all enemies in a large, radial range.'],
-                    ['Applies Lv. 1 ATK up buff to self for 22 seconds.', 'Deals 2.2x ATK in damage to all enemies in a large, sideways range.', 'Deals 2.2x ATK in damage to all enemies in a large, forward range.', 'Deals 2.2x ATK in damage to all enemies in a medium, radial range.', 'When there is 6 or more [Egghead] crew members, deals 2.2x ATK in damage to all enemies in a large, radial range.'],
-                    ['Applies Lv. 2 ATK up buff to self for 23 seconds.', 'Deals 2.3x ATK in damage to all enemies in a large, sideways range.', 'Deals 2.3x ATK in damage to all enemies in a large, forward range.', 'Deals 2.3x ATK in damage to all enemies in a medium, radial range.', 'When there is 6 or more [Egghead] crew members, deals 2.3x ATK in damage to all enemies in a large, radial range.'],
-                    ['Applies Lv. 2 ATK up buff to self for 24 seconds.', 'Deals 2.4x ATK in damage to all enemies in a large, sideways range.', 'Deals 2.4x ATK in damage to all enemies in a large, forward range.', 'Deals 2.4x ATK in damage to all enemies in a medium, radial range.', 'When there is 6 or more [Egghead] crew members, deals 2.4x ATK in damage to all enemies in a large, radial range.'],
-                    ['Applies Lv. 3 ATK up buff to self for 25 seconds.', 'Deals 2.5x ATK in damage to all enemies in a large, sideways range.', 'Deals 2.5x ATK in damage to all enemies in a large, forward range.', 'Deals 2.5x ATK in damage to all enemies in a medium, radial range.', 'When there is 6 or more [Egghead] crew members, deals 2.5x ATK in damage to all enemies in a large, radial range.'],
-                    ['Applies Lv. 3 ATK up buff to self for 26 seconds.', 'Deals 2.6x ATK in damage to all enemies in a large, sideways range.', 'Deals 2.6x ATK in damage to all enemies in a large, forward range.', 'Deals 2.6x ATK in damage to all enemies in a medium, radial range.', 'When there is 6 or more [Egghead] crew members, deals 2.6x ATK in damage to all enemies in a large, radial range.'],
-                    ['Applies Lv. 4 ATK up buff to self for 27 seconds.', 'Deals 2.7x ATK in damage to all enemies in a large, sideways range.', 'Deals 2.7x ATK in damage to all enemies in a large, forward range.', 'Deals 2.7x ATK in damage to all enemies in a medium, radial range.', 'When there is 6 or more [Egghead] crew members, deals 2.7x ATK in damage to all enemies in a large, radial range.'],
-                    ['Applies Lv. 4 ATK up buff to self for 28 seconds.', 'Deals 2.8x ATK in damage to all enemies in a large, sideways range.', 'Deals 2.8x ATK in damage to all enemies in a large, forward range.', 'Deals 2.8x ATK in damage to all enemies in a medium, radial range.', 'When there is 6 or more [Egghead] crew members, deals 2.8x ATK in damage to all enemies in a large, radial range.'],
-                    ['Applies Lv. 5 ATK up buff to self for 29 seconds.', 'Deals 2.9x ATK in damage to all enemies in a large, sideways range.', 'Deals 2.9x ATK in damage to all enemies in a large, forward range.', 'Deals 2.9x ATK in damage to all enemies in a medium, radial range.', 'When there is 6 or more [Egghead] crew members, deals 2.9x ATK in damage to all enemies in a large, radial range.'],
-                    ['Applies Lv. 5 ATK up buff to self for 30 seconds.', 'Deals 3x ATK in damage to all enemies in a large, sideways range.', 'Deals 3x ATK in damage to all enemies in a large, forward range.', 'Deals 3x ATK in damage to all enemies in a medium, radial range.', 'When there is 6 or more [Egghead] crew members, deals 3x ATK in damage to all enemies in a large, radial range.']
+                    ['Applies Lv. 1 ATK up buff to self for 21 seconds.', 'Deals 2.1x ATK in damage to all enemies in a large, sideways range.', 'Deals 2.1x ATK in damage to all enemies in a large, forward range.', 'Deals 2.1x ATK in damage to all enemies in a medium, radial range.', 'When there is 6 or more [Egghead Arc] crew members, deals 2.1x ATK in damage to all enemies in a large, radial range.'],
+                    ['Applies Lv. 1 ATK up buff to self for 22 seconds.', 'Deals 2.2x ATK in damage to all enemies in a large, sideways range.', 'Deals 2.2x ATK in damage to all enemies in a large, forward range.', 'Deals 2.2x ATK in damage to all enemies in a medium, radial range.', 'When there is 6 or more [Egghead Arc] crew members, deals 2.2x ATK in damage to all enemies in a large, radial range.'],
+                    ['Applies Lv. 2 ATK up buff to self for 23 seconds.', 'Deals 2.3x ATK in damage to all enemies in a large, sideways range.', 'Deals 2.3x ATK in damage to all enemies in a large, forward range.', 'Deals 2.3x ATK in damage to all enemies in a medium, radial range.', 'When there is 6 or more [Egghead Arc] crew members, deals 2.3x ATK in damage to all enemies in a large, radial range.'],
+                    ['Applies Lv. 2 ATK up buff to self for 24 seconds.', 'Deals 2.4x ATK in damage to all enemies in a large, sideways range.', 'Deals 2.4x ATK in damage to all enemies in a large, forward range.', 'Deals 2.4x ATK in damage to all enemies in a medium, radial range.', 'When there is 6 or more [Egghead Arc] crew members, deals 2.4x ATK in damage to all enemies in a large, radial range.'],
+                    ['Applies Lv. 3 ATK up buff to self for 25 seconds.', 'Deals 2.5x ATK in damage to all enemies in a large, sideways range.', 'Deals 2.5x ATK in damage to all enemies in a large, forward range.', 'Deals 2.5x ATK in damage to all enemies in a medium, radial range.', 'When there is 6 or more [Egghead Arc] crew members, deals 2.5x ATK in damage to all enemies in a large, radial range.'],
+                    ['Applies Lv. 3 ATK up buff to self for 26 seconds.', 'Deals 2.6x ATK in damage to all enemies in a large, sideways range.', 'Deals 2.6x ATK in damage to all enemies in a large, forward range.', 'Deals 2.6x ATK in damage to all enemies in a medium, radial range.', 'When there is 6 or more [Egghead Arc] crew members, deals 2.6x ATK in damage to all enemies in a large, radial range.'],
+                    ['Applies Lv. 4 ATK up buff to self for 27 seconds.', 'Deals 2.7x ATK in damage to all enemies in a large, sideways range.', 'Deals 2.7x ATK in damage to all enemies in a large, forward range.', 'Deals 2.7x ATK in damage to all enemies in a medium, radial range.', 'When there is 6 or more [Egghead Arc] crew members, deals 2.7x ATK in damage to all enemies in a large, radial range.'],
+                    ['Applies Lv. 4 ATK up buff to self for 28 seconds.', 'Deals 2.8x ATK in damage to all enemies in a large, sideways range.', 'Deals 2.8x ATK in damage to all enemies in a large, forward range.', 'Deals 2.8x ATK in damage to all enemies in a medium, radial range.', 'When there is 6 or more [Egghead Arc] crew members, deals 2.8x ATK in damage to all enemies in a large, radial range.'],
+                    ['Applies Lv. 5 ATK up buff to self for 29 seconds.', 'Deals 2.9x ATK in damage to all enemies in a large, sideways range.', 'Deals 2.9x ATK in damage to all enemies in a large, forward range.', 'Deals 2.9x ATK in damage to all enemies in a medium, radial range.', 'When there is 6 or more [Egghead Arc] crew members, deals 2.9x ATK in damage to all enemies in a large, radial range.'],
+                    ['Applies Lv. 5 ATK up buff to self for 30 seconds.', 'Deals 3x ATK in damage to all enemies in a large, sideways range.', 'Deals 3x ATK in damage to all enemies in a large, forward range.', 'Deals 3x ATK in damage to all enemies in a medium, radial range.', 'When there is 6 or more [Egghead Arc] crew members, deals 3x ATK in damage to all enemies in a large, radial range.']
                 ]
             }
         }
@@ -109012,26 +109012,26 @@ window.rumble = {
             base: {
                 cooldown: 32,
                 descriptions: [
-                    ['Applies Lv. 2 ATK up buff to Striker crew members for 11 seconds.', 'Deals 2,300 fixed damage to all enemies.', 'When there is 6 or more Striker crew members, 70% chance to inflict Half DEF to 2 enemies for 11 seconds.', 'When there is 6 or more Striker crew members, deals 2.3x ATK in damage to 2 enemies with the lowest DEF.', 'Grant 1x Counter to [Egghead] crew members for 11 seconds.'],
-                    ['Applies Lv. 2 ATK up buff to Striker crew members for 12 seconds.', 'Deals 2,600 fixed damage to all enemies.', 'When there is 6 or more Striker crew members, 73% chance to inflict Half DEF to 2 enemies for 12 seconds.', 'When there is 6 or more Striker crew members, deals 2.6x ATK in damage to 2 enemies with the lowest DEF.', 'Grant 1.2x Counter to [Egghead] crew members for 12 seconds.'],
-                    ['Applies Lv. 3 ATK up buff to Striker crew members for 13 seconds.', 'Deals 2,900 fixed damage to all enemies.', 'When there is 6 or more Striker crew members, 76% chance to inflict Half DEF to 2 enemies for 13 seconds.', 'When there is 6 or more Striker crew members, deals 2.9x ATK in damage to 2 enemies with the lowest DEF.', 'Grant 1.4x Counter to [Egghead] crew members for 13 seconds.'],
-                    ['Applies Lv. 3 ATK up buff to Striker crew members for 14 seconds.', 'Deals 3,200 fixed damage to all enemies.', 'When there is 6 or more Striker crew members, 79% chance to inflict Half DEF to 2 enemies for 14 seconds.', 'When there is 6 or more Striker crew members, deals 3.2x ATK in damage to 2 enemies with the lowest DEF.', 'Grant 1.6x Counter to [Egghead] crew members for 14 seconds.'],
-                    ['Applies Lv. 4 ATK up buff to Striker crew members for 15 seconds.', 'Deals 3,500 fixed damage to all enemies.', 'When there is 6 or more Striker crew members, 82% chance to inflict Half DEF to 2 enemies for 15 seconds.', 'When there is 6 or more Striker crew members, deals 3.5x ATK in damage to 2 enemies with the lowest DEF.', 'Grant 1.8x Counter to [Egghead] crew members for 15 seconds.'],
-                    ['Applies Lv. 4 ATK up buff to Striker crew members for 16 seconds.', 'Deals 3,800 fixed damage to all enemies.', 'When there is 6 or more Striker crew members, 85% chance to inflict Half DEF to 2 enemies for 16 seconds.', 'When there is 6 or more Striker crew members, deals 3.8x ATK in damage to 2 enemies with the lowest DEF.', 'Grant 2x Counter to [Egghead] crew members for 16 seconds.'],
-                    ['Applies Lv. 5 ATK up buff to Striker crew members for 17 seconds.', 'Deals 4,100 fixed damage to all enemies.', 'When there is 6 or more Striker crew members, 88% chance to inflict Half DEF to 2 enemies for 17 seconds.', 'When there is 6 or more Striker crew members, deals 4.1x ATK in damage to 2 enemies with the lowest DEF.', 'Grant 2.2x Counter to [Egghead] crew members for 17 seconds.'],
-                    ['Applies Lv. 5 ATK up buff to Striker crew members for 18 seconds.', 'Deals 4,400 fixed damage to all enemies.', 'When there is 6 or more Striker crew members, 91% chance to inflict Half DEF to 2 enemies for 18 seconds.', 'When there is 6 or more Striker crew members, deals 4.4x ATK in damage to 2 enemies with the lowest DEF.', 'Grant 2.4x Counter to [Egghead] crew members for 18 seconds.'],
-                    ['Applies Lv. 6 ATK up buff to Striker crew members for 19 seconds.', 'Deals 4,700 fixed damage to all enemies.', 'When there is 6 or more Striker crew members, 94% chance to inflict Half DEF to 2 enemies for 19 seconds.', 'When there is 6 or more Striker crew members, deals 4.7x ATK in damage to 2 enemies with the lowest DEF.', 'Grant 2.6x Counter to [Egghead] crew members for 19 seconds.'],
-                    ['Applies Lv. 6 ATK up buff to Striker crew members for 20 seconds.', 'Deals 5,000 fixed damage to all enemies.', 'When there is 6 or more Striker crew members, 100% chance to inflict Half DEF to 2 enemies for 20 seconds.', 'When there is 6 or more Striker crew members, deals 5x ATK in damage to 2 enemies with the lowest DEF.', 'Grant 3x Counter to [Egghead] crew members for 20 seconds.']
+                    ['Applies Lv. 2 ATK up buff to Striker crew members for 11 seconds.', 'Deals 2,300 fixed damage to all enemies.', 'When there is 6 or more Striker crew members, 70% chance to inflict Half DEF to 2 enemies for 11 seconds.', 'When there is 6 or more Striker crew members, deals 2.3x ATK in damage to 2 enemies with the lowest DEF.', 'Grant 1x Counter to [Egghead Arc] crew members for 11 seconds.'],
+                    ['Applies Lv. 2 ATK up buff to Striker crew members for 12 seconds.', 'Deals 2,600 fixed damage to all enemies.', 'When there is 6 or more Striker crew members, 73% chance to inflict Half DEF to 2 enemies for 12 seconds.', 'When there is 6 or more Striker crew members, deals 2.6x ATK in damage to 2 enemies with the lowest DEF.', 'Grant 1.2x Counter to [Egghead Arc] crew members for 12 seconds.'],
+                    ['Applies Lv. 3 ATK up buff to Striker crew members for 13 seconds.', 'Deals 2,900 fixed damage to all enemies.', 'When there is 6 or more Striker crew members, 76% chance to inflict Half DEF to 2 enemies for 13 seconds.', 'When there is 6 or more Striker crew members, deals 2.9x ATK in damage to 2 enemies with the lowest DEF.', 'Grant 1.4x Counter to [Egghead Arc] crew members for 13 seconds.'],
+                    ['Applies Lv. 3 ATK up buff to Striker crew members for 14 seconds.', 'Deals 3,200 fixed damage to all enemies.', 'When there is 6 or more Striker crew members, 79% chance to inflict Half DEF to 2 enemies for 14 seconds.', 'When there is 6 or more Striker crew members, deals 3.2x ATK in damage to 2 enemies with the lowest DEF.', 'Grant 1.6x Counter to [Egghead Arc] crew members for 14 seconds.'],
+                    ['Applies Lv. 4 ATK up buff to Striker crew members for 15 seconds.', 'Deals 3,500 fixed damage to all enemies.', 'When there is 6 or more Striker crew members, 82% chance to inflict Half DEF to 2 enemies for 15 seconds.', 'When there is 6 or more Striker crew members, deals 3.5x ATK in damage to 2 enemies with the lowest DEF.', 'Grant 1.8x Counter to [Egghead Arc] crew members for 15 seconds.'],
+                    ['Applies Lv. 4 ATK up buff to Striker crew members for 16 seconds.', 'Deals 3,800 fixed damage to all enemies.', 'When there is 6 or more Striker crew members, 85% chance to inflict Half DEF to 2 enemies for 16 seconds.', 'When there is 6 or more Striker crew members, deals 3.8x ATK in damage to 2 enemies with the lowest DEF.', 'Grant 2x Counter to [Egghead Arc] crew members for 16 seconds.'],
+                    ['Applies Lv. 5 ATK up buff to Striker crew members for 17 seconds.', 'Deals 4,100 fixed damage to all enemies.', 'When there is 6 or more Striker crew members, 88% chance to inflict Half DEF to 2 enemies for 17 seconds.', 'When there is 6 or more Striker crew members, deals 4.1x ATK in damage to 2 enemies with the lowest DEF.', 'Grant 2.2x Counter to [Egghead Arc] crew members for 17 seconds.'],
+                    ['Applies Lv. 5 ATK up buff to Striker crew members for 18 seconds.', 'Deals 4,400 fixed damage to all enemies.', 'When there is 6 or more Striker crew members, 91% chance to inflict Half DEF to 2 enemies for 18 seconds.', 'When there is 6 or more Striker crew members, deals 4.4x ATK in damage to 2 enemies with the lowest DEF.', 'Grant 2.4x Counter to [Egghead Arc] crew members for 18 seconds.'],
+                    ['Applies Lv. 6 ATK up buff to Striker crew members for 19 seconds.', 'Deals 4,700 fixed damage to all enemies.', 'When there is 6 or more Striker crew members, 94% chance to inflict Half DEF to 2 enemies for 19 seconds.', 'When there is 6 or more Striker crew members, deals 4.7x ATK in damage to 2 enemies with the lowest DEF.', 'Grant 2.6x Counter to [Egghead Arc] crew members for 19 seconds.'],
+                    ['Applies Lv. 6 ATK up buff to Striker crew members for 20 seconds.', 'Deals 5,000 fixed damage to all enemies.', 'When there is 6 or more Striker crew members, 100% chance to inflict Half DEF to 2 enemies for 20 seconds.', 'When there is 6 or more Striker crew members, deals 5x ATK in damage to 2 enemies with the lowest DEF.', 'Grant 3x Counter to [Egghead Arc] crew members for 20 seconds.']
                 ]
             }
         },
         festGPAbility: {
             base: [
-                ['Applies Lv. 2 ATK and SPD up buff to [STR] crew members.', 'Applies Lv. 1 Special CT up buff to [STR] crew members.', 'Applies Lv. 2 HP and ATK up buff to Striker and Powerhouse crew members.', 'Applies Lv. 2 DEF up buff to Striker and Powerhouse crew members.', 'Applies Lv. 2 ATK, RCV and Critical Hit up buff to [Egghead] crew members.'],
-                ['Applies Lv. 3 ATK and SPD up buff to [STR] crew members.', 'Applies Lv. 2 Special CT up buff to [STR] crew members.', 'Applies Lv. 3 HP and ATK up buff to Striker and Powerhouse crew members.', 'Applies Lv. 3 DEF up buff to Striker and Powerhouse crew members.', 'Applies Lv. 3 ATK, RCV and Critical Hit up buff to [Egghead] crew members.'],
-                ['Applies Lv. 4 ATK and SPD up buff to [STR] crew members.', 'Applies Lv. 2 Special CT up buff to [STR] crew members.', 'Applies Lv. 4 HP and ATK up buff to Striker and Powerhouse crew members.', 'Applies Lv. 3 DEF up buff to Striker and Powerhouse crew members.', 'Applies Lv. 3 ATK, RCV and Critical Hit up buff to [Egghead] crew members.'],
-                ['Applies Lv. 5 ATK and SPD up buff to [STR] crew members.', 'Applies Lv. 3 Special CT up buff to [STR] crew members.', 'Applies Lv. 5 HP and ATK up buff to Striker and Powerhouse crew members.', 'Applies Lv. 4 DEF up buff to Striker and Powerhouse crew members.', 'Applies Lv. 4 ATK, RCV and Critical Hit up buff to [Egghead] crew members.'],
-                ['Applies Lv. 6 ATK and SPD up buff to [STR] crew members.', 'Applies Lv. 3 Special CT up buff to [STR] crew members.', 'Applies Lv. 6 HP and ATK up buff to Striker and Powerhouse crew members.', 'Applies Lv. 4 DEF up buff to Striker and Powerhouse crew members.', 'Applies Lv. 4 ATK, RCV and Critical Hit up buff to [Egghead] crew members.']
+                ['Applies Lv. 2 ATK and SPD up buff to [STR] crew members.', 'Applies Lv. 1 Special CT up buff to [STR] crew members.', 'Applies Lv. 2 HP and ATK up buff to Striker and Powerhouse crew members.', 'Applies Lv. 2 DEF up buff to Striker and Powerhouse crew members.', 'Applies Lv. 2 ATK, RCV and Critical Hit up buff to [Egghead Arc] crew members.'],
+                ['Applies Lv. 3 ATK and SPD up buff to [STR] crew members.', 'Applies Lv. 2 Special CT up buff to [STR] crew members.', 'Applies Lv. 3 HP and ATK up buff to Striker and Powerhouse crew members.', 'Applies Lv. 3 DEF up buff to Striker and Powerhouse crew members.', 'Applies Lv. 3 ATK, RCV and Critical Hit up buff to [Egghead Arc] crew members.'],
+                ['Applies Lv. 4 ATK and SPD up buff to [STR] crew members.', 'Applies Lv. 2 Special CT up buff to [STR] crew members.', 'Applies Lv. 4 HP and ATK up buff to Striker and Powerhouse crew members.', 'Applies Lv. 3 DEF up buff to Striker and Powerhouse crew members.', 'Applies Lv. 3 ATK, RCV and Critical Hit up buff to [Egghead Arc] crew members.'],
+                ['Applies Lv. 5 ATK and SPD up buff to [STR] crew members.', 'Applies Lv. 3 Special CT up buff to [STR] crew members.', 'Applies Lv. 5 HP and ATK up buff to Striker and Powerhouse crew members.', 'Applies Lv. 4 DEF up buff to Striker and Powerhouse crew members.', 'Applies Lv. 4 ATK, RCV and Critical Hit up buff to [Egghead Arc] crew members.'],
+                ['Applies Lv. 6 ATK and SPD up buff to [STR] crew members.', 'Applies Lv. 3 Special CT up buff to [STR] crew members.', 'Applies Lv. 6 HP and ATK up buff to Striker and Powerhouse crew members.', 'Applies Lv. 4 DEF up buff to Striker and Powerhouse crew members.', 'Applies Lv. 4 ATK, RCV and Critical Hit up buff to [Egghead Arc] crew members.']
             ]
         },
         festGPSpecial: {
@@ -110229,16 +110229,16 @@ window.rumble = {
             base: {
                 cooldown: 29,
                 descriptions: [
-                    ['Applies Lv. 2 ATK and RCV up buff to all crew members in a small, radial range for 11 seconds.', 'Applies Lv. 1 Shield up buff to [Egghead] crew members for 15 seconds.'],
-                    ['Applies Lv. 2 ATK and RCV up buff to all crew members in a small, radial range for 12 seconds.', 'Applies Lv. 1 Shield up buff to [Egghead] crew members for 15 seconds.'],
-                    ['Applies Lv. 2 ATK and RCV up buff to all crew members in a small, radial range for 13 seconds.', 'Applies Lv. 1 Shield up buff to [Egghead] crew members for 15 seconds.'],
-                    ['Applies Lv. 2 ATK and RCV up buff to all crew members in a small, radial range for 14 seconds.', 'Applies Lv. 1 Shield up buff to [Egghead] crew members for 15 seconds.'],
-                    ['Applies Lv. 2 ATK and RCV up buff to all crew members in a small, radial range for 15 seconds.', 'Applies Lv. 1 Shield up buff to [Egghead] crew members for 15 seconds.'],
-                    ['Applies Lv. 3 ATK and RCV up buff to all crew members in a small, radial range for 16 seconds.', 'Applies Lv. 2 Shield up buff to [Egghead] crew members for 15 seconds.'],
-                    ['Applies Lv. 3 ATK and RCV up buff to all crew members in a small, radial range for 17 seconds.', 'Applies Lv. 2 Shield up buff to [Egghead] crew members for 15 seconds.'],
-                    ['Applies Lv. 3 ATK and RCV up buff to all crew members in a small, radial range for 18 seconds.', 'Applies Lv. 2 Shield up buff to [Egghead] crew members for 15 seconds.'],
-                    ['Applies Lv. 3 ATK and RCV up buff to all crew members in a small, radial range for 19 seconds.', 'Applies Lv. 2 Shield up buff to [Egghead] crew members for 15 seconds.'],
-                    ['Applies Lv. 4 ATK and RCV up buff to all crew members in a small, radial range for 20 seconds.', 'Applies Lv. 3 Shield up buff to [Egghead] crew members for 15 seconds.']
+                    ['Applies Lv. 2 ATK and RCV up buff to all crew members in a small, radial range for 11 seconds.', 'Applies Lv. 1 Shield up buff to [Egghead Arc] crew members for 15 seconds.'],
+                    ['Applies Lv. 2 ATK and RCV up buff to all crew members in a small, radial range for 12 seconds.', 'Applies Lv. 1 Shield up buff to [Egghead Arc] crew members for 15 seconds.'],
+                    ['Applies Lv. 2 ATK and RCV up buff to all crew members in a small, radial range for 13 seconds.', 'Applies Lv. 1 Shield up buff to [Egghead Arc] crew members for 15 seconds.'],
+                    ['Applies Lv. 2 ATK and RCV up buff to all crew members in a small, radial range for 14 seconds.', 'Applies Lv. 1 Shield up buff to [Egghead Arc] crew members for 15 seconds.'],
+                    ['Applies Lv. 2 ATK and RCV up buff to all crew members in a small, radial range for 15 seconds.', 'Applies Lv. 1 Shield up buff to [Egghead Arc] crew members for 15 seconds.'],
+                    ['Applies Lv. 3 ATK and RCV up buff to all crew members in a small, radial range for 16 seconds.', 'Applies Lv. 2 Shield up buff to [Egghead Arc] crew members for 15 seconds.'],
+                    ['Applies Lv. 3 ATK and RCV up buff to all crew members in a small, radial range for 17 seconds.', 'Applies Lv. 2 Shield up buff to [Egghead Arc] crew members for 15 seconds.'],
+                    ['Applies Lv. 3 ATK and RCV up buff to all crew members in a small, radial range for 18 seconds.', 'Applies Lv. 2 Shield up buff to [Egghead Arc] crew members for 15 seconds.'],
+                    ['Applies Lv. 3 ATK and RCV up buff to all crew members in a small, radial range for 19 seconds.', 'Applies Lv. 2 Shield up buff to [Egghead Arc] crew members for 15 seconds.'],
+                    ['Applies Lv. 4 ATK and RCV up buff to all crew members in a small, radial range for 20 seconds.', 'Applies Lv. 3 Shield up buff to [Egghead Arc] crew members for 15 seconds.']
                 ]
             }
         }
@@ -110268,16 +110268,16 @@ window.rumble = {
             base: {
                 cooldown: 29,
                 descriptions: [
-                    ['Applies Lv. 3 ATK and RCV up buff to all crew members in a medium, radial range for 11 seconds.', 'Applies Lv. 1 Shield up buff to [Egghead] crew members for 15 seconds.', '60% chance to evade Paralysis to [Egghead] crew members for 11 seconds.'],
-                    ['Applies Lv. 3 ATK and RCV up buff to all crew members in a medium, radial range for 12 seconds.', 'Applies Lv. 1 Shield up buff to [Egghead] crew members for 15 seconds.', '62% chance to evade Paralysis to [Egghead] crew members for 12 seconds.'],
-                    ['Applies Lv. 3 ATK and RCV up buff to all crew members in a medium, radial range for 13 seconds.', 'Applies Lv. 1 Shield up buff to [Egghead] crew members for 15 seconds.', '64% chance to evade Paralysis to [Egghead] crew members for 13 seconds.'],
-                    ['Applies Lv. 3 ATK and RCV up buff to all crew members in a medium, radial range for 14 seconds.', 'Applies Lv. 1 Shield up buff to [Egghead] crew members for 15 seconds.', '66% chance to evade Paralysis to [Egghead] crew members for 14 seconds.'],
-                    ['Applies Lv. 3 ATK and RCV up buff to all crew members in a medium, radial range for 15 seconds.', 'Applies Lv. 1 Shield up buff to [Egghead] crew members for 15 seconds.', '68% chance to evade Paralysis to [Egghead] crew members for 15 seconds.'],
-                    ['Applies Lv. 4 ATK and RCV up buff to all crew members in a medium, radial range for 16 seconds.', 'Applies Lv. 2 Shield up buff to [Egghead] crew members for 15 seconds.', '70% chance to evade Paralysis to [Egghead] crew members for 16 seconds.'],
-                    ['Applies Lv. 4 ATK and RCV up buff to all crew members in a medium, radial range for 17 seconds.', 'Applies Lv. 2 Shield up buff to [Egghead] crew members for 15 seconds.', '72% chance to evade Paralysis to [Egghead] crew members for 17 seconds.'],
-                    ['Applies Lv. 4 ATK and RCV up buff to all crew members in a medium, radial range for 18 seconds.', 'Applies Lv. 2 Shield up buff to [Egghead] crew members for 15 seconds.', '74% chance to evade Paralysis to [Egghead] crew members for 18 seconds.'],
-                    ['Applies Lv. 4 ATK and RCV up buff to all crew members in a medium, radial range for 19 seconds.', 'Applies Lv. 2 Shield up buff to [Egghead] crew members for 15 seconds.', '76% chance to evade Paralysis to [Egghead] crew members for 19 seconds.'],
-                    ['Applies Lv. 5 ATK and RCV up buff to all crew members in a medium, radial range for 20 seconds.', 'Applies Lv. 3 Shield up buff to [Egghead] crew members for 15 seconds.', '80% chance to evade Paralysis to [Egghead] crew members for 20 seconds.']
+                    ['Applies Lv. 3 ATK and RCV up buff to all crew members in a medium, radial range for 11 seconds.', 'Applies Lv. 1 Shield up buff to [Egghead Arc] crew members for 15 seconds.', '60% chance to evade Paralysis to [Egghead Arc] crew members for 11 seconds.'],
+                    ['Applies Lv. 3 ATK and RCV up buff to all crew members in a medium, radial range for 12 seconds.', 'Applies Lv. 1 Shield up buff to [Egghead Arc] crew members for 15 seconds.', '62% chance to evade Paralysis to [Egghead Arc] crew members for 12 seconds.'],
+                    ['Applies Lv. 3 ATK and RCV up buff to all crew members in a medium, radial range for 13 seconds.', 'Applies Lv. 1 Shield up buff to [Egghead Arc] crew members for 15 seconds.', '64% chance to evade Paralysis to [Egghead Arc] crew members for 13 seconds.'],
+                    ['Applies Lv. 3 ATK and RCV up buff to all crew members in a medium, radial range for 14 seconds.', 'Applies Lv. 1 Shield up buff to [Egghead Arc] crew members for 15 seconds.', '66% chance to evade Paralysis to [Egghead Arc] crew members for 14 seconds.'],
+                    ['Applies Lv. 3 ATK and RCV up buff to all crew members in a medium, radial range for 15 seconds.', 'Applies Lv. 1 Shield up buff to [Egghead Arc] crew members for 15 seconds.', '68% chance to evade Paralysis to [Egghead Arc] crew members for 15 seconds.'],
+                    ['Applies Lv. 4 ATK and RCV up buff to all crew members in a medium, radial range for 16 seconds.', 'Applies Lv. 2 Shield up buff to [Egghead Arc] crew members for 15 seconds.', '70% chance to evade Paralysis to [Egghead Arc] crew members for 16 seconds.'],
+                    ['Applies Lv. 4 ATK and RCV up buff to all crew members in a medium, radial range for 17 seconds.', 'Applies Lv. 2 Shield up buff to [Egghead Arc] crew members for 15 seconds.', '72% chance to evade Paralysis to [Egghead Arc] crew members for 17 seconds.'],
+                    ['Applies Lv. 4 ATK and RCV up buff to all crew members in a medium, radial range for 18 seconds.', 'Applies Lv. 2 Shield up buff to [Egghead Arc] crew members for 15 seconds.', '74% chance to evade Paralysis to [Egghead Arc] crew members for 18 seconds.'],
+                    ['Applies Lv. 4 ATK and RCV up buff to all crew members in a medium, radial range for 19 seconds.', 'Applies Lv. 2 Shield up buff to [Egghead Arc] crew members for 15 seconds.', '76% chance to evade Paralysis to [Egghead Arc] crew members for 19 seconds.'],
+                    ['Applies Lv. 5 ATK and RCV up buff to all crew members in a medium, radial range for 20 seconds.', 'Applies Lv. 3 Shield up buff to [Egghead Arc] crew members for 15 seconds.', '80% chance to evade Paralysis to [Egghead Arc] crew members for 20 seconds.']
                 ]
             }
         }
@@ -110848,6 +110848,45 @@ window.rumble = {
             }
         }
     },
+    4430: {
+        festCost: 20,
+        festStats: {
+            def: 192,
+            spd: 187,
+            style: "SPT"
+        },
+        festAttackPattern: ['Normal Attack', '<b><i>Power Attack</b></i>', '<i>Level 1 Small Range Heal</i>', '<b><i>Power Attack</b></i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['80% chance to resist Special Bind.', '20% damage reduction from [INT] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 1 HP, ATK and SPD up buff to [PSY] and Slasher crew members.', 'Applies Lv. 1 Guard up buff to [PSY] and Slasher crew members.'],
+                ['Applies Lv. 2 HP, ATK and SPD up buff to [PSY] and Slasher crew members.', 'Applies Lv. 2 Guard up buff to [PSY] and Slasher crew members.'],
+                ['Applies Lv. 3 HP, ATK and SPD up buff to [PSY] and Slasher crew members.', 'Applies Lv. 3 Guard up buff to [PSY] and Slasher crew members.'],
+                ['Applies Lv. 4 HP, ATK and SPD up buff to [PSY] and Slasher crew members.', 'Applies Lv. 4 Guard up buff to [PSY] and Slasher crew members.'],
+                ['Applies Lv. 5 HP, ATK and SPD up buff to [PSY] and Slasher crew members.', 'Applies Lv. 4 Guard up buff to [PSY] and Slasher crew members.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 22,
+                descriptions: [
+                    ['Deals 2,000 fixed damage to 2 enemies.', 'Applies Lv. 2 ATK and SPD up buff to [PSY] and Slasher crew members for 11 seconds.', '23% chance to evade Special Bind to [PSY] and Slasher crew members for 11 seconds.'],
+                    ['Deals 2,100 fixed damage to 2 enemies.', 'Applies Lv. 2 ATK and SPD up buff to [PSY] and Slasher crew members for 11 seconds.', '26% chance to evade Special Bind to [PSY] and Slasher crew members for 11 seconds.'],
+                    ['Deals 2,200 fixed damage to 2 enemies.', 'Applies Lv. 2 ATK and SPD up buff to [PSY] and Slasher crew members for 12 seconds.', '29% chance to evade Special Bind to [PSY] and Slasher crew members for 12 seconds.'],
+                    ['Deals 2,300 fixed damage to 2 enemies.', 'Applies Lv. 2 ATK and SPD up buff to [PSY] and Slasher crew members for 12 seconds.', '32% chance to evade Special Bind to [PSY] and Slasher crew members for 12 seconds.'],
+                    ['Deals 2,400 fixed damage to 2 enemies.', 'Applies Lv. 2 ATK and SPD up buff to [PSY] and Slasher crew members for 13 seconds.', '35% chance to evade Special Bind to [PSY] and Slasher crew members for 13 seconds.'],
+                    ['Deals 2,500 fixed damage to 2 enemies.', 'Applies Lv. 3 ATK and SPD up buff to [PSY] and Slasher crew members for 13 seconds.', '38% chance to evade Special Bind to [PSY] and Slasher crew members for 13 seconds.'],
+                    ['Deals 2,600 fixed damage to 2 enemies.', 'Applies Lv. 3 ATK and SPD up buff to [PSY] and Slasher crew members for 14 seconds.', '41% chance to evade Special Bind to [PSY] and Slasher crew members for 14 seconds.'],
+                    ['Deals 2,700 fixed damage to 2 enemies.', 'Applies Lv. 3 ATK and SPD up buff to [PSY] and Slasher crew members for 14 seconds.', '44% chance to evade Special Bind to [PSY] and Slasher crew members for 14 seconds.'],
+                    ['Deals 2,800 fixed damage to 2 enemies.', 'Applies Lv. 3 ATK and SPD up buff to [PSY] and Slasher crew members for 15 seconds.', '47% chance to evade Special Bind to [PSY] and Slasher crew members for 15 seconds.'],
+                    ['Deals 3,000 fixed damage to 2 enemies.', 'Applies Lv. 4 ATK and SPD up buff to [PSY] and Slasher crew members for 15 seconds.', '50% chance to evade Special Bind to [PSY] and Slasher crew members for 15 seconds.']
+                ]
+            }
+        }
+    },
     4431: {
         festCost: 20,
         festStats: {
@@ -110908,6 +110947,148 @@ window.rumble = {
                 ]
             }
         }
+    },
+    4432: {
+        festCost: 55,
+        festStats: {
+            def: 123,
+            spd: 225,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<b>Full Attack</b>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Half Stats.', '100% chance to resist Action Bind.', '30% damage reduction from [STR] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['When there is 5 or more [QCK] crew members, applies Lv. 4 HP and ATK up buff to [Straw Hat Pirates], [Giant], [Vegapunk], [Seraphim], [Logia-type] and [Paramythia-type] crew members.', 'When there is 5 or more [QCK] crew members, applies Lv. 2 DEF up buff to [Straw Hat Pirates], [Giant], [Vegapunk], [Seraphim], [Logia-type] and [Paramythia-type] crew members.', 'For the first 30 seconds, applies Lv. 1 Special CT up buff to [QCK] crew members.', 'For the first 30 seconds, applies Lv. 1 Shield up buff to self.'],
+                ['When there is 5 or more [QCK] crew members, applies Lv. 5 HP and ATK up buff to [Straw Hat Pirates], [Giant], [Vegapunk], [Seraphim], [Logia-type] and [Paramythia-type] crew members.', 'When there is 5 or more [QCK] crew members, applies Lv. 3 DEF up buff to [Straw Hat Pirates], [Giant], [Vegapunk], [Seraphim], [Logia-type] and [Paramythia-type] crew members.', 'For the first 30 seconds, applies Lv. 2 Special CT up buff to [QCK] crew members.', 'For the first 30 seconds, applies Lv. 2 Shield up buff to self.'],
+                ['When there is 5 or more [QCK] crew members, applies Lv. 6 HP and ATK up buff to [Straw Hat Pirates], [Giant], [Vegapunk], [Seraphim], [Logia-type] and [Paramythia-type] crew members.', 'When there is 5 or more [QCK] crew members, applies Lv. 4 DEF up buff to [Straw Hat Pirates], [Giant], [Vegapunk], [Seraphim], [Logia-type] and [Paramythia-type] crew members.', 'For the first 30 seconds, applies Lv. 3 Special CT up buff to [QCK] crew members.', 'For the first 30 seconds, applies Lv. 3 Shield up buff to self.'],
+                ['When there is 5 or more [QCK] crew members, applies Lv. 7 HP and ATK up buff to [Straw Hat Pirates], [Giant], [Vegapunk], [Seraphim], [Logia-type] and [Paramythia-type] crew members.', 'When there is 5 or more [QCK] crew members, applies Lv. 5 DEF up buff to [Straw Hat Pirates], [Giant], [Vegapunk], [Seraphim], [Logia-type] and [Paramythia-type] crew members.', 'For the first 30 seconds, applies Lv. 4 Special CT up buff to [QCK] crew members.', 'For the first 30 seconds, applies Lv. 4 Shield up buff to self.'],
+                ['When there is 5 or more [QCK] crew members, applies Lv. 8 HP and ATK up buff to [Straw Hat Pirates], [Giant], [Vegapunk], [Seraphim], [Logia-type] and [Paramythia-type] crew members.', 'When there is 5 or more [QCK] crew members, applies Lv. 6 DEF up buff to [Straw Hat Pirates], [Giant], [Vegapunk], [Seraphim], [Logia-type] and [Paramythia-type] crew members.', 'For the first 30 seconds, applies Lv. 5 Special CT up buff to [QCK] crew members.', 'For the first 30 seconds, applies Lv. 5 Shield up buff to self.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 33,
+                descriptions: [
+                    ['Applies Lv. 2 ATK up buff to [Straw Hat Pirates], [Giant], [Vegapunk], [Seraphim], [Logia-type] and [Paramythia-type] crew members for 11 seconds.', 'Deals 1x ATK in damage to 4 enemies.', 'Deals 3.1x ATK in damage to 3 enemies with the lowest HP.', 'Deals 3.2x ATK in damage to 2 enemies with the highest HP.', 'When there is 5 or more [Straw Hat Pirates], [Giant], [Vegapunk], [Seraphim], [Logia-type] and [Paramythia-type] crew members, 73% chance to evade Damage Ignoring DEF to self for 11 seconds.'],
+                    ['Applies Lv. 2 ATK up buff to [Straw Hat Pirates], [Giant], [Vegapunk], [Seraphim], [Logia-type] and [Paramythia-type] crew members for 12 seconds.', 'Deals 1.2x ATK in damage to 4 enemies.', 'Deals 3.2x ATK in damage to 3 enemies with the lowest HP.', 'Deals 3.4x ATK in damage to 2 enemies with the highest HP.', 'When there is 5 or more [Straw Hat Pirates], [Giant], [Vegapunk], [Seraphim], [Logia-type] and [Paramythia-type] crew members, 76% chance to evade Damage Ignoring DEF to self for 12 seconds.'],
+                    ['Applies Lv. 2 ATK up buff to [Straw Hat Pirates], [Giant], [Vegapunk], [Seraphim], [Logia-type] and [Paramythia-type] crew members for 13 seconds.', 'Deals 1.4x ATK in damage to 4 enemies.', 'Deals 3.3x ATK in damage to 3 enemies with the lowest HP.', 'Deals 3.6x ATK in damage to 2 enemies with the highest HP.', 'When there is 5 or more [Straw Hat Pirates], [Giant], [Vegapunk], [Seraphim], [Logia-type] and [Paramythia-type] crew members, 79% chance to evade Damage Ignoring DEF to self for 13 seconds.'],
+                    ['Applies Lv. 3 ATK up buff to [Straw Hat Pirates], [Giant], [Vegapunk], [Seraphim], [Logia-type] and [Paramythia-type] crew members for 14 seconds.', 'Deals 1.6x ATK in damage to 4 enemies.', 'Deals 3.4x ATK in damage to 3 enemies with the lowest HP.', 'Deals 3.8x ATK in damage to 2 enemies with the highest HP.', 'When there is 5 or more [Straw Hat Pirates], [Giant], [Vegapunk], [Seraphim], [Logia-type] and [Paramythia-type] crew members, 82% chance to evade Damage Ignoring DEF to self for 14 seconds.'],
+                    ['Applies Lv. 3 ATK up buff to [Straw Hat Pirates], [Giant], [Vegapunk], [Seraphim], [Logia-type] and [Paramythia-type] crew members for 15 seconds.', 'Deals 1.8x ATK in damage to 4 enemies.', 'Deals 3.5x ATK in damage to 3 enemies with the lowest HP.', 'Deals 4x ATK in damage to 2 enemies with the highest HP.', 'When there is 5 or more [Straw Hat Pirates], [Giant], [Vegapunk], [Seraphim], [Logia-type] and [Paramythia-type] crew members, 85% chance to evade Damage Ignoring DEF to self for 15 seconds.'],
+                    ['Applies Lv. 4 ATK up buff to [Straw Hat Pirates], [Giant], [Vegapunk], [Seraphim], [Logia-type] and [Paramythia-type] crew members for 16 seconds.', 'Deals 2x ATK in damage to 4 enemies.', 'Deals 3.6x ATK in damage to 3 enemies with the lowest HP.', 'Deals 4.2x ATK in damage to 2 enemies with the highest HP.', 'When there is 5 or more [Straw Hat Pirates], [Giant], [Vegapunk], [Seraphim], [Logia-type] and [Paramythia-type] crew members, 88% chance to evade Damage Ignoring DEF to self for 16 seconds.'],
+                    ['Applies Lv. 4 ATK up buff to [Straw Hat Pirates], [Giant], [Vegapunk], [Seraphim], [Logia-type] and [Paramythia-type] crew members for 17 seconds.', 'Deals 2.2x ATK in damage to 4 enemies.', 'Deals 3.7x ATK in damage to 3 enemies with the lowest HP.', 'Deals 4.4x ATK in damage to 2 enemies with the highest HP.', 'When there is 5 or more [Straw Hat Pirates], [Giant], [Vegapunk], [Seraphim], [Logia-type] and [Paramythia-type] crew members, 91% chance to evade Damage Ignoring DEF to self for 17 seconds.'],
+                    ['Applies Lv. 4 ATK up buff to [Straw Hat Pirates], [Giant], [Vegapunk], [Seraphim], [Logia-type] and [Paramythia-type] crew members for 18 seconds.', 'Deals 2.4x ATK in damage to 4 enemies.', 'Deals 3.8x ATK in damage to 3 enemies with the lowest HP.', 'Deals 4.6x ATK in damage to 2 enemies with the highest HP.', 'When there is 5 or more [Straw Hat Pirates], [Giant], [Vegapunk], [Seraphim], [Logia-type] and [Paramythia-type] crew members, 94% chance to evade Damage Ignoring DEF to self for 18 seconds.'],
+                    ['Applies Lv. 5 ATK up buff to [Straw Hat Pirates], [Giant], [Vegapunk], [Seraphim], [Logia-type] and [Paramythia-type] crew members for 19 seconds.', 'Deals 2.6x ATK in damage to 4 enemies.', 'Deals 3.9x ATK in damage to 3 enemies with the lowest HP.', 'Deals 4.8x ATK in damage to 2 enemies with the highest HP.', 'When there is 5 or more [Straw Hat Pirates], [Giant], [Vegapunk], [Seraphim], [Logia-type] and [Paramythia-type] crew members, 97% chance to evade Damage Ignoring DEF to self for 19 seconds.'],
+                    ['Applies Lv. 6 ATK up buff to [Straw Hat Pirates], [Giant], [Vegapunk], [Seraphim], [Logia-type] and [Paramythia-type] crew members for 20 seconds.', 'Deals 3x ATK in damage to 4 enemies.', 'Deals 4x ATK in damage to 3 enemies with the lowest HP.', 'Deals 5x ATK in damage to 2 enemies with the highest HP.', 'When there is 5 or more [Straw Hat Pirates], [Giant], [Vegapunk], [Seraphim], [Logia-type] and [Paramythia-type] crew members, 100% chance to evade Damage Ignoring DEF to self for 20 seconds.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 2 HP and ATK up buff to [STR], [QCK] and [PSY] crew members.', 'Applies Lv. 2 DEF up buff to [STR], [QCK] and [PSY] crew members.', 'Applies Lv. 1 ATK, RCV and SPD up buff to [Straw Hat Pirates], [Giant], [Vegapunk], [Seraphim], [Logia-type] and [Paramythia-type] crew members.', 'Applies Lv. 1 DEF and Special CT up buff to [Straw Hat Pirates], [Giant], [Vegapunk], [Seraphim], [Logia-type] and [Paramythia-type] crew members.'],
+                ['Applies Lv. 3 HP and ATK up buff to [STR], [QCK] and [PSY] crew members.', 'Applies Lv. 3 DEF up buff to [STR], [QCK] and [PSY] crew members.', 'Applies Lv. 2 ATK, RCV and SPD up buff to [Straw Hat Pirates], [Giant], [Vegapunk], [Seraphim], [Logia-type] and [Paramythia-type] crew members.', 'Applies Lv. 2 DEF and Special CT up buff to [Straw Hat Pirates], [Giant], [Vegapunk], [Seraphim], [Logia-type] and [Paramythia-type] crew members.'],
+                ['Applies Lv. 4 HP and ATK up buff to [STR], [QCK] and [PSY] crew members.', 'Applies Lv. 3 DEF up buff to [STR], [QCK] and [PSY] crew members.', 'Applies Lv. 3 ATK, RCV and SPD up buff to [Straw Hat Pirates], [Giant], [Vegapunk], [Seraphim], [Logia-type] and [Paramythia-type] crew members.', 'Applies Lv. 2 DEF and Special CT up buff to [Straw Hat Pirates], [Giant], [Vegapunk], [Seraphim], [Logia-type] and [Paramythia-type] crew members.'],
+                ['Applies Lv. 5 HP and ATK up buff to [STR], [QCK] and [PSY] crew members.', 'Applies Lv. 4 DEF up buff to [STR], [QCK] and [PSY] crew members.', 'Applies Lv. 4 ATK, RCV and SPD up buff to [Straw Hat Pirates], [Giant], [Vegapunk], [Seraphim], [Logia-type] and [Paramythia-type] crew members.', 'Applies Lv. 3 DEF and Special CT up buff to [Straw Hat Pirates], [Giant], [Vegapunk], [Seraphim], [Logia-type] and [Paramythia-type] crew members.'],
+                ['Applies Lv. 6 HP and ATK up buff to [STR], [QCK] and [PSY] crew members.', 'Applies Lv. 4 DEF up buff to [STR], [QCK] and [PSY] crew members.', 'Applies Lv. 5 ATK, RCV and SPD up buff to [Straw Hat Pirates], [Giant], [Vegapunk], [Seraphim], [Logia-type] and [Paramythia-type] crew members.', 'Applies Lv. 3 DEF and Special CT up buff to [Straw Hat Pirates], [Giant], [Vegapunk], [Seraphim], [Logia-type] and [Paramythia-type] crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After enemies use 6 Rumble Specials",
+                descriptions: [
+                    ['80% chance to evade Special CT to [STR], [QCK] and [PSY] crew members for 20 seconds.', "Deals 1x Leader's base ATK in damage ignoring DEF to all enemies.", 'Reduces 30% of Special CT to [Straw Hat Pirates], [Giant], [Vegapunk], [Seraphim], [Logia-type] and [Paramythia-type] crew members with below 50% Special CT.'],
+                    ['85% chance to evade Special CT to [STR], [QCK] and [PSY] crew members for 20 seconds.', "Deals 1.25x Leader's base ATK in damage ignoring DEF to all enemies.", 'Reduces 35% of Special CT to [Straw Hat Pirates], [Giant], [Vegapunk], [Seraphim], [Logia-type] and [Paramythia-type] crew members with below 50% Special CT.'],
+                    ['90% chance to evade Special CT to [STR], [QCK] and [PSY] crew members for 20 seconds.', "Deals 1.5x Leader's base ATK in damage ignoring DEF to all enemies.", 'Reduces 40% of Special CT to [Straw Hat Pirates], [Giant], [Vegapunk], [Seraphim], [Logia-type] and [Paramythia-type] crew members with below 50% Special CT.'],
+                    ['95% chance to evade Special CT to [STR], [QCK] and [PSY] crew members for 20 seconds.', "Deals 1.75x Leader's base ATK in damage ignoring DEF to all enemies.", 'Reduces 45% of Special CT to [Straw Hat Pirates], [Giant], [Vegapunk], [Seraphim], [Logia-type] and [Paramythia-type] crew members with below 50% Special CT.'],
+                    ['100% chance to evade Special CT to [STR], [QCK] and [PSY] crew members for 20 seconds.', "Deals 2x Leader's base ATK in damage ignoring DEF to all enemies.", 'Reduces 50% of Special CT to [Straw Hat Pirates], [Giant], [Vegapunk], [Seraphim], [Logia-type] and [Paramythia-type] crew members with below 50% Special CT.']
+                ]
+            }
+        }
+    },
+    4433: {
+        festCost: 55,
+        festStats: {
+            def: 166,
+            spd: 167,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<b>Full Attack</b>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Half Stats.', '30% damage reduction from [DEX] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 2 HP, SPD and DEF up buff to [Revolutionary Army] and [Vegapunk] crew members.', 'Applies Lv. 2 HP, ATK and DEF up buff to Jewelry Bonney all crew members.', 'When Jewelry Bonney is on your crew, applies Lv. 6 ATK up buff to self.', 'When Jewelry Bonney is on your crew, applies Lv. 1 Special CT up buff to self.', 'When there is 3 or more [Revolutionary Army] and [Vegapunk] crew members, applies Lv. 2 HP and DEF up buff to self.'],
+                ['Applies Lv. 3 HP, SPD and DEF up buff to [Revolutionary Army] and [Vegapunk] crew members.', 'Applies Lv. 3 HP, ATK and DEF up buff to Jewelry Bonney all crew members.', 'When Jewelry Bonney is on your crew, applies Lv. 7 ATK up buff to self.', 'When Jewelry Bonney is on your crew, applies Lv. 1 Special CT up buff to self.', 'When there is 3 or more [Revolutionary Army] and [Vegapunk] crew members, applies Lv. 3 HP and DEF up buff to self.'],
+                ['Applies Lv. 4 HP, SPD and DEF up buff to [Revolutionary Army] and [Vegapunk] crew members.', 'Applies Lv. 4 HP, ATK and DEF up buff to Jewelry Bonney all crew members.', 'When Jewelry Bonney is on your crew, applies Lv. 8 ATK up buff to self.', 'When Jewelry Bonney is on your crew, applies Lv. 2 Special CT up buff to self.', 'When there is 3 or more [Revolutionary Army] and [Vegapunk] crew members, applies Lv. 4 HP and DEF up buff to self.'],
+                ['Applies Lv. 5 HP, SPD and DEF up buff to [Revolutionary Army] and [Vegapunk] crew members.', 'Applies Lv. 5 HP, ATK and DEF up buff to Jewelry Bonney all crew members.', 'When Jewelry Bonney is on your crew, applies Lv. 9 ATK up buff to self.', 'When Jewelry Bonney is on your crew, applies Lv. 2 Special CT up buff to self.', 'When there is 3 or more [Revolutionary Army] and [Vegapunk] crew members, applies Lv. 5 HP and DEF up buff to self.'],
+                ['Applies Lv. 6 HP, SPD and DEF up buff to [Revolutionary Army] and [Vegapunk] crew members.', 'Applies Lv. 6 HP, ATK and DEF up buff to Jewelry Bonney all crew members.', 'When Jewelry Bonney is on your crew, applies Lv. 10 ATK up buff to self.', 'When Jewelry Bonney is on your crew, applies Lv. 3 Special CT up buff to self.', 'When there is 3 or more [Revolutionary Army] and [Vegapunk] crew members, applies Lv. 6 HP and DEF up buff to self.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 32,
+                descriptions: [
+                    ['Applies Lv. 1 DEF up buff to self for 11 seconds.', 'Applies Lv. 1 ATK up buff to [Revolutionary Army] and [Vegapunk] crew members for 11 seconds.', 'Deals 3.1x ATK in damage to 3 enemies.', 'When Jewelry Bonney is on your crew, deals 1x ATK in damage ignoring DEF to 1 [World Government] enemy.'],
+                    ['Applies Lv. 1 DEF up buff to self for 12 seconds.', 'Applies Lv. 1 ATK up buff to [Revolutionary Army] and [Vegapunk] crew members for 12 seconds.', 'Deals 3.2x ATK in damage to 3 enemies.', 'When Jewelry Bonney is on your crew, deals 1.2x ATK in damage ignoring DEF to 1 [World Government] enemy.'],
+                    ['Applies Lv. 2 DEF up buff to self for 13 seconds.', 'Applies Lv. 2 ATK up buff to [Revolutionary Army] and [Vegapunk] crew members for 13 seconds.', 'Deals 3.3x ATK in damage to 3 enemies.', 'When Jewelry Bonney is on your crew, deals 1.4x ATK in damage ignoring DEF to 1 [World Government] enemy.'],
+                    ['Applies Lv. 2 DEF up buff to self for 14 seconds.', 'Applies Lv. 2 ATK up buff to [Revolutionary Army] and [Vegapunk] crew members for 14 seconds.', 'Deals 3.4x ATK in damage to 3 enemies.', 'When Jewelry Bonney is on your crew, deals 1.6x ATK in damage ignoring DEF to 1 [World Government] enemy.'],
+                    ['Applies Lv. 3 DEF up buff to self for 15 seconds.', 'Applies Lv. 3 ATK up buff to [Revolutionary Army] and [Vegapunk] crew members for 15 seconds.', 'Deals 3.5x ATK in damage to 3 enemies.', 'When Jewelry Bonney is on your crew, deals 1.8x ATK in damage ignoring DEF to 1 [World Government] enemy.'],
+                    ['Applies Lv. 3 DEF up buff to self for 16 seconds.', 'Applies Lv. 3 ATK up buff to [Revolutionary Army] and [Vegapunk] crew members for 16 seconds.', 'Deals 3.6x ATK in damage to 3 enemies.', 'When Jewelry Bonney is on your crew, deals 2x ATK in damage ignoring DEF to 1 [World Government] enemy.'],
+                    ['Applies Lv. 4 DEF up buff to self for 17 seconds.', 'Applies Lv. 4 ATK up buff to [Revolutionary Army] and [Vegapunk] crew members for 17 seconds.', 'Deals 3.7x ATK in damage to 3 enemies.', 'When Jewelry Bonney is on your crew, deals 2.2x ATK in damage ignoring DEF to 1 [World Government] enemy.'],
+                    ['Applies Lv. 4 DEF up buff to self for 18 seconds.', 'Applies Lv. 4 ATK up buff to [Revolutionary Army] and [Vegapunk] crew members for 18 seconds.', 'Deals 3.8x ATK in damage to 3 enemies.', 'When Jewelry Bonney is on your crew, deals 2.4x ATK in damage ignoring DEF to 1 [World Government] enemy.'],
+                    ['Applies Lv. 5 DEF up buff to self for 19 seconds.', 'Applies Lv. 5 ATK up buff to [Revolutionary Army] and [Vegapunk] crew members for 19 seconds.', 'Deals 3.9x ATK in damage to 3 enemies.', 'When Jewelry Bonney is on your crew, deals 2.6x ATK in damage ignoring DEF to 1 [World Government] enemy.'],
+                    ['Applies Lv. 5 DEF up buff to self for 20 seconds.', 'Applies Lv. 5 ATK up buff to [Revolutionary Army] and [Vegapunk] crew members for 20 seconds.', 'Deals 4x ATK in damage to 3 enemies.', 'When Jewelry Bonney is on your crew, deals 3x ATK in damage ignoring DEF to 1 [World Government] enemy.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
+        }
+    },
+    4434: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "SPT"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4435: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
     },
     4986: {
         festCost: 55,
