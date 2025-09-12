@@ -11,7 +11,10 @@
     <div class="navbar-logo">
       <img src="svg/logo.png" alt="로고" />
     </div>
-    <!-- 햄버거/X 아이콘 버튼 -->
+    <div class="dark-mode-toggle">
+      <input type="checkbox" id="darkModeToggle" aria-label="다크 모드 켜기/끄기">
+      <label for="darkModeToggle" class="slider"></label>
+    </div>
     <button class="hamburger" id="hamburgerBtn" aria-label="메뉴 열기/닫기"></button>
     <ul class="navbar-menu" id="navbarMenu">
       <li><a href="damage" target="_blank">데미지 계산기</a></li>
@@ -23,7 +26,6 @@
       <li><a href="https://cafe.naver.com/bneoptc" target="_blank">네이버 공식카페</a></li>
     </ul>
   </nav>
-  <!-- 메인 텍스트 영역 -->
   <main class="main-section">
     <h1 class="main-title">
       <span class="gradient-text">캐릭터 데이터의 전부</span>
@@ -31,12 +33,10 @@
     <p class="main-subtitle">빠르고 간편하게</p>
     <p class="sub-desc">4000개가 넘는 캐릭터의 정보<br>정확하고 빠르게 찾아보세요!</p>
   </main>
-  <!-- 케러셀 상단 버튼 영역 -->
   <div class="carousel-top-btns">
     <a href="characters" class="carousel-btn-link">캐릭터 DB 바로가기</a>
     <a href="https://cats2352.github.io/test/" class="carousel-btn-link">아이템DB 바로가기</a>
   </div>
-  <!-- 케러셀(슬라이더) 영역 -->
   <section class="carousel-section">
     <div class="carousel-track">
       <div class="carousel-slide active">
@@ -61,6 +61,28 @@
     </div>
   </section>
   <script>
+    // ===== 다크 모드 로직 =====
+    const darkModeToggle = document.getElementById('darkModeToggle');
+    const body = document.body;
+
+    // 페이지 로드 시 저장된 테마 확인 및 적용
+    if (localStorage.getItem('theme') === 'dark') {
+      body.classList.add('dark-mode');
+      darkModeToggle.checked = true;
+    }
+
+    // 토글 클릭 시 다크 모드 전환 및 설정 저장
+    darkModeToggle.addEventListener('change', () => {
+      if (darkModeToggle.checked) {
+        body.classList.add('dark-mode');
+        localStorage.setItem('theme', 'dark');
+      } else {
+        body.classList.remove('dark-mode');
+        localStorage.setItem('theme', 'light');
+      }
+    });
+
+
     // 햄버거/X 아이콘 동적 변경 및 메뉴 열고 닫기
     const hamburgerBtn = document.getElementById('hamburgerBtn');
     const navbarMenu = document.getElementById('navbarMenu');
