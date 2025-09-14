@@ -13519,13 +13519,13 @@
 			{
 				name: "라스트 탭",
 				targets: ["potential"],
-				regex: /Last Tap/i,
+				regex: /Obtain Last Tap/i,
 			},
 
 			{
 				name: "초연계기술",
 				targets: ["potential"],
-				regex: /(?:Super Tandem(?! Boost)|Boosts Tandem ATK of (?=((?:[^c."]+|c(?!har))*))\1characters? by ([.\d]+)x for (\d+) turns?)/i,
+				regex: /(?:Obtain Super Tandem(?! Boost)|Boosts Tandem ATK of (?=((?:[^c."]+|c(?!har))*))\1characters? by ([.\d]+)x for (\d+) turns?)/i,
 				submatchers: [
 					{
 						type: "number",
@@ -13554,13 +13554,13 @@
 			{
 				name: "초연계 부스트",
 				targets: ["potential"],
-				regex: /Super Tandem Boost/i,
+				regex: /Obtain Super Tandem Boost/i,
 			},
 
 			{
 				name: "러쉬",
 				targets: ["potential"],
-				regex: /Rush/i,
+				regex: /Obtain Rush/i,
 			},
 
 			/* * * * * Super Special Criteria * * * * */
