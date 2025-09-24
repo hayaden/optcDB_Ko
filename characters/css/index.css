@@ -301,7 +301,7 @@ input#burgerMenuState {
     border-radius: 8px;
     padding: 3px 8px;
     background-color: #fff;
-    color: #fff;
+    color: #333333;
     cursor: pointer;
     font-weight: normal;
 }
