@@ -95876,14 +95876,14 @@ window.details = {
         ],
         potential: [
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
             {
                 Name: "Nutrition/Reduce Hunger stacks",
@@ -95989,14 +95989,14 @@ window.details = {
         ],
         potential: [
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
             {
                 Name: "Reduce No Healing duration",
@@ -96121,14 +96121,14 @@ window.details = {
         ],
         potential: [
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
             {
                 Name: "Enrage/Reduce Increase Damage Taken duration",
@@ -102383,14 +102383,14 @@ window.details = {
         ],
         potential: [
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
             {
                 Name: "Nutrition/Reduce Hunger stacks",
@@ -102511,14 +102511,14 @@ window.details = {
         ],
         potential: [
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
             {
                 Name: "Nutrition/Reduce Hunger stacks",
@@ -108033,13 +108033,13 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
                 ]
             },
         ],
@@ -108158,14 +108158,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
         ],
         lastTap: {
@@ -111259,14 +111259,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
         ],
         lastTap: {
@@ -114321,14 +114321,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
         ],
         lastTap: {
@@ -114419,14 +114419,14 @@ window.details = {
         ],
         potential: [
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
             {
                 Name: "Pinch Healing",
@@ -114809,14 +114809,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
         ],
         lastTap: {
@@ -114881,14 +114881,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
         ],
         lastTap: {
@@ -115350,14 +115350,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
         ],
         lastTap: {
@@ -115432,14 +115432,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
         ],
         lastTap: {
@@ -118902,14 +118902,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
         ],
         lastTap: {
@@ -120717,14 +120717,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
         ],
         lastTap: {
@@ -121931,14 +121931,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
         ],
         lastTap: {
@@ -122121,14 +122121,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
         ],
         lastTap: {
@@ -122193,14 +122193,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
         ],
         lastTap: {
@@ -122265,14 +122265,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
         ],
         lastTap: {
@@ -122347,14 +122347,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
             {
                 Name: "Critical Hit",
@@ -123565,14 +123565,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
         ],
         lastTap: {
@@ -126414,14 +126414,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
             {
                 Name: "Super Tandem",
@@ -126664,14 +126664,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
         ],
         lastTap: {
@@ -128260,14 +128260,14 @@ window.details = {
         ],
         potential: [
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
             {
                 Name: "Nutrition/Reduce Hunger stacks",
@@ -128448,14 +128448,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
         ],
         lastTap: {
@@ -129392,14 +129392,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
         ],
         lastTap: {
@@ -130017,14 +130017,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
         ],
         lastTap: {
@@ -130597,14 +130597,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
         ],
         lastTap: {
@@ -130712,14 +130712,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
         ],
         lastTap: {
@@ -132363,14 +132363,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
         ],
         lastTap: {
@@ -132471,14 +132471,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
         ],
         lastTap: {
@@ -133156,14 +133156,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
         ],
         lastTap: {
@@ -134225,14 +134225,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
         ],
         lastTap: {
@@ -134517,14 +134517,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
         ],
         lastTap: {
@@ -134656,14 +134656,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
         ],
         lastTap: {
