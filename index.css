@@ -12,6 +12,8 @@
 
 body {
   font-family: 'Pretendard', 'Noto Sans KR', sans-serif;
+  overflow-x: hidden; /* 가로 스크롤 방지 */
+  transition: background-color 0.3s, color 0.3s;
 }
 
 /* 네비게이션 바 전체 스타일 */
@@ -69,11 +71,8 @@ body {
 }
 .hamburger span { display: none; }
 
-/* 반응형: 425px 이하에서 메뉴 숨기고 햄버거 메뉴 표시, 메뉴 세로 정렬 및 폰트 크기 축소 */
+/* 반응형: 1140px 이하 */
 @media (max-width: 1140px) {
-  body {
-    overflow-x: hidden; /* 가로 스크롤 방지 */
-  }
   .navbar {
     padding: 10px 6px 10px 6px;
   }
@@ -84,7 +83,6 @@ body {
     left: 0;
     width: 100vw;
     flex-direction: column;
-    /* 반투명 흰색 + 블러 효과 */
     background: rgba(255,255,255,0.7);
     backdrop-filter: blur(16px);
     border-bottom: 1px solid #e5e5e5;
@@ -96,13 +94,13 @@ body {
     display: flex;
   }
   .navbar-menu li {
-    font-size: 15px; /* 모바일에서 폰트 크기 축소 */
+    font-size: 15px;
     padding: 10px 0;
     text-align: center;
-    border-bottom: 1px solid #e5e5e5; /* 각 항목 구분선 */
+    border-bottom: 1px solid #e5e5e5;
   }
   .navbar-menu li:last-child {
-    border-bottom: none; /* 마지막 항목은 구분선 제거 */
+    border-bottom: none;
   }
   .hamburger {
     display: block;
@@ -118,16 +116,16 @@ body {
   margin-top: 60px;
   margin-bottom: 40px;
   text-align: center;
-  padding-left: 10px;  /* 최소 좌우 패딩 */
+  padding-left: 10px;
   padding-right: 10px;
 }
 
 .main-title {
-  font-size: clamp(1.1rem, 3vw + 1.1rem, 3.8rem); /* 최소값 더 낮게 */
+  font-size: clamp(1.1rem, 3vw + 1.1rem, 3.8rem);
   font-weight: 800;
   margin-bottom: 6px;
   letter-spacing: -1px;
-  word-break: keep-all; /* 단어 단위 줄바꿈 방지 */
+  word-break: keep-all;
 }
 
 .gradient-text {
@@ -139,25 +137,21 @@ body {
   -webkit-text-fill-color: transparent;
   animation: gradientMove 2.5s linear infinite;
   font-weight: 900;
-  font-size: clamp(1.5rem, 5vw + 1.1rem, 4.5rem); /* 최소값 더 낮게 */
-  word-break: keep-all; /* 단어 단위 줄바꿈 방지 */
+  font-size: clamp(1.5rem, 5vw + 1.1rem, 4.5rem);
+  word-break: keep-all;
 }
 
 @keyframes gradientMove {
-  0% {
-    background-position: 0% 50%;
-  }
-  100% {
-    background-position: 100% 50%;
-  }
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
 }
 
 .main-subtitle {
-  font-size: clamp(1.5rem, 5vw + 1.1rem, 4.5rem); /* 최소값 더 낮게 */
+  font-size: clamp(1.5rem, 5vw + 1.1rem, 4.5rem);
   color: #222;
   font-weight: 900;
   margin-top: 0;
-  word-break: keep-all; /* 단어 단위 줄바꿈 방지 */
+  word-break: keep-all;
 }
 
 .sub-desc {
@@ -174,170 +168,6 @@ body {
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
-  }
-}
-
-/* 케러셀(슬라이더) 영역 스타일 */
-.carousel-section {
-  width: 100%;
-  max-width: 1200px;
-  margin: 40px auto 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  min-height: 420px;
-}
-
-.carousel-track {
-  display: flex;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-}
-
-.carousel-slide {
-  min-width: 100%;
-  transition: opacity 0.4s, transform 0.4s;
-  opacity: 0;
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-  display: none; /* 기본적으로 숨김 */
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
-  position: relative; /* 버튼 위치 기준 */
-}
-.carousel-slide.active {
-  display: flex; /* active만 보임 */
-  opacity: 1;
-  position: relative;
-  z-index: 2;
-  transform: translateX(0);
-}
-.carousel-slide img {
-  width: 100%;
-  height: 400px;
-  object-fit: cover;
-  border-radius: 0;
-  display: block;
-}
-.carousel-caption {
-  position: absolute;
-  left: 32px;
-  bottom: 32px;
-  color: #fff;
-  text-shadow: 0 2px 8px rgba(0,0,0,0.4);
-}
-.carousel-caption h3 {
-  font-size: 2rem;
-  font-weight: 800;
-  margin-bottom: 8px;
-  line-height: 1.2;
-}
-.carousel-caption p {
-  font-size: 1.1rem;
-  font-weight: 400;
-  margin: 0;
-}
-.carousel-btn {
-  background: rgba(35, 198, 248, 0.5);
-  color: #fff;
-  border: none;
-  border-radius: 50%;
-  width: 44px;
-  height: 44px;
-  font-size: 2rem;
-  cursor: pointer;
-  position: absolute;
-  bottom: 16px;
-  z-index: 10;
-  transition: background 0.2s;
-}
-.carousel-btn:hover {
-  background: rgba(35, 198, 248, 0.5);
-}
-.carousel-btn.prev {
-  left: 16px;
-}
-.carousel-btn.next {
-  right: 16px;
-}
-
-/* PC/태블릿(600px 이상) 케러셀 이미지 반응형 처리 */
-@media (min-width: 601px) {
-  .carousel-section {
-    width: 100%;
-    max-width: 1200px;
-    aspect-ratio: 3 / 1; /* 1200:400 = 3:1 비율 고정 */ /*이때 이미지 크기는 무조건 1200 px x 400px를 맞춰야지 알맞게 표시됨 */
-    min-height: unset;
-    height: 400px;
-    margin: 40px auto 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-  }
-  .carousel-slide img {
-    width: 100%;
-    height: 100%;
-    max-width: 1200px;
-    max-height: 400px;
-    object-fit: cover;
-    display: block;
-    margin: 0 auto;
-  }
-}
-
-@media (max-width: 1440px) and (min-width: 900px) {
-  .carousel-section {
-    max-width: 100vw;
-  }
-  .carousel-slide img {
-    max-width: 700px;
-    max-height: 400px;
-  }
-}
-@media (max-width: 900px) and (min-width: 601px) {
-  .carousel-section {
-    min-height: 220px;
-  }
-  .carousel-slide img {
-    max-height: 220px;
-  }
-}
-
-@media (max-width: 600px) {
-  .carousel-section {
-    min-height: 100vw;
-    margin-top: 20px;
-    max-width: 100vw;
-  }
-  .carousel-slide img {
-    width: 100vw;
-    height: 100vw;
-    max-width: 600px;
-    max-height: 600px;
-    object-fit: cover;
-    display: block;
-    margin: 0 auto;
-  }
-  .carousel-caption {
-    left: 10px;
-    bottom: 10px;
-  }
-  .carousel-caption h3 {
-    font-size: 0.95rem;
-  }
-  .carousel-caption p {
-    font-size: 0.7rem;
-  }
-  .carousel-btn {
-    width: 32px;
-    height: 32px;
-    font-size: 1.2rem;
   }
 }
 
@@ -361,7 +191,7 @@ body {
   text-decoration: none;
   box-shadow: 0 2px 8px rgba(0,0,0,0.06);
   transition: background 0.2s, color 0.2s, box-shadow 0.2s;
-  white-space: nowrap; /* 줄바꿈 방지 */
+  white-space: nowrap;
 }
 .carousel-btn-link:hover {
   background: linear-gradient(90deg, #8fd3f4 0%, #84fab0 100%);
@@ -379,139 +209,137 @@ body {
     font-size: 0.98rem;
   }
 }
-/* ===== 다크 모드 토글 스위치 스타일 (수정됨) ===== */
+
+/* ===== 수정된 케러셀(슬라이더) 스타일 ===== */
+.carousel-section {
+  width: 100%;
+  max-width: 1200px;
+  margin: 40px auto 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-track {
+  display: flex;
+  position: relative;
+  transition: transform 0.4s ease-in-out;
+}
+
+.carousel-slide {
+  min-width: 100%;
+  position: relative;
+}
+
+.carousel-slide img {
+  width: 100%;
+  display: block;
+  aspect-ratio: 3 / 1;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  position: absolute;
+  left: 32px;
+  bottom: 32px;
+  color: #fff;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.4);
+}
+.carousel-caption h3 { font-size: 2rem; font-weight: 800; margin-bottom: 8px; line-height: 1.2; }
+.carousel-caption p { font-size: 1.1rem; font-weight: 400; margin: 0; }
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: background 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.carousel-btn:hover { background: rgba(0, 0, 0, 0.6); }
+.carousel-btn.prev { left: 16px; }
+.carousel-btn.next { right: 16px; }
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  display: flex;
+  gap: 10px;
+}
+.indicator-dot {
+  width: 12px;
+  height: 12px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  cursor: pointer;
+  border: none; /* button 기본 스타일 제거 */
+  padding: 0; /* button 기본 스타일 제거 */
+  transition: background-color 0.2s;
+}
+.indicator-dot.active { background-color: white; }
+
+/* 케러셀 반응형 */
+@media (max-width: 600px) {
+  .carousel-slide img { aspect-ratio: 1 / 1; }
+  .carousel-caption { left: 16px; bottom: 16px; }
+  .carousel-caption h3 { font-size: 1.2rem; }
+  .carousel-caption p { font-size: 0.8rem; }
+  .carousel-btn { width: 36px; height: 36px; font-size: 1.2rem; }
+  .carousel-btn.prev { left: 8px; }
+  .carousel-btn.next { right: 8px; }
+  .carousel-indicators { bottom: 12px; }
+  .indicator-dot { width: 10px; height: 10px; }
+}
+/* ===== 케러셀 스타일 끝 ===== */
+
+
+/* ===== 다크 모드 토글 스위치 스타일 ===== */
 .dark-mode-toggle {
   display: flex;
   align-items: center;
-  margin-left: 20px; /* 메뉴와의 간격 확보 */
+  margin-left: 20px;
   margin-right: 16px;
 }
+.dark-mode-toggle input[type="checkbox"] { height: 0; width: 0; visibility: hidden; }
+.dark-mode-toggle .slider { cursor: pointer; width: 50px; height: 26px; background-color: #ccc; border-radius: 26px; position: relative; transition: background-color 0.2s; }
+.dark-mode-toggle .slider::before { content: ''; position: absolute; height: 20px; width: 20px; left: 3px; bottom: 3px; background-color: white; border-radius: 50%; transition: transform 0.2s; }
+.dark-mode-toggle .slider::after { content: '☀️'; position: absolute; right: 6px; top: 50%; transform: translateY(-50%); font-size: 14px; color: #fff; opacity: 1; transition: opacity 0.2s; }
+.dark-mode-toggle input:checked + .slider { background-color: #03c75a; }
+.dark-mode-toggle input:checked + .slider::before { transform: translateX(24px); }
+.dark-mode-toggle input:checked + .slider::after { content: '🌙'; left: 6px; opacity: 1; }
 
-.dark-mode-toggle input[type="checkbox"] {
-  height: 0;
-  width: 0;
-  visibility: hidden;
-}
-
-.dark-mode-toggle .slider {
-  cursor: pointer;
-  width: 50px;
-  height: 26px;
-  background-color: #ccc;
-  border-radius: 26px;
-  position: relative;
-  transition: background-color 0.2s;
-}
-
-.dark-mode-toggle .slider::before {
-  content: '';
-  position: absolute;
-  height: 20px;
-  width: 20px;
-  left: 3px;
-  bottom: 3px;
-  background-color: white;
-  border-radius: 50%;
-  transition: transform 0.2s;
-}
-
-/* ☀️ 아이콘 */
-.dark-mode-toggle .slider::after {
-  content: '☀️';
-  position: absolute;
-  right: 6px;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 14px;
-  color: #fff;
-  opacity: 1;
-  transition: opacity 0.2s;
-}
-
-.dark-mode-toggle input:checked + .slider {
-  background-color: #03c75a;
-}
-
-.dark-mode-toggle input:checked + .slider::before {
-  transform: translateX(24px);
-}
-
-/* 🌙 아이콘 */
-.dark-mode-toggle input:checked + .slider::after {
-  content: '🌙';
-  left: 6px;
-  opacity: 1;
-}
-
-/* 모바일 화면에서는 햄버거 메뉴가 오른쪽 끝으로 가도록 순서 조정 */
 @media (max-width: 1140px) {
-  .dark-mode-toggle {
-    margin-left: auto; /* 로고와 햄버거 사이 공간을 채움 */
-    margin-right: 8px;
-  }
+  .dark-mode-toggle { margin-left: auto; margin-right: 8px; }
 }
 
 
 /* ===== 다크 모드 스타일 ===== */
-body {
-  transition: background-color 0.3s, color 0.3s;
-}
-
 body.dark-mode {
   background-color: #292929;
   color: #e0e0e0;
 }
+body.dark-mode .navbar { background: #292929; border-bottom-color: #333; }
+body.dark-mode .navbar-menu li { color: #e0e0e0; }
+body.dark-mode .navbar-menu li:hover { color: #03c75a; }
+body.dark-mode .main-subtitle { color: #f5f5f5; }
+body.dark-mode .sub-desc { color: #aaa; }
+body.dark-mode .hamburger { filter: invert(1) brightness(1.2); }
+body.dark-mode .carousel-btn-link { background: linear-gradient(90deg, #84fab0 0%, #8fd3f4 100%); color: #121212; box-shadow: 0 2px 8px rgba(255, 255, 255, 0.08); }
+body.dark-mode .carousel-btn-link:hover { background: linear-gradient(90deg, #8fd3f4 0%, #84fab0 100%); color: #03c75a; box-shadow: 0 4px 16px rgba(255, 255, 255, 0.12); }
 
-body.dark-mode .navbar {
-  background: #292929;
-  border-bottom-color: #333;
-}
-
-body.dark-mode .navbar-menu li {
-  color: #e0e0e0;
-}
-
-body.dark-mode .navbar-menu li:hover {
-  color: #03c75a; /* 호버 색상은 유지 */
-}
-
-body.dark-mode .main-subtitle {
-  color: #f5f5f5;
-}
-
-body.dark-mode .sub-desc {
-  color: #aaa;
-}
-
-body.dark-mode .hamburger {
-  /* 어두운 색 SVG 아이콘을 흰색으로 변경 */
-  filter: invert(1) brightness(1.2);
-}
-
-/* 모바일 메뉴 다크모드 */
 @media (max-width: 1140px) {
-  body.dark-mode .navbar-menu {
-    background: rgba(30, 30, 30, 0.85); /* 어두운 반투명 배경 */
-    backdrop-filter: blur(16px);
-    border-bottom-color: #333;
-  }
-  body.dark-mode .navbar-menu li {
-    border-bottom-color: #333;
-  }
+  body.dark-mode .navbar-menu { background: rgba(30, 30, 30, 0.85); backdrop-filter: blur(16px); border-bottom-color: #333; }
+  body.dark-mode .navbar-menu li { border-bottom-color: #333; }
 }
-
-/* 버튼 다크모드 */
-body.dark-mode .carousel-btn-link {
-  background: linear-gradient(90deg, #84fab0 0%, #8fd3f4 100%);
-  color: #121212; /* 어두운 텍스트 색상 */
-  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.08);
-}
-body.dark-mode .carousel-btn-link:hover {
-  background: linear-gradient(90deg, #8fd3f4 0%, #84fab0 100%);
-  color: #03c75a;
-  box-shadow: 0 4px 16px rgba(255, 255, 255, 0.12);
-}
-
-
-
-

@@ -37,41 +37,37 @@
     <a href="characters" class="carousel-btn-link">캐릭터 DB 바로가기</a>
     <a href="https://cats2352.github.io/OPTC-item/" class="carousel-btn-link">아이템DB 바로가기</a>
   </div>
+
   <section class="carousel-section">
     <div class="carousel-track">
       <div class="carousel-slide active">
-      <a href="characters">
-        <picture>
-          <source media="(max-width: 600px)" srcset="./svg/9월25일오로성600.png">
-          <img src="./svg/9월 25일 오로성 1200.png" alt="이미지1" />
-        </picture>
-      </a>
-        <button class="carousel-btn prev" aria-label="이전 이미지">&#60;</button>
-        <button class="carousel-btn next" aria-label="다음 이미지">&#62;</button>
+        <a href="characters">
+          <picture>
+            <source media="(max-width: 600px)" srcset="./svg/9월25일오로성600.png">
+            <img src="./svg/9월 25일 오로성 1200.png" alt="이미지1" />
+          </picture>
+        </a>
       </div>
-      
       <div class="carousel-slide">
         <picture>
           <source media="(max-width: 600px)" srcset="./svg/공지사항600.png">
           <img src="./svg/공지사항1200.png" alt="이미지2" />
         </picture>
-        <button class="carousel-btn prev" aria-label="이전 이미지">&#60;</button>
-        <button class="carousel-btn next" aria-label="다음 이미지">&#62;</button>
       </div>
-    </div>
+      </div>
+    <button class="carousel-btn prev" aria-label="이전 이미지">&#10094;</button>
+    <button class="carousel-btn next" aria-label="다음 이미지">&#10095;</button>
+
+    <div class="carousel-indicators"></div>
   </section>
-  <script>
-    // ===== 다크 모드 로직 =====
+<script>
+    // ===== 다크 모드 로직 (기존과 동일) =====
     const darkModeToggle = document.getElementById('darkModeToggle');
     const body = document.body;
-
-    // 페이지 로드 시 저장된 테마 확인 및 적용
     if (localStorage.getItem('theme') === 'dark') {
       body.classList.add('dark-mode');
       darkModeToggle.checked = true;
     }
-
-    // 토글 클릭 시 다크 모드 전환 및 설정 저장
     darkModeToggle.addEventListener('change', () => {
       if (darkModeToggle.checked) {
         body.classList.add('dark-mode');
@@ -82,8 +78,7 @@
       }
     });
 
-
-    // 햄버거/X 아이콘 동적 변경 및 메뉴 열고 닫기
+    // ===== 햄버거 메뉴 로직 (기존과 동일) =====
     const hamburgerBtn = document.getElementById('hamburgerBtn');
     const navbarMenu = document.getElementById('navbarMenu');
     let menuOpen = false;
@@ -99,52 +94,98 @@
       navbarMenu.classList.toggle('active', menuOpen);
       updateHamburgerIcon();
     });
-    // 초기 아이콘 설정
     updateHamburgerIcon();
 
-    // ===== 케러셀(슬라이더) 동작 =====
-    const slides = document.querySelectorAll('.carousel-slide');
-    let currentSlide = 0;
-    function showSlide(idx) {
-      slides.forEach((slide, i) => {
-        slide.classList.toggle('active', i === idx);
-      });
-    }
-    // 각 슬라이드의 prev/next 버튼에 이벤트 바인딩
-    slides.forEach((slide, i) => {
-      const prevBtn = slide.querySelector('.carousel-btn.prev');
-      const nextBtn = slide.querySelector('.carousel-btn.next');
-      prevBtn.addEventListener('click', function(e) {
-        e.stopPropagation();
-        currentSlide = (i - 1 + slides.length) % slides.length;
-        showSlide(currentSlide);
-      });
-      nextBtn.addEventListener('click', function(e) {
-        e.stopPropagation();
-        currentSlide = (i + 1) % slides.length;
-        showSlide(currentSlide);
-      });
-    });
-    // 터치 스와이프(모바일) 지원
-    let startX = null;
+    // ===== 케러셀(슬라이더) 동작 (수정된 최종안) =====
     const track = document.querySelector('.carousel-track');
-    track.addEventListener('touchstart', function(e) {
-      startX = e.touches[0].clientX;
-    });
-    track.addEventListener('touchend', function(e) {
-      if (startX === null) return;
-      let endX = e.changedTouches[0].clientX;
-      if (endX - startX > 40) {
-        currentSlide = (currentSlide - 1 + slides.length) % slides.length;
-        showSlide(currentSlide);
-      } else if (startX - endX > 40) {
-        currentSlide = (currentSlide + 1) % slides.length;
-        showSlide(currentSlide);
+    const slides = Array.from(track.children);
+    const nextButton = document.querySelector('.carousel-btn.next');
+    const prevButton = document.querySelector('.carousel-btn.prev');
+    const indicatorsContainer = document.querySelector('.carousel-indicators');
+    
+    // 슬라이드가 없으면 스크립트 실행 중단
+    if (slides.length > 0) {
+      
+      // --- 바로 이 부분이 핵심 수정사항입니다 ---
+      // 너비를 한 번만 정확하게 계산해서 모든 슬라이드에 동일하게 적용합니다.
+      const setupSlides = () => {
+        const slideWidth = slides[0].getBoundingClientRect().width;
+        slides.forEach((slide, index) => {
+          slide.style.left = slideWidth * index + 'px';
+        });
+      };
+      // ------------------------------------
+
+      // 인디케이터(점) 생성
+      slides.forEach((_, index) => {
+        const dot = document.createElement('button');
+        dot.classList.add('indicator-dot');
+        if (index === 0) dot.classList.add('active');
+        indicatorsContainer.appendChild(dot);
+      });
+      const indicators = Array.from(indicatorsContainer.children);
+
+      // 슬라이드 이동 및 인디케이터 업데이트 함수
+      const moveToSlide = (targetSlide) => {
+        const currentSlide = track.querySelector('.active');
+        const currentDot = indicatorsContainer.querySelector('.active');
+        const targetIndex = slides.findIndex(slide => slide === targetSlide);
+        const targetDot = indicators[targetIndex];
+
+        track.style.transform = 'translateX(-' + targetSlide.style.left + ')';
+        currentSlide.classList.remove('active');
+        targetSlide.classList.add('active');
+        
+        currentDot.classList.remove('active');
+        targetDot.classList.add('active');
       }
-      startX = null;
-    });
-    // 첫 슬라이드 표시
-    showSlide(currentSlide);
+
+      // 이전/다음 버튼 클릭 이벤트
+      prevButton.addEventListener('click', e => {
+        const currentSlide = track.querySelector('.active');
+        const prevSlide = currentSlide.previousElementSibling || slides[slides.length - 1];
+        moveToSlide(prevSlide);
+      });
+
+      nextButton.addEventListener('click', e => {
+        const currentSlide = track.querySelector('.active');
+        const nextSlide = currentSlide.nextElementSibling || slides[0];
+        moveToSlide(nextSlide);
+      });
+
+      // 인디케이터 클릭 이벤트
+      indicatorsContainer.addEventListener('click', e => {
+        const targetDot = e.target.closest('.indicator-dot');
+        if (!targetDot) return;
+        const targetIndex = indicators.findIndex(dot => dot === targetDot);
+        const targetSlide = slides[targetIndex];
+        moveToSlide(targetSlide);
+      });
+      
+      // 창 크기 변경 시 슬라이드 위치 재계산
+      window.addEventListener('resize', () => {
+        setupSlides();
+        const currentActiveSlide = track.querySelector('.active');
+        track.style.transform = 'translateX(-' + currentActiveSlide.style.left + ')';
+      });
+
+      // 터치 스와이프
+      let touchStartX = 0;
+      track.addEventListener('touchstart', e => {
+          touchStartX = e.touches[0].clientX;
+      });
+      track.addEventListener('touchend', e => {
+          const touchEndX = e.changedTouches[0].clientX;
+          if (touchStartX - touchEndX > 50) {
+              nextButton.click();
+          } else if (touchEndX - touchStartX > 50) {
+              prevButton.click();
+          }
+      });
+
+      // 초기 슬라이드 위치 설정
+      setupSlides();
+    }
   </script>
 </body>
 </html>
