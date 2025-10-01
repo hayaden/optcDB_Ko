@@ -1526,7 +1526,7 @@
 				name: "지속 데미지",
 				targets: ["rumbleSpecial"],
 				regex:
-					/Inflicts Lv. (\d+) Damage Over Time to (\d)?(?=((?:[^e]+|e(?!nem))*))\3enem(?:y|ies)(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)? for (\d+) seconds/i,
+					/Inflicts Lv. (\d+) Damage Over Time to (\d)?(?=((?:[^e]+|e(?!nem))*))\3enem(?:y|ies)(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
 				submatchers: [
 					{
 						type: "number",
@@ -3804,7 +3804,7 @@
 						description: "공격력",
 						// could've used negative lookbehind, but some platforms don't support it
 						// either ATK boosting buffs or ATK UP or ATK boost
-						regex: /(?:^|(?!base|atus).{4} )ATK (?:boost|UP)/i, // do not match "기본 공격력 상승" and "상태 이상시공격력 상승"
+						regex: /(?:^|(?!base|atus).{4} )ATK (?:boost|UP)/i, // do not match "base ATK boost" and "Status ATK boost"
 						groups: [1],
 						cssClasses: ["min-width-3"],
 					},
@@ -3941,7 +3941,7 @@
 						description: "공격력",
 						// could've used negative lookbehind, but some platforms don't support it
 						// either ATK boosting buffs or ATK UP or ATK boost
-						regex: /(?:^|(?!base|atus).{4} )ATK (?:boost|UP)/i, // do not match "기본 공격력 상승" and "상태 이상시공격력 상승"
+						regex: /(?:^|(?!base|atus).{4} )ATK (?:boost|UP)/i, // do not match "base ATK boost" and "Status ATK boost"
 						groups: [1],
 						cssClasses: ["min-width-3"],
 					},
@@ -4035,7 +4035,7 @@
 						description: "공격력",
 						// could've used negative lookbehind, but some platforms don't support it
 						// either ATK boosting buffs or ATK UP or ATK boost
-						regex: /(?:^|(?!base|atus).{4} )ATK (?:boost|UP)/i, // do not match "기본 공격력 상승" and "상태 이상시공격력 상승"
+						regex: /(?:^|(?!base|atus).{4} )ATK (?:boost|UP)/i, // do not match "base ATK boost" and "Status ATK boost"
 						groups: [1],
 						cssClasses: ["min-width-3"],
 					},
@@ -4751,7 +4751,7 @@
 						description: "공격력",
 						// could've used negative lookbehind, but some platforms don't support it
 						// either ATK boosting buffs or ATK UP or ATK boost
-						regex: /(?:^|(?!base|atus).{4} )ATK (?:boost|UP)/i, // do not match "기본 공격력 상승" and "상태 이상시공격력 상승"
+						regex: /(?:^|(?!base|atus).{4} )ATK (?:boost|UP)/i, // do not match "base ATK boost" and "Status ATK boost"
 						groups: [1],
 						cssClasses: ["min-width-3"],
 					},
@@ -4961,7 +4961,7 @@
 
 			{
 				name: "회복: 턴 종료시",
-				targets: ["captain"],
+				targets: ["captain", "sailor"],
 				regex: /Recovers[^."]+?HP at the end of (?:the|each) turn/i,
 			},
 
@@ -5213,12 +5213,17 @@
 				// match "Reduces damage received by 70%-100% for 1 turn"
 				// match "reduces any damage received above 2,000 HP by 100% for 1 turn" (3282)
 				regex:
-					/Reduces (?:any )?damage (?:received|taken) (?:above [?\d,]+ HP )?(?:from ([^."]+?)(?:characters?|enemies) )?by (?:100%|[?.\d]+%-100%) for ([?\d]+\+?)(?:-([?\d]+))? turns?/i,
+					/Reduces (?:any )?damage (?:received|taken) (?:above [?\d,]+ HP )?(?:from ([^."]+?)(?:characters?|enemies) )?by (?:100%|[?.\d]+%-100%) for (?:([?\d]+\+?)(?:-([?\d]+))? turns?|([?\d]+\+?)(?:-([?\d]+))? attacks?)/i,
 				submatchers: [
 					{
 						type: "number",
 						description: "턴:",
-						groups: [2, 3, 4, 5],
+						groups: [2, 3],
+					},
+					{
+						type: "number",
+						description: "x회까지 무효:",
+						groups: [4, 5],
 					},
 					{
 						type: "option",
@@ -6000,7 +6005,7 @@
 						type: "separator",
 						description: "위치:",
 					},
-					...createUniversalSubmatcher([1], "모두"),
+					...createUniversalSubmatcher([1], "all"),
 					...createPositionsSubmatchers(
 						[1],
 						true,
@@ -13577,7 +13582,7 @@
 			{
 				name: "선장 교체시",
 				targets: ["superSpecialCriteria"],
-				regex: /[^."]+?When character becomes [^."]+? during Captain Shift[^."]*?/i,
+				regex: /[^."]+?When character becomes [^,"]+? during Captain Shift[^."]*?/i,
 			},
 			{
 				name: "슈퍼 체인지시",
@@ -13653,10 +13658,10 @@
 			/* * * * * Rumble Resistance * * * * */
 
 			{
-				name: "받는 데미지 감소",
+				name: "주는 데미지 증가",
 				targets: ["rumbleResistance"],
 				regex:
-					/([\d]+)% damage reduction from ([^.]+)/i,
+					/([.\d]+)x damage boost to ([^.]+)/i,
 				submatchers: [
 					{
 						type: "number",
@@ -13672,15 +13677,26 @@
 			},
 
 			{
-				name: "주는 데미지 증가",
+				name: "받는 데미지 감소",
 				targets: ["rumbleResistance"],
 				regex:
-					/([.\d]+)x damage boost to ([^.]+)/i,
+					/([\d]+)% damage reduction from ([^.]+)/i,
 				submatchers: [
 					{
 						type: "number",
 						description: "배율:",
 						groups: [1],
+					},
+					{
+						type: "separator",
+						description: "속성:",
+					},
+					{
+						type: "option",
+						description: "방어력 무시",
+						regex: /Damage Ignoring DEF/i,
+						groups: [2],
+						cssClasses: ["min-width-6"],
 					},
 					{
 						type: "separator",
