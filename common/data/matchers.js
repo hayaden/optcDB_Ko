@@ -3555,7 +3555,7 @@
 				name: "데미지 감소상태 비율에 따른 공격력 상승",
 				targets: ["captain", "special", "superSpecial"],
 				regex:
-					/boosts Crew Damage Reduction to ATK of (?=((?:[^c."]+|c(?!har))*))\1characters? by ([?.\d]+)x-([?.\d]+)x, proportional to the strength of crew's Percent Damage Reduction buff, for ([?\d]+\+?)(?:-([?\d]+))? turns?/i,
+					/boosts Crew Damage Reduction to ATK of (?=((?:[^c."]+|c(?!har))*))\1characters? by ([?.\d]+)x-([?.\d]+)x, proportional to the strength of crew's Percent Damage Reduction buff([^,]*), for ([?\d]+\+?)(?:-([?\d]+))? turns?/i,
 				submatchers: [
 					{
 						type: "number",
@@ -3565,19 +3565,27 @@
 					{
 						type: "number",
 						description: "턴:",
-						groups: [4, 5],
+						groups: [5, 6],
+					},
+					{
+						type: "option",
+						description: "적의 해제 효과 무효",
+						regex: /preventing buff clears/,
+						radioGroup: "targets",
+						groups: [4],
+						cssClasses: ["min-width-6"],
 					},
 					...createUniversalSubmatcher([1]),
-					// {
-					// 	type: "separator",
-					// 	description: "영향을 받는 속성:",
-					// },
-					// ...createTypesSubmatchers([1]),
-					// {
-					// 	type: "separator",
-					// 	description: "영향을 받는 타입:",
-					// },
-					// ...createClassesSubmatchers([1]),
+					{
+						type: "separator",
+						description: "영향을 받는 속성:",
+					},
+					...createTypesSubmatchers([1]),
+					{
+						type: "separator",
+						description: "영향을 받는 타입:",
+					},
+					...createClassesSubmatchers([1]),
 				],
 			},
 			{
@@ -4969,12 +4977,20 @@
 				name: "회복: 턴 종료시",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex:
-					/Recovers[^."]+?HP at the end of (?:the|each) turn for ([?\d]+\+?)(?:-([?\d]+))? turns?(?:, for ([?\d]+\+?)(?:-([?\d]+))? turns?)?/i,
+					/Recovers[^."]+?HP at the end of (?:the|each) turn(?:, ([^,]+),)? for ([?\d]+\+?)(?:-([?\d]+))? turns?(?:, for ([?\d]+\+?)(?:-([?\d]+))? turns?)?/i,
 				submatchers: [
 					{
 						type: "number",
 						description: "턴:",
-						groups: [1, 2, 3, 4],
+						groups: [2, 3, 4, 5],
+					},
+					{
+						type: "option",
+						description: "적의 해제효과 무효",
+						regex: /preventing buff clears/,
+						radioGroup: "targets",
+						groups: [1],
+						cssClasses: ["min-width-6"],
 					},
 				],
 			},

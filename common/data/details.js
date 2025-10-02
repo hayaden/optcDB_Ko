@@ -173418,7 +173418,7 @@ window.details = {
         ]
     },
     4431: {//Jinbe
-        captain: "Reduces crew's current HP by 75% at the start of the fight, reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of [PSY], Cerebral and Free Spirit characters by 5x, by 5.75x instead if HP is below 30% at the start of the turn, boosts HP of [PSY], Cerebral and Free Spirit characters by 1.5x, makes [PSY], [RCV] and [TND] orbs beneficial for all characters, reduces damage received by 30%, and launches the following effect at start of quest: reduces damage received by 100% for 1 attack. If your crew has 4+ [Straw Hat Pirates] characters, reduces Burn duration by 6 turns.",
+        captain: "Reduces crew's current HP by 75% at the start of the fight, reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of [PSY], Cerebral and Free Spirit characters by 5x, by 5.75x instead if HP is below 30% at the start of the turn, boosts HP of [PSY], Cerebral and Free Spirit characters by 1.5x, makes [PSY], [RCV] and [TND] orbs beneficial for all characters, reduces damage received by 30%, and launches the following effect at start of fight: reduces damage received by 100% for 1 attack. If your crew has 4+ [Straw Hat Pirates] characters, reduces Burn duration by 6 turns.",
         captainNotes: "Damage Nullification activates on the first instance of damage taken from the enemy.",
         special: "Removes Target Lock duration completely, reduces Bind duration by 6 turns, and increases Chain Tap Timing Bonus of [PSY], Cerebral and Free Spirit characters to +0.3x-0.7x for 3 turns depending on Tap Timing. If your crew has 5+ [Straw Hat Pirates] characters, there is only 1 enemy on the stage, and that enemy has less than or equal to 20% of their MAX HP: instantly defeats that enemy. If HP is below 30% when the special is activated and your crew has 5+ [Egghead Arc] characters, reduces damage received by 100% for 1 attack, and boosts Final Tap ATK of Cerebral or Free Spirit characters by 30%.",
         specialNotes: "GOOD: +0.3, GREAT: +0.5, PERFECT: +0.7",
@@ -173629,7 +173629,7 @@ window.details = {
         }
     },
     4433: {//Kuma
-        captain: "Reduces Special Cooldown of [Child] and [Paramythia-type] characters by 7 turns at the start of the fight, boosts ATK of Fighter and Powerhouse characters by 5.25x, boosts HP of Fighter and Powerhouse characters by 1.4x, boosts base HP of [Child] and [Paramythia-type] characters by 1,500, makes [QCK] and [RCV] orbs beneficial for Fighter and Powerhouse characters, protects from defeat as long as HP is above 60%, and launches the following effect at start of quest: reduces any damage received above 10,000 HP by 65% for 10 turns.",
+        captain: "Reduces Special Cooldown of [Child] and [Paramythia-type] characters by 7 turns at the start of the fight, boosts ATK of Fighter and Powerhouse characters by 5.25x, boosts HP of Fighter and Powerhouse characters by 1.4x, boosts base HP of [Child] and [Paramythia-type] characters by 1,500, makes [QCK] and [RCV] orbs beneficial for Fighter and Powerhouse characters, protects from defeat as long as HP is above 60%, and launches the following effect at start of fight: reduces any damage received above 10,000 HP by 65% for 10 turns.",
         special: "Deals 290x character's ATK in Typeless Fixed True damage to one enemy, and reduces enemies' Threshold Damage Reduction duration by 7 turns. If your crew has ATK Up and Chain Lock when the special is activated, boosts Base ATK of [STR], Free Spirit and Powerhouse characters by 1,750 for 2 turns. If your crew has ATK Up when the special is activated, sets Chain Boundaries to 3.25x and 30.0x for 2 turns; boosts ATK of [STR], Free Spirit and Powerhouse characters by 3.25x for 2 turns otherwise. If your crew has Jewelry Bonney as a member or supporting this character, reduces damage received from [INT] enemies by 100% for 2 turns, and boosts Final Tap ATK of all characters by 50%. If your crew has 3+ [Worst Generation], [Revolutionary Army] or [Paramythia-type] characters, increases duration of any ATK Up, Base ATK Boost and Chain Lock buffs by 1 turn, including effects activated in the same ability.",
         specialName: "Science-Defying Strike",
         sailor: {
@@ -174652,22 +174652,22 @@ window.details = {
         ]
     },
     4449: {//S-Snake
-        captain: "Launches the following effect at start of quest: \"Reduces damage taken by 60% for 5 turns\", boosts Fighter and Driven characters' HP and RCV by 1.25x, boosts the next Fighter or Driven character's ATK by at least 5x (up to 5.75x) based on the timing of the previous attack, and completely removes character's Bind / Despair / Paralysis / Special Bind / Special Reverse",
-        special: "Inflicts Love-Love status on each enemy (binds regular attacks until they are hit 8 times), reduces crew's Despair/Paralysis duration by 6 turns, allows healing up to 2x crew's max HP ignoring max HP limit (effect cannot stack; if HP is above max limit, it is treated as being full HP) for 3 turns, heals crew by 20,000 HP, and heals crew by 15,000 HP at end of turn for 3 turns (cannot be removed by crew or enemies). If 4 or more [Vegapunk] [World Government] [Seraphim] characters are on the crew, boosts crew's ATK based on 200% of the damage reduction effect applied on the crew (e.g. if crew has 60% damage reduction, boosts ATK by 2.2x) for 1 turn (cannot be removed by crew or enemies; halves the effect otherwise (e.g. if crew has 60% damage reduction, boosts ATK by 1.6x))",
+        captain: "Boosts ATK of Fighter and Driven characters by 5x-5.75x based on the timing of the attack of the previous unit in the chain, boosts HP and RCV of Fighter and Driven characters by 1.25x, reduces Bind, Despair, Paralysis and Special Bind duration completely on this character, restores Special Cooldown of this character completely when it is rewinded, and launches the following effect at start of fight: reduces damage received by 60% for 5 turns.",
+        special: "Inflicts Melo-Melo to all enemies for 8 hits, reduces Despair and Paralysis duration by 6 turns, allows HP Overfill up to 2x MAX HP for 3 turns, recovers 20,000 HP, and recovers 15,000 HP at the end of the turn, preventing buff clears, for 3 turns. If your crew has 4+ [Vegapunk], [World Government] or [Seraphim] characters, boosts Crew Damage Reduction to ATK of all characters by 1x-3x, proportional to the strength of crew's Percent Damage Reduction buff and preventing buff clears, for 1 turn; boosts Crew Damage Reduction to ATK of all characters by 1x-2x, proportional to the strength of crew's Percent Damage Reduction buff, for 1 turn otherwise.",
         specialName: "Captivating Eyes",
         sailor: {
-            base: "Lets character completely evade Paralysis",
-            level1: "Reduces character's Special Reverse by 3 turns"
+            base: "Reduces Paralysis duration completely on this character.",
+            level1: "Restores Special Cooldown of this character by 3 turns when it is rewinded."
         },
         support: [
             {
                 Characters: "Fighter characters",
                 description: [
-                    "Adds 3% of character's base stats to supported character's base stats",
-                    "Adds 5% of character's base stats to supported character's base stats",
-                    "Adds 7% of character's base stats to supported character's base stats",
-                    "Adds 9% of character's base stats to supported character's base stats",
-                    "Adds 12% of character's base stats to supported character's base stats"
+                    "Adds 3% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 7% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 9% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 12% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV."
                 ]
             }
         ],
