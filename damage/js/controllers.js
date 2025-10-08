@@ -262,7 +262,7 @@ controllers.EffectsCtrl = function($scope, $state) {
 controllers.PopoverCtrl = function($scope) {
     if (!$scope.data.team[$scope.slot].unit) return;
     var id = $scope.data.team[$scope.slot].unit.number + 1;
-    $scope.details = window.details[id] ? JSON.parse(JSON.stringify(window.details[id])) : null;
+    $scope.details = window.details_kor[id] ? JSON.parse(JSON.stringify(window.details_kor[id])) : null;
     $scope.cooldown = window.cooldowns[id - 1];
     if (!$scope.details || !$scope.details.special) return;
     if ($scope.details.special){
