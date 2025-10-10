@@ -734,6 +734,10 @@ const EthanbaronVNusjuro = [ "Saint Ethanbaron V. Nusjuro" ];
 const Hound = [ "Hound" ];
 const Urban = [ "Urban" ];
 const Pomsky = [ "Pomsky" ];
+const TopmanWarcury = [ "Saint Topman Warcury" ];
+const MarcusMars = [ "Saint Marcus Mars" ];
+const Tosa = [ "Tosa" ];
+const Guillotine = [ "Guillotine" ];
 
 window.families = {
     1: [ ...MonkeyDLuffy ],
@@ -5069,7 +5073,14 @@ window.families = {
     4445: [ ...Urban ],
     4446: [ ...Pomsky ],
     4447: [ ...MonkeyDLuffy ],
-    //4448: [ ...MonkeyDLuffy ],
+    4448: [ ...MonkeyDLuffy ],
+    4449: [ ...SSnake ],
+    4450: [ ...TopmanWarcury ],
+    4451: [ ...TopmanWarcury ],
+    4452: [ ...MarcusMars ],
+    4453: [ ...MarcusMars ],
+    4454: [ ...Tosa ],
+    4455: [ ...Guillotine ],
     4449: [ ...SSnake ],
     //break 해당 코드의 역할은 세부정보창의 가족부분담당
     4986: [ ...MonkeyDLuffy ],
