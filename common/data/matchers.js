@@ -2553,7 +2553,7 @@
 			},
 
 			{
-				name: "상태이상시 공격력 증가: 방어력 상승",
+				name: "상태이상시 공격력 증가: 방어력 감소",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex:
 					/Boosts ATK against[^."]+?enemies with reduced defense[^."]+?by ([?.\d]+)x(?:-([?.\d]+)x)?(?:, ([^,]+),)? for ([?\d]+\+?)(?:-([?\d]+))? turns?(?:, by ([?.\d]+)x(?:-([?.\d]+)x)?(?:, ([^,]+),)?(?: for ([?\d]+\+?)(?:-([?\d]+))? turns?)?)?/i,
