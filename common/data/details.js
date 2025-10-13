@@ -168931,7 +168931,7 @@ window.details = {
 		superSpecialCriteria: "This character must be captain. If your crew has a HP Overfill buff or an ATK Up buff with an effect of 8x or more",
 		support: [
 			{
-				Characters: "Characters with a Cost of 99 or more",
+				Characters: "Characters with cost 99 or more",
 				description: [
 					"Once per adventure, when the supported character uses their special, reduces enemies' Percent Damage Reduction duration by 2 turns.",
 					"Once per adventure, when the supported character uses their special, reduces enemies' Percent Damage Reduction duration by 3 turns.",
@@ -171495,7 +171495,7 @@ window.details = {
         superSpecial: "Changes the orb, including [BLOCK] orb, of this character into a [INT] orb, boosts Base ATK of [Five Elders] and [Celestial Dragon] characters by 1,500 for 1 turn, boosts Critical Hit Rate of [DEX] and [INT] characters by 20% for 1 turn, and transforms [INT] characters into Super [INT] characters.",
         support: [
             {
-                Characters: "Characters with a Cost of 99 or more",
+                Characters: "Characters with cost 99 or more",
                 description: [
                     "Once per adventure, when an enemy inflicts you with Special Bind, reduces Special Bind duration by 2 turns on the supported character.",
                     "Once per adventure, when an enemy inflicts you with Special Bind, reduces Special Bind duration by 3 turns on the supported character.",
@@ -174173,7 +174173,7 @@ window.details = {
         superSpecial: "Reduces Paralysis duration by 10 turns, reduces enemies' Driven Resistance by -50% for 1 turn, transforms [DEX] characters into Super [DEX] characters, and transforms Driven characters into Super Driven characters.",
         support: [
             {
-                Characters: "Characters with a Cost of 99 or more",
+                Characters: "Characters with cost 99 or more",
                 description: [
                     "Once per adventure, when the supported character uses their special, reduces enemies' Threshold Damage Reduction duration by 2 turns.",
                     "Once per adventure, when the supported character uses their special, reduces enemies' Threshold Damage Reduction duration by 3 turns.",
@@ -174294,7 +174294,7 @@ window.details = {
         superSpecial: "Enables ATK Up buffs to be enhanced up to 2 times, adds 1.2x to chain multiplier for 1 turn, transforms [PSY] characters into Super [PSY] characters, and transforms Driven characters into Super Driven characters.",
         support: [
             {
-                Characters: "Characters with a Cost of 99 or more",
+                Characters: "Characters with cost 99 or more",
                 description: [
                     "Once per adventure, when the supported character uses their special, reduces enemies' Increased Defense duration by 2 turns.",
                     "Once per adventure, when the supported character uses their special, reduces enemies' Increased Defense duration by 3 turns.",
@@ -175090,7 +175090,7 @@ window.details = {
         superSpecial: "Reduces Burn duration by 6 turns, reduces damage received by 70% for 1 turn, transforms [QCK] characters into Super [QCK] characters, and transforms Driven characters into Super Driven characters.",
         support: [
             {
-                Characters: "Characters with a Cost of 99 or more",
+                Characters: "Characters with cost 99 or more",
                 description: [
                     "Once per adventure, when an enemy inflicts you with Bind, reduces Bind duration by 1 turn.",
                     "Once per adventure, when an enemy inflicts you with Bind, reduces Bind duration by 1 turn.",
@@ -175391,7 +175391,7 @@ window.details = {
         superSpecial: "Reduces enemies' Barrier duration by 1 turn, boosts Final Tap ATK of Driven characters by 25%, transforms [STR] characters into Super [STR] characters, and transforms Driven characters into Super Driven characters.",
         support: [
             {
-                Characters: "Characters with a Cost of 99 or more",
+                Characters: "Characters with cost 99 or more",
                 description: [
                     "Once per adventure, when you reach the final stage, changes [BLOCK] orbs of Driven characters into [TND] orbs.",
                     "Once per adventure, when you reach the final stage, changes [BLOCK] orbs of Driven characters into [TND] orbs.",
