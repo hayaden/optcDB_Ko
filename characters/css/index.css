@@ -19,13 +19,21 @@ transform: scale(1, -1);
 	font-weight: normal;
 	font-style: normal;
 }
+/* ▼▼▼▼▼ [수정 포인트 1] 여기에 새로운 폰트 정의를 추가하세요 ▼▼▼▼▼ */
+@font-face {
+  font-family: 'Noto Sans KR'; /* 폰트 이름 지정 */
+  src: url('./fonts/NOTOSANSKR-REGULAR.TTF') format('truetype'); /* 폰트 파일 경로 지정 */
+  font-weight: normal;
+  font-style: normal;
+}
+/* ▲▲▲▲▲ 여기까지 추가 ▲▲▲▲▲ */
 
 body, html {
     height: 100%;
-    font-family: 'PT Sans', sans-serif;
+    /* 'PT Sans'를 'Noto Sans KR'로 변경 */
+    font-family: 'Noto Sans KR', sans-serif;
     overflow-y: hidden;
 }
-
 #queryContainer {
     padding: 10px;
     display: flex;
