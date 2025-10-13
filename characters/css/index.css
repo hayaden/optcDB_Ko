@@ -10,16 +10,23 @@ transform: scale(1, -1);
 */
 
 @font-face {
-	font-family: 'icomoon';
-	src:url('../../res/icomoon.eot?xewvs9');
-	src:url('../../res/icomoon.eot?xewvs9#iefix') format('embedded-opentype'),
-		url('../../res/icomoon.ttf?xewvs9') format('truetype'),
-		url('../../res/icomoon.woff?xewvs9') format('woff'),
-		url('../../res/icomoon.svg?xewvs9#icomoon') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
+  /* 1. 폰트 이름 바꾸기 */
+  font-family: 'Noto Sans KR'; /* 앞으로 CSS에서 사용할 이 폰트의 이름을 지정합니다. */
 
+  /* 2. 폰트 파일 경로와 포맷 지정하기 */
+  src: url('./fonts/NOTOSANSKR-REGULAR.TTF') format('truetype');
+  /*
+   * url('파일 경로'): 'NOTOSANSKR-REGULAR.TTF' 파일이 있는 위치를 정확하게 적어주세요.
+   * - './fonts/'는 CSS 파일을 기준으로 'fonts'라는 폴더 안에 있다는 의미의 예시입니다.
+   * - 만약 CSS 파일과 폰트 파일이 같은 폴더에 있다면 url('NOTOSANSKR-REGULAR.TTF') 로 적으면 됩니다.
+   *
+   * format('truetype'): 파일의 형식이 TTF(TrueType Font)임을 브라우저에 알려줍니다.
+   */
+
+  /* 폰트의 기본 두께와 스타일을 지정합니다. (필요에 따라 조절) */
+  font-weight: 400;  /* normal 또는 400을 주로 사용합니다. */
+  font-style: normal;
+}
 body, html {
     height: 100%;
     font-family: 'PT Sans', sans-serif;
