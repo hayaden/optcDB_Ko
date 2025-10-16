@@ -764,8 +764,8 @@
 			}
 			if (filters.dualUnits) {
 				//if (unit.class.length != 3) return false;
-				if (window.details[unit.number + 1]) {
-					if (!Object.keys(window.details[unit.number + 1]).includes("swap"))
+				if (window.details_kor[unit.number + 1]) {
+					if (!Object.keys(window.details_kor[unit.number + 1]).includes("swap"))
 						return false;
 				} else return false;
 			}
@@ -780,9 +780,9 @@
 			}
 			if (filters.superTypeUnits) {
 				//if (unit.class.length != 2 || unit.type.length != 2)  return false;
-				if (window.details[unit.number + 1]) {
+				if (window.details_kor[unit.number + 1]) {
 					if (
-						!Object.keys(window.details[unit.number + 1]).includes(
+						!Object.keys(window.details_kor[unit.number + 1]).includes(
 							"superSpecial"
 						)
 					)
