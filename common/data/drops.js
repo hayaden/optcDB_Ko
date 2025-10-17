@@ -8440,6 +8440,17 @@ window.drops = {
             'Kizuna Exchange': [ "4371-skull", "4439-skull" ]
         },
 
+        {
+            name: 'Blackbeard',
+            dropID: 'kizuna73',
+            thumb: 4458,
+            global: true,
+            nakama: null,
+            gamewith: null,
+            'Kizuna Exchange': [ "4458-skull" ]
+        },
+
+
     ],
 //name: 캐릭터 이름. dropID: 드랍의 고유 ID, thumb: 캐릭터 썸네일 번호, global: 글로벌 서버에 등장여부, nakama: 나카마db와 연동 정보
 //gamewith: 게임위드와 연동정보, kizuna Exchange: 유대결전 교환소에서 교환 가능한 아이템 목록

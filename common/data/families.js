@@ -5081,7 +5081,9 @@ window.families = {
     4453: [ ...MarcusMars ],
     4454: [ ...Tosa ],
     4455: [ ...Guillotine ],
-    4449: [ ...SSnake ],
+    4456: [ ...VascoShot ],
+    4457: [ ...AvaloPizarro ],
+    4458: [ ...MarshallDTeach ],
     //break 해당 코드의 역할은 세부정보창의 가족부분담당
     4986: [ ...MonkeyDLuffy ],
     4987: [ ...MonkeyDLuffy ],
@@ -5798,6 +5800,9 @@ const ghostFamilies = {
     693: [ ...Nami, ...Usopp ],
     694: [ ...Nami, ...Usopp ],
     695: [ ...Nami, ...Usopp ],
+    696: [ ...MarshallDTeach ],
+    697: [ ...MarshallDTeach ],
+    698: [ ...MarshallDTeach ],
 }
 
 Object.keys(ghostFamilies).forEach(function (key) {
