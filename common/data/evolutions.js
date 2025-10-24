@@ -6073,7 +6073,7 @@ window.evolutions = {
     },
     3280: {
         evolution: 4458,
-        evolvers: [ "4458-skull", "4458-skull", "4458-skull", "4458-skull", "4458-skull" ]
+        evolvers: [ "4458-skull", "4458-skull", "4458-skull", "skullINT", "skullINT" ]
     },
     3118: {
         evolution: 4465,
