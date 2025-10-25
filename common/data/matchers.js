@@ -2488,7 +2488,7 @@
 				name: "상태이상시 공격력 증가: 지연상태",
 				targets: ["captain"],
 				regex:
-					/Boosts (?:ATK|([^."]*?)characters?' ATK) against[^."]+?delayed enemies[^."]+?by ([?.\d]+)x(?:-([?.\d]+)x)?(?:, by ([?.\d]+)x(?:-([?.\d]+)x)?)?/i,
+					/Boosts (?:ATK|([^."]*?)characters? ATK) against[^."]+?delayed enemies[^."]+?by ([?.\d]+)x(?:-([?.\d]+)x)?(?:, by ([?.\d]+)x(?:-([?.\d]+)x)?)?/i,
 				submatchers: [
 					{
 						type: "number",
@@ -3360,7 +3360,7 @@
 
 			{
 				name: "적 전체 타겟인정",
-				targets: ["special", "superSpecial"],
+				targets: ["captain", "special", "superSpecial"],
 				regex:
 					/Inflicts all (?:the )?enemies with Set Target, increasing damage taken from (?=((?:[^c."]+|c(?!har))*))\1characters? by ([?.\d]+)x(?:-([?.\d]+)x)? and reducing special cooldown of (?=((?:[^c."]+|c(?!har))*))\4characters?(?: by ([?\d]+\+?)(?:-([?\d]+))? turns?)(?:\D+,) for ([?\d]+\+?)(?:-([?\d]+))? turns?/i,
 				submatchers: [
@@ -8154,7 +8154,7 @@
 
 			{
 				name: "방어력 상승",
-				targets: ["special", "superSpecial", "swap", "support"],
+				targets: ["captain", "special", "superSpecial", "swap", "support"],
 				regex:
 					/(?:reduces|removes) enemies'[^."]+?Increased Defense[^."]+?duration (?:by ([?\d]+)(?:-([?\d]+))? turns?|(completely))(?:, by ([?\d]+)(?:-([?\d]+))? turns?)?/i,
 				submatchers: [
@@ -8174,14 +8174,20 @@
 
 			{
 				name: "데미지 감소상태",
-				targets: ["special", "superSpecial", "swap", "support"],
+				targets: ["captain", "special", "superSpecial", "swap", "support"],
 				regex:
-					/(?:reduces|removes) enemies'[^."]+?Percent Damage Reduction[^."]+?duration (?:by ([?\d]+)(?:-([?\d]+))? turns?|(completely))(?:, by ([?\d]+)(?:-([?\d]+))? turns?)?/i,
+					/(?:reduces|removes) enemies'[^."]+?Percent Damage Reduction[^."]+?(?:duration (?:by ([?\d]+)(?:-([?\d]+))? turns?|(completely))(?:, by ([?\d]+)(?:-([?\d]+))? turns?)?|effect (?:by (\d+)%(?:-(\d+)%)?)(?:, by (\d+)%(?:-(\d+)%)?)?)/i,
 				submatchers: [
 					{
 						type: "number",
 						description: "턴:",
 						groups: [1, 2, 3, 4, 5],
+					},
+
+					{
+						type: "number",
+						description: "비율:",
+						groups: [6, 7, 8, 9],
 					},
 				],
 			},
@@ -8194,14 +8200,20 @@
 
 			{
 				name: "데미지 무효",
-				targets: ["special", "superSpecial", "swap", "support"],
+				targets: ["captain", "special", "superSpecial", "swap", "support"],
 				regex:
-					/(?:reduces|removes) enemies'[^."]+?Damage Nullification[^."]+?duration (?:by ([?\d]+)(?:-([?\d]+))? turns?|(completely))(?:, by ([?\d]+)(?:-([?\d]+))? turns?)?/i,
+					/(?:reduces|removes) enemies'[^."]+?Damage Nullification[^."]+?(?:duration (?:by ([?\d]+)(?:-([?\d]+))? turns?|(completely))(?:, by ([?\d]+)(?:-([?\d]+))? turns?)?|effect (?:by (\d+)%(?:-(\d+)%)?)(?:, by (\d+)%(?:-(\d+)%)?)?)/i,
 				submatchers: [
 					{
 						type: "number",
 						description: "턴:",
 						groups: [1, 2, 3, 4, 5],
+					},
+
+					{
+						type: "number",
+						description: "비율:",
+						groups: [6, 7, 8, 9],
 					},
 				],
 			},
@@ -8214,14 +8226,20 @@
 
 			{
 				name: "일정 이상데미지 감소상태",
-				targets: ["special", "superSpecial", "swap", "support"],
+				targets: ["captain", "special", "superSpecial", "swap", "support"],
 				regex:
-					/(?:reduces|removes) enemies'[^."]+?Threshold Damage Reduction[^."]+?duration (?:by ([?\d]+)(?:-([?\d]+))? turns?|(completely))(?:, by ([?\d]+)(?:-([?\d]+))? turns?)?/i,
+					/(?:reduces|removes) enemies'[^."]+?Threshold Damage Reduction[^."]+?(?:duration (?:by ([?\d]+)(?:-([?\d]+))? turns?|(completely))(?:, by ([?\d]+)(?:-([?\d]+))? turns?)?|effect (?:by (\d+)%(?:-(\d+)%)?)(?:, by (\d+)%(?:-(\d+)%)?)?)/i,
 				submatchers: [
 					{
 						type: "number",
 						description: "턴:",
 						groups: [1, 2, 3, 4, 5],
+					},
+
+					{
+						type: "number",
+						description: "비율:",
+						groups: [6, 7, 8, 9],
 					},
 				],
 			},
@@ -8248,7 +8266,7 @@
 
 			{
 				name: "베리어",
-				targets: ["special", "superSpecial", "swap", "support"],
+				targets: ["captain", "special", "superSpecial", "swap", "support"],
 				regex:
 					/(?:reduces|removes) enemies'[^."]+?Barrier[^."]+?duration (?:by ([?\d]+)(?:-([?\d]+))? turns?|(completely))(?:, by ([?\d]+)(?:-([?\d]+))? turns?)?/i,
 				submatchers: [
@@ -8268,7 +8286,7 @@
 
 			{
 				name: "버티기",
-				targets: ["special", "superSpecial", "swap", "support"],
+				targets: ["captain", "special", "superSpecial", "swap", "support"],
 				regex:
 					/(?:reduces|removes) enemies'[^."]+?Resilience[^."]+?duration (?:by ([?\d]+)(?:-([?\d]+))? turns?|(completely))(?:, by ([?\d]+)(?:-([?\d]+))? turns?)?/i,
 				submatchers: [
