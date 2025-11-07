@@ -773,9 +773,9 @@
 			}
 			if (filters.vsUnits) {
 				//if (unit.class.length != 2 || unit.type.length != 2)  return false;
-				if (window.details[unit.number + 1]) {
+				if (window.details_kor[unit.number + 1]) {
 					if (
-						!Object.keys(window.details[unit.number + 1]).includes("VSSpecial")
+						!Object.keys(window.details_kor[unit.number + 1]).includes("VSSpecial")
 					)
 						return false;
 				} else return false;
