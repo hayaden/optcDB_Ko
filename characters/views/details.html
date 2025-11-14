@@ -452,29 +452,29 @@
                                                 ng-bind-html="details.sailor.combined | decorate"></div>
                                             <div ng-if="details.sailor.character1">
                                                 <div ng-if="details.sailor.character1.constructor.name === 'String'">
-                                                    <span class="badge badge-character1" ng-show="details.sailor.character1">Character 1 Sailor</span>
+                                                    <span class="badge badge-character1" ng-show="details.sailor.character1">캐릭터1 선원효과</span>
                                                     <span ng-show="details.sailor.character1" ng-bind-html="details.sailor.character1 | decorate"></span>
                                                 </div>
                                                 <div ng-if="details.sailor.character1.base">
-                                                    <span class="badge badge-character1" ng-show="details.sailor.character1">Character 1 Sailor</span>
+                                                    <span class="badge badge-character1" ng-show="details.sailor.character1">캐릭터1 선원효과</span>
                                                     <span ng-show="details.sailor.character1" ng-bind-html="details.sailor.character1.base | decorate"></span>
                                                 </div>
                                                 <div ng-if="details.sailor.character1.base2">
-                                                    <span class="badge badge-character1" ng-show="details.sailor.character1">Character 1 Sailor</span>
+                                                    <span class="badge badge-character1" ng-show="details.sailor.character1">캐릭터1 선원효과</span>
                                                     <span ng-show="details.sailor.character1" ng-bind-html="details.sailor.character1.base2 | decorate"></span>
                                                 </div>
                                             </div>
                                             <div ng-if="details.sailor.character2">
                                                 <div ng-if="details.sailor.character2.constructor.name === 'String'">
-                                                    <span class="badge badge-character2" ng-show="details.sailor.character2">Character 2 Sailor</span>
+                                                    <span class="badge badge-character2" ng-show="details.sailor.character2">캐릭터2 선원효과</span>
                                                     <span ng-show="details.sailor.character2" ng-bind-html="details.sailor.character2 | decorate"></span>
                                                 </div>
                                                 <div ng-if="details.sailor.character2.base">
-                                                    <span class="badge badge-character2" ng-show="details.sailor.character2">Character 2 Sailor</span>
+                                                    <span class="badge badge-character2" ng-show="details.sailor.character2">캐릭터2 선원효과</span>
                                                     <span ng-show="details.sailor.character2" ng-bind-html="details.sailor.character2.base | decorate"></span>
                                                 </div>
                                                 <div ng-if="details.sailor.character2.base2">
-                                                    <span class="badge badge-character2" ng-show="details.sailor.character2">Character 2 Sailor</span>
+                                                    <span class="badge badge-character2" ng-show="details.sailor.character2">캐릭터2 선원효과</span>
                                                     <span ng-show="details.sailor.character2" ng-bind-html="details.sailor.character2.base2 | decorate"></span>
                                                 </div>
                                             </div>
@@ -539,7 +539,7 @@
                                 </tr>
                                 <tr>
                                     <td width="5%">필살기</td>
-                                    <td colspan="{{details.special.llbbase ? 1 : 2}}">
+                                    <td colspan="{{details.special.llbbase || details.special.llbcharacter1 ? 1 : 2}}">
                                         <strong class="specialName" 
                                             ng-if="details.specialName">{{::details.specialName}}</strong>
                                         <!-- same special, no stages -->
@@ -611,7 +611,7 @@
                                         <span class="notes" ng-if="details.specialNotes" 
                                             ng-bind-html="details.specialNotes | notes | decorate"></span>
                                     </td>
-                                    <td ng-if="details.special.llbbase">
+                                    <td ng-if="details.special.llbbase || details.special.llbcharacter1">
                                         <strong class="specialName" 
                                             ng-if="details.specialName">{{::details.specialName}}</strong>
                                         <!-- different specials -->
