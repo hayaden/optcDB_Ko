@@ -176668,24 +176668,24 @@ window.details = {
         ]
     },
     4472: {//Doflamingo Pirates
-        captain: "Reduces crew's Special charge time by 2 turns and Switch Effect by 2 at start of quest, boosts [QCK], Cerebral, and Driven characters' HP by 1.3x, ATK by 5.25x, boosts their ATK by approximately 5.75x when they have [QCK][INT][TND] slots, and approximately 6x when they have [EMPTY][G] slots. If crew is afflicted with Despair status from a Special launched by the crew (including Support Effects) or by an enemy action, converts that effect to \"applies -30% Cerebral and Driven Resistance to all enemies for 2 turns\" regardless of the effective turns of the converted effect (if crew is afflicted with Despair by an enemy action, depending on if the enemy action was a preemptive action or end of turn action, the effect duration will be 1 turn at start of crew's next turn)",
-        special: "Reduces crew's Burn/Special Bind duration by 7 turns, extends the duration of crew's type effect boost by 2 turns, further increases crew's type effect boost by 1.25x (maximum value is 10x), then after 1 turn, delays all enemies for 1 turn ignoring immunity to Delay, immunity to all status effects, or immunity (excluding certain status effect), and extends the duration of crew's ATK based on damage reduction effect by 2 turns. If crew has ATK based on damage reduction effect when Special is launched, boosts Cerebral and Driven characters' base ATK by +1500 for 3 turns. If Captain is a Cerebral or Driven class, boosts Cerebral and Driven characters' ATK based on the damage reduction effect applied on the crew (e.g. if crew has 80% damage reduction, boosts ATK by 1.8x) for 3 turns, then after that, boosts Cerebral and Driven characters' ATK based on the damage reduction effect applied on the crew (e.g. if crew has 80% damage reduction, boosts ATK by 1.8x) for 1 turn",
+        captain: "Reduces Special Cooldown of all characters by 2 turns and reduces Switch Effect of all characters by 2 at the start of the fight, boosts ATK of [QCK], Cerebral and Driven characters by 5.25x, by 5.75x instead if they have a [QCK], [INT] or [TND] orb and by 6x instead if they have a [EMPTY] or [G] orb, and boosts HP of [QCK], Cerebral and Driven characters by 1.3x. If crew is inflicted with Despair from a Special, Support Ability or Enemy Action, replaces that debuff with the following effect: reduces enemies' Cerebral and Driven Resistance by -30% for 2 turns.",
+        special: "Reduces Burn and Special Bind duration by 7 turns, increases duration of any Color Affinity buffs by 2 turns, increases boost effects of Color Affinity buffs by 1.25x (up to 10x); and after 1 turn, ignores debuff protection and delays all enemies by 1 turn, and increases duration of any Crew Damage Reduction to ATK buffs by 2 turns. If your crew has Crew Damage Reduction to ATK when the special is activated, boosts Base ATK of Cerebral and Driven characters by 1,500 for 3 turns. If your Captain is a Cerebral or Driven character, boosts Crew Damage Reduction to ATK of Cerebral and Driven characters by 1x-2x, proportional to the strength of crew's Percent Damage Reduction buff, for 3 turns. Then, boosts Crew Damage Reduction to ATK of Cerebral and Driven characters by 1x-2x, proportional to the strength of crew's Percent Damage Reduction buff, for 1 turn.",
         specialName: "Darkness-Ruling Family",
         sailor: {
-            level1: "Boosts Cerebral and Driven characters' base ATK by 100, and makes their [QCK] slots have matching slot effects",
-            level2: "Reduces crew's Despair duration by 1 turn"
+            level1: "Boosts base ATK of Cerebral and Driven characters by 100. Makes [QCK] orbs beneficial for Cerebral and Driven characters.",
+            level2: "Reduces Despair duration by 1 turn."
         },
-        superSpecialCriteria: "When character's slot is [EMPTY] or [G] or any of the following characters are on the crew (except as Support Characters; can be launched when character is a crewmate): Vergo, Monet, Baby 5, Sugar, Giolla, Lao G., Senor Pink, Machvise, Dellinger, Gladius, Buffalo, Kaido, Caesar Clown (Gastino)",
-        superSpecial: "Reduces character's Special Bind duration by 7 turns, boosts damage dealt to delayed enemies by 2.25x for 3 turns, and changes [QCK] characters to Super [QCK]",
+        superSpecialCriteria: "Can be launched as crewmate. This character must have a [EMPTY] or [G] orb or your crew must consist of any 1 of the following, excluding supports and counting only 1 per unit: Vergo, Monet, Baby 5, Sugar, Giolla, Lao G., Senor Pink, Machvise, Dellinger, Gladius, Buffalo, Kaido, Caesar Clown (Gastino)",
+        superSpecial: "Reduces Special Bind duration by 7 turns on this character, boosts ATK against delayed enemies by 2.25x for 3 turns, and transforms [QCK] characters into Super [QCK] characters.",
         support: [
             {
                 Characters: "Vergo, Monet, Baby 5, Buffalo, Sugar, Senor Pink, Giolla, Lao G., Machvise, Gladius, Dellinger",
                 description: [
-                    "Once per quest, if inflicted with Special Bind status from the enemy, reduces supported character's Special Bind duration by 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Special Bind status from the enemy, reduces supported character's Special Bind duration by 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Special Bind status from the enemy, reduces supported character's Special Bind duration by 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Special Bind status from the enemy, reduces supported character's Special Bind duration by 2 turns at start of crew's next turn",
-                    "Once per quest, if inflicted with Special Bind status from the enemy, reduces supported character's Special Bind duration by 3 turns, and boosts Cerebral and Driven characters' ATK based on the damage reduction effect applied on the crew (e.g. if crew has 100% damage reduction, boosts ATK by 1.5x) for 1 turn at start of crew's next turn"
+                    "Once per adventure, when an enemy inflicts you with Special Bind, reduces Special Bind duration by 1 turn on the supported character.",
+                    "Once per adventure, when an enemy inflicts you with Special Bind, reduces Special Bind duration by 1 turn on the supported character.",
+                    "Once per adventure, when an enemy inflicts you with Special Bind, reduces Special Bind duration by 1 turn on the supported character.",
+                    "Once per adventure, when an enemy inflicts you with Special Bind, reduces Special Bind duration by 2 turns on the supported character.",
+                    "Once per adventure, when an enemy inflicts you with Special Bind, reduces Special Bind duration by 3 turns on the supported character, and boosts Crew Damage Reduction to ATK of Cerebral and Driven characters by 1x-1.5x, proportional to the strength of crew's Percent Damage Reduction buff, for 1 turn."
                 ]
             }
         ],
@@ -176762,87 +176762,25 @@ window.details = {
                     "Boosts Damage Limit Break effect based on number of Cerebral characters on the crew (except as Support Characters): +0.2 for 1, +.0.3 for 2, +0.4 for 3, +0.5 for 4, +0.6 for 5, +0.75 for 6 "
                 ]
             }
-        ],
-        festStats: {
-            def: 153,
-            spd: 180,
-            style: "ATK"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Normal Attack",
-            "Power Attack",
-            "Full Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "Completely evades Special Bind, reduce damage taken from [STR] by 30％",
-        festAbility: [
-            "[QCK]/Driven class teammates ATK Up Lv.2, SPD Up Lv.2, RCV Up Lv.2; if 5 or more Driven characters are on the team, [Donquixote Pirates] [Paramythia-type] [Logia-type] [World Government] teammates Special CT Speed Up Lv.1, SPD Up Lv.1",
-            "[QCK]/Driven class teammates ATK Up Lv.3, SPD Up Lv.3, RCV Up Lv.3; if 5 or more Driven characters are on the team, [Donquixote Pirates] [Paramythia-type] [Logia-type] [World Government] teammates Special CT Speed Up Lv.1, SPD Up Lv.1",
-            "[QCK]/Driven class teammates ATK Up Lv.4, SPD Up Lv.4, RCV Up Lv.4; if 5 or more Driven characters are on the team, [Donquixote Pirates] [Paramythia-type] [Logia-type] [World Government] teammates Special CT Speed Up Lv.2, SPD Up Lv.2",
-            "[QCK]/Driven class teammates ATK Up Lv.5, SPD Up Lv.5, RCV Up Lv.5; if 5 or more Driven characters are on the team, [Donquixote Pirates] [Paramythia-type] [Logia-type] [World Government] teammates Special CT Speed Up Lv.2, SPD Up Lv.3",
-            "[QCK]/Driven class teammates ATK Up Lv.6, SPD Up Lv.6, RCV Up Lv.6; if 5 or more Driven characters are on the team, [Donquixote Pirates] [Paramythia-type] [Logia-type] [World Government] teammates Special CT Speed Up Lv.3, SPD Up Lv.4"
-        ],
-        festSpecial: [
-            {
-                cooldown: 31,
-                description: "Targets enemies within large range for ATK Down Lv.1 (11 s), SPD Down Lv.1 (11 s); targets 3 enemies ignoring DEF for ATK x 1 damage; targets Driven teammates for Shield Lv.1 (11 s); if 5 or more [QCK] characters are on the team, targets [Donquixote Pirates] [Paramythia-type] [Logia-type] [World Government] teammates for 32% chance to evade DEF ignoring damage (11 s)"
-            },
-            {
-                cooldown: 31,
-                description: "Targets enemies within large range for ATK Down Lv.1 (12 s), SPD Down Lv.1 (12 s); targets 3 enemies ignoring DEF for ATK x 1.1 damage; targets Driven teammates for Shield Lv.1 (12 s); if 5 or more [QCK] characters are on the team, targets [Donquixote Pirates] [Paramythia-type] [Logia-type] [World Government] teammates for 34% chance to evade DEF ignoring damage (12 s)"
-            },
-            {
-                cooldown: 31,
-                description: "Targets enemies within large range for ATK Down Lv.1 (13 s), SPD Down Lv.1 (13 s); targets 3 enemies ignoring DEF for ATK x 1.2 damage; targets Driven teammates for Shield Lv.1 (13 s); if 5 or more [QCK] characters are on the team, targets [Donquixote Pirates] [Paramythia-type] [Logia-type] [World Government] teammates for 36% chance to evade DEF ignoring damage (13 s)"
-            },
-            {
-                cooldown: 31,
-                description: "Targets enemies within large range for ATK Down Lv.2 (14 s), SPD Down Lv.2 (14 s); targets 3 enemies ignoring DEF for ATK x 1.3 damage; targets Driven teammates for Shield Lv.1 (14 s); if 5 or more [QCK] characters are on the team, targets [Donquixote Pirates] [Paramythia-type] [Logia-type] [World Government] teammates for 38% chance to evade DEF ignoring damage (14 s)"
-            },
-            {
-                cooldown: 31,
-                description: "Targets enemies within large range for ATK Down Lv.2 (15 s), SPD Down Lv.2 (15 s); targets 3 enemies ignoring DEF for ATK x 1.4 damage; targets Driven teammates for Shield Lv.2 (15 s); if 5 or more [QCK] characters are on the team, targets [Donquixote Pirates] [Paramythia-type] [Logia-type] [World Government] teammates for 40% chance to evade DEF ignoring damage (15 s)"
-            },
-            {
-                cooldown: 31,
-                description: "Targets enemies within large range for ATK Down Lv.3 (16 s), SPD Down Lv.3 (16 s); targets 3 enemies ignoring DEF for ATK x 1.5 damage; targets Driven teammates for Shield Lv.2 (16 s); if 5 or more [QCK] characters are on the team, targets [Donquixote Pirates] [Paramythia-type] [Logia-type] [World Government] teammates for 42% chance to evade DEF ignoring damage (16 s)"
-            },
-            {
-                cooldown: 31,
-                description: "Targets enemies within large range for ATK Down Lv.3 (17 s), SPD Down Lv.3 (17 s); targets 3 enemies ignoring DEF for ATK x 1.6 damage; targets Driven teammates for Shield Lv.2 (17 s); if 5 or more [QCK] characters are on the team, targets [Donquixote Pirates] [Paramythia-type] [Logia-type] [World Government] teammates for 44% chance to evade DEF ignoring damage (17 s)"
-            },
-            {
-                cooldown: 31,
-                description: "Targets enemies within large range for ATK Down Lv.3 (18 s), SPD Down Lv.3 (18 s); targets 3 enemies ignoring DEF for ATK x 1.7 damage; targets Driven teammates for Shield Lv.3 (18 s); if 5 or more [QCK] characters are on the team, targets [Donquixote Pirates] [Paramythia-type] [Logia-type] [World Government] teammates for 46% chance to evade DEF ignoring damage (18 s)"
-            },
-            {
-                cooldown: 31,
-                description: "Targets enemies within large range for ATK Down Lv.4 (19 s), SPD Down Lv.4 (19 s); targets 3 enemies ignoring DEF for ATK x 1.8 damage; targets Driven teammates for Shield Lv.3 (19 s); if 5 or more [QCK] characters are on the team, targets [Donquixote Pirates] [Paramythia-type] [Logia-type] [World Government] teammates for 48% chance to evade DEF ignoring damage (19 s)"
-            },
-            {
-                cooldown: 31,
-                description: "Targets enemies within large range for ATK Down Lv.5 (20 s), SPD Down Lv.5 (20 s); targets 3 enemies ignoring DEF for ATK x 2 damage; targets Driven teammates for Shield Lv.4 (20 s); if 5 or more [QCK] characters are on the team, targets [Donquixote Pirates] [Paramythia-type] [Logia-type] [World Government] teammates for 50% chance to evade DEF ignoring damage (20 s)"
-            }
         ]
     },
     4473: {//Corazon
-        captain: "Boosts Cerebral and Driven characters' ATK by 4x, RCV by 1.3x, boosts ATK of Cerebral and Driven characters with a Cost of 40 or less by 4.5x, and tapping on this character with an [EMPTY] slot will further increase crew's chain multiplier additive boost (except multiplicative boost) by +0.5 and boost the chain multiplier by +1.0 for 1 turn",
-        special: "Reduces crew's ATK Down duration by 6 turns, completely removes crew's Remove SFX, reduces damage taken by 80% for 3 turns, changes slots (including [BLOCK] slots), to [EMPTY], and boosts the chain multiplier by +1.0 for 3 turns. If crew has type effect boost when Special is launched, boosts Cerebral and Driven characters' ATK by 2.25x for 3 turns, then after that, boosts the type effects of normal attacks for Cerebral and Driven characters by 2.25x for 3 turns",
+        captain: "Boosts ATK of Cerebral and Driven characters by 4x, by 4.5x instead if they have a Cost 40 or less, and boosts RCV of Cerebral and Driven characters by 1.3x. If this character has a [EMPTY] orb and you attack with this character, increases boost effects of Chain Addition buffs by +0.5x, and adds 1.0x to chain multiplier for 1 turn.",
+        special: "Reduces ATK Down duration by 6 turns, removes Blindness duration completely, reduces damage received by 80% for 3 turns, changes all orbs, including [BLOCK] orbs, into [EMPTY] orbs, boosts the Color Affinity of Cerebral and Driven characters by 2.25x for 3 turns, and adds 1.0x to chain multiplier for 3 turns. If your crew has Color Affinity when the special is activated, boosts ATK of Cerebral and Driven characters by 2.25x for 3 turns.",
         specialName: "Natural Clumsiness",
         sailor: {
-            base: "Boosts Cerebral and Driven characters' base stats by 70",
-            level1: "Tapping on this character with an [EMPTY][G] slot will apply -10% Cerebral and Driven Resistance to all enemies for 1 turn"
+            base: "Boosts base ATK, HP and RCV of Cerebral and Driven characters by 70.",
+            level1: "If this character has a [EMPTY] or [G] orb and you attack with this character, reduces enemies' Cerebral and Driven Resistance by -10% for 1 turn."
         },
         support: [
             {
                 Characters: "Trafalgar Law, Donquixote Doflamingo",
                 description: [
-                    "Once per quest, if inflicted with Special Bind status from the enemy or enemy changes crew's slots, changes supported character's slot to [EMPTY], and reduces damage taken by 20% for 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Special Bind status from the enemy or enemy changes crew's slots, changes supported character's slot to [EMPTY], and reduces damage taken by 30% for 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Special Bind status from the enemy or enemy changes crew's slots, changes supported character's slot to [EMPTY], and reduces damage taken by 40% for 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Special Bind status from the enemy or enemy changes crew's slots, changes supported character's slot to [EMPTY], and reduces damage taken by 50% for 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Special Bind status from the enemy or enemy changes crew's slots, changes supported character's slot to [EMPTY], and reduces damage taken by 60% for 1 turn at start of crew's next turn"
+                    "Once per adventure, when an enemy inflicts you with Special Bind, Orb Randomization or Orb Manipulation, changes the orb of the supported character into a [EMPTY] orb, and reduces damage received by 20% for 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Special Bind, Orb Randomization or Orb Manipulation, changes the orb of the supported character into a [EMPTY] orb, and reduces damage received by 30% for 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Special Bind, Orb Randomization or Orb Manipulation, changes the orb of the supported character into a [EMPTY] orb, and reduces damage received by 40% for 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Special Bind, Orb Randomization or Orb Manipulation, changes the orb of the supported character into a [EMPTY] orb, and reduces damage received by 50% for 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Special Bind, Orb Randomization or Orb Manipulation, changes the orb of the supported character into a [EMPTY] orb, and reduces damage received by 60% for 1 turn."
                 ]
             }
         ],
@@ -176884,64 +176822,46 @@ window.details = {
                     "Reduces Special Use Limit duration by 2 turns"
                 ]
             }
-        ],
-        festStats: {
-            def: 50,
-            spd: 100,
-            style: "SPT"
-        },
-        festAttackPattern: [
-            "Normal Attack"
-        ],
-        festAttackTarget: "Targets closest enemies"
+        ]
     },
     4474: {//Bellamy
-        captain: "Boosts [QCK] characters' ATK by 3x, HP by 1.2x, and boosts character's ATK and ATK of [QCK] characters with a Cost of 40 or less by approximately 4x",
-        special: "Delays all enemies by 1 turn, reduces [QCK] and Driven characters' Special charge time by 1 turn, reduces crew's lock chain multiplier effect by 5 turns, and doubles [QCK] and Driven characters' slot effects for 3 turns. If 2 or more [Donquixote Pirates] characters are on the crew, sets all enemies' DEF to 0 for 1 turn (ignoring immunity to DEF Down, immunity to all status effects, or immunity excluding certain status effect)",
+        captain: "Boosts ATK of [QCK] characters by 3x, by 4x instead if they have a Cost 40 or less, and boosts HP of [QCK] characters by 1.2x.",
+        special: "Delays all enemies by 1 turn, reduces Special Cooldown of [QCK] and Driven characters by 1 turn, reduces Chain Multiplier Limit duration by 5 turns, and boosts Orb Effects of [QCK] and Driven characters by 2x for 3 turns. If your crew has 2+ [Donquixote Pirates] characters, ignores debuff protection and reduces the defense of all enemies by 100% for 1 turn.",
         specialName: "Seeing the Choice Through to Its End",
-        sailor: "Reduces character's Special Reverse by 2 turns",
+        sailor: "Restores Special Cooldown of this character by 2 turns when it is rewinded.",
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Donquixote Pirates]",
+                Characters: "[Donquixote Pirates] characters",
                 description: [
-                    "Once per quest, if supported character uses a Special, changes supported character's slot to [G], and reduces all enemies' DEF Up duration by 1 turn",
-                    "Once per quest, if supported character uses a Special, changes supported character's slot to [G], and reduces all enemies' DEF Up duration by 1 turn",
-                    "Once per quest, if supported character uses a Special, changes supported character's slot to [G], and reduces all enemies' DEF Up duration by 2 turns",
-                    "Once per quest, if supported character uses a Special, changes supported character's slot to [G], and reduces all enemies' DEF Up duration by 2 turns",
-                    "Once per quest, if supported character uses a Special, changes supported character's slot to [G], and reduces all enemies' DEF Up duration by 3 turns, and if crew lands 2 PERFECT strikes in turn Special is used, allows crew's type effect boost to be further increased up to 2 times the next turn"
+                    "Once per adventure, when the supported character uses their special, changes the orb of the supported character into a [G] orb, and reduces enemies' Increased Defense duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, changes the orb of the supported character into a [G] orb, and reduces enemies' Increased Defense duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, changes the orb of the supported character into a [G] orb, and reduces enemies' Increased Defense duration by 2 turns.",
+                    "Once per adventure, when the supported character uses their special, changes the orb of the supported character into a [G] orb, and reduces enemies' Increased Defense duration by 2 turns.",
+                    "Once per adventure, when the supported character uses their special, changes the orb of the supported character into a [G] orb, reduces enemies' Increased Defense duration by 3 turns; and if during that turn you score 2 PERFECT hits, enables Color Affinity buffs to be enhanced up to 2 times in the following turn."
                 ]
             }
-        ],
-        festStats: {
-            def: 50,
-            spd: 100,
-            style: "ATK"
-        },
-        festAttackPattern: [
-            "Normal Attack"
-        ],
-        festAttackTarget: "Targets closest enemies"
+        ]
     },
     4475: {///6+ Luffy & Law
         captain: {
-            character1: "Reduces crew's Special charge time by 1 turn at start of quest, boosts crew's ATK by 4.25x, HP by 1.25x, makes crew's [PSY] slots have matching slot effects, and heals crew by 0.5x character's RCV for every PERFECT at end of turn",
-            character2: "Reduces crew's Special charge time by 1 turn and Switch Effect by 1 at start of quest, boosts crew's ATK by 4.5x, HP by 1.25x, and makes crew's [INT] slots have matching slot effects",
-            combined: "Reduces crew's Special charge time by 1 turn and Switch Effect by 1 at start of quest, boosts crew's ATK by 5x, HP by 1.25x, and makes crew's [PSY][INT] slots have matching slot effects, heals crew by 1.5x character's RCV for every PERFECT at end of turn, and tapping on this character with a [DEX][QCK] slot will apply increase damage taken status to all enemies by 1.5x for 1 turn (visible effect will be 2 turns and become 1 during character's next action)"
+            character1: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of all characters by 4.25x, boosts HP of all characters by 1.25x, makes [PSY] orbs beneficial for all characters, and recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT.",
+            character2: "Reduces Special Cooldown of all characters by 1 turn and reduces Switch Effect of all characters by 1 at the start of the fight, boosts ATK of all characters by 4.5x, boosts HP of all characters by 1.25x, and makes [INT] orbs beneficial for all characters.",
+            combined: "Reduces Special Cooldown of all characters by 1 turn and reduces Switch Effect of all characters by 1 at the start of the fight, boosts ATK of all characters by 5x, boosts HP of all characters by 1.25x, makes [PSY] and [INT] orbs beneficial for all characters, and recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT. If this character has a [DEX] or [QCK] orb and you attack with this character, inflicts all enemies with Increase Damage Taken by 1.5x for 1 turn."
         },
         special: {
-            character1: "Deals 400x character's ATK in non-type damage to one enemy, reduces crew's Paralysis duration by 6 turns, makes crew's [STR][DEX][QCK] slots have matching slot effects for 1 turn, boosts crew's slot effects by 3x for 1 turn, and becomes \"Luffy & Law\" for 3 turns",
-            character2: "Deals 100x character's ATK in non-type damage to all enemies (ignoring all defensive effects and DEF), reduces crew's Bind duration by 6 turns, makes crew's [STR][DEX][QCK] slots have matching slot effects for 1 turn, boosts crew's slot effects by 3x for 1 turn, and becomes \"Luffy & Law\" for 3 turns"
+            character1: "Deals 400x character's ATK in Typeless damage to one enemy, reduces Paralysis duration by 6 turns, makes [STR], [DEX] and [QCK] orbs beneficial for all characters for 1 turn, boosts Orb Effects of all characters by 3x for 1 turn, and becomes Luffy & Law for 3 turns.",
+            character2: "Deals 100x character's ATK in Typeless Fixed True damage to all enemies, reduces Bind duration by 6 turns, makes [STR], [DEX] and [QCK] orbs beneficial for all characters for 1 turn, boosts Orb Effects of all characters by 3x for 1 turn, and becomes Luffy & Law for 3 turns."
         },
         specialName: "The Worst Plan to Overthrow a God",
         sailor: {
-            character1: "Boosts crew's base stats by 75",
-            character2: "Boosts crew's base stats by 75",
-            combined: "Boosts crew's base stats by 100",
-            level1: "Lets character completely evade Special Bind/Paralysis"
+            character1: "Boosts base ATK, HP and RCV of all characters by 75.",
+            character2: "Boosts base ATK, HP and RCV of all characters by 75.",
+            combined: "Boosts base ATK, HP and RCV of all characters by 100.",
+            level1: "Reduces Special Bind and Paralysis duration completely on this character."
         },
         swap: {
-            base: "Completely removes character's Slot Bind, changes character's slot (including [BLOCK] slot) to character's own type, doubles character's ATK for 1 turn, and allows character's normal attacks to ignore enemies' defensive effects for 1 turn",
-            super: "Completely removes character's Slot Bind, changes crew's slot (including [BLOCK] slot) to character's own type, boosts crew's ATK by 2.25x for 1 turn, and allows character's normal attacks to ignore enemies' defensive effects for 1 turn",
+            base: "Removes Slot Bind duration completely on this character, changes the orb, including [BLOCK] orb, of this character into a matching orb, boosts ATK of this character by 2x for 1 turn, and makes own attacks ignore damage reducing barriers and buffs for 1 turn.",
+            super: "Removes Slot Bind duration completely on this character, changes all orbs, including [BLOCK] orbs, into matching orbs, boosts ATK of all characters by 2.25x for 1 turn, and makes own attacks ignore damage reducing barriers and buffs for 1 turn.",
             superTurns: 7
         },
         limit: [
@@ -176995,9 +176915,9 @@ window.details = {
             },
             {
                 captain: {
-                    character1: "Reduces crew's Special charge time by 1 turn and Switch Effect by 1 at start of quest, boosts crew's ATK by 4.5x, HP by 1.25x, makes crew's [PSY] slots have matching slot effects, heals crew by 0.5x character's RCV for every PERFECT at end of turn, and allows crew's Weakened status applying effects to ignore immunity to all status effects",
-                    character2: "Reduces crew's Special charge time by 1 turn and Switch Effect by 1 at start of quest, boosts crew's ATK by 4.75x, HP by 1.25x, makes crew's [INT] slots have matching slot effects, and allows crew's Weakened status applying effects to ignore immunity to all status effects",
-                    combined: "Reduces crew's Special charge time by 1 turn and Switch Effect by 1 at start of quest, boosts crew's ATK by 5.25x, HP by 1.25x, and makes crew's [PSY][INT] slots have matching slot effects, heals crew by 1.5x character's RCV for every PERFECT at end of turn, allows crew's Weakened status applying effects to ignore immunity to all status effects, and tapping on this character with a [DEX][QCK] slot will apply increase damage taken status to all enemies by 1.5x for 1 turn (visible effect will be 2 turns and become 1 during character's next action)"
+                    character1: "Reduces Special Cooldown of all characters by 1 turn and reduces Switch Effect of all characters by 1 at the start of the fight, boosts ATK of all characters by 4.5x, boosts HP of all characters by 1.25x, makes [PSY] orbs beneficial for all characters, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT, and allows specials that inflict Weaken to ignore debuff protection.",
+                    character2: "Reduces Special Cooldown of all characters by 1 turn and reduces Switch Effect of all characters by 1 at the start of the fight, boosts ATK of all characters by 4.75x, boosts HP of all characters by 1.25x, makes [INT] orbs beneficial for all characters, and allows specials that inflict Weaken to ignore debuff protection.",
+                    combined: "Reduces Special Cooldown of all characters by 1 turn and reduces Switch Effect of all characters by 1 at the start of the fight, boosts ATK of all characters by 5.25x, boosts HP of all characters by 1.25x, makes [PSY] and [INT] orbs beneficial for all characters, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT, and allows specials that inflict Weaken to ignore debuff protection. If this character has a [DEX] or [QCK] orb and you attack with this character, inflicts all enemies with Increase Damage Taken by 1.5x for 1 turn."
                 }
             },
             {
@@ -177005,12 +176925,8 @@ window.details = {
             },
             {
                 special: {
-                    character1: {
-                        base: "Deals 400x character's ATK in non-type damage to one enemy. If any character has Paralysis status when Special is launched, applies Weakened status (increase damage taken by 1.5x for all enemies, damage further increased by 1.2x if enemy has Increase Damage Taken) to all enemies for 1 turn, then after that, reduces crew's Paralysis duration by 7 turns, makes crew's [STR][DEX][QCK] slots have matching slot effects for 1 turn, further increases crew's ATK boosts by +0.5, boosts crew's slot effects by 3x for 1 turn, and becomes \"Luffy & Law\" for 3 turns"
-                    },
-                    character2: {
-                        base: "Deals 100x character's ATK in non-type damage to all enemies (ignoring all defensive effects and DEF). If any character has Bind status when Special is launched, applies Weakened status (increase damage taken by 1.5x for all enemies, damage further increased by 1.2x if enemy has Increase Damage Taken) to all enemies for 1 turn, then after that, reduces crew's Bind duration by 7 turns, makes crew's [STR][DEX][QCK] slots have matching slot effects for 1 turn, further increases crew's ATK boosts by +0.5, boosts crew's slot effects by 3x for 1 turn, and becomes \"Luffy & Law\" for 3 turns"
-                    }
+                    character1: "Deals 400x character's ATK in Typeless damage to one enemy, reduces Paralysis duration by 7 turns, makes [STR], [DEX] and [QCK] orbs beneficial for all characters for 1 turn, increases boost effects of ATK Up buffs by +0.5x, boosts Orb Effects of all characters by 3x for 1 turn, and becomes Luffy & Law for 3 turns. If your crew is inflicted with Paralysis when the special is activated, inflicts all enemies with Weaken by 1.5x, by 1.8x if enemies are inflicted with Increase Damage Taken, for 1 turn.",
+                    character2: "Deals 100x character's ATK in Typeless Fixed True damage to all enemies, reduces Bind duration by 7 turns, makes [STR], [DEX] and [QCK] orbs beneficial for all characters for 1 turn, increases boost effects of ATK Up buffs by +0.5x, boosts Orb Effects of all characters by 3x for 1 turn, and becomes Luffy & Law for 3 turns. If your crew is inflicted with Bind when the special is activated, inflicts all enemies with Weaken by 1.5x, by 1.8x if enemies are inflicted with Increase Damage Taken, for 1 turn."
                 },
                 rResilience: true
             }
@@ -177046,185 +176962,7 @@ window.details = {
                     "If you hit a PERFECT with this character, there is a 100% chance to deal 10% of this character's attack in extra damage"
                 ]
             }
-        ],
-        festStats: {
-            def: 185,
-            spd: 194,
-            style: "ATK"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Normal Attack",
-            "Power Attack",
-            "Full Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: {
-            base: "Heal 300 HP at an interval, reduce damage taken from Shooter and Fighter by 30%",
-            llbbase: "Heal 300 HP at an interval, reduce damage taken from Shooter and Fighter by 40%"
-        },
-        festAbility: {
-            base: [
-                "Team ATK Up Lv.2; Fighter/Slasher class teammates HP Up Lv.2, SPD Up Lv.2; if 4 or more [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] characters are on the team, self ATK Up Lv.1; during Assault Rumble, Fighter/Slasher class teammates HP Up Lv.1",
-                "Team ATK Up Lv.3; Fighter/Slasher class teammates HP Up Lv.3, SPD Up Lv.3; if 4 or more [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] characters are on the team, self ATK Up Lv.1; during Assault Rumble, Fighter/Slasher class teammates HP Up Lv.1",
-                "Team ATK Up Lv.4; Fighter/Slasher class teammates HP Up Lv.4, SPD Up Lv.4; if 4 or more [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] characters are on the team, self ATK Up Lv.2; during Assault Rumble, Fighter/Slasher class teammates HP Up Lv.2",
-                "Team ATK Up Lv.5; Fighter/Slasher class teammates HP Up Lv.5, SPD Up Lv.5; if 4 or more [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] characters are on the team, self ATK Up Lv.2; during Assault Rumble, Fighter/Slasher class teammates HP Up Lv.2",
-                "Team ATK Up Lv.6; Fighter/Slasher class teammates HP Up Lv.6, SPD Up Lv.6; if 4 or more [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] characters are on the team, self ATK Up Lv.3; during Assault Rumble, Fighter/Slasher class teammates HP Up Lv.3"
-            ],
-            llbbase: [
-                "Team ATK Up Lv.3; Fighter/Slasher class teammates HP Up Lv.3, SPD Up Lv.3; if 4 or more [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] characters are on the team, self ATK Up Lv.1; during Assault Rumble, Fighter/Slasher class teammates HP Up Lv.1",
-                "Team ATK Up Lv.4; Fighter/Slasher class teammates HP Up Lv.4, SPD Up Lv.4; if 4 or more [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] characters are on the team, self ATK Up Lv.2; during Assault Rumble, Fighter/Slasher class teammates HP Up Lv.2",
-                "Team ATK Up Lv.5; Fighter/Slasher class teammates HP Up Lv.5, SPD Up Lv.5; if 4 or more [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] characters are on the team, self ATK Up Lv.3; during Assault Rumble, Fighter/Slasher class teammates HP Up Lv.3",
-                "Team ATK Up Lv.6; Fighter/Slasher class teammates HP Up Lv.6, SPD Up Lv.6; if 4 or more [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] characters are on the team, self ATK Up Lv.4; during Assault Rumble, Fighter/Slasher class teammates HP Up Lv.4",
-                "Team ATK Up Lv.7; Fighter/Slasher class teammates HP Up Lv.7, SPD Up Lv.7; if 4 or more [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] characters are on the team, self ATK Up Lv.5; during Assault Rumble, Fighter/Slasher class teammates HP Up Lv.5"
-            ]
-        },
-        festSpecial: {
-            base: [
-                {
-                    cooldown: 35,
-                    description: "Targets enemies within large range for 3100 damage; targets team for ATK Up Lv.1 (11 s); targets 2 enemies for ATK x 3.1 damage; targets (not including self) [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates for Special CT 6% reduction; during Assault Rumble, targets 2 Shooter/Fighter class enemies for ATK x 3.1 damage"
-                },
-                {
-                    cooldown: 35,
-                    description: "Targets enemies within large range for 3200 damage; targets team for ATK Up Lv.1 (12 s); targets 2 enemies for ATK x 3.2 damage; targets (not including self) [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates for Special CT 7% reduction; during Assault Rumble, targets 2 Shooter/Fighter class enemies for ATK x 3.2 damage"
-                },
-                {
-                    cooldown: 35,
-                    description: "Targets enemies within large range for 3300 damage; targets team for ATK Up Lv.2 (13 s); targets 2 enemies for ATK x 3.3 damage; targets (not including self) [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates for Special CT 8% reduction; during Assault Rumble, targets 2 Shooter/Fighter class enemies for ATK x 3.3 damage"
-                },
-                {
-                    cooldown: 35,
-                    description: "Targets enemies within large range for 3400 damage; targets team for ATK Up Lv.2 (14 s); targets 2 enemies for ATK x 3.4 damage; targets (not including self) [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates for Special CT 9% reduction; during Assault Rumble, targets 2 Shooter/Fighter class enemies for ATK x 3.4 damage"
-                },
-                {
-                    cooldown: 35,
-                    description: "Targets enemies within large range for 3500 damage; targets team for ATK Up Lv.3 (15 s); targets 2 enemies for ATK x 3.5 damage; targets (not including self) [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates for Special CT 10% reduction; during Assault Rumble, targets 2 Shooter/Fighter class enemies for ATK x 3.5 damage"
-                },
-                {
-                    cooldown: 35,
-                    description: "Targets enemies within large range for 3600 damage; targets team for ATK Up Lv.3 (16 s); targets 2 enemies for ATK x 3.6 damage; targets (not including self) [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates for Special CT 11% reduction; during Assault Rumble, targets 2 Shooter/Fighter class enemies for ATK x 3.6 damage"
-                },
-                {
-                    cooldown: 35,
-                    description: "Targets enemies within large range for 3700 damage; targets team for ATK Up Lv.4 (17 s); targets 2 enemies for ATK x 3.7 damage; targets (not including self) [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates for Special CT 12% reduction; during Assault Rumble, targets 2 Shooter/Fighter class enemies for ATK x 3.7 damage"
-                },
-                {
-                    cooldown: 35,
-                    description: "Targets enemies within large range for 3800 damage; targets team for ATK Up Lv.4 (18 s); targets 2 enemies for ATK x 3.8 damage; targets (not including self) [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates for Special CT 13% reduction; during Assault Rumble, targets 2 Shooter/Fighter class enemies for ATK x 3.8 damage"
-                },
-                {
-                    cooldown: 35,
-                    description: "Targets enemies within large range for 3900 damage; targets team for ATK Up Lv.5 (19 s); targets 2 enemies for ATK x 3.9 damage; targets (not including self) [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates for Special CT 14% reduction; during Assault Rumble, targets 2 Shooter/Fighter class enemies for ATK x 3.9 damage"
-                },
-                {
-                    cooldown: 35,
-                    description: "Targets enemies within large range for 4000 damage; targets team for ATK Up Lv.6 (20 s); targets 2 enemies for ATK x 4 damage; targets (not including self) [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates for Special CT 15% reduction; during Assault Rumble, targets 2 Shooter/Fighter class enemies for ATK x 4 damage"
-                }
-            ],
-            llbbase: [
-                {
-                    cooldown: 35,
-                    description: "Targets enemies within large range for 4100 damage; targets team for ATK Up Lv.2 (11 s); targets 2 enemies for ATK x 4.1 damage; targets (not including self) [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates for Special CT 11% reduction; during Assault Rumble, targets 2 Shooter/Fighter class enemies for ATK x 4.1 damage"
-                },
-                {
-                    cooldown: 35,
-                    description: "Targets enemies within large range for 4200 damage; targets team for ATK Up Lv.2 (12 s); targets 2 enemies for ATK x 4.2 damage; targets (not including self) [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates for Special CT 12% reduction; during Assault Rumble, targets 2 Shooter/Fighter class enemies for ATK x 4.2 damage"
-                },
-                {
-                    cooldown: 35,
-                    description: "Targets enemies within large range for 4300 damage; targets team for ATK Up Lv.3 (13 s); targets 2 enemies for ATK x 4.3 damage; targets (not including self) [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates for Special CT 13% reduction; during Assault Rumble, targets 2 Shooter/Fighter class enemies for ATK x 4.3 damage"
-                },
-                {
-                    cooldown: 35,
-                    description: "Targets enemies within large range for 4400 damage; targets team for ATK Up Lv.3 (14 s); targets 2 enemies for ATK x 4.4 damage; targets (not including self) [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates for Special CT 14% reduction; during Assault Rumble, targets 2 Shooter/Fighter class enemies for ATK x 4.4 damage"
-                },
-                {
-                    cooldown: 35,
-                    description: "Targets enemies within large range for 4500 damage; targets team for ATK Up Lv.4 (15 s); targets 2 enemies for ATK x 4.5 damage; targets (not including self) [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates for Special CT 15% reduction; during Assault Rumble, targets 2 Shooter/Fighter class enemies for ATK x 4.5 damage"
-                },
-                {
-                    cooldown: 35,
-                    description: "Targets enemies within large range for 4600 damage; targets team for ATK Up Lv.4 (16 s); targets 2 enemies for ATK x 4.6 damage; targets (not including self) [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates for Special CT 16% reduction; during Assault Rumble, targets 2 Shooter/Fighter class enemies for ATK x 4.6 damage"
-                },
-                {
-                    cooldown: 35,
-                    description: "Targets enemies within large range for 4700 damage; targets team for ATK Up Lv.5 (17 s); targets 2 enemies for ATK x 4.7 damage; targets (not including self) [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates for Special CT 17% reduction; during Assault Rumble, targets 2 Shooter/Fighter class enemies for ATK x 4.7 damage"
-                },
-                {
-                    cooldown: 35,
-                    description: "Targets enemies within large range for 4800 damage; targets team for ATK Up Lv.5 (18 s); targets 2 enemies for ATK x 4.8 damage; targets (not including self) [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates for Special CT 18% reduction; during Assault Rumble, targets 2 Shooter/Fighter class enemies for ATK x 4.8 damage"
-                },
-                {
-                    cooldown: 35,
-                    description: "Targets enemies within large range for 4900 damage; targets team for ATK Up Lv.6 (19 s); targets 2 enemies for ATK x 4.9 damage; targets (not including self) [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates for Special CT 19% reduction; during Assault Rumble, targets 2 Shooter/Fighter class enemies for ATK x 4.9 damage"
-                },
-                {
-                    cooldown: 35,
-                    description: "Targets enemies within large range for 5000 damage; targets team for ATK Up Lv.7 (20 s); targets 2 enemies for ATK x 5 damage; targets (not including self) [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates for Special CT 20% reduction; during Assault Rumble, targets 2 Shooter/Fighter class enemies for ATK x 5 damage"
-                }
-            ]
-        },
-        festAbilityGP: {
-            base: [
-                {
-                    festGPAbility: "[DEX]/[QCK] teammates ATK, HP, RCV Up Lv.1; Fighter/Slasher class teammates ATK, DEF Up Lv.1, Critical % Up Lv.1; [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates Special CT Speed Up Lv.1",
-                    festGPSpecial: "Targets 3 high ATK enemies for 3000 damage; targets 3 enemies with high current HP for Leader base ATK x 1 damage",
-                    uses: 2
-                },
-                {
-                    festGPAbility: "[DEX]/[QCK] teammates ATK, HP, RCV Up Lv.2; Fighter/Slasher class teammates ATK, DEF Up Lv.1, Critical % Up Lv.2; [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates Special CT Speed Up Lv.1",
-                    festGPSpecial: "Targets 3 high ATK enemies for 3500 damage; targets 3 enemies with high current HP for Leader base ATK x 2 damage",
-                    uses: 2
-                },
-                {
-                    festGPAbility: "[DEX]/[QCK] teammates ATK, HP, RCV Up Lv.3; Fighter/Slasher class teammates ATK, DEF Up Lv.2, Critical % Up Lv.3; [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates Special CT Speed Up Lv.1",
-                    festGPSpecial: "Targets 3 high ATK enemies for 4000 damage; targets 3 enemies with high current HP for Leader base ATK x 3 damage",
-                    uses: 2
-                },
-                {
-                    festGPAbility: "[DEX]/[QCK] teammates ATK, HP, RCV Up Lv.4; Fighter/Slasher class teammates ATK, DEF Up Lv.2, Critical % Up Lv.3; [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates Special CT Speed Up Lv.2",
-                    festGPSpecial: "Targets 3 high ATK enemies for 4500 damage; targets 3 enemies with high current HP for Leader base ATK x 4 damage",
-                    uses: 2
-                },
-                {
-                    festGPAbility: "[DEX]/[QCK] teammates ATK, HP, RCV Up Lv.5; Fighter/Slasher class teammates ATK, DEF Up Lv.3, Critical % Up Lv.4; [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates Special CT Speed Up Lv.2",
-                    festGPSpecial: "Targets 3 high ATK enemies for 5000 damage; targets 3 enemies with high current HP for Leader base ATK x 5 damage",
-                    uses: 2
-                }
-            ],
-            llbbase: [
-                {
-                    festGPAbility: "[DEX]/[QCK] teammates ATK, HP, RCV Up Lv.1; Fighter/Slasher class teammates ATK, DEF Up Lv.1, Critical % Up Lv.1; [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates Special CT Speed Up Lv.1",
-                    festGPSpecial: "Targets 4 high ATK enemies for 3000 damage; targets 4 enemies with high current HP for Leader base ATK x 1 damage",
-                    uses: 2
-                },
-                {
-                    festGPAbility: "[DEX]/[QCK] teammates ATK, HP, RCV Up Lv.2; Fighter/Slasher class teammates ATK, DEF Up Lv.2, Critical % Up Lv.2; [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates Special CT Speed Up Lv.1",
-                    festGPSpecial: "Targets 4 high ATK enemies for 3500 damage; targets 4 enemies with high current HP for Leader base ATK x 2 damage",
-                    uses: 2
-                },
-                {
-                    festGPAbility: "[DEX]/[QCK] teammates ATK, HP, RCV Up Lv.4; Fighter/Slasher class teammates ATK, DEF Up Lv.3, Critical % Up Lv.3; [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates Special CT Speed Up Lv.2",
-                    festGPSpecial: "Targets 4 high ATK enemies for 4000 damage; targets 4 enemies with high current HP for Leader base ATK x 3 damage",
-                    uses: 2
-                },
-                {
-                    festGPAbility: "[DEX]/[QCK] teammates ATK, HP, RCV Up Lv.5; Fighter/Slasher class teammates ATK, DEF Up Lv.3, Critical % Up Lv.4; [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates Special CT Speed Up Lv.2",
-                    festGPSpecial: "Targets 4 high ATK enemies for 4500 damage; targets 4 enemies with high current HP for Leader base ATK x 4 damage",
-                    uses: 2
-                },
-                {
-                    festGPAbility: "[DEX]/[QCK] teammates ATK, HP, RCV Up Lv.6; Fighter/Slasher class teammates ATK, DEF Up Lv.4, Critical % Up Lv.5; [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates Special CT Speed Up Lv.3",
-                    festGPSpecial: "Targets 4 high ATK enemies for 5000 damage; targets 4 enemies with high current HP for Leader base ATK x 5 damage",
-                    uses: 2
-                }
-            ]
-        },
-        festAbilityGPCondition: {
-            base: "When enemy uses Rumble Special 6 times",
-            llbbase: "When enemy uses Rumble Special 6 times"
-        }
+        ]
     },
     4986: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
