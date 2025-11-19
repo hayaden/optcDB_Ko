@@ -71,8 +71,20 @@
     </div>
   </div>
 
+  <footer class="footer fade-in-up delay-1">
+    <div class="footer-content">
+      <p class="copyright">© 2025 OPTC Database. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#">이용약관</a>
+        <a href="#">개인정보처리방침</a>
+        <a href="#">문의하기</a>
+      </div>
+      <p class="disclaimer">본 사이트는 공식 게임사가 아니며 팬들을 위해 제작된 비영리 DB 사이트입니다.</p>
+    </div>
+  </footer>
+
   <script>
-    // ===== 기존 로직 유지 =====
+    // ===== 다크 모드 로직 =====
     const darkModeToggle = document.getElementById('darkModeToggle');
     const body = document.body;
     if (localStorage.getItem('theme') === 'dark') {
@@ -89,6 +101,7 @@
       }
     });
 
+    // ===== 햄버거 메뉴 로직 =====
     const hamburgerBtn = document.getElementById('hamburgerBtn');
     const navbarMenu = document.getElementById('navbarMenu');
     let menuOpen = false;
@@ -106,6 +119,7 @@
     });
     updateHamburgerIcon();
 
+    // ===== 캐러셀 슬라이드 로직 =====
     const slidesContainer = document.querySelector('.carousel-slides');
     const slides = document.querySelectorAll('.carousel-slide');
     const prevBtn = document.querySelector('.prev-btn');
