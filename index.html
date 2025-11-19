@@ -8,59 +8,71 @@
 </head>
 <body>
   <nav class="navbar">
-    <div class="navbar-logo">
-      <img src="svg/logo.png" alt="로고" />
+    <div class="navbar-container">
+      <a href="#" class="navbar-logo">
+        <img src="svg/logo.png" alt="로고" />
+      </a>
+      
+      <div class="navbar-right">
+        <div class="dark-mode-toggle">
+          <input type="checkbox" id="darkModeToggle" aria-label="다크 모드 켜기/끄기">
+          <label for="darkModeToggle" class="slider"></label>
+        </div>
+        <button class="hamburger" id="hamburgerBtn" aria-label="메뉴 열기/닫기"></button>
+      </div>
+
+      <ul class="navbar-menu" id="navbarMenu">
+        <li><a href="damage" target="_blank">데미지 계산기</a></li>
+        <li><a href="characters" target="_blank">캐릭터DB</a></li>
+        <li><a href="https://cats2352.github.io/OPTC-item/" target="_blank">아이템DB</a></li>
+        <li><a href="https://hayaden.github.io/optc-ships/" target="_blank">선박 DB</a></li>
+        <li><a href="title23/title.html" target="_blank">칭호 DB</a></li>
+        <li><a href="https://gall.dcinside.com/mgallery/board/lists/?id=onepiecetc" target="_blank">원트크 갤러리</a></li>
+        <li><a href="https://cafe.naver.com/bneoptc" target="_blank">네이버 공식카페</a></li>
+      </ul>
     </div>
-    <div class="dark-mode-toggle">
-      <input type="checkbox" id="darkModeToggle" aria-label="다크 모드 켜기/끄기">
-      <label for="darkModeToggle" class="slider"></label>
-    </div>
-    <button class="hamburger" id="hamburgerBtn" aria-label="메뉴 열기/닫기"></button>
-    <ul class="navbar-menu" id="navbarMenu">
-      <li><a href="damage" target="_blank">데미지 계산기</a></li>
-      <li><a href="characters" target="_blank">캐릭터DB</a></li>
-      <li><a href="https://cats2352.github.io/OPTC-item/" target="_blank">아이템DB</a></li>
-      <li><a href="https://hayaden.github.io/optc-ships/" target="_blank">선박 DB</a></li>
-      <li><a href="title23/title.html" target="_blank">칭호 DB</a></li>
-      <li><a href="https://gall.dcinside.com/mgallery/board/lists/?id=onepiecetc" target="_blank">원트크 갤러리</a></li>
-      <li><a href="https://cafe.naver.com/bneoptc" target="_blank">네이버 공식카페</a></li>
-    </ul>
   </nav>
 
-  <main class="main-section">
-    <h1 class="main-title">
-      <span class="gradient-text">캐릭터 데이터의 전부</span>
-    </h1>
-    <p class="main-subtitle">빠르고 간편하게</p>
-    <p class="sub-desc">4000개가 넘는 캐릭터의 정보<br>정확하고 빠르게 찾아보세요!</p>
-  </main>
-
-  <div class="carousel-top-btns">
-    <a href="characters" class="carousel-btn-link">캐릭터 DB 바로가기</a>
-    <a href="https://cats2352.github.io/OPTC-item/" class="carousel-btn-link">아이템DB 바로가기</a>
-  </div>
-
-  <div class="carousel-container">
-    <div class="carousel-slides">
-      <div class="carousel-slide">
-        <picture>
-          <source media="(max-width: 600px)" srcset="svg/9월25일오로성600.png">
-          <img src="svg/9월25일오로성1200.png" alt="슬라이드 1 이미지">
-        </picture>
+  <div class="wrapper">
+    <main class="main-section fade-in-up">
+      <div class="badge">The Ultimate Database</div>
+      <h1 class="main-title">
+        <span class="gradient-text">캐릭터 데이터의 전부</span>
+      </h1>
+      <p class="main-subtitle">빠르고 간편하게 검색하세요</p>
+      <p class="sub-desc">4,000개가 넘는 방대한 캐릭터 정보와<br>다양한 공략을 한곳에서 만나보세요.</p>
+      
+      <div class="action-buttons">
+        <a href="characters" class="btn-primary">캐릭터 DB 바로가기</a>
+        <a href="https://cats2352.github.io/OPTC-item/" class="btn-secondary">아이템 DB 바로가기</a>
       </div>
-      <div class="carousel-slide">
-        <picture>
-          <source media="(max-width: 600px)" srcset="svg/공지사항600.png">
-          <img src="svg/공지사항1200.png" alt="슬라이드 2 이미지">
-        </picture>
+    </main>
+
+    <div class="carousel-section fade-in-up delay-1">
+      <div class="carousel-container">
+        <div class="carousel-slides">
+          <div class="carousel-slide">
+            <picture>
+              <source media="(max-width: 600px)" srcset="svg/9월25일오로성600.png">
+              <img src="svg/9월25일오로성1200.png" alt="슬라이드 1 이미지">
+            </picture>
+          </div>
+          <div class="carousel-slide">
+            <picture>
+              <source media="(max-width: 600px)" srcset="svg/공지사항600.png">
+              <img src="svg/공지사항1200.png" alt="슬라이드 2 이미지">
+            </picture>
+          </div>
+        </div>
+        <button class="carousel-btn prev-btn" aria-label="이전 슬라이드">&#10094;</button>
+        <button class="carousel-btn next-btn" aria-label="다음 슬라이드">&#10095;</button>
+        <div class="carousel-dots"></div>
       </div>
     </div>
-    <button class="carousel-btn prev-btn" aria-label="이전 슬라이드">&#10094;</button>
-    <button class="carousel-btn next-btn" aria-label="다음 슬라이드">&#10095;</button>
-    <div class="carousel-dots"></div>
   </div>
+
   <script>
-    // ===== 다크 모드 로직 (기존과 동일) =====
+    // ===== 기존 로직 유지 =====
     const darkModeToggle = document.getElementById('darkModeToggle');
     const body = document.body;
     if (localStorage.getItem('theme') === 'dark') {
@@ -77,7 +89,6 @@
       }
     });
 
-    // ===== 햄버거 메뉴 로직 (기존과 동일) =====
     const hamburgerBtn = document.getElementById('hamburgerBtn');
     const navbarMenu = document.getElementById('navbarMenu');
     let menuOpen = false;
@@ -95,7 +106,6 @@
     });
     updateHamburgerIcon();
 
-    // ===== 캐러셀 슬라이드 로직 (기존과 동일) =====
     const slidesContainer = document.querySelector('.carousel-slides');
     const slides = document.querySelectorAll('.carousel-slide');
     const prevBtn = document.querySelector('.prev-btn');
