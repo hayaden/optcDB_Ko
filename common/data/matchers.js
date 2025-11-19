@@ -13602,6 +13602,32 @@
 				regex: /Obtain Rush/i,
 			},
 
+			{
+				name: "데미지 한계 돌파: 타입",
+				targets: ["potential"],
+				regex: /Boosts Damage Limit Break effect based on number of (?!\[)(?=((?:[^c."]+|c(?!har))*))\1characters? on the crew/i,
+				submatchers: [
+					{
+						type: "separator",
+						description: "영향을 받는 타입:",
+					},
+					...createClassesSubmatchers([1]),
+				]
+			},
+
+			{
+				name: "데미지 한계 돌파: 속성",
+				targets: ["potential"],
+				regex: /Boosts Damage Limit Break effect based on number of (?=\[)(?=((?:[^c."]+|c(?!har))*))\1characters? on the crew/i,
+				submatchers: [
+					{
+						type: "separator",
+						description: "영향을 받는 속성:",
+					},
+					...createTypesSubmatchers([1]),
+				]
+			},
+
 			/* * * * * Super Special Criteria * * * * */
 			{
 				name: "상단 캐릭터 한정",
