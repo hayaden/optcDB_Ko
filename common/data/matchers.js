@@ -13277,6 +13277,21 @@
 			},
 
 			{
+				name: "혼란",
+				targets: ["rumbleResistance"],
+				regex:
+					/([\d]+)% chance to resist Confusion./i,
+				submatchers: [
+					{
+						type: "number",
+						description: "확률:",
+						groups: [1],
+					},
+				],
+			},
+
+
+			{
 				name: "지속 데미지",
 				targets: ["rumbleResistance"],
 				regex:

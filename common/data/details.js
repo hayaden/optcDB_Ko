@@ -144674,8 +144674,8 @@ window.details = {
             }
         ]
     },
-    4065: {
-        captain: "Reduces Special Cooldown of Slasher characters by 1 turn at the start of the fight, boosts RCV of Slasher characters by 1.25x, boosts ATK of Slasher characters by 3x and makes [RCV] orbs beneficial for Slasher characters",
+    4065: {//Toki
+        captain: "Reduces Special Cooldown of Slasher characters by 1 turn at the start of the fight, boosts ATK of Slasher characters by 3x, boosts RCV of Slasher characters by 1.25x, and makes [RCV] orbs beneficial for Slasher characters.",
         limit: [
             { description: "Boosts base RCV by 10" },
             { description: "Boosts base ATK by 20" },
@@ -144716,20 +144716,20 @@ window.details = {
             }
         ],
         sailor: {
-            base: "Reduces Special Bind duration by 6 turns on this character",
+            base: "Reduces Special Bind duration by 6 turns on this character.",
             level1: "If this character has a [STR] or [QCK] orb and you attack with this character, increases enemies' Slasher Resistance by +50% for 1 turn. If this character has a [TND] or [WANO] orb and you attack with this character, reduces enemies' Slasher Resistance by -15% for 1 turn."
         },
-        special: "Reduces Special Bind/Bind duration by 6 turns, and if Captain is a Slasher class and crew lands 3 PERFECT strikes in this turn, reduces enemies' Slasher Resistance by -15% for 1 turn in the following turn, and after 1 turn, reduces enemies' Slasher Resistance by -15% for 1 turn",
+        special: "Reduces Special Bind and Bind duration by 6 turns. If your Captain is a Slasher character, after 1 turn, reduces enemies' Slasher Resistance by -15% for 1 turn; and if during that turn you score 3 PERFECT hits, reduces enemies' Slasher Resistance by -15% for 1 turn in the following turn.",
         specialName: "Steadfast Gaze",
         support: [
             {
                 Characters: "Kozuki Momonosuke, Kozuki Hiyori (Komurasaki), Kozuki Oden",
                 description: [
-                    "Once per adventure, when the supported character uses their special, boosts base ATK of the supported character by 1.1x until the next stage",
-                    "Once per adventure, when the supported character uses their special, boosts base ATK of the supported character by 1.1x until the next stage",
-                    "Once per adventure, when the supported character uses their special, boosts base ATK of the supported character by 1.2x until the next stage",
-                    "Once per adventure, when the supported character uses their special, boosts base ATK of the supported character by 1.2x until the next stage",
-                    "Once per adventure, when the supported character uses their special, boosts base ATK of the supported character by 1.3x until the next stage"
+                    "Once per adventure, when the supported character uses their special, boosts base ATK of the supported character by 1.1x until the next stage.",
+                    "Once per adventure, when the supported character uses their special, boosts base ATK of the supported character by 1.1x until the next stage.",
+                    "Once per adventure, when the supported character uses their special, boosts base ATK of the supported character by 1.2x until the next stage.",
+                    "Once per adventure, when the supported character uses their special, boosts base ATK of the supported character by 1.2x until the next stage.",
+                    "Once per adventure, when the supported character uses their special, boosts base ATK of the supported character by 1.3x until the next stage."
                 ]
             }
         ]
@@ -176964,6 +176964,451 @@ window.details = {
             }
         ]
     },
+    4476: {//Yamato & Momo
+        captain: {
+            character1: "Launches the following effect at start of fight: if there is a [STR], [DEX], [QCK], [PSY] and [INT] character in your crew, reduces Special Cooldown of Slasher and Striker characters by 5 turns, reduces Switch Effect of Slasher and Striker characters by 3, and increases Chain Tap Timing Bonus of [STR] and [PSY] characters to +0.2x-0.7x for 10 turns depending on Tap Timing. Boosts ATK of Slasher and Striker characters by 5x, boosts HP of Slasher and Striker characters by 1.3x, makes [STR] and [PSY] orbs beneficial for Slasher and Striker characters, and reduces Special Bind duration by 10 turns on this character. If your crew has 3+ [Land of Wano Arc] characters, boosts ATK of Slasher and Striker characters by 5.5x instead. If your crew has 5+ [Kozuki Clan], [Land of Wano Arc] or [Mythical Zoan-type] characters and a character performs a Critical Hit, reduces enemies' Increased Defense duration by 2 turns.",
+            character2: "Launches the following effect at start of fight: reduces Special Cooldown of Slasher characters by 2 turns, reduces Switch Effect of Slasher characters by 2, and increases Chain Tap Timing Bonus of [STR] and [PSY] characters to +0.2x-0.6x for 5 turns depending on Tap Timing. Boosts ATK of Slasher and Striker characters by 5x, boosts HP of Slasher and Striker characters by 1.3x, makes [STR] and [PSY] orbs beneficial for Slasher and Striker characters, and reduces Special Bind duration by 10 turns on this character. If your crew has 3+ [Land of Wano Arc] characters, boosts ATK of Slasher and Striker characters by 5.5x instead. If your crew has 5+ [Kozuki Clan], [Land of Wano Arc] or [Mythical Zoan-type] characters and a character performs a Critical Hit, reduces enemies' Increased Defense duration by 2 turns.",
+            combined: "Boosts ATK of Slasher and Striker characters by 5.5x, boosts HP of Slasher and Striker characters by 1.3x, makes [STR] and [PSY] orbs beneficial for Slasher and Striker characters, and reduces Special Bind duration by 10 turns on this character. If your crew has 3+ [Land of Wano Arc] characters, boosts ATK of Slasher and Striker characters by 6.05x instead. If your crew has 5+ [Kozuki Clan], [Land of Wano Arc] or [Mythical Zoan-type] characters and a character performs a Critical Hit, reduces enemies' Increased Defense duration by 2 turns, and reduces enemies' Slasher and Striker Resistance by -4% for 1 turn."
+        },
+        captainNotes: "<br>Yamato<b></b>: GOOD +0.2, GREAT +0.4, PERFECT +0.7<br><b>Momonosuke</b>: GOOD +0.2, GREAT +0.4, PERFECT +0.6",
+        special: "Reduces Despair and Special Bind duration by 7 turns, boosts Orb Effects of Slasher and Striker characters by 3x for 2 turns, and becomes Yamato & Momonosuke for 3 turns. If your crew has Orb Amplification when the special is activated, boosts the Color Affinity of Slasher and Striker characters by 2.75x for 2 turns. If your crew has 5+ [Kozuki Clan], [Land of Wano Arc] or [Mythical Zoan-type] characters, increases boost effects of ATK Up and Orb Amplification buffs by 1.2x (up to 7x), including effects activated in the same ability, and applies Territory: Slasher class to the field, boosts ATK by 1x-1.5x and reduces damage received by 0%-25% based on number of characters matching the territory, for 2 turns.",
+        specialName: "Honing Skills of Their Blade",
+        sailor: {
+            character1: "Reduces Special Bind duration by 7 turns on this character.",
+            character2: "Reduces Special Bind duration by 7 turns on this character.",
+            combined: "Reduces Special Bind duration by 7 turns on this character.",
+            level1: "Once per adventure, when the enemy gains an Increased Defense buff, reduces enemies' Increased Defense duration by 6 turns."
+        },
+        superSpecialCriteria: "Can be launched as crewmate. When this character is in Combined Form and your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Kozuki Oden, Kozuki Hiyori (Komurasaki), Kozuki Toki, Kozuki Sukiyaki (Tenguyama Hitetsu), Kin'emon, Izo, Raizo, Okiku, Ashura Doji (Shutenmaru), Dogstorm, Cat Viper, Kawamatsu, Denjiro (Kyoshiro), Shinobu, Otama, Monkey D. Luffy, Trafalgar Law, Eustass Kid",
+        superSpecial: "Optionally removes Captain Swap duration completely, reduces enemies' Percent Damage Reduction effect by 50%, increases boost effects of Chain Multiplication buffs to 1.6x, transforms [STR] characters into Super [STR] characters, and transforms [PSY] characters into Super [PSY] characters.",
+        swap: "Removes Despair and Slot Bind duration completely on this character, and reduces enemies' [STR] and [PSY] Resistance by -15% for 1 turn. <br><b>Captain Shift:</b> This effect is limited to 2 uses per adventure. If Yamato is Captain and switches to Momonosuke, optionally swaps this unit with your bottom right unit for 6 turns. If Momonosuke is your bottom right unit and switches to Yamato, optionally swaps this unit with your captain for 6 turns. Reduces Special Cooldown of this character by 3 turns, and increases boost effects of enemies' Increase Damage Taken debuffs by +0.3x.",
+        limit: [
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base HP by 30" },
+            { description: "Acquire Potential 1: Critical Hit" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base HP by 40" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base HP by 40" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Acquire Potential 2: Sailor Despair" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Boosts base HP by 40" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Boosts base HP by 60" },
+            { description: "Acquire Sailor Ability 2: Once per quest, if enemy activates DEF Up, reduces all enemies' DEF Up duration by 6 turns at start of crew's next turn (even if no turns are reduced, effect still counts as 1 time activated)" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base ATK by 40" },
+            { description: "Boosts base ATK by 40" },
+            { description: "Boosts base HP by 80" },
+            { description: "Acquire Potential 3: Super Tandem Boost" },
+            { description: "LOCKED WITH KEY" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base HP by 150" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base RCV by 50" },
+            { description: "Boosts base HP by 150" },
+            { description: "Boosts base HP by 200" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+        ],
+        potential: [
+            {
+                Name: "Critical Hit",
+                description: [
+                    "If you hit a PERFECT with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 70% chance to deal 7% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 80% chance to deal 8% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 100% chance to deal 10% of this character's attack in extra damage"
+                ]
+            },
+            {
+                Name: "Sailor Despair",
+                description: [
+                    "Reduces Sailor Despair duration by 1 turn on this character",
+                    "Reduces Sailor Despair duration by 2 turns on this character",
+                    "Reduces Sailor Despair duration by 3 turns on this character",
+                    "Reduces Sailor Despair duration by 4 turns on this character",
+                    "Reduces Sailor Despair duration by 5 turns on this character"
+                ]
+            },
+            {
+                Name: "Super Tandem Boost",
+                description: [
+                    "Obtain Super Tandem Boost Lv.1",
+                    "Obtain Super Tandem Boost Lv.2",
+                    "Obtain Super Tandem Boost Lv.3",
+                    "Obtain Super Tandem Boost Lv.4",
+                    "Obtain Super Tandem Boost Lv.5"
+                ]
+            }
+        ],
+        superTandemBoost: {
+            characterCondition: [
+                "When a [Kozuki Clan], [Land of Wano Arc] or [Mythical Zoan-type] character performs Super Tandem",
+                "When a [Kozuki Clan], [Land of Wano Arc] or [Mythical Zoan-type] character performs Super Tandem",
+                "When a [Kozuki Clan], [Land of Wano Arc] or [Mythical Zoan-type] character performs Super Tandem",
+                "When a [Kozuki Clan], [Land of Wano Arc] or [Mythical Zoan-type] character performs Super Tandem",
+                "When a [Kozuki Clan], [Land of Wano Arc] or [Mythical Zoan-type] character performs Super Tandem"
+            ],
+            description: [
+                "Raises Boost Level of [Land of Wano Arc] and [Mythical Zoan-type] characters by 1 for 1 turn, and raises Boost Level of [Kozuki Clan] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Land of Wano Arc] and [Mythical Zoan-type] characters by 1 for 1 turn, and raises Boost Level of [Kozuki Clan] characters by 3 for 1 turn.",
+                "Raises Boost Level of [Land of Wano Arc] and [Mythical Zoan-type] characters by 2 for 1 turn, and raises Boost Level of [Kozuki Clan] characters by 4 for 1 turn.",
+                "Raises Boost Level of [Land of Wano Arc] and [Mythical Zoan-type] characters by 3 for 1 turn, and raises Boost Level of [Kozuki Clan] characters by 5 for 1 turn.",
+                "Raises Boost Level of [Land of Wano Arc] and [Mythical Zoan-type] characters by 4 for 1 turn, and raises Boost Level of [Kozuki Clan] characters by 6 for 1 turn."
+            ]
+        }
+    },
+    4477: {//Kaido & Big Mom
+        captain: {
+            character1: "Launches the following effect at start of fight: reduces Special Cooldown of Striker, Slasher and Powerhouse characters by 2 turns, reduces Switch Effect of Striker, Slasher and Powerhouse characters by 2, and activates HP Guard of 50% effect for 5 turns. Boosts ATK of Striker, Slasher and Powerhouse characters by 5x, boosts HP of Striker, Slasher and Powerhouse characters by 1.5x, and makes [STR], [QCK], [RCV] and [SEMLA] orbs beneficial for Striker, Slasher and Powerhouse characters. If your crew has 3+ [Land of Wano Arc] characters, boosts ATK of Striker, Slasher and Powerhouse characters by 5.5x instead. If your crew has 5+ [Animal Kingdom Pirates], [Big Mom Pirates], [Land of Wano Arc] or [Mythical Zoan-type] characters and a crew member uses a special to change the Orb Multiplier of specific orbs, replaces that buff with the following effect: boosts Advantageous Class Effect of Striker, Slasher and Powerhouse characters by 1.75x for 1 turn.",
+            character2: "Launches the following effect at start of fight: if there is a [STR], [DEX], [QCK], [PSY] and [INT] character in your crew, reduces Special Cooldown of Striker, Slasher and Powerhouse characters by 5 turns, reduces Switch Effect of Striker, Slasher and Powerhouse characters by 3, and activates HP Guard of 60% effect for 10 turns. Boosts ATK of Striker, Slasher and Powerhouse characters by 5x, boosts HP of Striker, Slasher and Powerhouse characters by 1.5x, and makes [STR], [QCK], [RCV] and [SEMLA] orbs beneficial for Striker, Slasher and Powerhouse characters. If your crew has 3+ [Land of Wano Arc] characters, boosts ATK of Striker, Slasher and Powerhouse characters by 5.5x instead. If your crew has 5+ [Animal Kingdom Pirates], [Big Mom Pirates], [Land of Wano Arc] or [Mythical Zoan-type] characters and a crew member uses a special to change the Orb Multiplier of specific orbs, replaces that buff with the following effect: boosts Advantageous Class Effect of Striker, Slasher and Powerhouse characters by 1.75x for 1 turn.",
+            combined: "Boosts ATK of Striker, Slasher and Powerhouse characters by 5x, boosts HP of Striker, Slasher and Powerhouse characters by 1.5x, and makes [STR], [QCK], [RCV] and [SEMLA] orbs beneficial for Striker, Slasher and Powerhouse characters. If your crew has 3+ [Land of Wano Arc] characters, boosts ATK of Striker, Slasher and Powerhouse characters by 5.5x instead. If your crew has 5+ [Animal Kingdom Pirates], [Big Mom Pirates], [Land of Wano Arc] or [Mythical Zoan-type] characters, increases boost effects of Orb Amplification and Color Affinity buffs applied by specials by +0.3x; additionally, if a crew member uses a special to change the Orb Multiplier of specific orbs, replaces that buff with the following effect: boosts Advantageous Class Effect of Striker, Slasher and Powerhouse characters by 1.75x for 1 turn."
+        },
+        special: "Reduces enemies' Threshold Damage Reduction effect by 90%, reduces Bind duration by 7 turns, reduces enemies' Striker, Slasher and Powerhouse Resistance by -20% for 1 turn, boosts Base ATK of Striker, Slasher and Powerhouse characters by 1,750 for 2 turns, and becomes Kaido & Big Mom for 3 turns. If your crew has Base ATK Boost when the special is activated, boosts ATK against enemies inflicted with Increase Damage Taken by 2.5x for 1 turn. If your crew has 5+ [Land of Wano Arc], [Animal Kingdom Pirates] or [Big Mom Pirates] characters, ignores Debuff Protection and inflicts all enemies with Increase Damage Taken by 2.5x for 1 turn, and allows crew to perform Super Tandem with [WANO] and [SEMLA] orbs for 1 turn.",
+        specialName: "Synchronized Conquest of the Sea",
+        sailor: {
+            character1: "Boosts base ATK, HP and RCV of Striker, Powerhouse and Slasher characters by 125.",
+            character2: "Boosts base ATK, HP and RCV of Striker, Powerhouse and Slasher characters by 125.",
+            combined: "Boosts base ATK, HP and RCV of Striker, Powerhouse and Slasher characters by 125.",
+            level1: "If this character has a [WANO] orb and you attack with this character, increases boost effects of Color Affinity buffs by +0.2x."
+        },
+        superSpecialCriteria: "Can be launched as crewmate. When this character is in Combined Form from Super Swap Effect and your crew must consist of any 1 of the following, excluding supports and counting only 1 per unit: King (Alber), Queen, Jack, Yamato, Charlotte Katakuri, Charlotte Cracker, Charlotte Smoothie, Charlotte Perospero, Streusen, Shiki, Miss Buckingham Stussy, Edward Newgate (Whitebeard)",
+        superSpecial: "Removes Despair duration completely on this character, inflicts all enemies with Weaken by 1.4x, by 1.54x if enemies are inflicted with Increase Damage Taken, for 1 turn, transforms Striker characters into Super Striker characters, and transforms Slasher characters into Super Slasher characters.",
+        swap: {
+            base: "Reduces enemies' [STR] and [QCK] Resistance by -15% for 1 turn, and changes the orb of this character into a [WANO] orb.",
+            super: "Optionally removes Captain Swap duration completely, reduces enemies' [STR] and [QCK] Resistance by -30% for 1 turn, changes all orbs into [WANO] orbs, and becomes Kaido & Big Mom for 3 turns.",
+            superTurns: 8
+        },
+        limit: [
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base HP by 20" },
+            { description: "Acquire Potential 1: Critical Hit" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Acquire Potential 2: Special Use Limit" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Acquire Sailor Ability 2: Tapping on this character with a [WANO] slot will further increase crew's type effect boost by +0.2" },
+            { description: "Boosts base RCV by 40" },
+            { description: "Boosts base HP by 80" },
+            { description: "Boosts base ATK by 40" },
+            { description: "Boosts base HP by 80" },
+            { description: "Acquire Potential 3: Rush" },
+            { description: "LOCKED WITH KEY" },
+            { description: "Boosts base HP by 150" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base HP by 150" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Boosts base HP by 200" },
+            { description: "Boosts base ATK by 100" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+        ],
+        potential: [
+            {
+                Name: "Critical Hit",
+                description: [
+                    "If you hit a PERFECT with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 70% chance to deal 7% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 80% chance to deal 8% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 100% chance to deal 10% of this character's attack in extra damage"
+                ]
+            },
+            {
+                Name: "Special Use Limit",
+                description: [
+                    "Reduces Special Use Limit duration by 1 turn",
+                    "Reduces Special Use Limit duration by 1 turn",
+                    "Reduces Special Use Limit duration by 2 turns",
+                    "Reduces Special Use Limit duration by 2 turns",
+                    "Reduces Special Use Limit duration by 3 turns"
+                ]
+            },
+            {
+                Name: "Rush",
+                description: [
+                    "Obtain Rush Lv.1",
+                    "Obtain Rush Lv.2",
+                    "Obtain Rush Lv.3",
+                    "Obtain Rush Lv.4",
+                    "Obtain Rush Lv.5"
+                ]
+            }
+        ],
+        rush: {
+            characterCondition: [
+                "On the last Stage when character has a [WANO] or [SEMLA] orb, performs the 2nd tap of an attack, and your crew must consist of any 1 of the following, excluding supports and counting only 1 per unit: King (Alber), Queen, Jack, Yamato, Charlotte Katakuri, Charlotte Cracker, Charlotte Smoothie, Charlotte Perospero, Streusen, Shiki, Miss Buckingham Stussy, Edward Newgate (Whitebeard)",
+                "On the last Stage when character has a [WANO] or [SEMLA] orb, performs the 2nd tap of an attack, and your crew must consist of any 1 of the following, excluding supports and counting only 1 per unit: King (Alber), Queen, Jack, Yamato, Charlotte Katakuri, Charlotte Cracker, Charlotte Smoothie, Charlotte Perospero, Streusen, Shiki, Miss Buckingham Stussy, Edward Newgate (Whitebeard)",
+                "On the last Stage when character has a [WANO] or [SEMLA] orb, performs the 2nd tap of an attack, and your crew must consist of any 1 of the following, excluding supports and counting only 1 per unit: King (Alber), Queen, Jack, Yamato, Charlotte Katakuri, Charlotte Cracker, Charlotte Smoothie, Charlotte Perospero, Streusen, Shiki, Miss Buckingham Stussy, Edward Newgate (Whitebeard)",
+                "On the last Stage when character has a [WANO] or [SEMLA] orb, performs the 2nd tap of an attack, and your crew must consist of any 1 of the following, excluding supports and counting only 1 per unit: King (Alber), Queen, Jack, Yamato, Charlotte Katakuri, Charlotte Cracker, Charlotte Smoothie, Charlotte Perospero, Streusen, Shiki, Miss Buckingham Stussy, Edward Newgate (Whitebeard)",
+                "On the last Stage when character has a [WANO] or [SEMLA] orb, performs the 2nd tap of an attack, and your crew must consist of any 1 of the following, excluding supports and counting only 1 per unit: King (Alber), Queen, Jack, Yamato, Charlotte Katakuri, Charlotte Cracker, Charlotte Smoothie, Charlotte Perospero, Streusen, Shiki, Miss Buckingham Stussy, Edward Newgate (Whitebeard)"
+            ],
+            description: [
+                "Performs a Rush up to 7 times. Adds 0.1x-0.5x to Chain multiplier for 1 turn, and boosts Rush ATK of Striker, Powerhouse and Slasher characters by 1.1x-1.5x.",
+                "Performs a Rush up to 7 times. Adds 0.1x-0.5x to Chain multiplier for 1 turn, and boosts Rush ATK of Striker, Powerhouse and Slasher characters by 1.15x-1.55x.",
+                "Performs a Rush up to 7 times. Adds 0.1x-0.5x to Chain multiplier for 1 turn, and boosts Rush ATK of Striker, Powerhouse and Slasher characters by 1.2x-1.6x.",
+                "Performs a Rush up to 7 times. Adds 0.1x-0.5x to Chain multiplier for 1 turn, and boosts Rush ATK of Striker, Powerhouse and Slasher characters by 1.25x-1.65x.",
+                "Performs a Rush up to 7 times. Adds 0.1x-0.5x to Chain multiplier for 1 turn, and boosts Rush ATK of Striker, Powerhouse and Slasher characters by 1.4x-1.8x."
+            ],
+            stats: [
+                "HP Cost: 30,000<br>Max Rush: 7 times<br>Chain Multiplier Growth: +0.1<br>Finish Tap Effect: Boosts Rush ATK of Striker, Powerhouse and Slasher characters by 1.1x-1.5x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.1<br>Finish Tap Multiplier: 0.8",
+                "HP Cost: 28,000<br>Max Rush: 7 times<br>Chain Multiplier Growth: +0.1<br>Finish Tap Effect: Boosts Rush ATK of Striker, Powerhouse and Slasher characters by 1.15x-1.55x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.1<br>Finish Tap Multiplier: 0.8",
+                "HP Cost: 26,000<br>Max Rush: 7 times<br>Chain Multiplier Growth: +0.1<br>Finish Tap Effect: Boosts Rush ATK of Striker, Powerhouse and Slasher characters by 1.2x-1.6x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.1<br>Finish Tap Multiplier: 0.8",
+                "HP Cost: 24,000<br>Max Rush: 7 times<br>Chain Multiplier Growth: +0.1<br>Finish Tap Effect: Boosts Rush ATK of Striker, Powerhouse and Slasher characters by 1.25x-1.65x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.1<br>Finish Tap Multiplier: 0.8",
+                "HP Cost: 20,000<br>Max Rush: 7 times<br>Chain Multiplier Growth: +0.1<br>Finish Tap Effect: Boosts Rush ATK of Striker, Powerhouse and Slasher characters by 1.4x-1.8x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.1<br>Finish Tap Multiplier: 0.8"
+            ]
+        }
+    },
+    4478: {//King
+        captain: "Boosts ATK of Slasher and Powerhouse characters by 3.5x, boosts HP of all characters by 1.35x, reduces Bind, Despair, Paralysis and Special Bind duration completely on this character, and restores Special Cooldown of this character completely when it is rewinded. If this character becomes your captain in the middle of an island, boosts ATK of Slasher and Powerhouse characters by 5.25x, and boosts ATK of all other characters 1.5x.",
+        special: "Reduces Special Cooldown of all characters by 2 turns, and reduces enemies' Resilience duration by 6 turns. If your crew has 5+ [Land of Wano Arc] or [Animal Kingdom Pirates] characters, boosts Orb Effects of Slasher and Powerhouse characters by 2.25x, allowing override, for 1 turn, boosts Base ATK of Slasher and Powerhouse characters by 1,000, allowing override, for 1 turn, and boosts Chain Multiplier Growth Rate by 1.25x for 1 turn; boosts Orb Effects of Slasher and Powerhouse characters by 2.25x for 1 turn and boosts Base ATK of Slasher and Powerhouse characters by 1,000 for 1 turn otherwise.",
+        specialName: "Imperial Deep Pride Stake",
+        sailor: {
+            base: "Restores Special Cooldown of this character completely when it is rewinded, and reduces Special Bind duration completely on this character.",
+            level1: "Boosts base ATK, HP and RCV of Slasher and Powerhouse characters by 60. Reduces Paralysis duration completely on this character."
+        },
+        support: [
+            {
+                Characters: "[Animal Kingdom Pirates] characters",
+                description: [
+                    "Once per adventure, when the supported character uses their special, boosts Base ATK of Slasher characters by 100 for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, boosts Base ATK of Slasher characters by 200 for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, boosts Base ATK of Slasher characters by 350 for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, boosts Base ATK of Slasher characters by 500 for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, boosts Base ATK of Slasher characters by 500, allowing override, for 1 turn."
+                ]
+            }
+        ],
+        limit: [
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Acquire Potential 1: Critical Hit" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Acquire 1 additional Socket slot" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base ATK by 40" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Acquire Sailor Ability 2: Boosts Slasher and Powerhouse characters' base stats by 60, and lets character completely evade Paralysis" },
+            { description: "Boosts base HP by 80" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Acquire Potential 2: Sailor Despair" },
+        ],
+        potential: [
+            {
+                Name: "Critical Hit",
+                description: [
+                    "If you hit a PERFECT with this character, there is a 30% chance to deal 4% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 50% chance to deal 6% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 60% chance to deal 7% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 80% chance to deal 8% of this character's attack in extra damage"
+                ]
+            },
+            {
+                Name: "Sailor Despair",
+                description: [
+                    "Reduces Sailor Despair duration by 1 turn on this character",
+                    "Reduces Sailor Despair duration by 1 turn on this character",
+                    "Reduces Sailor Despair duration by 2 turns on this character",
+                    "Reduces Sailor Despair duration by 2 turns on this character",
+                    "Reduces Sailor Despair duration by 3 turns on this character"
+                ]
+            }
+        ]
+    },
+    4479: {//Perospero
+        captain: "Boosts ATK of Striker and Powerhouse characters by 4x, boosts HP of all characters by 1.35x, reduces damage received by 10%, and launches the following effect at start of fight: locks all orbs for 5 turns.",
+        special: "Reduces Slot Bind duration by 3 turns, changes the orb of this character into a [TND] orb, barriers this character's orb for 1 GREAT hit, locks all orbs for 2 turns, and boosts ATK of Striker and Powerhouse characters by 1.75x-2.75x for 1 turn depending on the number of status effects applied on enemy when special is activated. If enemies have 8+ status effects when the special is activated, increases Orb Effects of beneficial [SEMLA] orbs to 2.5x for 1 turn. If your crew has 5+ [Land of Wano Arc] or [Big Mom Pirates] characters, inflicts all enemies with Set Target, increasing damage taken from Striker and Powerhouse characters by 1.5x and reducing Special Cooldown of Striker and Powerhouse characters by 1 turn when they defeat an enemy, for 1 turn.",
+        specialNotes: "<br>1.75x for 0-5 effects, 2.25x for 6-7 effects, 2.75x for 8+ effects",
+        specialName: "Brandished Right Arm Before His Adversaries",
+        sailor: {
+            base: "Makes [DEX] and [SEMLA] orbs beneficial for Striker and Powerhouse characters.",
+            level1: "Makes [INT], [BOMB] and [SUPERBOMB] orbs beneficial for Striker and Powerhouse characters."
+        },
+        support: [
+            {
+                Characters: "[Big Mom Pirates] characters",
+                description: [
+                    "Once per adventure, when the supported character uses their special, boosts Base ATK of Striker characters by 100 for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, boosts Base ATK of Striker characters by 200 for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, boosts Base ATK of Striker characters by 350 for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, boosts Base ATK of Striker characters by 500 for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, boosts Base ATK of Striker characters by 500, allowing override, for 1 turn."
+                ]
+            }
+        ],
+        limit: [
+            { description: "Boosts base HP by 40" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base HP by 50" },
+            { description: "Acquire Potential 1: Slot Bind" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Acquire 1 additional Socket slot" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Acquire Sailor Ability 2: Makes Striker and Powerhouse characters' [INT][BOMB][S. BOMB] slots have matching slot effects" },
+            { description: "Boosts base HP by 60" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Acquire Potential 2: Super Tandem" },
+        ],
+        potential: [
+            {
+                Name: "Slot Bind",
+                description: [
+                    "Reduces Slot Bind duration by 1 turn on this character",
+                    "Reduces Slot Bind duration by 2 turns on this character",
+                    "Reduces Slot Bind duration by 3 turns on this character",
+                    "Reduces Slot Bind duration by 4 turns on this character",
+                    "Reduces Slot Bind duration by 5 turns on this character"
+                ]
+            },
+            {
+                Name: "Super Tandem",
+                description: [
+                    "Obtain Super Tandem Lv.1",
+                    "Obtain Super Tandem Lv.2",
+                    "Obtain Super Tandem Lv.3",
+                    "Obtain Super Tandem Lv.4",
+                    "Obtain Super Tandem Lv.5"
+                ]
+            }
+        ],
+        superTandem: {
+            characterCondition: [
+                "Your crew must consist of any 1 of the following, excluding supports and counting only 1 per unit: Charlotte Linlin (Big Mom), Charlotte Katakuri, Charlotte Cracker, Charlotte Smoothie",
+                "Your crew must consist of any 1 of the following, excluding supports and counting only 1 per unit: Charlotte Linlin (Big Mom), Charlotte Katakuri, Charlotte Cracker, Charlotte Smoothie",
+                "Your crew must consist of any 1 of the following, excluding supports and counting only 1 per unit: Charlotte Linlin (Big Mom), Charlotte Katakuri, Charlotte Cracker, Charlotte Smoothie",
+                "Your crew must consist of any 1 of the following, excluding supports and counting only 1 per unit: Charlotte Linlin (Big Mom), Charlotte Katakuri, Charlotte Cracker, Charlotte Smoothie",
+                "Your crew must consist of any 1 of the following, excluding supports and counting only 1 per unit: Charlotte Linlin (Big Mom), Charlotte Katakuri, Charlotte Cracker, Charlotte Smoothie"
+            ],
+            description: [
+                "Reduces the defense of all enemies by 50% for 1 turn, and boosts Tandem ATK of [Big Mom Pirates] and [Land of Wano Arc] characters by 1.1x for 1 turn.",
+                "Reduces the defense of all enemies by 50% for 1 turn, and boosts Tandem ATK of [Big Mom Pirates] and [Land of Wano Arc] characters by 1.2x for 1 turn.",
+                "Reduces the defense of all enemies by 50% for 1 turn, and boosts Tandem ATK of [Big Mom Pirates] and [Land of Wano Arc] characters by 1.3x for 1 turn.",
+                "Reduces the defense of all enemies by 50% for 1 turn, and boosts Tandem ATK of [Big Mom Pirates] and [Land of Wano Arc] characters by 1.4x for 1 turn.",
+                "Reduces the defense of all enemies by 50% for 2 turns, and boosts Tandem ATK of [Big Mom Pirates] and [Land of Wano Arc] characters by 1.5x for 1 turn."
+            ]
+        }
+    },
+    4480: {//5* PKA Kid
+        captain: "Reduces Special Cooldown of [STR], Striker and Slasher characters by 1 turn at the start of the fight, boosts ATK of [STR], Striker and Slasher characters by 3.75x, by 4x instead if they have a beneficial orb and by 5x instead if they have a [EMPTY] orb, boosts base ATK of [Kid Pirates] and [Worst Generation] characters by 1,000, makes [BOMB] and [SUPERBOMB] orbs beneficial for [STR], Striker and Slasher characters, and [BOMB] and [SUPERBOMB] orbs will deal 80% less damage to the crew.",
+        special: "Changes [STR], [DEX], [QCK], [PSY] and [INT] orbs into [EMPTY] orbs, deals 35x-350x character's ATK in [STR] damage to one enemy depending on number of [STR], [DEX], [QCK], [PSY] and [INT] slots emptied, reduces enemies' Barrier duration by 2 turns, reduces ATK Down duration by 6 turn, and boosts Critical Hit Damage of all characters by 60% for 1 turn.",
+        specialName: "Punk Clash",
+        sailor: {
+            base: "Makes [BOMB] and [SUPERBOMB] orbs beneficial for all characters.",
+            level1: "Reduces ATK Down duration by 1 turn."
+        },
+        support: [
+            {
+                Characters: "[Kid Pirates] characters",
+                description: [
+                    "Once per adventure, when the supported character uses their special, changes the orb of the supported character into a [BOMB] orb.",
+                    "Once per adventure, when the supported character uses their special, changes the orb of the supported character into a [BOMB] orb.",
+                    "Once per adventure, when the supported character uses their special, changes the orb of the supported character into a [BOMB] orb.",
+                    "Once per adventure, when the supported character uses their special, changes the orb of the supported character into a [BOMB] orb.",
+                    "Once per adventure, when the supported character uses their special, changes the orb of the supported character into a [BOMB] orb, and reduces enemies' Barrier duration by 1 turn."
+                ]
+            }
+        ],
+        limit: [
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base HP by 30" },
+            { description: "Acquire Potential 1: Pinch Healing" },
+            { description: "Boosts base HP by 40" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Acquire Potential 2: Damage Limit Break: Class" },
+            { description: "Acquire 1 additional Socket slot" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "LOCKED WITH KEY" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base HP by 200" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Acquire Potential 3: Critical Hit" },
+            { description: "Boosts base HP by 300" },
+            { description: "Boosts base ATK by 100" },
+            { description: "Acquire Sailor Ability 2: Reduces cerw's ATK Down duration by 1 turn" },
+        ],
+        potential: [
+            {
+                Name: "Pinch Healing",
+                description: [
+                    "If HP is below 10% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 20% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 30% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 40% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 50% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character"
+                ]
+            },
+            {
+                Name: "Damage Limit Break: Class",
+                description: [
+                    "Boosts Damage Limit Break effect based on number of Striker characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.1 for 4, +0.2 for 5, +0.3 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Striker characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.2 for 4, +0.3 for 5, +0.4 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Striker characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.3 for 4, +0.4 for 5, +0.5 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Striker characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.4 for 4, +0.5 for 5, +0.6 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Striker characters on the crew (except as Support Characters): +0.2 for 1, +.0.3 for 2, +0.4 for 3, +0.5 for 4, +0.6 for 5, +0.75 for 6 "
+                ]
+            },
+            {
+                Name: "Critical Hit",
+                description: [
+                    "If you hit a PERFECT with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 70% chance to deal 6% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 80% chance to deal 7% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 100% chance to deal 8% of this character's attack in extra damage"
+                ]
+            }
+        ]
+    },
     4986: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
         special: "Deals 120x character's ATK in Typeless damage to all enemies, changes orbs of adjacent characters into Matching Orbs, boosts ATK of all characters by 1.75x for 2 turns, reduces any damage received above 5,656 HP by 97% for 2 turns and makes PERFECTs easier to hit for 2 turns",
@@ -177370,4 +177815,6 @@ if (UnitUtils){
     UnitUtils.extendDouble(calcGhostStartID, 4458, "dual");
     UnitUtils.extendDouble(calcGhostStartID, 4469, "vs");
     UnitUtils.extendDouble(calcGhostStartID, 4475, "dual");
+    UnitUtils.extendDouble(calcGhostStartID, 4476, "dual");
+    UnitUtils.extendDouble(calcGhostStartID, 4477, "dual");
 }
