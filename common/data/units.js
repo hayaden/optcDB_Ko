@@ -4479,6 +4479,8 @@ window.units = [
     ["킹 – 해방하는 장력", "DEX", ["Slasher", "Powerhouse"], 5, 30, 4, 4, 99, 4000000, 2012, 813, 69, 4024, 1625, 138, 1],
     ["샬롯 페로스페로 – 오른팔의 대가", "INT", ["Striker", "Powerhouse"], 5, 30, 5, 4, 99, 4000000, 1654, 805, 132, 3307, 1609, 263, 1],
     ["유스타스 키드 – 배신자를 향한 손끝", "STR", ["Striker", "Slasher"], 5, 40, 4, 4, 99, 5000000, 1451, 801, 117, 2901, 1601, 233, 1],
+    ["", "Type", ["Class1", "Class2"], null, null, null, null, null, null, null, null, null, null, null, null, null],
+    ["마스터 시저 클라운 – 살상 가스를 두른 과학자", "DEX", ["Cerebral", "Driven"], 6, 55, 5, 5, 99, 5000000, 2067, 809, 161, 4134, 1617, 322, 1],
 ];
 
 var calcGhostStartID = { "start": 5000 };
