@@ -5107,6 +5107,7 @@ window.families = {
     4479: [ ...CharlottePerospero ],
     4480: [ ...EustassKid ],
     //4481: [ ...EustassKid ],
+    4482: [ ...CaesarClown ],
     //break 해당 코드의 역할은 세부정보창의 가족부분담당
     4986: [ ...MonkeyDLuffy ],
     4987: [ ...MonkeyDLuffy ],
