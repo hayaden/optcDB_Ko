@@ -13725,6 +13725,13 @@
 			},
 
 			{
+				name: "데미지 X배 부여 포함",
+				targets: ["rumbleAbility", "rumbleSpecial"],
+				regex: /During Assault Rumble/i,
+			},
+
+
+			{
 				name: "적제 초필살기 보유 캐릭터 보기",
 				targets: ["rumbleSpecial"],
 				regex: /\^\$/i,
