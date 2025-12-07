@@ -4351,6 +4351,10 @@ window.flags = {
     4478: { rr: 1, rro: 1 },
     4479: { rr: 1, rro: 1 },
     4482: { rr: 1, rro: 1, lrr: 1, pflrr: 1 },
+    4483: { rr: 1, rro: 1, lrr: 1, tmlrr: 1 },
+    4484: { rr: 1, rro: 1, lrr: 1, tmlrr: 1 },
+    4485: { rr: 1, rro: 1, lrr: 1, tmlrr: 1 },
+    4486: { rr: 1, rro: 1, lrr: 1, tmlrr: 1 },
     //global = 글로벌 서버에서 사용 가능한 캐릭터
     //rr: 일반뽑기에 포함된 캐릭터
     //rro: 일반뽑기 전용캐릭터

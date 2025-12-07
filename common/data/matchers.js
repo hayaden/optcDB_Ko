@@ -4029,6 +4029,8 @@
 					"captain",
 					"special",
 					"superSpecial",
+					"support",
+					"swap"
 				],
 				regex:
 					/enables ([^."]+?) to be enhanced up to 2 times/i,
@@ -6282,6 +6284,19 @@
 					...createPositionsSubmatchers([1]),
 				],
 			},
+
+			{
+				name: "2종류 이상 데미지 상승 동시 적용",
+				targets: ["special", "superSpecial"],
+				regex: /allows crew to stack 2 different Status ATK Boost buffs for ([?\d]+)(?:-([?\d]+))? turns?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "턴:",
+						groups: [1, 2],
+					},
+				],
+			},
 		],
 		"일당 디버프 효과": [
 			{
@@ -7755,7 +7770,7 @@
 				name: "중독",
 				targets: ["captain", "special", "superSpecial", "swap", "support"],
 				regex:
-					/(ignores? (?:Defense Reduction )?Debuff Protection and )?(strongly poisons|poisons|Inflicts Toxic)/i,
+					/(ignores? (?:Defense Reduction )?Debuff Protection and )?(poisons|strongly poisons|inflicts all enemies with Reiju Poison|inflicts Toxic)/i,
 				submatchers: [
 					{
 						type: "option",
@@ -7782,10 +7797,18 @@
 					{
 						type: "option",
 						description: "중독",
-						regex: /^i/i,
+						regex: /inflicts Toxic/i,
 						radioGroup: "1",
 						groups: [2],
 						cssClasses: ["min-width-12"],
+					},
+					{
+						type: "option",
+						description: "종류에 상관없는 독",
+						regex: /inflicts all enemies with Reiju Poison/i,
+						radioGroup: "1",
+						groups: [2],
+						cssClasses: ["min-width-6"],
 					},
 				],
 			},
@@ -8063,6 +8086,101 @@
 						groups: [3, 4],
 					},
 				],
+			},
+			{
+				name: "각종 상태이상 무효 무시",
+				targets: ["captain"],
+				regex:
+					/allows effects that inflict (?=((?:[^i]+|i(?!gnore))*))\1ignore Debuff Protection/i,
+				submatchers: [
+					{
+						type: "option",
+						description: "공격력 감소",
+						regex: /ATK Down/i,
+						groups: [1],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "option",
+						description: "화상",
+						regex: /Burn/i,
+						groups: [1],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "option",
+						description: "지연",
+						regex: /Delay/i,
+						groups: [1],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "option",
+						description: "메료-메료",
+						regex: /Melo-Melo/i,
+						groups: [1],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "option",
+						description: "네거티브",
+						regex: /Negative/i,
+						groups: [1],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "option",
+						description: "마비",
+						regex: /Paralysis/i,
+						groups: [1],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "option",
+						description: "독",
+						regex: /Poison/i,
+						groups: [1],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "option",
+						description: "약체",
+						regex: /Weaken/i,
+						groups: [1],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "option",
+						description: "방어력 감소",
+						regex: /Defense Reduction/i,
+						groups: [1],
+						cssClasses: ["min-width-12"],
+					},
+					{
+						type: "option",
+						description: "피해 데미지 상승",
+						regex: /Increase Damage Taken/i,
+						groups: [1],
+						cssClasses: ["min-width-12"],
+					},
+				],
+			},
+			{
+				name: "중복 가능: 공격력 상승",
+				targets: ["captain", "special"],
+				regex: /converts ATK Up into a Stackable ATK Up/i,
+			},
+
+			{
+				name: "중복 가능: 슬롯증폭효과",
+				targets: ["captain", "special"],
+				regex: /converts Orb Amplification into a Stackable Orb Amplification/i,
+			},
+
+			{
+				name: "중복가능: 속성상성강화",
+				targets: ["captain", "special"],
+				regex: /converts Color Affinity into a Stackable Color Affinity/i,
 			},
 		],
 		"적 상태이상 감소": [
@@ -13023,6 +13141,46 @@
 						type: "number",
 						description: "지속시간:",
 						groups: [4],
+					},
+					{
+						type: "separator",
+						description: "대상:",
+					},
+					{
+						type: "option",
+						description: "모두",
+						regex: /all/i,
+						groups: [2],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "속성:",
+					},
+					...createTypesSubmatchers([2]),
+					{
+						type: "separator",
+						description: "타입:",
+					},
+					...createClassesSubmatchers([2]),
+				],
+			},
+
+			{
+				name: " 능력치 감소",
+				targets: ["rumbleSpecial"],
+				regex:
+					/([.\d]+)% chance to evade[^.]+Stats Down[^.]+to (self|(?=((?:[^c]+|c(?!rew))*))\3crew members?)(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: for (\d+) seconds)?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "확률:",
+						groups: [1],
+					},
+					{
+						type: "number",
+						description: "지속시간:",
+						groups: [5],
 					},
 					{
 						type: "separator",
