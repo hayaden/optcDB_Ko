@@ -8514,6 +8514,15 @@ window.drops = {
             'Kizuna Exchange': [ "4468-skull", "4475-skull" ]
         },
 
+        {
+            name: 'Shirahoshi & Mansherry ',
+            dropID: 'kizuna75',
+            thumb: 4489,
+            global: true,
+            nakama: null,
+            gamewith: null,
+            'Kizuna Exchange': [ "4489-skull" ]
+        },
 
     ],
 //name: 캐릭터 이름. dropID: 드랍의 고유 ID, thumb: 캐릭터 썸네일 번호, global: 글로벌 서버에 등장여부, nakama: 나카마db와 연동 정보
