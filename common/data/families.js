@@ -698,16 +698,16 @@ const Yorueka = [ "Yorueka" ];
 const Aramaki = [ "Aramaki", "Ryokugyu", "Greenbull" ];
 const Tensei = [ "Tensei", "Kurouma" ];
 const Hamlet = [ "Hamlet" ];
-const Lilith = [ "Lilith", "PUNK-02" ];
+const Lilith = [ "Lilith", "PUNK-02", "Dr. Vegapunk \"Lilith the Evil\"" ];
 const Shakuyaku = [ "Shakuyaku", "Shakky" ];
 const SHawk = [ "S-Hawk" ];
 const SShark = [ "S-Shark" ];
-const Atlas = [ "Atlas", "PUNK-05" ];
-const Edison = [ "Edison", "PUNK-03" ];
-const Pythagoras = [ "Pythagoras", "PUNK-04" ];
-const York = [ "York", "PUNK-06" ];
+const Atlas = [ "Atlas", "PUNK-05", "Dr. Vegapunk \"Atlas the Violent\"" ];
+const Edison = [ "Edison", "PUNK-03", "Dr. Vegapunk \"Edison the Thinker\"" ];
+const Pythagoras = [ "Pythagoras", "PUNK-04", "Dr. Vegapunk \"Pythagoras the Wise\"" ];
+const York = [ "York", "PUNK-06", "Dr. Vegapunk \"York the Greedy\"" ];
 const Vegapunk = [ "Dr. Vegapunk", "Stella" ];
-const Shaka = [ "Shaka", "PUNK-01" ];
+const Shaka = [ "Shaka", "PUNK-01", "Dr. Vegapunk \"Shaka the Good\"" ];
 const Hakugan = [ "Hakugan" ];
 const SSnake = [ "S-Snake" ];
 const SBear = [ "S-Bear" ];
@@ -740,6 +740,8 @@ const Tosa = [ "Tosa" ];
 const Guillotine = [ "Guillotine" ];
 const Emet = [ "Emet" ];
 const ClouDClover = [ "Clou D. Clover" ];
+const Guernica = [ "Guernica" ];
+const Joseph = [ "Joseph" ];
 
 window.families = {
     1: [ ...MonkeyDLuffy ],
@@ -5129,7 +5131,11 @@ window.families = {
     4499: [ ...Vegapunk ],
     4500: [ ...ClouDClover ],
     4501: [ ...CaesarClown ],
-    //break 해당 코드의 역할은 세부정보창의 가족부분담당
+    4502: [ ...XDrake, ...ScratchmenApoo ],
+    4503: [ ...BasilHawkins ],
+    4504: [ ...Guernica, ...Maha, ...Joseph ],
+    4505: [ ...Kaido ],
+    //break
     4986: [ ...MonkeyDLuffy ],
     4987: [ ...MonkeyDLuffy ],
     4988: [ ...NefertariVivi ],
@@ -5141,9 +5147,6 @@ window.families = {
     4994: [ ...Coby ],
     4995: [ ...Coby ],
     4996: [ ...Helmeppo ],
-    4422: [ ...JewelryBonney, ...Gyogyo, ...Totts, ...Pert, ...Potato ],
-    4423: [ ...Vegapunk ],
-    4424: [ ...Borsalino ],
 };
 
 const calcGhostStartIDStart = 5000;
@@ -5870,6 +5873,10 @@ const ghostFamilies = {
     718: [ ...Shirahoshi, ...Mansherry ],
     719: [ ...Shirahoshi, ...Mansherry ],
     720: [ ...Shirahoshi, ...Mansherry ],
+    721: [ ...XDrake, ...ScratchmenApoo ],
+    722: [ ...XDrake, ...ScratchmenApoo ],
+    723: [ ...XDrake, ...ScratchmenApoo ],
+    724: [ ...XDrake, ...ScratchmenApoo ],
 }
 
 Object.keys(ghostFamilies).forEach(function (key) {

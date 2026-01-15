@@ -109727,16 +109727,16 @@ window.rumble = {
             base: {
                 cooldown: 25,
                 descriptions: [
-                    ['Inflicts Lv. 5 ATK and SPD down debuff to all enemies in a medium, radial range for 11 seconds.', 'Deals 1x ATK in damage to all enemies in a large, radial range.', '60% chance to inflict Paralysis to all enemies in a large, radial range for 6 seconds.', 'Removes 20% of Special CT to Slasher and Free Spirit enemies.', 'Applies Lv. 1 DEF up buff to [Baroque Works], [Logia-type], [Seven Warlords of the Sea] and [World Government] crew members for 11 seconds.'],
-                    ['Inflicts Lv. 5 ATK and SPD down debuff to all enemies in a medium, radial range for 12 seconds.', 'Deals 1.1x ATK in damage to all enemies in a large, radial range.', '62% chance to inflict Paralysis to all enemies in a large, radial range for 6 seconds.', 'Removes 22% of Special CT to Slasher and Free Spirit enemies.', 'Applies Lv. 1 DEF up buff to [Baroque Works], [Logia-type], [Seven Warlords of the Sea] and [World Government] crew members for 12 seconds.'],
-                    ['Inflicts Lv. 6 ATK and SPD down debuff to all enemies in a medium, radial range for 13 seconds.', 'Deals 1.2x ATK in damage to all enemies in a large, radial range.', '64% chance to inflict Paralysis to all enemies in a large, radial range for 7 seconds.', 'Removes 24% of Special CT to Slasher and Free Spirit enemies.', 'Applies Lv. 2 DEF up buff to [Baroque Works], [Logia-type], [Seven Warlords of the Sea] and [World Government] crew members for 13 seconds.'],
-                    ['Inflicts Lv. 6 ATK and SPD down debuff to all enemies in a medium, radial range for 14 seconds.', 'Deals 1.3x ATK in damage to all enemies in a large, radial range.', '66% chance to inflict Paralysis to all enemies in a large, radial range for 7 seconds.', 'Removes 26% of Special CT to Slasher and Free Spirit enemies.', 'Applies Lv. 2 DEF up buff to [Baroque Works], [Logia-type], [Seven Warlords of the Sea] and [World Government] crew members for 14 seconds.'],
-                    ['Inflicts Lv. 7 ATK and SPD down debuff to all enemies in a medium, radial range for 15 seconds.', 'Deals 1.4x ATK in damage to all enemies in a large, radial range.', '68% chance to inflict Paralysis to all enemies in a large, radial range for 8 seconds.', 'Removes 28% of Special CT to Slasher and Free Spirit enemies.', 'Applies Lv. 3 DEF up buff to [Baroque Works], [Logia-type], [Seven Warlords of the Sea] and [World Government] crew members for 15 seconds.'],
-                    ['Inflicts Lv. 7 ATK and SPD down debuff to all enemies in a medium, radial range for 16 seconds.', 'Deals 1.5x ATK in damage to all enemies in a large, radial range.', '70% chance to inflict Paralysis to all enemies in a large, radial range for 8 seconds.', 'Removes 30% of Special CT to Slasher and Free Spirit enemies.', 'Applies Lv. 3 DEF up buff to [Baroque Works], [Logia-type], [Seven Warlords of the Sea] and [World Government] crew members for 16 seconds.'],
-                    ['Inflicts Lv. 8 ATK and SPD down debuff to all enemies in a medium, radial range for 17 seconds.', 'Deals 1.6x ATK in damage to all enemies in a large, radial range.', '72% chance to inflict Paralysis to all enemies in a large, radial range for 9 seconds.', 'Removes 32% of Special CT to Slasher and Free Spirit enemies.', 'Applies Lv. 4 DEF up buff to [Baroque Works], [Logia-type], [Seven Warlords of the Sea] and [World Government] crew members for 17 seconds.'],
-                    ['Inflicts Lv. 8 ATK and SPD down debuff to all enemies in a medium, radial range for 18 seconds.', 'Deals 1.7x ATK in damage to all enemies in a large, radial range.', '74% chance to inflict Paralysis to all enemies in a large, radial range for 9 seconds.', 'Removes 34% of Special CT to Slasher and Free Spirit enemies.', 'Applies Lv. 4 DEF up buff to [Baroque Works], [Logia-type], [Seven Warlords of the Sea] and [World Government] crew members for 18 seconds.'],
-                    ['Inflicts Lv. 9 ATK and SPD down debuff to all enemies in a medium, radial range for 19 seconds.', 'Deals 1.8x ATK in damage to all enemies in a large, radial range.', '76% chance to inflict Paralysis to all enemies in a large, radial range for 10 seconds.', 'Removes 36% of Special CT to Slasher and Free Spirit enemies.', 'Applies Lv. 5 DEF up buff to [Baroque Works], [Logia-type], [Seven Warlords of the Sea] and [World Government] crew members for 19 seconds.'],
-                    ['Inflicts Lv. 10 ATK and SPD down debuff to all enemies in a medium, radial range for 20 seconds.', 'Deals 2x ATK in damage to all enemies in a large, radial range.', '80% chance to inflict Paralysis to all enemies in a large, radial range for 10 seconds.', 'Removes 40% of Special CT to Slasher and Free Spirit enemies.', 'Applies Lv. 5 DEF up buff to [Baroque Works], [Logia-type], [Seven Warlords of the Sea] and [World Government] crew members for 20 seconds.']
+                    ['Inflicts Lv. 5 ATK and SPD down debuff to all enemies in a medium, radial range for 11 seconds.', 'Deals 1x ATK in damage to all enemies in a large, radial range.', '60% chance to inflict Paralysis to all enemies in a large, radial range for 6 seconds.', 'Removes 20% of Special CT to Slasher and Free Spirit enemies.', 'Applies Lv. 1 DEF up buff to [Baroque Works], [Paramythia-type], [Logia-type], [Seven Warlords of the Sea] and [World Government] crew members for 11 seconds.'],
+                    ['Inflicts Lv. 5 ATK and SPD down debuff to all enemies in a medium, radial range for 12 seconds.', 'Deals 1.1x ATK in damage to all enemies in a large, radial range.', '62% chance to inflict Paralysis to all enemies in a large, radial range for 6 seconds.', 'Removes 22% of Special CT to Slasher and Free Spirit enemies.', 'Applies Lv. 1 DEF up buff to [Baroque Works], [Paramythia-type], [Logia-type], [Seven Warlords of the Sea] and [World Government] crew members for 12 seconds.'],
+                    ['Inflicts Lv. 6 ATK and SPD down debuff to all enemies in a medium, radial range for 13 seconds.', 'Deals 1.2x ATK in damage to all enemies in a large, radial range.', '64% chance to inflict Paralysis to all enemies in a large, radial range for 7 seconds.', 'Removes 24% of Special CT to Slasher and Free Spirit enemies.', 'Applies Lv. 2 DEF up buff to [Baroque Works], [Paramythia-type], [Logia-type], [Seven Warlords of the Sea] and [World Government] crew members for 13 seconds.'],
+                    ['Inflicts Lv. 6 ATK and SPD down debuff to all enemies in a medium, radial range for 14 seconds.', 'Deals 1.3x ATK in damage to all enemies in a large, radial range.', '66% chance to inflict Paralysis to all enemies in a large, radial range for 7 seconds.', 'Removes 26% of Special CT to Slasher and Free Spirit enemies.', 'Applies Lv. 2 DEF up buff to [Baroque Works], [Paramythia-type], [Logia-type], [Seven Warlords of the Sea] and [World Government] crew members for 14 seconds.'],
+                    ['Inflicts Lv. 7 ATK and SPD down debuff to all enemies in a medium, radial range for 15 seconds.', 'Deals 1.4x ATK in damage to all enemies in a large, radial range.', '68% chance to inflict Paralysis to all enemies in a large, radial range for 8 seconds.', 'Removes 28% of Special CT to Slasher and Free Spirit enemies.', 'Applies Lv. 3 DEF up buff to [Baroque Works], [Paramythia-type], [Logia-type], [Seven Warlords of the Sea] and [World Government] crew members for 15 seconds.'],
+                    ['Inflicts Lv. 7 ATK and SPD down debuff to all enemies in a medium, radial range for 16 seconds.', 'Deals 1.5x ATK in damage to all enemies in a large, radial range.', '70% chance to inflict Paralysis to all enemies in a large, radial range for 8 seconds.', 'Removes 30% of Special CT to Slasher and Free Spirit enemies.', 'Applies Lv. 3 DEF up buff to [Baroque Works], [Paramythia-type], [Logia-type], [Seven Warlords of the Sea] and [World Government] crew members for 16 seconds.'],
+                    ['Inflicts Lv. 8 ATK and SPD down debuff to all enemies in a medium, radial range for 17 seconds.', 'Deals 1.6x ATK in damage to all enemies in a large, radial range.', '72% chance to inflict Paralysis to all enemies in a large, radial range for 9 seconds.', 'Removes 32% of Special CT to Slasher and Free Spirit enemies.', 'Applies Lv. 4 DEF up buff to [Baroque Works], [Paramythia-type], [Logia-type], [Seven Warlords of the Sea] and [World Government] crew members for 17 seconds.'],
+                    ['Inflicts Lv. 8 ATK and SPD down debuff to all enemies in a medium, radial range for 18 seconds.', 'Deals 1.7x ATK in damage to all enemies in a large, radial range.', '74% chance to inflict Paralysis to all enemies in a large, radial range for 9 seconds.', 'Removes 34% of Special CT to Slasher and Free Spirit enemies.', 'Applies Lv. 4 DEF up buff to [Baroque Works], [Paramythia-type], [Logia-type], [Seven Warlords of the Sea] and [World Government] crew members for 18 seconds.'],
+                    ['Inflicts Lv. 9 ATK and SPD down debuff to all enemies in a medium, radial range for 19 seconds.', 'Deals 1.8x ATK in damage to all enemies in a large, radial range.', '76% chance to inflict Paralysis to all enemies in a large, radial range for 10 seconds.', 'Removes 36% of Special CT to Slasher and Free Spirit enemies.', 'Applies Lv. 5 DEF up buff to [Baroque Works], [Paramythia-type], [Logia-type], [Seven Warlords of the Sea] and [World Government] crew members for 19 seconds.'],
+                    ['Inflicts Lv. 10 ATK and SPD down debuff to all enemies in a medium, radial range for 20 seconds.', 'Deals 2x ATK in damage to all enemies in a large, radial range.', '80% chance to inflict Paralysis to all enemies in a large, radial range for 10 seconds.', 'Removes 40% of Special CT to Slasher and Free Spirit enemies.', 'Applies Lv. 5 DEF up buff to [Baroque Works], [Paramythia-type], [Logia-type], [Seven Warlords of the Sea] and [World Government] crew members for 20 seconds.']
                 ]
             }
         },
@@ -113900,6 +113900,167 @@ window.rumble = {
         },
         festAttackPattern: ['Normal Attack'],
         festAttackTarget: "Nearby Enemies."
+    },
+    4502: {
+        festCost: 55,
+        festStats: {
+            def: 165,
+            spd: 159,
+            style: "DBF"
+        },
+        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<b>Full Attack</b>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Action Bind.', '30% damage reduction from Fighter enemies.', '30% damage reduction from Slasher enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 4 HP up buff to [Land of Wano Arc], [Navy], [Worst Generation] and [Paramythia-type] crew members.', 'The first 7 times this character lands a hit, inflicts Lv. 1 ATK, SPD and DEF down debuff to Fighter and Slasher enemies.', 'The first 5 times this character takes damage, removes 2% of Special CT to Fighter and Slasher enemies.'],
+                ['Applies Lv. 5 HP up buff to [Land of Wano Arc], [Navy], [Worst Generation] and [Paramythia-type] crew members.', 'The first 7 times this character lands a hit, inflicts Lv. 1 ATK, SPD and DEF down debuff to Fighter and Slasher enemies.', 'The first 5 times this character takes damage, removes 4% of Special CT to Fighter and Slasher enemies.'],
+                ['Applies Lv. 6 HP up buff to [Land of Wano Arc], [Navy], [Worst Generation] and [Paramythia-type] crew members.', 'The first 7 times this character lands a hit, inflicts Lv. 1 ATK, SPD and DEF down debuff to Fighter and Slasher enemies.', 'The first 5 times this character takes damage, removes 6% of Special CT to Fighter and Slasher enemies.'],
+                ['Applies Lv. 7 HP up buff to [Land of Wano Arc], [Navy], [Worst Generation] and [Paramythia-type] crew members.', 'The first 7 times this character lands a hit, inflicts Lv. 1 ATK, SPD and DEF down debuff to Fighter and Slasher enemies.', 'The first 5 times this character takes damage, removes 8% of Special CT to Fighter and Slasher enemies.'],
+                ['Applies Lv. 8 HP up buff to [Land of Wano Arc], [Navy], [Worst Generation] and [Paramythia-type] crew members.', 'The first 7 times this character lands a hit, inflicts Lv. 2 ATK, SPD and DEF down debuff to Fighter and Slasher enemies.', 'The first 5 times this character takes damage, removes 10% of Special CT to Fighter and Slasher enemies.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 30,
+                descriptions: [
+                    ['Removes 11% of Special CT to 3 enemies with the highest Special CT.', 'Deals 2,750 fixed damage to Fighter and Slasher enemies.', 'When there is 4 or more [Land of Wano Arc] and [SWORD] crew members, reduces 32% of Special CT to self.', 'When there is 4 or more [Land of Wano Arc] and [SWORD] crew members, 73% chance to grant Haste to self.'],
+                    ['Removes 12% of Special CT to 3 enemies with the highest Special CT.', 'Deals 3,000 fixed damage to Fighter and Slasher enemies.', 'When there is 4 or more [Land of Wano Arc] and [SWORD] crew members, reduces 34% of Special CT to self.', 'When there is 4 or more [Land of Wano Arc] and [SWORD] crew members, 76% chance to grant Haste to self.'],
+                    ['Removes 13% of Special CT to 3 enemies with the highest Special CT.', 'Deals 3,250 fixed damage to Fighter and Slasher enemies.', 'When there is 4 or more [Land of Wano Arc] and [SWORD] crew members, reduces 36% of Special CT to self.', 'When there is 4 or more [Land of Wano Arc] and [SWORD] crew members, 79% chance to grant Haste to self.'],
+                    ['Removes 14% of Special CT to 3 enemies with the highest Special CT.', 'Deals 3,500 fixed damage to Fighter and Slasher enemies.', 'When there is 4 or more [Land of Wano Arc] and [SWORD] crew members, reduces 38% of Special CT to self.', 'When there is 4 or more [Land of Wano Arc] and [SWORD] crew members, 82% chance to grant Haste to self.'],
+                    ['Removes 15% of Special CT to 3 enemies with the highest Special CT.', 'Deals 3,750 fixed damage to Fighter and Slasher enemies.', 'When there is 4 or more [Land of Wano Arc] and [SWORD] crew members, reduces 40% of Special CT to self.', 'When there is 4 or more [Land of Wano Arc] and [SWORD] crew members, 85% chance to grant Haste to self.'],
+                    ['Removes 16% of Special CT to 3 enemies with the highest Special CT.', 'Deals 4,000 fixed damage to Fighter and Slasher enemies.', 'When there is 4 or more [Land of Wano Arc] and [SWORD] crew members, reduces 42% of Special CT to self.', 'When there is 4 or more [Land of Wano Arc] and [SWORD] crew members, 88% chance to grant Haste to self.'],
+                    ['Removes 17% of Special CT to 3 enemies with the highest Special CT.', 'Deals 4,250 fixed damage to Fighter and Slasher enemies.', 'When there is 4 or more [Land of Wano Arc] and [SWORD] crew members, reduces 44% of Special CT to self.', 'When there is 4 or more [Land of Wano Arc] and [SWORD] crew members, 91% chance to grant Haste to self.'],
+                    ['Removes 18% of Special CT to 3 enemies with the highest Special CT.', 'Deals 4,500 fixed damage to Fighter and Slasher enemies.', 'When there is 4 or more [Land of Wano Arc] and [SWORD] crew members, reduces 46% of Special CT to self.', 'When there is 4 or more [Land of Wano Arc] and [SWORD] crew members, 94% chance to grant Haste to self.'],
+                    ['Removes 19% of Special CT to 3 enemies with the highest Special CT.', 'Deals 4,750 fixed damage to Fighter and Slasher enemies.', 'When there is 4 or more [Land of Wano Arc] and [SWORD] crew members, reduces 48% of Special CT to self.', 'When there is 4 or more [Land of Wano Arc] and [SWORD] crew members, 97% chance to grant Haste to self.'],
+                    ['Removes 20% of Special CT to 3 enemies with the highest Special CT.', 'Deals 5,000 fixed damage to Fighter and Slasher enemies.', 'When there is 4 or more [Land of Wano Arc] and [SWORD] crew members, reduces 50% of Special CT to self.', 'When there is 4 or more [Land of Wano Arc] and [SWORD] crew members, 100% chance to grant Haste to self.']
+                ]
+            }
+        }
+    },
+    4503: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "DEF"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4504: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "SPT"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4505: {
+        festCost: 55,
+        festStats: {
+            def: 216,
+            spd: 131,
+            style: "ATK"
+        },
+        festAttackPattern: ['<b><i>Power Attack</b></i>', '<b><i>Power Attack</b></i>', '<b>Full Attack</b>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Special Bind.', '30% damage reduction from [QCK] enemies.'],
+            llbbase: ['100% chance to resist Special Bind.', '40% damage reduction from [QCK] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 3 ATK and HP up buff to Powerhouse and Striker crew members.', 'Applies Lv. 4 ATK up buff to self.', 'For the first 20 seconds, applies Lv. 2 Special CT up buff to self.', 'When there is 4 or more [Land of Wano Arc] crew members, reduces 12% of Special CT to self upon appearance.'],
+                ['Applies Lv. 4 ATK and HP up buff to Powerhouse and Striker crew members.', 'Applies Lv. 5 ATK up buff to self.', 'For the first 20 seconds, applies Lv. 3 Special CT up buff to self.', 'When there is 4 or more [Land of Wano Arc] crew members, reduces 14% of Special CT to self upon appearance.'],
+                ['Applies Lv. 5 ATK and HP up buff to Powerhouse and Striker crew members.', 'Applies Lv. 6 ATK up buff to self.', 'For the first 20 seconds, applies Lv. 4 Special CT up buff to self.', 'When there is 4 or more [Land of Wano Arc] crew members, reduces 16% of Special CT to self upon appearance.'],
+                ['Applies Lv. 6 ATK and HP up buff to Powerhouse and Striker crew members.', 'Applies Lv. 7 ATK up buff to self.', 'For the first 20 seconds, applies Lv. 5 Special CT up buff to self.', 'When there is 4 or more [Land of Wano Arc] crew members, reduces 18% of Special CT to self upon appearance.'],
+                ['Applies Lv. 7 ATK and HP up buff to Powerhouse and Striker crew members.', 'Applies Lv. 8 ATK up buff to self.', 'For the first 20 seconds, applies Lv. 6 Special CT up buff to self.', 'When there is 4 or more [Land of Wano Arc] crew members, reduces 20% of Special CT to self upon appearance.']
+            ],
+            llbbase: [
+                ['Applies Lv. 4 ATK and HP up buff to Powerhouse and Striker crew members.', 'Applies Lv. 5 ATK up buff to self.', 'For the first 20 seconds, applies Lv. 3 Special CT up buff to self.', 'When there is 4 or more [Land of Wano Arc] crew members, reduces 22% of Special CT to self upon appearance.'],
+                ['Applies Lv. 5 ATK and HP up buff to Powerhouse and Striker crew members.', 'Applies Lv. 6 ATK up buff to self.', 'For the first 20 seconds, applies Lv. 4 Special CT up buff to self.', 'When there is 4 or more [Land of Wano Arc] crew members, reduces 24% of Special CT to self upon appearance.'],
+                ['Applies Lv. 6 ATK and HP up buff to Powerhouse and Striker crew members.', 'Applies Lv. 7 ATK up buff to self.', 'For the first 20 seconds, applies Lv. 5 Special CT up buff to self.', 'When there is 4 or more [Land of Wano Arc] crew members, reduces 26% of Special CT to self upon appearance.'],
+                ['Applies Lv. 7 ATK and HP up buff to Powerhouse and Striker crew members.', 'Applies Lv. 8 ATK up buff to self.', 'For the first 20 seconds, applies Lv. 6 Special CT up buff to self.', 'When there is 4 or more [Land of Wano Arc] crew members, reduces 28% of Special CT to self upon appearance.'],
+                ['Applies Lv. 8 ATK and HP up buff to Powerhouse and Striker crew members.', 'Applies Lv. 9 ATK up buff to self.', 'For the first 20 seconds, applies Lv. 7 Special CT up buff to self.', 'When there is 4 or more [Land of Wano Arc] crew members, reduces 30% of Special CT to self upon appearance.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 45,
+                descriptions: [
+                    ['15% HP cut to all enemies in a large, forward range.', 'Deals 6x ATK in spread damage to all enemies in a large, forward range.', 'When there is 4 or more [Land of Wano Arc] crew members, reduces 11% of Special CT to self.'],
+                    ['17% HP cut to all enemies in a large, forward range.', 'Deals 7x ATK in spread damage to all enemies in a large, forward range.', 'When there is 4 or more [Land of Wano Arc] crew members, reduces 12% of Special CT to self.'],
+                    ['19% HP cut to all enemies in a large, forward range.', 'Deals 8x ATK in spread damage to all enemies in a large, forward range.', 'When there is 4 or more [Land of Wano Arc] crew members, reduces 13% of Special CT to self.'],
+                    ['21% HP cut to all enemies in a large, forward range.', 'Deals 9x ATK in spread damage to all enemies in a large, forward range.', 'When there is 4 or more [Land of Wano Arc] crew members, reduces 14% of Special CT to self.'],
+                    ['23% HP cut to all enemies in a large, forward range.', 'Deals 10x ATK in spread damage to all enemies in a large, forward range.', 'When there is 4 or more [Land of Wano Arc] crew members, reduces 15% of Special CT to self.'],
+                    ['25% HP cut to all enemies in a large, forward range.', 'Deals 11x ATK in spread damage to all enemies in a large, forward range.', 'When there is 4 or more [Land of Wano Arc] crew members, reduces 16% of Special CT to self.'],
+                    ['27% HP cut to all enemies in a large, forward range.', 'Deals 12x ATK in spread damage to all enemies in a large, forward range.', 'When there is 4 or more [Land of Wano Arc] crew members, reduces 17% of Special CT to self.'],
+                    ['29% HP cut to all enemies in a large, forward range.', 'Deals 13x ATK in spread damage to all enemies in a large, forward range.', 'When there is 4 or more [Land of Wano Arc] crew members, reduces 18% of Special CT to self.'],
+                    ['31% HP cut to all enemies in a large, forward range.', 'Deals 14x ATK in spread damage to all enemies in a large, forward range.', 'When there is 4 or more [Land of Wano Arc] crew members, reduces 19% of Special CT to self.'],
+                    ['35% HP cut to all enemies in a large, forward range.', 'Deals 15x ATK in spread damage to all enemies in a large, forward range.', 'When there is 4 or more [Land of Wano Arc] crew members, reduces 20% of Special CT to self.']
+                ]
+            },
+            llbbase: {
+                cooldown: 45,
+                descriptions: [
+                    ['20% HP cut to all enemies in a large, forward range.', 'Deals 11x ATK in spread damage to all enemies in a large, forward range.', 'When there is 4 or more [Land of Wano Arc] crew members, reduces 21% of Special CT to self.', 'During Assault Rumble, applies Lv. 1 ATK and DEF up buff to Powerhouse and Striker crew members for 21 seconds.'],
+                    ['22% HP cut to all enemies in a large, forward range.', 'Deals 12x ATK in spread damage to all enemies in a large, forward range.', 'When there is 4 or more [Land of Wano Arc] crew members, reduces 22% of Special CT to self.', 'During Assault Rumble, applies Lv. 1 ATK and DEF up buff to Powerhouse and Striker crew members for 22 seconds.'],
+                    ['24% HP cut to all enemies in a large, forward range.', 'Deals 13x ATK in spread damage to all enemies in a large, forward range.', 'When there is 4 or more [Land of Wano Arc] crew members, reduces 23% of Special CT to self.', 'During Assault Rumble, applies Lv. 2 ATK and DEF up buff to Powerhouse and Striker crew members for 23 seconds.'],
+                    ['26% HP cut to all enemies in a large, forward range.', 'Deals 14x ATK in spread damage to all enemies in a large, forward range.', 'When there is 4 or more [Land of Wano Arc] crew members, reduces 24% of Special CT to self.', 'During Assault Rumble, applies Lv. 2 ATK and DEF up buff to Powerhouse and Striker crew members for 24 seconds.'],
+                    ['28% HP cut to all enemies in a large, forward range.', 'Deals 15x ATK in spread damage to all enemies in a large, forward range.', 'When there is 4 or more [Land of Wano Arc] crew members, reduces 25% of Special CT to self.', 'During Assault Rumble, applies Lv. 3 ATK and DEF up buff to Powerhouse and Striker crew members for 25 seconds.'],
+                    ['30% HP cut to all enemies in a large, forward range.', 'Deals 16x ATK in spread damage to all enemies in a large, forward range.', 'When there is 4 or more [Land of Wano Arc] crew members, reduces 26% of Special CT to self.', 'During Assault Rumble, applies Lv. 3 ATK and DEF up buff to Powerhouse and Striker crew members for 26 seconds.'],
+                    ['32% HP cut to all enemies in a large, forward range.', 'Deals 17x ATK in spread damage to all enemies in a large, forward range.', 'When there is 4 or more [Land of Wano Arc] crew members, reduces 27% of Special CT to self.', 'During Assault Rumble, applies Lv. 4 ATK and DEF up buff to Powerhouse and Striker crew members for 27 seconds.'],
+                    ['34% HP cut to all enemies in a large, forward range.', 'Deals 18x ATK in spread damage to all enemies in a large, forward range.', 'When there is 4 or more [Land of Wano Arc] crew members, reduces 28% of Special CT to self.', 'During Assault Rumble, applies Lv. 4 ATK and DEF up buff to Powerhouse and Striker crew members for 28 seconds.'],
+                    ['36% HP cut to all enemies in a large, forward range.', 'Deals 19x ATK in spread damage to all enemies in a large, forward range.', 'When there is 4 or more [Land of Wano Arc] crew members, reduces 29% of Special CT to self.', 'During Assault Rumble, applies Lv. 5 ATK and DEF up buff to Powerhouse and Striker crew members for 29 seconds.'],
+                    ['40% HP cut to all enemies in a large, forward range.', 'Deals 20x ATK in spread damage to all enemies in a large, forward range.', 'When there is 4 or more [Land of Wano Arc] crew members, reduces 30% of Special CT to self.', 'During Assault Rumble, applies Lv. 6 ATK and DEF up buff to Powerhouse and Striker crew members for 30 seconds.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 DEF up buff to [DEX] crew members.', 'Applies Lv. 1 ATK and SPD up buff to [DEX] crew members.', 'Applies Lv. 1 ATK and SPD up buff to [INT] crew members.', 'Applies Lv. 1 Guard up buff to [INT] crew members.', 'Applies Lv. 1 HP, ATK and RCV up buff to Powerhouse and Striker crew members.', 'Applies Lv. 1 Special CT up buff to [Land of Wano Arc] crew members.'],
+                ['Applies Lv. 1 DEF up buff to [DEX] crew members.', 'Applies Lv. 2 ATK and SPD up buff to [DEX] crew members.', 'Applies Lv. 2 ATK and SPD up buff to [INT] crew members.', 'Applies Lv. 2 Guard up buff to [INT] crew members.', 'Applies Lv. 2 HP, ATK and RCV up buff to Powerhouse and Striker crew members.', 'Applies Lv. 1 Special CT up buff to [Land of Wano Arc] crew members.'],
+                ['Applies Lv. 2 DEF up buff to [DEX] crew members.', 'Applies Lv. 3 ATK and SPD up buff to [DEX] crew members.', 'Applies Lv. 3 ATK and SPD up buff to [INT] crew members.', 'Applies Lv. 3 Guard up buff to [INT] crew members.', 'Applies Lv. 3 HP, ATK and RCV up buff to Powerhouse and Striker crew members.', 'Applies Lv. 2 Special CT up buff to [Land of Wano Arc] crew members.'],
+                ['Applies Lv. 2 DEF up buff to [DEX] crew members.', 'Applies Lv. 4 ATK and SPD up buff to [DEX] crew members.', 'Applies Lv. 4 ATK and SPD up buff to [INT] crew members.', 'Applies Lv. 3 Guard up buff to [INT] crew members.', 'Applies Lv. 4 HP, ATK and RCV up buff to Powerhouse and Striker crew members.', 'Applies Lv. 2 Special CT up buff to [Land of Wano Arc] crew members.'],
+                ['Applies Lv. 3 DEF up buff to [DEX] crew members.', 'Applies Lv. 5 ATK and SPD up buff to [DEX] crew members.', 'Applies Lv. 5 ATK and SPD up buff to [INT] crew members.', 'Applies Lv. 4 Guard up buff to [INT] crew members.', 'Applies Lv. 5 HP, ATK and RCV up buff to Powerhouse and Striker crew members.', 'Applies Lv. 3 Special CT up buff to [Land of Wano Arc] crew members.']
+            ],
+            llbbase: [
+                ['Applies Lv. 1 DEF up buff to [DEX] crew members.', 'Applies Lv. 2 ATK and SPD up buff to [DEX] crew members.', 'Applies Lv. 2 ATK and SPD up buff to [INT] crew members.', 'Applies Lv. 1 Guard up buff to [INT] crew members.', 'Applies Lv. 2 HP, ATK and RCV up buff to Powerhouse and Striker crew members.', 'Applies Lv. 1 Special CT up buff to [Land of Wano Arc] crew members.'],
+                ['Applies Lv. 2 DEF up buff to [DEX] crew members.', 'Applies Lv. 3 ATK and SPD up buff to [DEX] crew members.', 'Applies Lv. 3 ATK and SPD up buff to [INT] crew members.', 'Applies Lv. 2 Guard up buff to [INT] crew members.', 'Applies Lv. 3 HP, ATK and RCV up buff to Powerhouse and Striker crew members.', 'Applies Lv. 2 Special CT up buff to [Land of Wano Arc] crew members.'],
+                ['Applies Lv. 3 DEF up buff to [DEX] crew members.', 'Applies Lv. 4 ATK and SPD up buff to [DEX] crew members.', 'Applies Lv. 4 ATK and SPD up buff to [INT] crew members.', 'Applies Lv. 3 Guard up buff to [INT] crew members.', 'Applies Lv. 4 HP, ATK and RCV up buff to Powerhouse and Striker crew members.', 'Applies Lv. 3 Special CT up buff to [Land of Wano Arc] crew members.'],
+                ['Applies Lv. 3 DEF up buff to [DEX] crew members.', 'Applies Lv. 5 ATK and SPD up buff to [DEX] crew members.', 'Applies Lv. 5 ATK and SPD up buff to [INT] crew members.', 'Applies Lv. 4 Guard up buff to [INT] crew members.', 'Applies Lv. 5 HP, ATK and RCV up buff to Powerhouse and Striker crew members.', 'Applies Lv. 4 Special CT up buff to [Land of Wano Arc] crew members.'],
+                ['Applies Lv. 4 DEF up buff to [DEX] crew members.', 'Applies Lv. 6 ATK and SPD up buff to [DEX] crew members.', 'Applies Lv. 6 ATK and SPD up buff to [INT] crew members.', 'Applies Lv. 5 Guard up buff to [INT] crew members.', 'Applies Lv. 6 HP, ATK and RCV up buff to Powerhouse and Striker crew members.', 'Applies Lv. 5 Special CT up buff to [Land of Wano Arc] crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After crew members use 6 Rumble Specials",
+                descriptions: [
+                    ['30% HP cut to 3 enemies with the lowest HP.', 'Applies Lv. 6 Blow Away and ATK up buff to [DEX] and [INT] crew members for 26 seconds.'],
+                    ['35% HP cut to 3 enemies with the lowest HP.', 'Applies Lv. 7 Blow Away and ATK up buff to [DEX] and [INT] crew members for 27 seconds.'],
+                    ['40% HP cut to 3 enemies with the lowest HP.', 'Applies Lv. 8 Blow Away and ATK up buff to [DEX] and [INT] crew members for 28 seconds.'],
+                    ['45% HP cut to 3 enemies with the lowest HP.', 'Applies Lv. 9 Blow Away and ATK up buff to [DEX] and [INT] crew members for 29 seconds.'],
+                    ['50% HP cut to 3 enemies with the lowest HP.', 'Applies Lv. 10 Blow Away and ATK up buff to [DEX] and [INT] crew members for 30 seconds.']
+                ]
+            },
+            llbbase: {
+                uses: 2,
+                condition: "After crew members use 6 Rumble Specials",
+                descriptions: [
+                    ['30% HP cut to all enemies.', 'Applies Lv. 6 Blow Away and ATK up buff to [DEX] and [INT] crew members for 26 seconds.', 'Applies Lv. 3 DEF up buff to [DEX] and [INT] crew members for 26 seconds.'],
+                    ['35% HP cut to all enemies.', 'Applies Lv. 7 Blow Away and ATK up buff to [DEX] and [INT] crew members for 27 seconds.', 'Applies Lv. 4 DEF up buff to [DEX] and [INT] crew members for 27 seconds.'],
+                    ['40% HP cut to all enemies.', 'Applies Lv. 8 Blow Away and ATK up buff to [DEX] and [INT] crew members for 28 seconds.', 'Applies Lv. 5 DEF up buff to [DEX] and [INT] crew members for 28 seconds.'],
+                    ['45% HP cut to all enemies.', 'Applies Lv. 9 Blow Away and ATK up buff to [DEX] and [INT] crew members for 29 seconds.', 'Applies Lv. 6 DEF up buff to [DEX] and [INT] crew members for 29 seconds.'],
+                    ['50% HP cut to all enemies.', 'Applies Lv. 10 Blow Away and ATK up buff to [DEX] and [INT] crew members for 30 seconds.', 'Applies Lv. 7 DEF up buff to [DEX] and [INT] crew members for 30 seconds.']
+                ]
+            }
+        }
     },
     4986: {
         festCost: 55,

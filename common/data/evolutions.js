@@ -6106,6 +6106,11 @@ window.evolutions = {
         evolution: 4497,
         evolvers: [ "4497-skull", "4497-skull", "4497-skull", "4497-skull", "4497-skull" ]
     },
+
+    2700: {
+        evolution: 4505,
+        evolvers: [ "4505-skull", "4505-skull", "4505-skull", "4505-skull", "4505-skull" ]
+    },
     // 캐릭터의 고유번호: {
     //     evolution: 해당 고유번호인 캐릭터가 진화할 시 바뀌는 캐릭터 번호(진화후 캐릭터번호),
     //     evolvers: [ 진화에 필요한 스컬 목록록 ]

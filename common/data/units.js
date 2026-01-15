@@ -4500,6 +4500,10 @@ window.units = [
     ["Dr. 베가펑크 – 가늠할 수 없는 과거의 선악", "STR", ["Cerebral", "Free Spirit"], 6, 55, 5, 5, 99, 5000000, 2010, 856, 155, 4020, 1711, 310, 1],
     ["클라우 D. 클로버 – 지워져 가는 역사", "STR", ["Cerebral", "Free Spirit"], 5, 30, 4, 4, 99, 4000000, 1781, 801, 112, 3562, 1601, 223, 1],
     ["시저 클라운 – 대량 살육을 향한 비웃음", "STR", ["Cerebral", "Driven"], 5, 30, 4, 4, 99, 4000000, 1847, 843, 87, 3694, 1685, 173, 1],
+    ["드레이크&아푸 – 오월동주의 상대", ["STR", "DEX"], [["Slasher", "Striker"], ["Shooter", "Striker"], ["Slasher", "Striker"]], 6, 55, 4, 5, 99, 5000000, 2303, 917, 138, 4606, 1834, 276, 1],
+    ["바질 호킨스 – 불행한 자와 흥겨운 여흥", "DEX", ["Slasher", "Striker"], 5, 30, 4, 4, 99, 4000000, 1852, 790, 78, 3704, 1580, 156, 1],
+    ["게르니카&마하&요셉", "DEX", ["Fighter", "Striker"], 5, 1, 4, 4, 99, 4000000, 1910, 734, 87, 3820, 1468, 174, 1],
+    ["카이도 – 휘몰아치는 ‘용오름’", "DEX", ["Powerhouse", "Striker"], "6+", 65, 4, 5, 99, 5000000, 2398, 1176, 82, 4796, 1764, 163, 1],
 ];
 
 var calcGhostStartID = { "start": 5000 };
@@ -5237,7 +5241,10 @@ var ghostsUnits = [
     [ "⚐ Mansherry - Happily Savored Christmas Cake", "PSY", ["Cerebral", "Striker"], "6+", 65, 4, 5, 99, 5000000, 1451, 901, 308, 2902, 1352, 616, 1 ],
     [ "⚐ Shirahoshi & Mansherry - Happily Savored Christmas Cake", "QCK", ["Cerebral", "Striker"], "6+", 65, 4, 5, 99, 5000000, 1467, 974, 337, 2934, 1461, 674, 1 ],
     [ "⚐ Shirahoshi & Mansherry - Happily Savored Christmas Cake", "PSY", ["Cerebral", "Striker"], "6+", 65, 4, 5, 99, 5000000, 1467, 974, 337, 2934, 1461, 674, 1 ],
-
+    [ "⚐ X Drake - Reluctant Cooperation", "STR", ["Slasher", "Striker"], 6, 55, 5, 5, 99, 5000000, 2161, 883, 123, 4322, 1766, 246, 1 ],
+    [ "⚐ Scratchmen Apoo - Reluctant Cooperation", "DEX", ["Shooter", "Striker"], 6, 55, 4, 5, 99, 5000000, 2115, 894, 127, 4230, 1788, 254, 1 ],
+    [ "⚐ Drake & Apoo - Reluctant Cooperation", "STR", ["Slasher", "Striker"], 6, 55, 4, 5, 99, 5000000, 2303, 917, 138, 4606, 1834, 276, 1 ],
+    [ "⚐ Drake & Apoo - Reluctant Cooperation", "DEX", ["Slasher", "Striker"], 6, 55, 4, 5, 99, 5000000, 2303, 917, 138, 4606, 1834, 276, 1 ],
 ];
 
 window.units = window.units.concat(ghostsUnits);
