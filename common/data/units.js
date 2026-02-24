@@ -4519,6 +4519,12 @@ window.units = [
   ["시노부&오타마 – 요염한 여닌자 사제", "STR", ["Free Spirit", "Slasher"], 6, 55, 4, 5, 99, 5000000, 2068, 874, 139, 4136, 1748, 278, 1],
   ["야마토 – 축제를 즐기는 한때", "STR", ["Free Spirit", "Striker"], 5, 30, 4, 4, 99, 4000000, 1736, 824, 86, 3472, 1648, 172, 1],
   ["울티&페이지 원 – 맹위를 떨치며 습격해 오는 고대종", "알수없음", ["Driven", "Powerhouse"], "6+", 65, 4, 5, 99, 5000000, 2382, 1166, 137, 4764, 1749, 273, 1],
+  ["가프&코비 – 맞대는 사제의 주먹", "알수없음", ["Fighter", "Powerhouse"], 6, 55, 4, 5, 99, 5000000, 2142, 937, 156, 4284, 1873, 312, 1],
+  ["검은 수염&쿠잔 – 이해관계 일치", "알수없음", ["Driven", "Shooter"], 6, 55, 4, 5, 99, 5000000, 2282, 927, 136, 4564, 1853, 272, 1],
+  ["히바리 – ‘SWORD’의 저격수", "DEX", ["Shooter", "Fighter"], 6, 55, 5, 5, 99, 5000000, 2179, 855, 127, 4358, 1710, 254, 1],
+  ["헤르메포 – 부탁받은 두 사람의 등", "DEX", ["Slasher", "Fighter"], 5, 30, 4, 4, 99, 4000000, 1723, 830, 112, 3446, 1659, 223, 1],
+  ["돌 – 선두를 달리는 해군본부 중장", "DEX", ["Fighter", "Free Spirit"], 5, 30, 4, 4, 99, 4000000, 1662, 808, 129, 3324, 1615, 258, 1],
+  ["시류 – 술집에서 나누는 대화", "INT", ["Slasher", "Driven"], 5, 40, 4, 4, 99, 5000000, 1490, 855, 92, 2980, 1709, 184, 1],
   ["", "Type", ["Class1", "Class2"], null, null, null, null, null, null, null, null, null, null, null, null, null],
   ["", "Type", ["Class1", "Class2"], null, null, null, null, null, null, null, null, null, null, null, null, null],
   ["", "Type", ["Class1", "Class2"], null, null, null, null, null, null, null, null, null, null, null, null, null],
@@ -4993,10 +4999,4 @@ window.units = [
   ["", "Type", ["Class1", "Class2"], null, null, null, null, null, null, null, null, null, null, null, null, null],
   ["", "Type", ["Class1", "Class2"], null, null, null, null, null, null, null, null, null, null, null, null, null],
   ["", "Type", ["Class1", "Class2"], null, null, null, null, null, null, null, null, null, null, null, null, null],
-  ["", "Type", ["Class1", "Class2"], null, null, null, null, null, null, null, null, null, null, null, null, null],
-  ["", "Type", ["Class1", "Class2"], null, null, null, null, null, null, null, null, null, null, null, null, null],
-  ["", "Type", ["Class1", "Class2"], null, null, null, null, null, null, null, null, null, null, null, null, null],
-  ["", "Type", ["Class1", "Class2"], null, null, null, null, null, null, null, null, null, null, null, null, null],
-  ["", "Type", ["Class1", "Class2"], null, null, null, null, null, null, null, null, null, null, null, null, null],
-  ["", "Type", ["Class1", "Class2"], null, null, null, null, null, null, null, null, null, null, null, null, null]
 ];
