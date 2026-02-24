@@ -13577,6 +13577,12 @@
 
 
 		기타: [
+
+			{  name: "AUTO+",
+				targets: ["support"],
+				regex: /AUTO/i,
+
+			},
 			{
 				name: "기본 능력치 패시브만 보유한 캐릭터 제외",
 				targets: ["support"],
