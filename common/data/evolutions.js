@@ -6019,37 +6019,30 @@ window.evolutions = {
         evolution: 4399,
         evolvers: [ "4399-skull", "4399-skull", "4399-skull", "4399-skull", "4399-skull" ]
     },
-
     2895: {
         evolution: 4408,
         evolvers: [ "4408-skull", "4408-skull", "4408-skull", "skullSTR", "skullPSY" ]
     },
-
     4416: {
         evolution: 4417,
         evolvers: [ "4417-skull", "4417-skull", "4417-skull", "4417-skull", "4417-skull" ]
     },
-
     4413: {
         evolution: 4414,
         evolvers: [ "4414-skull", "4414-skull", "4414-skull", "4414-skull", "4414-skull" ]
     },
-
     3411: {
         evolution: 4424,
         evolvers: [ "4424-skull", "4424-skull", "4424-skull", "4424-skull", "4424-skull" ]
     },
-
     4429: {
         evolution: 4430,
         evolvers: [ "4430-skull", "4430-skull", "4430-skull", "4430-skull", "4430-skull" ]
     },
-
     3493: {
         evolution: 4439,
-        evolvers: [ "4439-skull", "4439-skull", "4439-skull", "4439-skull", "4439-skull" ]
+        evolvers: [ "4439-skull", "4439-skull", "4439-skull", "skullSTR", "skullPSY" ]
     },
-
     4440: {
         evolution: 4441,
         evolvers: [ 118, 86, 302, 102, 267 ]
@@ -6058,7 +6051,6 @@ window.evolutions = {
         evolution: 4443,
         evolvers: [ 118, 87, 303, 103, 267 ]
     },
-
     4447: {
         evolution: 4448,
         evolvers: [ "4448-skull", "4448-skull", "4448-skull", "4448-skull", "4448-skull" ]
@@ -6079,43 +6071,46 @@ window.evolutions = {
         evolution: 4465,
         evolvers: [ "4465-skull", "4465-skull", "4465-skull", "4465-skull", "4465-skull" ]
     },
-    4467: {
-        evolution: 4468,
-        evolvers: [ "4468-skull", "4468-skull", "4468-skull", "4468-skull", "4468-skull" ]
-    },
     4463: {
         evolution: 4464,
         evolvers: [ "4464-skull", "4464-skull", "4464-skull", "4464-skull", "4464-skull" ]
     },
-    4475: {
-        evolution: 2534,
+    4467: {
+        evolution: 4468,
+        evolvers: [ "4468-skull", "4468-skull", "4468-skull", "4468-skull", "4468-skull" ]
+    },
+    2534: {
+        evolution: 4475,
         evolvers: [ "4475-skull", "4475-skull", "4475-skull", "skullDEX", "skullQCK" ]
     },
-
-    4481: {
-        evolution: 4480,
+    4480: {
+        evolution: 4481,
         evolvers: [ "4481-skull", "4481-skull", "4481-skull", "4481-skull", "4481-skull" ]
     },
-
     3166: {
         evolution: 4489,
         evolvers: [ "4489-skull", "4489-skull", "4489-skull", "skullQCK", "skullPSY" ]
     },
-
     4496: {
         evolution: 4497,
         evolvers: [ "4497-skull", "4497-skull", "4497-skull", "4497-skull", "4497-skull" ]
     },
-
     2700: {
         evolution: 4505,
         evolvers: [ "4505-skull", "4505-skull", "4505-skull", "4505-skull", "4505-skull" ]
     },
-    // 캐릭터의 고유번호: {
-    //     evolution: 해당 고유번호인 캐릭터가 진화할 시 바뀌는 캐릭터 번호(진화후 캐릭터번호),
-    //     evolvers: [ 진화에 필요한 스컬 목록록 ]
-    // },
-
+    4510: {
+        evolution: 4511,
+        evolvers: [ "4511-skull", "4511-skull", "4511-skull", "4511-skull", "4511-skull" ]
+    },
+    4513: {
+        evolution: 4514,
+        evolvers: [ "4514-skull", "4514-skull", "4514-skull", "4514-skull", "4514-skull" ]
+    },
+    3433: {
+        evolution: 4520,
+        evolvers: [ "4520-skull", "4520-skull", "4520-skull", "skullQCK", "skullDEX" ]
+    },
     // break
     4988: {
         evolution: 4989,

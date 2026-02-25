@@ -4134,7 +4134,7 @@
 			},
 
 			{
-				name: "조건: 일정 체력",
+				name: "조건: 일정 체력 이상",
 				targets: ["captain"],
 				// make sure that it doesn't "jump over" "boosts", which would be a different type of boost already
 				// "explicit greedy alternation"

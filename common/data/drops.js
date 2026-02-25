@@ -1244,7 +1244,7 @@ window.drops = {
             thumb: 1388,
             global: true,
             day: 1,
-            '거물의 잡아라!': [ -1543, -1532, -1362, -1921, -941, -1388, -8, -1688, -2141, -1838, -2452, -2451, -2538, -500, -5 ],
+            'Catch the Big Person!': [ -1543, -1532, -1362, -1921, -941, -1388, -8, -1688, -2141, -1838, -2452, -2451, -2538, -500, -5 ],
             'Smokey and the Captain!': [ -2159, -1698, -2441, -451, -912, -1232, -1481, -1800, -2308, -6 ],
             'Passionate Exile!': [ -1268, -2588, -2076, -641, -997, -1440, -1761, -1959, -2121, -7 ],
             'Mystery of the Seven Warlords, Trafalgar Law!!': [ -2265, -2418, -671, -1029, -1270, -1542, -1713, -2105, -26, -3048 ],
@@ -2088,7 +2088,7 @@ window.drops = {
         },
 
         {
-            name: '거물을 잡아라!',
+            name: 'Catch the Big Person!',
             dropID: 'event65',
             thumb: 1328,
             global: true,
@@ -3568,7 +3568,7 @@ window.drops = {
             'Defeat Level Rewards': [ 4463 ],
         },
 
-       {
+        {
             name: 'Kid',
             dropID: 'pka31',
             thumb: 4480,
@@ -3588,6 +3588,25 @@ window.drops = {
             'Defeat Level Rewards': [ 4496 ],
         },
 
+        {
+            name: 'Doll & Bluegrass',
+            dropID: 'pka33',
+            thumb: 4510,
+            global: true,
+            nakama: null,
+            gamewith: null,
+            'Defeat Level Rewards': [ 4510 ],
+        },
+
+        {
+            name: 'Shiryu',
+            dropID: 'pka34',
+            thumb: 4526,
+            global: true,
+            nakama: null,
+            gamewith: null,
+            'Defeat Level Rewards': [ 4526 ],
+        },
 
     ],
 
@@ -3664,6 +3683,15 @@ window.drops = {
             'Grand Feast Sugo': [ 4467 ]
         },
 
+        {
+            name: 'Orobi',
+            dropID: 'coop8',
+            thumb: 4513,
+            global: true,
+            nakama: null,
+            gamewith: null,
+            'Grand Feast Sugo': [ 4513 ]
+        },
 
     ],
 
@@ -7556,7 +7584,7 @@ window.drops = {
             gamewith: null,
             'Calm Sea': [ "4430-skull" ],
         },
-        
+
         {
             name: 'Luffy',
             dropID: 'treasuremap97',
@@ -7577,7 +7605,7 @@ window.drops = {
             'Calm Sea': [ "4464-skull" ],
         },
 
-       {
+        {
             name: 'Kid',
             dropID: 'treasuremap99',
             thumb: 4481,
@@ -7597,7 +7625,15 @@ window.drops = {
             'Calm Sea': [ "4497-skull" ],
         },
 
-
+        {
+            name: 'Reiju',
+            dropID: 'treasuremap101',
+            thumb: 4511,
+            global: true,
+            nakama: null,
+            gamewith: null,
+            'Calm Sea': [ "4511-skull" ],
+        },
 
     ],
 
@@ -8474,7 +8510,7 @@ window.drops = {
             'Kizuna Exchange': [ "4294-skull", "4374-skull", "4378-skull" ]
         },
 
-         {
+        {
             name: 'Sabo & Koala',
             dropID: 'kizuna69',
             thumb: 4378,
@@ -8554,9 +8590,17 @@ window.drops = {
             'Kizuna Exchange': [ "4505-skull" ]
         },
 
+        {
+            name: 'Ulti & Page One',
+            dropID: 'kizuna77',
+            thumb: 4520,
+            global: true,
+            nakama: null,
+            gamewith: null,
+            'Kizuna Exchange': [ "4514-skull", "4520-skull" ]
+        },
+
     ],
-//name: 캐릭터 이름. dropID: 드랍의 고유 ID, thumb: 캐릭터 썸네일 번호, global: 글로벌 서버에 등장여부, nakama: 나카마db와 연동 정보
-//gamewith: 게임위드와 연동정보, kizuna Exchange: 유대결전 교환소에서 교환 가능한 아이템 목록
 
 
     'Pirate Rumble': [
@@ -9755,6 +9799,13 @@ window.drops = {
         {
             name: 'VS Five Elders Blitz Battle!',
             thumb: 4491,
+            global: true,
+            nakama: null,
+        },
+
+        {
+            name: 'VS "Emperor" Blackbeard Pirates',
+            thumb: 4522,
             global: true,
             nakama: null,
         },

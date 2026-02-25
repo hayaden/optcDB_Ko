@@ -153,34 +153,6 @@ CharUtils.searchDropLocations = function(id) {
  * @returns {Object[]|null} Array of objects of farmable versions of the unit
  * with the structure {id: number, name: string, location: object}
  */
-
-    CharUtils.getUnitTags = function(id) {
-        if (!id) return [];
-
-        var parsedId = parseInt(id, 10);
-        if (!parsedId) return [];
-
-        var tags = [];
-
-        angular.forEach(window.characterTags, function(value, key) {
-            if (value.characterIds) {
-                for (var i = 0; i < value.characterIds.length; i++) {
-                    if (value.characterIds[i].logbookId === parsedId) {
-                        tags.push({ 
-                            name: key, 
-                            category: value.category,
-                            childIndex: value.characterIds[i].childIndex
-                        });
-                        // break;   ← 이 줄 없애기!
-                    }
-                }
-            }
-        });
-
-        return tags;
-    };
-
-
 CharUtils.getFarmableVersions = function (id) {
     id = Number(id);
     let families = window.families[id];
@@ -201,7 +173,7 @@ CharUtils.getFarmableVersions = function (id) {
     for (let id of farmableVersionsIds) {
         if (!CharUtils.isFarmable(id) || Utils.searchBaseForms(id))
             continue;
-        let name = units[id - 1].name;
+        let name = window.units[String(id)].name;
         if (name.length > 25)
             name = name.slice(0,22) + '...';
         CharUtils.searchDropLocations(id).forEach(function(location) {
@@ -215,15 +187,6 @@ CharUtils.getFarmableVersions = function (id) {
 
     return farmableVersions;
 }
-
-CharUtils.searchTandems = function(id) {
-    var result = [ ];
-    for (var i=0;i<tandems.length;++i) {
-        if (tandems[i].units.indexOf(id) > -1)
-            result.push(tandems[i]);
-    }
-    return result;
-};
 
 CharUtils.isFarmable = function(id, type) {
     if (reverseDropMap === null) generateReverseDropMap();
@@ -244,34 +207,6 @@ CharUtils.checkFarmable = function(id, locations) {
         } else if ((exclude & mark) == exclude) return false;
     }
     return (!included || include === 0);
-};
-
-CharUtils.searchSameSpecials = function(id) {
-    if (!details[id]) return [ ];
-    var result = [ ];
-    for (var key in details) {
-        if (key == id || !details[key].special) continue;
-        if (details[key].specialName == details[id].specialName && details[key].special == details[id].special)
-            result.push(parseInt(key, 10));
-        if (Array.isArray(details[id].special) && Array.isArray(details[key].special))
-            if (details[key].specialName == details[id].specialName && details[key].special[0].description == details[id].special[0].description)
-                result.push(parseInt(key, 10));
-        if (details[id].special){
-            if (details[id].special.character1 && details[key].special.character1)
-                if (details[key].specialName == details[id].specialName && details[id].special.character1 == details[key].special.character1)
-                    result.push(parseInt(key, 10));
-            if (details[id].special.base && details[key].special.base)
-                if (details[key].specialName == details[id].specialName && details[id].special.base == details[key].special.base)
-                    result.push(parseInt(key, 10));
-            if ((details[id].special.character1 && !details[key].special.character1) || (!details[id].special.character1 && details[key].special.character1)){
-                    if(details[id].special.character1) if (details[key].specialName == details[id].specialName && (details[id].special.character1 == details[key].special || details[id].special.character2 == details[key].special))
-                        result.push(parseInt(key, 10));
-                    if(details[key].special.character1) if (details[key].specialName == details[id].specialName && (details[key].special.character1 == details[id].special || details[key].special.character2 == details[id].special))
-                        result.push(parseInt(key, 10));
-            }
-        }
-    }
-    return [...new Set(result)];
 };
 
 CharUtils.getDayOfWeek = function(japan, ignore) {
@@ -302,13 +237,6 @@ CharUtils.getIslandBonuses = function(y, day) {
     return result;
 };
 
-CharUtils.getStatOfUnit = function(unit, stat, level) {
-    var maxLevel = (unit.maxLevel == 1 ? 1 : unit.maxLevel -1);
-    var growth = unit.growth[stat] || 1;
-    var minStat = 'min' + stat.toUpperCase(), maxStat = 'max' + stat.toUpperCase();
-    var result = unit[minStat] + (unit[maxStat] - unit[minStat]) * Math.pow((level-1) / maxLevel, growth);
-    return Math.floor(result);
-};
 
 /***********
  * Caching *
@@ -341,7 +269,7 @@ CharUtils.checkMatcher = function(matcher, id) {
         target = "VSCondition";
         targetString = window.details[id]["VSCondition"];
     };
-    
+
     // 
     if (matcher.target == "potential" && window.details[id].potential) {
         if (window.details[id].lastTap) targetString.push(window.details[id].lastTap.description);
@@ -363,25 +291,26 @@ CharUtils.checkMatcher = function(matcher, id) {
     else if (matcher.target == "rumbleResistance" && window.rumble[id]) {
         targetString = window.rumble[id].character1 ? [ window.rumble[id].character1.festResistance, window.rumble[id].character2.festResistance ]  : window.rumble[id].festResistance;
     }
-        else if (matcher.target == "gpAbility" && window.rumble[id]) {
+    else if (matcher.target == "gpAbility" && window.rumble[id]) {
         targetString = window.rumble[id].character1 ? [ window.rumble[id].character1.festGPAbility, window.rumble[id].character2.festGPAbility ] : [ window.rumble[id].festGPAbility ];
     }
     else if (matcher.target == "gpSpecial" && window.rumble[id]) {
         targetString = window.rumble[id].character1 ? [ window.rumble[id].character1.festGPSpecial, window.rumble[id].character2.festGPSpecial ] : [ window.rumble[id].festGPSpecial ];
     };
-    // Overrides
-    if (matcher.name == "레벨 상한돌파 보유" && window.details[id].lLimit) { // Override for Search by Level Limit Break (To keep it with other Limit Break filters)
-            return true;
-    }
 
-    else if (matcher.name == "레벨 상한돌파 없음" && !window.details[id].lLimit) { // Override for Search by Level Limit Break (To keep it with other Limit Break filters)
+    // Overrides
+    if (matcher.name == "Has Level Limit Break" && window.details[id].lLimit) { // Override for Search by Level Limit Break (To keep it with other Limit Break filters)
         return true;
     }
-    else if (matcher.name == "적제 초필살기 보유 캐릭터 보기" && window.rumble[id]) { // Override for Search by Rumble Super Special (To keep it with other Rumble Special filters)
+    else if (matcher.name == "Has No Level Limit Break" && !window.details[id].lLimit) { // Override for Search by Level Limit Break (To keep it with other Limit Break filters)
+        return true;
+    }
+    else if (matcher.name == "Has Super Special" && window.rumble[id]) { // Override for Search by Rumble Super Special (To keep it with other Rumble Special filters)
         if ((window.rumble[id].character1 && window.rumble[id].character1.festSuperSpecial) || window.rumble[id].festSuperSpecial) {
             return true;
         };
     };
+
     var name = target + '.' + matcher.group + '.' + matcher.name;
     var result = false;
 
@@ -392,12 +321,6 @@ CharUtils.checkMatcher = function(matcher, id) {
 
     if (targetString.constructor != String)
         targetString = JSON.stringify(targetString);
-
-    // ✅ 전처리: 필터 정상 작동 위해 단어 교체
-    targetString = targetString
-    .replace(/\bnon-type\b/gi, "typeless")
-    .replace(/\bto enemies\b/gi, "to all enemies")
-    .replace(/\bat end of turn\b/gi, "at the end of the turn");
     if (matcher.submatchers) {
         // only exit if false, because even if it's true, the submatcher params
         // can be different (may become false when submatchers are evaluated)
@@ -558,10 +481,77 @@ CharUtils.checkSubmatcher = function(target, submatcher, matchObj, cacheKey, id)
     CharUtils.saveToRegexCache(cacheKey, id, result);
     return result;
 }
+CharUtils.getStatOfUnit = function(unit, stat, level) {
+    var maxLevel = (unit.maxLevel == 1 ? 1 : unit.maxLevel -1);
+    var growth =  1;
+    var minStat = 'min' + stat.toUpperCase(), maxStat = 'max' + stat.toUpperCase();
+    var result = unit[minStat] + (unit[maxStat] - unit[minStat]) * Math.pow((level-1) / maxLevel, growth);
+    return Math.floor(result);
+};
+CharUtils.searchSameSpecials = function(id) {
+    if (!details[id]) return [ ];
+    var result = [ ];
+    for (var key in details) {
+        if (key == id || !details[key].special) continue;
+        if (details[key].specialName == details[id].specialName && details[key].special == details[id].special)
+            result.push(parseInt(key, 10));
+        if (Array.isArray(details[id].special) && Array.isArray(details[key].special))
+            if (details[key].specialName == details[id].specialName && details[key].special[0].description == details[id].special[0].description)
+                result.push(parseInt(key, 10));
+        if (details[id].special){
+            if (details[id].special.character1 && details[key].special.character1)
+                if (details[key].specialName == details[id].specialName && details[id].special.character1 == details[key].special.character1)
+                    result.push(parseInt(key, 10));
+            if (details[id].special.base && details[key].special.base)
+                if (details[key].specialName == details[id].specialName && details[id].special.base == details[key].special.base)
+                    result.push(parseInt(key, 10));
+            if ((details[id].special.character1 && !details[key].special.character1) || (!details[id].special.character1 && details[key].special.character1)){
+                    if(details[id].special.character1) if (details[key].specialName == details[id].specialName && (details[id].special.character1 == details[key].special || details[id].special.character2 == details[key].special))
+                        result.push(parseInt(key, 10));
+                    if(details[key].special.character1) if (details[key].specialName == details[id].specialName && (details[key].special.character1 == details[id].special || details[key].special.character2 == details[id].special))
+                        result.push(parseInt(key, 10));
+            }
+        }
+    }
+    return [...new Set(result)];
+};
+CharUtils.getUnitTags = function(id) {
+    if (!id) return [];
+
+    var parsedId = parseInt(id, 10);
+    if (!parsedId) return [];
+
+    var tags = [];
+
+    angular.forEach(window.characterTags, function(value, key) {
+        if (value.characterIds) {
+            for (var i = 0; i < value.characterIds.length; i++) {
+                if (value.characterIds[i].logbookId === parsedId) {
+                    tags.push({ 
+                        name: key, 
+                        category: value.category,
+                        childIndex: value.characterIds[i].childIndex
+                    });
+                    // break;   ← 이 줄 없애기!
+                }
+            }
+        }
+    });
+
+    return tags;
+};
+CharUtils.searchTandems = function(id) {
+    var result = [ ];
+    for (var i=0;i<tandems.length;++i) {
+        if (tandems[i].units.indexOf(id) > -1)
+            result.push(tandems[i]);
+    }
+    return result;
+};
 
 CharUtils.hasFarmableSocket = function(id) {
     //return false if unit has no Sockets
-    var unit = window.units[id];
+    var unit = window.units[String(id)];
     if (unit.slots<1 || !unit.families)
         return false;
 

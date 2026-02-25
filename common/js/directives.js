@@ -78,7 +78,8 @@ directives.linkButton = function() {
 filters.decorate = function() {
     return function(input) {
       if (!input) return 'None';
-      if (input.constructor == Array) input = input[0];
+      //if (input.constructor == Array) input = input[0];
+      if (Array.isArray(input)) { input = input[0]; }
       if (input.constructor != String) return 'N/A';
   //해당 코드는 속성 슬롯 코드의 매핑 텍스트를 나타냄
       const orbMap = { STR: '힘', DEX: '기', QCK: '속', PSY: '심', INT: '지' };
