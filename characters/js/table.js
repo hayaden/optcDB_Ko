@@ -371,41 +371,16 @@ var flags = window.flags[unit.id] || {};
         };
       };
 
-      if (filters.tags && filters.tags.length) {
-        const unitTagSet = window.tags[unit.id];
-        if (!unitTagSet) return false;
-
-        const isVsOrDual = Array.isArray(unitTagSet[0]);
-
-        // Extract tag names for comparison
-        const filterTagNames = filters.tags.map((tag) => tag.name);
-
-        if (filters.tagsStrict) {
-          if (isVsOrDual) {
-            const match = unitTagSet.some((tagList) =>
-              filterTagNames.every((tag) => tagList.includes(tag))
-            );
-            if (!match) return false;
-          } else {
-            const match = filterTagNames.every((tag) =>
-              unitTagSet.includes(tag)
-            );
-            if (!match) return false;
-          }
-        } else {
-          if (isVsOrDual) {
-            const match = unitTagSet.some((tagList) =>
-              filterTagNames.some((tag) => tagList.includes(tag))
-            );
-            if (!match) return false;
-          } else {
-            const match = filterTagNames.some((tag) =>
-              unitTagSet.includes(tag)
-            );
-            if (!match) return false;
-          }
-        }
-      }
+			if (filters.tags && Object.keys(filters.tags).length > 0) {
+			const activeTags = Object.keys(filters.tags).filter(tag => filters.tags[tag]);
+			if (activeTags.length > 0) {
+				const matched = activeTags.some(tag => {
+				const tagList = window.characterTags[tag]?.characterIds || [];
+				return tagList.some(item => item.logbookId === id);
+				});
+			if (!matched) return false;
+			}
+			}
 
       // filter by stars
       if (
