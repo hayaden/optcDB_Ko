@@ -380,7 +380,7 @@ app.controller(
     $scope.evolution = window.evolutions[id];
     $scope.families = window.families[id];
     $scope.unit.tags =  CharUtils.getUnitTags(id);/* 태그 코드 추가 */
-    $scope.farmableVersions = CharUtils.getFarmableVersions(id);
+    $scope.farmableVersions =  null; //CharUtils.getFarmableVersions(id);
     $scope.displayFamily = ($scope.families) ? $scope.families.join(' & ') : '';
 
       if (window.rumble[id]) {
