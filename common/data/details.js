@@ -75282,7 +75282,7 @@ window.details = {
                     "Reduces damage received from [INT] characters by 1%. Adds 2% of this character's base ATK to the supported character's base ATK",
                     "Reduces damage received from [INT] characters by 2%. Adds 3% of this character's base ATK to the supported character's base ATK",
                     "Reduces damage received from [INT] characters by 2%. Adds 5% of this character's base ATK to the supported character's base ATK",
-                    "Reduces damage received from [INT] characters by 3%. Adds 7% of this character's base ATK to the supported character's base ATK [AUTO+]"
+                    "Reduces damage received from [INT] characters by 3%. Adds 7% of this character's base ATK to the supported character's base ATK"
                 ]
             }
         ]
@@ -75410,7 +75410,7 @@ window.details = {
                     "Reduces damage received from [INT] characters by 2%.",
                     "Reduces damage received from [INT] characters by 3%.",
                     "Reduces damage received from [INT] characters by 4%.",
-                    "Reduces damage received from [INT] characters by 5%. [AUTO+]"
+                    "Reduces damage received from [INT] characters by 5%."
                 ]
             }
         ]
@@ -75514,7 +75514,7 @@ window.details = {
                     "Adds 5% of this character's base HP and RCV to the supported character's base HP and RCV.",
                     "Adds 6% of this character's base HP and RCV to the supported character's base HP and RCV.",
                     "Adds 8% of this character's base HP and RCV to the supported character's base HP and RCV.",
-                    "Adds 10% of this character's base HP and RCV to the supported character's base HP and RCV. [AUTO+]"
+                    "Adds 10% of this character's base HP and RCV to the supported character's base HP and RCV."
                 ]
             }
         ]
@@ -75618,7 +75618,7 @@ window.details = {
                     "Adds 4% of this character's base ATK to the supported character's base ATK.",
                     "Adds 5% of this character's base ATK to the supported character's base ATK.",
                     "Adds 7% of this character's base ATK to the supported character's base ATK.",
-                    "Adds 9% of this character's base ATK to the supported character's base ATK. [AUTO+]"
+                    "Adds 9% of this character's base ATK to the supported character's base ATK."
                 ]
             }
         ]
@@ -75746,7 +75746,7 @@ window.details = {
                     "Adds 6% of this character's base RCV to the supported character's base RCV.",
                     "Adds 8% of this character's base RCV to the supported character's base RCV.",
                     "Adds 10% of this character's base RCV to the supported character's base RCV.",
-                    "Adds 13% of this character's base RCV to the supported character's base RCV. [AUTO+]"
+                    "Adds 13% of this character's base RCV to the supported character's base RCV."
                 ]
             }
         ]
@@ -75847,7 +75847,7 @@ window.details = {
                     "Reduces damage received from [INT] characters by 1%. Adds 4% of this character's base HP to the supported character's base HP",
                     "Reduces damage received from [INT] characters by 2%. Adds 6% of this character's base HP to the supported character's base HP",
                     "Reduces damage received from [INT] characters by 2%. Adds 8% of this character's base HP to the supported character's base HP",
-                    " [AUTO+]Reduces damage received from [INT] characters by 3%. Adds 11% of this character's base HP to the supported character's base HP"
+                    "Reduces damage received from [INT] characters by 3%. Adds 11% of this character's base HP to the supported character's base HP"
                 ]
             }
         ]
@@ -75948,7 +75948,7 @@ window.details = {
                     "Adds 6% of this character's base HP to the supported character's base HP",
                     "Adds 8% of this character's base HP to the supported character's base HP",
                     "Adds 10% of this character's base HP to the supported character's base HP",
-                    " [AUTO+]Adds 13% of this character's base HP to the supported character's base HP"
+                    "Adds 13% of this character's base HP to the supported character's base HP"
                 ]
             }
         ]
@@ -76049,7 +76049,7 @@ window.details = {
                     "Adds 3% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV",
                     "Adds 4% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV",
                     "Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV",
-                    " [AUTO+]Adds 6% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV"
+                    "Adds 6% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV"
                 ]
             }
         ]
@@ -132908,7 +132908,7 @@ window.details = {
             {
                 Characters: "Monkey D. Luffy, Roronoa Zoro, Nami, Usopp, Vinsmoke Sanji, Tony Tony Chopper, Nico Robin, Franky and Brook",
                 description: [
-                    " [AUTO+]Adds 5% of this character's base HP to the supported character's base HP",
+                    "Adds 5% of this character's base HP to the supported character's base HP",
                     "Adds 6% of this character's base HP to the supported character's base HP",
                     "Adds 8% of this character's base HP to the supported character's base HP",
                     "Adds 10% of this character's base HP to the supported character's base HP",
@@ -133092,7 +133092,7 @@ window.details = {
                     "Adds 3% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV",
                     "Adds 4% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV",
                     "Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV",
-                    "Adds 6% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV [AUTO+]"
+                    "Adds 6% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV"
                 ]
             }
         ]
