@@ -662,6 +662,7 @@
 	 * @returns The URL of the big thumbnail
 	 */
 	utils.getBigThumbnailUrl = function (n, relPathToRoot = "") {
+		n= n-1
 		var id = ("0000" + n).slice(-4);
 		var folder = Math.trunc(n / 1000) + "/" + Math.trunc((n % 1000) / 100) + "00";
 		return relPathToRoot + "/api/images/full/transparent/" + folder + "/" + id + ".png";

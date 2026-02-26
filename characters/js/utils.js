@@ -299,13 +299,13 @@ CharUtils.checkMatcher = function(matcher, id) {
     };
 
     // Overrides
-    if (matcher.name == "Has Level Limit Break" && window.details[id].lLimit) { // Override for Search by Level Limit Break (To keep it with other Limit Break filters)
+    if (matcher.name == "레벨 상한돌파 보유" && window.details[id].lLimit) { // Override for Search by Level Limit Break (To keep it with other Limit Break filters)
         return true;
     }
-    else if (matcher.name == "Has No Level Limit Break" && !window.details[id].lLimit) { // Override for Search by Level Limit Break (To keep it with other Limit Break filters)
+    else if (matcher.name == "레벨 상한돌파 없음" && !window.details[id].lLimit) { // Override for Search by Level Limit Break (To keep it with other Limit Break filters)
         return true;
     }
-    else if (matcher.name == "Has Super Special" && window.rumble[id]) { // Override for Search by Rumble Super Special (To keep it with other Rumble Special filters)
+    else if (matcher.name == "적제 초필살기 보유 캐릭터 보기" && window.rumble[id]) { // Override for Search by Rumble Super Special (To keep it with other Rumble Special filters)
         if ((window.rumble[id].character1 && window.rumble[id].character1.festSuperSpecial) || window.rumble[id].festSuperSpecial) {
             return true;
         };

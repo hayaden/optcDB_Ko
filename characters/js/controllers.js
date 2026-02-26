@@ -370,7 +370,7 @@ app.controller(
     // data - 해당 코드는 세부정보창에 보여지는 정보를 어떻게 표시할건가를 나타내는 함수임 
     var id = parseInt($stateParams.id, 10);
     $scope.id = id; 
-    $scope.unit = jQuery.extend({}, window.units[id - 1]);
+    $scope.unit = jQuery.extend({}, window.units[id]);
     $scope.hybrid = 
         $scope.unit.class && $scope.unit.class.constructor == Array;
     $scope.dualunit = 
