@@ -13574,15 +13574,94 @@
 			},
 
 		],
+		AUTO플러스: [
+		
+		{
+		name: "BATTLE1: 필살기 시전",
+		targets: ["support"],
+		regex: /\[AUTO\+\].*BATTLE\s*1.{0,40}필살기를\s*발동한다/i,
+		},
+		{
+		name: "BATTLE1: 초월 발동",
+		targets: ["support"],
+		regex: /\[AUTO\+\].*BATTLE\s*1.{0,40}초월/i,
+		},
+		{
+		name: "BATTLE1: 교체 효과 발동",
+		targets: ["support"],
+		regex: /\[AUTO\+\].*BATTLE\s*1.{0,40}교체/i,
+		},
+		{
+		name: "BATTLE2: 필살기 시전",
+		targets: ["support"],
+		regex: /\[AUTO\+\].*BATTLE\s*2.{0,40}필살기를\s*발동한다/i,
+		},
+		{
+		name: "BATTLE2: 초월 발동",
+		targets: ["support"],
+		regex: /\[AUTO\+\].*BATTLE\s*2.{0,40}초월/i,
+		},
+		{
+		name: "BATTLE2: 교체 효과 발동",
+		targets: ["support"],
+		regex: /\[AUTO\+\].*BATTLE\s*2.{0,40}교체/i,
+		},
+		{
+		name: "BATTLE3: 필살기 시전",
+		targets: ["support"],
+		regex: /\[AUTO\+\].*BATTLE\s*3.{0,40}필살기를\s*발동한다/i,
+		},
+		{
+		name: "BATTLE3: 초월 발동",
+		targets: ["support"],
+		regex: /\[AUTO\+\].*BATTLE\s*3.{0,40}초월/i,
+		},
+		{
+		name: "BATTLE3: 교체 효과 발동",
+		targets: ["support"],
+		regex: /\[AUTO\+\].*BATTLE\s*3.{0,40}교체/i,
+		},	
+		{
+		name: "BATTLE4: 필살기 시전",
+		targets: ["support"],
+		regex: /\[AUTO\+\].*BATTLE\s*4.{0,40}필살기를\s*발동한다/i,
+		},
+		{
+		name: "BATTLE4: 초월 발동",
+		targets: ["support"],
+		regex: /\[AUTO\+\].*BATTLE\s*4.{0,40}초월/i,
+		},
+		{
+		name: "BATTLE4: 교체 효과 발동",
+		targets: ["support"],
+		regex: /\[AUTO\+\].*BATTLE\s*4.{0,40}교체/i,
+		},
+		{
+		name: "마지막 배틀: 필살기 시전",
+		targets: ["support"],
+		regex: /\[AUTO\+\].*마지막\s*배틀.{0,40}필살기를\s*발동한다/i,
+		},
+		{
+		name: "마지막 배틀: 초월 발동",
+		targets: ["support"],
+		regex: /\[AUTO\+\].*마지막\s*배틀.{0,40}초월/i,
+		},
+		{
+		name: "마지막 배틀: 교체 효과 발동",
+		targets: ["support"],
+		regex: /\[AUTO\+\].*마지막\s*배틀.{0,40}교체/i,
+		},
+		{
+		name: "마지막 배틀: 필살기 시전 안함",
+		targets: ["support"],
+		regex: /\[AUTO\+\].*필살기를\s*발동하지/i,
+		}
+		
 
-
+		],
 		기타: [
 
-			{  name: "AUTO+",
-				targets: ["support"],
-				regex: /AUTO/i,
-
-			},
+		
 			{
 				name: "기본 능력치 패시브만 보유한 캐릭터 제외",
 				targets: ["support"],

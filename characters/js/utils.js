@@ -313,11 +313,11 @@ CharUtils.checkMatcher = function(matcher, id) {
 
     var name = target + '.' + matcher.group + '.' + matcher.name;
     var result = false;
-
-    if (!targetString)
-        return false;
-    else if (matcher.include && matcher.include.indexOf(id) != -1) // specified units
+    if (matcher.include && matcher.include.indexOf(id) != -1) // specified units
         result = true;
+    else if (!targetString)
+        return false;
+   
 
     if (targetString.constructor != String)
         targetString = JSON.stringify(targetString);
