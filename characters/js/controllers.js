@@ -370,14 +370,14 @@ app.controller(
     // data - 해당 코드는 세부정보창에 보여지는 정보를 어떻게 표시할건가를 나타내는 함수임 
     var id = parseInt($stateParams.id, 10);
     $scope.id = id; 
-    $scope.unit = jQuery.extend({}, window.units[id]);
+    $scope.unit = window.units[id];
     $scope.hybrid = 
         $scope.unit.class && $scope.unit.class.constructor == Array;
     $scope.dualunit = 
         $scope.unit.type && $scope.unit.type.constructor == Array;
     $scope.details = window.details_kor[id]; //해당 코드는 $scope.details라는 변수에 보여지는 정보를 window.details_kor에 할당하겠다. 를 뜻함
     $scope.cooldown = window.cooldowns[id - 1];
-    $scope.evolution = window.evolutions[id];
+    $scope.evolution = window.evolutions[id ];
     $scope.families = window.families[id];
     $scope.unit.tags =  CharUtils.getUnitTags(id);/* 태그 코드 추가 */
     $scope.farmableVersions =  null; //CharUtils.getFarmableVersions(id);

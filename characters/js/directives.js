@@ -152,19 +152,34 @@
 			},
 		};
 	};
-
-	directives.decorateSlot = function () {
+		directives.decorateSlot = function () {
 		return {
 			restrict: "A",
 			scope: { uid: "=", big: "@" },
 			link: function (scope, element, attrs) {
-				if (scope.big)
-					element[0].style.backgroundImage =
-						"url(" + Utils.getBigThumbnailUrl(scope.uid, "..") + ")";
-				else
-					element[0].style.backgroundImage =
-						"url(" + Utils.getThumbnailUrl(scope.uid, "..") + ")";
-				//element[0].style.backgroundImage = 'url(' + Utils.getGlobalThumbnailUrl(scope.uid) + '), url(' + Utils.getThumbnailUrl(scope.uid, '..') + ')';
+				var noimagePath = "../api/images/common/noimage.png";
+				if (scope.big) {
+					var bigUrl = Utils.getBigThumbnailUrl(scope.uid, "..");
+					var img = new Image();
+					img.onload = function() { element[0].style.backgroundImage = "url(" + bigUrl + ")"; };
+					img.onerror = function() { element[0].style.backgroundImage = "url(" + noimagePath + ")"; };
+					img.src = bigUrl;
+				} else {
+					var paths = Utils.getThumbnailUrl(scope.uid, "..");
+					var img = new Image();
+					img.onload = function() { element[0].style.backgroundImage = "url(" + paths.glo + ")"; };
+					img.onerror = function() {
+						if (paths.jap && paths.jap !== paths.glo) {
+							var img2 = new Image();
+							img2.onload = function() { element[0].style.backgroundImage = "url(" + paths.jap + ")"; };
+							img2.onerror = function() { element[0].style.backgroundImage = "url(" + noimagePath + ")"; };
+							img2.src = paths.jap;
+						} else {
+							element[0].style.backgroundImage = "url(" + noimagePath + ")";
+						}
+					};
+					img.src = paths.glo;
+				}
 			},
 		};
 	};

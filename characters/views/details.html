@@ -13,7 +13,7 @@
 
                 <div class="modal-body" ng-class="{ preview: unit.preview }">
 
-                    <div ng-if="!unit.incomplete" ng-click="openBigThumbTab(unit.number)" class="slot responsive" 
+                    <div ng-if="!unit.incomplete" ng-click="openBigThumbTab(unit.number+1)" class="slot responsive" 
                     decorate-slot big="true" uid="unit.number + 1"></div>
 
                     <div ng-if="unit.preview" class="alert alert-warning">
