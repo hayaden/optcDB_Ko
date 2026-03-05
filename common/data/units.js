@@ -4766,5 +4766,6 @@ window.units = {
   "4523": {"id":"4523","name":"히바리","type":"DEX","class":["Shooter","Fighter"],"stars":"6","cost":55,"combo":5,"sockets":5,"maxLevel":99,"maxEXP":5000000,"minHP":2179,"minATK":855,"minRCV":127,"maxHP":4358,"maxATK":1710,"maxRCV":254,"growth":null},
   "4524": {"id":"4524","name":"헤르메포","type":"DEX","class":["Slasher","Fighter"],"stars":"5","cost":30,"combo":4,"sockets":4,"maxLevel":99,"maxEXP":4000000,"minHP":1723,"minATK":830,"minRCV":112,"maxHP":3446,"maxATK":1659,"maxRCV":223,"growth":null},
   "4525": {"id":"4525","name":"돌","type":"DEX","class":["Fighter","Free Spirit"],"stars":"5","cost":30,"combo":4,"sockets":4,"maxLevel":99,"maxEXP":4000000,"minHP":1662,"minATK":808,"minRCV":129,"maxHP":3324,"maxATK":1615,"maxRCV":258,"growth":null},
-  "4526": {"id":"4526","name":"시류","type":"INT","class":["Slasher","Driven"],"stars":"5","cost":40,"combo":4,"sockets":4,"maxLevel":99,"maxEXP":5000000,"minHP":1490,"minATK":855,"minRCV":92,"maxHP":2980,"maxATK":1709,"maxRCV":184,"growth":null}
+  "4526": {"id":"4526","name":"시류","type":"INT","class":["Slasher","Driven"],"stars":"5","cost":40,"combo":4,"sockets":4,"maxLevel":99,"maxEXP":5000000,"minHP":1490,"minATK":855,"minRCV":92,"maxHP":2980,"maxATK":1709,"maxRCV":184,"growth":null},
+  "4528": {"id":"4528","name":"프린스 그루스","type":"DEX","class":["Powerhouse","Fighter"],"stars":"6","cost":55,"combo":4,"sockets":5,"maxLevel":99,"maxEXP":5000000,"minHP":2118,"minATK":856,"minRCV":137,"maxHP":4236,"maxATK":1711,"maxRCV":274,"growth":null}
 };
