@@ -181484,24 +181484,24 @@ window.details = {
         ]
     },
     4527: {//5+ PKA Shiryu
-        captain: "Reduces crew's Switch Effect by 3 at start of quest, boosts crew's ATK by 4x, HP by 1.2x, boosts their ATK further if any enemies were defeated in previous turns (up to 4.5x in 5 straight turns), makes crew's [INT][DEX] slots have matching slot effects, and further boosts their ATK by 1.2x when HP is 30% or below [Applies following effect based on number of applicable Character Tags on crew] Boosts [Blackbeard Pirates] characters' base ATK by +500",
-        special: "If crew's HP is 30% or below when Special is launched or 3 or more [Blackbeard Pirates] characters are on the crew, reduces crew's Bind duration by 5 turns, then after that, reduces all enemies' DEF Up duration by 6 turns, cuts crew's HP by 70%, but reduces crew's Switch Effect by 3. If Captain is an [INT], [DEX], or [QCK], applies Set Target status to all enemies for 1 turn (Set Target status cannot be affected by immunity to status effects, [INT], [DEX], and [QCK] characters will deal 1.75x damage, and their Special charge time will be reduced by 1 turn for every enemy with Set Target status defeated by normal attacks and Specials (except when defeating with status effects or certain end of turn damage effects))",
+        captain: "Reduces Switch Effect of all characters by 3 at the start of the fight, boosts ATK of all characters by 4x-4.5x, depending on how many previous consecutive turns you have defeated an enemy, boosts HP of all characters by 1.2x, boosts base ATK of [Blackbeard Pirates] characters by 500, and makes [DEX] and [INT] orbs beneficial for all characters. If HP is below 30%, boosts ATK of all characters by 4.8x-5.4x, depending on how many previous consecutive turns you have defeated an enemy, instead.",
+        special: "Reduces enemies' Increased Defense duration by 6 turns, reduces crew's current HP by 70%, and reduces Switch Effect of all characters by 3. If HP is below 30% when the special is activated or your crew has 3+ [Blackbeard Pirates] characters, reduces Bind duration by 5 turns. If your Captain is a [DEX], [QCK] or [INT] character, inflicts all enemies with Set Target, increasing damage taken from [DEX], [QCK] and [INT] characters by 1.75x and reducing Special Cooldown of [DEX], [QCK] and [INT] characters by 1 turn when they defeat an enemy, for 1 turn.",
         specialName: "Retaliating the Ice",
         sailor: {
-            base: "Reduces character's Bind duration by 5 turns",
-            level1: "Boosts crew's base ATK by 75"
+            base: "Reduces Bind duration by 5 turns on this character.",
+            level1: "Boosts base ATK of all characters by 75."
         },
-        superSpecialCriteria: "When crew has Poison status or Marshall D. Teach (Blackbeard) is on the crew (except as Support Character; can be launched when character is a crewmate)",
-        superSpecial: "Applies 40% damage reduction to enemies for 1 turn (this effect is treated as an activation of damage reduction effect), reduces damage taken by 60% for 1 turn, boosts the ATK of the next final tap performed by crew by 25% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect), and changes [INT] characters to Super [INT]",
+        superSpecialCriteria: "Can be launched as crewmate. When crew has Poison debuff or your crew must consist of any 1 of the following, excluding supports and counting only 1 per unit: Marshall D. Teach (Blackbeard)",
+        superSpecial: "Reduces enemies' damage received by 40% for 1 turn, reduces damage received by 60% for 1 turn, boosts Final Tap ATK of all characters by 25%, and transforms [INT] characters into Super [INT] characters.",
         support: [
             {
                 Characters: "[INT] Driven characters",
                 description: [
-                    "Adds 3% of character's base ATK to supported character's base ATK",
-                    "Adds 4% of character's base ATK to supported character's base ATK",
-                    "Adds 5% of character's base ATK to supported character's base ATK",
-                    "Adds 6% of character's base ATK to supported character's base ATK",
-                    "Adds 8% of character's base ATK to supported character's base ATK [AUTO+] At battle 4, activates supported character's Switch Effect. At final battle, activates supported character's Special"
+                    "Adds 3% of this character's base ATK to the supported character's base ATK.",
+                    "Adds 4% of this character's base ATK to the supported character's base ATK.",
+                    "Adds 5% of this character's base ATK to the supported character's base ATK.",
+                    "Adds 6% of this character's base ATK to the supported character's base ATK.",
+                    "Adds 8% of this character's base ATK to the supported character's base ATK. <b>[AUTO+]</b> When you reach the 4th stage, activates supported character's Switch Effect. When you reach the final stage, activates supported character's Special."
                 ]
             }
         ],
@@ -181672,28 +181672,28 @@ window.details = {
     },
     4529: {//Zoro VS St. Nusjuro
         captain: {
-            character1: "Reduces crew's Switch Effect and VS Effect gauge by 3 at start of quest, boosts [DEX], Free Spirit, and Slasher characters' ATK by 5.5x, boosts their ATK by approximately 6x when they have [DEX][RCV][TND][WANO] or Rainbow slots, boosts crew's HP by 1.3x, makes crew's [DEX][RCV][TND] slots have matching slot effects, and if a character's normal attack is effective against the enemy's type, changes that character's slot to [TND] the next turn [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Straw Hat Pirates] [Worst Generation] [Giant] characters are on the crew, this Captain ability's effects will target the entire crew instead, and reduces crew's Special Reverse by 10 turns",
-            character2: "Reduces [Five Elders] [Celestial Dragon] characters' Special charge time by 6 turns at start of quest, reduces crew's Switch Effect and VS Effect gauge by 3 at start of quest, boosts [STR], Cerebral, and Slasher characters' ATK by 5.5x, boosts their ATK by approximately 6x when they have [STR][RCV][TND][WANO] or Rainbow slots, boosts crew's HP by 1.3x, makes crew's [STR][RCV][TND] slots have matching slot effects, and if a character's normal attack is effective against the enemy's type, changes that character's slot to [RCV] the next turn [Applies following effect based on number of applicable Character Tags on crew] If 4 or more [Egghead Arc] [World Government] [Five Elders] characters are on the crew, this Captain ability's effects will target the entire crew instead, and reduces crew's Special Bind duration by 10 turns. If a [World Government] [Five Elders] character uses a Special to apply similar effect of Color Affinity that is applied on crew, reduces the boost effect by 25% but changes the effect to a stackable boost (the reduction of the effect cannot go below 1.0; after being changed the effect will not be treated as Color Affinity and can no longer change the effect and turn duration; certain special status will not carry over; stackable with other Color Affinity effects)"
+            character1: "Reduces Switch Effect and VS Gauge of all characters by 3 at the start of the fight, boosts ATK of [DEX], Free Spirit, and Slasher characters by 5.5x, by 6x instead if they have a [DEX], [RCV], [TND], [RAINBOW] or [WANO] orb, boosts HP of all characters by 1.3x, makes [DEX], [RCV] and [TND] orbs beneficial for all characters, and all characters who attack with a type advantage will gain a [TND] orb after attacking. If your crew has 3+ [Straw Hat Pirates], [Worst Generation] and [Giant] characters, boosts ATK of all characters by 5.5x, by 6x instead if they have a [DEX], [RCV], [TND], [RAINBOW] or [WANO] orb, and restores Special Cooldown of all characters by 10 turns when they are rewinded.",
+            character2: "Reduces Special Cooldown of [Five Elders] and [Celestial Dragon] characters by 6 turns and reduces Switch Effect and VS Gauge of all characters by 3 at the start of the fight, boosts ATK of [STR], Cerebral and Slasher characters by 5.5x, by 6x instead if they have a [STR], [RCV], [TND], [RAINBOW] or [WANO] orb, boosts HP of all characters by 1.3x, makes [STR], [RCV] and [TND] orbs beneficial for all characters, and all characters who attack with a type advantage will gain a [RCV] orb after attacking. If your crew has 4+ [Egghead Arc], [World Government] and [Five Elders] characters, boosts ATK of all characters by 5.5x, by 6x instead if they have a [STR], [RCV], [TND], [RAINBOW] or [WANO] orb, and reduces Special Bind duration by 10 turns; additionally, if a [World Government] or [Five Elders] character uses a special with a Color Affinity buff and your crew has Color Affinity when the special is activated: decreases boost effects of Color Affinity buffs by 0.25x, and converts Color Affinity into a Stackable Color Affinity."
         },
         special: {
-            character1: "Reduces all enemies' Threshold Damage Reduction duration by 7 turns, reduces crew's Paralysis/Bind duration by 7 turns, and applies -30% [DEX] Resistance to all enemies for 1 turn. If crew has ATK Up status when Special is launched, applies Set Target status to all enemies for 1 turn (Set Target status cannot be affected by immunity to status effects, crew will deal 2x damage, and their Special charge time will be reduced by 2 turns for every enemy with Set Target status defeated by normal attacks and Specials (except when defeating with status effects or certain end of turn damage effects)), then after that, boosts [DEX], Free Spirit, and Slasher characters' ATK by 3.25x for 1 turn (allows this effect to be further increased up to 2 times). If 3 or more [Straw Hat Pirates] [Worst Generation] characters are on the crew and crew's End of Turn Healing status has 3 or more turns when Special is launched, reduces crew's End of Turn Healing duration by 3 turns, and further increases crew's ATK Up by 1.3x (up to a maximum 10x; this effect also applies to ATK boost from this Special)",
-            character2: "Reduces Despair duration by 7 turns. If crew has Advantageous Class Effect status when Special is launched, applies Weakened status (increase damage taken by 1.3x for all enemies, damage further increased by 1.3x if enemy has Increase Damage Taken) to all enemies for 1 turn (ignoring immunity to status effects), then after that, doubles Cerebral and Slasher characters' advantageous class effect for 1 turn, boosts the type effects of [STR], Cerebral, and Slasher characters by 3.25x for 1 turn (allows Color Affinity and Advantageous Class Effect effects to be further increased up to 2 times). If 4 or more [Egghead Arc] [World Government] [Five Elders] characters are on the crew and enemy does not have Increase Damage Taken status, further increases crew's Color Affinity by 1.2x (up to a maximum 10x; this effect also applies to Color Affinity from this Special). If 4 or more [Egghead Arc] [World Government] [Five Elders] characters are on the crew and enemy has Increase Damage Taken status, reduces all enemies' Increase Damage Taken duration by 5 turns, and further increases crew's Color Affinity by 1.2x and Advantageous Class Effect by 1.5x (up to a maximum 10x; this effect also applies to Color Affinity and Advantageous Class Effect from this Special)"
+            character1: "Reduces enemies' Threshold Damage Reduction duration by 7 turns, reduces Bind and Paralysis duration by 7 turns, boosts ATK of [DEX], Free Spirit and Slasher characters by 3.25x, can be enhanced up to 2 times, for 1 turn, and reduces enemies' [DEX] resistance by -30% for 1 turn. If your crew has ATK Up when the special is activated, inflicts all enemies with Set Target, increasing damage taken from all characters by 2x and reducing Special Cooldown of all characters by 2 turns when they defeat an enemy, for 1 turn. If your crew has 3+ [Straw Hat Pirates] and [Worst Generation] characters and your crew has 3+ turns of End of Turn Healing when the special is activated, reduces End of Turn Healing duration by 3 turns, and increases boost effects of ATK Up buffs by 1.3x (up to 10x), including effects activated in the same ability.",
+            character2: "Reduces Despair duration by 7 turns, boosts Advantageous Class Effect of Cerebral and Slasher characters by 2x, can be enhanced up to 2 times, for 1 turn, and boosts Color Affinity of [STR], Cerebral and Slasher characters by 3.25x, can be enhanced up to 2 times, for 1 turn. If your crew has Advantageous Class Effect when the special is activated, ignores Debuff Protection and inflicts all enemies with Weaken by 1.3x, by 1.69x if enemies are inflicted with Increase Damage Taken, for 1 turn. If your crew has 4+ [Egghead Arc], [World Government] and [Five Elders] characters and enemies are not inflicted with Increase Damage Taken, increases boost effects of Color Affinity buffs by 1.2x (up to 10x), including effects activated in the same ability. If your crew has 4+ [Egghead Arc], [World Government] and [Five Elders] characters and enemies are inflicted with Increase Damage Taken, reduces enemies' Increase Damage Taken duration by 5 turns, increases boost effects of Color Affinity buffs by 1.2x (up to 10x) and increases boost effects of Advantageous Class Effect buffs by 1.5x (up to 10x), including effects activated in the same ability."
         },
         specialName: "Fearsome Clash of Blades",
         sailor: {
             character1: {
-                base: "Makes crew's [TND] slots have matching slot effects, and if field has \"Territory: [DEX]\", boosts crew's base stats by 200 (boosts crew's base HP by 200 otherwise)",
-                base2: "Reduces crew's Special charge time by 1 turn at start of quest"
+                base: "Makes [TND] orbs beneficial for all characters. If field has Territory: [DEX], boosts base ATK, HP and RCV of all characters by 200; boosts base HP of all characters by 200 otherwise.",
+                base2: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight."
             },
             character2: {
-                base: "Makes crew's [RCV] slots have matching slot effects, and if field has \"Territory: Cerebral class\", boosts crew's base stats by 200 (boosts crew's base HP by 200 otherwise)",
-                base2: "Reduces crew's Special charge time by 1 turn at start of quest"
+                base: "Makes [RCV] orbs beneficial for all characters. If field has Territory: Cerebral, boosts base ATK, HP and RCV of all characters by 200; boosts base HP of all characters by 200 otherwise.",
+                base2: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight."
             }
         },
-        VSCondition: "When number of [STR][DEX][RCV][TND] slots used in normal attacks by crew and number of turns passed totals 12",
+        VSCondition: "When number of [STR], [DEX], [RCV] and [TND] orbs used in normal attacks by crew and turns passed totals 12.",
         VSSpecial: {
-            character1: "Applies \"Territory: [DEX]\" to the field<hidden> (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory; territory is unaffected by VS Effect inability for enemies to remove)</hidden> for 2 turns, adds 80x character's ATK in non-type damage on top of tap-timing bonuses for 5 turns, changes crew's slots (including [BLOCK] slots) to character's own type unless slots are [TND][RCV], and activates HP Guard of 60% effect for 1 turn",
-            character2: "Applies \"Territory: Cerebral class\" to the field<hidden> (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory; territory application is unaffected by VS Effect inability for enemies to remove)</hidden> for 2 turns, applies -10% [STR] Resistance to all enemies for 1 turn<hidden> (resistance application is unaffected by VS Effect inability for enemies to remove)</hidden>, allows healing up to 2x crew's max HP ignoring max HP limit for 1 turn<hidden> (if HP is above max limit, it is treated as being full HP)</hidden>, changes crew's slots (including [BLOCK] slots) to character's own type unless slots are [TND][RCV], and activates HP Guard of 60% effect for 1 turn"
+            character1: "Applies Territory: [DEX] type to the field, boosts ATK by 1x-1.5x and reduces damage received by 0%-25% based on number of characters matching the territory, for 2 turns, adds 80x character's ATK as Additional Typeless Damage for 5 turns, changes all non-[RCV] and non-[TND] orbs, including [BLOCK] orbs, into matching orbs, and activates HP Guard of 60% effect for 1 turn.",
+            character2: "Applies Territory: Cerebral class to the field, boosts ATK by 1x-1.5x and reduces damage received by 0%-25% based on number of characters matching the territory, for 2 turns, reduces enemies' [STR] resistance by -10% for 1 turn, allows HP Overfill up to 2x MAX HP for 1 turn, changes all non-[RCV] and non-[TND] orbs, including [BLOCK] orbs, into matching orbs, and activates HP Guard of 60% effect for 1 turn."
         },
         limit: [
             "Boosts base ATK by 10",
@@ -181781,55 +181781,55 @@ window.details = {
         superTandemBoost: {
             character1: {
                 characterCondition: [
-                    "When a [Straw Hat Pirates] [Worst Generation] [Giant] character performs Super Tandem",
-                    "When a [Straw Hat Pirates] [Worst Generation] [Giant] character performs Super Tandem",
-                    "When a [Straw Hat Pirates] [Worst Generation] [Giant] character performs Super Tandem",
-                    "When a [Straw Hat Pirates] [Worst Generation] [Giant] character performs Super Tandem",
-                    "When a [Straw Hat Pirates] [Worst Generation] [Giant] character performs Super Tandem"
+                    "When a [Straw Hat Pirates], [Worst Generation] or [Giant] character performs Super Tandem",
+                    "When a [Straw Hat Pirates], [Worst Generation] or [Giant] character performs Super Tandem",
+                    "When a [Straw Hat Pirates], [Worst Generation] or [Giant] character performs Super Tandem",
+                    "When a [Straw Hat Pirates], [Worst Generation] or [Giant] character performs Super Tandem",
+                    "When a [Straw Hat Pirates], [Worst Generation] or [Giant] character performs Super Tandem"
                 ],
                 description: [
-                    "Raises Boost Level of [Straw Hat Pirates] [Worst Generation] [Giant] [Egghead Arc] characters by 1 for 1 turn",
-                    "Raises Boost Level of [Straw Hat Pirates] [Worst Generation] [Giant] [Egghead Arc] characters by 2 for 1 turn",
-                    "Raises Boost Level of [Straw Hat Pirates] [Worst Generation] [Giant] [Egghead Arc] characters by 3 for 1 turn",
-                    "Raises Boost Level of [Straw Hat Pirates] [Worst Generation] [Giant] [Egghead Arc] characters by 4 for 1 turn",
-                    "Raises Boost Level of [Straw Hat Pirates] [Worst Generation] [Giant] [Egghead Arc] characters by 5 for 1 turn"
+                    "Raises Boost Level of [Straw Hat Pirates], [Worst Generation], [Giant] and [Egghead Arc] characters by 1 for 1 turn.",
+                    "Raises Boost Level of [Straw Hat Pirates], [Worst Generation], [Giant] and [Egghead Arc] characters by 2 for 1 turn.",
+                    "Raises Boost Level of [Straw Hat Pirates], [Worst Generation], [Giant] and [Egghead Arc] characters by 3 for 1 turn.",
+                    "Raises Boost Level of [Straw Hat Pirates], [Worst Generation], [Giant] and [Egghead Arc] characters by 4 for 1 turn.",
+                    "Raises Boost Level of [Straw Hat Pirates], [Worst Generation], [Giant] and [Egghead Arc] characters by 5 for 1 turn."
                 ]
             },
             character2: {
                 characterCondition: [
-                    "When an [Egghead Arc] [World Government] [Five Elders] character performs Super Tandem",
-                    "When an [Egghead Arc] [World Government] [Five Elders] character performs Super Tandem",
-                    "When an [Egghead Arc] [World Government] [Five Elders] character performs Super Tandem",
-                    "When an [Egghead Arc] [World Government] [Five Elders] character performs Super Tandem",
-                    "When an [Egghead Arc] [World Government] [Five Elders] character performs Super Tandem"
+                    "When an [Egghead Arc], [World Government] or [Five Elders] character performs Super Tandem",
+                    "When an [Egghead Arc], [World Government] or [Five Elders] character performs Super Tandem",
+                    "When an [Egghead Arc], [World Government] or [Five Elders] character performs Super Tandem",
+                    "When an [Egghead Arc], [World Government] or [Five Elders] character performs Super Tandem",
+                    "When an [Egghead Arc], [World Government] or [Five Elders] character performs Super Tandem"
                 ],
                 description: [
-                    "Raises Boost Level of [Egghead Arc] [World Government] [Five Elders] [Scientist] characters by 1 for 1 turn",
-                    "Raises Boost Level of [Egghead Arc] [World Government] [Five Elders] [Scientist] characters by 2 for 1 turn",
-                    "Raises Boost Level of [Egghead Arc] [World Government] [Five Elders] [Scientist] characters by 3 for 1 turn",
-                    "Raises Boost Level of [Egghead Arc] [World Government] [Five Elders] [Scientist] characters by 4 for 1 turn",
-                    "Raises Boost Level of [Egghead Arc] [World Government] [Five Elders] [Scientist] characters by 5 for 1 turn"
+                    "Raises Boost Level of [Egghead Arc], [World Government], [Five Elders] and [Scientist] characters by 1 for 1 turn.",
+                    "Raises Boost Level of [Egghead Arc], [World Government], [Five Elders] and [Scientist] characters by 2 for 1 turn.",
+                    "Raises Boost Level of [Egghead Arc], [World Government], [Five Elders] and [Scientist] characters by 3 for 1 turn.",
+                    "Raises Boost Level of [Egghead Arc], [World Government], [Five Elders] and [Scientist] characters by 4 for 1 turn.",
+                    "Raises Boost Level of [Egghead Arc], [World Government], [Five Elders] and [Scientist] characters by 5 for 1 turn."
                 ]
             },
         }
     },
     4530: {//Jinbe
-        captain: "Reduces crew's Special charge time by 1 turn at start of quest, reduces damage taken by 25%, boosts [DEX], Powerhouse, and Cerebral characters' ATK by 3.75x, HP by 1.3x, and makes their [DEX][RCV] slots have matching slot effects",
-        special: "Reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 6 turns, reduces damage taken by 80% for 2 turns, boosts [DEX], Powerhouse, and Cerebral characters' ATK by 1.75x for 1 turn (effect can be overwritten with other ATK boost effects), and reduces crew's VS Effect gauge and Switch Effect by 3. If Captain is a [DEX] or [QCK], boosts [DEX], Powerhouse, and Cerebral characters' slot effects by 2.25x for 3 turns. If Captain is a [STR], [PSY], or [INT], applies increase damage taken status to all enemies by 1.5x for 1 turn ignoring immunity to status effects, then after 1 turn, applies increase damage taken status to all enemies by 1.5x for 1 turn",
+        captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of [DEX], Powerhouse and Cerebral characters by 3.75x, boosts HP of [DEX], Powerhouse and Cerebral characters by 1.3x, makes [DEX] and [RCV] orbs beneficial for [DEX], Powerhouse and Cerebral characters, and reduces damage received by 25%.",
+        special: "Reduces enemies' Percent Damage Reduction duration by 6 turns, reduces damage received by 80% for 2 turns, boosts ATK of [DEX], Powerhouse and Cerebral characters by 1.75x, allowing override, for 1 turn, and reduces VS Gauge and Switch Effect of all characters by 3. If your Captain is a [DEX] or [QCK] character, boosts Orb Effects of [DEX], Powerhouse and Cerebral characters by 2.25x for 3 turns. If your Captain is a [STR], [PSY] or [INT] character, ignores Debuff Protection and inflicts all enemies with Increase Damage Taken by 1.5x for 1 turn, and after 1 turn, inflicts all enemies with Increase Damage Taken by 1.5x for 1 turn.",
         specialName: "Communicating with the Navigator",
         sailor: {
-            base: "Sets right column slots to [RCV] slots at start of quest (no stacking identical abilities)",
-            level1: "Makes crew's [INT][RCV] slots have matching slot effects"
+            base: "Changes orbs of right column characters into [RCV] orbs at the start of the fight.",
+            level1: "Makes [INT] and [RCV] orbs beneficial for all characters."
         },
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Egghead Arc], [Fish-Man]",
+                Characters: "[Egghead Arc], [Fish-Man] characters",
                 description: [
-                    "Once per quest, if supported character uses a Special to inflict Increase Damage Taken on the enemy, reduces crew's VS Effect gauge by 1",
-                    "Once per quest, if supported character uses a Special to inflict Increase Damage Taken on the enemy, reduces crew's VS Effect gauge by 1",
-                    "Once per quest, if supported character uses a Special to inflict Increase Damage Taken on the enemy, reduces crew's VS Effect gauge by 1",
-                    "Once per quest, if supported character uses a Special to inflict Increase Damage Taken on the enemy, reduces crew's VS Effect gauge by 1",
-                    "Once per quest, if supported character uses a Special to inflict Increase Damage Taken on the enemy, reduces crew's VS Effect gauge by 2"
+                    "Once per adventure, when the supported character uses a special to inflict Increase Damage Taken, reduces VS Gauge of all characters by 1.",
+                    "Once per adventure, when the supported character uses a special to inflict Increase Damage Taken, reduces VS Gauge of all characters by 1.",
+                    "Once per adventure, when the supported character uses a special to inflict Increase Damage Taken, reduces VS Gauge of all characters by 1.",
+                    "Once per adventure, when the supported character uses a special to inflict Increase Damage Taken, reduces VS Gauge of all characters by 1.",
+                    "Once per adventure, when the supported character uses a special to inflict Increase Damage Taken, reduces VS Gauge of all characters by 2."
                 ]
             }
         ],
@@ -181874,22 +181874,22 @@ window.details = {
         ]
     },
     4531: {//Nami
-        captain: "Reduces crew's Special charge time by 2 turns at start of quest, reduces damage taken by 10%, boosts [DEX], Free Spirit, and Cerebral characters' ATK by 3.75x, RCV by 1.3x, and makes their [DEX][TND] slots have matching slot effects",
-        special: "Reduces crew's ATK Down duration by 6 turns, sets all enemies' DEF to 0 for 1 turn, boosts Free Spirit and Cerebral characters' advantageous class effect by 1.5x for 1 turn (effect can be overwritten with other advantageous class effects), and reduces crew's VS Effect gauge and Switch Effect by 3. If Captain is a [DEX] or [QCK], boosts [DEX], Free Spirit, and Cerebral characters' base ATK by +1250 for 3 turns. If Captain is a [STR], [PSY], or [INT], applies increase damage taken status to all enemies by 1.5x for 1 turn ignoring immunity to status effects, and if crew lands 3 PERFECT strikes in this turn, applies increase damage taken status to all enemies by 1.5x the next turn",
+        captain: "Reduces Special Cooldown of all characters by 2 turns at the start of the fight, boosts ATK of [DEX], Free Spirit and Cerebral characters by 3.75x, boosts RCV of [DEX], Free Spirit and Cerebral characters by 1.3x, makes [DEX] and [TND] orbs beneficial for [DEX], Free Spirit and Cerebral characters, and reduces damage received by 10%.",
+        special: "Reduces ATK Down duration by 6 turns, reduces the defense of all enemies by 100% for 1 turn, boosts Advantageous Class Effect of Free Spirit and Cerebral characters by 1.5x, allowing override, for 1 turn, and reduces VS Gauge and Switch Effect of all characters by 3. If your Captain is a [DEX] or [QCK] character, boosts Base ATK of [DEX], Free Spirit and Cerebral characters by 1,250 for 3 turns. If your Captain is a [STR], [PSY] or [INT] character, ignores Debuff Protection and inflicts all enemies with Increase Damage Taken by 1.5x for 1 turn, and if during that turn you score 3 PERFECT hits, inflicts all enemies with Increase Damage Taken by 1.5x for 1 turn in the following turn.",
         specialName: "Communicating with the Helmsman",
         sailor: {
-            base: "Sets left column slots to [TND] slots at start of quest (no stacking identical abilities)",
-            level1: "Makes crew's [PSY][TND] slots have matching slot effects"
+            base: "Changes orbs of left column characters into [TND] orbs at the start of the fight.",
+            level1: "Makes [PSY] and [TND] orbs beneficial for all characters."
         },
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Straw Hat Pirates]",
+                Characters: "[Straw Hat Pirates] characters",
                 description: [
-                    "Once per quest, if supported character uses a Special to inflict Increase Damage Taken on the enemy, reduces crew's VS Effect gauge by 1",
-                    "Once per quest, if supported character uses a Special to inflict Increase Damage Taken on the enemy, reduces crew's VS Effect gauge by 1",
-                    "Once per quest, if supported character uses a Special to inflict Increase Damage Taken on the enemy, reduces crew's VS Effect gauge by 1",
-                    "Once per quest, if supported character uses a Special to inflict Increase Damage Taken on the enemy, reduces crew's VS Effect gauge by 1",
-                    "Once per quest, if supported character uses a Special to inflict Increase Damage Taken on the enemy, reduces crew's VS Effect gauge by 2"
+                    "Once per adventure, when the supported character uses a special to inflict Increase Damage Taken, reduces VS Gauge of all characters by 1.",
+                    "Once per adventure, when the supported character uses a special to inflict Increase Damage Taken, reduces VS Gauge of all characters by 1.",
+                    "Once per adventure, when the supported character uses a special to inflict Increase Damage Taken, reduces VS Gauge of all characters by 1.",
+                    "Once per adventure, when the supported character uses a special to inflict Increase Damage Taken, reduces VS Gauge of all characters by 1.",
+                    "Once per adventure, when the supported character uses a special to inflict Increase Damage Taken, reduces VS Gauge of all characters by 2."
                 ]
             }
         ],
@@ -181929,6 +181929,310 @@ window.details = {
                     "Reduces No Healing duration by 3 turns",
                     "Reduces No Healing duration by 4 turns",
                     "Reduces No Healing duration by 5 turns"
+                ]
+            }
+        ]
+    },
+    4532: {//Doc Q & Strongheart
+        captain: "Reduces crew's Special charge time by 1 turn at start of quest, boosts [QCK] and [INT] characters' ATK by 4x, HP by 1.35x, makes their [QCK][INT][BOMB] slots have matching slot effects, and boosts their ATK by a further 1.5x after characters attack at GOOD or better in the order of [INT], [QCK], [INT] without breaking the chain. If \"Marshall D. Teach (Blackbeard)\", \"Jesus Burgess (Mr. Store)\", \"Shiryu\", \"Avalo Pizarro\", \"Lafitte\", \"Catarina Devon\", \"San Juan Wolf\", \"Vasco Shot\", \"Van Ogre\", or \"Kuzan (Aokiji)\" is a crewmate and uses a Special, boosts the ATK of the next final tap performed by crew by 25% (up to 4 times per quest; similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect) [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Blackbeard Pirates] characters are on the crew, reduces crew's Despair duration by 10 turns, and makes [BOMB][S. BOMB] slots deal 0 damage to crew",
+        special: "Reduces all enemies' Resilience duration by 6 turns, reduces crew's ATK Down duration by 6 turns, boosts [QCK] and [INT] characters' base ATK by +1750 for 1 turn, and changes crew's slots (including [BLOCK] slots) to [BOMB]. If crew's HP is 30% or below when Special is launched and 3 or more [Blackbeard Pirates] characters are on the crew, applies Weakened status (increase damage taken by 1.5x for all enemies, damage further increased by 1.3x if enemy has Increase Damage Taken) to all enemies for 1 turn (ignoring immunity to status effects). If an [INT] is set as Support for character, applies 50% damage reduction to enemies for 3 turns (this effect is treated as an activation of damage reduction effect) and reduces damage taken by 80% for 1 turn. If a [QCK] is set as Support for character, boosts the chain multiplier by +1.4 for 1 turn",
+        specialName: "Red Fruit Bombardment",
+        sailor: {
+            base: "Boosts crew's base ATK by 75, amd makes [RCV][BOMB] slots have matching slot effects",
+            level1: "Reduces character's Special Bind duration by 6 turns, and when remaining HP is 30% or below, boosts character's base ATK by 600"
+        },
+        superSpecialCriteria: "When any 2 [Blackbeard Pirates] characters are on the crew not including self (except as Support Characters or Double Characters in inactive state; Double Characters counts as 1; can be launched when character is a crewmate)",
+        superSpecial: "Reduces [QCK] and [INT] characters' Special charge time by 2 turns, reduces damage taken by 80% for 1 turn, changes crew's ATK multiplier of [QCK][BOMB] slots to 3x when slots match (normally 2x when matching) 0.5x when unfavorable, 1.0x otherwise for 1 turn, allows crew to perform Super Tandem with [RCV][BOMB] slots for 2 turns, and changes Free Spirit characters to Super Free Spirit",
+        support: [
+            {
+                Characters: "Characters with the following Character Tag: [Blackbeard Pirates]",
+                description: [
+                    "Once per quest, if inflicted with ATK Down status from the enemy, reduces crew's ATK Down duration by 1 turn at start of crew's next turn",
+                    "Once per quest, if inflicted with ATK Down status from the enemy, reduces crew's ATK Down duration by 1 turn at start of crew's next turn",
+                    "Once per quest, if inflicted with ATK Down status from the enemy, reduces crew's ATK Down duration by 2 turns at start of crew's next turn",
+                    "Once per quest, if inflicted with ATK Down status from the enemy, reduces crew's ATK Down duration by 2 turns at start of crew's next turn",
+                    "Once per quest, if inflicted with ATK Down status from the enemy, reduces crew's ATK Down duration by 3 turns at start of crew's next turn"
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base ATK by 20",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 20",
+            "Acquire Potential 1: No Healing",
+            "Boosts base HP by 20",
+            "Boosts base ATK by 20",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 20",
+            "Boosts base HP by 20",
+            "Boosts base ATK by 20",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 30",
+            "Boosts base HP by 20",
+            "Boosts base ATK by 40",
+            "Acquire Potential 2: Enrage/Increase Damage Taken",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base HP by 20",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 50",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 30",
+            "Boosts base HP by 40",
+            "Boosts base HP by 50",
+            "Boosts base HP by 60",
+            "Acquire Sailor Ability 2: Reduces character's Special Bind duration by 6 turns, and when remaining HP is 30% or below, boosts character's base ATK by 600",
+            "Boosts base RCV by 50",
+            "Boosts base ATK by 60",
+            "Boosts base RCV by 50",
+            "Boosts base ATK by 60",
+            "Acquire Potential 3: Last Tap",
+            "LOCKED WITH KEY",
+            "Boosts base HP by 100",
+            "Boosts base ATK by 50",
+            "Boosts base RCV by 50",
+            "Boosts base HP by 100",
+            "Boosts base ATK by 50",
+            "Boosts base HP by 150",
+            "Boosts base HP by 150",
+            "Boosts base ATK by 100",
+            "Reduce base Special Cooldown by 1 turn"
+        ],
+        potential: [
+            {
+                Name: "No Healing",
+                description: [
+                    "Reduces No Healing duration by 1 turn",
+                    "Reduces No Healing duration by 2 turns",
+                    "Reduces No Healing duration by 3 turns",
+                    "Reduces No Healing duration by 4 turns",
+                    "Reduces No Healing duration by 5 turns"
+                ]
+            },
+            {
+                Name: "Enrage/Increase Damage Taken",
+                description: [
+                    "Boosts base ATK by 75 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 300 the turn after taking damage and reduces Increase Damage Taken duration by 3 turns"
+                ]
+            },
+            {
+                Name: "Last Tap",
+                description: [
+                    "Obtain Last Tap Lv.1",
+                    "Obtain Last Tap Lv.2",
+                    "Obtain Last Tap Lv.3",
+                    "Obtain Last Tap Lv.4",
+                    "Obtain Last Tap Lv.5"
+                ]
+            }
+        ],
+        lastTap: {
+            condition: "At final battle, when crew's HP is at 30% or below and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Marshall D. Teach (Blackbeard), Jesus Burgess (Mr. Store), Shiryu, Avalo Pizarro, Lafitte, Catarina Devon, San Juan Wolf, Vasco Shot, Van Ogre, Kuzan (Aokiji)",
+            description: [
+                "Adds 0.2x of damage dealt by normal attacks of other characters this turn on top of the final damage",
+                "Adds 0.4x of damage dealt by normal attacks of other characters this turn on top of the final damage",
+                "Adds 0.6x of damage dealt by normal attacks of other characters this turn on top of the final damage",
+                "Adds 0.8x of damage dealt by normal attacks of other characters this turn on top of the final damage",
+                "Adds 1.0x of damage dealt by normal attacks of other characters this turn on top of the final damage"
+            ]
+        }
+    },
+    4533: {//Jesus Burgess
+        captain: "Reduces crew's Special charge time by 1 turn at start of quest, boosts Driven and Fighter characters' HP by 1.4x, ATK by 3.5x, makes their [INT] slots have matching slot effects, reduces damage taken by 15%, and boosts character's ATK by 4.2x in turns where \"Throw of Monstrous Might\" is used",
+        special: "Cuts crew's HP by 90%, but deals 50x the HP lost in non-type damage to all enemies, and reduces crew's decrease chain multiplier growth/Burn and Bleed duration by 6 turns. If enemy is immune to status effects (not including partial immunity) or enemy has Increase Damage Taken status when Special is launched, boosts Driven and Fighter characters' ATK by 2.5x for 3 turns, then after that, increases all enemies' damage taken by 2.25x for 1 turn. If 3 or more [Blackbeard Pirates] characters are on the crew, activates HP Guard of 75% effect for 1 turn, and sets the chain multiplier's minimum value at 2.25 and maximum value at 15.0 for 1 turn",
+        specialName: "Throw of Monstrous Might",
+        sailor: {
+            base: "Makes character immune to Stun",
+            level1: "Boosts Driven and Fighter characters' base ATK by 100, and makes their [INT] slots have matching slot effects"
+        },
+        superSpecialCriteria: "When any 2 [Blackbeard Pirates] characters are on the crew not including self (except as Support Characters or Double Characters in inactive state; Double Characters counts as 1; can be launched when character is a crewmate)",
+        superSpecial: "Heals 50% of crew's maximum HP, and changes [INT] characters to Super [INT]",
+        support: [
+            {
+                Characters: "Characters with the following Character Tag: [Blackbeard Pirates]",
+                description: [
+                    "Adds 3% of character's base stats to supported character's base stats",
+                    "Adds 4% of character's base stats to supported character's base stats",
+                    "Adds 5% of character's base stats to supported character's base stats",
+                    "Adds 7% of character's base stats to supported character's base stats",
+                    "Adds 10% of character's base stats to supported character's base stats"
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base ATK by 20",
+            "Boosts base HP by 60",
+            "Boosts base RCV by 10",
+            "Acquire Potential 1: Enrage/Increase Damage Taken",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 20",
+            "Boosts base RCV by 20",
+            "Acquire 1 additional Socket slot",
+            "Boosts base ATK by 30",
+            "Boosts base HP by 70",
+            "Boosts base HP by 70",
+            "Acquire Sailor Ability 2: Boosts Driven and Fighter characters' base ATK by 100, and makes their [INT] slots have matching slot effects",
+            "Boosts base ATK by 30",
+            "Reduce base Special Cooldown by 1 turn",
+            "Acquire Potential 2: Cooldown Reduction"
+        ],
+        potential: [
+            {
+                Name: "Enrage/Increase Damage Taken",
+                description: [
+                    "Boosts base ATK by 75 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 125 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns"
+                ]
+            },
+            {
+                Name: "Cooldown Reduction",
+                description: [
+                    "Reduces Special Cooldown of this character by 1 turn at the start of the fight",
+                    "Reduces Special Cooldown of this character by 2 turns at the start of the fight",
+                    "Reduces Special Cooldown of this character by 4 turns at the start of the fight",
+                    "Reduces Special Cooldown of this character by 6 turns at the start of the fight",
+                    "Reduces Special Cooldown of this character by 8 turns at the start of the fight"
+                ]
+            }
+        ]
+    },
+    4534: {//Van Ogre
+        captain: "Boosts Shooter and Driven characters' ATK by 3.75x and RCV by 1.2x",
+        special: "Reduces all enemies' DEF Up duration by 4 turns, and reduces crew's Special Bind duration by 4 turns. If crew's HP is 30% or below when Special is launched and 3 or more [Blackbeard Pirates] characters are on the crew, boosts Shooter and Driven characters' ATK based on the damage reduction effect applied on the crew (e.g. if crew has 80% damage reduction, boosts ATK by 1.4x) for 1 turn",
+        specialName: "Stepping Foot on Hostile Ground",
+        sailor: "Reduces the duration of Remove SFX by 3 turns",
+        support: [
+            {
+                Characters: "Characters with the following Character Tag: [Blackbeard Pirates]",
+                description: [
+                    "Once per quest, if supported character uses a Special to boost ATK or apply additive chain multiplier boost (except multiplicative boosts), reduces crew's ATK Down duration by 1 turn, reduces all enemies' DEF Up duration by 1 turn, and applies 40% damage reduction to enemies for 6 turns (this effect is treated as an activation of damage reduction effect)",
+                    "Once per quest, if supported character uses a Special to boost ATK or apply additive chain multiplier boost (except multiplicative boosts), reduces crew's ATK Down duration by 1 turn, reduces all enemies' DEF Up duration by 1 turn, and applies 40% damage reduction to enemies for 6 turns (this effect is treated as an activation of damage reduction effect)",
+                    "Once per quest, if supported character uses a Special to boost ATK or apply additive chain multiplier boost (except multiplicative boosts), reduces crew's ATK Down duration by 2 turns, reduces all enemies' DEF Up duration by 2 turns, and applies 40% damage reduction to enemies for 6 turns (this effect is treated as an activation of damage reduction effect)",
+                    "Once per quest, if supported character uses a Special to boost ATK or apply additive chain multiplier boost (except multiplicative boosts), reduces crew's ATK Down duration by 2 turns, reduces all enemies' DEF Up duration by 2 turns, applies -10% [QCK] and [INT] Resistance to all enemies for 1 turn, and applies 40% damage reduction to enemies for 6 turns (this effect is treated as an activation of damage reduction effect)",
+                    "Once per quest, if supported character uses a Special to boost ATK or apply additive chain multiplier boost (except multiplicative boosts), reduces crew's ATK Down duration by 3 turns, reduces all enemies' DEF Up duration by 3 turns, applies -10% [QCK] and [INT] Resistance to all enemies for 1 turn, and applies 40% damage reduction to enemies for 6 turns (this effect is treated as an activation of damage reduction effect) [AUTO+] At battle 2, activates supported character's Super Effect"
+                ]
+            }
+        ]
+    },
+    4535: {//Smoker
+        captain: "Reduces [QCK] characters' Special charge time by 1 turn and VS Effect gauge and Switch Effect by 1 at start of quest, boosts [QCK] characters' ATK by 4.5x, HP by 1.3x, and boosts their ATK further for every PERFECT strike in a row (up to approximately 5.5x) [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Navy] characters are on the crew and crew uses a Special to boost ATK or slot effects, extends the duration of that effect by 2 turns",
+        special: "Deals 150x character's ATK in non-type damage to one enemy (ignoring all defensive effects and DEF), reduces crew's Burn/ATK Down duration by 6 turns, makes crew immune to Burn/ATK Down for 5 turns, and if crew has ATK Up status when Special is launched, boosts [QCK] characters' slot effects by 2.75x for 1 turn (boosts their ATK by 3x for 1 turn otherwise)",
+        specialName: "Rushing to the Objective",
+        sailor: {
+            level1: "Character cannot be blown away by attack",
+            level2: "Makes crew's [QCK] slots have matching slot effects"
+        },
+        superSpecialCriteria: "When crew's ATK or slot effects are boosted (can be launched when character is a crewmate)",
+        superSpecial: "Extends the duration of crew's ATK and slot effect boosts by 1 turn, further increases the boost by +0.25, and changes [QCK] characters to Super [QCK]",
+        support: [
+            {
+                Characters: "[QCK] characters",
+                description: [
+                    "Once per quest, if supported character uses a damage dealing or HP reducing Special, boosts [QCK] characters' ATK by 1.5x for 1 turn",
+                    "Once per quest, if supported character uses a damage dealing or HP reducing Special, boosts [QCK] characters' ATK by 1.55x for 1 turn",
+                    "Once per quest, if supported character uses a damage dealing or HP reducing Special, boosts [QCK] characters' ATK by 1.6x for 1 turn",
+                    "Once per quest, if supported character uses a damage dealing or HP reducing Special, boosts [QCK] characters' ATK by 1.65x for 1 turn",
+                    "Once per quest, if supported character uses a damage dealing or HP reducing Special, boosts [QCK] characters' ATK by 1.75x for 1 turn"
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base HP by 20",
+            "Boosts base HP by 20",
+            "Boosts base HP by 20",
+            "Acquire Potential 1: Critical Hit",
+            "Boosts base ATK by 10",
+            "Boosts base ATK by 10",
+            "Boosts base RCV by 10",
+            "Boosts base RCV by 10",
+            "Boosts base RCV by 20",
+            "Acquire Sailor Ability 1: Character cannot be blown away by attack",
+            "Boosts base ATK by 15",
+            "Boosts base ATK by 15",
+            "Boosts base ATK by 20",
+            "Boosts base ATK by 20",
+            "Acquire Potential 2: Enrage/Increase Damage Taken",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base HP by 30",
+            "Boosts base HP by 30",
+            "Boosts base RCV by 30",
+            "Boosts base RCV by 30",
+            "Boosts base HP by 50",
+            "Boosts base HP by 70",
+            "Boosts base HP by 70",
+            "Boosts base HP by 90",
+            "Acquire Sailor Ability 2: Makes crew's [QCK] slots have matching slot effects",
+            "Boosts base ATK by 30",
+            "Boosts base ATK by 30",
+            "Boosts base HP by 100",
+            "Boosts base ATK by 50",
+            "Acquire Potential 3: Slot Bind",
+            "LOCKED WITH KEY",
+            "Boosts base HP by 50",
+            "Boosts base HP by 100",
+            "Boosts base ATK by 25",
+            "Boosts base ATK by 25",
+            "Boosts base ATK by 50",
+            "Boosts base RCV by 50",
+            "Boosts base HP by 150",
+            "Boosts base HP by 200",
+            "Boosts base ATK by 100"
+        ],
+        lLimit: [
+            null,
+            {
+                rAbility: true
+            },
+            {
+                captain: {
+                    base: "Reduces [QCK] and [DEX] characters' Special charge time by 2 turns and VS Effect gauge and Switch Effect by 2 at start of quest, boosts [QCK] and [DEX] characters' ATK by 4.5x, HP by 1.3x, and boosts their ATK further for every PERFECT strike in a row (up to approximately 5.75x) [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Navy] characters are on the crew and crew uses a Special to boost ATK or slot effects, extends the duration of that effect by 2 turns, and further increases the boost by 1.2x (up to a maximum 8x, cannot be further increased)"
+                }
+            },
+            {
+                rSpecial: true
+            },
+            {
+                special: {
+                    base: "Deals 200x character's ATK in non-type damage to one enemy (ignoring all defensive effects and DEF), reduces crew's Burn/ATK Down duration by 6 turns, makes crew immune to Burn/ATK Down for 5 turns, and if crew has ATK Up status when Special is launched, boosts [QCK] and [DEX] characters' slot effects by 2.75x for 1 turn, then after that, boosts [QCK] and [DEX] characters' ATK by 3.25x for 1 turn. If 3 or more [Navy] characters are on the crew, extends the duration of crew's ATK and slot effects boosts by 1 turn (this effect also applies to ATK and slot effect boosts from this Special)"
+                },
+                rResilience: true
+            }
+        ],
+        potential: [
+            {
+                Name: "Critical Hit",
+                description: [
+                    "If you hit a PERFECT with this character, there is a 30% chance to deal 5% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 40% chance to deal 6% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 50% chance to deal 7% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 60% chance to deal 8% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 70% chance to deal 10% of this character's attack in extra damage"
+                ]
+            },
+            {
+                Name: "Enrage/Increase Damage Taken",
+                description: [
+                    "Boosts base ATK by 75 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 300 the turn after taking damage and reduces Increase Damage Taken duration by 3 turns"
+                ]
+            },
+            {
+                Name: "Slot Bind",
+                description: [
+                    "Reduces Slot Bind duration by 3 turns on this character",
+                    "Reduces Slot Bind duration by 5 turns on this character",
+                    "Reduces Slot Bind duration by 7 turns on this character",
+                    "Reduces Slot Bind duration by 10 turns on this character",
+                    "Reduces Slot Bind duration completely on this character"
                 ]
             }
         ]
