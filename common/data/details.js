@@ -182675,6 +182675,163 @@ window.details = {
             }
         ]
     },
+    4543: {//Kaku
+        captain: "Lock crew's slots for 5 turns at start of quest, reduces VS Effect gauge by 3 at start of quest, boosts Driven and Powerhouse characters' HP by 1.35x, ATK by 5.25x, boosts their ATK by approximately 5.5x after 3 PERFECT strikes in a row, makes crew's [INT][RCV] slots have matching slot effects, and if crew uses a Special to reduce or remove enemies' damage reduction (except Threshold Damage Reduction), reduces the effect by a further 1 turn",
+        special: "Deals 300x character's ATK in non-type damage to all enemies, reduces the duration of all enemy barriers by 2 turns, and reduces crew's VS Effect gauge by 2 turns. If crew has ATK Up status when Special is launched, boosts [INT], Driven, and Powerhouse characters' slot effects by 2.75x for 1 turn (boosts their ATK by 2.75x for 1 turn otherwise). If 3 or more [CP0] [CP9] [World Government] characters are on the crew, further increases all enemies' increase damage taken effect by +0.5, and boosts [INT], Driven, and Powerhouse characters' Critical rate by 20% for 1 turn. If number of [RCV] slots used in normal attacks before Special is launched is 16 or more, reduces character's Special charge time by 12 turns, and boosts crew's damage dealt when landing a Critical hit by 75% for 1 turn (effect applies only to characters with Critical ATK Potential Ability; highest possible chance is 100%)",
+        specialName: "Kiliman-Gyro",
+        sailor: {
+            base: "Boosts Driven and Powerhouse characters' base ATK and HP by 150",
+            level1: "If enemy activates damage reduction (except Threshold Damage Reduction), reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 1 turn at start of crew's next turn (up to 2 times per quest; even if no turns are reduced, effect still counts as 1 time activated)"
+        },
+        support: [
+            {
+                Characters: "Driven characters",
+                description: [
+                    "Adds 3% of character's base stats to supported character's base stats",
+                    "Adds 4% of character's base stats to supported character's base stats",
+                    "Adds 5% of character's base stats to supported character's base stats",
+                    "Adds 6% of character's base stats to supported character's base stats",
+                    "Adds 7% of character's base stats to supported character's base stats"
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base HP by 40",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 40",
+            "Acquire Potential 1: [PSY] Damage Reduction",
+            "Boosts base RCV by 10",
+            "Boosts base ATK by 10",
+            "Boosts base RCV by 10",
+            "Boosts base HP by 50",
+            "Boosts base RCV by 10",
+            "Boosts base HP by 60",
+            "Boosts base ATK by 10",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 60",
+            "Boosts base ATK by 20",
+            "Acquire Potential 2: [STR] Damage Reduction",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base HP by 70",
+            "Boosts base RCV by 10",
+            "Boosts base ATK by 20",
+            "Boosts base HP by 80",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 30",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 30",
+            "Acquire Sailor Ability 2: If enemy activates damage reduction (except Threshold Damage Reduction), reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 1 turn at start of crew's next turn (up to 2 times per quest; even if no turns are reduced, effect still counts as 1 time activated)",
+            "Boosts base ATK by 30",
+            "Boosts base HP by 100",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 30",
+            "Acquire Potential 3: Critical Hit",
+            "LOCKED WITH KEY",
+            "Boosts base HP by 100",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 100",
+            "Boosts base HP by 200",
+            "Boosts base RCV by 30",
+            "Boosts base ATK by 100",
+            "Boosts base HP by 200",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base RCV by 50"
+        ],
+        potential: [
+            {
+                Name: "[PSY] Damage Reduction",
+                description: [
+                    "Reduces damage taken from [PSY] characters by 2%",
+                    "Reduces damage taken from [PSY] characters by 3%",
+                    "Reduces damage taken from [PSY] characters by 4%",
+                    "Reduces damage taken from [PSY] characters by 5%",
+                    "Reduces damage taken from [PSY] characters by 7%"
+                ]
+            },
+            {
+                Name: "[STR] Damage Reduction",
+                description: [
+                    "Reduces damage taken from [STR] characters by 2%",
+                    "Reduces damage taken from [STR] characters by 3%",
+                    "Reduces damage taken from [STR] characters by 4%",
+                    "Reduces damage taken from [STR] characters by 5%",
+                    "Reduces damage taken from [STR] characters by 7%"
+                ]
+            },
+            {
+                Name: "Critical Hit",
+                description: [
+                    "If you hit a PERFECT with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 60% chance to deal 6% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 70% chance to deal 7% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 80% chance to deal 8% of this character's attack in extra damage"
+                ]
+            }
+        ],
+        festStats: {
+            def: 291,
+            spd: 105,
+            style: "DEF"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Normal Attack",
+            "Power Attack",
+            "Heal Self Lv.2"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "Completely evades Confusion, reduce damage taken from [PSY] by 30%, increase damage dealt to [PSY] by 30%",
+        festAbility: [
+            "[INT]/Driven class teammates ATK Up Lv.2, SPD Up Lv.2, Guard % Up Lv.2; after receiving damage, up to 5 times self DEF Up Lv.1, [INT]/Driven class teammates DEF Up Lv.1; if 4 or more Driven class characters are on the team, [World Government] [Navy] [Zoan-type] teammates SPD Up Lv.2; when appearing on the field, [World Government] [Navy] [Zoan-type] teammates teammates Special CT 12% reduction",
+            "[INT]/Driven class teammates ATK Up Lv.3, SPD Up Lv.3, Guard % Up Lv.3; after receiving damage, up to 5 times self DEF Up Lv.1, [INT]/Driven class teammates DEF Up Lv.1; if 4 or more Driven class characters are on the team, [World Government] [Navy] [Zoan-type] teammates SPD Up Lv.3; when appearing on the field, [World Government] [Navy] [Zoan-type] teammates teammates Special CT 14% reduction",
+            "[INT]/Driven class teammates ATK Up Lv.4, SPD Up Lv.4, Guard % Up Lv.4; after receiving damage, up to 5 times self DEF Up Lv.1, [INT]/Driven class teammates DEF Up Lv.1; if 4 or more Driven class characters are on the team, [World Government] [Navy] [Zoan-type] teammates SPD Up Lv.4; when appearing on the field, [World Government] [Navy] [Zoan-type] teammates teammates Special CT 16% reduction",
+            "[INT]/Driven class teammates ATK Up Lv.5, SPD Up Lv.5, Guard % Up Lv.5; after receiving damage, up to 5 times self DEF Up Lv.1, [INT]/Driven class teammates DEF Up Lv.1; if 4 or more Driven class characters are on the team, [World Government] [Navy] [Zoan-type] teammates SPD Up Lv.5; when appearing on the field, [World Government] [Navy] [Zoan-type] teammates teammates Special CT 18% reduction",
+            "[INT]/Driven class teammates ATK Up Lv.6, SPD Up Lv.6, Guard % Up Lv.6; after receiving damage, up to 5 times self DEF Up Lv.1, [INT]/Driven class teammates DEF Up Lv.1; if 4 or more Driven class characters are on the team, [World Government] [Navy] [Zoan-type] teammates SPD Up Lv.6; when appearing on the field, [World Government] [Navy] [Zoan-type] teammates teammates Special CT 20% reduction"
+        ],
+        festSpecial: [
+            {
+                cooldown: 24,
+                description: "Targets self for 70% chance to evade Halve Stats (11 s), 70% chance to evade stat-reducing effects (11 s); activates Provoke on self (11 s); targets self for Shield Lv.3 (11 s), HP 21% healing; if 4 or more Driven class characters are on the team, targets (not including self) 2 [World Government] [Navy] [Zoan-type] teammates for 50% chance of Haste; if \"Rob Lucci\" or \"Stussy\" is on the team, targets 2 high ATK enemies for DEF Down Lv.3 (6 s); targets self for Special CT 11% reduction; targets enemies within large range (frontal) for ATK x 10 spread damage (damage on each enemy reduced based on number of total enemies)"
+            },
+            {
+                cooldown: 24,
+                description: "Targets self for 73% chance to evade Halve Stats (12 s), 73% chance to evade stat-reducing effects (12 s); activates Provoke on self (12 s); targets self for Shield Lv.3 (12 s), HP 22% healing; if 4 or more Driven class characters are on the team, targets (not including self) 2 [World Government] [Navy] [Zoan-type] teammates for 55% chance of Haste; if \"Rob Lucci\" or \"Stussy\" is on the team, targets 2 high ATK enemies for DEF Down Lv.3 (7 s); targets self for Special CT 12% reduction; targets enemies within large range (frontal) for ATK x 10.5 spread damage (damage on each enemy reduced based on number of total enemies)"
+            },
+            {
+                cooldown: 24,
+                description: "Targets self for 76% chance to evade Halve Stats (13 s), 76% chance to evade stat-reducing effects (13 s); activates Provoke on self (13 s); targets self for Shield Lv.3 (13 s), HP 23% healing; if 4 or more Driven class characters are on the team, targets (not including self) 2 [World Government] [Navy] [Zoan-type] teammates for 60% chance of Haste; if \"Rob Lucci\" or \"Stussy\" is on the team, targets 2 high ATK enemies for DEF Down Lv.3 (8 s); targets self for Special CT 13% reduction; targets enemies within large range (frontal) for ATK x 11 spread damage (damage on each enemy reduced based on number of total enemies)"
+            },
+            {
+                cooldown: 24,
+                description: "Targets self for 79% chance to evade Halve Stats (14 s), 79% chance to evade stat-reducing effects (14 s); activates Provoke on self (14 s); targets self for Shield Lv.3 (14 s), HP 24% healing; if 4 or more Driven class characters are on the team, targets (not including self) 2 [World Government] [Navy] [Zoan-type] teammates for 65% chance of Haste; if \"Rob Lucci\" or \"Stussy\" is on the team, targets 2 high ATK enemies for DEF Down Lv.3 (9 s); targets self for Special CT 14% reduction; targets enemies within large range (frontal) for ATK x 11.5 spread damage (damage on each enemy reduced based on number of total enemies)"
+            },
+            {
+                cooldown: 24,
+                description: "Targets self for 82% chance to evade Halve Stats (15 s), 82% chance to evade stat-reducing effects (15 s); activates Provoke on self (15 s); targets self for Shield Lv.3 (15 s), HP 25% healing; if 4 or more Driven class characters are on the team, targets (not including self) 2 [World Government] [Navy] [Zoan-type] teammates for 70% chance of Haste; if \"Rob Lucci\" or \"Stussy\" is on the team, targets 2 high ATK enemies for DEF Down Lv.3 (10 s); targets self for Special CT 15% reduction; targets enemies within large range (frontal) for ATK x 12 spread damage (damage on each enemy reduced based on number of total enemies)"
+            },
+            {
+                cooldown: 24,
+                description: "Targets self for 85% chance to evade Halve Stats (16 s), 85% chance to evade stat-reducing effects (16 s); activates Provoke on self (16 s); targets self for Shield Lv.4 (16 s), HP 26% healing; if 4 or more Driven class characters are on the team, targets (not including self) 2 [World Government] [Navy] [Zoan-type] teammates for 75% chance of Haste; if \"Rob Lucci\" or \"Stussy\" is on the team, targets 2 high ATK enemies for DEF Down Lv.4 (11 s); targets self for Special CT 16% reduction; targets enemies within large range (frontal) for ATK x 12.5 spread damage (damage on each enemy reduced based on number of total enemies)"
+            },
+            {
+                cooldown: 24,
+                description: "Targets self for 88% chance to evade Halve Stats (17 s), 88% chance to evade stat-reducing effects (17 s); activates Provoke on self (17 s); targets self for Shield Lv.4 (17 s), HP 27% healing; if 4 or more Driven class characters are on the team, targets (not including self) 2 [World Government] [Navy] [Zoan-type] teammates for 80% chance of Haste; if \"Rob Lucci\" or \"Stussy\" is on the team, targets 2 high ATK enemies for DEF Down Lv.4 (12 s); targets self for Special CT 17% reduction; targets enemies within large range (frontal) for ATK x 13 spread damage (damage on each enemy reduced based on number of total enemies)"
+            },
+            {
+                cooldown: 24,
+                description: "Targets self for 91% chance to evade Halve Stats (18 s), 91% chance to evade stat-reducing effects (18 s); activates Provoke on self (18 s); targets self for Shield Lv.4 (18 s), HP 28% healing; if 4 or more Driven class characters are on the team, targets (not including self) 2 [World Government] [Navy] [Zoan-type] teammates for 85% chance of Haste; if \"Rob Lucci\" or \"Stussy\" is on the team, targets 2 high ATK enemies for DEF Down Lv.4 (13 s); targets self for Special CT 18% reduction; targets enemies within large range (frontal) for ATK x 13.5 spread damage (damage on each enemy reduced based on number of total enemies)"
+            },
+            {
+                cooldown: 24,
+                description: "Targets self for 94% chance to evade Halve Stats (19 s), 94% chance to evade stat-reducing effects (19 s); activates Provoke on self (19 s); targets self for Shield Lv.4 (19 s), HP 29% healing; if 4 or more Driven class characters are on the team, targets (not including self) 2 [World Government] [Navy] [Zoan-type] teammates for 90% chance of Haste; if \"Rob Lucci\" or \"Stussy\" is on the team, targets 2 high ATK enemies for DEF Down Lv.4 (14 s); targets self for Special CT 19% reduction; targets enemies within large range (frontal) for ATK x 14 spread damage (damage on each enemy reduced based on number of total enemies)"
+            },
+            {
+                cooldown: 24,
+                description: "Targets self for 100% chance to evade Halve Stats (20 s), 100% chance to evade stat-reducing effects (20 s); activates Provoke on self (20 s); targets self for Shield Lv.5 (20 s), HP 30% healing; if 4 or more Driven class characters are on the team, targets (not including self) 2 [World Government] [Navy] [Zoan-type] teammates for 100% chance of Haste; if \"Rob Lucci\" or \"Stussy\" is on the team, targets 2 high ATK enemies for DEF Down Lv.5 (15 s); targets self for Special CT 20% reduction; targets enemies within large range (frontal) for ATK x 15 spread damage (damage on each enemy reduced based on number of total enemies)"
+            }
+        ]
+    },
     5013: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
         special: "Deals 120x character's ATK in Typeless damage to all enemies, changes orbs of adjacent characters into Matching Orbs, boosts ATK of all characters by 1.75x for 2 turns, reduces any damage received above 5,656 HP by 97% for 2 turns and makes PERFECTs easier to hit for 2 turns",
