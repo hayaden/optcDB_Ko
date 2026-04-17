@@ -182676,22 +182676,22 @@ window.details = {
         ]
     },
     4541: {//5+ PKA Lucci
-        captain: "Reduces crew's Special charge time by 1 turn at start of quest, boosts [DEX], Powerhouse, and Free Spirit characters' ATK by 4.5x when slots match (4x otherwise), HP by 1.3x, and reduces damage taken by 15%",
-        special: "Reduces Powerhouse and Free Spirit characters' Special charge time by 2 turns, reduces crew's Bind duration by 4 turns, boosts Powerhouse and Free Spirit characters' ATK based on the damage reduction effect applied on the crew (e.g. if crew has 80% damage reduction, boosts ATK by 1.4x) for 1 turn, and applies -30% [STR], [DEX], [INT] Resistance for 1 turn. If 3 or more [CP0] [CP9] [World Government] characters or 6 [Egghead Arc] characters are on the crew, applies \"Territory: [DEX]\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory) for 1 turn, and reduces damage taken by 80% for 1 turn",
+        captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of [DEX], Powerhouse and Free Spirit characters by 4x, by 4.5x instead if they have a beneficial orb, boosts HP of [DEX], Powerhouse and Free Spirit characters by 1.3x, and reduces damage received by 15%.",
+        special: "Reduces Special Cooldown of Powerhouse and Free Spirit characters by 2 turns, reduces Bind duration by 4 turns, boosts Crew Damage Reduction to ATK of Powerhouse and Free Spirit characters by 1x-1.5x, proportional to the strength of crew's Percent Damage Reduction buff, for 1 turn, and reduces enemies' [STR], [DEX] and [INT] resistance by -30% for 1 turn. If your crew has 3+ [CP0], [CP9] or [World Government] or 6 [Egghead Arc] characters, applies Territory: [DEX] type to the field, boosts ATK by 1x-1.5x and reduces damage received by 0%-25% based on number of characters matching the territory, for 1 turn, and reduces damage received by 80% for 1 turn.",
         specialName: "Unyielding Roar of the Leopard",
         sailor: {
-            base: "Makes Powerhouse and Free Spirit characters' [DEX] slots have matching slot effects",
-            level1: "Reduces character's Special Reverse by 3 turns"
+            base: "Makes [DEX] orbs beneficial for Powerhouse and Free Spirit characters.",
+            level1: "Restores Special Cooldown of this character by 3 turns when it is rewinded."
         },
         support: [
             {
                 Characters: "[DEX] Free Spirit characters",
                 description: [
-                    "Adds 3% of character's base stats to supported character's base stats",
-                    "Adds 4% of character's base stats to supported character's base stats",
-                    "Adds 6% of character's base stats to supported character's base stats",
-                    "Adds 7% of character's base stats to supported character's base stats",
-                    "Adds 8% of character's base stats to supported character's base stats [AUTO+] At battle 5, activates supported character's Super Effect. At final battle, activates supported character's Special"
+                    "Adds 3% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 4% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 6% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 7% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 8% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV. <b>[AUTO+]</b> When you reach the 5th stage, activates supported character's Super Effect. When you reach the final stage, activates supported character's Special."
                 ]
             }
         ],
@@ -182752,68 +182752,6 @@ window.details = {
                     "Reduces Special Cooldown of this character by 5 turns at the start of the fight",
                     "Reduces Special Cooldown of this character by 6 turns at the start of the fight"
                 ]
-            }
-        ],
-        festStats: {
-            def: 155,
-            spd: 162,
-            style: "ATK"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Normal Attack",
-            "Power Attack",
-            "Full Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "80% chance to evade RCV Bind, reduce damage taken from [QCK] by 20%",
-        festAbility: [
-            "[DEX]/Free Spirit class and [Navy] [World Government] [Zoan-type] teammates DEF Up Lv.1; when remaining time is 50 s or less, self ATK Up Lv.4, SPD Up Lv.4, Critical % Up Lv.4; when appearing on the field, targets 2 enemies with high current Special CT for 16% delay; during Assault Rumble, self HP Up Lv.2, Special CT Speed Up Lv.1",
-            "[DEX]/Free Spirit class and [Navy] [World Government] [Zoan-type] teammates DEF Up Lv.2; when remaining time is 50 s or less, self ATK Up Lv.5, SPD Up Lv.5, Critical % Up Lv.5; when appearing on the field, targets 2 enemies with high current Special CT for 17% delay; during Assault Rumble, self HP Up Lv.3, Special CT Speed Up Lv.1",
-            "[DEX]/Free Spirit class and [Navy] [World Government] [Zoan-type] teammates DEF Up Lv.3; when remaining time is 50 s or less, self ATK Up Lv.6, SPD Up Lv.6, Critical % Up Lv.6; when appearing on the field, targets 2 enemies with high current Special CT for 18% delay; during Assault Rumble, self HP Up Lv.4, Special CT Speed Up Lv.2",
-            "[DEX]/Free Spirit class and [Navy] [World Government] [Zoan-type] teammates DEF Up Lv.4; when remaining time is 50 s or less, self ATK Up Lv.7, SPD Up Lv.7, Critical % Up Lv.7; when appearing on the field, targets 2 enemies with high current Special CT for 19% delay; during Assault Rumble, self HP Up Lv.5, Special CT Speed Up Lv.2",
-            "[DEX]/Free Spirit class and [Navy] [World Government] [Zoan-type] teammates DEF Up Lv.5; when remaining time is 50 s or less, self ATK Up Lv.8, SPD Up Lv.8, Critical % Up Lv.8; when appearing on the field, targets 2 enemies with high current Special CT for 20% delay; during Assault Rumble, self HP Up Lv.6, Special CT Speed Up Lv.3"
-        ],
-        festSpecial: [
-            {
-                cooldown: 32,
-                description: "Targets self for DEF Up Lv.1 (11 s); targets enemies within medium range for ATK x 10.5 spread damage (damage on each enemy reduced based on number of total enemies); targets [Navy] [World Government] [Zoan-type] teammates for 320 HP per interval healing (10 s); when remaining time is 50 s or less, targets self for ATK Up Lv.5 (21 s); during Assault Rumble, targets all enemies for ATK x ×3.1 damage"
-            },
-            {
-                cooldown: 32,
-                description: "Targets self for DEF Up Lv.1 (12 s); targets enemies within medium range for ATK x 11 spread damage (damage on each enemy reduced based on number of total enemies); targets [Navy] [World Government] [Zoan-type] teammates for 340 HP per interval healing (11 s); when remaining time is 50 s or less, targets self for ATK Up Lv.6 (22 s); during Assault Rumble, targets all enemies for ATK x ×3.2 damage"
-            },
-            {
-                cooldown: 32,
-                description: "Targets self for DEF Up Lv.1 (13 s); targets enemies within medium range for ATK x 11.5 spread damage (damage on each enemy reduced based on number of total enemies); targets [Navy] [World Government] [Zoan-type] teammates for 360 HP per interval healing (11 s); when remaining time is 50 s or less, targets self for ATK Up Lv.6 (23 s); during Assault Rumble, targets all enemies for ATK x ×3.3 damage"
-            },
-            {
-                cooldown: 32,
-                description: "Targets self for DEF Up Lv.2 (14 s); targets enemies within medium range for ATK x 12 spread damage (damage on each enemy reduced based on number of total enemies); targets [Navy] [World Government] [Zoan-type] teammates for 380 HP per interval healing (12 s); when remaining time is 50 s or less, targets self for ATK Up Lv.7 (24 s); during Assault Rumble, targets all enemies for ATK x ×3.4 damage"
-            },
-            {
-                cooldown: 32,
-                description: "Targets self for DEF Up Lv.2 (15 s); targets enemies within medium range for ATK x 12.5 spread damage (damage on each enemy reduced based on number of total enemies); targets [Navy] [World Government] [Zoan-type] teammates for 400 HP per interval healing (12 s); when remaining time is 50 s or less, targets self for ATK Up Lv.7 (25 s); during Assault Rumble, targets all enemies for ATK x ×3.5 damage"
-            },
-            {
-                cooldown: 32,
-                description: "Targets self for DEF Up Lv.3 (16 s); targets enemies within medium range for ATK x 13 spread damage (damage on each enemy reduced based on number of total enemies); targets [Navy] [World Government] [Zoan-type] teammates for 420 HP per interval healing (13 s); when remaining time is 50 s or less, targets self for ATK Up Lv.8 (26 s); during Assault Rumble, targets all enemies for ATK x ×3.6 damage"
-            },
-            {
-                cooldown: 32,
-                description: "Targets self for DEF Up Lv.3 (17 s); targets enemies within medium range for ATK x 13.5 spread damage (damage on each enemy reduced based on number of total enemies); targets [Navy] [World Government] [Zoan-type] teammates for 440 HP per interval healing (13 s); when remaining time is 50 s or less, targets self for ATK Up Lv.8 (27 s); during Assault Rumble, targets all enemies for ATK x ×3.7 damage"
-            },
-            {
-                cooldown: 32,
-                description: "Targets self for DEF Up Lv.3 (18 s); targets enemies within medium range for ATK x 14 spread damage (damage on each enemy reduced based on number of total enemies); targets [Navy] [World Government] [Zoan-type] teammates for 460 HP per interval healing (14 s); when remaining time is 50 s or less, targets self for ATK Up Lv.9 (28 s); during Assault Rumble, targets all enemies for ATK x ×3.8 damage"
-            },
-            {
-                cooldown: 32,
-                description: "Targets self for DEF Up Lv.4 (19 s); targets enemies within medium range for ATK x 14.5 spread damage (damage on each enemy reduced based on number of total enemies); targets [Navy] [World Government] [Zoan-type] teammates for 480 HP per interval healing (14 s); when remaining time is 50 s or less, targets self for ATK Up Lv.9 (29 s); during Assault Rumble, targets all enemies for ATK x ×3.9 damage"
-            },
-            {
-                cooldown: 32,
-                description: "Targets self for DEF Up Lv.5 (20 s); targets enemies within medium range for ATK x 15 spread damage (damage on each enemy reduced based on number of total enemies); targets [Navy] [World Government] [Zoan-type] teammates for 500 HP per interval healing (15 s); when remaining time is 50 s or less, targets self for ATK Up Lv.10 (30 s); during Assault Rumble, targets all enemies for ATK x ×4 damage"
             }
         ]
     },
@@ -182913,24 +182851,25 @@ window.details = {
         ]
     },
     4544: {//Kizaru
-        captain: "Reduces character's Special charge time by 20 turns at start of quest, boosts [INT], Slasher, Cerebral, and Shooter characters' ATK by 5.25x, HP and RCV by 1.2x, makes their [DEX][INT][TND] slots have matching slot effects, and completely removes character's Bind [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Five Elders] [Navy] [Vegapunk] characters are on the crew, boosts crew's ATK by 1.2x, and reduces crew's Limit Special Uses duration by 10 turns. If 1 or more [Vegapunk] characters are on the crew, boosts [Navy] [World Government] characters' base ATK by +1000. If an ATK or slot effect boost is applied on the crew (does not apply to statuses applied by Captain Ability or Crewmate Ability further increases the boost by 1.2x (up to a maximum 10x, cannot be further increased)",
-        special: "Redues crew's Bind duration by 10 turns, further increases all enemies' increase damage taken effect by +0.75, boosts [INT], Slasher, Cerebral, and Shooter characters' base ATK by +1750 for 1 turn, and applies -50% [INT] Resistance to all enemies for 1 turn. If 3 or more [Five Elders] [Navy] [Vegapunk] characters or 5 or more [Egghead Arc] characters are on the crew, reduces crew's Special charge time by 2 turns and VS Effect gauge and Switch Effect by 2, and boosts the ATK of the next final tap performed by an [INT] character by 60% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect)",
+        captain: "Reduces Special Cooldown of this character by 20 turns at the start of the fight, boosts ATK of [INT], Slasher, Cerebral and Shooter characters by 5.25x, boosts HP and RCV of [INT], Slasher, Cerebral and Shooter characters by 1.2x, makes [DEX], [INT] and [TND] orbs beneficial for [INT], Slasher, Cerebral and Shooter characters, and reduces Bind duration completely on this character. If your crew has 3+ [Five Elders], [Navy] or [Vegapunk] characters, boosts ATK of all characters by 1.2x, boosts ATK of [INT], Slasher, Cerebral and Shooter characters by 6.3x instead, and reduces Special Use Limit duration by 10 turns. If your crew has 1+ [Vegapunk] characters, boosts base ATK of [Navy] and [World Government] characters by 1,000; additionally, if you gain an ATK Up or Orb Amplification buff, increases boost effects of ATK Up and Orb Amplification buffs by 1.2x (up to 10x).",
+        special: "Reduces Bind duration by 10 turns, increases boost effects of enemies' Increase Damage Taken debuffs by +0.75x, boosts Base ATK of [INT], Slasher, Cerebral and Shooter characters by 1,750 for 1 turn, and reduces enemies' [INT] resistance by -50% for 1 turn. If your crew has 3+ [Five Elders], [Navy] or [Vegapunk] characters or 5+ [Egghead Arc] characters, reduces Special Cooldown of all characters by 2 turns, reduces VS Gauge and Switch Effect of all characters by 2, and boosts Final Tap ATK of [INT] characters by 60%.",
         specialName: "The Price of Justice",
         sailor: {
-            base: "Boosts [INT] characters' base ATK by 75, and makes their [DEX] slots have matching slot effects",
-            level1: "Reduces character's Bind duration by 5 turns"
+            base: "Boosts base ATK of [INT] characters by 75, and makes [DEX] orbs beneficial for [INT] characters.",
+            level1: "Reduces Bind duration by 5 turns on this character."
         },
-        superSpecialCriteria: "When any 2 [Five Elders] [Navy] [Vegapunk] characters or any 5 [Egghead Arc] characters are on the crew not including self (except as Support Characters or Double Characters in inactive state; Double Characters counts as 1; can be launched when character is a crewmate)",
-        superSpecial: "Reduces crew's Special charge time by 2 turns and VS Effect gauge and Switch Effect by 2, makes crew's [PSY] slots have matching slot effects for 1 turn, doubles crew's slot effects for 1 turn (effect can be overwritten with other slot effect boost effects), and changes [INT] characters to Super [INT]",
+        superSpecialCriteria: "Can be launched as crewmate. Your crew must consist of any 3 or 6 of the following, excluding supports and counting only 1 per unit: [Five Elders], [Navy], [Vegapunk] or [Egghead Arc] characters",
+        superSpecialCriteriaNotes: "3 [Five Elders], [Navy], [Vegapunk] characters or 6 [Egghead Arc] characters",
+        superSpecial: "Reduces Special Cooldown of all characters by 2 turns, reduces VS Gauge and Switch Effect of all characters by 2, makes [PSY] orbs beneficial for all characters for 1 turn, boosts Orb Effects of all characters by 2x, allowing override, for 1 turn, and transforms [INT] characters into Super [INT] characters.",
         support: [
             {
                 Characters: "Dr. Vegapunk (Stella)",
                 description: [
-                    "Cuts crew's HP by 90% but boosts Cerebral characters' base ATK by +300 for 1 turn at start of final battle",
-                    "Cuts crew's HP by 90% but boosts Cerebral characters' base ATK by +400 for 1 turn at start of final battle",
-                    "Cuts crew's HP by 90% but boosts Cerebral characters' base ATK by +500 for 1 turn at start of final battle",
-                    "Cuts crew's HP by 90% but boosts Cerebral characters' base ATK by +750 for 1 turn at start of final battle",
-                    "Cuts crew's HP by 90% but boosts Cerebral characters' base ATK by +1000 for 1 turn at start of final battle"
+                    "Once per adventure, when you reach the final stage, reduces crew's current HP by 90%, and boosts Base ATK of Cerebral characters by 300 for 1 turn.",
+                    "Once per adventure, when you reach the final stage, reduces crew's current HP by 90%, and boosts Base ATK of Cerebral characters by 400 for 1 turn.",
+                    "Once per adventure, when you reach the final stage, reduces crew's current HP by 90%, and boosts Base ATK of Cerebral characters by 500 for 1 turn.",
+                    "Once per adventure, when you reach the final stage, reduces crew's current HP by 90%, and boosts Base ATK of Cerebral characters by 750 for 1 turn.",
+                    "Once per adventure, when you reach the final stage, reduces crew's current HP by 90%, and boosts Base ATK of Cerebral characters by 1,000 for 1 turn."
                 ]
             }
         ],
@@ -183010,100 +182949,38 @@ window.details = {
         ],
         superTandemBoost: {
             characterCondition: [
-                "When an [Egghead Arc] [Five Elders] [Navy] [Vegapunk] character performs Super Tandem",
-                "When an [Egghead Arc] [Five Elders] [Navy] [Vegapunk] character performs Super Tandem",
-                "When an [Egghead Arc] [Five Elders] [Navy] [Vegapunk] character performs Super Tandem",
-                "When an [Egghead Arc] [Five Elders] [Navy] [Vegapunk] character performs Super Tandem",
-                "When an [Egghead Arc] [Five Elders] [Navy] [Vegapunk] character performs Super Tandem"
+                "When an [Egghead Arc], [Five Elders], [Navy] or [Vegapunk] character performs Super Tandem",
+                "When an [Egghead Arc], [Five Elders], [Navy] or [Vegapunk] character performs Super Tandem",
+                "When an [Egghead Arc], [Five Elders], [Navy] or [Vegapunk] character performs Super Tandem",
+                "When an [Egghead Arc], [Five Elders], [Navy] or [Vegapunk] character performs Super Tandem",
+                "When an [Egghead Arc], [Five Elders], [Navy] or [Vegapunk] character performs Super Tandem"
             ],
             description: [
-                "Raises Boost Level of [Egghead Arc] [Five Elders] [Navy] [Vegapunk] characters by 1 for 1 turn",
-                "Raises Boost Level of [Egghead Arc] [Five Elders] [Navy] [Vegapunk] characters by 2 for 1 turn",
-                "Raises Boost Level of [Egghead Arc] [Five Elders] [Navy] [Vegapunk] characters by 3 for 1 turn",
-                "Raises Boost Level of [Egghead Arc] characters by 4 and raises Boost Level of [Five Elders] [Navy] [Vegapunk] characters by 5 for 1 turn",
-                "Raises Boost Level of [Egghead Arc] characters by 5 and raises Boost Level of [Five Elders] [Navy] [Vegapunk] characters by 6 for 1 turn"
+                "Raises Boost Level of [Egghead Arc], [Five Elders], [Navy] and [Vegapunk] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Egghead Arc], [Five Elders], [Navy] and [Vegapunk] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Egghead Arc], [Five Elders], [Navy] and [Vegapunk] characters by 3 for 1 turn.",
+                "Raises Boost Level of [Egghead Arc] characters by 4 for 1 turn, and raises Boost Level of [Five Elders], [Navy] and [Vegapunk] characters by 5 for 1 turn.",
+                "Raises Boost Level of [Egghead Arc] characters by 5 for 1 turn, and raises Boost Level of [Five Elders], [Navy] and [Vegapunk] characters by 6 for 1 turn."
             ]
-        },
-        festStats: {
-            def: 154,
-            spd: 155,
-            style: "DBF"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Heal Self Lv.2",
-            "Power Attack",
-            "Power Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "Completely evades Special Bind, reduce damage taken from [PSY] by 30％",
-        festAbility: [
-            "Cerebral class and [Navy] [World Government] teammates ATK Up Lv.2, SPD Up Lv.2; after receiving Action Bind, up to 2 times all enemies ATK Down Lv.2, RCV Down Lv.2, SPD Down Lv.2; when defeating enemy, up to 1 time self ATK Down Lv.5, DEF Down Lv.5; if there are 1 or more [Vegapunk] enemies, self Special CT Speed Up Lv.6; when appearing on the field, self Special CT 10% reduction",
-            "Cerebral class and [Navy] [World Government] teammates ATK Up Lv.3, SPD Up Lv.3; after receiving Action Bind, up to 2 times all enemies ATK Down Lv.2, RCV Down Lv.2, SPD Down Lv.2; when defeating enemy, up to 1 time self ATK Down Lv.5, DEF Down Lv.5; if there are 1 or more [Vegapunk] enemies, self Special CT Speed Up Lv.7; when appearing on the field, self Special CT 15% reduction",
-            "Cerebral class and [Navy] [World Government] teammates ATK Up Lv.4, SPD Up Lv.4; after receiving Action Bind, up to 2 times all enemies ATK Down Lv.3, RCV Down Lv.3, SPD Down Lv.3; when defeating enemy, up to 1 time self ATK Down Lv.5, DEF Down Lv.5; if there are 1 or more [Vegapunk] enemies, self Special CT Speed Up Lv.8; when appearing on the field, self Special CT 20% reduction",
-            "Cerebral class and [Navy] [World Government] teammates ATK Up Lv.5, SPD Up Lv.5; after receiving Action Bind, up to 2 times all enemies ATK Down Lv.3, RCV Down Lv.3, SPD Down Lv.3; when defeating enemy, up to 1 time self ATK Down Lv.5, DEF Down Lv.5; if there are 1 or more [Vegapunk] enemies, self Special CT Speed Up Lv.9; when appearing on the field, self Special CT 25% reduction",
-            "Cerebral class and [Navy] [World Government] teammates ATK Up Lv.6, SPD Up Lv.6; after receiving Action Bind, up to 2 times all enemies ATK Down Lv.4, RCV Down Lv.4, SPD Down Lv.4; when defeating enemy, up to 1 time self ATK Down Lv.5, DEF Down Lv.5; if there are 1 or more [Vegapunk] enemies, self Special CT Speed Up Lv.10; when appearing on the field, self Special CT 30% reduction"
-        ],
-        festSpecial: [
-            {
-                cooldown: 23,
-                description: "If there are 1 or more [Vegapunk] enemies, targets 1 [Vegapunk] enemy ignoring DEF for ATK x 4.1 damage; targets self for 100% chance of Action Bind (10 s); targets 1 enemy with high current CT for Special CT 32% delay; if 6 or more Cerebral characters or 5 or more [Navy] [World Government] characters are on the team, targets enemies within large range for ATK Down Lv.1 (21 s), SPD Down Lv.1 (21 s), DEF Down Lv.1 (21 s)"
-            },
-            {
-                cooldown: 23,
-                description: "If there are 1 or more [Vegapunk] enemies, targets 1 [Vegapunk] enemy ignoring DEF for ATK x 4.2 damage; targets self for 100% chance of Action Bind (10 s); targets 1 enemy with high current CT for Special CT 34% delay; if 6 or more Cerebral characters or 5 or more [Navy] [World Government] characters are on the team, targets enemies within large range for ATK Down Lv.1 (22 s), SPD Down Lv.1 (22 s), DEF Down Lv.1 (22 s)"
-            },
-            {
-                cooldown: 23,
-                description: "If there are 1 or more [Vegapunk] enemies, targets 1 [Vegapunk] enemy ignoring DEF for ATK x 4.3 damage; targets self for 100% chance of Action Bind (10 s); targets 1 enemy with high current CT for Special CT 36% delay; if 6 or more Cerebral characters or 5 or more [Navy] [World Government] characters are on the team, targets enemies within large range for ATK Down Lv.1 (23 s), SPD Down Lv.1 (23 s), DEF Down Lv.1 (23 s)"
-            },
-            {
-                cooldown: 23,
-                description: "If there are 1 or more [Vegapunk] enemies, targets 1 [Vegapunk] enemy ignoring DEF for ATK x 4.4 damage; targets self for 100% chance of Action Bind (10 s); targets 1 enemy with high current CT for Special CT 38% delay; if 6 or more Cerebral characters or 5 or more [Navy] [World Government] characters are on the team, targets enemies within large range for ATK Down Lv.2 (24 s), SPD Down Lv.2 (24 s), DEF Down Lv.2 (24 s)"
-            },
-            {
-                cooldown: 23,
-                description: "If there are 1 or more [Vegapunk] enemies, targets 1 [Vegapunk] enemy ignoring DEF for ATK x 4.5 damage; targets self for 100% chance of Action Bind (10 s); targets 1 enemy with high current CT for Special CT 40% delay; if 6 or more Cerebral characters or 5 or more [Navy] [World Government] characters are on the team, targets enemies within large range for ATK Down Lv.2 (25 s), SPD Down Lv.2 (25 s), DEF Down Lv.2 (25 s)"
-            },
-            {
-                cooldown: 23,
-                description: "If there are 1 or more [Vegapunk] enemies, targets 1 [Vegapunk] enemy ignoring DEF for ATK x 4.6 damage; targets self for 100% chance of Action Bind (10 s); targets 1 enemy with high current CT for Special CT 42% delay; if 6 or more Cerebral characters or 5 or more [Navy] [World Government] characters are on the team, targets enemies within large range for ATK Down Lv.3 (26 s), SPD Down Lv.3 (26 s), DEF Down Lv.3 (26 s)"
-            },
-            {
-                cooldown: 23,
-                description: "If there are 1 or more [Vegapunk] enemies, targets 1 [Vegapunk] enemy ignoring DEF for ATK x 4.7 damage; targets self for 100% chance of Action Bind (10 s); targets 1 enemy with high current CT for Special CT 44% delay; if 6 or more Cerebral characters or 5 or more [Navy] [World Government] characters are on the team, targets enemies within large range for ATK Down Lv.3 (27 s), SPD Down Lv.3 (27 s), DEF Down Lv.3 (27 s)"
-            },
-            {
-                cooldown: 23,
-                description: "If there are 1 or more [Vegapunk] enemies, targets 1 [Vegapunk] enemy ignoring DEF for ATK x 4.8 damage; targets self for 100% chance of Action Bind (10 s); targets 1 enemy with high current CT for Special CT 46% delay; if 6 or more Cerebral characters or 5 or more [Navy] [World Government] characters are on the team, targets enemies within large range for ATK Down Lv.3 (28 s), SPD Down Lv.3 (28 s), DEF Down Lv.3 (28 s)"
-            },
-            {
-                cooldown: 23,
-                description: "If there are 1 or more [Vegapunk] enemies, targets 1 [Vegapunk] enemy ignoring DEF for ATK x 4.9 damage; targets self for 100% chance of Action Bind (10 s); targets 1 enemy with high current CT for Special CT 48% delay; if 6 or more Cerebral characters or 5 or more [Navy] [World Government] characters are on the team, targets enemies within large range for ATK Down Lv.4 (29 s), SPD Down Lv.4 (29 s), DEF Down Lv.4 (29 s)"
-            },
-            {
-                cooldown: 23,
-                description: "If there are 1 or more [Vegapunk] enemies, targets 1 [Vegapunk] enemy ignoring DEF for ATK x 5 damage; targets self for 100% chance of Action Bind (10 s); targets 1 enemy with high current CT for Special CT 50% delay; if 6 or more Cerebral characters or 5 or more [Navy] [World Government] characters are on the team, targets enemies within large range for ATK Down Lv.5 (30 s), SPD Down Lv.5 (30 s), DEF Down Lv.5 (30 s)"
-            }
-        ]
+        }
     },
     4545: {//Akainu
-        captain: "Boosts [INT], Shooter, and Cerebral characters' ATK by approximately 4.25x when slots match (3.25x otherwise), HP by 1.35x, and further increases ATK boosts that are launched by crew Specials by +0.3 (stackable with other further raising effects)",
-        special: "Applies Ignited status to all enemies for 2 turns (deals 40x enemy ATK in non-type damage at end of enemy turn; Ignited damage effect will not be applied after an enemy's preemptive action), reduces crew's Special Bind duration by 6 turns, and applies increase damage taken status to all enemies by 1.75x for 1 turn (ignoring immunity to status effects). If 3 or more [Navy] [World Government] characters are on the crew, heals crew by 5,000 HP at end of turn for 7 turns, and boosts damage dealt to Ignited enemies by 2.5x for 1 turn",
+        captain: "Boosts ATK of [INT], Shooter and Cerebral characters by 3.25x, by 4.25x instead if they have a beneficial orb, boosts HP of [INT], Shooter and Cerebral characters by 1.35x, and increases boost effects of ATK Up buffs applied by specials by +0.3x.",
+        special: "Inflicts all enemies with Burn that will deal 40x enemies' ATK in damage for 2 turns, reduces Special Bind duration by 6 turns, and ignores Debuff Protection and inflicts all enemies with Increase Damage Taken by 1.75x for 1 turn. If your crew has 3+ [Navy] or [World Government] characters, recovers 5,000 HP at the end of the turn for 7 turns, and boosts ATK against enemies inflicted with Burn by 2.5x for 1 turn.",
         specialName: "The Price of the Grueling Mission",
         sailor: {
-            base: "Reduces character's Special Bind duration by 6 turns",
-            level1: "Boosts [INT] characters' base ATK by 70, and makes their [STR] slots have matching slot effects"
+            base: "Reduces Special Bind duration by 6 turns on this character.",
+            level1: "Boosts base ATK of [INT] characters by 70, and makes [STR] orbs beneficial for [INT] characters."
         },
         support: [
             {
                 Characters: "Borsalino (Kizaru)",
                 description: [
-                    "Once per quest, if inflicted with Special Bind status from the enemy, heals crew by 3,000 HP at end of turn for 2 turns at start of crew's next turn",
-                    "Once per quest, if inflicted with Special Bind status from the enemy, heals crew by 3,000 HP at end of turn for 3 turns at start of crew's next turn",
-                    "Once per quest, if inflicted with Special Bind status from the enemy, reduces crew's Special Bind duration by 1 turn and heals crew by 3,000 HP at end of turn for 4 turns at start of crew's next turn",
-                    "Once per quest, if inflicted with Special Bind status from the enemy, reduces crew's Special Bind duration by 1 turn and heals crew by 3,000 HP at end of turn for 5 turns at start of crew's next turn",
-                    "Once per quest, if inflicted with Special Bind status from the enemy, reduces crew's Special Bind duration by 2 turns and heals crew by 3,000 HP at end of turn for 5 turns at start of crew's next turn"
+                    "Once per adventure, when an enemy inflicts you with Special Bind, recovers 3,000 HP at the end of the turn for 2 turns.",
+                    "Once per adventure, when an enemy inflicts you with Special Bind, recovers 3,000 HP at the end of the turn for 3 turns.",
+                    "Once per adventure, when an enemy inflicts you with Special Bind, reduces Special Bind duration by 1 turn, and recovers 3,000 HP at the end of the turn for 4 turns.",
+                    "Once per adventure, when an enemy inflicts you with Special Bind, reduces Special Bind duration by 1 turn, and recovers 3,000 HP at the end of the turn for 5 turns.",
+                    "Once per adventure, when an enemy inflicts you with Special Bind, reduces Special Bind duration by 2 turns, and recovers 3,000 HP at the end of the turn for 5 turns."
                 ]
             }
         ],
@@ -183145,34 +183022,25 @@ window.details = {
                     "Reduces Sailor Despair duration by 5 turns on this character"
                 ]
             }
-        ],
-        festStats: {
-            def: 50,
-            spd: 100,
-            style: "ATK"
-        },
-        festAttackPattern: [
-            "Normal Attack"
-        ],
-        festAttackTarget: "Targets closest enemies"
+        ]
     },
     4546: {//Sentomaru
-        captain: "Boosts [INT], Powerhouse, and Cerebral characters' ATK by approximately 4x when slots match (3.25x otherwise), HP by 1.5x, and further increases slot effect boosts that are launched by crew Specials by +0.3 (stackable with other further raising effects)",
-        special: "Changes crew's slots (including [BLOCK] slots) to [INT]. If crew has slot effect boost when Special is launched, boosts [INT], Powerhouse, and Cerebral characters' ATK by 2.5x for 1 turn, then after that, boosts their slot effects by 2.75x for 1 turn. If 3 or more [Five Elders] [Navy] [Vegapunk] characters are on the crew, reduces all enemies' Threshold Damage Reduction, damage reduction, and DEF Up duration by 5 turns, and changes adjacent slots to [RCV]",
+        captain: "Boosts ATK of [INT], Powerhouse and Cerebral characters by 3.25x, by 4x instead if they have a beneficial orb, boosts HP of [INT], Powerhouse and Cerebral characters by 1.5x, and increases boost effects of Orb Amplification buffs applied by specials by +0.3x.",
+        special: "Changes all orbs, including [BLOCK] orbs, into [INT] orbs, and boosts Orb Effects of [INT], Powerhouse and Cerebral characters by 2.75x for 1 turn. If your crew has Orb Amplification when the special is activated, boosts ATK of [INT], Powerhouse and Cerebral characters by 2.5x for 1 turn. If your crew has 3+ [Five Elders], [Navy] or [Vegapunk] characters, reduces enemies' Threshold Damage Reduction, Percent Damage Reduction and Increased Defense duration by 5 turns, and changes the orbs of adjacent characters into [RCV] orbs.",
         specialName: "Silent Escape",
         sailor: {
-            base: "Character cannot be blown away by attack, and makes [INT] characters' [RCV] slots have matching slot effects",
-            level1: "Boosts [INT] characters' base HP by 200, and makes their [QCK] slots have matching slot effects"
+            base: "This character cannot be Blown Away, and makes [RCV] orbs beneficial for [INT] characters.",
+            level1: "Boosts base HP of [INT] characters by 200, and makes [QCK] orbs beneficial for [INT] characters."
         },
         support: [
             {
-                Characters: "[STR] or [INT] Dr. Vegapunk (Stella), Borsalino (Kizaru)",
+                Characters: "[STR] or [INT] of the following: Dr. Vegapunk (Stella), Borsalino (Kizaru)",
                 description: [
-                    "Once per quest, if supported character uses a Special, reduces all enemies' Threshold Damage Reduction duration by 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces all enemies' Threshold Damage Reduction duration by 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces all enemies' Threshold Damage Reduction and damage reduction duration by 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces all enemies' Threshold Damage Reduction and damage reduction duration by 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces all enemies' Threshold Damage Reduction, damage reduction, and DEF Up duration by 1 turn"
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Threshold Damage Reduction duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Threshold Damage Reduction duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Threshold Damage Reduction and Percent Damage Reduction duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Threshold Damage Reduction and Percent Damage Reduction duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Threshold Damage Reduction, Percent Damage Reduction and Increased Defense duration by 1 turn."
                 ]
             }
         ],
@@ -183214,16 +183082,7 @@ window.details = {
                     "Reduces No Healing duration by 5 turns"
                 ]
             }
-        ],
-        festStats: {
-            def: 50,
-            spd: 100,
-            style: "DEF"
-        },
-        festAttackPattern: [
-            "Normal Attack"
-        ],
-        festAttackTarget: "Targets closest enemies"
+        ]
     },
     5013: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
