@@ -335,9 +335,9 @@ const GunmanDEX = [ "Gunman DEX" ];
 const GunmanQCK = [ "Gunman QCK" ];
 const GunmanSTR = [ "Gunman STR" ];
 const GunmanPSY = [ "Gunman PSY" ];
-const Charloss = [ "Charloss" ];
-const Roswald = [ "Roswald" ];
-const Shalulia = [ "Shalulia" ];
+const Charloss = [ "Charloss", "Saint Charlos" ];
+const Roswald = [ "Roswald", "Saint Roswald" ];
+const Shalulia = [ "Shalulia", "Saint Shalria" ];
 const Pacifista = [ "Pacifista" ];
 const Sentomaru = [ "Sentomaru" ];
 const Borsalino = [ "Borsalino", "Kizaru" ];
@@ -590,7 +590,7 @@ const BeloBetty = [ "Belo Betty" ];
 const Karasu = [ "Karasu" ];
 const Morley = [ "Morley" ];
 const DonquixoteHoming = [ "Donquixote Homing" ];
-const SaintMjosgard = [ "Saint Mjosgard" ];
+const SaintMjosgard = [ "Saint Mjosgard", "Saint Donquixote Myosgard" ];
 const PawnSTR = [ "Pawn STR" ];
 const PawnDEX = [ "Pawn DEX" ];
 const RookSTR = [ "Rook STR" ];
@@ -718,24 +718,24 @@ const PrinceGrus = [ "Prince Grus" ];
 const Kujaku = [ "Kujaku" ];
 const Hibari = [ "Hibari" ];
 const Doll = [ "Doll" ];
-const JaygarciaSaturn = [ "Saint Jaygarcia Saturn" ];
+const JaygarciaSaturn = [ "Saint Jaygarcia Saturn", "St. Jaygarcia Saturn" ];
 const Bluegrass = [ "Bluegrass" ];
 const BuckinghamStussy = [ "Miss Buckingham Stussy" ];
 const MonkeyDDragon = [ "Monkey D. Dragon" ];
 const Ginny = [ "Ginny" ];
-const FigarlandGarling = [ "Saint Figarland Garling" ];
+const FigarlandGarling = [ "Saint Figarland Garling", "St. Figarland Garling" ];
 const Alpha = [ "Alpha" ];
 const Gyogyo = [ "Gyogyo" ];
 const Totts = [ "Totts" ];
 const Pert = [ "Pert" ];
 const Potato = [ "Potato" ];
-const ShepherdJuPeter = [ "Saint Shepherd Ju Peter" ];
-const EthanbaronVNusjuro = [ "Saint Ethanbaron V. Nusjuro" ];
+const ShepherdJuPeter = [ "Saint Shepherd Ju Peter", "St. Shepherd Ju Peter" ];
+const EthanbaronVNusjuro = [ "Saint Ethanbaron V. Nusjuro", "St. Ethanbaron V. Nusjuro" ];
 const Hound = [ "Hound" ];
 const Urban = [ "Urban" ];
 const Pomsky = [ "Pomsky" ];
-const TopmanWarcury = [ "Saint Topman Warcury" ];
-const MarcusMars = [ "Saint Marcus Mars" ];
+const TopmanWarcury = [ "Saint Topman Warcury", "St. Topman Warcury" ];
+const MarcusMars = [ "Saint Marcus Mars", "St. Marcus Mars" ];
 const Tosa = [ "Tosa" ];
 const Guillotine = [ "Guillotine" ];
 const Emet = [ "Emet" ];
@@ -743,6 +743,7 @@ const ClouDClover = [ "Clou D. Clover" ];
 const Guernica = [ "Guernica" ];
 const Joseph = [ "Joseph" ];
 const Strongheart = [ "Strongheart", "Stronger" ];
+const Imu = [ "Imu" ];
 
 window.families = {
     1: [ ...MonkeyDLuffy ],
@@ -5184,8 +5185,31 @@ window.families = {
     4552: [ ...EmporioIvankov, ...BartholomewKuma ],
     4553: [ ...MonkeyDGarp, ...Tashigi, ...Helmeppo ],
     4554: [ ...Vegapunk ],
-    //4555: [ ...Vegapunk ],
+    4555: [ ...Edison ],
     4556: [ ...PortgasDAce ],
+    4557: [ ...MonkeyDLuffy ],
+    4558: [ ...MonkeyDLuffy ],
+    4559: [ ...Shanks ],
+    4560: [ ...Shanks ],
+    4561: [ ...MarshallDTeach ],
+    4562: [ ...MarshallDTeach ],
+    4563: [ ...Buggy ],
+    4564: [ ...Buggy ],
+    4565: [ ...Sabo ],
+    4566: [ ...Coby ],
+    4567: [ ...MonkeyDDragon ],
+    4568: [ ...FigarlandGarling ],
+    4569: [ ...Sakazuki ],
+    4570: [ ...Kuzan ],
+    4571: [ ...Imu ],
+    4572: [ ...GolDRoger ],
+    4573: [ ...GolDRoger ],
+    4574: [ ...EthanbaronVNusjuro ],
+    4575: [ ...EthanbaronVNusjuro ],
+    4576: [ ...MarcusMars, ...JaygarciaSaturn ],
+    4577: [ ...ShepherdJuPeter, ...TopmanWarcury ],
+    4578: [ ...Doberman ],
+    4579: [ ...Enel ],
     //break
     5013: [ ...MonkeyDLuffy ],
     5014: [ ...MonkeyDLuffy ],

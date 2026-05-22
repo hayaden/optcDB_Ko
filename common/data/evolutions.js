@@ -6127,6 +6127,38 @@ window.evolutions = {
         evolution: 4549,
         evolvers: [ "4549-skull", "4549-skull", "4549-skull", "4549-skull", "4549-skull" ]
     },
+    4554: {
+        evolution: 4555,
+        evolvers: [ "4555-skull", "4555-skull", "4555-skull", "4555-skull", "4555-skull" ]
+    },
+    4557: {
+        evolution: 4558,
+        evolvers: ["ink", "ink", "ink", "ink", "ink"]
+    },
+    4559: {
+        evolution: 4560,
+        evolvers: ["ink", "ink", "ink", "ink", "ink"]
+    },
+    4561: {
+        evolution: 4562,
+        evolvers: ["ink", "ink", "ink", "ink", "ink"]
+    },
+    4563: {
+        evolution: 4564,
+        evolvers: ["ink", "ink", "ink", "ink", "ink"]
+    },
+    4572: {
+        evolution: 4573,
+        evolvers: [ "4573-skull", "4573-skull", "4573-skull", "4573-skull", "4573-skull" ]
+    },
+    4574: {
+        evolution: 4575,
+        evolvers: [ "4575-skull", "4575-skull", "4575-skull", "4575-skull", "4575-skull" ]
+    },
+    3245: {
+        evolution: 4579,
+        evolvers: [ "4579-skull", "4579-skull", "4579-skull", "4579-skull", "4579-skull" ]
+    },
     // break
     5013: {
         evolution: 5014,

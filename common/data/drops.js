@@ -3713,6 +3713,16 @@ window.drops = {
             'Grand Feast Sugo': [ 4513 ]
         },
 
+        {
+            name: 'Gol D. Roger',
+            dropID: 'coop9',
+            thumb: 4572,
+            global: true,
+            nakama: null,
+            gamewith: null,
+            'Grand Feast Sugo': [ 4572 ]
+        },
+
     ],
 
 
@@ -7675,6 +7685,16 @@ window.drops = {
             'Calm Sea': [ "4541-skull" ],
         },
 
+        {
+            name: 'Edison',
+            dropID: 'treasuremap104',
+            thumb: 4555,
+            global: true,
+            nakama: null,
+            gamewith: null,
+            'Calm Sea': [ "4555-skull" ],
+        },
+
     ],
 
     
@@ -8658,6 +8678,16 @@ window.drops = {
             nakama: null,
             gamewith: null,
             'Kizuna Exchange': [ "4549-skull" ]
+        },
+
+        {
+            name: 'Eneru',
+            dropID: 'kizuna80',
+            thumb: 4579,
+            global: true,
+            nakama: null,
+            gamewith: null,
+            'Kizuna Exchange': [ "4573-skull", "4575-skull", "4579-skull" ]
         },
 
     ],
@@ -9868,6 +9898,14 @@ window.drops = {
             thumb: 4522,
             global: true,
             nakama: null,
+        },
+
+        {
+            name: '12th Anniversary Blitz Battle!',
+            thumb: 4571,
+            global: true,
+            nakama: null,
+            'Chopper Man Missions': [ 4574 ],
         },
 
         {
