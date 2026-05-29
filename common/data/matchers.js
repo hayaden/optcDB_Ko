@@ -494,6 +494,179 @@
 
 	// Structure will be changed to window.matchers[target][matcherGroup]
 	let matchers = {
+
+"Auto+": [
+
+			{
+				name: "필살기 발동",
+				targets: ["support"],
+				regex:
+					/When you reach the ([\w]+) stage[^.]*?, activates supported character's Special/i,
+				submatchers: [
+					{
+						type: "option",
+						description: "1라",
+						regex: /1/i,
+						groups: [1],
+						radioGroup: "sub",
+						cssClasses: ["min-width-3"],
+					},
+					{
+						type: "option",
+						description: "2라",
+						regex: /2/i,
+						groups: [1],
+						radioGroup: "sub",
+						cssClasses: ["min-width-3"],
+					},
+					{
+						type: "option",
+						description: "3라",
+						regex: /3/i,
+						groups: [1],
+						radioGroup: "sub",
+						cssClasses: ["min-width-3"],
+					},
+					{
+						type: "option",
+						description: "4라",
+						regex: /4/i,
+						groups: [1],
+						radioGroup: "sub",
+						cssClasses: ["min-width-3"],
+					},
+					{
+						type: "option",
+						description: "5라",
+						regex: /5/i,
+						groups: [1],
+						radioGroup: "sub",
+						cssClasses: ["min-width-3"],
+					},
+					{
+						type: "option",
+						description: "막라",
+						regex: /final/i,
+						groups: [1],
+						radioGroup: "sub",
+						cssClasses: ["min-width-6"],
+					},
+				],
+			},
+			{
+				name: "초월 발동",
+				targets: ["support"],
+				regex:
+					/When you reach the ([\w]+) stage, activates supported character's Super Effect/i,
+				submatchers: [
+					{
+						type: "option",
+						description: "1라",
+						regex: /1/i,
+						groups: [1],
+						radioGroup: "sub",
+						cssClasses: ["min-width-3"],
+					},
+					{
+						type: "option",
+						description: "2라",
+						regex: /2/i,
+						groups: [1],
+						radioGroup: "sub",
+						cssClasses: ["min-width-3"],
+					},
+					{
+						type: "option",
+						description: "3라",
+						regex: /3/i,
+						groups: [1],
+						radioGroup: "sub",
+						cssClasses: ["min-width-3"],
+					},
+					{
+						type: "option",
+						description: "4라",
+						regex: /4/i,
+						groups: [1],
+						radioGroup: "sub",
+						cssClasses: ["min-width-3"],
+					},
+					{
+						type: "option",
+						description: "5라",
+						regex: /5/i,
+						groups: [1],
+						radioGroup: "sub",
+						cssClasses: ["min-width-3"],
+					},
+					{
+						type: "option",
+						description: "막라",
+						regex: /final/i,
+						groups: [1],
+						radioGroup: "sub",
+						cssClasses: ["min-width-6"],
+					},
+				],
+			},
+			{
+				name: "체인지 효과 발동",
+				targets: ["support"],
+				regex:
+					/When you reach the ([\w]+) stage, activates supported character's Switch Effect/i,
+				submatchers: [
+					{
+						type: "option",
+						description: "1라",
+						regex: /1/i,
+						groups: [1],
+						radioGroup: "sub",
+						cssClasses: ["min-width-3"],
+					},
+					{
+						type: "option",
+						description: "2라",
+						regex: /2/i,
+						groups: [1],
+						radioGroup: "sub",
+						cssClasses: ["min-width-3"],
+					},
+					{
+						type: "option",
+						description: "3라",
+						regex: /3/i,
+						groups: [1],
+						radioGroup: "sub",
+						cssClasses: ["min-width-3"],
+					},
+					{
+						type: "option",
+						description: "4라",
+						regex: /4/i,
+						groups: [1],
+						radioGroup: "sub",
+						cssClasses: ["min-width-3"],
+					},
+					{
+						type: "option",
+						description: "5라",
+						regex: /5/i,
+						groups: [1],
+						radioGroup: "sub",
+						cssClasses: ["min-width-3"],
+					},
+					{
+						type: "option",
+						description: "막라",
+						regex: /final/i,
+						groups: [1],
+						radioGroup: "sub",
+						cssClasses: ["min-width-6"],
+					},
+				],
+			},
+		],	
+
 		데미지: [
 			{
 				name: "old 데미지딜러",
@@ -13572,91 +13745,6 @@
 					},
 				],
 			},
-
-		],
-		AUTO플러스: [
-		
-		{
-		name: "BATTLE1: 필살기 시전",
-		targets: ["support"],
-		regex: /\[AUTO\+\].*BATTLE\s*1.{0,40}필살기를\s*발동한다/i,
-		},
-		{
-		name: "BATTLE1: 초월 발동",
-		targets: ["support"],
-		regex: /\[AUTO\+\].*BATTLE\s*1.{0,40}초월/i,
-		},
-		{
-		name: "BATTLE1: 교체 효과 발동",
-		targets: ["support"],
-		regex: /\[AUTO\+\].*BATTLE\s*1.{0,40}교체/i,
-		},
-		{
-		name: "BATTLE2: 필살기 시전",
-		targets: ["support"],
-		regex: /\[AUTO\+\].*BATTLE\s*2.{0,40}필살기를\s*발동한다/i,
-		},
-		{
-		name: "BATTLE2: 초월 발동",
-		targets: ["support"],
-		regex: /\[AUTO\+\].*BATTLE\s*2.{0,40}초월/i,
-		},
-		{
-		name: "BATTLE2: 교체 효과 발동",
-		targets: ["support"],
-		regex: /\[AUTO\+\].*BATTLE\s*2.{0,40}교체/i,
-		},
-		{
-		name: "BATTLE3: 필살기 시전",
-		targets: ["support"],
-		regex: /\[AUTO\+\].*BATTLE\s*3.{0,40}필살기를\s*발동한다/i,
-		},
-		{
-		name: "BATTLE3: 초월 발동",
-		targets: ["support"],
-		regex: /\[AUTO\+\].*BATTLE\s*3.{0,40}초월/i,
-		},
-		{
-		name: "BATTLE3: 교체 효과 발동",
-		targets: ["support"],
-		regex: /\[AUTO\+\].*BATTLE\s*3.{0,40}교체/i,
-		},	
-		{
-		name: "BATTLE4: 필살기 시전",
-		targets: ["support"],
-		regex: /\[AUTO\+\].*BATTLE\s*4.{0,40}필살기를\s*발동한다/i,
-		},
-		{
-		name: "BATTLE4: 초월 발동",
-		targets: ["support"],
-		regex: /\[AUTO\+\].*BATTLE\s*4.{0,40}초월/i,
-		},
-		{
-		name: "BATTLE4: 교체 효과 발동",
-		targets: ["support"],
-		regex: /\[AUTO\+\].*BATTLE\s*4.{0,40}교체/i,
-		},
-		{
-		name: "마지막 배틀: 필살기 시전",
-		targets: ["support"],
-		regex: /\[AUTO\+\].*마지막\s*배틀.{0,40}필살기를\s*발동한다/i,
-		},
-		{
-		name: "마지막 배틀: 초월 발동",
-		targets: ["support"],
-		regex: /\[AUTO\+\].*마지막\s*배틀.{0,40}초월/i,
-		},
-		{
-		name: "마지막 배틀: 교체 효과 발동",
-		targets: ["support"],
-		regex: /\[AUTO\+\].*마지막\s*배틀.{0,40}교체/i,
-		},
-		{
-		name: "마지막 배틀: 필살기 시전 안함",
-		targets: ["support"],
-		regex: /\[AUTO\+\].*필살기를\s*발동하지/i,
-		}
-		
 
 		],
 		기타: [
