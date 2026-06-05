@@ -4833,5 +4833,6 @@ window.units = {
   "4585": {"id":"4585","name":"상디","type":"INT","class":["Striker","Free Spirit"],"stars":"6","cost":55,"combo":4,"sockets":5,"maxLevel":99,"maxEXP":5000000,"minHP":2092,"minATK":916,"minRCV":121,"maxHP":4184,"maxATK":1832,"maxRCV":242,"growth":null},
   "4586": {"id":"4586","name":"우솝","type":"INT","class":["Striker","Shooter"],"stars":"5","cost":30,"combo":4,"sockets":4,"maxLevel":99,"maxEXP":4000000,"minHP":1912,"minATK":831,"minRCV":80,"maxHP":3824,"maxATK":1662,"maxRCV":159,"growth":null},
   "4587": {"id":"4587","name":"토니토니 쵸파","type":"INT","class":["Striker","Cerebral"],"stars":"5","cost":30,"combo":4,"sockets":4,"maxLevel":99,"maxEXP":4000000,"minHP":1649,"minATK":811,"minRCV":130,"maxHP":3298,"maxATK":1622,"maxRCV":260,"growth":null},
-  "4588": {"id":"4588","name":"로드","type":"INT","class":["Striker","Slasher"],"stars":"5","cost":40,"combo":5,"sockets":4,"maxLevel":99,"maxEXP":5000000,"minHP":1736,"minATK":713,"minRCV":98,"maxHP":3472,"maxATK":1426,"maxRCV":196,"growth":null}
+  "4588": {"id":"4588","name":"로드","type":"INT","class":["Striker","Slasher"],"stars":"5","cost":40,"combo":5,"sockets":4,"maxLevel":99,"maxEXP":5000000,"minHP":1736,"minATK":713,"minRCV":98,"maxHP":3472,"maxATK":1426,"maxRCV":196,"growth":null},
+  "4590": {"id":"4590","name":"나미","type":"INT","class":["Striker","Cerebral"],"stars":"5","cost":30,"combo":4,"sockets":4,"maxLevel":99,"maxEXP":4000000,"minHP":1960,"minATK":739,"minRCV":127,"maxHP":3920,"maxATK":1478,"maxRCV":254,"growth":null}
 };
