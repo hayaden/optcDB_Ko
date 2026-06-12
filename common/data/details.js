@@ -187267,68 +187267,6 @@ window.details = {
                     "Once per adventure, reduces Special Cooldown of this character completely after the first time this special is used"
                 ]
             }
-        ],
-        festStats: {
-            def: 157,
-            spd: 150,
-            style: "DBF"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Heal Self Lv.2",
-            "Power Attack",
-            "Power Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "Completely evades Special Bind, reduce damage taken from [PSY] by 30％",
-        festAbility: [
-            "Striker/Cerebral class and [Straw Hat Pirates] teammates ATK Up Lv.1, SPD Up Lv.1; [Straw Hat Pirates] teammates DEF Up Lv.1; if 4 or more [Elbaph Arc] characters are on the team, all enemies Special CT Speed Down Lv.1; when appearing on the field, all enemies Special CT 10% delay",
-            "Striker/Cerebral class and [Straw Hat Pirates] teammates ATK Up Lv.2, SPD Up Lv.2; [Straw Hat Pirates] teammates DEF Up Lv.2; if 4 or more [Elbaph Arc] characters are on the team, all enemies Special CT Speed Down Lv.1; when appearing on the field, all enemies Special CT 12% delay",
-            "Striker/Cerebral class and [Straw Hat Pirates] teammates ATK Up Lv.3, SPD Up Lv.3; [Straw Hat Pirates] teammates DEF Up Lv.3; if 4 or more [Elbaph Arc] characters are on the team, all enemies Special CT Speed Down Lv.2; when appearing on the field, all enemies Special CT 14% delay",
-            "Striker/Cerebral class and [Straw Hat Pirates] teammates ATK Up Lv.4, SPD Up Lv.4; [Straw Hat Pirates] teammates DEF Up Lv.4; if 4 or more [Elbaph Arc] characters are on the team, all enemies Special CT Speed Down Lv.2; when appearing on the field, all enemies Special CT 16% delay",
-            "Striker/Cerebral class and [Straw Hat Pirates] teammates ATK Up Lv.6, SPD Up Lv.6; [Straw Hat Pirates] teammates DEF Up Lv.6; if 4 or more [Elbaph Arc] characters are on the team, all enemies Special CT Speed Down Lv.3; when appearing on the field, all enemies Special CT 20% delay"
-        ],
-        festSpecial: [
-            {
-                cooldown: 22,
-                description: "Targets enemies within large range for 45% chance of Paralysis (11 s); if 4 or more [Elbaph Arc] characters are on the team; targets enemies with Paralysis for 55% chance of Halve Stats (11 s); when remaining time is 60 s or less, targets (not including self) [Straw Hat Pirates] teammates for Special CT 10% reduction; targets (not including self) 1 DBF Style teammate for 50% chance of Haste; targets Striker/Cerebral class and [Straw Hat Pirates] teammates for ATK Up Lv.2 (11 s), SPD Up Lv.2 (11 s); switches character with 1st sub character"
-            },
-            {
-                cooldown: 22,
-                description: "Targets enemies within large range for 50% chance of Paralysis (12 s); if 4 or more [Elbaph Arc] characters are on the team; targets enemies with Paralysis for 60% chance of Halve Stats (12 s); when remaining time is 60 s or less, targets (not including self) [Straw Hat Pirates] teammates for Special CT 11% reduction; targets (not including self) 1 DBF Style teammate for 55% chance of Haste; targets Striker/Cerebral class and [Straw Hat Pirates] teammates for ATK Up Lv.2 (12 s), SPD Up Lv.2 (12 s); switches character with 1st sub character"
-            },
-            {
-                cooldown: 22,
-                description: "Targets enemies within large range for 55% chance of Paralysis (13 s); if 4 or more [Elbaph Arc] characters are on the team; targets enemies with Paralysis for 65% chance of Halve Stats (13 s); when remaining time is 60 s or less, targets (not including self) [Straw Hat Pirates] teammates for Special CT 12% reduction; targets (not including self) 1 DBF Style teammate for 60% chance of Haste; targets Striker/Cerebral class and [Straw Hat Pirates] teammates for ATK Up Lv.3 (13 s), SPD Up Lv.3 (13 s); switches character with 1st sub character"
-            },
-            {
-                cooldown: 22,
-                description: "Targets enemies within large range for 60% chance of Paralysis (14 s); if 4 or more [Elbaph Arc] characters are on the team; targets enemies with Paralysis for 70% chance of Halve Stats (14 s); when remaining time is 60 s or less, targets (not including self) [Straw Hat Pirates] teammates for Special CT 13% reduction; targets (not including self) 1 DBF Style teammate for 65% chance of Haste; targets Striker/Cerebral class and [Straw Hat Pirates] teammates for ATK Up Lv.3 (14 s), SPD Up Lv.3 (14 s); switches character with 1st sub character"
-            },
-            {
-                cooldown: 22,
-                description: "Targets enemies within large range for 65% chance of Paralysis (15 s); if 4 or more [Elbaph Arc] characters are on the team; targets enemies with Paralysis for 75% chance of Halve Stats (15 s); when remaining time is 60 s or less, targets (not including self) [Straw Hat Pirates] teammates for Special CT 14% reduction; targets (not including self) 1 DBF Style teammate for 70% chance of Haste; targets Striker/Cerebral class and [Straw Hat Pirates] teammates for ATK Up Lv.4 (15 s), SPD Up Lv.4 (15 s); switches character with 1st sub character"
-            },
-            {
-                cooldown: 22,
-                description: "Targets enemies within large range for 70% chance of Paralysis (16 s); if 4 or more [Elbaph Arc] characters are on the team; targets enemies with Paralysis for 80% chance of Halve Stats (16 s); when remaining time is 60 s or less, targets (not including self) [Straw Hat Pirates] teammates for Special CT 15% reduction; targets (not including self) 1 DBF Style teammate for 75% chance of Haste; targets Striker/Cerebral class and [Straw Hat Pirates] teammates for ATK Up Lv.4 (16 s), SPD Up Lv.4 (16 s); switches character with 1st sub character"
-            },
-            {
-                cooldown: 22,
-                description: "Targets enemies within large range for 75% chance of Paralysis (17 s); if 4 or more [Elbaph Arc] characters are on the team; targets enemies with Paralysis for 85% chance of Halve Stats (17 s); when remaining time is 60 s or less, targets (not including self) [Straw Hat Pirates] teammates for Special CT 16% reduction; targets (not including self) 1 DBF Style teammate for 80% chance of Haste; targets Striker/Cerebral class and [Straw Hat Pirates] teammates for ATK Up Lv.5 (17 s), SPD Up Lv.5 (17 s); switches character with 1st sub character"
-            },
-            {
-                cooldown: 22,
-                description: "Targets enemies within large range for 80% chance of Paralysis (18 s); if 4 or more [Elbaph Arc] characters are on the team; targets enemies with Paralysis for 90% chance of Halve Stats (18 s); when remaining time is 60 s or less, targets (not including self) [Straw Hat Pirates] teammates for Special CT 17% reduction; targets (not including self) 1 DBF Style teammate for 85% chance of Haste; targets Striker/Cerebral class and [Straw Hat Pirates] teammates for ATK Up Lv.5 (18 s), SPD Up Lv.5 (18 s); switches character with 1st sub character"
-            },
-            {
-                cooldown: 22,
-                description: "Targets enemies within large range for 85% chance of Paralysis (19 s); if 4 or more [Elbaph Arc] characters are on the team; targets enemies with Paralysis for 95% chance of Halve Stats (19 s); when remaining time is 60 s or less, targets (not including self) [Straw Hat Pirates] teammates for Special CT 18% reduction; targets (not including self) 1 DBF Style teammate for 90% chance of Haste; targets Striker/Cerebral class and [Straw Hat Pirates] teammates for ATK Up Lv.6 (19 s), SPD Up Lv.6 (19 s); switches character with 1st sub character"
-            },
-            {
-                cooldown: 22,
-                description: "Targets enemies within large range for 90% chance of Paralysis (20 s); if 4 or more [Elbaph Arc] characters are on the team; targets enemies with Paralysis for 100% chance of Halve Stats (20 s); when remaining time is 60 s or less, targets (not including self) [Straw Hat Pirates] teammates for Special CT 20% reduction; targets (not including self) 1 DBF Style teammate for 100% chance of Haste; targets Striker/Cerebral class and [Straw Hat Pirates] teammates for ATK Up Lv.6 (20 s), SPD Up Lv.6 (20 s); switches character with 1st sub character"
-            }
         ]
     },
     5013: {//Kung Fu Luffy
