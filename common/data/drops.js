@@ -3589,7 +3589,7 @@ window.drops = {
         },
 
         {
-            name: 'Doll & Bluegrass',
+            name: 'Reiju',
             dropID: 'pka33',
             thumb: 4510,
             global: true,
@@ -3656,6 +3656,17 @@ window.drops = {
             nakama: null,
             gamewith: null,
             'Defeat Level Rewards': [ 4618 ],
+        },
+
+
+        {
+            name: 'Loki',
+            dropID: 'pka38',
+            thumb: 4629,
+            global: true,
+            nakama: null,
+            gamewith: null,
+            'Defeat Level Rewards': [ 4638 ],
         },
 
     ],
@@ -7755,6 +7766,16 @@ window.drops = {
             'Calm Sea': [ "4602-skull", "4603-skull" ],
         },
 
+        {
+            name: 'Collun',
+            dropID: 'treasuremap107',
+            thumb: 4619,
+            global: true,
+            nakama: null,
+            gamewith: null,
+            'Calm Sea': [ "4619-skull" ],
+        },
+
     ],
 
     
@@ -8768,6 +8789,16 @@ window.drops = {
             nakama: null,
             gamewith: null,
             'Kizuna Exchange': [ "4603-skull", "4613-skull" ]
+        },
+
+        {
+            name: 'Reiju',
+            dropID: 'kizuna83',
+            thumb: 4628,
+            global: true,
+            nakama: null,
+            gamewith: null,
+            'Kizuna Exchange': [ "4621-skull", "4628-skull" ]
         },
 
     ],
@@ -9986,6 +10017,13 @@ window.drops = {
             global: true,
             nakama: null,
             'Chopper Man Missions': [ 4574 ],
+        },
+
+        {
+            name: 'VS Holy Knights Blitz Battle!',
+            thumb: 4611,
+            global: true,
+            nakama: null,
         },
 
         {

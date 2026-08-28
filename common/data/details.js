@@ -177600,7 +177600,7 @@ window.details = {
             level1: "Makes [PSY] and [TND] orbs beneficial for all characters."
         },
         superSpecialCriteria: "Can be launched as crewmate. When this character is in Combined Form from Super Swap Effect and your crew must consist of any 4 of the following, excluding supports and counting only 1 per unit: [Straw Hat Pirates], [Germa 66], [Royalty] characters",
-        superSpecial: "allows all characters to perform Super Tandem with [RCV] and [RAINBOW] orbs for 1 turn, enables ATK Up buffs to be enhanced up to 2 times, increases boost effects of ATK Up buffs by +0.5x, removes enemies' Poison duration completely, inflicts all enemies with Reiju Poison, and transforms Powerhouse characters into Super Powerhouse characters.",
+        superSpecial: "Allows all characters to perform Super Tandem with [RCV] and [RAINBOW] orbs for 1 turn, enables ATK Up buffs to be enhanced up to 2 times, increases boost effects of ATK Up buffs by +0.5x, removes enemies' Poison duration completely, inflicts all enemies with Reiju Poison, and transforms Powerhouse characters into Super Powerhouse characters.",
         superSpecialNotes: "Reiju Poison deals 20% of enemies' current HP in damage at the end of each turn and recovers 20% crew's MAX HP at the end of each turn. Reiju Poison is derivative of Normal Poison, so it fulfills Poison Status ATK Boosts and is affected by Poison Debuff Immunity.",
         swap: {
             base: "Reduces Special Cooldown of bottom row characters by 1 turn, and poisons all enemies.",
@@ -189113,78 +189113,6 @@ window.details = {
                 "Raises Boost Level of [Elbaph Arc], [Straw Hat Pirates] and [Giant] characters by 4 for 1 turn, and raises Boost Level of [Four Emperors] characters by 3 for 1 turn.",
                 "Raises Boost Level of [Elbaph Arc], [Straw Hat Pirates] and [Giant] characters by 5 for 1 turn, and raises Boost Level of [Four Emperors] characters by 4 for 1 turn."
             ]
-        },
-        festStats: {
-            def: 129,
-            spd: 181,
-            style: "ATK"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Normal Attack",
-            "Power Attack",
-            "Full Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "Completely evades Special Bind, reduce damage taken from [QCK] by 30％",
-        festAbility: [
-            "[DEX]/Striker class and [Straw Hat Pirates] teammates ATK Up Lv.2, HP Up Lv.2, SPD Up Lv.2; [QCK] enemies DEF Down Lv.1; when HP becomes 43% or below, after appearing on the field up to 1 time [QCK] enemies Special CT 22% delay; if there are 3 or more [QCK] enemies, revives self up to 1 time at 23% HP",
-            "[DEX]/Striker class and [Straw Hat Pirates] teammates ATK Up Lv.3, HP Up Lv.3, SPD Up Lv.3; [QCK] enemies DEF Down Lv.2; when HP becomes 43% or below, after appearing on the field up to 1 time [QCK] enemies Special CT 24% delay; if there are 3 or more [QCK] enemies, revives self up to 1 time at 28% HP",
-            "[DEX]/Striker class and [Straw Hat Pirates] teammates ATK Up Lv.4, HP Up Lv.4, SPD Up Lv.4; [QCK] enemies DEF Down Lv.3; when HP becomes 43% or below, after appearing on the field up to 1 time [QCK] enemies Special CT 26% delay; if there are 3 or more [QCK] enemies, revives self up to 1 time at 33% HP",
-            "[DEX]/Striker class and [Straw Hat Pirates] teammates ATK Up Lv.5, HP Up Lv.5, SPD Up Lv.5; [QCK] enemies DEF Down Lv.4; when HP becomes 43% or below, after appearing on the field up to 1 time [QCK] enemies Special CT 28% delay; if there are 3 or more [QCK] enemies, revives self up to 1 time at 38% HP",
-            "[DEX]/Striker class and [Straw Hat Pirates] teammates ATK Up Lv.6, HP Up Lv.6, SPD Up Lv.6; [QCK] enemies DEF Down Lv.5; when HP becomes 43% or below, after appearing on the field up to 1 time [QCK] enemies Special CT 30% delay; if there are 3 or more [QCK] enemies, revives self up to 1 time at 43% HP"
-        ],
-        festSpecial: [
-            {
-                cooldown: 26,
-                description: "Targets [DEX]/Striker class and [Straw Hat Pirates] teammates for ATK Up Lv.1 (6 s), SPD Up Lv.1 (6 s); targets 2 [QCK] enemies for 73% chance of Action Bind (10 s); targets enemies within large range for ATK x 2.1 damage, targets [QCK] enemies for ATK x 2.1 damage; targets enemies with Action Bind for ATK x 2.1 damage; during Assault Rumble, targets [QCK] enemies for ATK Down Lv.1 (6 s), SPD Down Lv.1 (6 s)"
-            },
-            {
-                cooldown: 26,
-                description: "Targets [DEX]/Striker class and [Straw Hat Pirates] teammates for ATK Up Lv.1 (7 s), SPD Up Lv.1 (7 s); targets 2 [QCK] enemies for 76% chance of Action Bind (10 s); targets enemies within large range for ATK x 2.2 damage, targets [QCK] enemies for ATK x 2.2 damage; targets enemies with Action Bind for ATK x 2.2 damage; during Assault Rumble, targets [QCK] enemies for ATK Down Lv.1 (7 s), SPD Down Lv.1 (7 s)"
-            },
-            {
-                cooldown: 26,
-                description: "Targets [DEX]/Striker class and [Straw Hat Pirates] teammates for ATK Up Lv.1 (8 s), SPD Up Lv.1 (8 s); targets 2 [QCK] enemies for 79% chance of Action Bind (10 s); targets enemies within large range for ATK x 2.3 damage, targets [QCK] enemies for ATK x 2.3 damage; targets enemies with Action Bind for ATK x 2.3 damage; during Assault Rumble, targets [QCK] enemies for ATK Down Lv.2 (8 s), SPD Down Lv.2 (8 s)"
-            },
-            {
-                cooldown: 26,
-                description: "Targets [DEX]/Striker class and [Straw Hat Pirates] teammates for ATK Up Lv.2 (9 s), SPD Up Lv.2 (9 s); targets 2 [QCK] enemies for 82% chance of Action Bind (10 s); targets enemies within large range for ATK x 2.4 damage, targets [QCK] enemies for ATK x 2.4 damage; targets enemies with Action Bind for ATK x 2.4 damage; during Assault Rumble, targets [QCK] enemies for ATK Down Lv.2 (9 s), SPD Down Lv.2 (9 s)"
-            },
-            {
-                cooldown: 26,
-                description: "Targets [DEX]/Striker class and [Straw Hat Pirates] teammates for ATK Up Lv.2 (10 s), SPD Up Lv.2 (10 s); targets 2 [QCK] enemies for 85% chance of Action Bind (10 s); targets enemies within large range for ATK x 2.5 damage, targets [QCK] enemies for ATK x 2.5 damage; targets enemies with Action Bind for ATK x 2.5 damage; during Assault Rumble, targets [QCK] enemies for ATK Down Lv.3 (10 s), SPD Down Lv.3 (10 s)"
-            },
-            {
-                cooldown: 26,
-                description: "Targets [DEX]/Striker class and [Straw Hat Pirates] teammates for ATK Up Lv.3 (11 s), SPD Up Lv.3 (11 s); targets 2 [QCK] enemies for 88% chance of Action Bind (10 s); targets enemies within large range for ATK x 2.6 damage, targets [QCK] enemies for ATK x 2.6 damage; targets enemies with Action Bind for ATK x 2.6 damage; during Assault Rumble, targets [QCK] enemies for ATK Down Lv.3 (11 s), SPD Down Lv.3 (11 s)"
-            },
-            {
-                cooldown: 26,
-                description: "Targets [DEX]/Striker class and [Straw Hat Pirates] teammates for ATK Up Lv.3 (12 s), SPD Up Lv.3 (12 s); targets 2 [QCK] enemies for 91% chance of Action Bind (10 s); targets enemies within large range for ATK x 2.7 damage, targets [QCK] enemies for ATK x 2.7 damage; targets enemies with Action Bind for ATK x 2.7 damage; during Assault Rumble, targets [QCK] enemies for ATK Down Lv.4 (12 s), SPD Down Lv.4 (12 s)"
-            },
-            {
-                cooldown: 26,
-                description: "Targets [DEX]/Striker class and [Straw Hat Pirates] teammates for ATK Up Lv.3 (13 s), SPD Up Lv.3 (13 s); targets 2 [QCK] enemies for 94% chance of Action Bind (10 s); targets enemies within large range for ATK x 2.8 damage, targets [QCK] enemies for ATK x 2.8 damage; targets enemies with Action Bind for ATK x 2.8 damage; during Assault Rumble, targets [QCK] enemies for ATK Down Lv.4 (13 s), SPD Down Lv.4 (13 s)"
-            },
-            {
-                cooldown: 26,
-                description: "Targets [DEX]/Striker class and [Straw Hat Pirates] teammates for ATK Up Lv.4 (14 s), SPD Up Lv.4 (14 s); targets 2 [QCK] enemies for 97% chance of Action Bind (10 s); targets enemies within large range for ATK x 2.9 damage, targets [QCK] enemies for ATK x 2.9 damage; targets enemies with Action Bind for ATK x 2.9 damage; during Assault Rumble, targets [QCK] enemies for ATK Down Lv.5 (14 s), SPD Down Lv.5 (14 s)"
-            },
-            {
-                cooldown: 26,
-                description: "Targets [DEX]/Striker class and [Straw Hat Pirates] teammates for ATK Up Lv.5 (15 s), SPD Up Lv.5 (15 s); targets 2 [QCK] enemies for 100% chance of Action Bind (10 s); targets enemies within large range for ATK x 3 damage, targets [QCK] enemies for ATK x 3 damage; targets enemies with Action Bind for ATK x 3 damage; during Assault Rumble, targets [QCK] enemies for ATK Down Lv.6 (15 s), SPD Down Lv.6 (15 s)"
-            }
-        ],
-        festSuperSpecial: {
-            base: {
-                condition: "When remaining time is 40s or less",
-                description: "Targets [DEX]/Striker class and [Straw Hat Pirates] teammates for ATK Up Lv.7 (20 s), SPD Up Lv.7 (20 s); targets 3 [QCK] enemies for 100% chance of Action Bind (10 s); targets enemies within large range for ATK x 3.5 damage, targets [QCK] enemies for ATK x 3.5 damage; targets enemies with Action Bind for ATK x 3.5 damage; during Assault Rumble, targets [QCK] enemies for ATK Down Lv.8 (20 s), SPD Down Lv.8 (20 s)"
-            },
-            llbbase: {
-                condition: "When remaining time is 50s or less",
-                description: "Targets [DEX]/Striker class and [Straw Hat Pirates] teammates for ATK Up Lv.8 (43 s), SPD Up Lv.8 (43 s)、targets [QCK] enemies for 100% chance of Action Bind (10 s), DEF Down Lv.5 (43 s); targets enemies within large range for ATK x 4.3 damage, targets [QCK] enemies for ATK x 4.3 damage; targets enemies with Action Bind for ATK x 4.3 damage; during Assault Rumble, targets [QCK] enemies for ATK Down Lv.8 (43 s), SPD Down Lv.8 (43 s)"
-            }
         }
     },
     4615: {//Franky
@@ -189322,78 +189250,6 @@ window.details = {
                 "Raises Boost Level of [Elbaph Arc], [Straw Hat Pirates] and [Giant] characters by 4 for 1 turn, and raises Boost Level of [Four Emperors] characters by 3 for 1 turn.",
                 "Raises Boost Level of [Elbaph Arc], [Straw Hat Pirates] and [Giant] characters by 5 for 1 turn, and raises Boost Level of [Four Emperors] characters by 4 for 1 turn."
             ]
-        },
-        festStats: {
-            def: 213,
-            spd: 149,
-            style: "SPT"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Power Attack",
-            "Heal Lv.1 (Small Range)",
-            "Power Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "Completely evades Action Bind, reduce damage taken from [QCK] by 30％",
-        festAbility: [
-            "[DEX]/Striker class and [Straw Hat Pirates] teammates ATK Up Lv.2, Critical % Up Lv.1, Guard % Up Lv.1; [QCK] enemies Special CT Speed Down Lv.1; if 4 or more [Straw Hat Pirates] characters are on the team, when appearing on the field, [DEX] and [Straw Hat Pirates] teammates Special CT 12% reduction",
-            "[DEX]/Striker class and [Straw Hat Pirates] teammates ATK Up Lv.3, Critical % Up Lv.2, Guard % Up Lv.2; [QCK] enemies Special CT Speed Down Lv.1; if 4 or more [Straw Hat Pirates] characters are on the team, when appearing on the field, [DEX] and [Straw Hat Pirates] teammates Special CT 14% reduction",
-            "[DEX]/Striker class and [Straw Hat Pirates] teammates ATK Up Lv.4, Critical % Up Lv.3, Guard % Up Lv.3; [QCK] enemies Special CT Speed Down Lv.2; if 4 or more [Straw Hat Pirates] characters are on the team, when appearing on the field, [DEX] and [Straw Hat Pirates] teammates Special CT 16% reduction",
-            "[DEX]/Striker class and [Straw Hat Pirates] teammates ATK Up Lv.5, Critical % Up Lv.4, Guard % Up Lv.4; [QCK] enemies Special CT Speed Down Lv.2; if 4 or more [Straw Hat Pirates] characters are on the team, when appearing on the field, [DEX] and [Straw Hat Pirates] teammates Special CT 18% reduction",
-            "[DEX]/Striker class and [Straw Hat Pirates] teammates ATK Up Lv.6, Critical % Up Lv.5, Guard % Up Lv.5; [QCK] enemies Special CT Speed Down Lv.4; if 4 or more [Straw Hat Pirates] characters are on the team, when appearing on the field, [DEX] and [Straw Hat Pirates] teammates Special CT 20% reduction"
-        ],
-        festSpecial: [
-            {
-                cooldown: 22,
-                description: "Targets [DEX] and [Straw Hat Pirates] teammates for 73% chance to evade Action Bind (6 s); targets (not including self) [DEX] and [Straw Hat Pirates] teammates for Special CT 11% reduction; targets (not including self) 1 [DEX] teammate with high current Special CT for 73% chance of Haste; targets [QCK] enemies for ATK Down Lv.1 (6 s), Special CT Speed Down Lv.1 (6 s); during Assault Rumble, targets [QCK] enemies for ATK x 5.5 spread damage (damage on each enemy reduced based on number of total enemies); if 4 or more [Straw Hat Pirates] characters are on the team, switches character with 1st sub character"
-            },
-            {
-                cooldown: 22,
-                description: "Targets [DEX] and [Straw Hat Pirates] teammates for 76% chance to evade Action Bind (7 s); targets (not including self) [DEX] and [Straw Hat Pirates] teammates for Special CT 12% reduction; targets (not including self) 1 [DEX] teammate with high current Special CT for 76% chance of Haste; targets [QCK] enemies for ATK Down Lv.1 (7 s), Special CT Speed Down Lv.1 (7 s); during Assault Rumble, targets [QCK] enemies for ATK x 6 spread damage (damage on each enemy reduced based on number of total enemies); if 4 or more [Straw Hat Pirates] characters are on the team, switches character with 1st sub character"
-            },
-            {
-                cooldown: 22,
-                description: "Targets [DEX] and [Straw Hat Pirates] teammates for 79% chance to evade Action Bind (8 s); targets (not including self) [DEX] and [Straw Hat Pirates] teammates for Special CT 13% reduction; targets (not including self) 1 [DEX] teammate with high current Special CT for 79% chance of Haste; targets [QCK] enemies for ATK Down Lv.1 (8 s), Special CT Speed Down Lv.1 (8 s); during Assault Rumble, targets [QCK] enemies for ATK x 6.5 spread damage (damage on each enemy reduced based on number of total enemies); if 4 or more [Straw Hat Pirates] characters are on the team, switches character with 1st sub character"
-            },
-            {
-                cooldown: 22,
-                description: "Targets [DEX] and [Straw Hat Pirates] teammates for 82% chance to evade Action Bind (9 s); targets (not including self) [DEX] and [Straw Hat Pirates] teammates for Special CT 14% reduction; targets (not including self) 1 [DEX] teammate with high current Special CT for 82% chance of Haste; targets [QCK] enemies for ATK Down Lv.2 (9 s), Special CT Speed Down Lv.1 (9 s); during Assault Rumble, targets [QCK] enemies for ATK x 7 spread damage (damage on each enemy reduced based on number of total enemies); if 4 or more [Straw Hat Pirates] characters are on the team, switches character with 1st sub character"
-            },
-            {
-                cooldown: 22,
-                description: "Targets [DEX] and [Straw Hat Pirates] teammates for 85% chance to evade Action Bind (10 s); targets (not including self) [DEX] and [Straw Hat Pirates] teammates for Special CT 15% reduction; targets (not including self) 1 [DEX] teammate with high current Special CT for 85% chance of Haste; targets [QCK] enemies for ATK Down Lv.2 (10 s), Special CT Speed Down Lv.1 (10 s); during Assault Rumble, targets [QCK] enemies for ATK x 7.5 spread damage (damage on each enemy reduced based on number of total enemies); if 4 or more [Straw Hat Pirates] characters are on the team, switches character with 1st sub character"
-            },
-            {
-                cooldown: 22,
-                description: "Targets [DEX] and [Straw Hat Pirates] teammates for 88% chance to evade Action Bind (11 s); targets (not including self) [DEX] and [Straw Hat Pirates] teammates for Special CT 16% reduction; targets (not including self) 1 [DEX] teammate with high current Special CT for 88% chance of Haste; targets [QCK] enemies for ATK Down Lv.3 (11 s), Special CT Speed Down Lv.2 (11 s); during Assault Rumble, targets [QCK] enemies for ATK x 8 spread damage (damage on each enemy reduced based on number of total enemies); if 4 or more [Straw Hat Pirates] characters are on the team, switches character with 1st sub character"
-            },
-            {
-                cooldown: 22,
-                description: "Targets [DEX] and [Straw Hat Pirates] teammates for 91% chance to evade Action Bind (12 s); targets (not including self) [DEX] and [Straw Hat Pirates] teammates for Special CT 17% reduction; targets (not including self) 1 [DEX] teammate with high current Special CT for 91% chance of Haste; targets [QCK] enemies for ATK Down Lv.3 (12 s), Special CT Speed Down Lv.2 (12 s); during Assault Rumble, targets [QCK] enemies for ATK x 8.5 spread damage (damage on each enemy reduced based on number of total enemies); if 4 or more [Straw Hat Pirates] characters are on the team, switches character with 1st sub character"
-            },
-            {
-                cooldown: 22,
-                description: "Targets [DEX] and [Straw Hat Pirates] teammates for 94% chance to evade Action Bind (13 s); targets (not including self) [DEX] and [Straw Hat Pirates] teammates for Special CT 18% reduction; targets (not including self) 1 [DEX] teammate with high current Special CT for 94% chance of Haste; targets [QCK] enemies for ATK Down Lv.3 (13 s), Special CT Speed Down Lv.2 (13 s); during Assault Rumble, targets [QCK] enemies for ATK x 9 spread damage (damage on each enemy reduced based on number of total enemies); if 4 or more [Straw Hat Pirates] characters are on the team, switches character with 1st sub character"
-            },
-            {
-                cooldown: 22,
-                description: "Targets [DEX] and [Straw Hat Pirates] teammates for 97% chance to evade Action Bind (14 s); targets (not including self) [DEX] and [Straw Hat Pirates] teammates for Special CT 19% reduction; targets (not including self) 1 [DEX] teammate with high current Special CT for 97% chance of Haste; targets [QCK] enemies for ATK Down Lv.4 (14 s), Special CT Speed Down Lv.2 (14 s); during Assault Rumble, targets [QCK] enemies for ATK x 9.5 spread damage (damage on each enemy reduced based on number of total enemies); if 4 or more [Straw Hat Pirates] characters are on the team, switches character with 1st sub character"
-            },
-            {
-                cooldown: 22,
-                description: "Targets [DEX] and [Straw Hat Pirates] teammates for 100% chance to evade Action Bind (15 s); targets (not including self) [DEX] and [Straw Hat Pirates] teammates for Special CT 20% reduction; targets (not including self) 1 [DEX] teammate with high current Special CT for 100% chance of Haste; targets [QCK] enemies for ATK Down Lv.5 (15 s), Special CT Speed Down Lv.3 (15 s); during Assault Rumble, targets [QCK] enemies for ATK x 10 spread damage (damage on each enemy reduced based on number of total enemies); if 4 or more [Straw Hat Pirates] characters are on the team, switches character with 1st sub character"
-            }
-        ],
-        festSuperSpecial: {
-            base: {
-                condition: "After character receives team's Rumble Special 4 times",
-                description: "Targets [DEX] and [Straw Hat Pirates] teammates for 100% chance to evade Action Bind (15 s); targets (not including self) [DEX] and [Straw Hat Pirates] teammates for Special CT 30% reduction; targets (not including self) 2 [DEX] teammates with high current Special CT for 100% chance of Haste; targets [QCK] enemies for ATK Down Lv.7 (20 s), Special CT Speed Down Lv.5 (20 s); during Assault Rumble, targets [QCK] enemies for ATK x 15 spread damage (damage on each enemy reduced based on number of total enemies); if 4 or more [Straw Hat Pirates] characters are on the team, switches character with 1st sub character"
-            },
-            llbbase: {
-                condition: "After character receives team's Rumble Special 3 times",
-                description: "Targets [DEX] and [Straw Hat Pirates] teammates for 100% chance to evade Action Bind (20 s); targets (not including self) [DEX] and [Straw Hat Pirates] teammates for Special CT 40% reduction; targets (not including self) 2 [DEX] teammates with high current Special CT for 100% chance of Haste; targets [QCK] enemies for ATK Down Lv.10 (30 s), Special CT Speed Down Lv.7 (30 s); during Assault Rumble, targets [QCK] enemies for ATK x 20 spread damage (damage on each enemy reduced based on number of total enemies); if 4 or more [Straw Hat Pirates] characters are on the team, switches character with 1st sub character"
-            }
         }
     },
     4616: {//Jinbe
@@ -189517,78 +189373,6 @@ window.details = {
                 "Raises Boost Level of [Elbaph Arc], [Straw Hat Pirates] and [Giant] characters by 4 for 1 turn, and raises Boost Level of [Four Emperors] and [Whitebeard Pirates] characters by 3 for 1 turn.",
                 "Raises Boost Level of [Elbaph Arc], [Straw Hat Pirates] and [Giant] characters by 5 for 1 turn, and raises Boost Level of [Four Emperors] and [Whitebeard Pirates] characters by 4 for 1 turn."
             ]
-        },
-        festStats: {
-            def: 275,
-            spd: 123,
-            style: "DEF"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Normal Attack",
-            "Power Attack",
-            "Heal Self Lv.2"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "Completely evades Paralysis, reduce damage taken from [QCK] by 30％",
-        festAbility: [
-            "[DEX] and [Straw Hat Pirates] teammates DEF Up Lv.1, Guard % Up Lv.1; [QCK] enemies Critical % Down Lv.1; after receiving damage, up to 7 times [DEX] and [Straw Hat Pirates] teammates ATK Up Lv.2, DEF Up Lv.1; when remaining time is 50 s or less, [QCK] enemies DEF Down Lv.1",
-            "[DEX] and [Straw Hat Pirates] teammates DEF Up Lv.1, Guard % Up Lv.2; [QCK] enemies Critical % Down Lv.2; after receiving damage, up to 7 times [DEX] and [Straw Hat Pirates] teammates ATK Up Lv.2, DEF Up Lv.1; when remaining time is 50 s or less, [QCK] enemies DEF Down Lv.2",
-            "[DEX] and [Straw Hat Pirates] teammates DEF Up Lv.2, Guard % Up Lv.3; [QCK] enemies Critical % Down Lv.3; after receiving damage, up to 7 times [DEX] and [Straw Hat Pirates] teammates ATK Up Lv.2, DEF Up Lv.1; when remaining time is 50 s or less, [QCK] enemies DEF Down Lv.3",
-            "[DEX] and [Straw Hat Pirates] teammates DEF Up Lv.2, Guard % Up Lv.4; [QCK] enemies Critical % Down Lv.4; after receiving damage, up to 7 times [DEX] and [Straw Hat Pirates] teammates ATK Up Lv.2, DEF Up Lv.1; when remaining time is 50 s or less, [QCK] enemies DEF Down Lv.4",
-            "[DEX] and [Straw Hat Pirates] teammates DEF Up Lv.3, Guard % Up Lv.5; [QCK] enemies Critical % Down Lv.5; after receiving damage, up to 7 times [DEX] and [Straw Hat Pirates] teammates ATK Up Lv.2, DEF Up Lv.1; when remaining time is 50 s or less, [QCK] enemies DEF Down Lv.5"
-        ],
-        festSpecial: [
-            {
-                cooldown: 27,
-                description: "Targets self for DEF Up Lv.1 (11 s); activates Provoke on self (11 s); targets [Straw Hat Pirates] teammates for 73% chance to evade Paralysis/RCV Bind/damage ignoring DEF (11 s); when remaining time is 50 s or less, targets [QCK] enemies for ATK x 3.2 damage; targets [Straw Hat Pirates] teammates for 420 HP per interval healing (11 s); during Assault Rumble, targets [QCK] enemies for DEF Down Lv.1 (11 s)"
-            },
-            {
-                cooldown: 27,
-                description: "Targets self for DEF Up Lv.1 (12 s); activates Provoke on self (12 s); targets [Straw Hat Pirates] teammates for 76% chance to evade Paralysis/RCV Bind/damage ignoring DEF (12 s); when remaining time is 50 s or less, targets [QCK] enemies for ATK x 3.4 damage; targets [Straw Hat Pirates] teammates for 440 HP per interval healing (12 s); during Assault Rumble, targets [QCK] enemies for DEF Down Lv.1 (12 s)"
-            },
-            {
-                cooldown: 27,
-                description: "Targets self for DEF Up Lv.1 (13 s); activates Provoke on self (13 s); targets [Straw Hat Pirates] teammates for 79% chance to evade Paralysis/RCV Bind/damage ignoring DEF (13 s); when remaining time is 50 s or less, targets [QCK] enemies for ATK x 3.6 damage; targets [Straw Hat Pirates] teammates for 460 HP per interval healing (13 s); during Assault Rumble, targets [QCK] enemies for DEF Down Lv.2 (13 s)"
-            },
-            {
-                cooldown: 27,
-                description: "Targets self for DEF Up Lv.2 (14 s); activates Provoke on self (14 s); targets [Straw Hat Pirates] teammates for 82% chance to evade Paralysis/RCV Bind/damage ignoring DEF (14 s); when remaining time is 50 s or less, targets [QCK] enemies for ATK x 3.8 damage; targets [Straw Hat Pirates] teammates for 480 HP per interval healing (14 s); during Assault Rumble, targets [QCK] enemies for DEF Down Lv.2 (14 s)"
-            },
-            {
-                cooldown: 27,
-                description: "Targets self for DEF Up Lv.2 (15 s); activates Provoke on self (15 s); targets [Straw Hat Pirates] teammates for 85% chance to evade Paralysis/RCV Bind/damage ignoring DEF (15 s); when remaining time is 50 s or less, targets [QCK] enemies for ATK x 4 damage; targets [Straw Hat Pirates] teammates for 500 HP per interval healing (15 s); during Assault Rumble, targets [QCK] enemies for DEF Down Lv.3 (15 s)"
-            },
-            {
-                cooldown: 27,
-                description: "Targets self for DEF Up Lv.3 (16 s); activates Provoke on self (16 s); targets [Straw Hat Pirates] teammates for 88% chance to evade Paralysis/RCV Bind/damage ignoring DEF (16 s); when remaining time is 50 s or less, targets [QCK] enemies for ATK x 4.2 damage; targets [Straw Hat Pirates] teammates for 520 HP per interval healing (16 s); during Assault Rumble, targets [QCK] enemies for DEF Down Lv.3 (16 s)"
-            },
-            {
-                cooldown: 27,
-                description: "Targets self for DEF Up Lv.3 (17 s); activates Provoke on self (17 s); targets [Straw Hat Pirates] teammates for 91% chance to evade Paralysis/RCV Bind/damage ignoring DEF (17 s); when remaining time is 50 s or less, targets [QCK] enemies for ATK x 4.4 damage; targets [Straw Hat Pirates] teammates for 540 HP per interval healing (17 s); during Assault Rumble, targets [QCK] enemies for DEF Down Lv.4 (17 s)"
-            },
-            {
-                cooldown: 27,
-                description: "Targets self for DEF Up Lv.3 (18 s); activates Provoke on self (18 s); targets [Straw Hat Pirates] teammates for 94% chance to evade Paralysis/RCV Bind/damage ignoring DEF (18 s); when remaining time is 50 s or less, targets [QCK] enemies for ATK x 4.6 damage; targets [Straw Hat Pirates] teammates for 560 HP per interval healing (18 s); during Assault Rumble, targets [QCK] enemies for DEF Down Lv.4 (18 s)"
-            },
-            {
-                cooldown: 27,
-                description: "Targets self for DEF Up Lv.4 (19 s); activates Provoke on self (19 s); targets [Straw Hat Pirates] teammates for 97% chance to evade Paralysis/RCV Bind/damage ignoring DEF (19 s); when remaining time is 50 s or less, targets [QCK] enemies for ATK x 4.8 damage; targets [Straw Hat Pirates] teammates for 580 HP per interval healing (19 s); during Assault Rumble, targets [QCK] enemies for DEF Down Lv.5 (19 s)"
-            },
-            {
-                cooldown: 27,
-                description: "Targets self for DEF Up Lv.5 (20 s); activates Provoke on self (20 s); targets [Straw Hat Pirates] teammates for 100% chance to evade Paralysis/RCV Bind/damage ignoring DEF (20 s); when remaining time is 50 s or less, targets [QCK] enemies for ATK x 5 damage; targets [Straw Hat Pirates] teammates for 600 HP per interval healing (20 s); during Assault Rumble, targets [QCK] enemies for DEF Down Lv.6 (20 s)"
-            }
-        ],
-        festSuperSpecial: {
-            base: {
-                condition: "After character receives damage 7 times",
-                description: "Targets self for DEF Up Lv.7 (30 s); activates Provoke on self (30 s); targets [Straw Hat Pirates] teammates for 100% chance to evade Paralysis/RCV Bind/Special Bind/damage ignoring DEF (25 s), targets [QCK] enemies for ATK x 5.5 damage; targets [DEX] and [Straw Hat Pirates] teammates for 700 HP per interval healing (25 s); during Assault Rumble, targets [QCK] enemies for DEF Down Lv.7 (25 s)"
-            },
-            llbbase: {
-                condition: "After character receives damage 5 times",
-                description: "Targets self for DEF Up Lv.10 (40 s); activates Provoke on self (40 s); targets [Straw Hat Pirates] teammates for 100% chance to evade Paralysis/RCV Bind/Special Bind/damage ignoring DEF (30 s), targets [QCK] enemies for ATK x 6 damage; targets [DEX] and [Straw Hat Pirates] teammates for 800 HP per interval healing (30 s); during Assault Rumble, targets [QCK] enemies for DEF Down Lv.8 (30 s)"
-            }
         }
     },
     4617: {//Robin
@@ -189664,69 +189448,7 @@ window.details = {
                 "Boosts Tandem ATK of [DEX] and [INT] characters by 1.5x for 1 turn.",
                 "Boosts Tandem ATK of [DEX] and [INT] characters by 1.6x for 1 turn."
             ]
-        },
-        festStats: {
-            def: 153,
-            spd: 154,
-            style: "DBF"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Heal Self Lv.2",
-            "Power Attack",
-            "Power Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "Completely evades Action Bind, reduce damage taken from [QCK] by 20%",
-        festAbility: [
-            "[DEX] and [Straw Hat Pirates] teammates ATK Up Lv.2, SPD Up Lv.2, Special CT Speed Up Lv.1; when appearing on the field, [QCK] enemies Special CT 22% delay; during Assault Rumble, self HP Up Lv.6; when appearing on the field, self Special CT 22% reduction",
-            "[DEX] and [Straw Hat Pirates] teammates ATK Up Lv.3, SPD Up Lv.3, Special CT Speed Up Lv.1; when appearing on the field, [QCK] enemies Special CT 24% delay; during Assault Rumble, self HP Up Lv.7; when appearing on the field, self Special CT 24% reduction",
-            "[DEX] and [Straw Hat Pirates] teammates ATK Up Lv.4, SPD Up Lv.4, Special CT Speed Up Lv.1; when appearing on the field, [QCK] enemies Special CT 26% delay; during Assault Rumble, self HP Up Lv.8; when appearing on the field, self Special CT 26% reduction",
-            "[DEX] and [Straw Hat Pirates] teammates ATK Up Lv.5, SPD Up Lv.5, Special CT Speed Up Lv.1; when appearing on the field, [QCK] enemies Special CT 28% delay; during Assault Rumble, self HP Up Lv.9; when appearing on the field, self Special CT 28% reduction",
-            "[DEX] and [Straw Hat Pirates] teammates ATK Up Lv.6, SPD Up Lv.6, Special CT Speed Up Lv.2; when appearing on the field, [QCK] enemies Special CT 30% delay; during Assault Rumble, self HP Up Lv.10; when appearing on the field, self Special CT 30% reduction"
-        ],
-        festSpecial: [
-            {
-                cooldown: 26,
-                description: "Targets 3 high ATK enemies for ATK Down Lv.1 (6 s); if 4 or more [Straw Hat Pirates] characters are on the team, targets [QCK] enemies for 73% chance of Halve Stats (6 s); during Assault Rumble, targets 3 [QCK] enemies for DEF Down Lv.1 (6 s), SPD Down Lv.1 (6 s); if 4 or more [Straw Hat Pirates] characters are on the team, switches character with 1st sub character"
-            },
-            {
-                cooldown: 26,
-                description: "Targets 3 high ATK enemies for ATK Down Lv.1 (7 s); if 4 or more [Straw Hat Pirates] characters are on the team, targets [QCK] enemies for 76% chance of Halve Stats (7 s); during Assault Rumble, targets 3 [QCK] enemies for DEF Down Lv.1 (7 s), SPD Down Lv.1 (7 s); if 4 or more [Straw Hat Pirates] characters are on the team, switches character with 1st sub character"
-            },
-            {
-                cooldown: 26,
-                description: "Targets 3 high ATK enemies for ATK Down Lv.2 (8 s); if 4 or more [Straw Hat Pirates] characters are on the team, targets [QCK] enemies for 79% chance of Halve Stats (8 s); during Assault Rumble, targets 3 [QCK] enemies for DEF Down Lv.1 (8 s), SPD Down Lv.1 (8 s); if 4 or more [Straw Hat Pirates] characters are on the team, switches character with 1st sub character"
-            },
-            {
-                cooldown: 26,
-                description: "Targets 3 high ATK enemies for ATK Down Lv.2 (9 s); if 4 or more [Straw Hat Pirates] characters are on the team, targets [QCK] enemies for 82% chance of Halve Stats (9 s); during Assault Rumble, targets 3 [QCK] enemies for DEF Down Lv.1 (9 s), SPD Down Lv.2 (9 s); if 4 or more [Straw Hat Pirates] characters are on the team, switches character with 1st sub character"
-            },
-            {
-                cooldown: 26,
-                description: "Targets 3 high ATK enemies for ATK Down Lv.3 (10 s); if 4 or more [Straw Hat Pirates] characters are on the team, targets [QCK] enemies for 85% chance of Halve Stats (10 s); during Assault Rumble, targets 3 [QCK] enemies for DEF Down Lv.1 (10 s), SPD Down Lv.2 (10 s); if 4 or more [Straw Hat Pirates] characters are on the team, switches character with 1st sub character"
-            },
-            {
-                cooldown: 26,
-                description: "Targets 3 high ATK enemies for ATK Down Lv.3 (11 s); if 4 or more [Straw Hat Pirates] characters are on the team, targets [QCK] enemies for 88% chance of Halve Stats (11 s); during Assault Rumble, targets 3 [QCK] enemies for DEF Down Lv.2 (11 s), SPD Down Lv.3 (11 s); if 4 or more [Straw Hat Pirates] characters are on the team, switches character with 1st sub character"
-            },
-            {
-                cooldown: 26,
-                description: "Targets 3 high ATK enemies for ATK Down Lv.4 (12 s); if 4 or more [Straw Hat Pirates] characters are on the team, targets [QCK] enemies for 91% chance of Halve Stats (12 s); during Assault Rumble, targets 3 [QCK] enemies for DEF Down Lv.2 (12 s), SPD Down Lv.3 (12 s); if 4 or more [Straw Hat Pirates] characters are on the team, switches character with 1st sub character"
-            },
-            {
-                cooldown: 26,
-                description: "Targets 3 high ATK enemies for ATK Down Lv.4 (13 s); if 4 or more [Straw Hat Pirates] characters are on the team, targets [QCK] enemies for 94% chance of Halve Stats (13 s); during Assault Rumble, targets 3 [QCK] enemies for DEF Down Lv.2 (13 s), SPD Down Lv.3 (13 s); if 4 or more [Straw Hat Pirates] characters are on the team, switches character with 1st sub character"
-            },
-            {
-                cooldown: 26,
-                description: "Targets 3 high ATK enemies for ATK Down Lv.5 (14 s); if 4 or more [Straw Hat Pirates] characters are on the team, targets [QCK] enemies for 97% chance of Halve Stats (14 s); during Assault Rumble, targets 3 [QCK] enemies for DEF Down Lv.2 (14 s), SPD Down Lv.4 (14 s); if 4 or more [Straw Hat Pirates] characters are on the team, switches character with 1st sub character"
-            },
-            {
-                cooldown: 26,
-                description: "Targets 3 high ATK enemies for ATK Down Lv.6 (15 s); if 4 or more [Straw Hat Pirates] characters are on the team, targets [QCK] enemies for 100% chance of Halve Stats (15 s); during Assault Rumble, targets 3 [QCK] enemies for DEF Down Lv.3 (15 s), SPD Down Lv.5 (15 s); if 4 or more [Straw Hat Pirates] characters are on the team, switches character with 1st sub character"
-            }
-        ]
+        }
     },
     4618: {//5* PKA Collun
         special: "Reduces enemies' damage received by 50% for 3 turns, reduces enemies' Orb-Based Damage Reduction duration by 2 turns, and reduces Despair duration by 6 turns. If your crew has Orb Amplification when the special is activated, boosts Base ATK of [DEX] and Striker characters by 1,200 for 1 turn. Boosts Orb Effects of [DEX] and Striker characters by 2.25x for 1 turn, and deals 80x character's ATK in Typeless damage to one enemy. If your crew has 3+ [Giant] characters, applies Territory: [DEX] to the field for 1 turn.",
@@ -189805,67 +189527,84 @@ window.details = {
                     "Boosts Damage Limit Break effect based on number of [DEX] characters on the crew (except as Support Characters): +0.2 for 1, +.0.3 for 2, +0.4 for 3, +0.5 for 4, +0.6 for 5, +0.75 for 6 "
                 ]
             }
-        ],
-        festStats: {
-            def: 123,
-            spd: 176,
-            style: "DBF"
+        ]
+    },
+    4619: {//5+ PKA Collun
+        special: "Reduces enemies' damage received by 50% for 3 turns, reduces enemies' Orb-Based Damage Reduction duration by 3 turns, and reduces Despair duration by 6 turns. If your crew has Orb Amplification when the special is activated, boosts Base ATK of [DEX] and Striker characters by 1,200 for 4 turns. Boosts Orb Effects of [DEX] and Striker characters by 2.5x for 4 turns, and deals 80x character's ATK in Typeless damage to one enemy. If your crew has 3+ [Giant] or [Roger Pirates] characters, applies Territory: [DEX] to the field for 1 turn.",
+        specialName: "Slash Aimed at the Emperor",
+        sailor: {
+            base: "Boosts base HP of Striker characters by 150.",
+            level1: "Makes [RCV] orbs beneficial for all characters."
         },
-        festAttackPattern: [
-            "Normal Attack",
-            "Heal Self Lv.2",
-            "Power Attack",
-            "Power Attack"
+        support: [
+            {
+                Characters: "[DEX] Striker characters",
+                description: [
+                    "Adds 2% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 3% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 4% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 6% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV. <b>[AUTO+]</b> When you reach the 4th stage, activates supported character's Super Effect. When you reach the final stage, activates supported character's Special."
+                ]
+            }
         ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "60% chance to evade Paralysis",
-        festAbility: [
-            "[DEX]/Striker class and [Giant] teammates DEF Up Lv.1; [QCK] enemies HP Down Lv.1; if \"Scopper Gaban\" is on the team, [QCK] enemies Special CT Speed Down Lv.1",
-            "[DEX]/Striker class and [Giant] teammates DEF Up Lv.1; [QCK] enemies HP Down Lv.2; if \"Scopper Gaban\" is on the team, [QCK] enemies Special CT Speed Down Lv.1",
-            "[DEX]/Striker class and [Giant] teammates DEF Up Lv.1; [QCK] enemies HP Down Lv.3; if \"Scopper Gaban\" is on the team, [QCK] enemies Special CT Speed Down Lv.1",
-            "[DEX]/Striker class and [Giant] teammates DEF Up Lv.1; [QCK] enemies HP Down Lv.4; if \"Scopper Gaban\" is on the team, [QCK] enemies Special CT Speed Down Lv.1",
-            "[DEX]/Striker class and [Giant] teammates DEF Up Lv.2; [QCK] enemies HP Down Lv.5; if \"Scopper Gaban\" is on the team, [QCK] enemies Special CT Speed Down Lv.2"
+        limit: [
+            "Boosts base HP by 20",
+            "Boosts base ATK by 10",
+            "Boosts base RCV by 10",
+            "Acquire Potential 1: Slot Bind",
+            "Boosts base ATK by 20",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 40",
+            "Boosts base ATK by 30",
+            "Acquire Potential 2: Enrage/Increase Damage Taken",
+            "Acquire 1 additional Socket slot",
+            "Boosts base HP by 60",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 80",
+            "Boosts base ATK by 40",
+            "Reduce base Special Cooldown by 1 turn",
+            "LOCKED WITH KEY",
+            "Boosts base RCV by 10",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 100",
+            "Boosts base HP by 200",
+            "Boosts base RCV by 20",
+            "Acquire Potential 3: Damage Limit Break: Type",
+            "Boosts base HP by 300",
+            "Boosts base ATK by 100",
+            "Acquire Sailor Ability 2: Makes crew's [RCV] slots have matching slot effects"
         ],
-        festSpecial: [
+        potential: [
             {
-                cooldown: 28,
-                description: "Targets 1 high DEF enemy for 3100 damage; if \"Scopper Gaban\" is on the team, targets 1 high DEF [QCK] enemy for DEF Down Lv.1 (6 s); if \"Shanks\" is on the team, targets 1 [QCK] enemy with high current Special CT for Special CT 11% delay"
+                Name: "Slot Bind",
+                description: [
+                    "Reduces Slot Bind duration by 1 turn on this character",
+                    "Reduces Slot Bind duration by 2 turns on this character",
+                    "Reduces Slot Bind duration by 3 turns on this character",
+                    "Reduces Slot Bind duration by 4 turns on this character",
+                    "Reduces Slot Bind duration by 5 turns on this character"
+                ]
             },
             {
-                cooldown: 28,
-                description: "Targets 1 high DEF enemy for 3200 damage; if \"Scopper Gaban\" is on the team, targets 1 high DEF [QCK] enemy for DEF Down Lv.1 (7 s); if \"Shanks\" is on the team, targets 1 [QCK] enemy with high current Special CT for Special CT 12% delay"
+                Name: "Enrage/Increase Damage Taken",
+                description: [
+                    "Boosts base ATK by 75 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 125 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 3 turns"
+                ]
             },
             {
-                cooldown: 28,
-                description: "Targets 1 high DEF enemy for 3300 damage; if \"Scopper Gaban\" is on the team, targets 1 high DEF [QCK] enemy for DEF Down Lv.1 (8 s); if \"Shanks\" is on the team, targets 1 [QCK] enemy with high current Special CT for Special CT 13% delay"
-            },
-            {
-                cooldown: 28,
-                description: "Targets 1 high DEF enemy for 3400 damage; if \"Scopper Gaban\" is on the team, targets 1 high DEF [QCK] enemy for DEF Down Lv.2 (9 s); if \"Shanks\" is on the team, targets 1 [QCK] enemy with high current Special CT for Special CT 14% delay"
-            },
-            {
-                cooldown: 28,
-                description: "Targets 1 high DEF enemy for 3500 damage; if \"Scopper Gaban\" is on the team, targets 1 high DEF [QCK] enemy for DEF Down Lv.2 (10 s); if \"Shanks\" is on the team, targets 1 [QCK] enemy with high current Special CT for Special CT 15% delay"
-            },
-            {
-                cooldown: 28,
-                description: "Targets 1 high DEF enemy for 3600 damage; if \"Scopper Gaban\" is on the team, targets 1 high DEF [QCK] enemy for DEF Down Lv.3 (11 s); if \"Shanks\" is on the team, targets 1 [QCK] enemy with high current Special CT for Special CT 16% delay"
-            },
-            {
-                cooldown: 28,
-                description: "Targets 1 high DEF enemy for 3700 damage; if \"Scopper Gaban\" is on the team, targets 1 high DEF [QCK] enemy for DEF Down Lv.3 (12 s); if \"Shanks\" is on the team, targets 1 [QCK] enemy with high current Special CT for Special CT 17% delay"
-            },
-            {
-                cooldown: 28,
-                description: "Targets 1 high DEF enemy for 3800 damage; if \"Scopper Gaban\" is on the team, targets 1 high DEF [QCK] enemy for DEF Down Lv.3 (13 s); if \"Shanks\" is on the team, targets 1 [QCK] enemy with high current Special CT for Special CT 18% delay"
-            },
-            {
-                cooldown: 28,
-                description: "Targets 1 high DEF enemy for 3900 damage; if \"Scopper Gaban\" is on the team, targets 1 high DEF [QCK] enemy for DEF Down Lv.4 (14 s); if \"Shanks\" is on the team, targets 1 [QCK] enemy with high current Special CT for Special CT 19% delay"
-            },
-            {
-                cooldown: 28,
-                description: "Targets 1 high DEF enemy for 4000 damage; if \"Scopper Gaban\" is on the team, targets 1 high DEF [QCK] enemy for DEF Down Lv.5 (15 s); if \"Shanks\" is on the team, targets 1 [QCK] enemy with high current Special CT for Special CT 20% delay"
+                Name: "Damage Limit Break: Type",
+                description: [
+                    "Boosts Damage Limit Break effect based on number of [DEX] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.1 for 4, +0.2 for 5, +0.3 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of [DEX] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.2 for 4, +0.3 for 5, +0.4 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of [DEX] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.3 for 4, +0.4 for 5, +0.5 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of [DEX] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.4 for 4, +0.5 for 5, +0.6 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of [DEX] characters on the crew (except as Support Characters): +0.2 for 1, +.0.3 for 2, +0.4 for 3, +0.5 for 4, +0.6 for 5, +0.75 for 6 "
+                ]
             }
         ]
     },
@@ -189963,69 +189702,7 @@ window.details = {
                 "Raises Boost Level of [Red-Haired Pirates] characters by 3 for 1 turn, and raises Boost Level of [Roger Pirates] characters by 2 for 1 turn.",
                 "Raises Boost Level of [Red-Haired Pirates] and [Roger Pirates] characters by 3 for 1 turn."
             ]
-        },
-        festStats: {
-            def: 172,
-            spd: 156,
-            style: "RCV"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Heal Lv.2 (Medium Range)",
-            "Normal Attack",
-            "Heal Lv.2 (Medium Range)"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "60% chance to evade Paralysis",
-        festAbility: [
-            "[DEX]/Slasher class teammates DEF Up Lv.1; after receiving damage, up to 5 times targets [DEX]/Slasher class teammates for RCV x 0.6 healing; if 4 or more [Straw Hat Pirates] [Red-Haired Pirates] [Roger Pirates] [Giant] characters are on the team, [QCK] enemies SPD Down Lv.1",
-            "[DEX]/Slasher class teammates DEF Up Lv.1; after receiving damage, up to 5 times targets [DEX]/Slasher class teammates for RCV x 0.7 healing; if 4 or more [Straw Hat Pirates] [Red-Haired Pirates] [Roger Pirates] [Giant] characters are on the team, [QCK] enemies SPD Down Lv.1",
-            "[DEX]/Slasher class teammates DEF Up Lv.1; after receiving damage, up to 5 times targets [DEX]/Slasher class teammates for RCV x 0.8 healing; if 4 or more [Straw Hat Pirates] [Red-Haired Pirates] [Roger Pirates] [Giant] characters are on the team, [QCK] enemies SPD Down Lv.2",
-            "[DEX]/Slasher class teammates DEF Up Lv.1; after receiving damage, up to 5 times targets [DEX]/Slasher class teammates for RCV x 0.9 healing; if 4 or more [Straw Hat Pirates] [Red-Haired Pirates] [Roger Pirates] [Giant] characters are on the team, [QCK] enemies SPD Down Lv.2",
-            "[DEX]/Slasher class teammates DEF Up Lv.2; after receiving damage, up to 5 times targets [DEX]/Slasher class teammates for RCV x 1 healing; if 4 or more [Straw Hat Pirates] [Red-Haired Pirates] [Roger Pirates] [Giant] characters are on the team, [QCK] enemies SPD Down Lv.4"
-        ],
-        festSpecial: [
-            {
-                cooldown: 24,
-                description: "Targets [DEX]/Slasher class teammates for 200 HP per interval healing (6 s); if 4 or more [Elbaph Arc] characters are on the team, targets [QCK] enemies for ATK Down Lv.1 (6 s); when remaining time is less than 50 s, targets (not including self) 2 \"Monkey D. Luffy,\" \"Collun,\" and [Red-Haired Pirates] [Roger Pirates] teammates for Special CT 11% reduction; during Assault Rumble, targets [QCK] enemies for ATK x 1 damage, DEF Down Lv.1 (6 s)"
-            },
-            {
-                cooldown: 24,
-                description: "Targets [DEX]/Slasher class teammates for 230 HP per interval healing (7 s); if 4 or more [Elbaph Arc] characters are on the team, targets [QCK] enemies for ATK Down Lv.1 (7 s); when remaining time is less than 50 s, targets (not including self) 2 \"Monkey D. Luffy,\" \"Collun,\" and [Red-Haired Pirates] [Roger Pirates] teammates for Special CT 12% reduction; during Assault Rumble, targets [QCK] enemies for ATK x 1.1 damage, DEF Down Lv.1 (7 s)"
-            },
-            {
-                cooldown: 24,
-                description: "Targets [DEX]/Slasher class teammates for 260 HP per interval healing (8 s); if 4 or more [Elbaph Arc] characters are on the team, targets [QCK] enemies for ATK Down Lv.1 (8 s); when remaining time is less than 50 s, targets (not including self) 2 \"Monkey D. Luffy,\" \"Collun,\" and [Red-Haired Pirates] [Roger Pirates] teammates for Special CT 13% reduction; during Assault Rumble, targets [QCK] enemies for ATK x 1.2 damage, DEF Down Lv.1 (8 s)"
-            },
-            {
-                cooldown: 24,
-                description: "Targets [DEX]/Slasher class teammates for 290 HP per interval healing (9 s); if 4 or more [Elbaph Arc] characters are on the team, targets [QCK] enemies for ATK Down Lv.1 (9 s); when remaining time is less than 50 s, targets (not including self) 2 \"Monkey D. Luffy,\" \"Collun,\" and [Red-Haired Pirates] [Roger Pirates] teammates for Special CT 14% reduction; during Assault Rumble, targets [QCK] enemies for ATK x 1.3 damage, DEF Down Lv.1 (9 s)"
-            },
-            {
-                cooldown: 24,
-                description: "Targets [DEX]/Slasher class teammates for 320 HP per interval healing (10 s); if 4 or more [Elbaph Arc] characters are on the team, targets [QCK] enemies for ATK Down Lv.2 (10 s); when remaining time is less than 50 s, targets (not including self) 2 \"Monkey D. Luffy,\" \"Collun,\" and [Red-Haired Pirates] [Roger Pirates] teammates for Special CT 15% reduction; during Assault Rumble, targets [QCK] enemies for ATK x 1.4 damage, DEF Down Lv.1 (10 s)"
-            },
-            {
-                cooldown: 24,
-                description: "Targets [DEX]/Slasher class teammates for 350 HP per interval healing (11 s); if 4 or more [Elbaph Arc] characters are on the team, targets [QCK] enemies for ATK Down Lv.2 (11 s); when remaining time is less than 50 s, targets (not including self) 2 \"Monkey D. Luffy,\" \"Collun,\" and [Red-Haired Pirates] [Roger Pirates] teammates for Special CT 16% reduction; during Assault Rumble, targets [QCK] enemies for ATK x 1.5 damage, DEF Down Lv.2 (11 s)"
-            },
-            {
-                cooldown: 24,
-                description: "Targets [DEX]/Slasher class teammates for 380 HP per interval healing (12 s); if 4 or more [Elbaph Arc] characters are on the team, targets [QCK] enemies for ATK Down Lv.2 (12 s); when remaining time is less than 50 s, targets (not including self) 2 \"Monkey D. Luffy,\" \"Collun,\" and [Red-Haired Pirates] [Roger Pirates] teammates for Special CT 17% reduction; during Assault Rumble, targets [QCK] enemies for ATK x 1.6 damage, DEF Down Lv.2 (12 s)"
-            },
-            {
-                cooldown: 24,
-                description: "Targets [DEX]/Slasher class teammates for 410 HP per interval healing (13 s); if 4 or more [Elbaph Arc] characters are on the team, targets [QCK] enemies for ATK Down Lv.3 (13 s); when remaining time is less than 50 s, targets (not including self) 2 \"Monkey D. Luffy,\" \"Collun,\" and [Red-Haired Pirates] [Roger Pirates] teammates for Special CT 18% reduction; during Assault Rumble, targets [QCK] enemies for ATK x 1.7 damage, DEF Down Lv.2 (13 s)"
-            },
-            {
-                cooldown: 24,
-                description: "Targets [DEX]/Slasher class teammates for 440 HP per interval healing (14 s); if 4 or more [Elbaph Arc] characters are on the team, targets [QCK] enemies for ATK Down Lv.3 (14 s); when remaining time is less than 50 s, targets (not including self) 2 \"Monkey D. Luffy,\" \"Collun,\" and [Red-Haired Pirates] [Roger Pirates] teammates for Special CT 19% reduction; during Assault Rumble, targets [QCK] enemies for ATK x 1.8 damage, DEF Down Lv.2 (14 s)"
-            },
-            {
-                cooldown: 24,
-                description: "Targets [DEX]/Slasher class teammates for 500 HP per interval healing (15 s); if 4 or more [Elbaph Arc] characters are on the team, targets [QCK] enemies for ATK Down Lv.4 (15 s); when remaining time is less than 50 s, targets (not including self) 2 \"Monkey D. Luffy,\" \"Collun,\" and [Red-Haired Pirates] [Roger Pirates] teammates for Special CT 20% reduction; during Assault Rumble, targets [QCK] enemies for ATK x 2 damage, DEF Down Lv.3 (15 s)"
-            }
-        ]
+        }
     },
     4621: {//5+ Co-Op Shanks
         captain: "Boosts ATK of [DEX] and [INT] characters by 4.5x, by 5x instead if they have a [DEX] or [INT] orb, boosts HP of [DEX] and [INT] characters by 1.3x, boosts chances of getting [DEX] and [INT] orbs, and reduces Paralysis duration by 3 turns.",
@@ -190121,9 +189798,1304 @@ window.details = {
                 "Raises Boost Level of [Red-Haired Pirates] characters by 3 for 1 turn, and raises Boost Level of [Roger Pirates] characters by 2 for 1 turn.",
                 "Raises Boost Level of [Red-Haired Pirates] and [Roger Pirates] characters by 3 for 1 turn."
             ]
+        }
+    },
+    4622: {//Jarul
+        captain: "Boosts ATK of Free Spirit and Powerhouse characters by 5.25x, boosts HP of all characters by 1.75x, makes [RCV] and [TND] orbs beneficial for all characters, makes crew immune to Blow Away, and reduces Special Cooldown of this character by 5 turns after each turn you take damage. Up to 6 times per adventure, when a [Giant], [Giant Pirate Crew] or [Royalty] character uses a special as crewmate, reduces Special Cooldown of this character by 5 turns.",
+        special: "Reduces enemies' Threshold Damage Reduction duration by 6 turns, reduces Burn duration by 6 turns, adds 1.7x to chain multiplier for 3 turns, and boosts Final Tap ATK of [QCK] characters by 50%. If your crew has 3+ [Giant], [Giant Pirate Crew] or [Royalty] characters, reduces Special Bind and Bind duration by 7 turns. If field has Territory: [QCK], Free Spirit or Crew when the special is activated, boosts Base ATK of all characters by 1,500 for 3 turns.",
+        specialName: "Helm That Saved His Life",
+        sailor: {
+            base: "Reduces Special Bind duration by 7 turns on this character.",
+            level1: "This character cannot be Blown Away."
+        },
+        support: [
+            {
+                Characters: "[QCK] Free Spirit characters",
+                description: [
+                    "Adds 6% of this character's base HP to the supported character's base HP.",
+                    "Adds 8% of this character's base HP to the supported character's base HP.",
+                    "Adds 10% of this character's base HP to the supported character's base HP.",
+                    "Adds 12% of this character's base HP to the supported character's base HP.",
+                    "Adds 15% of this character's base HP to the supported character's base HP."
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base HP by 20",
+            "Boosts base RCV by 10",
+            "Boosts base ATK by 10",
+            "Acquire Potential 1: Enrage/Increase Damage Taken",
+            "Boosts base HP by 20",
+            "Boosts base RCV by 10",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 30",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 30",
+            "Boosts base ATK by 20",
+            "Boosts base HP by 40",
+            "Boosts base ATK by 20",
+            "Acquire Potential 2: Critical Hit",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base ATK by 20",
+            "Boosts base HP by 50",
+            "Boosts base RCV by 30",
+            "Boosts base ATK by 20",
+            "Boosts base HP by 60",
+            "Boosts base ATK by 30",
+            "Boosts base RCV by 30",
+            "Boosts base HP by 70",
+            "Acquire Sailor Ability 2: Character cannot be blow away by attack",
+            "Boosts base HP by 80",
+            "Boosts base ATK by 30",
+            "Boosts base HP by 100",
+            "Boosts base ATK by 30",
+            "Acquire Potential 3: Super Tandem Boost",
+            "LOCKED WITH KEY",
+            "Boosts base HP by 100",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 100",
+            "Boosts base HP by 200",
+            "Boosts base RCV by 30",
+            "Boosts base ATK by 100",
+            "Boosts base HP by 200",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base RCV by 50"
+        ],
+        potential: [
+            {
+                Name: "Enrage/Increase Damage Taken",
+                description: [
+                    "Boosts base ATK by 75 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 225 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 300 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns"
+                ]
+            },
+            {
+                Name: "Critical Hit",
+                description: [
+                    "If you hit a PERFECT with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 60% chance to deal 6% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 70% chance to deal 8% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 80% chance to deal 10% of this character's attack in extra damage"
+                ]
+            },
+            {
+                Name: "Super Tandem Boost",
+                description: [
+                    "Obtain Super Tandem Boost Lv.1",
+                    "Obtain Super Tandem Boost Lv.2",
+                    "Obtain Super Tandem Boost Lv.3",
+                    "Obtain Super Tandem Boost Lv.4",
+                    "Obtain Super Tandem Boost Lv.5"
+                ]
+            }
+        ],
+        superTandemBoost: {
+            characterCondition: [
+                "When an [Elbaph Arc], [Giant], [Giant Pirate Crew] or [Royalty] character performs Super Tandem",
+                "When an [Elbaph Arc], [Giant], [Giant Pirate Crew] or [Royalty] character performs Super Tandem",
+                "When an [Elbaph Arc], [Giant], [Giant Pirate Crew] or [Royalty] character performs Super Tandem",
+                "When an [Elbaph Arc], [Giant], [Giant Pirate Crew] or [Royalty] character performs Super Tandem",
+                "When an [Elbaph Arc], [Giant], [Giant Pirate Crew] or [Royalty] character performs Super Tandem"
+            ],
+            description: [
+                "Raises Boost Level of [Giant], [Giant Pirate Crew] and [Royalty] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Giant], [Giant Pirate Crew] and [Royalty] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Giant], [Giant Pirate Crew] and [Royalty] characters by 3 for 1 turn.",
+                "Raises Boost Level of [Giant], [Giant Pirate Crew] and [Royalty] characters by 4 for 1 turn.",
+                "Raises Boost Level of [Giant], [Giant Pirate Crew] and [Royalty] characters by 5 for 1 turn."
+            ]
+        }
+    },
+    4623: {//Ace & Little Oars Jr.
+        captain: "Reduces Special Cooldown of [DEX] and [QCK] characters by 2 turns at the start of the fight, boosts ATK of [DEX], [QCK], Fighter and Striker characters by 5.5x, boosts HP of [DEX], [QCK], Fighter and Striker characters by 1.3x, makes [DEX], [QCK] and [RCV] orbs beneficial for all characters, and increases duration of any ATK Up and Percent Damage Reduction buffs applied by specials by 2 turns. Up to 4 times per adventure, when Monkey D. Luffy, Sabo, Monkey D. Garp, Edward Newgate (Whitebeard), Marco, Jozu, Vista, Jinbe or Gol D. Roger uses a special as crewmate, boosts Final Tap ATK of all characters by 30%. If your crew has 3+ [Whitebeard Pirates], [Straw Hat Pirates], [Giant] or [Marineford Paramount War Arc] characters, boosts ATK of Fighter and Striker characters by 6.05x instead.",
+        special: "Ignores Debuff Protection and inflicts all enemies with Burn that will deal 150x enemies' ATK in damage for 1 turn, reduces Despair duration by 7 turns, reduces enemies' Percent Damage Reduction duration by 7 turns, reduces damage received by 95% for 1 turn, and sets Chain Boundaries to 3.5x and 30.0x for 3 turns. If field has Territory: Fighter or Striker when the special is activated, increases Chain Tap Timing Bonus of Fighter and Striker characters to +0.3x-0.6x for 3 turns depending on Tap Timing.",
+        specialNotes: "<b>GOOD:</b> +0.3, <b>GREAT:</b> +0.5, <b>PERFECT:</b> +0.6",
+        specialName: "Handmade Straw Kasa of Friendship",
+        sailor: {
+            base: "This character cannot be Blown Away, and makes [DEX] and [QCK] orbs beneficial for Fighter and Striker characters.",
+            level1: "If field has Territory: Fighter or Striker, boosts base ATK of all characters by 250; boosts base ATK of all characters by 75 otherwise."
+        },
+        superSpecialCriteria: "Can be launched as crewmate. Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy, Sabo, Monkey D. Garp, Edward Newgate (Whitebeard), Marco, Jozu, Vista, Jinbe, Gol D. Roger or any 3 of the following: [Whitebeard Pirates], [Giant], [Marineford Paramount War Arc] characters",
+        superSpecial: "Reduces Special Cooldown of top row Striker, middle row Fighter and bottom row [DEX] and [QCK] characters by 3 turns, boosts Base ATK of [DEX] and [QCK] characters by 1,000 for 3 turns, and transforms Fighter characters into Super Fighter characters.",
+        support: [
+            {
+                Characters: "[Whitebeard Pirates], [Marineford Paramount War Arc] characters",
+                description: [
+                    "Once per adventure, when the supported character uses their special, reduces damage received by 10% for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces damage received by 20% for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces damage received by 30% for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces Despair duration by 1 turn, and reduces damage received by 30% for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces Despair duration by 1 turn, reduces enemies' Percent Damage Reduction duration by 1 turn, and reduces damage received by 30% for 1 turn."
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base ATK by 10",
+            "Boosts base ATK by 20",
+            "Boosts base HP by 10",
+            "Acquire Potential 1: Pinch Healing",
+            "Boosts base HP by 10",
+            "Boosts base RCV by 10",
+            "Boosts base HP by 20",
+            "Boosts base HP by 20",
+            "Boosts base HP by 30",
+            "Boosts base ATK by 20",
+            "Boosts base HP by 40",
+            "Boosts base RCV by 10",
+            "Boosts base ATK by 30",
+            "Boosts base RCV by 10",
+            "Acquire Potential 2: Slot Bind",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base ATK by 30",
+            "Boosts base HP by 50",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 50",
+            "Boosts base HP by 60",
+            "Boosts base ATK by 40",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 60",
+            "Acquire Sailor Ability 2: If field has \"Territory: Fighter class\" or \"Territory: Striker class\", boosts crew's base ATK by 250 (boosts crew's base ATK by 75 otherwise)",
+            "Boosts base HP by 70",
+            "Boosts base HP by 80",
+            "Boosts base ATK by 50",
+            "Boosts base RCV by 30",
+            "Acquire Potential 3: Super Tandem Boost",
+            "LOCKED WITH KEY",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 100",
+            "Boosts base HP by 100",
+            "Boosts base RCV by 30",
+            "Boosts base ATK by 100",
+            "Boosts base HP by 150",
+            "Boosts base HP by 150",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base ATK by 100"
+        ],
+        potential: [
+            {
+                Name: "Pinch Healing",
+                description: [
+                    "If HP is below 10% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 20% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 30% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 40% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 50% at the start of the turn, recovers 2x this character's RCV at the end of the turn for each time you hit a PERFECT with this character"
+                ]
+            },
+            {
+                Name: "Slot Bind",
+                description: [
+                    "Reduces Slot Bind duration by 3 turns on this character",
+                    "Reduces Slot Bind duration by 5 turns on this character",
+                    "Reduces Slot Bind duration by 7 turns on this character",
+                    "Reduces Slot Bind duration by 10 turns on this character",
+                    "Reduces Slot Bind duration completely on this character"
+                ]
+            },
+            {
+                Name: "Super Tandem Boost",
+                description: [
+                    "Obtain Super Tandem Boost Lv.1",
+                    "Obtain Super Tandem Boost Lv.2",
+                    "Obtain Super Tandem Boost Lv.3",
+                    "Obtain Super Tandem Boost Lv.4",
+                    "Obtain Super Tandem Boost Lv.5"
+                ]
+            }
+        ],
+        superTandemBoost: {
+            characterCondition: [
+                "When a [Whitebeard Pirates], [Straw Hat Pirates], [Giant] or [Marineford Paramount War Arc] character performs Super Tandem",
+                "When a [Whitebeard Pirates], [Straw Hat Pirates], [Giant] or [Marineford Paramount War Arc] character performs Super Tandem",
+                "When a [Whitebeard Pirates], [Straw Hat Pirates], [Giant] or [Marineford Paramount War Arc] character performs Super Tandem",
+                "When a [Whitebeard Pirates], [Straw Hat Pirates], [Giant] or [Marineford Paramount War Arc] character performs Super Tandem",
+                "When a [Whitebeard Pirates], [Straw Hat Pirates], [Giant] or [Marineford Paramount War Arc] character performs Super Tandem"
+            ],
+            description: [
+                "Raises Boost Level of [Whitebeard Pirates], [Straw Hat Pirates], [Giant] and [Marineford Paramount War Arc] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Whitebeard Pirates], [Straw Hat Pirates], [Giant] and [Marineford Paramount War Arc] characters by 2 for 1 turn, and raises Boost Level of [Roger Pirates] and [Elbaph Arc] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Whitebeard Pirates], [Straw Hat Pirates], [Giant] and [Marineford Paramount War Arc] characters by 3 for 1 turn, and raises Boost Level of [Roger Pirates] and [Elbaph Arc] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Whitebeard Pirates], [Straw Hat Pirates], [Giant] and [Marineford Paramount War Arc] characters by 4 for 1 turn, and raises Boost Level of [Roger Pirates] and [Elbaph Arc] characters by 3 for 1 turn.",
+                "Raises Boost Level of [Whitebeard Pirates], [Straw Hat Pirates], [Giant] and [Marineford Paramount War Arc] characters by 5 for 1 turn, and raises Boost Level of [Roger Pirates] and [Elbaph Arc] characters by 4 for 1 turn."
+            ]
+        }
+    },
+    4624: {//Lonz
+        special: "Reduces Special Bind and Burn duration by 6 turns. If your crew has 3+ [Giant] or [Navy Vice Admiral] characters, boosts ATK of Striker and Powerhouse characters by 3.25x for 1 turn. If your crew has 3+ [Marineford Paramount War Arc] or [Navy] characters, reduces Bind duration by 6 turns, and boosts Color Affinity of Striker and Powerhouse characters by 2x for 3 turns.",
+        specialName: "Justice-Bearing Giant's Axe",
+        sailor: {
+            base: "Reduces Special Bind duration by 6 turns on this character.",
+            level1: "This character cannot be Blown Away."
+        },
+        support: [
+            {
+                Characters: "[Marineford Paramount War Arc] characters",
+                description: [
+                    "Once per adventure, when an enemy inflicts you with Special Bind, reduces Special Bind duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Special Bind, reduces Special Bind duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Special Bind, reduces Special Bind duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Special Bind, reduces Special Bind duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Special Bind, reduces Special Bind duration by 2 turns."
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base RCV by 10",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 30",
+            "Acquire Potential 1: Slot Bind",
+            "Boosts base ATK by 30",
+            "Boosts base ATK by 30",
+            "Boosts base HP by 30",
+            "Acquire 1 additional Socket slot",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 40",
+            "Boosts base ATK by 40",
+            "Acquire Sailor Ability 2: Character cannot be blown away by attack",
+            "Boosts base ATK by 50",
+            "Reduce base Special Cooldown by 1 turn",
+            "Acquire Potential 2: Sailor Despair"
+        ],
+        potential: [
+            {
+                Name: "Slot Bind",
+                description: [
+                    "Reduces Slot Bind duration by 1 turn on this character",
+                    "Reduces Slot Bind duration by 2 turns on this character",
+                    "Reduces Slot Bind duration by 3 turns on this character",
+                    "Reduces Slot Bind duration by 4 turns on this character",
+                    "Reduces Slot Bind duration by 5 turns on this character"
+                ]
+            },
+            {
+                Name: "Sailor Despair",
+                description: [
+                    "Reduces Sailor Despair duration by 1 turn on this character",
+                    "Reduces Sailor Despair duration by 2 turns on this character",
+                    "Reduces Sailor Despair duration by 3 turns on this character",
+                    "Reduces Sailor Despair duration by 4 turns on this character",
+                    "Reduces Sailor Despair duration by 5 turns on this character"
+                ]
+            }
+        ]
+    },
+    4625: {//John Giant
+        special: "Reduces enemies' Increased Defense and Threshold Damage Reduction duration by 6 turns. If your crew has 3+ [Giant] or [Navy Vice Admiral] characters, boosts Orb Effects of Striker and Powerhouse characters by 3x for 3 turns. If your crew has 3+ [Marineford Paramount War Arc] or [Navy] characters, changes all orbs, including [BLOCK] orbs, into [QCK] orbs, and locks all orbs for 1 turn.",
+        specialName: "Justice-Bearing Giant's Katana",
+        sailor: {
+            base: "Restores Special Cooldown of this character completely when it is rewinded.",
+            level1: "This character cannot be Blown Away."
+        },
+        support: [
+            {
+                Characters: "[Marineford Paramount War Arc] characters",
+                description: [
+                    "Once per adventure, when the supported character uses their special, locks orbs for Striker characters for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, locks orbs for Striker characters for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, locks orbs for Striker characters for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, locks orbs for Striker characters for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, changes the [BLOCK] orb of the supported character into a matching orb, and locks orbs for Striker characters for 1 turn."
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base HP by 30",
+            "Boosts base RCV by 10",
+            "Boosts base ATK by 30",
+            "Acquire Potential 1: Slot Bind",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 30",
+            "Boosts base ATK by 30",
+            "Acquire 1 additional Socket slot",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 40",
+            "Boosts base ATK by 50",
+            "Acquire Sailor Ability 2: Character cannot be blown away by attack",
+            "Boosts base HP by 40",
+            "Reduce base Special Cooldown by 1 turn",
+            "Acquire Potential 2: Enrage/Increase Damage Taken"
+        ],
+        potential: [
+            {
+                Name: "Slot Bind",
+                description: [
+                    "Reduces Slot Bind duration by 1 turn on this character",
+                    "Reduces Slot Bind duration by 2 turns on this character",
+                    "Reduces Slot Bind duration by 3 turns on this character",
+                    "Reduces Slot Bind duration by 4 turns on this character",
+                    "Reduces Slot Bind duration by 5 turns on this character"
+                ]
+            },
+            {
+                Name: "Enrage/Increase Damage Taken",
+                description: [
+                    "Boosts base ATK by 75 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 125 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns"
+                ]
+            }
+        ]
+    },
+    4626: {//Roger
+        captain: "Reduces Special Cooldown of Slasher and Striker characters by 2 turns at the start of the fight, boosts ATK of [Roger Pirates] characters by 1.25x, boosts ATK of [DEX] and [INT] characters by 5.25x, by 6x instead if they have a beneficial orb, boosts HP of [DEX] and [INT] characters by 1.25x, makes [DEX], [INT] and [TND] orbs beneficial for [DEX], [INT], Slasher and Striker characters, reduces Paralysis and Bind duration by 10 turns on [Roger Pirates] characters, and reduces crew's current HP by 10% at the end of each turn. If a [DEX] or [INT] character performs a Critical Hit, reduces enemies' Threshold Damage Reduction duration by 3 turns, and reduces enemies' [DEX] and [INT] Resistance by -5% for 1 turn.",
+        special: "Deals 20% of enemies' current HP in damage to all enemies, recovers 10,000 HP, reduces Special Bind duration by 10 turns, and boosts Orb Effects of [DEX] and [INT] characters by 3.75x for 1 turn. If your crew has 2+ [Roger Pirates] characters and a [DEX] character is supporting this character, reduces Special Cooldown of all characters by 2 turns, allows crew to stack 2 different Status ATK Boost buffs for 1 turn, and applies Territory: Slasher to the field for 2 turns. If your crew has 2+ [Roger Pirates] characters and an [INT] character is supporting this character, reduces Special Cooldown of this character by 10 turns, allows crew to stack 2 different Status ATK Boost buffs for 1 turn, and applies Territory: Striker to the field for 2 turns. If your crew has Silvers Rayleigh, Scopper Gaban, Crocus or Kozuki Oden who has used a special this turn, boosts Critical Hit Damage of [DEX] and [INT] characters by 50% for 1 turn.",
+        specialName: "Last Words with the First Mate",
+        sailor: {
+            base: "Makes [STR], [DEX], [QCK] and [PSY] orbs beneficial for this character, and makes [INT] orbs beneficial for all characters.",
+            level1: "Boosts base ATK, HP and RCV of Slasher and Striker characters by 150."
+        },
+        superSpecialCriteria: "Can be launched as crewmate. Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Portgas D. Ace, Shanks, Silvers Rayleigh, Scopper Gaban, Crocus, Buggy, Dogstorm, Cat Viper, Kozuki Oden, Edward Newgate (Whitebeard), Douglas Bullet",
+        superSpecial: "Reduces Special Bind duration by 10 turns on this character, reduces Special Cooldown of this character by 2 turns, adds 1.2x to chain multiplier for 3 turns, and transforms Slasher characters into Super Slasher characters.",
+        support: [
+            {
+                Characters: "[DEX], [INT] [Roger Pirates] characters",
+                description: [
+                    "Once per adventure, when you reach the final stage, reduces enemies' Percent Damage Reduction duration by 1 turn.",
+                    "Once per adventure, when you reach the final stage, reduces enemies' Percent Damage Reduction duration by 1 turn.",
+                    "Once per adventure, when you reach the final stage, reduces enemies' Percent Damage Reduction duration by 1 turn.",
+                    "Once per adventure, when you reach the final stage, reduces enemies' Percent Damage Reduction duration by 2 turns.",
+                    "Once per adventure, when you reach the final stage, reduces enemies' Percent Damage Reduction duration by 2 turns, and reduces Special Cooldown of Captain character by 1 turn."
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base ATK by 10",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 20",
+            "Acquire Potential 1: Critical Hit",
+            "Boosts base ATK by 10",
+            "Boosts base RCV by 10",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 20",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 30",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 20",
+            "Boosts base HP by 30",
+            "Boosts base ATK by 20",
+            "Acquire Potential 2: Damage Limit Break: Type",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base HP by 50",
+            "Boosts base ATK by 30",
+            "Boosts base RCV by 30",
+            "Boosts base HP by 50",
+            "Boosts base HP by 60",
+            "Boosts base ATK by 30",
+            "Boosts base RCV by 40",
+            "Boosts base ATK by 30",
+            "Acquire Sailor Ability 2: Boosts Slasher and Striker characters' base stats by 150",
+            "Boosts base ATK by 40",
+            "Boosts base HP by 60",
+            "Boosts base HP by 80",
+            "Boosts base HP by 80",
+            "Acquire Potential 3: Super Tandem Boost",
+            "LOCKED WITH KEY",
+            "Boosts base HP by 100",
+            "Boosts base ATK by 50",
+            "Boosts base RCV by 50",
+            "Boosts base HP by 100",
+            "Boosts base ATK by 50",
+            "Boosts base HP by 150",
+            "Boosts base HP by 150",
+            "Boosts base ATK by 100",
+            "Reduce base Special Cooldown by 1 turn"
+        ],
+        potential: [
+            {
+                Name: "Critical Hit",
+                description: [
+                    "If you hit a PERFECT with this character, there is a 50% chance to deal 4% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 70% chance to deal 5% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 80% chance to deal 6% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 90% chance to deal 8% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 100% chance to deal 10% of this character's attack in extra damage"
+                ]
+            },
+            {
+                Name: "Damage Limit Break: Type",
+                description: [
+                    "Boosts Damage Limit Break effect based on number of [DEX] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.1 for 4, +0.2 for 5, +0.3 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of [DEX] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.2 for 4, +0.3 for 5, +0.4 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of [DEX] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.3 for 4, +0.4 for 5, +0.5 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of [DEX] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.4 for 4, +0.5 for 5, +0.6 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of [DEX] characters on the crew (except as Support Characters): +0.2 for 1, +.0.3 for 2, +0.4 for 3, +0.5 for 4, +0.6 for 5, +0.75 for 6 "
+                ]
+            },
+            {
+                Name: "Super Tandem Boost",
+                description: [
+                    "Obtain Super Tandem Boost Lv.1",
+                    "Obtain Super Tandem Boost Lv.2",
+                    "Obtain Super Tandem Boost Lv.3",
+                    "Obtain Super Tandem Boost Lv.4",
+                    "Obtain Super Tandem Boost Lv.5"
+                ]
+            }
+        ],
+        superTandemBoost: {
+            characterCondition: [
+                "When a [Roger Pirates], [Sabaody Archipelago Arc] or [Elbaph Arc] character performs Super Tandem",
+                "When a [Roger Pirates], [Sabaody Archipelago Arc] or [Elbaph Arc] character performs Super Tandem",
+                "When a [Roger Pirates], [Sabaody Archipelago Arc] or [Elbaph Arc] character performs Super Tandem",
+                "When a [Roger Pirates], [Sabaody Archipelago Arc] or [Elbaph Arc] character performs Super Tandem",
+                "When a [Roger Pirates], [Sabaody Archipelago Arc] or [Elbaph Arc] character performs Super Tandem"
+            ],
+            description: [
+                "Raises Boost Level of [Roger Pirates], [Sabaody Archipelago Arc], [Elbaph Arc] and [Mythical Zoan-type] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Roger Pirates], [Sabaody Archipelago Arc], [Elbaph Arc] and [Mythical Zoan-type] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Roger Pirates], [Sabaody Archipelago Arc], [Elbaph Arc] and [Mythical Zoan-type] characters by 3 for 1 turn.",
+                "Raises Boost Level of [Roger Pirates], [Sabaody Archipelago Arc], [Elbaph Arc] and [Mythical Zoan-type] characters by 4 for 1 turn.",
+                "Raises Boost Level of [Roger Pirates], [Sabaody Archipelago Arc], [Elbaph Arc] and [Mythical Zoan-type] characters by 5 for 1 turn."
+            ]
+        }
+    },
+    4627: {//Rayleigh
+        special: "Paralyzes (60%) all enemies for 1 turn, reduces enemies' Percent Damage Reduction duration by 6 turns, boosts ATK against paralyzed enemies and enemies inflicted with Increase Damage Taken by 2.75x for 1 turn, recovers 20,000 HP, allowing HP Overfill up to 2x MAX HP, and changes all orbs, including [BLOCK] orbs, into [INT] orbs. If your crew has 2+ [Roger Pirates] characters, reduces Special Cooldown of Captain character by 3 turns, reduces enemies' Damage Nullification duration by 2 turns, and boosts Critical Hit Rate of Slasher characters by 30% for 1 turn. If your crew has 2+ [Roger Pirates] characters and an [DEX] character is supporting this character, applies Territory: [DEX] to the field for 1 turn. If your crew has 2+ [Roger Pirates] characters and an [INT] character is supporting this character, applies Territory: [INT] to the field for 1 turn.",
+        specialName: "Last Memories with the Captain",
+        sailor: {
+            base: "Boosts base ATK, HP and RCV of all characters by 75.",
+            level1: "If your Captain is a [DEX] character, makes [DEX], [QCK], [PSY] and [INT] orbs beneficial for this character, and makes [STR] orbs beneficial for all characters."
+        },
+        support: [
+            {
+                Characters: "[DEX], [INT] [Roger Pirates] characters",
+                description: [
+                    "Once per adventure, when you reach the 1st stage, reduces Special Cooldown of supported character by 1 turn.",
+                    "Once per adventure, when you reach the 1st stage, reduces Special Cooldown of supported character by 1 turn.",
+                    "Once per adventure, when you reach the 1st stage, reduces Special Cooldown of supported character by 1 turn.",
+                    "Once per adventure, when you reach the 1st stage, reduces Special Cooldown of supported character by 1 turn.",
+                    "Once per adventure, when you reach the 1st stage, reduces Special Cooldown of supported character by 2 turns."
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base HP by 60",
+            "Boosts base RCV by 10",
+            "Boosts base ATK by 20",
+            "Acquire Potential 1: Critical Hit",
+            "Boosts base ATK by 20",
+            "Boosts base ATK by 30",
+            "Boosts base HP by 70",
+            "Acquire 1 additional Socket slot",
+            "Boosts base ATK by 30",
+            "Boosts base RCV by 20",
+            "Boosts base RCV by 20",
+            "Acquire Sailor Ability 2: Makes character's type slots and crew's [STR] slots have matching slot effects when Captain is a [DEX] type",
+            "Boosts base HP by 70",
+            "Reduce base Special Cooldown by 1 turn",
+            "Acquire Potential 2: Super Tandem"
+        ],
+        potential: [
+            {
+                Name: "Critical Hit",
+                description: [
+                    "If you hit a PERFECT with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 60% chance to deal 6% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 70% chance to deal 7% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 80% chance to deal 8% of this character's attack in extra damage"
+                ]
+            },
+            {
+                Name: "Super Tandem",
+                description: [
+                    "Obtain Super Tandem Lv.1",
+                    "Obtain Super Tandem Lv.2",
+                    "Obtain Super Tandem Lv.3",
+                    "Obtain Super Tandem Lv.4",
+                    "Obtain Super Tandem Lv.5"
+                ]
+            }
+        ],
+        superTandem: {
+            characterCondition: [
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Gol D. Roger, Scopper Gaban, Crocus, Monkey D. Luffy, Shanks, Buggy, Dogstorm, Cat Viper, Kozuki Oden, Edward Newgate (Whitebeard)",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Gol D. Roger, Scopper Gaban, Crocus, Monkey D. Luffy, Shanks, Buggy, Dogstorm, Cat Viper, Kozuki Oden, Edward Newgate (Whitebeard)",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Gol D. Roger, Scopper Gaban, Crocus, Monkey D. Luffy, Shanks, Buggy, Dogstorm, Cat Viper, Kozuki Oden, Edward Newgate (Whitebeard)",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Gol D. Roger, Scopper Gaban, Crocus, Monkey D. Luffy, Shanks, Buggy, Dogstorm, Cat Viper, Kozuki Oden, Edward Newgate (Whitebeard)",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Gol D. Roger, Scopper Gaban, Crocus, Monkey D. Luffy, Shanks, Buggy, Dogstorm, Cat Viper, Kozuki Oden, Edward Newgate (Whitebeard)"
+            ],
+            description: [
+                "Reduces the defense of all enemies by 10% for 1 turn, and boosts Tandem ATK of all characters by 1.1x for 1 turn.",
+                "Reduces the defense of all enemies by 20% for 1 turn, and boosts Tandem ATK of all characters by 1.2x for 1 turn.",
+                "Reduces the defense of all enemies by 30% for 1 turn, and boosts Tandem ATK of all characters by 1.35x for 1 turn.",
+                "Reduces the defense of all enemies by 40% for 1 turn, and boosts Tandem ATK of all characters by 1.5x for 1 turn.",
+                "Reduces the defense of all enemies by 50% for 1 turn, and boosts Tandem ATK of all characters by 1.75x for 1 turn."
+            ]
+        }
+    },
+    4628: {//6+ Reiju
+        captain: "Boosts ATK of [QCK], [INT], Cerebral and Free Spirit characters by 5.5x, and boosts HP of [QCK], [INT], Cerebral and Free Spirit characters by 1.2x. If a crew member uses a special that inflicts Poison, Strong Poison or Toxic, inflicts all enemies with Reiju Poison instead. If your crew is inflicted with Poison or Toxic, activates \"Alluring Butterfly's Invitation\" in the following turn.",
+        special: "Boosts Color Affinity of [QCK] and [INT] characters by 3x for 1 turn, removes Poison duration completely, and reduces Despair duration by 7 turns. If enemies are inflicted with Poison, Strong Poison, Toxic or Reiju Poison when the special is activated, poison deals 30% of enemies' current HP in damage to all enemies, and removes enemies' Poison duration completely; inflicts all enemies with Reiju Poison otherwise. If your crew has 4+ [Germa 66] or [Royalty] characters, inflicts all enemies with Set Target, increasing damage taken from [QCK] and [INT] characters by 2x and reducing Special Cooldown of [QCK] and [INT] characters by 1 turn when they defeat an enemy, for 1 turn.",
+        specialNotes: "Reiju Poison deals 20% of enemies' current HP in damage at the end of each turn and recovers 20% crew's MAX HP at the end of each turn. Reiju Poison is derivative of Normal Poison, so it fulfills Poison Status ATK Boosts and is affected by Poison Debuff Immunity.",
+        specialName: "Alluring Butterfly's Invitation",
+        sailor: {
+            level1: "Boosts base ATK, HP and RCV of Cerebral and Powerhouse characters by 75.",
+            level2: "Makes [PSY] orbs beneficial for all characters."
+        },
+        superSpecialCriteria: "Can be launched as crewmate. Your crew must consist of any 4 of the following, excluding supports and counting only 1 per unit: [Germa 66], [Royalty] characters",
+        superSpecial: "Boosts ATK of all characters by 1.1x, allowing override, for 2 turns, boosts Orb Effects of all characters by 1.1x, allowing override, for 2 turns, boosts Chain Multiplier Growth Rate by 1.5x for 3 turns, and transforms [QCK] characters into Super [QCK] characters.",
+        support: [
+            {
+                Characters: "Cerebral characters",
+                description: [
+                    "Once per adventure, when the supported character uses an orb change special, boosts ATK of Cerebral characters by 1.5x for 1 turn.",
+                    "Once per adventure, when the supported character uses an orb change special, boosts ATK of Cerebral characters by 1.55x for 1 turn.",
+                    "Once per adventure, when the supported character uses an orb change special, boosts ATK of Cerebral characters by 1.6x for 1 turn.",
+                    "Once per adventure, when the supported character uses an orb change special, boosts ATK of Cerebral characters by 1.65x for 1 turn.",
+                    "Once per adventure, when the supported character uses an orb change special, boosts ATK of Cerebral characters by 1.75x for 1 turn."
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base RCV by 5",
+            "Boosts base RCV by 5",
+            "Boosts base RCV by 10",
+            "Acquire Potential 1: Slot Barrier",
+            "Boosts base HP by 20",
+            "Boosts base HP by 20",
+            "Boosts base HP by 30",
+            "Boosts base ATK by 10",
+            "Boosts base ATK by 10",
+            "Acquire Sailor Ability 1: Boosts Cerebral and Powerhouse characters' base stats by 75",
+            "Boosts base ATK by 20",
+            "Boosts base HP by 30",
+            "Boosts base HP by 40",
+            "Boosts base RCV by 20",
+            "Acquire Potential 2: Slot Bind",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base ATK by 20",
+            "Boosts base ATK by 30",
+            "Boosts base RCV by 30",
+            "Boosts base ATK by 30",
+            "Boosts base ATK by 40",
+            "Boosts base HP by 50",
+            "Boosts base HP by 60",
+            "Boosts base HP by 70",
+            "Acquire Sailor Ability 2: Makes crew's [PSY] slots have matching slot effects",
+            "Boosts base RCV by 30",
+            "Boosts base ATK by 40",
+            "Boosts base HP by 80",
+            "Boosts base HP by 100",
+            "Acquire Potential 3: Pinch Healing",
+            "LOCKED WITH KEY",
+            "Boosts base HP by 50",
+            "Boosts base RCV by 25",
+            "Boosts base HP by 100",
+            "Boosts base RCV by 25",
+            "Boosts base HP by 150",
+            "Boosts base HP by 200",
+            "Boosts base ATK by 100",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base ATK by 100"
+        ],
+        lLimit: [
+            null,
+            {
+                rAbility: true
+            },
+            {
+                captain: {
+                    base: "Reduces Special Cooldown of [Germa 66] and [Royalty] characters by 3 turns at the start of the fight, boosts ATK of [Germa 66] and [Royalty] characters by 1.1x, boosts ATK of [QCK], [INT], Cerebral and Free Spirit characters by 5.75x, and boosts HP of [QCK], [INT], Cerebral and Free Spirit characters by 1.2x. If a crew member uses a special that inflicts Poison, Strong Poison or Toxic, inflicts all enemies with Reiju Poison instead. If your crew is inflicted with Poison or Toxic, activates \"Alluring Butterfly's Invitation\" in the following turn."
+                }
+            },
+            {
+                rSpecial: true
+            },
+            {
+                special: {
+                    base: "Boosts Color Affinity of [QCK] and [INT] characters by 3x for 1 turn, removes Poison duration completely, and reduces Despair duration by 7 turns. If your crew has ATK Up and Orb Amplification when the special is activated, boosts ATK against enemies inflicted with Increase Damage Taken and poisoned enemies by 3x for 3 turns. If enemies are inflicted with Poison, Strong Poison, Toxic or Reiju Poison when the special is activated, poison deals 30% of enemies' current HP in damage to all enemies, and removes enemies' Poison duration completely; inflicts all enemies with Reiju Poison otherwise. If your crew has 4+ [Germa 66] or [Royalty] characters, inflicts all enemies with Set Target, increasing damage taken from [QCK] and [INT] characters by 2x and reducing Special Cooldown of [QCK] and [INT] characters by 1 turn when they defeat an enemy, for 1 turn."
+                },
+                rResilience: true
+            }
+        ],
+        potential: [
+            {
+                Name: "Slot Barrier",
+                description: [
+                    "Reduces Slot Barrier duration by 1 stack on this character",
+                    "Reduces Slot Barrier duration by 2 stacks on this character",
+                    "Reduces Slot Barrier duration by 3 stacks on this character",
+                    "Reduces Slot Barrier duration by 4 stacks on this character",
+                    "Reduces Slot Barrier duration by 5 stacks on this character"
+                ]
+            },
+            {
+                Name: "Slot Bind",
+                description: [
+                    "Reduces Slot Bind duration by 1 turn on this character",
+                    "Reduces Slot Bind duration by 2 turns on this character",
+                    "Reduces Slot Bind duration by 3 turns on this character",
+                    "Reduces Slot Bind duration by 5 turns on this character",
+                    "Reduces Slot Bind duration by 7 turns on this character"
+                ]
+            },
+            {
+                Name: "Pinch Healing",
+                description: [
+                    "If HP is below 10% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 20% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 30% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 40% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 50% at the start of the turn, recovers 2x this character's RCV at the end of the turn for each time you hit a PERFECT with this character"
+                ]
+            }
+        ]
+    },
+    4629: {//Loki
+        captain: "Launches the following effect at start of fight: reduces Special Cooldown of [QCK] and Driven characters by 2 turns, and reduces VS Gauge and Switch Effect of [QCK] and Driven characters by 2. Boosts ATK of [QCK] and Driven characters by 6x, boosts HP of [QCK] and Driven characters by 1.65x, makes [QCK] and [TND] orbs beneficial for all characters, and nullifies the application of enemy's territory 1 time. If field has Territory: [QCK], boosts ATK of [QCK] and Driven characters by 7x instead. If field has Territory: Driven or Free Spirit, further boosts ATK of [QCK] characters by 1.2x. When an enemy inflicts you with Paralysis, reduces Paralysis duration completely, and reduces Special Cooldown of this character by 1-99 turns depending on how many turns of Paralysis were reduced. If your crew has 3+ [Royalty] or [Ancient Giant] characters, reduces Minimum-Chain ATK Down duration by 10 turns.",
+        special: "Reduces Bind duration by 10 turns, and boosts Advantageous Class Effect of Driven and Free Spirit characters by 2x-3x for 2 turns depending on the outcome of Action Special. If your crew has 3+ [Royalty] or [Ancient Giant] characters and Special Launch Status is (0), applies Territory: [QCK] to the field for 3 turns, and boosts ATK of [QCK] characters by 6x for 1 turn. If your crew has 3+ [Royalty] or [Ancient Giant] characters and Special Launch Status is (1), applies Territory: [QCK] to the field for 3 turns, and boosts ATK of [QCK] characters by 8x for 1 turn. Otherwise, boosts ATK of [QCK] characters by 4x for 1 turn. If field has Territory: Driven or Free Spirit when the special is activated, increases boost effects of ATK Up buffs by 1.2x (up to 9.6x), including effects activated in the same ability.",
+        specialNotes: "<br><b>MISS:</b> 2x, <b>GOOD:</b> 2.25x, <b>GREAT:</b> 2.5x, <b>PERFECT:</b> 2.7x, <b>EXCELLENT:</b> 3x",
+        specialName: "Giant's Lightning of Eradication",
+        sailor: {
+            base: "Boosts base ATK of Driven characters by 1.1x.",
+            level1: "When an enemy inflicts you with Paralysis, reduces Paralysis duration by 1-99 turns, 50% of duration rounded down, and reduces Special Cooldown of this character by 1-99 turns depending on how many turns of Paralysis were reduced."
+        },
+        superSpecialCriteria: "This character must be captain. When your crew has a HP Guard buff or your crew must consist of any 3 of the following, excluding supports and counting only 1 per unit: [Royalty], [Ancient Giant] characters",
+        superSpecial: "Deals 100x character's ATK in Typeless Fixed True damage to all enemies, reduces Special Cooldown of [QCK] Captain character by 14 turns, changes [QCK], [TND] and [BLOCK] orbs into Super [QCK] orbs, sets Special Launch Status to (1), and transforms Driven and Free Spirit characters into Super Driven and Super Free Spirit characters.",
+        support: [
+            {
+                Characters: "[QCK] characters",
+                description: [
+                    "Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 7% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 9% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 12% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 15% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV."
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base HP by 20",
+            "Boosts base HP by 30",
+            "Boosts base HP by 30",
+            "Acquire Potential 1: Special Use Limit",
+            "Boosts base ATK by 10",
+            "Boosts base ATK by 10",
+            "Boosts base ATK by 10",
+            "Boosts base RCV by 10",
+            "Boosts base HP by 40",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 20",
+            "Boosts base ATK by 20",
+            "Boosts base HP by 40",
+            "Boosts base ATK by 20",
+            "Acquire Potential 2: Damage Limit Break: Type",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base HP by 40",
+            "Boosts base RCV by 20",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 50",
+            "Boosts base HP by 50",
+            "Boosts base RCV by 30",
+            "Boosts base ATK by 30",
+            "Boosts base HP by 60",
+            "Acquire Sailor Ability 2: If crew is inflicted with Paralysis, reduces Paralysis duration by half (ignoring the decimal) and reduces character's Special charge time by number of turns reduced",
+            "Boosts base HP by 60",
+            "Boosts base HP by 80",
+            "Boosts base ATK by 40",
+            "Boosts base ATK by 40",
+            "Acquire Potential 3: Rush",
+            "LOCKED WITH KEY",
+            "Boosts base ATK by 50",
+            "Boosts base HP by 150",
+            "Boosts base ATK by 50",
+            "Boosts base RCV by 50",
+            "Boosts base ATK by 50",
+            "Boosts base HP by 150",
+            "Boosts base ATK by 50",
+            "Boosts base HP by 200",
+            "Reduce base Special Cooldown by 1 turn"
+        ],
+        potential: [
+            {
+                Name: "Special Use Limit",
+                description: [
+                    "Reduces Special Use Limit duration by 1 turn",
+                    "Reduces Special Use Limit duration by 1 turn",
+                    "Reduces Special Use Limit duration by 2 turns",
+                    "Reduces Special Use Limit duration by 2 turns",
+                    "Reduces Special Use Limit duration by 3 turns"
+                ]
+            },
+            {
+                Name: "Damage Limit Break: Type",
+                description: [
+                    "Boosts Damage Limit Break effect based on number of [QCK] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.1 for 4, +0.2 for 5, +0.3 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of [QCK] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.2 for 4, +0.3 for 5, +0.4 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of [QCK] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.3 for 4, +0.4 for 5, +0.5 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of [QCK] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.4 for 4, +0.5 for 5, +0.6 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of [QCK] characters on the crew (except as Support Characters): +0.2 for 1, +.0.3 for 2, +0.4 for 3, +0.5 for 4, +0.6 for 5, +0.75 for 6 "
+                ]
+            },
+            {
+                Name: "Rush",
+                description: [
+                    "Obtain Rush Lv.1",
+                    "Obtain Rush Lv.2",
+                    "Obtain Rush Lv.3",
+                    "Obtain Rush Lv.4",
+                    "Obtain Rush Lv.5"
+                ]
+            }
+        ],
+        rush: {
+            characterCondition: [
+                "HP must be below 80% and crew has a Stackable ATK Up, Stackable Orb Boost or Stackable Color Affinity buff, when this character performs the 1st tap or 6th tap of an attack",
+                "HP must be below 80% and crew has a Stackable ATK Up, Stackable Orb Boost or Stackable Color Affinity buff, when this character performs the 1st tap or 6th tap of an attack",
+                "HP must be below 80% and crew has a Stackable ATK Up, Stackable Orb Boost or Stackable Color Affinity buff, when this character performs the 1st tap or 6th tap of an attack",
+                "HP must be below 80% and crew has a Stackable ATK Up, Stackable Orb Boost or Stackable Color Affinity buff, when this character performs the 1st tap or 6th tap of an attack",
+                "HP must be below 80% and crew has a Stackable ATK Up, Stackable Orb Boost or Stackable Color Affinity buff, when this character performs the 1st tap or 6th tap of an attack"
+            ],
+            description: [
+                "<b>Activated on the 1st tap of an attack:</b><br>Performs a Rush up to 6 times. Adds 0.1x-0.4x to Chain multiplier for 1 turn and boosts Rush ATK of [QCK], Driven and Free Spirit characters by 1.1x-1.3x.<br><b>Activated on the 6th tap of an attack:</b><br>Performs a Rush up to 5 times. Adds 0.2x-0.6x to Chain multiplier for 1 turn and boosts Rush ATK of this character by 1.4x-1.7x.",
+                "<b>Activated on the 1st tap of an attack:</b><br>Performs a Rush up to 6 times. Adds 0.1x-0.4x to Chain multiplier for 1 turn and boosts Rush ATK of [QCK], Driven and Free Spirit characters by 1.2x-1.4x.<br><b>Activated on the 6th tap of an attack:</b><br>Performs a Rush up to 6 times. Adds 0.2x-0.8x to Chain multiplier for 1 turn and boosts Rush ATK of this character by 1.5x-1.9x.",
+                "<b>Activated on the 1st tap of an attack:</b><br>Performs a Rush up to 7 times. Adds 0.1x-0.5x to Chain multiplier for 1 turn and boosts Rush ATK of [QCK], Driven and Free Spirit characters by 1.2x-1.6x.<br><b>Activated on the 6th tap of an attack:</b><br>Performs a Rush up to 6 times. Adds 0.2x-0.8x to Chain multiplier for 1 turn and boosts Rush ATK of this character by 1.6x-2.0x.",
+                "<b>Activated on the 1st tap of an attack:</b><br>Performs a Rush up to 8 times. Adds 0.1x-0.6x to Chain multiplier for 1 turn and boosts Rush ATK of [QCK], Driven and Free Spirit characters by 1.4x-1.8x.<br><b>Activated on the 6th tap of an attack:</b><br>Performs a Rush up to 6 times. Adds 0.2x-0.8x to Chain multiplier for 1 turn and boosts Rush ATK of this character by 1.8x-2.2x.",
+                "<b>Activated on the 1st tap of an attack:</b><br>Performs a Rush up to 10 times. Adds 0.1x-0.8x to Chain multiplier for 1 turn and boosts Rush ATK of [QCK], Driven and Free Spirit characters by 1.4x-2.0x.<br><b>Activated on the 6th tap of an attack:</b><br>Performs a Rush up to 7 times. Adds 0.2x-1.0x to Chain multiplier for 1 turn and boosts Rush ATK of this character by 2.0x-2.5x."
+            ],
+            stats: [
+                "<b>Activated on the 1st tap of an attack:</b><br>HP Cost: 22,500<br>Max Rush: 6 times<br>Chain Multiplier Growth: +0.1<br>Finish Tap Effect: Boosts Rush ATK of [QCK], Driven and Free Spirit characters by 1.1x-1.3x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.1<br>Finish Tap Multiplier: 0.8<br><b>Activated on the 6th tap of an attack:</b><br>HP Cost: 22,500<br>Max Rush: 5 times<br>Chain Multiplier Growth: +0.2<br>Finish Tap Effect: Boosts Rush ATK of this character by 1.4x-1.7x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.05<br>Finish Tap Multiplier: 2.5",
+                "<b>Activated on the 1st tap of an attack:</b><br>HP Cost: 20,000<br>Max Rush: 6 times<br>Chain Multiplier Growth: +0.1<br>Finish Tap Effect: Boosts Rush ATK of [QCK], Driven and Free Spirit characters by 1.2x-1.4x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.1<br>Finish Tap Multiplier: 0.8<br><b>Activated on the 6th tap of an attack:</b><br>HP Cost: 20,000<br>Max Rush: 6 times<br>Chain Multiplier Growth: +0.2<br>Finish Tap Effect: Boosts Rush ATK of this character by 1.5x-1.9x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.05<br>Finish Tap Multiplier: 2.6",
+                "<b>Activated on the 1st tap of an attack:</b><br>HP Cost: 17,500<br>Max Rush: 7 times<br>Chain Multiplier Growth: +0.1<br>Finish Tap Effect: Boosts Rush ATK of [QCK], Driven and Free Spirit characters by 1.2x-1.6x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.1<br>Finish Tap Multiplier: 0.8<br><b>Activated on the 6th tap of an attack:</b><br>HP Cost: 17,500<br>Max Rush: 6 times<br>Chain Multiplier Growth: +0.2<br>Finish Tap Effect: Boosts Rush ATK of this character by 1.6x-2.0x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.05<br>Finish Tap Multiplier: 2.7",
+                "<b>Activated on the 1st tap of an attack:</b><br>HP Cost: 15,000<br>Max Rush: 8 times<br>Chain Multiplier Growth: +0.1<br>Finish Tap Effect: Boosts Rush ATK of [QCK], Driven and Free Spirit characters by 1.4x-1.8x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.1<br>Finish Tap Multiplier: 0.8<br><b>Activated on the 6th tap of an attack:</b><br>HP Cost: 15,000<br>Max Rush: 6 times<br>Chain Multiplier Growth: +0.2<br>Finish Tap Effect: Boosts Rush ATK of this character by 1.8x-2.2x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.05<br>Finish Tap Multiplier: 2.8",
+                "<b>Activated on the 1st tap of an attack:</b><br>HP Cost: 12,500<br>Max Rush: 10 times<br>Chain Multiplier Growth: +0.1<br>Finish Tap Effect: Boosts Rush ATK of [QCK], Driven and Free Spirit characters by 1.4x-2.0x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.1<br>Finish Tap Multiplier: 0.8<br><b>Activated on the 6th tap of an attack:</b><br>HP Cost: 12,500<br>Max Rush: 7 times<br>Chain Multiplier Growth: +0.2<br>Finish Tap Effect: Boosts Rush ATK of this character by 2.0x-2.5x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.05<br>Finish Tap Multiplier: 3.0"
+            ]
+        }
+    },
+    4630: {//Gaban
+        captain: "Launches the following effect at start of fight: reduces Special Cooldown of [Roger Pirates], [Giant] and [Straw Hat Pirates] characters by 5 turns, reduces Special Cooldown of [DEX], Striker and Slasher characters by 2 turns, and reduces VS Gauge and Switch Effect of [DEX], Striker and Slasher characters by 2. Boosts ATK of [DEX], Striker and Slasher characters by 6x, boosts HP of [DEX], Striker and Slasher characters by 1.3x, and makes [DEX] and [TND] orbs beneficial for all characters. If your crew has 4+ [DEX] characters, nullifies the application of enemy's territory 1 time. If your crew has 6 [DEX] characters and field has Territory: [DEX], boosts ATK of [DEX] and Driven characters by 7x instead. If this character is your Captain and performs EXCELLENT with their Action Special, for 3 turns further boosts ATK of [Roger Pirates], [Giant] and [Straw Hat Pirates] characters by 1.2x.",
+        special: "Deals 300x character's ATK in Typeless Fixed True damage to one enemy, and reduces ATK Down duration by 10 turns. If field has Territory: [DEX] and Striker when the special is activated, boosts ATK of [DEX] Striker characters by 8x for 3 turns and boosts ATK of [DEX] and Striker characters by 6x for 3 turns; boosts ATK of [DEX] Striker characters by 4x for 1 turn and boosts ATK of [DEX] and Striker characters by 3x for 1 turn otherwise. Applies Territory: [DEX] to the field for 3 turns, and boosts ATK against enemies inflicted with Burn and enemies with reduced defense by 2.25x-3.25x for 1 turn depending on the outcome of Action Special. If your crew has 5+ [Elbaph Arc], [Giant] or [Roger Pirates] characters, increases Orb Effects of beneficial [DEX] orbs to 3.25x for 3 turns.",
+        specialNotes: "<br><b>MISS:</b> 2.25x, <b>GOOD:</b> 2.5x, <b>GREAT:</b> 2.75x, <b>PERFECT:</b> 3x, <b>EXCELLENT:</b> 3.25x",
+        specialName: "Yasotakeru",
+        sailor: {
+            base: "Boosts base ATK of [DEX] characters by 1.1x.",
+            level1: "Boosts base ATK, HP and RCV of [DEX] characters by 200, and makes [RCV] and [TND] orbs beneficial for [DEX] characters."
+        },
+        superSpecialCriteria: "This character must be captain. Your crew must consist of any 4 of the following, excluding supports and counting only 1 per unit: [Roger Pirates], [Giant], [Straw Hat Pirates] characters",
+        superSpecial: "Changes [DEX], [INT], [RCV] and [BLOCK] orbs into Super [DEX] orbs, allows all characters to perform Super Tandem with [DEX] orbs for 3 turns, and transforms Striker and Slasher characters into Super Striker and Super Slasher characters.",
+        support: [
+            {
+                Characters: "[Elbaph Arc] characters",
+                description: [
+                    "Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 7% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 9% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 12% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 15% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV."
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base RCV by 10",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 20",
+            "Acquire Potential 1: Critical Hit",
+            "Boosts base HP by 20",
+            "Boosts base HP by 20",
+            "Boosts base HP by 30",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 30",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 50",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 50",
+            "Acquire Potential 2: Damage Limit Break: Class",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base ATK by 10",
+            "Boosts base ATK by 20",
+            "Boosts base RCV by 30",
+            "Boosts base HP by 50",
+            "Boosts base ATK by 30",
+            "Boosts base ATK by 30",
+            "Boosts base HP by 70",
+            "Boosts base ATK by 30",
+            "Acquire Sailor Ability 2: Boosts [DEX] characters' base stats by 200 and makes their [TND][RCV] slots have matching slot effects",
+            "Boosts base ATK by 40",
+            "Boosts base HP by 80",
+            "Boosts base RCV by 40",
+            "Boosts base HP by 80",
+            "Acquire Potential 3: Rush",
+            "LOCKED WITH KEY",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 150",
+            "Boosts base ATK by 50",
+            "Boosts base HP by 150",
+            "Boosts base ATK by 50",
+            "Boosts base HP by 200",
+            "Boosts base RCV by 30",
+            "Boosts base ATK by 100",
+            "Reduce base Special Cooldown by 1 turn"
+        ],
+        potential: [
+            {
+                Name: "Critical Hit",
+                description: [
+                    "If you hit a PERFECT with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 70% chance to deal 7% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 80% chance to deal 8% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 100% chance to deal 10% of this character's attack in extra damage"
+                ]
+            },
+            {
+                Name: "Damage Limit Break: Class",
+                description: [
+                    "Boosts Damage Limit Break effect based on number of Striker characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.1 for 4, +0.2 for 5, +0.3 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Striker characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.2 for 4, +0.3 for 5, +0.4 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Striker characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.3 for 4, +0.4 for 5, +0.5 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Striker characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.4 for 4, +0.5 for 5, +0.6 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Striker characters on the crew (except as Support Characters): +0.2 for 1, +.0.3 for 2, +0.4 for 3, +0.5 for 4, +0.6 for 5, +0.75 for 6 "
+                ]
+            },
+            {
+                Name: "Rush",
+                description: [
+                    "Obtain Rush Lv.1",
+                    "Obtain Rush Lv.2",
+                    "Obtain Rush Lv.3",
+                    "Obtain Rush Lv.4",
+                    "Obtain Rush Lv.5"
+                ]
+            }
+        ],
+        rush: {
+            characterCondition: [
+                "On the turn this character's special is used, when this character performs the 1st tap or 6th tap of an attack, and your crew must consist of any 1 of the following, excluding supports and counting only 1 per unit: Gol D. Roger, Silvers Rayleigh, Crocus, Kozuki Oden, Shanks, Buggy, Douglas Bullet, Collun",
+                "On the turn this character's special is used, when this character performs the 1st tap or 6th tap of an attack, and your crew must consist of any 1 of the following, excluding supports and counting only 1 per unit: Gol D. Roger, Silvers Rayleigh, Crocus, Kozuki Oden, Shanks, Buggy, Douglas Bullet, Collun",
+                "On the turn this character's special is used, when this character performs the 1st tap or 6th tap of an attack, and your crew must consist of any 1 of the following, excluding supports and counting only 1 per unit: Gol D. Roger, Silvers Rayleigh, Crocus, Kozuki Oden, Shanks, Buggy, Douglas Bullet, Collun",
+                "On the turn this character's special is used, when this character performs the 1st tap or 6th tap of an attack, and your crew must consist of any 1 of the following, excluding supports and counting only 1 per unit: Gol D. Roger, Silvers Rayleigh, Crocus, Kozuki Oden, Shanks, Buggy, Douglas Bullet, Collun",
+                "On the turn this character's special is used, when this character performs the 1st tap or 6th tap of an attack, and your crew must consist of any 1 of the following, excluding supports and counting only 1 per unit: Gol D. Roger, Silvers Rayleigh, Crocus, Kozuki Oden, Shanks, Buggy, Douglas Bullet, Collun"
+            ],
+            description: [
+                "<b>Activated on the 1st tap of an attack:</b><br>Performs a Rush up to 6 times. Adds 0.1x-0.4x to Chain multiplier for 1 turn and boosts Rush ATK of [DEX], Slasher and Striker characters by 1.1x-1.3x.<br><b>Activated on the 6th tap of an attack:</b><br>Performs a Rush up to 5 times. Adds 0.2x-0.6x to Chain multiplier for 1 turn and boosts Rush ATK of this character by 1.4x-1.7x.",
+                "<b>Activated on the 1st tap of an attack:</b><br>Performs a Rush up to 6 times. Adds 0.1x-0.4x to Chain multiplier for 1 turn and boosts Rush ATK of [DEX], Slasher and Striker characters by 1.2x-1.4x.<br><b>Activated on the 6th tap of an attack:</b><br>Performs a Rush up to 6 times. Adds 0.2x-0.8x to Chain multiplier for 1 turn and boosts Rush ATK of this character by 1.5x-1.9x.",
+                "<b>Activated on the 1st tap of an attack:</b><br>Performs a Rush up to 7 times. Adds 0.1x-0.5x to Chain multiplier for 1 turn and boosts Rush ATK of [DEX], Slasher and Striker characters by 1.2x-1.6x.<br><b>Activated on the 6th tap of an attack:</b><br>Performs a Rush up to 6 times. Adds 0.2x-0.8x to Chain multiplier for 1 turn and boosts Rush ATK of this character by 1.6x-2.0x.",
+                "<b>Activated on the 1st tap of an attack:</b><br>Performs a Rush up to 8 times. Adds 0.1x-0.6x to Chain multiplier for 1 turn and boosts Rush ATK of [DEX], Slasher and Striker characters by 1.4x-1.8x.<br><b>Activated on the 6th tap of an attack:</b><br>Performs a Rush up to 6 times. Adds 0.2x-0.8x to Chain multiplier for 1 turn and boosts Rush ATK of this character by 1.8x-2.2x.",
+                "<b>Activated on the 1st tap of an attack:</b><br>Performs a Rush up to 10 times. Adds 0.1x-0.8x to Chain multiplier for 1 turn and boosts Rush ATK of [DEX], Slasher and Striker characters by 1.4x-2.0x.<br><b>Activated on the 6th tap of an attack:</b><br>Performs a Rush up to 7 times. Adds 0.2x-1.0x to Chain multiplier for 1 turn and boosts Rush ATK of this character by 2.0x-2.5x."
+            ],
+            stats: [
+                "<b>Activated on the 1st tap of an attack:</b><br>HP Cost: 22,500<br>Max Rush: 6 times<br>Chain Multiplier Growth: +0.1<br>Finish Tap Effect: Boosts Rush ATK of [DEX], Slasher and Striker characters by 1.1x-1.3x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.1<br>Finish Tap Multiplier: 0.8<br><b>Activated on the 6th tap of an attack:</b><br>HP Cost: 22,500<br>Max Rush: 5 times<br>Chain Multiplier Growth: +0.2<br>Finish Tap Effect: Boosts Rush ATK of this character by 1.4x-1.7x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.05<br>Finish Tap Multiplier: 2.5",
+                "<b>Activated on the 1st tap of an attack:</b><br>HP Cost: 20,000<br>Max Rush: 6 times<br>Chain Multiplier Growth: +0.1<br>Finish Tap Effect: Boosts Rush ATK of [DEX], Slasher and Striker characters by 1.2x-1.4x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.1<br>Finish Tap Multiplier: 0.8<br><b>Activated on the 6th tap of an attack:</b><br>HP Cost: 20,000<br>Max Rush: 6 times<br>Chain Multiplier Growth: +0.2<br>Finish Tap Effect: Boosts Rush ATK of this character by 1.5x-1.9x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.05<br>Finish Tap Multiplier: 2.6",
+                "<b>Activated on the 1st tap of an attack:</b><br>HP Cost: 17,500<br>Max Rush: 7 times<br>Chain Multiplier Growth: +0.1<br>Finish Tap Effect: Boosts Rush ATK of [DEX], Slasher and Striker characters by 1.2x-1.6x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.1<br>Finish Tap Multiplier: 0.8<br><b>Activated on the 6th tap of an attack:</b><br>HP Cost: 17,500<br>Max Rush: 6 times<br>Chain Multiplier Growth: +0.2<br>Finish Tap Effect: Boosts Rush ATK of this character by 1.6x-2.0x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.05<br>Finish Tap Multiplier: 2.7",
+                "<b>Activated on the 1st tap of an attack:</b><br>HP Cost: 15,000<br>Max Rush: 8 times<br>Chain Multiplier Growth: +0.1<br>Finish Tap Effect: Boosts Rush ATK of [DEX], Slasher and Striker characters by 1.4x-1.8x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.1<br>Finish Tap Multiplier: 0.8<br><b>Activated on the 6th tap of an attack:</b><br>HP Cost: 15,000<br>Max Rush: 6 times<br>Chain Multiplier Growth: +0.2<br>Finish Tap Effect: Boosts Rush ATK of this character by 1.8x-2.2x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.05<br>Finish Tap Multiplier: 2.8",
+                "<b>Activated on the 1st tap of an attack:</b><br>HP Cost: 12,500<br>Max Rush: 10 times<br>Chain Multiplier Growth: +0.1<br>Finish Tap Effect: Boosts Rush ATK of [DEX], Slasher and Striker characters by 1.4x-2.0x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.1<br>Finish Tap Multiplier: 0.8<br><b>Activated on the 6th tap of an attack:</b><br>HP Cost: 12,500<br>Max Rush: 7 times<br>Chain Multiplier Growth: +0.2<br>Finish Tap Effect: Boosts Rush ATK of this character by 2.0x-2.5x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.05<br>Finish Tap Multiplier: 3.0"
+            ]
+        }
+    },
+    4631: {//Luffy & Zoro
+        captain: {
+            character1: "Boosts ATK of [DEX], [INT], Striker and Slasher characters by 6x, and reduces enemies' [DEX] and [INT] Resistance by -3% for 1 turn when a [DEX] or [INT] character performs a Critical Hit. If your crew has 4+ [Elbaph Arc], [Straw Hat Pirates], [Mythical Zoan-type] or [Giant] characters, boosts HP of [DEX], [INT], Striker and Slasher characters by 1.3x, makes [INT] and [TND] orbs beneficial for all characters, and launches the following effect at start of fight: reduces VS Gauge and Switch Effect of all characters by 2, and boosts Crew Damage Reduction to ATK of Striker and Slasher characters by 1x-2x, proportional to the strength of crew's Percent Damage Reduction buff, for 5 turns.",
+            character2: "Boosts ATK of [DEX], [INT], Striker and Slasher characters by 6x, and reduces enemies' Striker and Slasher Resistance by -3% for 1 turn when a Striker or Slasher character performs a Critical Hit. If your crew has 4+ [Elbaph Arc], [Straw Hat Pirates], [Mythical Zoan-type] or [Giant] characters, boosts HP of [DEX], [INT], Striker and Slasher characters by 1.3x, makes [DEX] and [TND] orbs beneficial for all characters, and launches the following effect at start of fight: reduces VS Gauge and Switch Effect of all characters by 2, and boosts Critical Hit Damage of all characters by 60% for 5 turns.",
+            combined: "Boosts ATK of [DEX], [INT], Striker and Slasher characters by 7x, and reduces enemies' [DEX], [INT], Striker and Slasher Resistance by -5% for 1 turn when a character performs a Critical Hit. If your crew has 4+ [Elbaph Arc], [Straw Hat Pirates], [Mythical Zoan-type] or [Giant] characters, reduces VS Gauge and Switch Effect of all characters by 2 at the start of the fight, boosts HP of [DEX], [INT], Striker and Slasher characters by 1.3x, boosts base ATK of [Elbaph Arc], [Straw Hat Pirates], [Mythical Zoan-type] and [Giant] characters by 1,000, and makes [DEX], [INT] and [TND] orbs beneficial for all characters."
+        },
+        special: "Reduces Paralysis duration by 10 turns, boosts Color Affinity of [DEX], [QCK] and [INT] characters by 4x for 1 turn, and becomes Luffy & Zoro for 3 turns. If your crew has Color Affinity when the special is activated, ignores Debuff Protection and inflicts all enemies with Weaken by 1.5x, by 1.95x instead if enemies are inflicted with Increase Damage Taken, for 1 turn. If field has Territory: Striker or Slasher when the special is activated, increases boost effects of ATK Up buffs by 1.3x (up to 15x). If field has Territory: [DEX] or [INT] when the special is activated, boosts Chain Multiplier Growth Rate by 1.75x for 3 turns. If your crew has 4+ [Elbaph Arc], [Straw Hat Pirates] or [Mythical Zoan-type] characters and accumulated Special Charge is 15+ turns, reduces enemies' Orb-Based Damage Reduction duration by 6 turns, and increases duration of any Color Affinity buffs by 2 turns and increases boost effects of Color Affinity buffs by +2.0x, including effects activated in the same ability.",
+        specialNotes: "This special can be charged beyond its MAX for more powerful effects.",
+        specialName: "Combination Against the Powerful",
+        sailor: {
+            character1: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight.",
+            character2: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight.",
+            combined: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight.",
+            level1: "Boosts base ATK of [DEX] and [INT] characters by 1.1x."
+        },
+        superSpecialCriteria: "Can be launched as crewmate. When this character is in Combined Form from Super Swap Effect and your crew must consist of any 3 of the following, excluding supports and counting only 1 per unit: Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Dorry, Broggy, Oimo, Kashii, Hajrudin, Gerd, Jaguar D. Saul, Portgas D. Ace, Sabo, Silvers Rayleigh, Scopper Gaban, Dracule Mihawk",
+        superSpecial: "Reduces Special Cooldown of all characters by 2 turns, ignores Debuff Protection and reduces the defense of all enemies by 100% for 1 turn, and transforms [DEX] and [INT] characters into Super [DEX] and Super [INT] characters.",
+        swap: {
+            base: "Changes orb of this character into a [TND] orb, and inflicts all enemies with Increase Damage Taken by 1.3x for 1 turn.",
+            super: "Changes orb of this character into a [TND] orb, changes orbs of adjacent characters into matching orbs, ignores Debuff Protection and inflicts all enemies with Increase Damage Taken by 1.75x for 1 turn, and becomes Luffy & Zoro for 3 turns.",
+            superTurns: 6
+        },
+        limit: [
+            "Boosts base RCV by 10",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 20",
+            "Acquire Potential 1: Critical Hit",
+            "Boosts base ATK by 10",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 20",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 20",
+            "Boosts base HP by 30",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 30",
+            "Boosts base ATK by 10",
+            "Boosts base RCV by 30",
+            "Acquire Potential 2: Damage Limit Break: Class",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base HP by 50",
+            "Boosts base HP by 50",
+            "Boosts base ATK by 20",
+            "Boosts base HP by 60",
+            "Boosts base ATK by 30",
+            "Boosts base ATK by 30",
+            "Boosts base HP by 60",
+            "Boosts base ATK by 30",
+            "Acquire Sailor Ability 2: Boosts [INT] and [DEX] characters' base ATK by 1.1x",
+            "Boosts base RCV by 40",
+            "Boosts base HP by 80",
+            "Boosts base HP by 80",
+            "Boosts base ATK by 40",
+            "Acquire Potential 3: Super Tandem",
+            "LOCKED WITH KEY",
+            "Boosts base ATK by 50",
+            "Boosts base HP by 150",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 150",
+            "Boosts base RCV by 30",
+            "Boosts base ATK by 50",
+            "Boosts base HP by 200",
+            "Boosts base ATK by 100",
+            "Reduce base Special Cooldown by 1 turn"
+        ],
+        potential: [
+            {
+                Name: "Critical Hit",
+                description: [
+                    "If you hit a PERFECT with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 70% chance to deal 7% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 80% chance to deal 8% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 100% chance to deal 10% of this character's attack in extra damage"
+                ]
+            },
+            {
+                Name: "Damage Limit Break: Class",
+                description: [
+                    "Boosts Damage Limit Break effect based on number of Slasher characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.1 for 4, +0.2 for 5, +0.3 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Slasher characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.2 for 4, +0.3 for 5, +0.4 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Slasher characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.3 for 4, +0.4 for 5, +0.5 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Slasher characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.4 for 4, +0.5 for 5, +0.6 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Slasher characters on the crew (except as Support Characters): +0.2 for 1, +.0.3 for 2, +0.4 for 3, +0.5 for 4, +0.6 for 5, +0.75 for 6 "
+                ]
+            },
+            {
+                Name: "Super Tandem",
+                description: [
+                    "Obtain Super Tandem Lv.1",
+                    "Obtain Super Tandem Lv.2",
+                    "Obtain Super Tandem Lv.3",
+                    "Obtain Super Tandem Lv.4",
+                    "Obtain Super Tandem Lv.5"
+                ]
+            }
+        ],
+        superTandem: {
+            characterCondition: [
+                "Your crew must consist of any 3 of the following, excluding supports and counting only 1 per unit: Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Dorry, Broggy, Oimo, Kashii, Hajrudin, Gerd, Jaguar D. Saul, Portgas D. Ace, Sabo, Silvers Rayleigh, Scopper Gaban, Dracule Mihawk",
+                "Your crew must consist of any 3 of the following, excluding supports and counting only 1 per unit: Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Dorry, Broggy, Oimo, Kashii, Hajrudin, Gerd, Jaguar D. Saul, Portgas D. Ace, Sabo, Silvers Rayleigh, Scopper Gaban, Dracule Mihawk",
+                "Your crew must consist of any 3 of the following, excluding supports and counting only 1 per unit: Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Dorry, Broggy, Oimo, Kashii, Hajrudin, Gerd, Jaguar D. Saul, Portgas D. Ace, Sabo, Silvers Rayleigh, Scopper Gaban, Dracule Mihawk",
+                "Your crew must consist of any 3 of the following, excluding supports and counting only 1 per unit: Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Dorry, Broggy, Oimo, Kashii, Hajrudin, Gerd, Jaguar D. Saul, Portgas D. Ace, Sabo, Silvers Rayleigh, Scopper Gaban, Dracule Mihawk",
+                "Your crew must consist of any 3 of the following, excluding supports and counting only 1 per unit: Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Dorry, Broggy, Oimo, Kashii, Hajrudin, Gerd, Jaguar D. Saul, Portgas D. Ace, Sabo, Silvers Rayleigh, Scopper Gaban, Dracule Mihawk"
+            ],
+            description: [
+                "Boosts Tandem ATK of [DEX] and [INT] characters by 2x for 1 turn.",
+                "Boosts Tandem ATK of [DEX] and [INT] characters by 2.25x for 1 turn.",
+                "Boosts Tandem ATK of [DEX] and [INT] characters by 2.5x for 1 turn, and boosts Final Tap ATK of [DEX] and [INT] characters by 10%.",
+                "Boosts Tandem ATK of [DEX] and [INT] characters by 2.75x for 1 turn, and boosts Final Tap ATK of [DEX] and [INT] characters by 20%.",
+                "Boosts Tandem ATK of [DEX] and [INT] characters by 3x for 1 turn, and boosts Final Tap ATK of [DEX] and [INT] characters by 30%."
+            ]
+        }
+    },
+    4632: {//Vivi
+        captain: "Reduces Special Cooldown of all characters by 2 turns at the start of the fight, boosts ATK of [QCK], Free Spirit and Slasher characters by 5x, by 6x instead if they have a beneficial orb, boosts RCV of [QCK], Free Spirit and Slasher characters by 1.35x, and boosts EXP received by 2.25x. If your crew has 3+ [Royalty] characters, reduces Paralysis and ATK Down duration by 3 turns.",
+        special: "Reduces enemies' Percent Damage Reduction duration by 7 turns, allows all characters to perform Super Tandem with [DEX] and [QCK] orbs for 3 turns, and changes all orbs, including [BLOCK] orbs, into [QCK] orbs. If field has Territory: [QCK] and Free Spirit or Territory: Crew when the special is activated, activates HP Guard of 95% effect for 1 turn, and ignores Debuff Protection and inflicts all enemies with Weaken by 2x, by 2.6x instead if enemies are inflicted with Increase Damage Taken, for 1 turn; inflicts all enemies with Weaken by 1.5x, by 1.95x instead if enemies are inflicted with Increase Damage Taken, for 1 turn otherwise. If your crew has 6 Free Spirit characters and 3+ [Royalty] characters, sets Chain Boundaries to 3.5x and 30.0x for 3 turns, and up to 1 time per adventure, reduces Special Cooldown of middle row [Royalty] and [Mythical Zoan-type] characters by 15 turns. If your crew has 3+ Slasher characters and 3+ [Straw Hat Pirates] characters, sets Chain Boundaries to 3.5x and 30.0x for 3 turns.",
+        specialName: "Elegant Swordplay",
+        sailor: {
+            base: "Restores Special Cooldown of this character by 3 turns when it is rewinded.",
+            level1: "Boosts base ATK of [QCK] characters by 1.1x."
+        },
+        superSpecialCriteria: "Can be launched as crewmate. Your crew must consist of any 4 of the following, excluding supports and counting only 1 per unit: [Royalty], [Mythical Zoan-type] characters",
+        superSpecial: "Locks all orbs for 1 turn, decreases boost effects of ATK Up buffs by -1.0x and converts ATK Up into a Stackable ATK Up, and transforms [QCK] characters into Super [QCK] characters.",
+        support: [
+            {
+                Characters: "[Royalty] characters",
+                description: [
+                    "Adds 3% of this character's base RCV to the supported character's base RCV. <b>[AUTO+]</b> When you reach the 2nd stage, activates supported character's Super Effect and Special.",
+                    "Adds 5% of this character's base RCV to the supported character's base RCV. <b>[AUTO+]</b> When you reach the 2nd stage, activates supported character's Super Effect and Special.",
+                    "Adds 7% of this character's base RCV to the supported character's base RCV. <b>[AUTO+]</b> When you reach the 2nd stage, activates supported character's Super Effect and Special.",
+                    "Adds 9% of this character's base RCV to the supported character's base RCV. <b>[AUTO+]</b> When you reach the 2nd stage, activates supported character's Super Effect and Special.",
+                    "Adds 12% of this character's base RCV to the supported character's base RCV. <b>[AUTO+]</b> When you reach the 2nd stage, activates supported character's Super Effect and Special."
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base ATK by 10",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 20",
+            "Acquire Potential 1: Critical Hit",
+            "Boosts base RCV by 10",
+            "Boosts base HP by 20",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 20",
+            "Boosts base HP by 30",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 30",
+            "Boosts base ATK by 10",
+            "Boosts base RCV by 30",
+            "Acquire Potential 2: Damage Limit Break: Type",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base ATK by 20",
+            "Boosts base ATK by 30",
+            "Boosts base ATK by 30",
+            "Boosts base HP by 50",
+            "Boosts base HP by 50",
+            "Boosts base HP by 60",
+            "Boosts base HP by 60",
+            "Boosts base RCV by 40",
+            "Acquire Sailor Ability 2: Boosts [QCK] characters' base ATK by 1.1x",
+            "Boosts base ATK by 30",
+            "Boosts base HP by 80",
+            "Boosts base HP by 80",
+            "Boosts base ATK by 40",
+            "Acquire Potential 3: Last Tap",
+            "LOCKED WITH KEY",
+            "Boosts base HP by 150",
+            "Boosts base ATK by 50",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 150",
+            "Boosts base ATK by 50",
+            "Boosts base RCV by 30",
+            "Boosts base ATK by 100",
+            "Boosts base HP by 200",
+            "Reduce base Special Cooldown by 1 turn"
+        ],
+        lLimit: [
+            null,
+            null,
+            null,
+            null,
+            {
+                rSuperSpecial: true
+            }
+        ],
+        potential: [
+            {
+                Name: "Critical Hit",
+                description: [
+                    "If you hit a PERFECT with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 70% chance to deal 7% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 80% chance to deal 8% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 100% chance to deal 10% of this character's attack in extra damage"
+                ]
+            },
+            {
+                Name: "Damage Limit Break: Type",
+                description: [
+                    "Boosts Damage Limit Break effect based on number of [QCK] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.1 for 4, +0.2 for 5, +0.3 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of [QCK] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.2 for 4, +0.3 for 5, +0.4 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of [QCK] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.3 for 4, +0.4 for 5, +0.5 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of [QCK] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.4 for 4, +0.5 for 5, +0.6 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of [QCK] characters on the crew (except as Support Characters): +0.2 for 1, +.0.3 for 2, +0.4 for 3, +0.5 for 4, +0.6 for 5, +0.75 for 6 "
+                ]
+            },
+            {
+                Name: "Last Tap",
+                description: [
+                    "Obtain Last Tap Lv.1",
+                    "Obtain Last Tap Lv.2",
+                    "Obtain Last Tap Lv.3",
+                    "Obtain Last Tap Lv.4",
+                    "Obtain Last Tap Lv.5"
+                ]
+            }
+        ],
+        lastTap: {
+            condition: "HP must be below 50% and crew has a Chain Lock or Chain Boundary buff",
+            description: [
+                "Changes [RAINBOW] orb of this character into a Super [QCK] orb, and further boosts Chain Multiplier Growth Rate by 1.25x.",
+                "Changes [RAINBOW] orb of this character into a Super [QCK] orb, and further boosts Chain Multiplier Growth Rate by 1.5x.",
+                "Changes [RAINBOW] orb of this character into a Super [QCK] orb, and further boosts Chain Multiplier Growth Rate by 1.75x.",
+                "Changes [RAINBOW] orb of this character into a Super [QCK] orb, and further boosts Chain Multiplier Growth Rate by 2x.",
+                "Changes [RAINBOW] orb of this character into a Super [QCK] orb, and further boosts Chain Multiplier Growth Rate by 2.25x."
+            ]
+        }
+    },
+    4633: {//Nami
+        special: "Reduces crew's current HP by 80%, reduces Burn duration by 6 turns, reduces enemies' Resilience duration by 6 turns, boosts Orb Effects of [DEX], [QCK] and [INT] characters by 2.75x for 2 turns, and reduces Special Cooldown of Captain character by 3 turns. If your Captain is a [DEX] or [INT] character, adds 1.0x to chain multiplier for 1 turn, and applies Territory: Striker to the field for 1 turn. If your Captain is a [QCK] or [PSY] character, reduces damage received by 95% for 1 turn, and applies Territory: Free Spirit to the field for 1 turn.",
+        specialName: "Guiding to the Objective",
+        sailor: {
+            base: "Makes [STR] orbs beneficial for Striker and Free Spirit characters.",
+            level1: "Boosts base ATK and RCV of all characters by 100."
+        },
+        support: [
+            {
+                Characters: "Nefeltari Vivi, Nico Robin, Shirahoshi",
+                description: [
+                    "Once per adventure, when the supported character uses their special, reduces Burn duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces Burn duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces Burn duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces Burn duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces Burn duration by 1 turn, and adds 0.5x to chain multiplier for 1 turn."
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base RCV by 10",
+            "Boosts base HP by 60",
+            "Boosts base RCV by 10",
+            "Acquire Potential 1: No Healing",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 60",
+            "Boosts base ATK by 20",
+            "Acquire 1 additional Socket slot",
+            "Boosts base ATK by 30",
+            "Boosts base RCV by 30",
+            "Boosts base HP by 80",
+            "Acquire Sailor Ability 2: Boosts crew's base ATK and RCV by 100",
+            "Boosts base ATK by 40",
+            "Reduce base Special Cooldown by 1 turn",
+            "Acquire Potential 2: Slot Bind"
+        ],
+        potential: [
+            {
+                Name: "No Healing",
+                description: [
+                    "Reduces No Healing duration by 1 turn",
+                    "Reduces No Healing duration by 2 turns",
+                    "Reduces No Healing duration by 3 turns",
+                    "Reduces No Healing duration by 4 turns",
+                    "Reduces No Healing duration by 5 turns"
+                ]
+            },
+            {
+                Name: "Slot Bind",
+                description: [
+                    "Reduces Slot Bind duration by 1 turn on this character",
+                    "Reduces Slot Bind duration by 2 turns on this character",
+                    "Reduces Slot Bind duration by 3 turns on this character",
+                    "Reduces Slot Bind duration by 4 turns on this character",
+                    "Reduces Slot Bind duration by 5 turns on this character"
+                ]
+            }
+        ]
+    },
+    4634: {//Gerd
+        captain: "Reduces Slasher and Striker characters' Special charge time by 2 turns at start of quest, launches the following effect at start of quest: \"Boosts Slasher and Striker characters' ATK by 3x for 10 turns\", makes [DEX] and [PSY] characters' [DEX][PSY][RCV][TND] slots have matching slot effects, reduces [PSY] characters' Bind duration by 6 turns, and allows crew to obtain [RCV] slots with PERFECT taps [Applies following effect based on number of applicable Character Tags on crew] Boosts [Elbaph Arc] characters' ATK by 6x and HP by 1.5x",
+        special: "Deals 200x character's ATK in non-type damage to all enemies, further increases crew's ATK UpOrb Boost by 1.25x (up to a maximum 6x), and boosts crew's ATK based on the damage reduction effect applied on the crew (e.g. if crew has 95% damage reduction, boosts ATK by 1.95x) for 2 turns. If a [STR], [DEX], or [QCK] is set as Support for character, applies \"Territory: Slasher class\" to the field for 2 turns (applies \"Territory: Striker class\" to the field for 2 turns otherwise), then after that, applies -50% [DEX] and [PSY] Resistance to all enemies for 2 turns. If enemy has increase damage taken and Weakened status when Special is launched, locks crew's slots for 1 turn, then after 1 turn, increases all enemies' damage taken by 2.25x for 1 turn",
+        specialName: "Apologizing to the Little Human",
+        sailor: {
+            base: "Reduces [PSY] [Straw Hat Pirates] [Four Emperors] [Giant] characters' Bind duration by 6 turns and makes their [RCV] slots have matching slot effects",
+            level1: "If 3 or more [Straw Hat Pirates] [Four Emperors] [Giant] characters are on the crew and enemy launches Threshold Damage Reduction effect, reduces all enemies' Threshold Damage Reduction duration by 5 turns at start of crew's next turn (only once per quest)"
+        },
+        superSpecialCriteria: "When any 3 [Giant] characters not including self or any 3 [Straw Hat Pirates] characters are on the crew (except as Double Characters in inactive state; can be launched when character is a crewmate)",
+        superSpecial: "Reduces damage taken by 95% for 1 turn, boosts the chain multiplier by +2.0 for 2 turns, changes [Straw Hat Pirates] [Four Emperors] [Giant] characters' [BLOCK] and type slots to [RCV], and changes [PSY] characters to Super [PSY]",
+        support: [
+            {
+                Characters: "[PSY] characters with the following Character Tag: [Giant]",
+                description: [
+                    "Once per quest, if enemy activates Threshold Damage Reduction, reduces all enemies' Threshold Damage Reduction duration by 1 turn at start of crew's next turn",
+                    "Once per quest, if enemy activates Threshold Damage Reduction, reduces all enemies' Threshold Damage Reduction duration by 1 turn at start of crew's next turn",
+                    "Once per quest, if enemy activates Threshold Damage Reduction, reduces all enemies' Threshold Damage Reduction duration by 2 turns at start of crew's next turn",
+                    "Once per quest, if enemy activates Threshold Damage Reduction, reduces all enemies' Threshold Damage Reduction duration by 2 turns at start of crew's next turn",
+                    "Once per quest, if enemy activates Threshold Damage Reduction, reduces all enemies' Threshold Damage Reduction duration by 3 turns at start of crew's next turn"
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base ATK by 10",
+            "Boosts base HP by 20",
+            "Boosts base HP by 30",
+            "Acquire Potential 1: Critical Hit",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 30",
+            "Boosts base RCV by 10",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 40",
+            "Boosts base ATK by 20",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 20",
+            "Boosts base HP by 40",
+            "Boosts base ATK by 20",
+            "Acquire Potential 2: [INT] Damage Reduction",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base HP by 40",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 30",
+            "Boosts base HP by 50",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 50",
+            "Boosts base RCV by 30",
+            "Boosts base HP by 60",
+            "Acquire Sailor Ability 2: If 3 or more [Straw Hat Pirates] [Four Emperors] [Giant] characters are on the crew and enemy launches Threshold Damage Reduction effect, reduces all enemies' Threshold Damage Reduction duration by 5 turns at start of crew's next turn (only once per quest)",
+            "Boosts base HP by 60",
+            "Boosts base ATK by 40",
+            "Boosts base ATK by 40",
+            "Boosts base HP by 80",
+            "Acquire Potential 3: Last Tap",
+            "LOCKED WITH KEY",
+            "Boosts base ATK by 50",
+            "Boosts base HP by 150",
+            "Boosts base ATK by 50",
+            "Boosts base RCV by 50",
+            "Boosts base ATK by 50",
+            "Boosts base HP by 150",
+            "Boosts base ATK by 50",
+            "Boosts base HP by 200",
+            "Reduce base Special Cooldown by 1 turn"
+        ],
+        lLimit: [
+            null,
+            null,
+            null,
+            null,
+            {
+                rSuperSpecial: true
+            }
+        ],
+        potential: [
+            {
+                Name: "Critical Hit",
+                description: [
+                    "If you hit a PERFECT with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 70% chance to deal 7% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 80% chance to deal 8% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 100% chance to deal 10% of this character's attack in extra damage"
+                ]
+            },
+            {
+                Name: "[INT] Damage Reduction",
+                description: [
+                    "Reduces damage taken from [INT] characters by 2%",
+                    "Reduces damage taken from [INT] characters by 3%",
+                    "Reduces damage taken from [INT] characters by 4%",
+                    "Reduces damage taken from [INT] characters by 5%",
+                    "Reduces damage taken from [INT] characters by 7%"
+                ]
+            },
+            {
+                Name: "Last Tap",
+                description: [
+                    "Obtain Last Tap Lv.1",
+                    "Obtain Last Tap Lv.2",
+                    "Obtain Last Tap Lv.3",
+                    "Obtain Last Tap Lv.4",
+                    "Obtain Last Tap Lv.5"
+                ]
+            }
+        ],
+        lastTap: {
+            condition: "When crew has ATK Up, slot effect boost, and type effect boost",
+            description: [
+                "Further boosts the chain multiplier of the final tap by 1.2x",
+                "Further boosts the chain multiplier of the final tap by 1.4x",
+                "Further boosts the chain multiplier of the final tap by 1.6x",
+                "Further boosts the chain multiplier of the final tap by 1.8x",
+                "Further boosts the chain multiplier of the final tap by 2x"
+            ]
         },
         festStats: {
-            def: 197,
+            def: 174,
             spd: 161,
             style: "RCV"
         },
@@ -190134,54 +191106,635 @@ window.details = {
             "Heal Lv.2 (Medium Range)"
         ],
         festAttackTarget: "Targets closest enemies",
-        festResistance: "80% chance to evade Paralysis, reduce damage taken from [QCK] by 20％",
+        festResistance: "Completely evades RCV Bind, reduce damage taken from [INT] by 30%",
         festAbility: [
-            "[DEX]/Slasher class teammates DEF Up Lv.2; after receiving damage, up to 7 times targets [DEX]/Slasher class teammates for RCV x 1.1 healing; when defeating enemy, up to 3 times targets [DEX]/Slasher class teammates for RCV x 3 healing; if 4 or more [Straw Hat Pirates] [Red-Haired Pirates] [Roger Pirates] [Giant] characters are on the team, [QCK] enemies SPD Down Lv.3; during Assault Rumble, self HP Up Lv.4, Special CT Speed Up Lv.1",
-            "[DEX]/Slasher class teammates DEF Up Lv.2; after receiving damage, up to 7 times targets [DEX]/Slasher class teammates for RCV x 1.2 healing; when defeating enemy, up to 3 times targets [DEX]/Slasher class teammates for RCV x 3.2 healing; if 4 or more [Straw Hat Pirates] [Red-Haired Pirates] [Roger Pirates] [Giant] characters are on the team, [QCK] enemies SPD Down Lv.4; during Assault Rumble, self HP Up Lv.5, Special CT Speed Up Lv.1",
-            "[DEX]/Slasher class teammates DEF Up Lv.2; after receiving damage, up to 7 times targets [DEX]/Slasher class teammates for RCV x 1.3 healing; when defeating enemy, up to 3 times targets [DEX]/Slasher class teammates for RCV x 3.4 healing; if 4 or more [Straw Hat Pirates] [Red-Haired Pirates] [Roger Pirates] [Giant] characters are on the team, [QCK] enemies SPD Down Lv.5; during Assault Rumble, self HP Up Lv.6, Special CT Speed Up Lv.2",
-            "[DEX]/Slasher class teammates DEF Up Lv.2; after receiving damage, up to 7 times targets [DEX]/Slasher class teammates for RCV x 1.4 healing; when defeating enemy, up to 3 times targets [DEX]/Slasher class teammates for RCV x 3.6 healing; if 4 or more [Straw Hat Pirates] [Red-Haired Pirates] [Roger Pirates] [Giant] characters are on the team, [QCK] enemies SPD Down Lv.6; during Assault Rumble, self HP Up Lv.7, Special CT Speed Up Lv.2",
-            "[DEX]/Slasher class teammates DEF Up Lv.3; after receiving damage, up to 7 times targets [DEX]/Slasher class teammates for RCV x 1.5 healing; when defeating enemy, up to 3 times targets [DEX]/Slasher class teammates for RCV x 4 healing; if 4 or more [Straw Hat Pirates] [Red-Haired Pirates] [Roger Pirates] [Giant] characters are on the team, [QCK] enemies SPD Down Lv.7; during Assault Rumble, self HP Up Lv.8, Special CT Speed Up Lv.4"
+            "[PSY]/Striker class and [Giant] teammates HP Up Lv.4, Guard % Up Lv.3; when appearing on the field, targets [Giant] teammates with less than 50% HP for HP 30% healing; when remaining time is 60 s or less, [PSY]/Striker class and [Giant] teammates ATK Up Lv.2",
+            "[PSY]/Striker class and [Giant] teammates HP Up Lv.5, Guard % Up Lv.4; when appearing on the field, targets [Giant] teammates with less than 50% HP for HP 35% healing; when remaining time is 60 s or less, [PSY]/Striker class and [Giant] teammates ATK Up Lv.3",
+            "[PSY]/Striker class and [Giant] teammates HP Up Lv.6, Guard % Up Lv.5; when appearing on the field, targets [Giant] teammates with less than 50% HP for HP 40% healing; when remaining time is 60 s or less, [PSY]/Striker class and [Giant] teammates ATK Up Lv.4",
+            "[PSY]/Striker class and [Giant] teammates HP Up Lv.7, Guard % Up Lv.6; when appearing on the field, targets [Giant] teammates with less than 50% HP for HP 45% healing; when remaining time is 60 s or less, [PSY]/Striker class and [Giant] teammates ATK Up Lv.5",
+            "[PSY]/Striker class and [Giant] teammates HP Up Lv.8, Guard % Up Lv.7; when appearing on the field, targets [Giant] teammates with less than 50% HP for HP 50% healing; when remaining time is 60 s or less, [PSY]/Striker class and [Giant] teammates ATK Up Lv.6"
         ],
         festSpecial: [
             {
-                cooldown: 24,
-                description: "Targets [DEX]/Slasher class teammates for 200 HP per interval healing (11 s); if 4 or more [Elbaph Arc] characters are on the team, targets [QCK] enemies for ATK Down Lv.3 (11 s); when remaining time is 50s or more, targets (not including self) 2 \"Monkey D. Luffy,\" \"Collun,\" and [Red-Haired Pirates] [Roger Pirates] teammates for 73% chance of Haste; when remaining time is less than 50 s, targets (not including self) 2 \"Monkey D. Luffy,\" \"Collun,\" and [Red-Haired Pirates] [Roger Pirates] teammates for Special CT 21% reduction; during Assault Rumble, targets [QCK] enemies for ATK x 2.5 damage, DEF Down Lv.2 (11 s)"
+                cooldown: 26,
+                description: "Targets [PSY]/Striker class and [Giant] teammates for DEF Up Lv.1 (6 s), RCV x 1.1 healing; targets [Giant] teammates for 73% chance to evade RCV Bind/Damage Over Time (6 s); if current team is 7 teammates or more, targets enemies within large range for ATK x 3.2 damage; during Assault Rumble, targets [INT]/Slasher class enemies for 73% chance of Halve DEF (11 s), ATK x 3.2 damage; if 5 or more [Giant] characters are on the team, switches character with 2nd sub character"
             },
             {
-                cooldown: 24,
-                description: "Targets [DEX]/Slasher class teammates for 230 HP per interval healing (12 s); if 4 or more [Elbaph Arc] characters are on the team, targets [QCK] enemies for ATK Down Lv.3 (12 s); when remaining time is 50s or more, targets (not including self) 2 \"Monkey D. Luffy,\" \"Collun,\" and [Red-Haired Pirates] [Roger Pirates] teammates for 76% chance of Haste; when remaining time is less than 50 s, targets (not including self) 2 \"Monkey D. Luffy,\" \"Collun,\" and [Red-Haired Pirates] [Roger Pirates] teammates for Special CT 22% reduction; during Assault Rumble, targets [QCK] enemies for ATK x 2.6 damage, DEF Down Lv.2 (12 s)"
+                cooldown: 26,
+                description: "Targets [PSY]/Striker class and [Giant] teammates for DEF Up Lv.1 (7 s), RCV x 1.2 healing; targets [Giant] teammates for 76% chance to evade RCV Bind/Damage Over Time (7 s); if current team is 7 teammates or more, targets enemies within large range for ATK x 3.4 damage; during Assault Rumble, targets [INT]/Slasher class enemies for 76% chance of Halve DEF (12 s), ATK x 3.4 damage; if 5 or more [Giant] characters are on the team, switches character with 2nd sub character"
             },
             {
-                cooldown: 24,
-                description: "Targets [DEX]/Slasher class teammates for 260 HP per interval healing (13 s); if 4 or more [Elbaph Arc] characters are on the team, targets [QCK] enemies for ATK Down Lv.3 (13 s); when remaining time is 50s or more, targets (not including self) 2 \"Monkey D. Luffy,\" \"Collun,\" and [Red-Haired Pirates] [Roger Pirates] teammates for 79% chance of Haste; when remaining time is less than 50 s, targets (not including self) 2 \"Monkey D. Luffy,\" \"Collun,\" and [Red-Haired Pirates] [Roger Pirates] teammates for Special CT 23% reduction; during Assault Rumble, targets [QCK] enemies for ATK x 2.7 damage, DEF Down Lv.2 (13 s)"
+                cooldown: 26,
+                description: "Targets [PSY]/Striker class and [Giant] teammates for DEF Up Lv.1 (8 s), RCV x 1.3 healing; targets [Giant] teammates for 79% chance to evade RCV Bind/Damage Over Time (8 s); if current team is 7 teammates or more, targets enemies within large range for ATK x 3.6 damage; during Assault Rumble, targets [INT]/Slasher class enemies for 79% chance of Halve DEF (13 s), ATK x 3.6 damage; if 5 or more [Giant] characters are on the team, switches character with 2nd sub character"
             },
             {
-                cooldown: 24,
-                description: "Targets [DEX]/Slasher class teammates for 290 HP per interval healing (14 s); if 4 or more [Elbaph Arc] characters are on the team, targets [QCK] enemies for ATK Down Lv.3 (14 s); when remaining time is 50s or more, targets (not including self) 2 \"Monkey D. Luffy,\" \"Collun,\" and [Red-Haired Pirates] [Roger Pirates] teammates for 82% chance of Haste; when remaining time is less than 50 s, targets (not including self) 2 \"Monkey D. Luffy,\" \"Collun,\" and [Red-Haired Pirates] [Roger Pirates] teammates for Special CT 24% reduction; during Assault Rumble, targets [QCK] enemies for ATK x 2.8 damage, DEF Down Lv.2 (14 s)"
+                cooldown: 26,
+                description: "Targets [PSY]/Striker class and [Giant] teammates for DEF Up Lv.2 (9 s), RCV x 1.4 healing; targets [Giant] teammates for 82% chance to evade RCV Bind/Damage Over Time (9 s); if current team is 7 teammates or more, targets enemies within large range for ATK x 3.8 damage; during Assault Rumble, targets [INT]/Slasher class enemies for 82% chance of Halve DEF (14 s), ATK x 3.8 damage; if 5 or more [Giant] characters are on the team, switches character with 2nd sub character"
             },
             {
-                cooldown: 24,
-                description: "Targets [DEX]/Slasher class teammates for 320 HP per interval healing (15 s); if 4 or more [Elbaph Arc] characters are on the team, targets [QCK] enemies for ATK Down Lv.4 (15 s); when remaining time is 50s or more, targets (not including self) 2 \"Monkey D. Luffy,\" \"Collun,\" and [Red-Haired Pirates] [Roger Pirates] teammates for 85% chance of Haste; when remaining time is less than 50 s, targets (not including self) 2 \"Monkey D. Luffy,\" \"Collun,\" and [Red-Haired Pirates] [Roger Pirates] teammates for Special CT 25% reduction; during Assault Rumble, targets [QCK] enemies for ATK x 2.9 damage, DEF Down Lv.2 (15 s)"
+                cooldown: 26,
+                description: "Targets [PSY]/Striker class and [Giant] teammates for DEF Up Lv.2 (10 s), RCV x 1.5 healing; targets [Giant] teammates for 85% chance to evade RCV Bind/Damage Over Time (10 s); if current team is 7 teammates or more, targets enemies within large range for ATK x 4 damage; during Assault Rumble, targets [INT]/Slasher class enemies for 85% chance of Halve DEF (15 s), ATK x 4 damage; if 5 or more [Giant] characters are on the team, switches character with 2nd sub character"
             },
             {
-                cooldown: 24,
-                description: "Targets [DEX]/Slasher class teammates for 350 HP per interval healing (16 s); if 4 or more [Elbaph Arc] characters are on the team, targets [QCK] enemies for ATK Down Lv.4 (16 s); when remaining time is 50s or more, targets (not including self) 2 \"Monkey D. Luffy,\" \"Collun,\" and [Red-Haired Pirates] [Roger Pirates] teammates for 88% chance of Haste; when remaining time is less than 50 s, targets (not including self) 2 \"Monkey D. Luffy,\" \"Collun,\" and [Red-Haired Pirates] [Roger Pirates] teammates for Special CT 26% reduction; during Assault Rumble, targets [QCK] enemies for ATK x 3 damage, DEF Down Lv.3 (16 s)"
+                cooldown: 26,
+                description: "Targets [PSY]/Striker class and [Giant] teammates for DEF Up Lv.3 (11 s), RCV x 1.6 healing; targets [Giant] teammates for 88% chance to evade RCV Bind/Damage Over Time (11 s); if current team is 7 teammates or more, targets enemies within large range for ATK x 4.2 damage; during Assault Rumble, targets [INT]/Slasher class enemies for 88% chance of Halve DEF (16 s), ATK x 4.2 damage; if 5 or more [Giant] characters are on the team, switches character with 2nd sub character"
             },
             {
-                cooldown: 24,
-                description: "Targets [DEX]/Slasher class teammates for 380 HP per interval healing (17 s); if 4 or more [Elbaph Arc] characters are on the team, targets [QCK] enemies for ATK Down Lv.4 (17 s); when remaining time is 50s or more, targets (not including self) 2 \"Monkey D. Luffy,\" \"Collun,\" and [Red-Haired Pirates] [Roger Pirates] teammates for 91% chance of Haste; when remaining time is less than 50 s, targets (not including self) 2 \"Monkey D. Luffy,\" \"Collun,\" and [Red-Haired Pirates] [Roger Pirates] teammates for Special CT 27% reduction; during Assault Rumble, targets [QCK] enemies for ATK x 3.1 damage, DEF Down Lv.3 (17 s)"
+                cooldown: 26,
+                description: "Targets [PSY]/Striker class and [Giant] teammates for DEF Up Lv.3 (12 s), RCV x 1.7 healing; targets [Giant] teammates for 91% chance to evade RCV Bind/Damage Over Time (12 s); if current team is 7 teammates or more, targets enemies within large range for ATK x 4.4 damage; during Assault Rumble, targets [INT]/Slasher class enemies for 91% chance of Halve DEF (17 s), ATK x 4.4 damage; if 5 or more [Giant] characters are on the team, switches character with 2nd sub character"
             },
             {
-                cooldown: 24,
-                description: "Targets [DEX]/Slasher class teammates for 410 HP per interval healing (18 s); if 4 or more [Elbaph Arc] characters are on the team, targets [QCK] enemies for ATK Down Lv.5 (18 s); when remaining time is 50s or more, targets (not including self) 2 \"Monkey D. Luffy,\" \"Collun,\" and [Red-Haired Pirates] [Roger Pirates] teammates for 94% chance of Haste; when remaining time is less than 50 s, targets (not including self) 2 \"Monkey D. Luffy,\" \"Collun,\" and [Red-Haired Pirates] [Roger Pirates] teammates for Special CT 28% reduction; during Assault Rumble, targets [QCK] enemies for ATK x 3.2 damage, DEF Down Lv.3 (18 s)"
+                cooldown: 26,
+                description: "Targets [PSY]/Striker class and [Giant] teammates for DEF Up Lv.3 (13 s), RCV x 1.8 healing; targets [Giant] teammates for 94% chance to evade RCV Bind/Damage Over Time (13 s); if current team is 7 teammates or more, targets enemies within large range for ATK x 4.6 damage; during Assault Rumble, targets [INT]/Slasher class enemies for 94% chance of Halve DEF (18 s), ATK x 4.6 damage; if 5 or more [Giant] characters are on the team, switches character with 2nd sub character"
             },
             {
-                cooldown: 24,
-                description: "Targets [DEX]/Slasher class teammates for 440 HP per interval healing (19 s); if 4 or more [Elbaph Arc] characters are on the team, targets [QCK] enemies for ATK Down Lv.5 (19 s); when remaining time is 50s or more, targets (not including self) 2 \"Monkey D. Luffy,\" \"Collun,\" and [Red-Haired Pirates] [Roger Pirates] teammates for 97% chance of Haste; when remaining time is less than 50 s, targets (not including self) 2 \"Monkey D. Luffy,\" \"Collun,\" and [Red-Haired Pirates] [Roger Pirates] teammates for Special CT 29% reduction; during Assault Rumble, targets [QCK] enemies for ATK x 3.3 damage, DEF Down Lv.3 (19 s)"
+                cooldown: 26,
+                description: "Targets [PSY]/Striker class and [Giant] teammates for DEF Up Lv.4 (14 s), RCV x 1.9 healing; targets [Giant] teammates for 97% chance to evade RCV Bind/Damage Over Time (14 s); if current team is 7 teammates or more, targets enemies within large range for ATK x 4.8 damage; during Assault Rumble, targets [INT]/Slasher class enemies for 97% chance of Halve DEF (19 s), ATK x 4.8 damage; if 5 or more [Giant] characters are on the team, switches character with 2nd sub character"
             },
             {
-                cooldown: 24,
-                description: "Targets [DEX]/Slasher class teammates for 500 HP per interval healing (20 s); if 4 or more [Elbaph Arc] characters are on the team, targets [QCK] enemies for ATK Down Lv.6 (20 s); when remaining time is 50s or more, targets (not including self) 2 \"Monkey D. Luffy,\" \"Collun,\" and [Red-Haired Pirates] [Roger Pirates] teammates for 100% chance of Haste; when remaining time is less than 50 s, targets (not including self) 2 \"Monkey D. Luffy,\" \"Collun,\" and [Red-Haired Pirates] [Roger Pirates] teammates for Special CT 30% reduction; during Assault Rumble, targets [QCK] enemies for ATK x 3.5 damage, DEF Down Lv.5 (20 s)"
+                cooldown: 26,
+                description: "Targets [PSY]/Striker class and [Giant] teammates for DEF Up Lv.5 (15 s), RCV x 2 healing; targets [Giant] teammates for 100% chance to evade RCV Bind/Damage Over Time (15 s); if current team is 7 teammates or more, targets enemies within large range for ATK x 5 damage; during Assault Rumble, targets [INT]/Slasher class enemies for 100% chance of Halve DEF (20 s), ATK x 5 damage; if 5 or more [Giant] characters are on the team, switches character with 2nd sub character"
+            }
+        ],
+        festSuperSpecial: {
+            base: {
+                condition: "After character receives team's Rumble Special 4 times",
+                description: "Targets [PSY]/Striker class and [Giant] teammates for DEF Up Lv.7 (30 s), RCV x 3 healing; targets [Giant] teammates for 100% chance to evade RCV Bind/Damage Over Time/percent damage (30 s)、targets enemies within large range for ATK x 5.5 damage; during Assault Rumble, targets [INT]/Slasher class enemies for 100% chance of Halve DEF (25 s), ATK x 5.5 damage; if 5 or more [Giant] characters are on the team, switches character with 2nd sub character"
+            },
+            llbbase: {
+                condition: "After character receives team's Rumble Special 3 times",
+                description: "Targets [PSY]/Striker class and [Giant] teammates for DEF Up Lv.8 (40 s), RCV x 4 healing; targets [Giant] teammates for 100% chance to evade RCV Bind/Damage Over Time/percent damage (40 s)、targets enemies within large range for ATK x 6 damage; during Assault Rumble, targets [INT]/Slasher class enemies for 100% chance of Halve DEF (30 s), ATK x 6 damage; if 5 or more [Giant] characters are on the team, switches character with 2nd sub character"
+            }
+        }
+    },
+    4635: {//Ripley
+        captain: "Reduces crew's Special charge time by 2 turns and Switch Effect by 2 at start of quest, boosts Powerhouse and Striker characters' HP by 1.2x, ATK by 4.75x, boosts their ATK by approximately 6x when they have [RCV] slots, makes their [RCV] slots have matching slot effects, reduces [DEX] characters' Bind duration by 6 turns, reduces crew's Burn (applied by enemy) duration by 10 turns, and allows crew to obtain [RCV] slots with PERFECT taps",
+        special: "Extends the duration of crew's damage dealt to enemies with a specific status effect boost and Percent Damage Reduction status by 2 turns, further increases all enemies' increase damage taken effect by +1.0, and reduces all enemies' Percent Damage Reduction duration by 10 turns. If \"Scopper Gaban\" or \"Collun\" has launched a Special in this turn, swaps bottom-left character with the Captain for 3 turns, then after that, applies -50% [DEX] and [PSY] Resistance to all enemies for 2 turns",
+        specialName: "Telling the Grand History of Elbaph",
+        sailor: {
+            base: "Reduces [DEX] [Straw Hat Pirates] [Roger Pirates] [Giant] characters' Bind duration by 6 turns and makes their [RCV] slots have matching slot effects",
+            level1: "If 3 or more [Straw Hat Pirates] [Roger Pirates] [Giant] characters are on the crew and enemy launches Threshold Damage Reduction effect, reduces all enemies' Threshold Damage Reduction duration by 5 turns at start of crew's next turn (only once per quest)"
+        },
+        superSpecialCriteria: "When any of the following characters are on the crew (can be launched when character is a crewmate): Scopper Gaban, Collun",
+        superSpecial: "Can choose to completely remove crew's Swap Captains effect, changes [DEX] characters' [BLOCK] and type slots to [RCV], applies \"Territory: [DEX]\" to the field for 2 turns, doubles the type effects of normal attacks for Striker characters for 1 turn (effect can be overwritten), reduces \"Scopper Gaban\" crewmate's Special charge time by 8 turns, and changes [DEX] characters to Super [DEX]",
+        support: [
+            {
+                Characters: "Striker class characters with the following Character Tag: [Giant]",
+                description: [
+                    "Once per quest, if enemy activates Threshold Damage Reduction, reduces all enemies' Threshold Damage Reduction duration by 1 turn at start of crew's next turn",
+                    "Once per quest, if enemy activates Threshold Damage Reduction, reduces all enemies' Threshold Damage Reduction duration by 1 turn at start of crew's next turn",
+                    "Once per quest, if enemy activates Threshold Damage Reduction, reduces all enemies' Threshold Damage Reduction duration by 2 turns at start of crew's next turn",
+                    "Once per quest, if enemy activates Threshold Damage Reduction, reduces all enemies' Threshold Damage Reduction duration by 2 turns at start of crew's next turn",
+                    "Once per quest, if enemy activates Threshold Damage Reduction, reduces all enemies' Threshold Damage Reduction duration by 3 turns at start of crew's next turn"
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base RCV by 10",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 20",
+            "Acquire Potential 1: Critical Hit",
+            "Boosts base ATK by 10",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 20",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 20",
+            "Boosts base HP by 30",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 30",
+            "Boosts base ATK by 10",
+            "Boosts base ATK by 20",
+            "Acquire Potential 2: [QCK] Damage Reduction",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base HP by 50",
+            "Boosts base ATK by 30",
+            "Boosts base RCV by 30",
+            "Boosts base HP by 50",
+            "Boosts base HP by 60",
+            "Boosts base ATK by 30",
+            "Boosts base HP by 60",
+            "Boosts base ATK by 30",
+            "Acquire Sailor Ability 2: If 3 or more [Straw Hat Pirates] [Roger Pirates] [Giant] characters are on the crew and enemy launches Threshold Damage Reduction effect, reduces all enemies' Threshold Damage Reduction duration by 5 turns at start of crew's next turn (only once per quest)",
+            "Boosts base RCV by 40",
+            "Boosts base HP by 80",
+            "Boosts base ATK by 40",
+            "Boosts base HP by 80",
+            "Acquire Potential 3: Last Tap",
+            "LOCKED WITH KEY",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 150",
+            "Boosts base ATK by 50",
+            "Boosts base HP by 150",
+            "Boosts base ATK by 50",
+            "Boosts base HP by 200",
+            "Boosts base RCV by 30",
+            "Boosts base ATK by 100",
+            "Reduce base Special Cooldown by 1 turn"
+        ],
+        lLimit: [
+            null,
+            null,
+            null,
+            null,
+            {
+                rSuperSpecial: true
+            }
+        ],
+        potential: [
+            {
+                Name: "Critical Hit",
+                description: [
+                    "If you hit a PERFECT with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 70% chance to deal 7% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 80% chance to deal 8% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 100% chance to deal 10% of this character's attack in extra damage"
+                ]
+            },
+            {
+                Name: "[QCK] Damage Reduction",
+                description: [
+                    "Reduces damage taken from [QCK] characters by 2%",
+                    "Reduces damage taken from [QCK] characters by 3%",
+                    "Reduces damage taken from [QCK] characters by 4%",
+                    "Reduces damage taken from [QCK] characters by 5%",
+                    "Reduces damage taken from [QCK] characters by 7%"
+                ]
+            },
+            {
+                Name: "Last Tap",
+                description: [
+                    "Obtain Last Tap Lv.1",
+                    "Obtain Last Tap Lv.2",
+                    "Obtain Last Tap Lv.3",
+                    "Obtain Last Tap Lv.4",
+                    "Obtain Last Tap Lv.5"
+                ]
+            }
+        ],
+        lastTap: {
+            condition: "When any of the following characters are on the crew (except as Support Characters): Scopper Gaban, Collun",
+            description: [
+                "Boosts damage dealt to enemies with increase damage taken status by 2.5x for 1 turn, and if crew lands 6 PERFECT strikes in this turn, sets all enemies' DEF to 0 and applies increase damage taken status to all enemies by 2x the next turn",
+                "Boosts damage dealt to enemies with increase damage taken status by 2.5x for 1 turn, and if crew lands 6 PERFECT strikes in this turn, sets all enemies' DEF to 0 and applies increase damage taken status to all enemies by 2.5x the next turn",
+                "Boosts damage dealt to enemies with increase damage taken status by 3x for 1 turn, and if crew lands 6 PERFECT strikes in this turn, sets all enemies' DEF to 0 and applies increase damage taken status to all enemies by 2.5x the next turn",
+                "Boosts damage dealt to enemies with increase damage taken status by 3x for 1 turn, and if crew lands 6 PERFECT strikes in this turn, sets all enemies' DEF to 0 and applies increase damage taken status to all enemies by 3x the next turn",
+                "Boosts damage dealt to enemies with increase damage taken status by 3x for 1 turn, and if crew lands 6 PERFECT strikes in this turn, sets all enemies' DEF to 0, applies increase damage taken status to all enemies by 3x, and applies Weakened status (increase damage taken by 1.5x for all enemies, damage further increased by 1.25x if enemy has Increase Damage Taken) to all enemies the next turn"
+            ]
+        },
+        festStats: {
+            def: 169,
+            spd: 144,
+            style: "SPT"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Power Attack",
+            "Heal Lv.1 (Small Range)",
+            "Power Attack"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "Completely evades Special Bind, reduce damage taken from [QCK] by 30％",
+        festAbility: [
+            "[DEX]/Powerhouse class and [Giant] teammates HP Up Lv.2, SPD Up Lv.2; \"Scopper Gaban\" and [Giant] teammates ATK Up Lv.1, HP Up Lv.1; when remaining time is 60 s or more, self Special CT Speed Up Lv.1; \"Scopper Gaban\" and \"Collun\" teammates Special CT Speed Up Lv.1",
+            "[DEX]/Powerhouse class and [Giant] teammates HP Up Lv.3, SPD Up Lv.3; \"Scopper Gaban\" and [Giant] teammates ATK Up Lv.2, HP Up Lv.2; when remaining time is 60 s or more, self Special CT Speed Up Lv.1; \"Scopper Gaban\" and \"Collun\" teammates Special CT Speed Up Lv.1",
+            "[DEX]/Powerhouse class and [Giant] teammates HP Up Lv.4, SPD Up Lv.4; \"Scopper Gaban\" and [Giant] teammates ATK Up Lv.3, HP Up Lv.3; when remaining time is 60 s or more, self Special CT Speed Up Lv.2; \"Scopper Gaban\" and \"Collun\" teammates Special CT Speed Up Lv.2",
+            "[DEX]/Powerhouse class and [Giant] teammates HP Up Lv.5, SPD Up Lv.5; \"Scopper Gaban\" and [Giant] teammates ATK Up Lv.4, HP Up Lv.4; when remaining time is 60 s or more, self Special CT Speed Up Lv.2; \"Scopper Gaban\" and \"Collun\" teammates Special CT Speed Up Lv.2",
+            "[DEX]/Powerhouse class and [Giant] teammates HP Up Lv.6, SPD Up Lv.6; \"Scopper Gaban\" and [Giant] teammates ATK Up Lv.5, HP Up Lv.5; when remaining time is 60 s or more, self Special CT Speed Up Lv.3; \"Scopper Gaban\" and \"Collun\" teammates Special CT Speed Up Lv.3"
+        ],
+        festSpecial: [
+            {
+                cooldown: 28,
+                description: "Targets [DEX]/Powerhouse class and [Giant] teammates for ATK Up Lv.1 (11 s), SPD Up Lv.1 (11 s); targets \"Scopper Gaban\" and \"Collun\" teammates for Special CT 11% reduction, 73% chance of Haste; if \"Scopper Gaban\" or \"Collun\" is on the team, targets [DEX]/Powerhouse class and [Giant] teammates for 73% chance to evade Halve Stats (6 s); during Assault Rumble, targets [DEX]/Striker class teammates for Special CT Speed Up Lv.1 (11 s); targets [QCK]/Slasher class enemies for ATK x 2.2 damage; when remaining time is 60 s or less, switches character with 2nd sub character"
+            },
+            {
+                cooldown: 28,
+                description: "Targets [DEX]/Powerhouse class and [Giant] teammates for ATK Up Lv.1 (12 s), SPD Up Lv.1 (12 s); targets \"Scopper Gaban\" and \"Collun\" teammates for Special CT 12% reduction, 76% chance of Haste; if \"Scopper Gaban\" or \"Collun\" is on the team, targets [DEX]/Powerhouse class and [Giant] teammates for 76% chance to evade Halve Stats (7 s); during Assault Rumble, targets [DEX]/Striker class teammates for Special CT Speed Up Lv.1 (12 s); targets [QCK]/Slasher class enemies for ATK x 2.4 damage; when remaining time is 60 s or less, switches character with 2nd sub character"
+            },
+            {
+                cooldown: 28,
+                description: "Targets [DEX]/Powerhouse class and [Giant] teammates for ATK Up Lv.1 (13 s), SPD Up Lv.1 (13 s); targets \"Scopper Gaban\" and \"Collun\" teammates for Special CT 13% reduction, 79% chance of Haste; if \"Scopper Gaban\" or \"Collun\" is on the team, targets [DEX]/Powerhouse class and [Giant] teammates for 79% chance to evade Halve Stats (8 s); during Assault Rumble, targets [DEX]/Striker class teammates for Special CT Speed Up Lv.1 (13 s); targets [QCK]/Slasher class enemies for ATK x 2.6 damage; when remaining time is 60 s or less, switches character with 2nd sub character"
+            },
+            {
+                cooldown: 28,
+                description: "Targets [DEX]/Powerhouse class and [Giant] teammates for ATK Up Lv.2 (14 s), SPD Up Lv.2 (14 s); targets \"Scopper Gaban\" and \"Collun\" teammates for Special CT 14% reduction, 82% chance of Haste; if \"Scopper Gaban\" or \"Collun\" is on the team, targets [DEX]/Powerhouse class and [Giant] teammates for 82% chance to evade Halve Stats (9 s); during Assault Rumble, targets [DEX]/Striker class teammates for Special CT Speed Up Lv.1 (14 s); targets [QCK]/Slasher class enemies for ATK x 2.8 damage; when remaining time is 60 s or less, switches character with 2nd sub character"
+            },
+            {
+                cooldown: 28,
+                description: "Targets [DEX]/Powerhouse class and [Giant] teammates for ATK Up Lv.2 (15 s), SPD Up Lv.2 (15 s); targets \"Scopper Gaban\" and \"Collun\" teammates for Special CT 15% reduction, 85% chance of Haste; if \"Scopper Gaban\" or \"Collun\" is on the team, targets [DEX]/Powerhouse class and [Giant] teammates for 85% chance to evade Halve Stats (10 s); during Assault Rumble, targets [DEX]/Striker class teammates for Special CT Speed Up Lv.2 (15 s); targets [QCK]/Slasher class enemies for ATK x 3 damage; when remaining time is 60 s or less, switches character with 2nd sub character"
+            },
+            {
+                cooldown: 28,
+                description: "Targets [DEX]/Powerhouse class and [Giant] teammates for ATK Up Lv.3 (16 s), SPD Up Lv.3 (16 s); targets \"Scopper Gaban\" and \"Collun\" teammates for Special CT 16% reduction, 88% chance of Haste; if \"Scopper Gaban\" or \"Collun\" is on the team, targets [DEX]/Powerhouse class and [Giant] teammates for 88% chance to evade Halve Stats (11 s); during Assault Rumble, targets [DEX]/Striker class teammates for Special CT Speed Up Lv.2 (16 s); targets [QCK]/Slasher class enemies for ATK x 3.2 damage; when remaining time is 60 s or less, switches character with 2nd sub character"
+            },
+            {
+                cooldown: 28,
+                description: "Targets [DEX]/Powerhouse class and [Giant] teammates for ATK Up Lv.3 (17 s), SPD Up Lv.3 (17 s); targets \"Scopper Gaban\" and \"Collun\" teammates for Special CT 17% reduction, 91% chance of Haste; if \"Scopper Gaban\" or \"Collun\" is on the team, targets [DEX]/Powerhouse class and [Giant] teammates for 91% chance to evade Halve Stats (12 s); during Assault Rumble, targets [DEX]/Striker class teammates for Special CT Speed Up Lv.2 (17 s); targets [QCK]/Slasher class enemies for ATK x 3.4 damage; when remaining time is 60 s or less, switches character with 2nd sub character"
+            },
+            {
+                cooldown: 28,
+                description: "Targets [DEX]/Powerhouse class and [Giant] teammates for ATK Up Lv.3 (18 s), SPD Up Lv.3 (18 s); targets \"Scopper Gaban\" and \"Collun\" teammates for Special CT 18% reduction, 94% chance of Haste; if \"Scopper Gaban\" or \"Collun\" is on the team, targets [DEX]/Powerhouse class and [Giant] teammates for 94% chance to evade Halve Stats (13 s); during Assault Rumble, targets [DEX]/Striker class teammates for Special CT Speed Up Lv.3 (18 s); targets [QCK]/Slasher class enemies for ATK x 3.6 damage; when remaining time is 60 s or less, switches character with 2nd sub character"
+            },
+            {
+                cooldown: 28,
+                description: "Targets [DEX]/Powerhouse class and [Giant] teammates for ATK Up Lv.4 (19 s), SPD Up Lv.4 (19 s); targets \"Scopper Gaban\" and \"Collun\" teammates for Special CT 19% reduction, 97% chance of Haste; if \"Scopper Gaban\" or \"Collun\" is on the team, targets [DEX]/Powerhouse class and [Giant] teammates for 97% chance to evade Halve Stats (14 s); during Assault Rumble, targets [DEX]/Striker class teammates for Special CT Speed Up Lv.3 (19 s); targets [QCK]/Slasher class enemies for ATK x 3.8 damage; when remaining time is 60 s or less, switches character with 2nd sub character"
+            },
+            {
+                cooldown: 28,
+                description: "Targets [DEX]/Powerhouse class and [Giant] teammates for ATK Up Lv.5 (20 s), SPD Up Lv.5 (20 s); targets \"Scopper Gaban\" and \"Collun\" teammates for Special CT 20% reduction, 100% chance of Haste; if \"Scopper Gaban\" or \"Collun\" is on the team, targets [DEX]/Powerhouse class and [Giant] teammates for 100% chance to evade Halve Stats (15 s); during Assault Rumble, targets [DEX]/Striker class teammates for Special CT Speed Up Lv.4 (20 s); targets [QCK]/Slasher class enemies for ATK x 4 damage; when remaining time is 60 s or less, switches character with 2nd sub character"
+            }
+        ],
+        festSuperSpecial: {
+            base: {
+                condition: "When remaining time is 60s or less",
+                description: "Targets [DEX]/Powerhouse class and [Giant] teammates for ATK Up Lv.6 (30 s), SPD Up Lv.6 (30 s); targets [QCK] enemies for 100% chance of Halve DEF (10 s); targets \"Scopper Gaban\" and \"Collun\" teammates for Special CT 30% reduction, 100% chance of Haste; if \"Scopper Gaban\" or \"Collun\" is on the team, targets [DEX]/Powerhouse class and [Giant] teammates for 100% chance to evade Halve Stats (20 s); during Assault Rumble, targets [DEX]/Striker class teammates for Special CT Speed Up Lv.6 (30 s); targets [QCK]/Slasher class enemies for ATK x 4.5 damage; when remaining time is 60 s or less, switches character with 2nd sub character"
+            },
+            llbbase: {
+                condition: "When remaining time is 70s or less",
+                description: "Targets [DEX]/Powerhouse class and [Giant] teammates for ATK Up Lv.7 (40 s), SPD Up Lv.7 (40 s); targets [QCK] enemies for 100% chance of Halve DEF (15 s); targets \"Scopper Gaban\" and \"Collun\" teammates for Special CT 50% reduction, 100% chance of Haste; if \"Scopper Gaban\" or \"Collun\" is on the team, targets [DEX]/Powerhouse class and [Giant] teammates for 100% chance to evade Halve Stats (30 s); during Assault Rumble, targets [DEX]/Striker class teammates for Special CT Speed Up Lv.7 (40 s); targets [QCK]/Slasher class enemies for ATK x 5 damage; when remaining time is 60 s or less, switches character with 2nd sub character"
+            }
+        }
+    },
+    4636: {//Collun
+        special: "Doubles all enemies' damage taken for 1 turn, boosts [Elbaph Arc] characters' slot effects by 2.5x for 3 turns, changes Powerhouse and Striker characters' slots (including [BLOCK] slots) to [RCV], and deals 60x character's ATK in [PSY] damage to all enemies at end of turn for 3 turns",
+        specialName: "Young Warrior Lost to the Emperor",
+        sailor: {
+            base: "Boosts [Four Emperors] [Giant] characters' base ATK by 250",
+            level1: "Makes [PSY] characters' [INT] slots have matching slot effects"
+        },
+        support: [
+            {
+                Characters: "[PSY] Striker characters",
+                description: [
+                    "Adds 1% of character's base HP to supported character's base HP [AUTO+] At battle 4, activates supported character's Special",
+                    "Adds 3% of character's base HP to supported character's base HP [AUTO+] At battle 4, activates supported character's Special",
+                    "Adds 5% of character's base HP to supported character's base HP [AUTO+] At battle 4, activates supported character's Special",
+                    "Adds 7% of character's base HP to supported character's base HP [AUTO+] At battle 4, activates supported character's Special",
+                    "Adds 9% of character's base HP to supported character's base HP [AUTO+] At battle 4, activates supported character's Special"
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base RCV by 10",
+            "Boosts base HP by 60",
+            "Boosts base RCV by 10",
+            "Acquire Potential 1: Pinch Healing",
+            "Boosts base ATK by 30",
+            "Boosts base HP by 60",
+            "Boosts base ATK by 30",
+            "Acquire 1 additional Socket slot",
+            "Boosts base RCV by 10",
+            "Boosts base ATK by 40",
+            "Boosts base RCV by 20",
+            "Acquire Sailor Ability 2: Makes [PSY] characters' [INT] slots have matching slot effects",
+            "Boosts base HP by 80",
+            "Reduce base Special Cooldown by 1 turn",
+            "Acquire Potential 2: No Healing"
+        ],
+        potential: [
+            {
+                Name: "Pinch Healing",
+                description: [
+                    "If HP is below 10% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 20% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 30% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 40% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 50% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character"
+                ]
+            },
+            {
+                Name: "No Healing",
+                description: [
+                    "Reduces No Healing duration by 1 turn",
+                    "Reduces No Healing duration by 2 turns",
+                    "Reduces No Healing duration by 3 turns",
+                    "Reduces No Healing duration by 4 turns",
+                    "Reduces No Healing duration by 5 turns"
+                ]
+            }
+        ],
+        festStats: {
+            def: 232,
+            spd: 122,
+            style: "DEF"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Normal Attack",
+            "Power Attack",
+            "Heal Self Lv.2"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "Completely evades Special Bind, reduce damage taken from [INT] by 20%",
+        festAbility: [
+            "[PSY]/Striker class and [Giant] and \"Scopper Gaban\" teammates ATK Up Lv.1, DEF Up Lv.1; when guarding, up to 10 times \"Scopper Gaban\" and [Giant] teammates Special CT 6% reduction; when remaining time is 60 s or more, \"Scopper Gaban\" and [Giant] teammates Guard % Up Lv.1; during Assault Rumble, self HP Up Lv.6, Special CT Speed Up Lv.2",
+            "[PSY]/Striker class and [Giant] and \"Scopper Gaban\" teammates ATK Up Lv.1, DEF Up Lv.1; when guarding, up to 10 times \"Scopper Gaban\" and [Giant] teammates Special CT 7% reduction; when remaining time is 60 s or more, \"Scopper Gaban\" and [Giant] teammates Guard % Up Lv.1; during Assault Rumble, self HP Up Lv.7, Special CT Speed Up Lv.3",
+            "[PSY]/Striker class and [Giant] and \"Scopper Gaban\" teammates ATK Up Lv.2, DEF Up Lv.2; when guarding, up to 10 times \"Scopper Gaban\" and [Giant] teammates Special CT 8% reduction; when remaining time is 60 s or more, \"Scopper Gaban\" and [Giant] teammates Guard % Up Lv.2; during Assault Rumble, self HP Up Lv.8, Special CT Speed Up Lv.4",
+            "[PSY]/Striker class and [Giant] and \"Scopper Gaban\" teammates ATK Up Lv.2, DEF Up Lv.2; when guarding, up to 10 times \"Scopper Gaban\" and [Giant] teammates Special CT 9% reduction; when remaining time is 60 s or more, \"Scopper Gaban\" and [Giant] teammates Guard % Up Lv.2; during Assault Rumble, self HP Up Lv.9, Special CT Speed Up Lv.5",
+            "[PSY]/Striker class and [Giant] and \"Scopper Gaban\" teammates ATK Up Lv.4, DEF Up Lv.3; when guarding, up to 10 times \"Scopper Gaban\" and [Giant] teammates Special CT 10% reduction; when remaining time is 60 s or more, \"Scopper Gaban\" and [Giant] teammates Guard % Up Lv.4; during Assault Rumble, self HP Up Lv.10, Special CT Speed Up Lv.6"
+        ],
+        festSpecial: [
+            {
+                cooldown: 28,
+                description: "Targets teammates within large range for Shield Lv.1 (11 s); targets enemies within medium range for ATK x 5.5 spread damage (damage on each enemy reduced based on number of total enemies); if 3 or more [Giant] characters or \"Scopper Gaban\" is on the team, targets [PSY]/Striker class and [Giant] and \"Scopper Gaban\" teammates for 73% chance to evade Action Bind (11 s); during Assault Rumble, targets [INT]/Slasher class enemies for DEF Down Lv.1 (11 s), ATK x 1.2 damage; when remaining time is 60 s or less, switches character with 1st sub character"
+            },
+            {
+                cooldown: 28,
+                description: "Targets teammates within large range for Shield Lv.1 (12 s); targets enemies within medium range for ATK x 6 spread damage (damage on each enemy reduced based on number of total enemies); if 3 or more [Giant] characters or \"Scopper Gaban\" is on the team, targets [PSY]/Striker class and [Giant] and \"Scopper Gaban\" teammates for 76% chance to evade Action Bind (12 s); during Assault Rumble, targets [INT]/Slasher class enemies for DEF Down Lv.1 (12 s), ATK x 1.4 damage; when remaining time is 60 s or less, switches character with 1st sub character"
+            },
+            {
+                cooldown: 28,
+                description: "Targets teammates within large range for Shield Lv.1 (13 s); targets enemies within medium range for ATK x 6.5 spread damage (damage on each enemy reduced based on number of total enemies); if 3 or more [Giant] characters or \"Scopper Gaban\" is on the team, targets [PSY]/Striker class and [Giant] and \"Scopper Gaban\" teammates for 79% chance to evade Action Bind (13 s); during Assault Rumble, targets [INT]/Slasher class enemies for DEF Down Lv.2 (13 s), ATK x 1.6 damage; when remaining time is 60 s or less, switches character with 1st sub character"
+            },
+            {
+                cooldown: 28,
+                description: "Targets teammates within large range for Shield Lv.1 (14 s); targets enemies within medium range for ATK x 7 spread damage (damage on each enemy reduced based on number of total enemies); if 3 or more [Giant] characters or \"Scopper Gaban\" is on the team, targets [PSY]/Striker class and [Giant] and \"Scopper Gaban\" teammates for 82% chance to evade Action Bind (14 s); during Assault Rumble, targets [INT]/Slasher class enemies for DEF Down Lv.2 (14 s), ATK x 1.8 damage; when remaining time is 60 s or less, switches character with 1st sub character"
+            },
+            {
+                cooldown: 28,
+                description: "Targets teammates within large range for Shield Lv.2 (15 s); targets enemies within medium range for ATK x 7.5 spread damage (damage on each enemy reduced based on number of total enemies); if 3 or more [Giant] characters or \"Scopper Gaban\" is on the team, targets [PSY]/Striker class and [Giant] and \"Scopper Gaban\" teammates for 85% chance to evade Action Bind (15 s); during Assault Rumble, targets [INT]/Slasher class enemies for DEF Down Lv.3 (15 s), ATK x 2 damage; when remaining time is 60 s or less, switches character with 1st sub character"
+            },
+            {
+                cooldown: 28,
+                description: "Targets teammates within large range for Shield Lv.2 (16 s); targets enemies within medium range for ATK x 8 spread damage (damage on each enemy reduced based on number of total enemies); if 3 or more [Giant] characters or \"Scopper Gaban\" is on the team, targets [PSY]/Striker class and [Giant] and \"Scopper Gaban\" teammates for 88% chance to evade Action Bind (16 s); during Assault Rumble, targets [INT]/Slasher class enemies for DEF Down Lv.3 (16 s), ATK x 2.2 damage; when remaining time is 60 s or less, switches character with 1st sub character"
+            },
+            {
+                cooldown: 28,
+                description: "Targets teammates within large range for Shield Lv.2 (17 s); targets enemies within medium range for ATK x 8.5 spread damage (damage on each enemy reduced based on number of total enemies); if 3 or more [Giant] characters or \"Scopper Gaban\" is on the team, targets [PSY]/Striker class and [Giant] and \"Scopper Gaban\" teammates for 91% chance to evade Action Bind (17 s); during Assault Rumble, targets [INT]/Slasher class enemies for DEF Down Lv.4 (17 s), ATK x 2.4 damage; when remaining time is 60 s or less, switches character with 1st sub character"
+            },
+            {
+                cooldown: 28,
+                description: "Targets teammates within large range for Shield Lv.3 (18 s); targets enemies within medium range for ATK x 9 spread damage (damage on each enemy reduced based on number of total enemies); if 3 or more [Giant] characters or \"Scopper Gaban\" is on the team, targets [PSY]/Striker class and [Giant] and \"Scopper Gaban\" teammates for 94% chance to evade Action Bind (18 s); during Assault Rumble, targets [INT]/Slasher class enemies for DEF Down Lv.4 (18 s), ATK x 2.6 damage; when remaining time is 60 s or less, switches character with 1st sub character"
+            },
+            {
+                cooldown: 28,
+                description: "Targets teammates within large range for Shield Lv.3 (19 s); targets enemies within medium range for ATK x 9.5 spread damage (damage on each enemy reduced based on number of total enemies); if 3 or more [Giant] characters or \"Scopper Gaban\" is on the team, targets [PSY]/Striker class and [Giant] and \"Scopper Gaban\" teammates for 97% chance to evade Action Bind (19 s); during Assault Rumble, targets [INT]/Slasher class enemies for DEF Down Lv.5 (19 s), ATK x 2.8 damage; when remaining time is 60 s or less, switches character with 1st sub character"
+            },
+            {
+                cooldown: 28,
+                description: "Targets teammates within large range for Shield Lv.4 (20 s); targets enemies within medium range for ATK x 10 spread damage (damage on each enemy reduced based on number of total enemies); if 3 or more [Giant] characters or \"Scopper Gaban\" is on the team, targets [PSY]/Striker class and [Giant] and \"Scopper Gaban\" teammates for 100% chance to evade Action Bind (20 s); during Assault Rumble, targets [INT]/Slasher class enemies for DEF Down Lv.6 (20 s), ATK x 3 damage; when remaining time is 60 s or less, switches character with 1st sub character"
+            }
+        ]
+    },
+    4637: {//Dr. Vegapunk - Lilith
+        special: "Reduces crew's lock chain multiplier/decrease chain multiplier growth duration by 6 turns, double Shooter and Striker characters' advantageous class effect for 1 turn, and sets the chain multiplier's minimum value at 2.75 and maximum value at 30.0 for 1 turn",
+        specialName: "Ideal New Laboratory",
+        sailor: {
+            base: "Boosts [Straw Hat Pirates] [Giant] characters' base ATK by 250",
+            level1: "Makes [DEX] characters' [STR] slots have matching slot effects"
+        },
+        support: [
+            {
+                Characters: "[DEX] Shooter characters",
+                description: [
+                    "Adds 1% of character's base HP to supported character's base HP [AUTO+] At battle 3, activates supported character's Special",
+                    "Adds 3% of character's base HP to supported character's base HP [AUTO+] At battle 3, activates supported character's Special",
+                    "Adds 5% of character's base HP to supported character's base HP [AUTO+] At battle 3, activates supported character's Special",
+                    "Adds 7% of character's base HP to supported character's base HP [AUTO+] At battle 3, activates supported character's Special",
+                    "Adds 9% of character's base HP to supported character's base HP [AUTO+] At battle 3, activates supported character's Special"
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base HP by 40",
+            "Boosts base ATK by 20",
+            "Boosts base HP by 50",
+            "Acquire Potential 1: Barrier Penetration",
+            "Boosts base ATK by 20",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 30",
+            "Acquire 1 additional Socket slot",
+            "Boosts base RCV by 30",
+            "Boosts base HP by 50",
+            "Boosts base ATK by 30",
+            "Acquire Sailor Ability 2: Makes [DEX] characters' [STR] slots have matching slot effects",
+            "Boosts base HP by 60",
+            "Reduce base Special Cooldown by 1 turn",
+            "Acquire Potential 2: No Healing"
+        ],
+        potential: [
+            {
+                Name: "Barrier Penetration",
+                description: [
+                    "This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 70% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 60% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
+                ]
+            },
+            {
+                Name: "No Healing",
+                description: [
+                    "Reduces No Healing duration by 1 turn",
+                    "Reduces No Healing duration by 2 turns",
+                    "Reduces No Healing duration by 3 turns",
+                    "Reduces No Healing duration by 4 turns",
+                    "Reduces No Healing duration by 5 turns"
+                ]
+            }
+        ],
+        festStats: {
+            def: 155,
+            spd: 152,
+            style: "DBF"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Heal Self Lv.2",
+            "Power Attack",
+            "Power Attack"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "Completely evades Special Bind, reduce damage taken from [QCK] by 20%",
+        festAbility: [
+            "[DEX]/Striker class and [Straw Hat Pirates] teammates ATK Up Lv.2; if 4 or more [Straw Hat Pirates] [Giant] [Scientist] characters are on the team, [QCK] enemies ATK Down Lv.3; when remaining time is 60 s or less, [QCK] enemies DEF Down Lv.2; during Assault Rumble, when appearing on the field, self Special CT 80% reduction",
+            "[DEX]/Striker class and [Straw Hat Pirates] teammates ATK Up Lv.3; if 4 or more [Straw Hat Pirates] [Giant] [Scientist] characters are on the team, [QCK] enemies ATK Down Lv.4; when remaining time is 60 s or less, [QCK] enemies DEF Down Lv.3; during Assault Rumble, when appearing on the field, self Special CT 85% reduction",
+            "[DEX]/Striker class and [Straw Hat Pirates] teammates ATK Up Lv.4; if 4 or more [Straw Hat Pirates] [Giant] [Scientist] characters are on the team, [QCK] enemies ATK Down Lv.5; when remaining time is 60 s or less, [QCK] enemies DEF Down Lv.4; during Assault Rumble, when appearing on the field, self Special CT 90% reduction",
+            "[DEX]/Striker class and [Straw Hat Pirates] teammates ATK Up Lv.5; if 4 or more [Straw Hat Pirates] [Giant] [Scientist] characters are on the team, [QCK] enemies ATK Down Lv.6; when remaining time is 60 s or less, [QCK] enemies DEF Down Lv.5; during Assault Rumble, when appearing on the field, self Special CT 95% reduction",
+            "[DEX]/Striker class and [Straw Hat Pirates] teammates ATK Up Lv.6; if 4 or more [Straw Hat Pirates] [Giant] [Scientist] characters are on the team, [QCK] enemies ATK Down Lv.7; when remaining time is 60 s or less, [QCK] enemies DEF Down Lv.6; during Assault Rumble, when appearing on the field, self Special CT 100% reduction"
+        ],
+        festSpecial: [
+            {
+                cooldown: 30,
+                description: "Targets enemies within large range for SPD Down Lv.1 (11 s); targets [QCK] enemies for ATK Down Lv.1 (41 s), SPD Down Lv.1 (41 s), DEF Down Lv.1 (41 s); if 4 or more [Straw Hat Pirates] [Giant] [Scientist] characters are on the team, targets 2 high DEF enemies for 73% chance of Halve DEF (6 s); during Assault Rumble, targets [QCK] enemies for Special CT 11% delay, ATK x 2.2 damage; targets self for Special CT 11% reduction"
+            },
+            {
+                cooldown: 30,
+                description: "Targets enemies within large range for SPD Down Lv.1 (12 s); targets [QCK] enemies for ATK Down Lv.1 (42 s), SPD Down Lv.1 (42 s), DEF Down Lv.1 (42 s); if 4 or more [Straw Hat Pirates] [Giant] [Scientist] characters are on the team, targets 2 high DEF enemies for 76% chance of Halve DEF (7 s); during Assault Rumble, targets [QCK] enemies for Special CT 12% delay, ATK x 2.4 damage; targets self for Special CT 12% reduction"
+            },
+            {
+                cooldown: 30,
+                description: "Targets enemies within large range for SPD Down Lv.2 (13 s); targets [QCK] enemies for ATK Down Lv.1 (43 s), SPD Down Lv.1 (43 s), DEF Down Lv.1 (43 s); if 4 or more [Straw Hat Pirates] [Giant] [Scientist] characters are on the team, targets 2 high DEF enemies for 79% chance of Halve DEF (8 s); during Assault Rumble, targets [QCK] enemies for Special CT 13% delay, ATK x 2.6 damage; targets self for Special CT 13% reduction"
+            },
+            {
+                cooldown: 30,
+                description: "Targets enemies within large range for SPD Down Lv.2 (14 s); targets [QCK] enemies for ATK Down Lv.1 (44 s), SPD Down Lv.1 (44 s), DEF Down Lv.1 (44 s); if 4 or more [Straw Hat Pirates] [Giant] [Scientist] characters are on the team, targets 2 high DEF enemies for 82% chance of Halve DEF (9 s); during Assault Rumble, targets [QCK] enemies for Special CT 14% delay, ATK x 2.8 damage; targets self for Special CT 14% reduction"
+            },
+            {
+                cooldown: 30,
+                description: "Targets enemies within large range for SPD Down Lv.3 (15 s); targets [QCK] enemies for ATK Down Lv.2 (45 s), SPD Down Lv.2 (45 s), DEF Down Lv.1 (45 s); if 4 or more [Straw Hat Pirates] [Giant] [Scientist] characters are on the team, targets 2 high DEF enemies for 85% chance of Halve DEF (10 s); during Assault Rumble, targets [QCK] enemies for Special CT 15% delay, ATK x 3 damage; targets self for Special CT 15% reduction"
+            },
+            {
+                cooldown: 30,
+                description: "Targets enemies within large range for SPD Down Lv.3 (16 s); targets [QCK] enemies for ATK Down Lv.2 (46 s), SPD Down Lv.2 (46 s), DEF Down Lv.2 (46 s); if 4 or more [Straw Hat Pirates] [Giant] [Scientist] characters are on the team, targets 2 high DEF enemies for 88% chance of Halve DEF (11 s); during Assault Rumble, targets [QCK] enemies for Special CT 16% delay, ATK x 3.2 damage; targets self for Special CT 16% reduction"
+            },
+            {
+                cooldown: 30,
+                description: "Targets enemies within large range for SPD Down Lv.4 (17 s); targets [QCK] enemies for ATK Down Lv.2 (47 s), SPD Down Lv.2 (47 s), DEF Down Lv.2 (47 s); if 4 or more [Straw Hat Pirates] [Giant] [Scientist] characters are on the team, targets 2 high DEF enemies for 91% chance of Halve DEF (12 s); during Assault Rumble, targets [QCK] enemies for Special CT 17% delay, ATK x 3.4 damage; targets self for Special CT 17% reduction"
+            },
+            {
+                cooldown: 30,
+                description: "Targets enemies within large range for SPD Down Lv.4 (18 s); targets [QCK] enemies for ATK Down Lv.3 (48 s), SPD Down Lv.3 (48 s), DEF Down Lv.2 (48 s); if 4 or more [Straw Hat Pirates] [Giant] [Scientist] characters are on the team, targets 2 high DEF enemies for 94% chance of Halve DEF (13 s); during Assault Rumble, targets [QCK] enemies for Special CT 18% delay, ATK x 3.6 damage; targets self for Special CT 18% reduction"
+            },
+            {
+                cooldown: 30,
+                description: "Targets enemies within large range for SPD Down Lv.5 (19 s); targets [QCK] enemies for ATK Down Lv.3 (49 s), SPD Down Lv.3 (49 s), DEF Down Lv.2 (49 s); if 4 or more [Straw Hat Pirates] [Giant] [Scientist] characters are on the team, targets 2 high DEF enemies for 97% chance of Halve DEF (14 s); during Assault Rumble, targets [QCK] enemies for Special CT 19% delay, ATK x 3.8 damage; targets self for Special CT 19% reduction"
+            },
+            {
+                cooldown: 30,
+                description: "Targets enemies within large range for SPD Down Lv.6 (20 s); targets [QCK] enemies for ATK Down Lv.4 (50 s), SPD Down Lv.4 (50 s), DEF Down Lv.3 (50 s); if 4 or more [Straw Hat Pirates] [Giant] [Scientist] characters are on the team, targets 2 high DEF enemies for 100% chance of Halve DEF (15 s); during Assault Rumble, targets [QCK] enemies for Special CT 20% delay, ATK x 4 damage; targets self for Special CT 20% reduction"
+            }
+        ]
+    },
+    4638: {//5* PKA Luffy
+        special: "Deals 50,000 damage to all enemies, reduces crew's Despair duration by 2 turns, and reduces all enemies' DEF Up duration by 2 turns. If 3 or more [Straw Hat Pirates] [Vegapunk] characters are on the crew, boosts crew's chain multiplier growth rate of normal attacks up to +0.6 (GOOD +0.2; GREAT +0.4; PERFECT +0.6) for 1 turn. If 3 or more [Giant] characters are on the crew, reduces crew's Paralysis duration by 2 turns",
+        specialName: "Retaliating Gum-Gum Elephant Gun",
+        sailor: {
+            base: "Reduces character's Special Reverse by 3 turns",
+            level1: "Reduces the duration of Reduce SFX by 5 turns"
+        },
+        support: [
+            {
+                Characters: "Striker class characters with the following Character Tag: [Giant]",
+                description: [
+                    "Adds 2% of character's base stats to supported character's base stats",
+                    "Adds 3% of character's base stats to supported character's base stats",
+                    "Adds 4% of character's base stats to supported character's base stats",
+                    "Adds 5% of character's base stats to supported character's base stats",
+                    "Adds 6% of character's base stats to supported character's base stats [AUTO+] At battle 5, activates supported character's Super Effect. At final battle, activates supported character's Special"
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base HP by 20",
+            "Boosts base RCV by 10",
+            "Boosts base ATK by 20",
+            "Acquire Potential 1: Slot Bind",
+            "Boosts base HP by 20",
+            "Boosts base ATK by 30",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 40",
+            "Acquire Potential 2: Enrage/Increase Damage Taken",
+            "Acquire 1 additional Socket slot",
+            "Boosts base HP by 50",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 50",
+            "Boosts base HP by 70",
+            "Reduce base Special Cooldown by 1 turn",
+            "LOCKED WITH KEY",
+            "Boosts base RCV by 10",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 100",
+            "Boosts base HP by 200",
+            "Boosts base RCV by 20",
+            "Acquire Potential 3: Triple Special Activation",
+            "Boosts base HP by 300",
+            "Boosts base ATK by 100",
+            "Acquire Sailor Ability 2: Reduces the duration of Reduce SFX by 5 turns"
+        ],
+        potential: [
+            {
+                Name: "Slot Bind",
+                description: [
+                    "Reduces Slot Bind duration by 1 turn on this character",
+                    "Reduces Slot Bind duration by 2 turns on this character",
+                    "Reduces Slot Bind duration by 3 turns on this character",
+                    "Reduces Slot Bind duration by 4 turns on this character",
+                    "Reduces Slot Bind duration by 5 turns on this character"
+                ]
+            },
+            {
+                Name: "Enrage/Increase Damage Taken",
+                description: [
+                    "Boosts base ATK by 75 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 125 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 3 turns"
+                ]
+            },
+            {
+                Name: "Triple Special Activation",
+                description: [
+                    "2 times per adventure, reduces Special Cooldown of this character by 1 turn after the first times this special is used",
+                    "2 times per adventure, reduces Special Cooldown of this character by 3 turns after the first times this special is used",
+                    "2 times per adventure, reduces Special Cooldown of this character by 5 turns after the first times this special is used",
+                    "2 times per adventure, reduces Special Cooldown of this character by 7 turns after the first times this special is used",
+                    "2 times per adventure, reduces Special Cooldown of this character completely after the first times this special is used"
+                ]
+            }
+        ],
+        festStats: {
+            def: 124,
+            spd: 174,
+            style: "DBF"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Heal Self Lv.2",
+            "Power Attack",
+            "Power Attack"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "60% chance to evade Special Bind",
+        festAbility: [
+            "[INT]/Powerhouse class and [Giant] [Child] teammates SPD Up Lv.1, HP Up Lv.1; [PSY] enemies SPD Down Lv.1; if 3 or more [Giant] [Child] characters are on the team, when appearing on the field, self Special CT 12% reduction",
+            "[INT]/Powerhouse class and [Giant] [Child] teammates SPD Up Lv.1, HP Up Lv.1; [PSY] enemies SPD Down Lv.2; if 3 or more [Giant] [Child] characters are on the team, when appearing on the field, self Special CT 14% reduction",
+            "[INT]/Powerhouse class and [Giant] [Child] teammates SPD Up Lv.2, HP Up Lv.2; [PSY] enemies SPD Down Lv.3; if 3 or more [Giant] [Child] characters are on the team, when appearing on the field, self Special CT 16% reduction",
+            "[INT]/Powerhouse class and [Giant] [Child] teammates SPD Up Lv.2, HP Up Lv.2; [PSY] enemies SPD Down Lv.4; if 3 or more [Giant] [Child] characters are on the team, when appearing on the field, self Special CT 18% reduction",
+            "[INT]/Powerhouse class and [Giant] [Child] teammates SPD Up Lv.3, HP Up Lv.3; [PSY] enemies SPD Down Lv.5; if 3 or more [Giant] [Child] characters are on the team, when appearing on the field, self Special CT 20% reduction"
+        ],
+        festSpecial: [
+            {
+                cooldown: 20,
+                description: "Targets 3 enemies for ATK Down Lv.1 (15 s), Miss % Up Lv.1 (15 s); if 3 or more [Giant] [Child] characters are on the team, targets 1 high ATK [Giant] [Child] teammate for Special CT 11% reduction; targets 1 enemy with high current HP for 2200 damage"
+            },
+            {
+                cooldown: 20,
+                description: "Targets 3 enemies for ATK Down Lv.1 (15 s), Miss % Up Lv.1 (15 s); if 3 or more [Giant] [Child] characters are on the team, targets 1 high ATK [Giant] [Child] teammate for Special CT 12% reduction; targets 1 enemy with high current HP for 2400 damage"
+            },
+            {
+                cooldown: 20,
+                description: "Targets 3 enemies for ATK Down Lv.1 (15 s), Miss % Up Lv.1 (15 s); if 3 or more [Giant] [Child] characters are on the team, targets 1 high ATK [Giant] [Child] teammate for Special CT 13% reduction; targets 1 enemy with high current HP for 2600 damage"
+            },
+            {
+                cooldown: 20,
+                description: "Targets 3 enemies for ATK Down Lv.1 (15 s), Miss % Up Lv.1 (15 s); if 3 or more [Giant] [Child] characters are on the team, targets 1 high ATK [Giant] [Child] teammate for Special CT 14% reduction; targets 1 enemy with high current HP for 2800 damage"
+            },
+            {
+                cooldown: 20,
+                description: "Targets 3 enemies for ATK Down Lv.2 (15 s), Miss % Up Lv.2 (15 s); if 3 or more [Giant] [Child] characters are on the team, targets 1 high ATK [Giant] [Child] teammate for Special CT 15% reduction; targets 1 enemy with high current HP for 3000 damage"
+            },
+            {
+                cooldown: 20,
+                description: "Targets 3 enemies for ATK Down Lv.2 (15 s), Miss % Up Lv.2 (15 s); if 3 or more [Giant] [Child] characters are on the team, targets 1 high ATK [Giant] [Child] teammate for Special CT 16% reduction; targets 1 enemy with high current HP for 3200 damage"
+            },
+            {
+                cooldown: 20,
+                description: "Targets 3 enemies for ATK Down Lv.2 (15 s), Miss % Up Lv.2 (15 s); if 3 or more [Giant] [Child] characters are on the team, targets 1 high ATK [Giant] [Child] teammate for Special CT 17% reduction; targets 1 enemy with high current HP for 3400 damage"
+            },
+            {
+                cooldown: 20,
+                description: "Targets 3 enemies for ATK Down Lv.3 (15 s), Miss % Up Lv.3 (15 s); if 3 or more [Giant] [Child] characters are on the team, targets 1 high ATK [Giant] [Child] teammate for Special CT 18% reduction; targets 1 enemy with high current HP for 3600 damage"
+            },
+            {
+                cooldown: 20,
+                description: "Targets 3 enemies for ATK Down Lv.3 (15 s), Miss % Up Lv.3 (15 s); if 3 or more [Giant] [Child] characters are on the team, targets 1 high ATK [Giant] [Child] teammate for Special CT 19% reduction; targets 1 enemy with high current HP for 3800 damage"
+            },
+            {
+                cooldown: 20,
+                description: "Targets 3 enemies for ATK Down Lv.4 (15 s), Miss % Up Lv.4 (15 s); if 3 or more [Giant] [Child] characters are on the team, targets 1 high ATK [Giant] [Child] teammate for Special CT 20% reduction; targets 1 enemy with high current HP for 4000 damage"
             }
         ]
     },
