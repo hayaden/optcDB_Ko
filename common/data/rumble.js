@@ -119108,6 +119108,677 @@ window.rumble = {
         festAttackPattern: ['Normal Attack'],
         festAttackTarget: "Nearby Enemies."
     },
+    4634: {
+        festCost: 55,
+        festStats: {
+            def: 174,
+            spd: 161,
+            style: "RCV"
+        },
+        festAttackPattern: ['Normal Attack', '<i>Level 2 Medium Range Heal</i>', 'Normal Attack', '<i>Level 2 Medium Range Heal</i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist RCV Bind.', '30% damage reduction from [INT] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 4 HP up buff to [PSY], Striker and [Giant] crew members.', 'Applies Lv. 3 Guard up buff to [PSY], Striker and [Giant] crew members.', 'Heals 30% of HP to [Giant] crew members with below 50% HP upon appearance.', 'When there are 60 seconds or less remaining, applies Lv. 2 ATK up buff to [PSY], Striker and [Giant] crew members.'],
+                ['Applies Lv. 5 HP up buff to [PSY], Striker and [Giant] crew members.', 'Applies Lv. 4 Guard up buff to [PSY], Striker and [Giant] crew members.', 'Heals 35% of HP to [Giant] crew members with below 50% HP upon appearance.', 'When there are 60 seconds or less remaining, applies Lv. 3 ATK up buff to [PSY], Striker and [Giant] crew members.'],
+                ['Applies Lv. 6 HP up buff to [PSY], Striker and [Giant] crew members.', 'Applies Lv. 5 Guard up buff to [PSY], Striker and [Giant] crew members.', 'Heals 40% of HP to [Giant] crew members with below 50% HP upon appearance.', 'When there are 60 seconds or less remaining, applies Lv. 4 ATK up buff to [PSY], Striker and [Giant] crew members.'],
+                ['Applies Lv. 7 HP up buff to [PSY], Striker and [Giant] crew members.', 'Applies Lv. 6 Guard up buff to [PSY], Striker and [Giant] crew members.', 'Heals 45% of HP to [Giant] crew members with below 50% HP upon appearance.', 'When there are 60 seconds or less remaining, applies Lv. 5 ATK up buff to [PSY], Striker and [Giant] crew members.'],
+                ['Applies Lv. 8 HP up buff to [PSY], Striker and [Giant] crew members.', 'Applies Lv. 7 Guard up buff to [PSY], Striker and [Giant] crew members.', 'Heals 50% of HP to [Giant] crew members with below 50% HP upon appearance.', 'When there are 60 seconds or less remaining, applies Lv. 6 ATK up buff to [PSY], Striker and [Giant] crew members.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 26,
+                descriptions: [
+                    ['Applies Lv. 1 DEF up buff to [PSY], Striker and [Giant] crew members for 6 seconds.', 'Heals 1.1x RCV of HP to [PSY], Striker and [Giant] crew members.', '73% chance to evade RCV Bind and Damage Over Time to [Giant] crew members for 6 seconds.', 'When there is 7 or more crew members remaining, deals 3.2x ATK in damage to all enemies in a large, radial range.', 'During Assault Rumble, 73% chance to inflict Half DEF to [INT] and Slasher enemies for 11 seconds.', 'During Assault Rumble, deals 3.2x ATK in damage to [INT] and Slasher enemies.', 'When there is 5 or more [Giant] crew members, switches self with 2nd sub character.'],
+                    ['Applies Lv. 1 DEF up buff to [PSY], Striker and [Giant] crew members for 7 seconds.', 'Heals 1.2x RCV of HP to [PSY], Striker and [Giant] crew members.', '76% chance to evade RCV Bind and Damage Over Time to [Giant] crew members for 7 seconds.', 'When there is 7 or more crew members remaining, deals 3.4x ATK in damage to all enemies in a large, radial range.', 'During Assault Rumble, 76% chance to inflict Half DEF to [INT] and Slasher enemies for 12 seconds.', 'During Assault Rumble, deals 3.4x ATK in damage to [INT] and Slasher enemies.', 'When there is 5 or more [Giant] crew members, switches self with 2nd sub character.'],
+                    ['Applies Lv. 1 DEF up buff to [PSY], Striker and [Giant] crew members for 8 seconds.', 'Heals 1.3x RCV of HP to [PSY], Striker and [Giant] crew members.', '79% chance to evade RCV Bind and Damage Over Time to [Giant] crew members for 8 seconds.', 'When there is 7 or more crew members remaining, deals 3.6x ATK in damage to all enemies in a large, radial range.', 'During Assault Rumble, 79% chance to inflict Half DEF to [INT] and Slasher enemies for 13 seconds.', 'During Assault Rumble, deals 3.6x ATK in damage to [INT] and Slasher enemies.', 'When there is 5 or more [Giant] crew members, switches self with 2nd sub character.'],
+                    ['Applies Lv. 2 DEF up buff to [PSY], Striker and [Giant] crew members for 9 seconds.', 'Heals 1.4x RCV of HP to [PSY], Striker and [Giant] crew members.', '82% chance to evade RCV Bind and Damage Over Time to [Giant] crew members for 9 seconds.', 'When there is 7 or more crew members remaining, deals 3.8x ATK in damage to all enemies in a large, radial range.', 'During Assault Rumble, 82% chance to inflict Half DEF to [INT] and Slasher enemies for 14 seconds.', 'During Assault Rumble, deals 3.8x ATK in damage to [INT] and Slasher enemies.', 'When there is 5 or more [Giant] crew members, switches self with 2nd sub character.'],
+                    ['Applies Lv. 2 DEF up buff to [PSY], Striker and [Giant] crew members for 10 seconds.', 'Heals 1.5x RCV of HP to [PSY], Striker and [Giant] crew members.', '85% chance to evade RCV Bind and Damage Over Time to [Giant] crew members for 10 seconds.', 'When there is 7 or more crew members remaining, deals 4x ATK in damage to all enemies in a large, radial range.', 'During Assault Rumble, 85% chance to inflict Half DEF to [INT] and Slasher enemies for 15 seconds.', 'During Assault Rumble, deals 4x ATK in damage to [INT] and Slasher enemies.', 'When there is 5 or more [Giant] crew members, switches self with 2nd sub character.'],
+                    ['Applies Lv. 3 DEF up buff to [PSY], Striker and [Giant] crew members for 11 seconds.', 'Heals 1.6x RCV of HP to [PSY], Striker and [Giant] crew members.', '88% chance to evade RCV Bind and Damage Over Time to [Giant] crew members for 11 seconds.', 'When there is 7 or more crew members remaining, deals 4.2x ATK in damage to all enemies in a large, radial range.', 'During Assault Rumble, 88% chance to inflict Half DEF to [INT] and Slasher enemies for 16 seconds.', 'During Assault Rumble, deals 4.2x ATK in damage to [INT] and Slasher enemies.', 'When there is 5 or more [Giant] crew members, switches self with 2nd sub character.'],
+                    ['Applies Lv. 3 DEF up buff to [PSY], Striker and [Giant] crew members for 12 seconds.', 'Heals 1.7x RCV of HP to [PSY], Striker and [Giant] crew members.', '91% chance to evade RCV Bind and Damage Over Time to [Giant] crew members for 12 seconds.', 'When there is 7 or more crew members remaining, deals 4.4x ATK in damage to all enemies in a large, radial range.', 'During Assault Rumble, 91% chance to inflict Half DEF to [INT] and Slasher enemies for 17 seconds.', 'During Assault Rumble, deals 4.4x ATK in damage to [INT] and Slasher enemies.', 'When there is 5 or more [Giant] crew members, switches self with 2nd sub character.'],
+                    ['Applies Lv. 3 DEF up buff to [PSY], Striker and [Giant] crew members for 13 seconds.', 'Heals 1.8x RCV of HP to [PSY], Striker and [Giant] crew members.', '94% chance to evade RCV Bind and Damage Over Time to [Giant] crew members for 13 seconds.', 'When there is 7 or more crew members remaining, deals 4.6x ATK in damage to all enemies in a large, radial range.', 'During Assault Rumble, 94% chance to inflict Half DEF to [INT] and Slasher enemies for 18 seconds.', 'During Assault Rumble, deals 4.6x ATK in damage to [INT] and Slasher enemies.', 'When there is 5 or more [Giant] crew members, switches self with 2nd sub character.'],
+                    ['Applies Lv. 4 DEF up buff to [PSY], Striker and [Giant] crew members for 14 seconds.', 'Heals 1.9x RCV of HP to [PSY], Striker and [Giant] crew members.', '97% chance to evade RCV Bind and Damage Over Time to [Giant] crew members for 14 seconds.', 'When there is 7 or more crew members remaining, deals 4.8x ATK in damage to all enemies in a large, radial range.', 'During Assault Rumble, 97% chance to inflict Half DEF to [INT] and Slasher enemies for 19 seconds.', 'During Assault Rumble, deals 4.8x ATK in damage to [INT] and Slasher enemies.', 'When there is 5 or more [Giant] crew members, switches self with 2nd sub character.'],
+                    ['Applies Lv. 5 DEF up buff to [PSY], Striker and [Giant] crew members for 15 seconds.', 'Heals 2x RCV of HP to [PSY], Striker and [Giant] crew members.', '100% chance to evade RCV Bind and Damage Over Time to [Giant] crew members for 15 seconds.', 'When there is 7 or more crew members remaining, deals 5x ATK in damage to all enemies in a large, radial range.', 'During Assault Rumble, 100% chance to inflict Half DEF to [INT] and Slasher enemies for 20 seconds.', 'During Assault Rumble, deals 5x ATK in damage to [INT] and Slasher enemies.', 'When there is 5 or more [Giant] crew members, switches self with 2nd sub character.']
+                ]
+            }
+        },
+        festSuperSpecial: {
+            base: {
+                condition: "After this character receives crew members' Rumble Specials 4 times",
+                description: ['Applies Lv. 7 DEF up buff to [PSY], Striker and [Giant] crew members for 30 seconds.', 'Heals 3x RCV of HP to [PSY], Striker and [Giant] crew members.', '100% chance to evade RCV Bind, Damage Over Time and Percentage Damage to [Giant] crew members for 30 seconds.', 'Deals 5.5x ATK in damage to all enemies in a large, radial range.', 'During Assault Rumble, 100% chance to inflict Half DEF to [INT] and Slasher enemies for 25 seconds.', 'During Assault Rumble, deals 5.5x ATK in damage to [INT] and Slasher enemies.', 'When there is 5 or more [Giant] crew members, switches self with 2nd sub character.']
+            },
+            llbbase: {
+                condition: "After this character receives crew members' Rumble Specials 3 times",
+                description: ['Applies Lv. 8 DEF up buff to [PSY], Striker and [Giant] crew members for 40 seconds.', 'Heals 4x RCV of HP to [PSY], Striker and [Giant] crew members.', '100% chance to evade RCV Bind, Damage Over Time and Percentage Damage to [Giant] crew members for 40 seconds.', 'Deals 6x ATK in damage to all enemies in a large, radial range.', 'During Assault Rumble, 100% chance to inflict Half DEF to [INT] and Slasher enemies for 30 seconds.', 'During Assault Rumble, deals 6x ATK in damage to [INT] and Slasher enemies.', 'When there is 5 or more [Giant] crew members, switches self with 2nd sub character.']
+            }
+        }
+    },
+    4635: {
+        festCost: 55,
+        festStats: {
+            def: 169,
+            spd: 144,
+            style: "SPT"
+        },
+        festAttackPattern: ['Normal Attack', '<b><i>Power Attack</b></i>', '<i>Level 1 Small Range Heal</i>', '<b><i>Power Attack</b></i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Special Bind.', '30% damage reduction from [QCK] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 2 HP and SPD up buff to [DEX], Powerhouse and [Giant] crew members.', 'Applies Lv. 1 ATK and HP up buff to [Giant] and Scopper Gaban crew members.', 'For the first 40 seconds, applies Lv. 1 Special CT up buff to self.', 'For the first 40 seconds, applies Lv. 1 Special CT up buff to Scopper Gaban and Collun crew members.'],
+                ['Applies Lv. 3 HP and SPD up buff to [DEX], Powerhouse and [Giant] crew members.', 'Applies Lv. 2 ATK and HP up buff to [Giant] and Scopper Gaban crew members.', 'For the first 40 seconds, applies Lv. 1 Special CT up buff to self.', 'For the first 40 seconds, applies Lv. 1 Special CT up buff to Scopper Gaban and Collun crew members.'],
+                ['Applies Lv. 4 HP and SPD up buff to [DEX], Powerhouse and [Giant] crew members.', 'Applies Lv. 3 ATK and HP up buff to [Giant] and Scopper Gaban crew members.', 'For the first 40 seconds, applies Lv. 2 Special CT up buff to self.', 'For the first 40 seconds, applies Lv. 2 Special CT up buff to Scopper Gaban and Collun crew members.'],
+                ['Applies Lv. 5 HP and SPD up buff to [DEX], Powerhouse and [Giant] crew members.', 'Applies Lv. 4 ATK and HP up buff to [Giant] and Scopper Gaban crew members.', 'For the first 40 seconds, applies Lv. 2 Special CT up buff to self.', 'For the first 40 seconds, applies Lv. 2 Special CT up buff to Scopper Gaban and Collun crew members.'],
+                ['Applies Lv. 6 HP and SPD up buff to [DEX], Powerhouse and [Giant] crew members.', 'Applies Lv. 5 ATK and HP up buff to [Giant] and Scopper Gaban crew members.', 'For the first 40 seconds, applies Lv. 3 Special CT up buff to self.', 'For the first 40 seconds, applies Lv. 3 Special CT up buff to Scopper Gaban and Collun crew members.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 28,
+                descriptions: [
+                    ['Applies Lv. 1 ATK and SPD up buff to [DEX], Powerhouse and [Giant] crew members for 11 seconds.', 'Reduces 11% of Special CT to Scopper Gaban and Collun crew members.', '73% chance to grant Haste to Scopper Gaban and Collun crew members.', 'When Scopper Gaban or Collun is on your crew, 73% chance to evade Half Stats to [DEX], Powerhouse and [Giant] crew members for 6 seconds.', 'During Assault Rumble, applies Lv. 1 Special CT up buff to [DEX] and Striker crew members for 11 seconds.', 'During Assault Rumble, deals 2.2x ATK in damage to [QCK] and Slasher enemies.', 'When there are 60 seconds or less remaining, switches self with 2nd sub character.'],
+                    ['Applies Lv. 1 ATK and SPD up buff to [DEX], Powerhouse and [Giant] crew members for 12 seconds.', 'Reduces 12% of Special CT to Scopper Gaban and Collun crew members.', '76% chance to grant Haste to Scopper Gaban and Collun crew members.', 'When Scopper Gaban or Collun is on your crew, 76% chance to evade Half Stats to [DEX], Powerhouse and [Giant] crew members for 7 seconds.', 'During Assault Rumble, applies Lv. 1 Special CT up buff to [DEX] and Striker crew members for 12 seconds.', 'During Assault Rumble, deals 2.4x ATK in damage to [QCK] and Slasher enemies.', 'When there are 60 seconds or less remaining, switches self with 2nd sub character.'],
+                    ['Applies Lv. 1 ATK and SPD up buff to [DEX], Powerhouse and [Giant] crew members for 13 seconds.', 'Reduces 13% of Special CT to Scopper Gaban and Collun crew members.', '79% chance to grant Haste to Scopper Gaban and Collun crew members.', 'When Scopper Gaban or Collun is on your crew, 79% chance to evade Half Stats to [DEX], Powerhouse and [Giant] crew members for 8 seconds.', 'During Assault Rumble, applies Lv. 1 Special CT up buff to [DEX] and Striker crew members for 13 seconds.', 'During Assault Rumble, deals 2.6x ATK in damage to [QCK] and Slasher enemies.', 'When there are 60 seconds or less remaining, switches self with 2nd sub character.'],
+                    ['Applies Lv. 2 ATK and SPD up buff to [DEX], Powerhouse and [Giant] crew members for 14 seconds.', 'Reduces 14% of Special CT to Scopper Gaban and Collun crew members.', '82% chance to grant Haste to Scopper Gaban and Collun crew members.', 'When Scopper Gaban or Collun is on your crew, 82% chance to evade Half Stats to [DEX], Powerhouse and [Giant] crew members for 9 seconds.', 'During Assault Rumble, applies Lv. 1 Special CT up buff to [DEX] and Striker crew members for 14 seconds.', 'During Assault Rumble, deals 2.8x ATK in damage to [QCK] and Slasher enemies.', 'When there are 60 seconds or less remaining, switches self with 2nd sub character.'],
+                    ['Applies Lv. 2 ATK and SPD up buff to [DEX], Powerhouse and [Giant] crew members for 15 seconds.', 'Reduces 15% of Special CT to Scopper Gaban and Collun crew members.', '85% chance to grant Haste to Scopper Gaban and Collun crew members.', 'When Scopper Gaban or Collun is on your crew, 85% chance to evade Half Stats to [DEX], Powerhouse and [Giant] crew members for 10 seconds.', 'During Assault Rumble, applies Lv. 2 Special CT up buff to [DEX] and Striker crew members for 15 seconds.', 'During Assault Rumble, deals 3x ATK in damage to [QCK] and Slasher enemies.', 'When there are 60 seconds or less remaining, switches self with 2nd sub character.'],
+                    ['Applies Lv. 3 ATK and SPD up buff to [DEX], Powerhouse and [Giant] crew members for 16 seconds.', 'Reduces 16% of Special CT to Scopper Gaban and Collun crew members.', '88% chance to grant Haste to Scopper Gaban and Collun crew members.', 'When Scopper Gaban or Collun is on your crew, 88% chance to evade Half Stats to [DEX], Powerhouse and [Giant] crew members for 11 seconds.', 'During Assault Rumble, applies Lv. 2 Special CT up buff to [DEX] and Striker crew members for 16 seconds.', 'During Assault Rumble, deals 3.2x ATK in damage to [QCK] and Slasher enemies.', 'When there are 60 seconds or less remaining, switches self with 2nd sub character.'],
+                    ['Applies Lv. 3 ATK and SPD up buff to [DEX], Powerhouse and [Giant] crew members for 17 seconds.', 'Reduces 17% of Special CT to Scopper Gaban and Collun crew members.', '91% chance to grant Haste to Scopper Gaban and Collun crew members.', 'When Scopper Gaban or Collun is on your crew, 91% chance to evade Half Stats to [DEX], Powerhouse and [Giant] crew members for 12 seconds.', 'During Assault Rumble, applies Lv. 2 Special CT up buff to [DEX] and Striker crew members for 17 seconds.', 'During Assault Rumble, deals 3.4x ATK in damage to [QCK] and Slasher enemies.', 'When there are 60 seconds or less remaining, switches self with 2nd sub character.'],
+                    ['Applies Lv. 3 ATK and SPD up buff to [DEX], Powerhouse and [Giant] crew members for 18 seconds.', 'Reduces 18% of Special CT to Scopper Gaban and Collun crew members.', '94% chance to grant Haste to Scopper Gaban and Collun crew members.', 'When Scopper Gaban or Collun is on your crew, 94% chance to evade Half Stats to [DEX], Powerhouse and [Giant] crew members for 13 seconds.', 'During Assault Rumble, applies Lv. 3 Special CT up buff to [DEX] and Striker crew members for 18 seconds.', 'During Assault Rumble, deals 3.6x ATK in damage to [QCK] and Slasher enemies.', 'When there are 60 seconds or less remaining, switches self with 2nd sub character.'],
+                    ['Applies Lv. 4 ATK and SPD up buff to [DEX], Powerhouse and [Giant] crew members for 19 seconds.', 'Reduces 19% of Special CT to Scopper Gaban and Collun crew members.', '97% chance to grant Haste to Scopper Gaban and Collun crew members.', 'When Scopper Gaban or Collun is on your crew, 97% chance to evade Half Stats to [DEX], Powerhouse and [Giant] crew members for 14 seconds.', 'During Assault Rumble, applies Lv. 3 Special CT up buff to [DEX] and Striker crew members for 19 seconds.', 'During Assault Rumble, deals 3.8x ATK in damage to [QCK] and Slasher enemies.', 'When there are 60 seconds or less remaining, switches self with 2nd sub character.'],
+                    ['Applies Lv. 5 ATK and SPD up buff to [DEX], Powerhouse and [Giant] crew members for 20 seconds.', 'Reduces 20% of Special CT to Scopper Gaban and Collun crew members.', '100% chance to grant Haste to Scopper Gaban and Collun crew members.', 'When Scopper Gaban or Collun is on your crew, 100% chance to evade Half Stats to [DEX], Powerhouse and [Giant] crew members for 15 seconds.', 'During Assault Rumble, applies Lv. 4 Special CT up buff to [DEX] and Striker crew members for 20 seconds.', 'During Assault Rumble, deals 4x ATK in damage to [QCK] and Slasher enemies.', 'When there are 60 seconds or less remaining, switches self with 2nd sub character.']
+                ]
+            }
+        },
+        festSuperSpecial: {
+            base: {
+                condition: "When there are 60 seconds or less remaining",
+                description: ['Applies Lv. 6 ATK and SPD up buff to [DEX], Powerhouse and [Giant] crew members for 30 seconds.', '100% chance to inflict Half DEF to [QCK] enemies for 10 seconds.', 'Reduces 30% of Special CT to Scopper Gaban and Collun crew members.', '100% chance to grant Haste to Scopper Gaban and Collun crew members.', 'When Scopper Gaban or Collun is on your crew, 100% chance to evade Half Stats to [DEX], Powerhouse and [Giant] crew members for 20 seconds.', 'During Assault Rumble, applies Lv. 6 Special CT up buff to [DEX] and Striker crew members for 30 seconds.', 'During Assault Rumble, deals 4.5x ATK in damage to [QCK] and Slasher enemies.', 'When there are 60 seconds or less remaining, switches self with 2nd sub character.']
+            },
+            llbbase: {
+                condition: "When there are 70 seconds or less remaining",
+                description: ['Applies Lv. 7 ATK and SPD up buff to [DEX], Powerhouse and [Giant] crew members for 40 seconds.', '100% chance to inflict Half DEF to [QCK] enemies for 15 seconds.', 'Reduces 50% of Special CT to Scopper Gaban and Collun crew members.', '100% chance to grant Haste to Scopper Gaban and Collun crew members.', 'When Scopper Gaban or Collun is on your crew, 100% chance to evade Half Stats to [DEX], Powerhouse and [Giant] crew members for 30 seconds.', 'During Assault Rumble, applies Lv. 7 Special CT up buff to [DEX] and Striker crew members for 40 seconds.', 'During Assault Rumble, deals 5x ATK in damage to [QCK] and Slasher enemies.', 'When there are 60 seconds or less remaining, switches self with 2nd sub character.']
+            }
+        }
+    },
+    4636: {
+        festCost: 20,
+        festStats: {
+            def: 232,
+            spd: 122,
+            style: "DEF"
+        },
+        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<i>Level 2 Self Heal</i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Special Bind.', '20% damage reduction from [INT] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to [PSY], Striker, [Giant] and Scopper Gaban crew members.', 'Applies Lv. 1 DEF up buff to [PSY], Striker, [Giant] and Scopper Gaban crew members.', 'The first 10 times this character lands a Guard, reduces 6% of Special CT to [Giant] and Scopper Gaban crew members.', 'For the first 40 seconds, applies Lv. 1 Guard up buff to [Giant] and Scopper Gaban crew members.', 'During Assault Rumble, applies Lv. 6 HP up buff to self.', 'During Assault Rumble, applies Lv. 2 Special CT up buff to self.'],
+                ['Applies Lv. 1 ATK up buff to [PSY], Striker, [Giant] and Scopper Gaban crew members.', 'Applies Lv. 1 DEF up buff to [PSY], Striker, [Giant] and Scopper Gaban crew members.', 'The first 10 times this character lands a Guard, reduces 7% of Special CT to [Giant] and Scopper Gaban crew members.', 'For the first 40 seconds, applies Lv. 1 Guard up buff to [Giant] and Scopper Gaban crew members.', 'During Assault Rumble, applies Lv. 7 HP up buff to self.', 'During Assault Rumble, applies Lv. 3 Special CT up buff to self.'],
+                ['Applies Lv. 2 ATK up buff to [PSY], Striker, [Giant] and Scopper Gaban crew members.', 'Applies Lv. 2 DEF up buff to [PSY], Striker, [Giant] and Scopper Gaban crew members.', 'The first 10 times this character lands a Guard, reduces 8% of Special CT to [Giant] and Scopper Gaban crew members.', 'For the first 40 seconds, applies Lv. 2 Guard up buff to [Giant] and Scopper Gaban crew members.', 'During Assault Rumble, applies Lv. 8 HP up buff to self.', 'During Assault Rumble, applies Lv. 4 Special CT up buff to self.'],
+                ['Applies Lv. 2 ATK up buff to [PSY], Striker, [Giant] and Scopper Gaban crew members.', 'Applies Lv. 2 DEF up buff to [PSY], Striker, [Giant] and Scopper Gaban crew members.', 'The first 10 times this character lands a Guard, reduces 9% of Special CT to [Giant] and Scopper Gaban crew members.', 'For the first 40 seconds, applies Lv. 2 Guard up buff to [Giant] and Scopper Gaban crew members.', 'During Assault Rumble, applies Lv. 9 HP up buff to self.', 'During Assault Rumble, applies Lv. 5 Special CT up buff to self.'],
+                ['Applies Lv. 4 ATK up buff to [PSY], Striker, [Giant] and Scopper Gaban crew members.', 'Applies Lv. 3 DEF up buff to [PSY], Striker, [Giant] and Scopper Gaban crew members.', 'The first 10 times this character lands a Guard, reduces 10% of Special CT to [Giant] and Scopper Gaban crew members.', 'For the first 40 seconds, applies Lv. 4 Guard up buff to [Giant] and Scopper Gaban crew members.', 'During Assault Rumble, applies Lv. 10 HP up buff to self.', 'During Assault Rumble, applies Lv. 6 Special CT up buff to self.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 28,
+                descriptions: [
+                    ['Applies Lv. 1 Shield up buff to all crew members in a large, radial range for 11 seconds.', 'Deals 5.5x ATK in spread damage to all enemies in a medium, radial range.', 'When there is 3 or more [Giant] crew members or When Scopper Gaban is on your crew, 73% chance to evade Action Bind to [PSY], Striker, [Giant] and Scopper Gaban crew members for 11 seconds.', 'During Assault Rumble, inflicts Lv. 1 DEF down debuff to [INT] and Slasher enemies for 11 seconds.', 'During Assault Rumble, deals 1.2x ATK in damage to [INT] and Slasher enemies.', 'When there are 60 seconds or less remaining, switches self with 1st sub character.'],
+                    ['Applies Lv. 1 Shield up buff to all crew members in a large, radial range for 12 seconds.', 'Deals 6x ATK in spread damage to all enemies in a medium, radial range.', 'When there is 3 or more [Giant] crew members or When Scopper Gaban is on your crew, 76% chance to evade Action Bind to [PSY], Striker, [Giant] and Scopper Gaban crew members for 12 seconds.', 'During Assault Rumble, inflicts Lv. 1 DEF down debuff to [INT] and Slasher enemies for 12 seconds.', 'During Assault Rumble, deals 1.4x ATK in damage to [INT] and Slasher enemies.', 'When there are 60 seconds or less remaining, switches self with 1st sub character.'],
+                    ['Applies Lv. 1 Shield up buff to all crew members in a large, radial range for 13 seconds.', 'Deals 6.5x ATK in spread damage to all enemies in a medium, radial range.', 'When there is 3 or more [Giant] crew members or When Scopper Gaban is on your crew, 79% chance to evade Action Bind to [PSY], Striker, [Giant] and Scopper Gaban crew members for 13 seconds.', 'During Assault Rumble, inflicts Lv. 2 DEF down debuff to [INT] and Slasher enemies for 13 seconds.', 'During Assault Rumble, deals 1.6x ATK in damage to [INT] and Slasher enemies.', 'When there are 60 seconds or less remaining, switches self with 1st sub character.'],
+                    ['Applies Lv. 1 Shield up buff to all crew members in a large, radial range for 14 seconds.', 'Deals 7x ATK in spread damage to all enemies in a medium, radial range.', 'When there is 3 or more [Giant] crew members or When Scopper Gaban is on your crew, 82% chance to evade Action Bind to [PSY], Striker, [Giant] and Scopper Gaban crew members for 14 seconds.', 'During Assault Rumble, inflicts Lv. 2 DEF down debuff to [INT] and Slasher enemies for 14 seconds.', 'During Assault Rumble, deals 1.8x ATK in damage to [INT] and Slasher enemies.', 'When there are 60 seconds or less remaining, switches self with 1st sub character.'],
+                    ['Applies Lv. 2 Shield up buff to all crew members in a large, radial range for 15 seconds.', 'Deals 7.5x ATK in spread damage to all enemies in a medium, radial range.', 'When there is 3 or more [Giant] crew members or When Scopper Gaban is on your crew, 85% chance to evade Action Bind to [PSY], Striker, [Giant] and Scopper Gaban crew members for 15 seconds.', 'During Assault Rumble, inflicts Lv. 3 DEF down debuff to [INT] and Slasher enemies for 15 seconds.', 'During Assault Rumble, deals 2x ATK in damage to [INT] and Slasher enemies.', 'When there are 60 seconds or less remaining, switches self with 1st sub character.'],
+                    ['Applies Lv. 2 Shield up buff to all crew members in a large, radial range for 16 seconds.', 'Deals 8x ATK in spread damage to all enemies in a medium, radial range.', 'When there is 3 or more [Giant] crew members or When Scopper Gaban is on your crew, 88% chance to evade Action Bind to [PSY], Striker, [Giant] and Scopper Gaban crew members for 16 seconds.', 'During Assault Rumble, inflicts Lv. 3 DEF down debuff to [INT] and Slasher enemies for 16 seconds.', 'During Assault Rumble, deals 2.2x ATK in damage to [INT] and Slasher enemies.', 'When there are 60 seconds or less remaining, switches self with 1st sub character.'],
+                    ['Applies Lv. 2 Shield up buff to all crew members in a large, radial range for 17 seconds.', 'Deals 8.5x ATK in spread damage to all enemies in a medium, radial range.', 'When there is 3 or more [Giant] crew members or When Scopper Gaban is on your crew, 91% chance to evade Action Bind to [PSY], Striker, [Giant] and Scopper Gaban crew members for 17 seconds.', 'During Assault Rumble, inflicts Lv. 4 DEF down debuff to [INT] and Slasher enemies for 17 seconds.', 'During Assault Rumble, deals 2.4x ATK in damage to [INT] and Slasher enemies.', 'When there are 60 seconds or less remaining, switches self with 1st sub character.'],
+                    ['Applies Lv. 3 Shield up buff to all crew members in a large, radial range for 18 seconds.', 'Deals 9x ATK in spread damage to all enemies in a medium, radial range.', 'When there is 3 or more [Giant] crew members or When Scopper Gaban is on your crew, 94% chance to evade Action Bind to [PSY], Striker, [Giant] and Scopper Gaban crew members for 18 seconds.', 'During Assault Rumble, inflicts Lv. 4 DEF down debuff to [INT] and Slasher enemies for 18 seconds.', 'During Assault Rumble, deals 2.6x ATK in damage to [INT] and Slasher enemies.', 'When there are 60 seconds or less remaining, switches self with 1st sub character.'],
+                    ['Applies Lv. 3 Shield up buff to all crew members in a large, radial range for 19 seconds.', 'Deals 9.5x ATK in spread damage to all enemies in a medium, radial range.', 'When there is 3 or more [Giant] crew members or When Scopper Gaban is on your crew, 97% chance to evade Action Bind to [PSY], Striker, [Giant] and Scopper Gaban crew members for 19 seconds.', 'During Assault Rumble, inflicts Lv. 5 DEF down debuff to [INT] and Slasher enemies for 19 seconds.', 'During Assault Rumble, deals 2.8x ATK in damage to [INT] and Slasher enemies.', 'When there are 60 seconds or less remaining, switches self with 1st sub character.'],
+                    ['Applies Lv. 4 Shield up buff to all crew members in a large, radial range for 20 seconds.', 'Deals 10x ATK in spread damage to all enemies in a medium, radial range.', 'When there is 3 or more [Giant] crew members or When Scopper Gaban is on your crew, 100% chance to evade Action Bind to [PSY], Striker, [Giant] and Scopper Gaban crew members for 20 seconds.', 'During Assault Rumble, inflicts Lv. 6 DEF down debuff to [INT] and Slasher enemies for 20 seconds.', 'During Assault Rumble, deals 3x ATK in damage to [INT] and Slasher enemies.', 'When there are 60 seconds or less remaining, switches self with 1st sub character.']
+                ]
+            }
+        }
+    },
+    4637: {
+        festCost: 20,
+        festStats: {
+            def: 155,
+            spd: 152,
+            style: "DBF"
+        },
+        festAttackPattern: ['Normal Attack', '<i>Level 2 Self Heal</i>', '<b><i>Power Attack</b></i>', '<b><i>Power Attack</b></i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Special Bind.', '20% damage reduction from [QCK] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 2 ATK up buff to [DEX], Striker and [Straw Hat Pirates] crew members.', 'When there is 4 or more [Straw Hat Pirates], [Giant] and [Scientist] crew members, inflicts Lv. 3 ATK down debuff to [QCK] enemies.', 'When there are 60 seconds or less remaining, inflicts Lv. 2 DEF down debuff to [QCK] enemies.', 'During Assault Rumble, reduces 80% of Special CT to self upon appearance.'],
+                ['Applies Lv. 3 ATK up buff to [DEX], Striker and [Straw Hat Pirates] crew members.', 'When there is 4 or more [Straw Hat Pirates], [Giant] and [Scientist] crew members, inflicts Lv. 4 ATK down debuff to [QCK] enemies.', 'When there are 60 seconds or less remaining, inflicts Lv. 3 DEF down debuff to [QCK] enemies.', 'During Assault Rumble, reduces 85% of Special CT to self upon appearance.'],
+                ['Applies Lv. 4 ATK up buff to [DEX], Striker and [Straw Hat Pirates] crew members.', 'When there is 4 or more [Straw Hat Pirates], [Giant] and [Scientist] crew members, inflicts Lv. 5 ATK down debuff to [QCK] enemies.', 'When there are 60 seconds or less remaining, inflicts Lv. 4 DEF down debuff to [QCK] enemies.', 'During Assault Rumble, reduces 90% of Special CT to self upon appearance.'],
+                ['Applies Lv. 5 ATK up buff to [DEX], Striker and [Straw Hat Pirates] crew members.', 'When there is 4 or more [Straw Hat Pirates], [Giant] and [Scientist] crew members, inflicts Lv. 6 ATK down debuff to [QCK] enemies.', 'When there are 60 seconds or less remaining, inflicts Lv. 5 DEF down debuff to [QCK] enemies.', 'During Assault Rumble, reduces 95% of Special CT to self upon appearance.'],
+                ['Applies Lv. 6 ATK up buff to [DEX], Striker and [Straw Hat Pirates] crew members.', 'When there is 4 or more [Straw Hat Pirates], [Giant] and [Scientist] crew members, inflicts Lv. 7 ATK down debuff to [QCK] enemies.', 'When there are 60 seconds or less remaining, inflicts Lv. 6 DEF down debuff to [QCK] enemies.', 'During Assault Rumble, reduces 100% of Special CT to self upon appearance.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 30,
+                descriptions: [
+                    ['Inflicts Lv. 1 SPD down debuff to all enemies in a large, radial range for 11 seconds.', 'Inflicts Lv. 1 ATK and SPD down debuff to [QCK] enemies for 41 seconds.', 'Inflicts Lv. 1 DEF down debuff to [QCK] enemies for 41 seconds.', 'When there is 4 or more [Straw Hat Pirates], [Giant] and [Scientist] crew members, 73% chance to inflict Half DEF to 2 enemies with the highest DEF for 6 seconds.', 'During Assault Rumble, 11% Special CT Delay to [QCK] enemies.', 'During Assault Rumble, deals 2.2x ATK in damage to [QCK] enemies.', 'During Assault Rumble, reduces 11% of Special CT to self.'],
+                    ['Inflicts Lv. 1 SPD down debuff to all enemies in a large, radial range for 12 seconds.', 'Inflicts Lv. 1 ATK and SPD down debuff to [QCK] enemies for 42 seconds.', 'Inflicts Lv. 1 DEF down debuff to [QCK] enemies for 42 seconds.', 'When there is 4 or more [Straw Hat Pirates], [Giant] and [Scientist] crew members, 76% chance to inflict Half DEF to 2 enemies with the highest DEF for 7 seconds.', 'During Assault Rumble, 12% Special CT Delay to [QCK] enemies.', 'During Assault Rumble, deals 2.4x ATK in damage to [QCK] enemies.', 'During Assault Rumble, reduces 12% of Special CT to self.'],
+                    ['Inflicts Lv. 2 SPD down debuff to all enemies in a large, radial range for 13 seconds.', 'Inflicts Lv. 1 ATK and SPD down debuff to [QCK] enemies for 43 seconds.', 'Inflicts Lv. 1 DEF down debuff to [QCK] enemies for 43 seconds.', 'When there is 4 or more [Straw Hat Pirates], [Giant] and [Scientist] crew members, 79% chance to inflict Half DEF to 2 enemies with the highest DEF for 8 seconds.', 'During Assault Rumble, 13% Special CT Delay to [QCK] enemies.', 'During Assault Rumble, deals 2.6x ATK in damage to [QCK] enemies.', 'During Assault Rumble, reduces 13% of Special CT to self.'],
+                    ['Inflicts Lv. 2 SPD down debuff to all enemies in a large, radial range for 14 seconds.', 'Inflicts Lv. 1 ATK and SPD down debuff to [QCK] enemies for 44 seconds.', 'Inflicts Lv. 1 DEF down debuff to [QCK] enemies for 44 seconds.', 'When there is 4 or more [Straw Hat Pirates], [Giant] and [Scientist] crew members, 82% chance to inflict Half DEF to 2 enemies with the highest DEF for 9 seconds.', 'During Assault Rumble, 14% Special CT Delay to [QCK] enemies.', 'During Assault Rumble, deals 2.8x ATK in damage to [QCK] enemies.', 'During Assault Rumble, reduces 14% of Special CT to self.'],
+                    ['Inflicts Lv. 3 SPD down debuff to all enemies in a large, radial range for 15 seconds.', 'Inflicts Lv. 2 ATK and SPD down debuff to [QCK] enemies for 45 seconds.', 'Inflicts Lv. 1 DEF down debuff to [QCK] enemies for 45 seconds.', 'When there is 4 or more [Straw Hat Pirates], [Giant] and [Scientist] crew members, 85% chance to inflict Half DEF to 2 enemies with the highest DEF for 10 seconds.', 'During Assault Rumble, 15% Special CT Delay to [QCK] enemies.', 'During Assault Rumble, deals 3x ATK in damage to [QCK] enemies.', 'During Assault Rumble, reduces 15% of Special CT to self.'],
+                    ['Inflicts Lv. 3 SPD down debuff to all enemies in a large, radial range for 16 seconds.', 'Inflicts Lv. 2 ATK and SPD down debuff to [QCK] enemies for 46 seconds.', 'Inflicts Lv. 2 DEF down debuff to [QCK] enemies for 46 seconds.', 'When there is 4 or more [Straw Hat Pirates], [Giant] and [Scientist] crew members, 88% chance to inflict Half DEF to 2 enemies with the highest DEF for 11 seconds.', 'During Assault Rumble, 16% Special CT Delay to [QCK] enemies.', 'During Assault Rumble, deals 3.2x ATK in damage to [QCK] enemies.', 'During Assault Rumble, reduces 16% of Special CT to self.'],
+                    ['Inflicts Lv. 4 SPD down debuff to all enemies in a large, radial range for 17 seconds.', 'Inflicts Lv. 2 ATK and SPD down debuff to [QCK] enemies for 47 seconds.', 'Inflicts Lv. 2 DEF down debuff to [QCK] enemies for 47 seconds.', 'When there is 4 or more [Straw Hat Pirates], [Giant] and [Scientist] crew members, 91% chance to inflict Half DEF to 2 enemies with the highest DEF for 12 seconds.', 'During Assault Rumble, 17% Special CT Delay to [QCK] enemies.', 'During Assault Rumble, deals 3.4x ATK in damage to [QCK] enemies.', 'During Assault Rumble, reduces 17% of Special CT to self.'],
+                    ['Inflicts Lv. 4 SPD down debuff to all enemies in a large, radial range for 18 seconds.', 'Inflicts Lv. 3 ATK and SPD down debuff to [QCK] enemies for 48 seconds.', 'Inflicts Lv. 2 DEF down debuff to [QCK] enemies for 48 seconds.', 'When there is 4 or more [Straw Hat Pirates], [Giant] and [Scientist] crew members, 94% chance to inflict Half DEF to 2 enemies with the highest DEF for 13 seconds.', 'During Assault Rumble, 18% Special CT Delay to [QCK] enemies.', 'During Assault Rumble, deals 3.6x ATK in damage to [QCK] enemies.', 'During Assault Rumble, reduces 18% of Special CT to self.'],
+                    ['Inflicts Lv. 5 SPD down debuff to all enemies in a large, radial range for 19 seconds.', 'Inflicts Lv. 3 ATK and SPD down debuff to [QCK] enemies for 49 seconds.', 'Inflicts Lv. 2 DEF down debuff to [QCK] enemies for 49 seconds.', 'When there is 4 or more [Straw Hat Pirates], [Giant] and [Scientist] crew members, 97% chance to inflict Half DEF to 2 enemies with the highest DEF for 14 seconds.', 'During Assault Rumble, 19% Special CT Delay to [QCK] enemies.', 'During Assault Rumble, deals 3.8x ATK in damage to [QCK] enemies.', 'During Assault Rumble, reduces 19% of Special CT to self.'],
+                    ['Inflicts Lv. 6 SPD down debuff to all enemies in a large, radial range for 20 seconds.', 'Inflicts Lv. 4 ATK and SPD down debuff to [QCK] enemies for 50 seconds.', 'Inflicts Lv. 3 DEF down debuff to [QCK] enemies for 50 seconds.', 'When there is 4 or more [Straw Hat Pirates], [Giant] and [Scientist] crew members, 100% chance to inflict Half DEF to 2 enemies with the highest DEF for 15 seconds.', 'During Assault Rumble, 20% Special CT Delay to [QCK] enemies.', 'During Assault Rumble, deals 4x ATK in damage to [QCK] enemies.', 'During Assault Rumble, reduces 20% of Special CT to self.']
+                ]
+            }
+        }
+    },
+    4638: {
+        festCost: 20,
+        festStats: {
+            def: 124,
+            spd: 174,
+            style: "DBF"
+        },
+        festAttackPattern: ['Normal Attack', '<i>Level 2 Self Heal</i>', '<b><i>Power Attack</b></i>', '<b><i>Power Attack</b></i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['60% chance to resist Special Bind.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 1 SPD and HP up buff to [INT], Powerhouse, [Giant] and [Child] crew members.', 'Inflicts Lv. 1 SPD down debuff to [PSY] enemies.', 'When there is 3 or more [Child] and [Giant] crew members, reduces 12% of Special CT to self upon appearance.'],
+                ['Applies Lv. 1 SPD and HP up buff to [INT], Powerhouse, [Giant] and [Child] crew members.', 'Inflicts Lv. 2 SPD down debuff to [PSY] enemies.', 'When there is 3 or more [Child] and [Giant] crew members, reduces 14% of Special CT to self upon appearance.'],
+                ['Applies Lv. 2 SPD and HP up buff to [INT], Powerhouse, [Giant] and [Child] crew members.', 'Inflicts Lv. 3 SPD down debuff to [PSY] enemies.', 'When there is 3 or more [Child] and [Giant] crew members, reduces 16% of Special CT to self upon appearance.'],
+                ['Applies Lv. 2 SPD and HP up buff to [INT], Powerhouse, [Giant] and [Child] crew members.', 'Inflicts Lv. 4 SPD down debuff to [PSY] enemies.', 'When there is 3 or more [Child] and [Giant] crew members, reduces 18% of Special CT to self upon appearance.'],
+                ['Applies Lv. 3 SPD and HP up buff to [INT], Powerhouse, [Giant] and [Child] crew members.', 'Inflicts Lv. 5 SPD down debuff to [PSY] enemies.', 'When there is 3 or more [Child] and [Giant] crew members, reduces 20% of Special CT to self upon appearance.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 20,
+                descriptions: [
+                    ['Inflicts Lv. 1 ATK and Accuracy down debuff to 3 enemies for 15 seconds.', 'When there is 3 or more [Giant] and [Child] crew members, reduces 11% of Special CT to 1 [Giant] and [Child] crew member with the highest ATK.', 'Deals 2,200 fixed damage to 1 enemy with the highest HP.'],
+                    ['Inflicts Lv. 1 ATK and Accuracy down debuff to 3 enemies for 15 seconds.', 'When there is 3 or more [Giant] and [Child] crew members, reduces 12% of Special CT to 1 [Giant] and [Child] crew member with the highest ATK.', 'Deals 2,400 fixed damage to 1 enemy with the highest HP.'],
+                    ['Inflicts Lv. 1 ATK and Accuracy down debuff to 3 enemies for 15 seconds.', 'When there is 3 or more [Giant] and [Child] crew members, reduces 13% of Special CT to 1 [Giant] and [Child] crew member with the highest ATK.', 'Deals 2,600 fixed damage to 1 enemy with the highest HP.'],
+                    ['Inflicts Lv. 1 ATK and Accuracy down debuff to 3 enemies for 15 seconds.', 'When there is 3 or more [Giant] and [Child] crew members, reduces 14% of Special CT to 1 [Giant] and [Child] crew member with the highest ATK.', 'Deals 2,800 fixed damage to 1 enemy with the highest HP.'],
+                    ['Inflicts Lv. 2 ATK and Accuracy down debuff to 3 enemies for 15 seconds.', 'When there is 3 or more [Giant] and [Child] crew members, reduces 15% of Special CT to 1 [Giant] and [Child] crew member with the highest ATK.', 'Deals 3,000 fixed damage to 1 enemy with the highest HP.'],
+                    ['Inflicts Lv. 2 ATK and Accuracy down debuff to 3 enemies for 15 seconds.', 'When there is 3 or more [Giant] and [Child] crew members, reduces 16% of Special CT to 1 [Giant] and [Child] crew member with the highest ATK.', 'Deals 3,200 fixed damage to 1 enemy with the highest HP.'],
+                    ['Inflicts Lv. 2 ATK and Accuracy down debuff to 3 enemies for 15 seconds.', 'When there is 3 or more [Giant] and [Child] crew members, reduces 17% of Special CT to 1 [Giant] and [Child] crew member with the highest ATK.', 'Deals 3,400 fixed damage to 1 enemy with the highest HP.'],
+                    ['Inflicts Lv. 3 ATK and Accuracy down debuff to 3 enemies for 15 seconds.', 'When there is 3 or more [Giant] and [Child] crew members, reduces 18% of Special CT to 1 [Giant] and [Child] crew member with the highest ATK.', 'Deals 3,600 fixed damage to 1 enemy with the highest HP.'],
+                    ['Inflicts Lv. 3 ATK and Accuracy down debuff to 3 enemies for 15 seconds.', 'When there is 3 or more [Giant] and [Child] crew members, reduces 19% of Special CT to 1 [Giant] and [Child] crew member with the highest ATK.', 'Deals 3,800 fixed damage to 1 enemy with the highest HP.'],
+                    ['Inflicts Lv. 4 ATK and Accuracy down debuff to 3 enemies for 15 seconds.', 'When there is 3 or more [Giant] and [Child] crew members, reduces 20% of Special CT to 1 [Giant] and [Child] crew member with the highest ATK.', 'Deals 4,000 fixed damage to 1 enemy with the highest HP.']
+                ]
+            }
+        }
+    },
+    4639: {
+        festCost: 20,
+        festStats: {
+            def: 148,
+            spd: 181,
+            style: "DBF"
+        },
+        festAttackPattern: ['Normal Attack', '<i>Level 2 Self Heal</i>', '<b><i>Power Attack</b></i>', '<b><i>Power Attack</b></i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['80% chance to resist Special Bind.', '20% damage reduction from [PSY] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 1 SPD and HP up buff to [INT], Powerhouse, [Giant] and [Child] crew members.', 'Inflicts Lv. 2 SPD down debuff to [PSY] enemies.', 'When there is 3 or more [Child] and [Giant] crew members, reduces 22% of Special CT to self upon appearance.'],
+                ['Applies Lv. 2 SPD and HP up buff to [INT], Powerhouse, [Giant] and [Child] crew members.', 'Inflicts Lv. 3 SPD down debuff to [PSY] enemies.', 'When there is 3 or more [Child] and [Giant] crew members, reduces 24% of Special CT to self upon appearance.'],
+                ['Applies Lv. 3 SPD and HP up buff to [INT], Powerhouse, [Giant] and [Child] crew members.', 'Inflicts Lv. 4 SPD down debuff to [PSY] enemies.', 'When there is 3 or more [Child] and [Giant] crew members, reduces 26% of Special CT to self upon appearance.'],
+                ['Applies Lv. 4 SPD and HP up buff to [INT], Powerhouse, [Giant] and [Child] crew members.', 'Inflicts Lv. 5 SPD down debuff to [PSY] enemies.', 'When there is 3 or more [Child] and [Giant] crew members, reduces 28% of Special CT to self upon appearance.'],
+                ['Applies Lv. 5 SPD and HP up buff to [INT], Powerhouse, [Giant] and [Child] crew members.', 'Inflicts Lv. 6 SPD down debuff to [PSY] enemies.', 'When there is 3 or more [Child] and [Giant] crew members, reduces 30% of Special CT to self upon appearance.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 20,
+                descriptions: [
+                    ['Inflicts Lv. 3 ATK and Accuracy down debuff to 3 enemies for 15 seconds.', 'When there is 3 or more [Giant] and [Child] crew members, reduces 21% of Special CT to 1 [Giant] and [Child] crew member with the highest ATK.', 'Deals 4,200 fixed damage to 1 enemy with the highest HP.', 'During Assault Rumble, inflicts Lv. 1 DEF down debuff to 3 [PSY] enemies for 15 seconds.'],
+                    ['Inflicts Lv. 3 ATK and Accuracy down debuff to 3 enemies for 15 seconds.', 'When there is 3 or more [Giant] and [Child] crew members, reduces 22% of Special CT to 1 [Giant] and [Child] crew member with the highest ATK.', 'Deals 4,400 fixed damage to 1 enemy with the highest HP.', 'During Assault Rumble, inflicts Lv. 1 DEF down debuff to 3 [PSY] enemies for 15 seconds.'],
+                    ['Inflicts Lv. 3 ATK and Accuracy down debuff to 3 enemies for 15 seconds.', 'When there is 3 or more [Giant] and [Child] crew members, reduces 23% of Special CT to 1 [Giant] and [Child] crew member with the highest ATK.', 'Deals 4,600 fixed damage to 1 enemy with the highest HP.', 'During Assault Rumble, inflicts Lv. 1 DEF down debuff to 3 [PSY] enemies for 15 seconds.'],
+                    ['Inflicts Lv. 3 ATK and Accuracy down debuff to 3 enemies for 15 seconds.', 'When there is 3 or more [Giant] and [Child] crew members, reduces 24% of Special CT to 1 [Giant] and [Child] crew member with the highest ATK.', 'Deals 4,800 fixed damage to 1 enemy with the highest HP.', 'During Assault Rumble, inflicts Lv. 2 DEF down debuff to 3 [PSY] enemies for 15 seconds.'],
+                    ['Inflicts Lv. 4 ATK and Accuracy down debuff to 3 enemies for 15 seconds.', 'When there is 3 or more [Giant] and [Child] crew members, reduces 25% of Special CT to 1 [Giant] and [Child] crew member with the highest ATK.', 'Deals 5,000 fixed damage to 1 enemy with the highest HP.', 'During Assault Rumble, inflicts Lv. 2 DEF down debuff to 3 [PSY] enemies for 15 seconds.'],
+                    ['Inflicts Lv. 4 ATK and Accuracy down debuff to 3 enemies for 15 seconds.', 'When there is 3 or more [Giant] and [Child] crew members, reduces 26% of Special CT to 1 [Giant] and [Child] crew member with the highest ATK.', 'Deals 5,200 fixed damage to 1 enemy with the highest HP.', 'During Assault Rumble, inflicts Lv. 3 DEF down debuff to 3 [PSY] enemies for 15 seconds.'],
+                    ['Inflicts Lv. 4 ATK and Accuracy down debuff to 3 enemies for 15 seconds.', 'When there is 3 or more [Giant] and [Child] crew members, reduces 27% of Special CT to 1 [Giant] and [Child] crew member with the highest ATK.', 'Deals 5,400 fixed damage to 1 enemy with the highest HP.', 'During Assault Rumble, inflicts Lv. 3 DEF down debuff to 3 [PSY] enemies for 15 seconds.'],
+                    ['Inflicts Lv. 5 ATK and Accuracy down debuff to 3 enemies for 15 seconds.', 'When there is 3 or more [Giant] and [Child] crew members, reduces 28% of Special CT to 1 [Giant] and [Child] crew member with the highest ATK.', 'Deals 5,600 fixed damage to 1 enemy with the highest HP.', 'During Assault Rumble, inflicts Lv. 3 DEF down debuff to 3 [PSY] enemies for 15 seconds.'],
+                    ['Inflicts Lv. 5 ATK and Accuracy down debuff to 3 enemies for 15 seconds.', 'When there is 3 or more [Giant] and [Child] crew members, reduces 29% of Special CT to 1 [Giant] and [Child] crew member with the highest ATK.', 'Deals 5,800 fixed damage to 1 enemy with the highest HP.', 'During Assault Rumble, inflicts Lv. 4 DEF down debuff to 3 [PSY] enemies for 15 seconds.'],
+                    ['Inflicts Lv. 6 ATK and Accuracy down debuff to 3 enemies for 15 seconds.', 'When there is 3 or more [Giant] and [Child] crew members, reduces 30% of Special CT to 1 [Giant] and [Child] crew member with the highest ATK.', 'Deals 6,000 fixed damage to 1 enemy with the highest HP.', 'During Assault Rumble, inflicts Lv. 5 DEF down debuff to 3 [PSY] enemies for 15 seconds.']
+                ]
+            }
+        }
+    },
+    4640: {
+        festCost: 20,
+        festStats: {
+            def: 172,
+            spd: 160,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack', '<i>Level 2 Self Heal</i>', '<b><i>Power Attack</b></i>', '<b><i>Power Attack</b></i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Special Bind.', '100% chance to resist Half Stats.', '30% damage reduction from [PSY] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 1 HP and DEF up buff to [INT], Powerhouse and [Giant] crew members.', 'When Monkey D. Luffy is on your crew, applies Lv. 7 ATK and SPD up buff to self.', 'Inflicts Lv. 18 ATK down debuff to Monkey D. Luffy crew member.', 'For the first 50 seconds, applies Lv. 1 ATK up buff to [INT], Powerhouse and [Giant] crew members.', 'For the first 50 seconds, applies Lv. 1 Special CT up buff to [INT], Powerhouse and [Giant] crew members.'],
+                ['Applies Lv. 2 HP and DEF up buff to [INT], Powerhouse and [Giant] crew members.', 'When Monkey D. Luffy is on your crew, applies Lv. 8 ATK and SPD up buff to self.', 'Inflicts Lv. 18 ATK down debuff to Monkey D. Luffy crew member.', 'For the first 50 seconds, applies Lv. 2 ATK up buff to [INT], Powerhouse and [Giant] crew members.', 'For the first 50 seconds, applies Lv. 1 Special CT up buff to [INT], Powerhouse and [Giant] crew members.'],
+                ['Applies Lv. 3 HP and DEF up buff to [INT], Powerhouse and [Giant] crew members.', 'When Monkey D. Luffy is on your crew, applies Lv. 9 ATK and SPD up buff to self.', 'Inflicts Lv. 18 ATK down debuff to Monkey D. Luffy crew member.', 'For the first 50 seconds, applies Lv. 3 ATK up buff to [INT], Powerhouse and [Giant] crew members.', 'For the first 50 seconds, applies Lv. 1 Special CT up buff to [INT], Powerhouse and [Giant] crew members.'],
+                ['Applies Lv. 4 HP and DEF up buff to [INT], Powerhouse and [Giant] crew members.', 'When Monkey D. Luffy is on your crew, applies Lv. 10 ATK and SPD up buff to self.', 'Inflicts Lv. 18 ATK down debuff to Monkey D. Luffy crew member.', 'For the first 50 seconds, applies Lv. 4 ATK up buff to [INT], Powerhouse and [Giant] crew members.', 'For the first 50 seconds, applies Lv. 2 Special CT up buff to [INT], Powerhouse and [Giant] crew members.'],
+                ['Applies Lv. 6 HP and DEF up buff to [INT], Powerhouse and [Giant] crew members.', 'When Monkey D. Luffy is on your crew, applies Lv. 12 ATK and SPD up buff to self.', 'Inflicts Lv. 18 ATK down debuff to Monkey D. Luffy crew member.', 'For the first 50 seconds, applies Lv. 6 ATK up buff to [INT], Powerhouse and [Giant] crew members.', 'For the first 50 seconds, applies Lv. 3 Special CT up buff to [INT], Powerhouse and [Giant] crew members.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 32,
+                descriptions: [
+                    ['Applies Lv. 1 ATK up buff to [INT], Powerhouse and [Giant] crew members for 20 seconds.', 'Deals 0.3x ATK in damage ignoring DEF to 2 enemies 3 times.', 'When Monkey D. Luffy is on your crew, deals 8x ATK in spread damage to all enemies in a large, radial range.', 'Inflicts Lv. 5 ATK down debuff to self for 100 seconds.', 'Inflicts Lv. 3 DEF down debuff to self for 100 seconds.'],
+                    ['Applies Lv. 1 ATK up buff to [INT], Powerhouse and [Giant] crew members for 20 seconds.', 'Deals 0.4x ATK in damage ignoring DEF to 2 enemies 3 times.', 'When Monkey D. Luffy is on your crew, deals 9x ATK in spread damage to all enemies in a large, radial range.', 'Inflicts Lv. 5 ATK down debuff to self for 100 seconds.', 'Inflicts Lv. 3 DEF down debuff to self for 100 seconds.'],
+                    ['Applies Lv. 1 ATK up buff to [INT], Powerhouse and [Giant] crew members for 20 seconds.', 'Deals 0.5x ATK in damage ignoring DEF to 2 enemies 3 times.', 'When Monkey D. Luffy is on your crew, deals 10x ATK in spread damage to all enemies in a large, radial range.', 'Inflicts Lv. 5 ATK down debuff to self for 100 seconds.', 'Inflicts Lv. 3 DEF down debuff to self for 100 seconds.'],
+                    ['Applies Lv. 2 ATK up buff to [INT], Powerhouse and [Giant] crew members for 20 seconds.', 'Deals 0.6x ATK in damage ignoring DEF to 2 enemies 3 times.', 'When Monkey D. Luffy is on your crew, deals 11x ATK in spread damage to all enemies in a large, radial range.', 'Inflicts Lv. 5 ATK down debuff to self for 100 seconds.', 'Inflicts Lv. 3 DEF down debuff to self for 100 seconds.'],
+                    ['Applies Lv. 2 ATK up buff to [INT], Powerhouse and [Giant] crew members for 20 seconds.', 'Deals 0.7x ATK in damage ignoring DEF to 2 enemies 3 times.', 'When Monkey D. Luffy is on your crew, deals 12x ATK in spread damage to all enemies in a large, radial range.', 'Inflicts Lv. 5 ATK down debuff to self for 100 seconds.', 'Inflicts Lv. 3 DEF down debuff to self for 100 seconds.'],
+                    ['Applies Lv. 3 ATK up buff to [INT], Powerhouse and [Giant] crew members for 20 seconds.', 'Deals 0.8x ATK in damage ignoring DEF to 2 enemies 3 times.', 'When Monkey D. Luffy is on your crew, deals 13x ATK in spread damage to all enemies in a large, radial range.', 'Inflicts Lv. 5 ATK down debuff to self for 100 seconds.', 'Inflicts Lv. 3 DEF down debuff to self for 100 seconds.'],
+                    ['Applies Lv. 3 ATK up buff to [INT], Powerhouse and [Giant] crew members for 20 seconds.', 'Deals 0.9x ATK in damage ignoring DEF to 2 enemies 3 times.', 'When Monkey D. Luffy is on your crew, deals 14x ATK in spread damage to all enemies in a large, radial range.', 'Inflicts Lv. 5 ATK down debuff to self for 100 seconds.', 'Inflicts Lv. 3 DEF down debuff to self for 100 seconds.'],
+                    ['Applies Lv. 3 ATK up buff to [INT], Powerhouse and [Giant] crew members for 20 seconds.', 'Deals 1x ATK in damage ignoring DEF to 2 enemies 3 times.', 'When Monkey D. Luffy is on your crew, deals 15x ATK in spread damage to all enemies in a large, radial range.', 'Inflicts Lv. 5 ATK down debuff to self for 100 seconds.', 'Inflicts Lv. 3 DEF down debuff to self for 100 seconds.'],
+                    ['Applies Lv. 4 ATK up buff to [INT], Powerhouse and [Giant] crew members for 20 seconds.', 'Deals 1.1x ATK in damage ignoring DEF to 2 enemies 3 times.', 'When Monkey D. Luffy is on your crew, deals 16x ATK in spread damage to all enemies in a large, radial range.', 'Inflicts Lv. 5 ATK down debuff to self for 100 seconds.', 'Inflicts Lv. 3 DEF down debuff to self for 100 seconds.'],
+                    ['Applies Lv. 5 ATK up buff to [INT], Powerhouse and [Giant] crew members for 20 seconds.', 'Deals 1.2x ATK in damage ignoring DEF to 2 enemies 3 times.', 'When Monkey D. Luffy is on your crew, deals 18x ATK in spread damage to all enemies in a large, radial range.', 'Inflicts Lv. 5 ATK down debuff to self for 100 seconds.', 'Inflicts Lv. 3 DEF down debuff to self for 100 seconds.']
+                ]
+            }
+        }
+    },
+    4641: {
+        festCost: 55,
+        festStats: {
+            def: 163,
+            spd: 169,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack', '<i>Level 2 Self Heal</i>', '<b><i>Power Attack</b></i>', '<b><i>Power Attack</b></i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Special Bind.', '30% damage reduction from [QCK] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to [DEX], Cerebral, [Giant] and [Child] crew members.', 'Applies Lv. 1 DEF up buff to [DEX], Cerebral, [Giant] and [Child] crew members.', 'When there are 60 seconds or less remaining, reduces 10% of Special CT to [Giant] and [Child] crew members upon appearance.', 'For the first 40 seconds, inflicts Lv. 2 ATK down debuff to all enemies.'],
+                ['Applies Lv. 2 ATK up buff to [DEX], Cerebral, [Giant] and [Child] crew members.', 'Applies Lv. 1 DEF up buff to [DEX], Cerebral, [Giant] and [Child] crew members.', 'When there are 60 seconds or less remaining, reduces 15% of Special CT to [Giant] and [Child] crew members upon appearance.', 'For the first 40 seconds, inflicts Lv. 3 ATK down debuff to all enemies.'],
+                ['Applies Lv. 3 ATK up buff to [DEX], Cerebral, [Giant] and [Child] crew members.', 'Applies Lv. 2 DEF up buff to [DEX], Cerebral, [Giant] and [Child] crew members.', 'When there are 60 seconds or less remaining, reduces 20% of Special CT to [Giant] and [Child] crew members upon appearance.', 'For the first 40 seconds, inflicts Lv. 4 ATK down debuff to all enemies.'],
+                ['Applies Lv. 4 ATK up buff to [DEX], Cerebral, [Giant] and [Child] crew members.', 'Applies Lv. 2 DEF up buff to [DEX], Cerebral, [Giant] and [Child] crew members.', 'When there are 60 seconds or less remaining, reduces 25% of Special CT to [Giant] and [Child] crew members upon appearance.', 'For the first 40 seconds, inflicts Lv. 5 ATK down debuff to all enemies.'],
+                ['Applies Lv. 6 ATK up buff to [DEX], Cerebral, [Giant] and [Child] crew members.', 'Applies Lv. 3 DEF up buff to [DEX], Cerebral, [Giant] and [Child] crew members.', 'When there are 60 seconds or less remaining, reduces 30% of Special CT to [Giant] and [Child] crew members upon appearance.', 'For the first 40 seconds, inflicts Lv. 7 ATK down debuff to all enemies.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 32,
+                descriptions: [
+                    ['When there is 1 or more [Child] crew members, applies Lv. 6 ATK up buff to self for 5 seconds.', 'Applies Lv. 2 DEF up buff to [DEX], Cerebral, [Giant] and [Child] crew members for 11 seconds.', '80% chance to evade Fixed Damage to [Giant] and [Child] crew members for 11 seconds.', 'Deals 1x ATK in damage to all enemies.', 'When there are 60 seconds or less remaining, deals 1x ATK in damage ignoring DEF to 3 enemies.'],
+                    ['When there is 1 or more [Child] crew members, applies Lv. 6 ATK up buff to self for 5 seconds.', 'Applies Lv. 2 DEF up buff to [DEX], Cerebral, [Giant] and [Child] crew members for 12 seconds.', '82% chance to evade Fixed Damage to [Giant] and [Child] crew members for 12 seconds.', 'Deals 1.3x ATK in damage to all enemies.', 'When there are 60 seconds or less remaining, deals 1.1x ATK in damage ignoring DEF to 3 enemies.'],
+                    ['When there is 1 or more [Child] crew members, applies Lv. 6 ATK up buff to self for 5 seconds.', 'Applies Lv. 2 DEF up buff to [DEX], Cerebral, [Giant] and [Child] crew members for 13 seconds.', '84% chance to evade Fixed Damage to [Giant] and [Child] crew members for 13 seconds.', 'Deals 1.6x ATK in damage to all enemies.', 'When there are 60 seconds or less remaining, deals 1.2x ATK in damage ignoring DEF to 3 enemies.'],
+                    ['When there is 1 or more [Child] crew members, applies Lv. 7 ATK up buff to self for 5 seconds.', 'Applies Lv. 3 DEF up buff to [DEX], Cerebral, [Giant] and [Child] crew members for 14 seconds.', '86% chance to evade Fixed Damage to [Giant] and [Child] crew members for 14 seconds.', 'Deals 1.9x ATK in damage to all enemies.', 'When there are 60 seconds or less remaining, deals 1.3x ATK in damage ignoring DEF to 3 enemies.'],
+                    ['When there is 1 or more [Child] crew members, applies Lv. 7 ATK up buff to self for 5 seconds.', 'Applies Lv. 3 DEF up buff to [DEX], Cerebral, [Giant] and [Child] crew members for 15 seconds.', '88% chance to evade Fixed Damage to [Giant] and [Child] crew members for 15 seconds.', 'Deals 2.2x ATK in damage to all enemies.', 'When there are 60 seconds or less remaining, deals 1.4x ATK in damage ignoring DEF to 3 enemies.'],
+                    ['When there is 1 or more [Child] crew members, applies Lv. 8 ATK up buff to self for 5 seconds.', 'Applies Lv. 4 DEF up buff to [DEX], Cerebral, [Giant] and [Child] crew members for 16 seconds.', '90% chance to evade Fixed Damage to [Giant] and [Child] crew members for 16 seconds.', 'Deals 2.5x ATK in damage to all enemies.', 'When there are 60 seconds or less remaining, deals 1.5x ATK in damage ignoring DEF to 3 enemies.'],
+                    ['When there is 1 or more [Child] crew members, applies Lv. 8 ATK up buff to self for 5 seconds.', 'Applies Lv. 4 DEF up buff to [DEX], Cerebral, [Giant] and [Child] crew members for 17 seconds.', '92% chance to evade Fixed Damage to [Giant] and [Child] crew members for 17 seconds.', 'Deals 2.8x ATK in damage to all enemies.', 'When there are 60 seconds or less remaining, deals 1.6x ATK in damage ignoring DEF to 3 enemies.'],
+                    ['When there is 1 or more [Child] crew members, applies Lv. 8 ATK up buff to self for 5 seconds.', 'Applies Lv. 4 DEF up buff to [DEX], Cerebral, [Giant] and [Child] crew members for 18 seconds.', '94% chance to evade Fixed Damage to [Giant] and [Child] crew members for 18 seconds.', 'Deals 3.1x ATK in damage to all enemies.', 'When there are 60 seconds or less remaining, deals 1.7x ATK in damage ignoring DEF to 3 enemies.'],
+                    ['When there is 1 or more [Child] crew members, applies Lv. 9 ATK up buff to self for 5 seconds.', 'Applies Lv. 5 DEF up buff to [DEX], Cerebral, [Giant] and [Child] crew members for 19 seconds.', '96% chance to evade Fixed Damage to [Giant] and [Child] crew members for 19 seconds.', 'Deals 3.4x ATK in damage to all enemies.', 'When there are 60 seconds or less remaining, deals 1.8x ATK in damage ignoring DEF to 3 enemies.'],
+                    ['When there is 1 or more [Child] crew members, applies Lv. 10 ATK up buff to self for 5 seconds.', 'Applies Lv. 6 DEF up buff to [DEX], Cerebral, [Giant] and [Child] crew members for 20 seconds.', '100% chance to evade Fixed Damage to [Giant] and [Child] crew members for 20 seconds.', 'Deals 4x ATK in damage to all enemies.', 'When there are 60 seconds or less remaining, deals 2x ATK in damage ignoring DEF to 3 enemies.']
+                ]
+            }
+        }
+    },
+    4642: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "DEF"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4643: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4644: {
+        festCost: 55,
+        festStats: {
+            def: 132,
+            spd: 179,
+            style: "RCV"
+        },
+        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<i>Level 2 Medium Range Heal</i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Special Bind.', '30% damage reduction from [QCK] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 1 HP and SPD up buff to [DEX], Cerebral, [Straw Hat Pirates] and [Giant] crew members.', 'The first 10 times this character lands a hit, 40% chance to grant Haste to self.', 'The first 10 times this character lands a hit, reduces 6% of Special CT to [Straw Hat Pirates] and [Giant] crew members.'],
+                ['Applies Lv. 2 HP and SPD up buff to [DEX], Cerebral, [Straw Hat Pirates] and [Giant] crew members.', 'The first 10 times this character lands a hit, 42% chance to grant Haste to self.', 'The first 10 times this character lands a hit, reduces 7% of Special CT to [Straw Hat Pirates] and [Giant] crew members.'],
+                ['Applies Lv. 3 HP and SPD up buff to [DEX], Cerebral, [Straw Hat Pirates] and [Giant] crew members.', 'The first 10 times this character lands a hit, 45% chance to grant Haste to self.', 'The first 10 times this character lands a hit, reduces 8% of Special CT to [Straw Hat Pirates] and [Giant] crew members.'],
+                ['Applies Lv. 4 HP and SPD up buff to [DEX], Cerebral, [Straw Hat Pirates] and [Giant] crew members.', 'The first 10 times this character lands a hit, 47% chance to grant Haste to self.', 'The first 10 times this character lands a hit, reduces 9% of Special CT to [Straw Hat Pirates] and [Giant] crew members.'],
+                ['Applies Lv. 6 HP and SPD up buff to [DEX], Cerebral, [Straw Hat Pirates] and [Giant] crew members.', 'The first 10 times this character lands a hit, 50% chance to grant Haste to self.', 'The first 10 times this character lands a hit, reduces 10% of Special CT to [Straw Hat Pirates] and [Giant] crew members.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 30,
+                descriptions: [
+                    ['Reduce RCV Bind and Action Bind to [DEX], Cerebral, [Straw Hat Pirates] and [Giant] crew members for 11 seconds.', '73% chance to evade RCV Bind and Special CT Delay to [DEX], Cerebral, [Straw Hat Pirates] and [Giant] crew members for 11 seconds.', 'Heals 3x RCV of HP to [DEX], Cerebral, [Straw Hat Pirates] and [Giant] crew members.', 'When there are 50 seconds or less remaining, heals 420 fixed HP every 3 seconds to [Straw Hat Pirates] and [Giant] crew members for 11 seconds.'],
+                    ['Reduce RCV Bind and Action Bind to [DEX], Cerebral, [Straw Hat Pirates] and [Giant] crew members for 12 seconds.', '76% chance to evade RCV Bind and Special CT Delay to [DEX], Cerebral, [Straw Hat Pirates] and [Giant] crew members for 12 seconds.', 'Heals 3x RCV of HP to [DEX], Cerebral, [Straw Hat Pirates] and [Giant] crew members.', 'When there are 50 seconds or less remaining, heals 440 fixed HP every 3 seconds to [Straw Hat Pirates] and [Giant] crew members for 12 seconds.'],
+                    ['Reduce RCV Bind and Action Bind to [DEX], Cerebral, [Straw Hat Pirates] and [Giant] crew members for 13 seconds.', '79% chance to evade RCV Bind and Special CT Delay to [DEX], Cerebral, [Straw Hat Pirates] and [Giant] crew members for 13 seconds.', 'Heals 3x RCV of HP to [DEX], Cerebral, [Straw Hat Pirates] and [Giant] crew members.', 'When there are 50 seconds or less remaining, heals 460 fixed HP every 3 seconds to [Straw Hat Pirates] and [Giant] crew members for 13 seconds.'],
+                    ['Reduce RCV Bind and Action Bind to [DEX], Cerebral, [Straw Hat Pirates] and [Giant] crew members for 14 seconds.', '82% chance to evade RCV Bind and Special CT Delay to [DEX], Cerebral, [Straw Hat Pirates] and [Giant] crew members for 14 seconds.', 'Heals 3x RCV of HP to [DEX], Cerebral, [Straw Hat Pirates] and [Giant] crew members.', 'When there are 50 seconds or less remaining, heals 480 fixed HP every 3 seconds to [Straw Hat Pirates] and [Giant] crew members for 14 seconds.'],
+                    ['Reduce RCV Bind and Action Bind to [DEX], Cerebral, [Straw Hat Pirates] and [Giant] crew members for 15 seconds.', '85% chance to evade RCV Bind and Special CT Delay to [DEX], Cerebral, [Straw Hat Pirates] and [Giant] crew members for 15 seconds.', 'Heals 3x RCV of HP to [DEX], Cerebral, [Straw Hat Pirates] and [Giant] crew members.', 'When there are 50 seconds or less remaining, heals 500 fixed HP every 3 seconds to [Straw Hat Pirates] and [Giant] crew members for 15 seconds.'],
+                    ['Reduce RCV Bind and Action Bind to [DEX], Cerebral, [Straw Hat Pirates] and [Giant] crew members for 16 seconds.', '88% chance to evade RCV Bind and Special CT Delay to [DEX], Cerebral, [Straw Hat Pirates] and [Giant] crew members for 16 seconds.', 'Heals 3x RCV of HP to [DEX], Cerebral, [Straw Hat Pirates] and [Giant] crew members.', 'When there are 50 seconds or less remaining, heals 520 fixed HP every 3 seconds to [Straw Hat Pirates] and [Giant] crew members for 16 seconds.'],
+                    ['Reduce RCV Bind and Action Bind to [DEX], Cerebral, [Straw Hat Pirates] and [Giant] crew members for 17 seconds.', '91% chance to evade RCV Bind and Special CT Delay to [DEX], Cerebral, [Straw Hat Pirates] and [Giant] crew members for 17 seconds.', 'Heals 3x RCV of HP to [DEX], Cerebral, [Straw Hat Pirates] and [Giant] crew members.', 'When there are 50 seconds or less remaining, heals 540 fixed HP every 3 seconds to [Straw Hat Pirates] and [Giant] crew members for 17 seconds.'],
+                    ['Reduce RCV Bind and Action Bind to [DEX], Cerebral, [Straw Hat Pirates] and [Giant] crew members for 18 seconds.', '94% chance to evade RCV Bind and Special CT Delay to [DEX], Cerebral, [Straw Hat Pirates] and [Giant] crew members for 18 seconds.', 'Heals 3x RCV of HP to [DEX], Cerebral, [Straw Hat Pirates] and [Giant] crew members.', 'When there are 50 seconds or less remaining, heals 560 fixed HP every 3 seconds to [Straw Hat Pirates] and [Giant] crew members for 18 seconds.'],
+                    ['Reduce RCV Bind and Action Bind to [DEX], Cerebral, [Straw Hat Pirates] and [Giant] crew members for 19 seconds.', '97% chance to evade RCV Bind and Special CT Delay to [DEX], Cerebral, [Straw Hat Pirates] and [Giant] crew members for 19 seconds.', 'Heals 3x RCV of HP to [DEX], Cerebral, [Straw Hat Pirates] and [Giant] crew members.', 'When there are 50 seconds or less remaining, heals 580 fixed HP every 3 seconds to [Straw Hat Pirates] and [Giant] crew members for 19 seconds.'],
+                    ['Reduce RCV Bind and Action Bind to [DEX], Cerebral, [Straw Hat Pirates] and [Giant] crew members for 20 seconds.', '100% chance to evade RCV Bind and Special CT Delay to [DEX], Cerebral, [Straw Hat Pirates] and [Giant] crew members for 20 seconds.', 'Heals 3x RCV of HP to [DEX], Cerebral, [Straw Hat Pirates] and [Giant] crew members.', 'When there are 50 seconds or less remaining, heals 600 fixed HP every 3 seconds to [Straw Hat Pirates] and [Giant] crew members for 20 seconds.']
+                ]
+            }
+        }
+    },
+    4645: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4646: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4647: {
+        festCost: 55,
+        festStats: {
+            def: 313,
+            spd: 122,
+            style: "DEF"
+        },
+        festAttackPattern: ['Normal Attack', '<i>Level 2 Medium Range Heal</i>', 'Normal Attack', '<i>Level 2 Small Range Heal</i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Action Bind.', '30% damage reduction from [QCK] enemies.'],
+            llbbase: ['100% chance to resist Action Bind.', '40% damage reduction from [QCK] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 4 HP up buff to [DEX], Powerhouse and [Animal Kingdom Pirates] crew members.', 'Applies Lv. 2 DEF up buff to [DEX], Powerhouse and [Animal Kingdom Pirates] crew members.', 'The first 3 times this character lands a hit, applies Lv. 1 DEF up buff to [DEX], Powerhouse and [Animal Kingdom Pirates] crew members.', 'The first 10 times this character takes damage, 24% chance to grant Haste to self.'],
+                ['Applies Lv. 5 HP up buff to [DEX], Powerhouse and [Animal Kingdom Pirates] crew members.', 'Applies Lv. 3 DEF up buff to [DEX], Powerhouse and [Animal Kingdom Pirates] crew members.', 'The first 3 times this character lands a hit, applies Lv. 1 DEF up buff to [DEX], Powerhouse and [Animal Kingdom Pirates] crew members.', 'The first 10 times this character takes damage, 25% chance to grant Haste to self.'],
+                ['Applies Lv. 6 HP up buff to [DEX], Powerhouse and [Animal Kingdom Pirates] crew members.', 'Applies Lv. 4 DEF up buff to [DEX], Powerhouse and [Animal Kingdom Pirates] crew members.', 'The first 3 times this character lands a hit, applies Lv. 1 DEF up buff to [DEX], Powerhouse and [Animal Kingdom Pirates] crew members.', 'The first 10 times this character takes damage, 27% chance to grant Haste to self.'],
+                ['Applies Lv. 7 HP up buff to [DEX], Powerhouse and [Animal Kingdom Pirates] crew members.', 'Applies Lv. 5 DEF up buff to [DEX], Powerhouse and [Animal Kingdom Pirates] crew members.', 'The first 3 times this character lands a hit, applies Lv. 1 DEF up buff to [DEX], Powerhouse and [Animal Kingdom Pirates] crew members.', 'The first 10 times this character takes damage, 28% chance to grant Haste to self.'],
+                ['Applies Lv. 8 HP up buff to [DEX], Powerhouse and [Animal Kingdom Pirates] crew members.', 'Applies Lv. 6 DEF up buff to [DEX], Powerhouse and [Animal Kingdom Pirates] crew members.', 'The first 3 times this character lands a hit, applies Lv. 1 DEF up buff to [DEX], Powerhouse and [Animal Kingdom Pirates] crew members.', 'The first 10 times this character takes damage, 30% chance to grant Haste to self.']
+            ],
+            llbbase: [
+                ['Applies Lv. 6 HP up buff to [DEX], Powerhouse and [Animal Kingdom Pirates] crew members.', 'Applies Lv. 3 DEF up buff to [DEX], Powerhouse and [Animal Kingdom Pirates] crew members.', 'The first 5 times this character lands a hit, applies Lv. 1 DEF up buff to [DEX], Powerhouse and [Animal Kingdom Pirates] crew members.', 'The first 10 times this character takes damage, 40% chance to grant Haste to self.', 'The first 7 times this character lands a heal, reduces 10% of Special CT to [Animal Kingdom Pirates] crew members.'],
+                ['Applies Lv. 7 HP up buff to [DEX], Powerhouse and [Animal Kingdom Pirates] crew members.', 'Applies Lv. 4 DEF up buff to [DEX], Powerhouse and [Animal Kingdom Pirates] crew members.', 'The first 5 times this character lands a hit, applies Lv. 1 DEF up buff to [DEX], Powerhouse and [Animal Kingdom Pirates] crew members.', 'The first 10 times this character takes damage, 42% chance to grant Haste to self.', 'The first 7 times this character lands a heal, reduces 10% of Special CT to [Animal Kingdom Pirates] crew members.'],
+                ['Applies Lv. 8 HP up buff to [DEX], Powerhouse and [Animal Kingdom Pirates] crew members.', 'Applies Lv. 5 DEF up buff to [DEX], Powerhouse and [Animal Kingdom Pirates] crew members.', 'The first 5 times this character lands a hit, applies Lv. 1 DEF up buff to [DEX], Powerhouse and [Animal Kingdom Pirates] crew members.', 'The first 10 times this character takes damage, 45% chance to grant Haste to self.', 'The first 7 times this character lands a heal, reduces 10% of Special CT to [Animal Kingdom Pirates] crew members.'],
+                ['Applies Lv. 9 HP up buff to [DEX], Powerhouse and [Animal Kingdom Pirates] crew members.', 'Applies Lv. 6 DEF up buff to [DEX], Powerhouse and [Animal Kingdom Pirates] crew members.', 'The first 5 times this character lands a hit, applies Lv. 1 DEF up buff to [DEX], Powerhouse and [Animal Kingdom Pirates] crew members.', 'The first 10 times this character takes damage, 47% chance to grant Haste to self.', 'The first 7 times this character lands a heal, reduces 10% of Special CT to [Animal Kingdom Pirates] crew members.'],
+                ['Applies Lv. 10 HP up buff to [DEX], Powerhouse and [Animal Kingdom Pirates] crew members.', 'Applies Lv. 7 DEF up buff to [DEX], Powerhouse and [Animal Kingdom Pirates] crew members.', 'The first 5 times this character lands a hit, applies Lv. 1 DEF up buff to [DEX], Powerhouse and [Animal Kingdom Pirates] crew members.', 'The first 10 times this character takes damage, 50% chance to grant Haste to self.', 'The first 7 times this character lands a heal, reduces 10% of Special CT to [Animal Kingdom Pirates] crew members.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 30,
+                descriptions: [
+                    ['Deals 4,400 fixed damage to 1 enemy.', '40% chance to inflict Action Bind to all enemies in a large, radial range for 5 seconds.', 'Inflicts Lv. 3 SPD down debuff to all enemies in a large, radial range for 6 seconds.', '23% chance to evade Damage Ignoring DEF to [Animal Kingdom Pirates] crew members for 6 seconds.', 'Applies Lv. 1 Shield up buff to [Animal Kingdom Pirates] crew members for 6 seconds.'],
+                    ['Deals 4,800 fixed damage to 1 enemy.', '44% chance to inflict Action Bind to all enemies in a large, radial range for 5 seconds.', 'Inflicts Lv. 3 SPD down debuff to all enemies in a large, radial range for 7 seconds.', '26% chance to evade Damage Ignoring DEF to [Animal Kingdom Pirates] crew members for 7 seconds.', 'Applies Lv. 1 Shield up buff to [Animal Kingdom Pirates] crew members for 7 seconds.'],
+                    ['Deals 5,200 fixed damage to 1 enemy.', '48% chance to inflict Action Bind to all enemies in a large, radial range for 5 seconds.', 'Inflicts Lv. 4 SPD down debuff to all enemies in a large, radial range for 8 seconds.', '29% chance to evade Damage Ignoring DEF to [Animal Kingdom Pirates] crew members for 8 seconds.', 'Applies Lv. 1 Shield up buff to [Animal Kingdom Pirates] crew members for 8 seconds.'],
+                    ['Deals 5,600 fixed damage to 1 enemy.', '52% chance to inflict Action Bind to all enemies in a large, radial range for 5 seconds.', 'Inflicts Lv. 4 SPD down debuff to all enemies in a large, radial range for 9 seconds.', '32% chance to evade Damage Ignoring DEF to [Animal Kingdom Pirates] crew members for 9 seconds.', 'Applies Lv. 1 Shield up buff to [Animal Kingdom Pirates] crew members for 9 seconds.'],
+                    ['Deals 6,000 fixed damage to 1 enemy.', '56% chance to inflict Action Bind to all enemies in a large, radial range for 5 seconds.', 'Inflicts Lv. 5 SPD down debuff to all enemies in a large, radial range for 10 seconds.', '35% chance to evade Damage Ignoring DEF to [Animal Kingdom Pirates] crew members for 10 seconds.', 'Applies Lv. 2 Shield up buff to [Animal Kingdom Pirates] crew members for 10 seconds.'],
+                    ['Deals 6,400 fixed damage to 1 enemy.', '60% chance to inflict Action Bind to all enemies in a large, radial range for 5 seconds.', 'Inflicts Lv. 5 SPD down debuff to all enemies in a large, radial range for 11 seconds.', '38% chance to evade Damage Ignoring DEF to [Animal Kingdom Pirates] crew members for 11 seconds.', 'Applies Lv. 2 Shield up buff to [Animal Kingdom Pirates] crew members for 11 seconds.'],
+                    ['Deals 6,800 fixed damage to 1 enemy.', '64% chance to inflict Action Bind to all enemies in a large, radial range for 5 seconds.', 'Inflicts Lv. 6 SPD down debuff to all enemies in a large, radial range for 12 seconds.', '41% chance to evade Damage Ignoring DEF to [Animal Kingdom Pirates] crew members for 12 seconds.', 'Applies Lv. 2 Shield up buff to [Animal Kingdom Pirates] crew members for 12 seconds.'],
+                    ['Deals 7,200 fixed damage to 1 enemy.', '68% chance to inflict Action Bind to all enemies in a large, radial range for 5 seconds.', 'Inflicts Lv. 6 SPD down debuff to all enemies in a large, radial range for 13 seconds.', '44% chance to evade Damage Ignoring DEF to [Animal Kingdom Pirates] crew members for 13 seconds.', 'Applies Lv. 3 Shield up buff to [Animal Kingdom Pirates] crew members for 13 seconds.'],
+                    ['Deals 7,600 fixed damage to 1 enemy.', '72% chance to inflict Action Bind to all enemies in a large, radial range for 5 seconds.', 'Inflicts Lv. 7 SPD down debuff to all enemies in a large, radial range for 14 seconds.', '47% chance to evade Damage Ignoring DEF to [Animal Kingdom Pirates] crew members for 14 seconds.', 'Applies Lv. 3 Shield up buff to [Animal Kingdom Pirates] crew members for 14 seconds.'],
+                    ['Deals 8,000 fixed damage to 1 enemy.', '80% chance to inflict Action Bind to all enemies in a large, radial range for 5 seconds.', 'Inflicts Lv. 8 SPD down debuff to all enemies in a large, radial range for 15 seconds.', '50% chance to evade Damage Ignoring DEF to [Animal Kingdom Pirates] crew members for 15 seconds.', 'Applies Lv. 4 Shield up buff to [Animal Kingdom Pirates] crew members for 15 seconds.']
+                ]
+            },
+            llbbase: {
+                cooldown: 30,
+                descriptions: [
+                    ['Deals 6,400 fixed damage to 1 enemy.', '60% chance to inflict Action Bind to all enemies in a large, radial range for 5 seconds.', 'Inflicts Lv. 4 SPD down debuff to all enemies in a large, radial range for 11 seconds.', '73% chance to inflict RCV Bind to all enemies with Action Bind for 11 seconds.', '23% chance to evade Damage Ignoring DEF and Fixed Damage to [Animal Kingdom Pirates] crew members for 6 seconds.', 'Applies Lv. 2 Shield up buff to [Animal Kingdom Pirates] crew members for 11 seconds.'],
+                    ['Deals 6,800 fixed damage to 1 enemy.', '64% chance to inflict Action Bind to all enemies in a large, radial range for 5 seconds.', 'Inflicts Lv. 4 SPD down debuff to all enemies in a large, radial range for 12 seconds.', '76% chance to inflict RCV Bind to all enemies with Action Bind for 12 seconds.', '26% chance to evade Damage Ignoring DEF and Fixed Damage to [Animal Kingdom Pirates] crew members for 7 seconds.', 'Applies Lv. 2 Shield up buff to [Animal Kingdom Pirates] crew members for 12 seconds.'],
+                    ['Deals 7,200 fixed damage to 1 enemy.', '68% chance to inflict Action Bind to all enemies in a large, radial range for 5 seconds.', 'Inflicts Lv. 5 SPD down debuff to all enemies in a large, radial range for 13 seconds.', '79% chance to inflict RCV Bind to all enemies with Action Bind for 13 seconds.', '29% chance to evade Damage Ignoring DEF and Fixed Damage to [Animal Kingdom Pirates] crew members for 8 seconds.', 'Applies Lv. 2 Shield up buff to [Animal Kingdom Pirates] crew members for 13 seconds.'],
+                    ['Deals 7,600 fixed damage to 1 enemy.', '72% chance to inflict Action Bind to all enemies in a large, radial range for 5 seconds.', 'Inflicts Lv. 5 SPD down debuff to all enemies in a large, radial range for 14 seconds.', '82% chance to inflict RCV Bind to all enemies with Action Bind for 14 seconds.', '32% chance to evade Damage Ignoring DEF and Fixed Damage to [Animal Kingdom Pirates] crew members for 9 seconds.', 'Applies Lv. 2 Shield up buff to [Animal Kingdom Pirates] crew members for 14 seconds.'],
+                    ['Deals 8,000 fixed damage to 1 enemy.', '76% chance to inflict Action Bind to all enemies in a large, radial range for 5 seconds.', 'Inflicts Lv. 6 SPD down debuff to all enemies in a large, radial range for 15 seconds.', '85% chance to inflict RCV Bind to all enemies with Action Bind for 15 seconds.', '35% chance to evade Damage Ignoring DEF and Fixed Damage to [Animal Kingdom Pirates] crew members for 10 seconds.', 'Applies Lv. 3 Shield up buff to [Animal Kingdom Pirates] crew members for 15 seconds.'],
+                    ['Deals 8,400 fixed damage to 1 enemy.', '80% chance to inflict Action Bind to all enemies in a large, radial range for 5 seconds.', 'Inflicts Lv. 6 SPD down debuff to all enemies in a large, radial range for 16 seconds.', '88% chance to inflict RCV Bind to all enemies with Action Bind for 16 seconds.', '38% chance to evade Damage Ignoring DEF and Fixed Damage to [Animal Kingdom Pirates] crew members for 11 seconds.', 'Applies Lv. 3 Shield up buff to [Animal Kingdom Pirates] crew members for 16 seconds.'],
+                    ['Deals 8,800 fixed damage to 1 enemy.', '84% chance to inflict Action Bind to all enemies in a large, radial range for 5 seconds.', 'Inflicts Lv. 7 SPD down debuff to all enemies in a large, radial range for 17 seconds.', '91% chance to inflict RCV Bind to all enemies with Action Bind for 17 seconds.', '41% chance to evade Damage Ignoring DEF and Fixed Damage to [Animal Kingdom Pirates] crew members for 12 seconds.', 'Applies Lv. 3 Shield up buff to [Animal Kingdom Pirates] crew members for 17 seconds.'],
+                    ['Deals 9,200 fixed damage to 1 enemy.', '88% chance to inflict Action Bind to all enemies in a large, radial range for 5 seconds.', 'Inflicts Lv. 7 SPD down debuff to all enemies in a large, radial range for 18 seconds.', '94% chance to inflict RCV Bind to all enemies with Action Bind for 18 seconds.', '44% chance to evade Damage Ignoring DEF and Fixed Damage to [Animal Kingdom Pirates] crew members for 13 seconds.', 'Applies Lv. 4 Shield up buff to [Animal Kingdom Pirates] crew members for 18 seconds.'],
+                    ['Deals 9,600 fixed damage to 1 enemy.', '92% chance to inflict Action Bind to all enemies in a large, radial range for 5 seconds.', 'Inflicts Lv. 8 SPD down debuff to all enemies in a large, radial range for 19 seconds.', '97% chance to inflict RCV Bind to all enemies with Action Bind for 19 seconds.', '47% chance to evade Damage Ignoring DEF and Fixed Damage to [Animal Kingdom Pirates] crew members for 14 seconds.', 'Applies Lv. 4 Shield up buff to [Animal Kingdom Pirates] crew members for 19 seconds.'],
+                    ['Deals 10,000 fixed damage to 1 enemy.', '100% chance to inflict Action Bind to all enemies in a large, radial range for 5 seconds.', 'Inflicts Lv. 9 SPD down debuff to all enemies in a large, radial range for 20 seconds.', '100% chance to inflict RCV Bind to all enemies with Action Bind for 20 seconds.', '50% chance to evade Damage Ignoring DEF and Fixed Damage to [Animal Kingdom Pirates] crew members for 15 seconds.', 'Applies Lv. 5 Shield up buff to [Animal Kingdom Pirates] crew members for 20 seconds.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
+        }
+    },
+    4648: {
+        festCost: 55,
+        festStats: {
+            def: 130,
+            spd: 180,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<b>Full Attack</b>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Special Bind.', '30% damage reduction from [INT] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 2 HP up buff to [PSY] and [Straw Hat Pirates] crew members.', 'Applies Lv. 1 DEF up buff to [PSY] and [Straw Hat Pirates] crew members.', 'When there is 5 or more [Straw Hat Pirates] crew members, applies Lv. 1 HP up buff to [PSY] and [Straw Hat Pirates] crew members.', 'When there is 5 or more [Straw Hat Pirates] crew members, applies Lv. 1 DEF up buff to [PSY] and [Straw Hat Pirates] crew members.', 'The first 20 times this character takes damage, applies Lv. 1 ATK and SPD up buff to [PSY] [Straw Hat Pirates] crew members.', 'The first 20 times this character takes damage, 60% chance to grant Haste to 1 [PSY] [Straw Hat Pirates] crew member.'],
+                ['Applies Lv. 3 HP up buff to [PSY] and [Straw Hat Pirates] crew members.', 'Applies Lv. 1 DEF up buff to [PSY] and [Straw Hat Pirates] crew members.', 'When there is 5 or more [Straw Hat Pirates] crew members, applies Lv. 2 HP up buff to [PSY] and [Straw Hat Pirates] crew members.', 'When there is 5 or more [Straw Hat Pirates] crew members, applies Lv. 1 DEF up buff to [PSY] and [Straw Hat Pirates] crew members.', 'The first 20 times this character takes damage, applies Lv. 1 ATK and SPD up buff to [PSY] [Straw Hat Pirates] crew members.', 'The first 20 times this character takes damage, 70% chance to grant Haste to 1 [PSY] [Straw Hat Pirates] crew member.'],
+                ['Applies Lv. 4 HP up buff to [PSY] and [Straw Hat Pirates] crew members.', 'Applies Lv. 2 DEF up buff to [PSY] and [Straw Hat Pirates] crew members.', 'When there is 5 or more [Straw Hat Pirates] crew members, applies Lv. 3 HP up buff to [PSY] and [Straw Hat Pirates] crew members.', 'When there is 5 or more [Straw Hat Pirates] crew members, applies Lv. 2 DEF up buff to [PSY] and [Straw Hat Pirates] crew members.', 'The first 20 times this character takes damage, applies Lv. 1 ATK and SPD up buff to [PSY] [Straw Hat Pirates] crew members.', 'The first 20 times this character takes damage, 80% chance to grant Haste to 1 [PSY] [Straw Hat Pirates] crew member.'],
+                ['Applies Lv. 5 HP up buff to [PSY] and [Straw Hat Pirates] crew members.', 'Applies Lv. 2 DEF up buff to [PSY] and [Straw Hat Pirates] crew members.', 'When there is 5 or more [Straw Hat Pirates] crew members, applies Lv. 4 HP up buff to [PSY] and [Straw Hat Pirates] crew members.', 'When there is 5 or more [Straw Hat Pirates] crew members, applies Lv. 2 DEF up buff to [PSY] and [Straw Hat Pirates] crew members.', 'The first 20 times this character takes damage, applies Lv. 1 ATK and SPD up buff to [PSY] [Straw Hat Pirates] crew members.', 'The first 20 times this character takes damage, 90% chance to grant Haste to 1 [PSY] [Straw Hat Pirates] crew member.'],
+                ['Applies Lv. 6 HP up buff to [PSY] and [Straw Hat Pirates] crew members.', 'Applies Lv. 3 DEF up buff to [PSY] and [Straw Hat Pirates] crew members.', 'When there is 5 or more [Straw Hat Pirates] crew members, applies Lv. 5 HP up buff to [PSY] and [Straw Hat Pirates] crew members.', 'When there is 5 or more [Straw Hat Pirates] crew members, applies Lv. 3 DEF up buff to [PSY] and [Straw Hat Pirates] crew members.', 'The first 20 times this character takes damage, applies Lv. 1 ATK and SPD up buff to [PSY] [Straw Hat Pirates] crew members.', 'The first 20 times this character takes damage, 100% chance to grant Haste to 1 [PSY] [Straw Hat Pirates] crew member.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 35,
+                descriptions: [
+                    ['Deals 1.5x ATK in damage to all enemies in a large, radial range.', 'When there is 5 or more [Straw Hat Pirates] crew members, reduce Half Stats to [PSY], Powerhouse and [Straw Hat Pirates] crew members for 6 seconds.', 'When there is 5 or more [PSY] crew members, inflicts Lv. 2 ATK, SPD and DEF down debuff to [INT] enemies for 73 seconds.', 'Deals 9x ATK in spread damage to all enemies in a large, radial range.', 'During Assault Rumble, applies Lv. 1 Special CT up buff to [Straw Hat Pirates] crew members for 73 seconds.'],
+                    ['Deals 1.7x ATK in damage to all enemies in a large, radial range.', 'When there is 5 or more [Straw Hat Pirates] crew members, reduce Half Stats to [PSY], Powerhouse and [Straw Hat Pirates] crew members for 7 seconds.', 'When there is 5 or more [PSY] crew members, inflicts Lv. 2 ATK, SPD and DEF down debuff to [INT] enemies for 76 seconds.', 'Deals 10x ATK in spread damage to all enemies in a large, radial range.', 'During Assault Rumble, applies Lv. 1 Special CT up buff to [Straw Hat Pirates] crew members for 76 seconds.'],
+                    ['Deals 1.9x ATK in damage to all enemies in a large, radial range.', 'When there is 5 or more [Straw Hat Pirates] crew members, reduce Half Stats to [PSY], Powerhouse and [Straw Hat Pirates] crew members for 8 seconds.', 'When there is 5 or more [PSY] crew members, inflicts Lv. 2 ATK, SPD and DEF down debuff to [INT] enemies for 79 seconds.', 'Deals 11x ATK in spread damage to all enemies in a large, radial range.', 'During Assault Rumble, applies Lv. 1 Special CT up buff to [Straw Hat Pirates] crew members for 79 seconds.'],
+                    ['Deals 2.1x ATK in damage to all enemies in a large, radial range.', 'When there is 5 or more [Straw Hat Pirates] crew members, reduce Half Stats to [PSY], Powerhouse and [Straw Hat Pirates] crew members for 9 seconds.', 'When there is 5 or more [PSY] crew members, inflicts Lv. 2 ATK, SPD and DEF down debuff to [INT] enemies for 82 seconds.', 'Deals 12x ATK in spread damage to all enemies in a large, radial range.', 'During Assault Rumble, applies Lv. 1 Special CT up buff to [Straw Hat Pirates] crew members for 82 seconds.'],
+                    ['Deals 2.3x ATK in damage to all enemies in a large, radial range.', 'When there is 5 or more [Straw Hat Pirates] crew members, reduce Half Stats to [PSY], Powerhouse and [Straw Hat Pirates] crew members for 10 seconds.', 'When there is 5 or more [PSY] crew members, inflicts Lv. 2 ATK, SPD and DEF down debuff to [INT] enemies for 85 seconds.', 'Deals 13x ATK in spread damage to all enemies in a large, radial range.', 'During Assault Rumble, applies Lv. 1 Special CT up buff to [Straw Hat Pirates] crew members for 85 seconds.'],
+                    ['Deals 2.5x ATK in damage to all enemies in a large, radial range.', 'When there is 5 or more [Straw Hat Pirates] crew members, reduce Half Stats to [PSY], Powerhouse and [Straw Hat Pirates] crew members for 11 seconds.', 'When there is 5 or more [PSY] crew members, inflicts Lv. 3 ATK, SPD and DEF down debuff to [INT] enemies for 88 seconds.', 'Deals 14x ATK in spread damage to all enemies in a large, radial range.', 'During Assault Rumble, applies Lv. 2 Special CT up buff to [Straw Hat Pirates] crew members for 88 seconds.'],
+                    ['Deals 2.7x ATK in damage to all enemies in a large, radial range.', 'When there is 5 or more [Straw Hat Pirates] crew members, reduce Half Stats to [PSY], Powerhouse and [Straw Hat Pirates] crew members for 12 seconds.', 'When there is 5 or more [PSY] crew members, inflicts Lv. 3 ATK, SPD and DEF down debuff to [INT] enemies for 91 seconds.', 'Deals 15x ATK in spread damage to all enemies in a large, radial range.', 'During Assault Rumble, applies Lv. 2 Special CT up buff to [Straw Hat Pirates] crew members for 91 seconds.'],
+                    ['Deals 2.9x ATK in damage to all enemies in a large, radial range.', 'When there is 5 or more [Straw Hat Pirates] crew members, reduce Half Stats to [PSY], Powerhouse and [Straw Hat Pirates] crew members for 13 seconds.', 'When there is 5 or more [PSY] crew members, inflicts Lv. 3 ATK, SPD and DEF down debuff to [INT] enemies for 94 seconds.', 'Deals 16x ATK in spread damage to all enemies in a large, radial range.', 'During Assault Rumble, applies Lv. 2 Special CT up buff to [Straw Hat Pirates] crew members for 94 seconds.'],
+                    ['Deals 3.1x ATK in damage to all enemies in a large, radial range.', 'When there is 5 or more [Straw Hat Pirates] crew members, reduce Half Stats to [PSY], Powerhouse and [Straw Hat Pirates] crew members for 14 seconds.', 'When there is 5 or more [PSY] crew members, inflicts Lv. 3 ATK, SPD and DEF down debuff to [INT] enemies for 97 seconds.', 'Deals 17x ATK in spread damage to all enemies in a large, radial range.', 'During Assault Rumble, applies Lv. 2 Special CT up buff to [Straw Hat Pirates] crew members for 97 seconds.'],
+                    ['Deals 3.3x ATK in damage to all enemies in a large, radial range.', 'When there is 5 or more [Straw Hat Pirates] crew members, reduce Half Stats to [PSY], Powerhouse and [Straw Hat Pirates] crew members for 15 seconds.', 'When there is 5 or more [PSY] crew members, inflicts Lv. 4 ATK, SPD and DEF down debuff to [INT] enemies for 100 seconds.', 'Deals 18x ATK in spread damage to all enemies in a large, radial range.', 'During Assault Rumble, applies Lv. 3 Special CT up buff to [Straw Hat Pirates] crew members for 100 seconds.']
+                ]
+            }
+        },
+        festSuperSpecial: {
+            base: {
+                condition: "After this character receives damage 8 times",
+                description: ['Deals 4.4x ATK in damage to all enemies in a large, radial range.', 'When there is 5 or more [Straw Hat Pirates] crew members, reduce Half Stats to [PSY], Powerhouse and [Straw Hat Pirates] crew members for 15 seconds.', 'When there is 5 or more [Straw Hat Pirates] crew members, 100% chance to evade Half Stats to [PSY], Powerhouse and [Straw Hat Pirates] crew members for 20 seconds.', 'When there is 5 or more [PSY] crew members, inflicts Lv. 6 ATK, SPD and DEF down debuff to [INT] enemies for 100 seconds.', 'Deals 2.2x ATK in damage ignoring DEF to 1 enemy.', 'Deals 20x ATK in spread damage to all enemies in a large, radial range.', 'During Assault Rumble, applies Lv. 5 Special CT up buff to [Straw Hat Pirates] crew members for 100 seconds.']
+            },
+            llbbase: {
+                condition: "After this character receives damage 6 times",
+                description: ['Deals 5.5x ATK in damage to all enemies in a large, radial range.', 'When there is 5 or more [Straw Hat Pirates] crew members, reduce Half Stats to [PSY], Powerhouse and [Straw Hat Pirates] crew members for 15 seconds.', 'When there is 5 or more [Straw Hat Pirates] crew members, 100% chance to evade Half Stats to [PSY], Powerhouse and [Straw Hat Pirates] crew members for 30 seconds.', 'When there is 5 or more [PSY] crew members, inflicts Lv. 8 ATK, SPD and DEF down debuff to [INT] enemies for 100 seconds.', 'Deals 2.2x ATK in damage ignoring DEF to 2 enemies.', 'Deals 22x ATK in spread damage to all enemies in a large, radial range.', 'During Assault Rumble, applies Lv. 7 Special CT up buff to [Straw Hat Pirates] crew members for 100 seconds.']
+            }
+        }
+    },
+    4649: {
+        festCost: 55,
+        festStats: {
+            def: 175,
+            spd: 159,
+            style: "RCV"
+        },
+        festAttackPattern: ['Normal Attack', '<i>Level 2 Medium Range Heal</i>', 'Normal Attack', '<i>Level 2 Medium Range Heal</i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Special Bind.', '30% damage reduction from [INT] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 2 HP and ATK up buff to [PSY] and [Straw Hat Pirates] crew members.', 'When there is 5 or more [Straw Hat Pirates] crew members, applies Lv. 1 Special CT up buff to [PSY] and [Straw Hat Pirates] crew members.', 'The first 20 times this character takes damage, heals 2% of HP to [PSY] [Straw Hat Pirates] crew members.', 'The first 20 times this character takes damage, reduces 1% of Special CT to [PSY] [Straw Hat Pirates] crew members.'],
+                ['Applies Lv. 3 HP and ATK up buff to [PSY] and [Straw Hat Pirates] crew members.', 'When there is 5 or more [Straw Hat Pirates] crew members, applies Lv. 1 Special CT up buff to [PSY] and [Straw Hat Pirates] crew members.', 'The first 20 times this character takes damage, heals 3% of HP to [PSY] [Straw Hat Pirates] crew members.', 'The first 20 times this character takes damage, reduces 2% of Special CT to [PSY] [Straw Hat Pirates] crew members.'],
+                ['Applies Lv. 4 HP and ATK up buff to [PSY] and [Straw Hat Pirates] crew members.', 'When there is 5 or more [Straw Hat Pirates] crew members, applies Lv. 2 Special CT up buff to [PSY] and [Straw Hat Pirates] crew members.', 'The first 20 times this character takes damage, heals 4% of HP to [PSY] [Straw Hat Pirates] crew members.', 'The first 20 times this character takes damage, reduces 3% of Special CT to [PSY] [Straw Hat Pirates] crew members.'],
+                ['Applies Lv. 5 HP and ATK up buff to [PSY] and [Straw Hat Pirates] crew members.', 'When there is 5 or more [Straw Hat Pirates] crew members, applies Lv. 2 Special CT up buff to [PSY] and [Straw Hat Pirates] crew members.', 'The first 20 times this character takes damage, heals 5% of HP to [PSY] [Straw Hat Pirates] crew members.', 'The first 20 times this character takes damage, reduces 4% of Special CT to [PSY] [Straw Hat Pirates] crew members.'],
+                ['Applies Lv. 6 HP and ATK up buff to [PSY] and [Straw Hat Pirates] crew members.', 'When there is 5 or more [Straw Hat Pirates] crew members, applies Lv. 4 Special CT up buff to [PSY] and [Straw Hat Pirates] crew members.', 'The first 20 times this character takes damage, heals 7% of HP to [PSY] [Straw Hat Pirates] crew members.', 'The first 20 times this character takes damage, reduces 5% of Special CT to [PSY] [Straw Hat Pirates] crew members.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 33,
+                descriptions: [
+                    ['Applies Lv. 2 ATK and SPD up buff to [PSY] and [Straw Hat Pirates] crew members for 11 seconds.', '73% chance to evade Action Bind to [PSY] and [Straw Hat Pirates] crew members for 6 seconds.', 'When there is 5 or more [PSY] crew members, inflicts Lv. 2 ATK down debuff to [INT] enemies for 11 seconds.', 'When there is 5 or more [PSY] crew members, inflicts Lv. 1 Special CT down debuff to [INT] enemies for 11 seconds.', 'When there is 5 or more [PSY] crew members, reduces 11% of Special CT to [Straw Hat Pirates] crew members, excluding self.', 'During Assault Rumble, deals 6x ATK in spread damage to all enemies in a large, radial range.'],
+                    ['Applies Lv. 2 ATK and SPD up buff to [PSY] and [Straw Hat Pirates] crew members for 12 seconds.', '76% chance to evade Action Bind to [PSY] and [Straw Hat Pirates] crew members for 7 seconds.', 'When there is 5 or more [PSY] crew members, inflicts Lv. 2 ATK down debuff to [INT] enemies for 12 seconds.', 'When there is 5 or more [PSY] crew members, inflicts Lv. 1 Special CT down debuff to [INT] enemies for 12 seconds.', 'When there is 5 or more [PSY] crew members, reduces 12% of Special CT to [Straw Hat Pirates] crew members, excluding self.', 'During Assault Rumble, deals 7x ATK in spread damage to all enemies in a large, radial range.'],
+                    ['Applies Lv. 2 ATK and SPD up buff to [PSY] and [Straw Hat Pirates] crew members for 13 seconds.', '79% chance to evade Action Bind to [PSY] and [Straw Hat Pirates] crew members for 8 seconds.', 'When there is 5 or more [PSY] crew members, inflicts Lv. 2 ATK down debuff to [INT] enemies for 13 seconds.', 'When there is 5 or more [PSY] crew members, inflicts Lv. 1 Special CT down debuff to [INT] enemies for 13 seconds.', 'When there is 5 or more [PSY] crew members, reduces 13% of Special CT to [Straw Hat Pirates] crew members, excluding self.', 'During Assault Rumble, deals 8x ATK in spread damage to all enemies in a large, radial range.'],
+                    ['Applies Lv. 3 ATK and SPD up buff to [PSY] and [Straw Hat Pirates] crew members for 14 seconds.', '82% chance to evade Action Bind to [PSY] and [Straw Hat Pirates] crew members for 9 seconds.', 'When there is 5 or more [PSY] crew members, inflicts Lv. 3 ATK down debuff to [INT] enemies for 14 seconds.', 'When there is 5 or more [PSY] crew members, inflicts Lv. 1 Special CT down debuff to [INT] enemies for 14 seconds.', 'When there is 5 or more [PSY] crew members, reduces 14% of Special CT to [Straw Hat Pirates] crew members, excluding self.', 'During Assault Rumble, deals 9x ATK in spread damage to all enemies in a large, radial range.'],
+                    ['Applies Lv. 3 ATK and SPD up buff to [PSY] and [Straw Hat Pirates] crew members for 15 seconds.', '85% chance to evade Action Bind to [PSY] and [Straw Hat Pirates] crew members for 10 seconds.', 'When there is 5 or more [PSY] crew members, inflicts Lv. 3 ATK down debuff to [INT] enemies for 15 seconds.', 'When there is 5 or more [PSY] crew members, inflicts Lv. 1 Special CT down debuff to [INT] enemies for 15 seconds.', 'When there is 5 or more [PSY] crew members, reduces 15% of Special CT to [Straw Hat Pirates] crew members, excluding self.', 'During Assault Rumble, deals 10x ATK in spread damage to all enemies in a large, radial range.'],
+                    ['Applies Lv. 4 ATK and SPD up buff to [PSY] and [Straw Hat Pirates] crew members for 16 seconds.', '88% chance to evade Action Bind to [PSY] and [Straw Hat Pirates] crew members for 11 seconds.', 'When there is 5 or more [PSY] crew members, inflicts Lv. 4 ATK down debuff to [INT] enemies for 16 seconds.', 'When there is 5 or more [PSY] crew members, inflicts Lv. 2 Special CT down debuff to [INT] enemies for 16 seconds.', 'When there is 5 or more [PSY] crew members, reduces 16% of Special CT to [Straw Hat Pirates] crew members, excluding self.', 'During Assault Rumble, deals 11x ATK in spread damage to all enemies in a large, radial range.'],
+                    ['Applies Lv. 4 ATK and SPD up buff to [PSY] and [Straw Hat Pirates] crew members for 17 seconds.', '91% chance to evade Action Bind to [PSY] and [Straw Hat Pirates] crew members for 12 seconds.', 'When there is 5 or more [PSY] crew members, inflicts Lv. 4 ATK down debuff to [INT] enemies for 17 seconds.', 'When there is 5 or more [PSY] crew members, inflicts Lv. 2 Special CT down debuff to [INT] enemies for 17 seconds.', 'When there is 5 or more [PSY] crew members, reduces 17% of Special CT to [Straw Hat Pirates] crew members, excluding self.', 'During Assault Rumble, deals 12x ATK in spread damage to all enemies in a large, radial range.'],
+                    ['Applies Lv. 4 ATK and SPD up buff to [PSY] and [Straw Hat Pirates] crew members for 18 seconds.', '94% chance to evade Action Bind to [PSY] and [Straw Hat Pirates] crew members for 13 seconds.', 'When there is 5 or more [PSY] crew members, inflicts Lv. 4 ATK down debuff to [INT] enemies for 18 seconds.', 'When there is 5 or more [PSY] crew members, inflicts Lv. 2 Special CT down debuff to [INT] enemies for 18 seconds.', 'When there is 5 or more [PSY] crew members, reduces 18% of Special CT to [Straw Hat Pirates] crew members, excluding self.', 'During Assault Rumble, deals 13x ATK in spread damage to all enemies in a large, radial range.'],
+                    ['Applies Lv. 5 ATK and SPD up buff to [PSY] and [Straw Hat Pirates] crew members for 19 seconds.', '97% chance to evade Action Bind to [PSY] and [Straw Hat Pirates] crew members for 14 seconds.', 'When there is 5 or more [PSY] crew members, inflicts Lv. 5 ATK down debuff to [INT] enemies for 19 seconds.', 'When there is 5 or more [PSY] crew members, inflicts Lv. 2 Special CT down debuff to [INT] enemies for 19 seconds.', 'When there is 5 or more [PSY] crew members, reduces 19% of Special CT to [Straw Hat Pirates] crew members, excluding self.', 'During Assault Rumble, deals 14x ATK in spread damage to all enemies in a large, radial range.'],
+                    ['Applies Lv. 6 ATK and SPD up buff to [PSY] and [Straw Hat Pirates] crew members for 20 seconds.', '100% chance to evade Action Bind to [PSY] and [Straw Hat Pirates] crew members for 15 seconds.', 'When there is 5 or more [PSY] crew members, inflicts Lv. 6 ATK down debuff to [INT] enemies for 20 seconds.', 'When there is 5 or more [PSY] crew members, inflicts Lv. 3 Special CT down debuff to [INT] enemies for 20 seconds.', 'When there is 5 or more [PSY] crew members, reduces 20% of Special CT to [Straw Hat Pirates] crew members, excluding self.', 'During Assault Rumble, deals 15x ATK in spread damage to all enemies in a large, radial range.']
+                ]
+            }
+        },
+        festSuperSpecial: {
+            base: {
+                condition: "After this character receives damage 8 times",
+                description: ['Applies Lv. 7 ATK and SPD up buff to [PSY] and [Straw Hat Pirates] crew members for 25 seconds.', '100% chance to evade Action Bind and Damage Ignoring DEF to [PSY] and [Straw Hat Pirates] crew members for 20 seconds.', 'When there is 5 or more [PSY] crew members, inflicts Lv. 7 ATK down debuff to [INT] enemies for 25 seconds.', 'When there is 5 or more [PSY] crew members, inflicts Lv. 4 Special CT down debuff to [INT] enemies for 20 seconds.', 'When there is 5 or more [PSY] crew members, reduces 30% of Special CT to [Straw Hat Pirates] crew members, excluding self.', 'During Assault Rumble, deals 17x ATK in spread damage to all enemies in a large, radial range.']
+            },
+            llbbase: {
+                condition: "After this character receives damage 6 times",
+                description: ['Applies Lv. 8 ATK and SPD up buff to [PSY] and [Straw Hat Pirates] crew members for 30 seconds.', '100% chance to evade Action Bind and Damage Ignoring DEF to [PSY] and [Straw Hat Pirates] crew members for 25 seconds.', 'When there is 5 or more [PSY] crew members, inflicts Lv. 8 ATK down debuff to [INT] enemies for 30 seconds.', 'When there is 5 or more [PSY] crew members, inflicts Lv. 5 Special CT down debuff to [INT] enemies for 20 seconds.', 'When there is 5 or more [PSY] crew members, reduces 30% of Special CT to [Straw Hat Pirates] crew members.', 'During Assault Rumble, deals 20x ATK in spread damage to all enemies in a large, radial range.']
+            }
+        }
+    },
+    4650: {
+        festCost: 20,
+        festStats: {
+            def: 154,
+            spd: 153,
+            style: "DBF"
+        },
+        festAttackPattern: ['Normal Attack', '<i>Level 2 Self Heal</i>', '<b><i>Power Attack</b></i>', '<b><i>Power Attack</b></i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Special Bind.', '20% damage reduction from [INT] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 1 HP up buff to [PSY] and [Straw Hat Pirates] crew members.', 'Applies Lv. 1 DEF up buff to [PSY] and [Straw Hat Pirates] crew members.', 'When there is 5 or more [Straw Hat Pirates] crew members, applies Lv. 1 ATK up buff to [PSY] and [Straw Hat Pirates] crew members.', 'The first 10 times this character takes damage, inflicts Lv. 1 ATK and DEF down debuff to [INT] enemies.', 'During Assault Rumble, applies Lv. 6 HP up buff to self.', 'During Assault Rumble, applies Lv. 2 Special CT up buff to self.'],
+                ['Applies Lv. 1 HP up buff to [PSY] and [Straw Hat Pirates] crew members.', 'Applies Lv. 1 DEF up buff to [PSY] and [Straw Hat Pirates] crew members.', 'When there is 5 or more [Straw Hat Pirates] crew members, applies Lv. 2 ATK up buff to [PSY] and [Straw Hat Pirates] crew members.', 'The first 10 times this character takes damage, inflicts Lv. 1 ATK and DEF down debuff to [INT] enemies.', 'During Assault Rumble, applies Lv. 7 HP up buff to self.', 'During Assault Rumble, applies Lv. 3 Special CT up buff to self.'],
+                ['Applies Lv. 2 HP up buff to [PSY] and [Straw Hat Pirates] crew members.', 'Applies Lv. 2 DEF up buff to [PSY] and [Straw Hat Pirates] crew members.', 'When there is 5 or more [Straw Hat Pirates] crew members, applies Lv. 3 ATK up buff to [PSY] and [Straw Hat Pirates] crew members.', 'The first 10 times this character takes damage, inflicts Lv. 1 ATK and DEF down debuff to [INT] enemies.', 'During Assault Rumble, applies Lv. 8 HP up buff to self.', 'During Assault Rumble, applies Lv. 4 Special CT up buff to self.'],
+                ['Applies Lv. 2 HP up buff to [PSY] and [Straw Hat Pirates] crew members.', 'Applies Lv. 2 DEF up buff to [PSY] and [Straw Hat Pirates] crew members.', 'When there is 5 or more [Straw Hat Pirates] crew members, applies Lv. 4 ATK up buff to [PSY] and [Straw Hat Pirates] crew members.', 'The first 10 times this character takes damage, inflicts Lv. 1 ATK and DEF down debuff to [INT] enemies.', 'During Assault Rumble, applies Lv. 9 HP up buff to self.', 'During Assault Rumble, applies Lv. 5 Special CT up buff to self.'],
+                ['Applies Lv. 4 HP up buff to [PSY] and [Straw Hat Pirates] crew members.', 'Applies Lv. 3 DEF up buff to [PSY] and [Straw Hat Pirates] crew members.', 'When there is 5 or more [Straw Hat Pirates] crew members, applies Lv. 5 ATK up buff to [PSY] and [Straw Hat Pirates] crew members.', 'The first 10 times this character takes damage, inflicts Lv. 1 ATK and DEF down debuff to [INT] enemies.', 'During Assault Rumble, applies Lv. 10 HP up buff to self.', 'During Assault Rumble, applies Lv. 6 Special CT up buff to self.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 28,
+                descriptions: [
+                    ['Heals 11% of HP to [PSY] and [Straw Hat Pirates] crew members.', 'Applies Lv. 1 ATK up buff to [PSY] and [Straw Hat Pirates] crew members for 73 seconds.', 'When there is 5 or more [Straw Hat Pirates] crew members, inflicts Lv. 1 DEF down debuff to [INT] enemies for 73 seconds.', 'When there is 5 or more [PSY] crew members, 73% chance to inflict Special Bind to 3 [INT] enemies for 6 seconds.', 'During Assault Rumble, deals 7.5x ATK in spread damage to all enemies in a medium, radial range.'],
+                    ['Heals 12% of HP to [PSY] and [Straw Hat Pirates] crew members.', 'Applies Lv. 1 ATK up buff to [PSY] and [Straw Hat Pirates] crew members for 76 seconds.', 'When there is 5 or more [Straw Hat Pirates] crew members, inflicts Lv. 1 DEF down debuff to [INT] enemies for 76 seconds.', 'When there is 5 or more [PSY] crew members, 76% chance to inflict Special Bind to 3 [INT] enemies for 7 seconds.', 'During Assault Rumble, deals 8x ATK in spread damage to all enemies in a medium, radial range.'],
+                    ['Heals 13% of HP to [PSY] and [Straw Hat Pirates] crew members.', 'Applies Lv. 1 ATK up buff to [PSY] and [Straw Hat Pirates] crew members for 79 seconds.', 'When there is 5 or more [Straw Hat Pirates] crew members, inflicts Lv. 1 DEF down debuff to [INT] enemies for 79 seconds.', 'When there is 5 or more [PSY] crew members, 79% chance to inflict Special Bind to 3 [INT] enemies for 8 seconds.', 'During Assault Rumble, deals 8.5x ATK in spread damage to all enemies in a medium, radial range.'],
+                    ['Heals 14% of HP to [PSY] and [Straw Hat Pirates] crew members.', 'Applies Lv. 1 ATK up buff to [PSY] and [Straw Hat Pirates] crew members for 82 seconds.', 'When there is 5 or more [Straw Hat Pirates] crew members, inflicts Lv. 1 DEF down debuff to [INT] enemies for 82 seconds.', 'When there is 5 or more [PSY] crew members, 82% chance to inflict Special Bind to 3 [INT] enemies for 9 seconds.', 'During Assault Rumble, deals 9x ATK in spread damage to all enemies in a medium, radial range.'],
+                    ['Heals 15% of HP to [PSY] and [Straw Hat Pirates] crew members.', 'Applies Lv. 1 ATK up buff to [PSY] and [Straw Hat Pirates] crew members for 85 seconds.', 'When there is 5 or more [Straw Hat Pirates] crew members, inflicts Lv. 1 DEF down debuff to [INT] enemies for 85 seconds.', 'When there is 5 or more [PSY] crew members, 85% chance to inflict Special Bind to 3 [INT] enemies for 10 seconds.', 'During Assault Rumble, deals 9.5x ATK in spread damage to all enemies in a medium, radial range.'],
+                    ['Heals 16% of HP to [PSY] and [Straw Hat Pirates] crew members.', 'Applies Lv. 2 ATK up buff to [PSY] and [Straw Hat Pirates] crew members for 88 seconds.', 'When there is 5 or more [Straw Hat Pirates] crew members, inflicts Lv. 2 DEF down debuff to [INT] enemies for 88 seconds.', 'When there is 5 or more [PSY] crew members, 88% chance to inflict Special Bind to 3 [INT] enemies for 11 seconds.', 'During Assault Rumble, deals 10x ATK in spread damage to all enemies in a medium, radial range.'],
+                    ['Heals 17% of HP to [PSY] and [Straw Hat Pirates] crew members.', 'Applies Lv. 2 ATK up buff to [PSY] and [Straw Hat Pirates] crew members for 91 seconds.', 'When there is 5 or more [Straw Hat Pirates] crew members, inflicts Lv. 2 DEF down debuff to [INT] enemies for 91 seconds.', 'When there is 5 or more [PSY] crew members, 91% chance to inflict Special Bind to 3 [INT] enemies for 12 seconds.', 'During Assault Rumble, deals 10.5x ATK in spread damage to all enemies in a medium, radial range.'],
+                    ['Heals 18% of HP to [PSY] and [Straw Hat Pirates] crew members.', 'Applies Lv. 2 ATK up buff to [PSY] and [Straw Hat Pirates] crew members for 94 seconds.', 'When there is 5 or more [Straw Hat Pirates] crew members, inflicts Lv. 2 DEF down debuff to [INT] enemies for 94 seconds.', 'When there is 5 or more [PSY] crew members, 94% chance to inflict Special Bind to 3 [INT] enemies for 13 seconds.', 'During Assault Rumble, deals 11x ATK in spread damage to all enemies in a medium, radial range.'],
+                    ['Heals 19% of HP to [PSY] and [Straw Hat Pirates] crew members.', 'Applies Lv. 2 ATK up buff to [PSY] and [Straw Hat Pirates] crew members for 97 seconds.', 'When there is 5 or more [Straw Hat Pirates] crew members, inflicts Lv. 2 DEF down debuff to [INT] enemies for 97 seconds.', 'When there is 5 or more [PSY] crew members, 97% chance to inflict Special Bind to 3 [INT] enemies for 14 seconds.', 'During Assault Rumble, deals 11.5x ATK in spread damage to all enemies in a medium, radial range.'],
+                    ['Heals 20% of HP to [PSY] and [Straw Hat Pirates] crew members.', 'Applies Lv. 3 ATK up buff to [PSY] and [Straw Hat Pirates] crew members for 100 seconds.', 'When there is 5 or more [Straw Hat Pirates] crew members, inflicts Lv. 3 DEF down debuff to [INT] enemies for 100 seconds.', 'When there is 5 or more [PSY] crew members, 100% chance to inflict Special Bind to 3 [INT] enemies for 15 seconds.', 'During Assault Rumble, deals 12x ATK in spread damage to all enemies in a medium, radial range.']
+                ]
+            }
+        }
+    },
+    4651: {
+        festCost: 20,
+        festStats: {
+            def: 171,
+            spd: 162,
+            style: "DBF"
+        },
+        festAttackPattern: ['Normal Attack', '<i>Level 2 Self Heal</i>', '<b><i>Power Attack</b></i>', '<b><i>Power Attack</b></i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['80% chance to resist Action Bind.', '20% damage reduction from [PSY] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 1 HP, ATK and Guard up buff to [INT] and Cerebral crew members.', 'Inflicts Lv. 1 ATK down debuff to [PSY] and Free Spirit enemies.', 'During Assault Rumble, applies Lv. 2 HP up buff to self.', 'During Assault Rumble, applies Lv. 1 Special CT up buff to self.'],
+                ['Applies Lv. 2 HP, ATK and Guard up buff to [INT] and Cerebral crew members.', 'Inflicts Lv. 2 ATK down debuff to [PSY] and Free Spirit enemies.', 'During Assault Rumble, applies Lv. 3 HP up buff to self.', 'During Assault Rumble, applies Lv. 1 Special CT up buff to self.'],
+                ['Applies Lv. 3 HP, ATK and Guard up buff to [INT] and Cerebral crew members.', 'Inflicts Lv. 3 ATK down debuff to [PSY] and Free Spirit enemies.', 'During Assault Rumble, applies Lv. 4 HP up buff to self.', 'During Assault Rumble, applies Lv. 2 Special CT up buff to self.'],
+                ['Applies Lv. 4 HP, ATK and Guard up buff to [INT] and Cerebral crew members.', 'Inflicts Lv. 4 ATK down debuff to [PSY] and Free Spirit enemies.', 'During Assault Rumble, applies Lv. 5 HP up buff to self.', 'During Assault Rumble, applies Lv. 2 Special CT up buff to self.'],
+                ['Applies Lv. 5 HP, ATK and Guard up buff to [INT] and Cerebral crew members.', 'Inflicts Lv. 5 ATK down debuff to [PSY] and Free Spirit enemies.', 'During Assault Rumble, applies Lv. 6 HP up buff to self.', 'During Assault Rumble, applies Lv. 3 Special CT up buff to self.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 30,
+                descriptions: [
+                    ['Provoke enemies to 1 [INT] crew member, excluding self, with the highest DEF for 21 seconds.', '73% chance to inflict Action Bind to 2 enemies for 10 seconds.', 'Inflicts Lv. 3 DEF down debuff to 3 enemies with the highest DEF for 11 seconds.', 'Deals 1.6x ATK in damage to all enemies in a medium, sideways range.', 'Reduces 11% of Special CT to 2 [Seven Warlords of the Sea] and [Baroque Works] crew members.', 'During Assault Rumble, inflicts Lv. 7 DEF down debuff to 1 enemy for 20 seconds.'],
+                    ['Provoke enemies to 1 [INT] crew member, excluding self, with the highest DEF for 22 seconds.', '76% chance to inflict Action Bind to 2 enemies for 10 seconds.', 'Inflicts Lv. 3 DEF down debuff to 3 enemies with the highest DEF for 12 seconds.', 'Deals 1.7x ATK in damage to all enemies in a medium, sideways range.', 'Reduces 12% of Special CT to 2 [Seven Warlords of the Sea] and [Baroque Works] crew members.', 'During Assault Rumble, inflicts Lv. 7 DEF down debuff to 1 enemy for 20 seconds.'],
+                    ['Provoke enemies to 1 [INT] crew member, excluding self, with the highest DEF for 23 seconds.', '79% chance to inflict Action Bind to 2 enemies for 10 seconds.', 'Inflicts Lv. 3 DEF down debuff to 3 enemies with the highest DEF for 13 seconds.', 'Deals 1.8x ATK in damage to all enemies in a medium, sideways range.', 'Reduces 13% of Special CT to 2 [Seven Warlords of the Sea] and [Baroque Works] crew members.', 'During Assault Rumble, inflicts Lv. 7 DEF down debuff to 1 enemy for 20 seconds.'],
+                    ['Provoke enemies to 1 [INT] crew member, excluding self, with the highest DEF for 24 seconds.', '82% chance to inflict Action Bind to 2 enemies for 10 seconds.', 'Inflicts Lv. 3 DEF down debuff to 3 enemies with the highest DEF for 14 seconds.', 'Deals 1.9x ATK in damage to all enemies in a medium, sideways range.', 'Reduces 14% of Special CT to 2 [Seven Warlords of the Sea] and [Baroque Works] crew members.', 'During Assault Rumble, inflicts Lv. 7 DEF down debuff to 1 enemy for 20 seconds.'],
+                    ['Provoke enemies to 1 [INT] crew member, excluding self, with the highest DEF for 25 seconds.', '85% chance to inflict Action Bind to 2 enemies for 10 seconds.', 'Inflicts Lv. 3 DEF down debuff to 3 enemies with the highest DEF for 15 seconds.', 'Deals 2x ATK in damage to all enemies in a medium, sideways range.', 'Reduces 15% of Special CT to 2 [Seven Warlords of the Sea] and [Baroque Works] crew members.', 'During Assault Rumble, inflicts Lv. 7 DEF down debuff to 1 enemy for 20 seconds.'],
+                    ['Provoke enemies to 1 [INT] crew member, excluding self, with the highest DEF for 26 seconds.', '88% chance to inflict Action Bind to 2 enemies for 10 seconds.', 'Inflicts Lv. 4 DEF down debuff to 3 enemies with the highest DEF for 16 seconds.', 'Deals 2.1x ATK in damage to all enemies in a medium, sideways range.', 'Reduces 16% of Special CT to 2 [Seven Warlords of the Sea] and [Baroque Works] crew members.', 'During Assault Rumble, inflicts Lv. 7 DEF down debuff to 1 enemy for 20 seconds.'],
+                    ['Provoke enemies to 1 [INT] crew member, excluding self, with the highest DEF for 27 seconds.', '91% chance to inflict Action Bind to 2 enemies for 10 seconds.', 'Inflicts Lv. 4 DEF down debuff to 3 enemies with the highest DEF for 17 seconds.', 'Deals 2.2x ATK in damage to all enemies in a medium, sideways range.', 'Reduces 17% of Special CT to 2 [Seven Warlords of the Sea] and [Baroque Works] crew members.', 'During Assault Rumble, inflicts Lv. 7 DEF down debuff to 1 enemy for 20 seconds.'],
+                    ['Provoke enemies to 1 [INT] crew member, excluding self, with the highest DEF for 28 seconds.', '94% chance to inflict Action Bind to 2 enemies for 10 seconds.', 'Inflicts Lv. 4 DEF down debuff to 3 enemies with the highest DEF for 18 seconds.', 'Deals 2.3x ATK in damage to all enemies in a medium, sideways range.', 'Reduces 18% of Special CT to 2 [Seven Warlords of the Sea] and [Baroque Works] crew members.', 'During Assault Rumble, inflicts Lv. 7 DEF down debuff to 1 enemy for 20 seconds.'],
+                    ['Provoke enemies to 1 [INT] crew member, excluding self, with the highest DEF for 29 seconds.', '97% chance to inflict Action Bind to 2 enemies for 10 seconds.', 'Inflicts Lv. 4 DEF down debuff to 3 enemies with the highest DEF for 19 seconds.', 'Deals 2.4x ATK in damage to all enemies in a medium, sideways range.', 'Reduces 19% of Special CT to 2 [Seven Warlords of the Sea] and [Baroque Works] crew members.', 'During Assault Rumble, inflicts Lv. 7 DEF down debuff to 1 enemy for 20 seconds.'],
+                    ['Provoke enemies to 1 [INT] crew member, excluding self, with the highest DEF for 30 seconds.', '100% chance to inflict Action Bind to 2 enemies for 10 seconds.', 'Inflicts Lv. 5 DEF down debuff to 3 enemies with the highest DEF for 20 seconds.', 'Deals 2.5x ATK in damage to all enemies in a medium, sideways range.', 'Reduces 20% of Special CT to 2 [Seven Warlords of the Sea] and [Baroque Works] crew members.', 'During Assault Rumble, inflicts Lv. 7 DEF down debuff to 1 enemy for 20 seconds.']
+                ]
+            }
+        }
+    },
     5013: {
         festCost: 55,
         festStats: {

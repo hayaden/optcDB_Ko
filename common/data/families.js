@@ -370,7 +370,7 @@ const Abdullah = [ "Abdullah" ];
 const Jeet = [ "Jeet" ];
 const Bartolomeo = [ "Bartolomeo" ];
 const NicoOlvia = [ "Nico Olvia" ];
-const Saul = [ "Saul" ];
+const Saul = [ "Saul", "Jaguar D. Saul" ];
 const BoaSandersonia = [ "Boa Sandersonia" ];
 const BoaMarigold = [ "Boa Marigold" ];
 const Kikyo = [ "Kikyo" ];
@@ -754,6 +754,10 @@ const Collun = [ "Collun" ];
 const Jarul = [ "Jarul" ];
 const Loki = [ "Loki" ];
 const Ripley = [ "Ripley" ];
+const Tusk = [ "Tusk" ];
+const Blade = [ "Blade" ];
+const Biblo = [ "Biblo" ];
+const Ange = [ "Ange" ];
 
 window.families = {
     1: [ ...MonkeyDLuffy ],
@@ -5276,6 +5280,19 @@ window.families = {
     4636: [ ...Collun ],
     4637: [ ...Lilith ],
     4638: [ ...MonkeyDLuffy ],
+    4639: [ ...MonkeyDLuffy ],
+    4640: [ ...Oars ],
+    4641: [ ...Saul ],
+    4642: [ ...Tusk ],
+    4643: [ ...Blade ],
+    4644: [ ...TonyTonyChopper, ...JewelryBonney ],
+    4645: [ ...Biblo ],
+    4646: [ ...Ange ],
+    4647: [ ...Queen ],
+    4648: [ ...RoronoaZoro, ...NicoRobin ],
+    4649: [ ...Usopp, ...Franky ],
+    4650: [ ...Nami ],
+    4651: [ ...Crocodile ],
     //break
     5013: [ ...MonkeyDLuffy ],
     5014: [ ...MonkeyDLuffy ],

@@ -3669,6 +3669,16 @@ window.drops = {
             'Defeat Level Rewards': [ 4638 ],
         },
 
+        {
+            name: 'HW Crocodile',
+            dropID: 'pka39',
+            thumb: 4651,
+            global: true,
+            nakama: null,
+            gamewith: null,
+            'Defeat Level Rewards': [ 3108, "4651-skull" ],
+        },
+
     ],
 
 
@@ -7776,6 +7786,16 @@ window.drops = {
             'Calm Sea': [ "4619-skull" ],
         },
 
+        {
+            name: 'Luffy',
+            dropID: 'treasuremap108',
+            thumb: 4639,
+            global: true,
+            nakama: null,
+            gamewith: null,
+            'Calm Sea': [ "4639-skull" ],
+        },
+
     ],
 
     
@@ -8799,6 +8819,16 @@ window.drops = {
             nakama: null,
             gamewith: null,
             'Kizuna Exchange': [ "4621-skull", "4628-skull" ]
+        },
+
+        {
+            name: 'Queen',
+            dropID: 'kizuna84',
+            thumb: 4647,
+            global: true,
+            nakama: null,
+            gamewith: null,
+            'Kizuna Exchange': [ "4647-skull" ]
         },
 
     ],
