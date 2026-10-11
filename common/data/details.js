@@ -67359,7 +67359,7 @@ window.details = {
             {
                 captain: {
                     base: "Boosts ATK of Shooter characters by 2.25x, boosts Color Affinity of Shooter characters by 1.5x and recovers 1.5x character's RCV in HP at the end of each turn.",
-                    level6: "Deals 200,000 Fixed damage to all enemies, reduces enemies' Barrier duration by 2 turns, and recovers 10x character's RCV in HP at the end of each turn for 2 turns. If your Captain is a Shooter character, boosts the Color Affinity of all characters by 2.25x for 1 turn. If during that turn you score 3 PERFECT hits, boosts the Color Affinity of all characters by 2.5x for 1 turn."
+                    level6: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of Shooter characters by 3.5x, boosts Color Affinity of Shooter characters by 1.4x, and recovers 1.5x character's RCV in HP at the end of each turn."
                 }
             },
             null,
@@ -184053,7 +184053,7 @@ window.details = {
     },
     4557: {//Luffy
         captain: "Launches the following effect at start of fight: reduces Special Cooldown of [Straw Hat Pirates] and [Four Emperors] characters by 5 turns, reduces Special Cooldown of [DEX] and Fighter characters by 2 turns, and reduces VS Gauge and Switch Effect of [DEX] and Fighter characters by 2. Boosts ATK of [DEX] and Fighter characters by 6x, boosts HP of [DEX] and Fighter characters by 1.3x, and makes [DEX] and [TND] orbs beneficial for [DEX] and Fighter characters. If your crew has 4+ [DEX] characters, reduces Special Use Limit duration by 10 turns. If your crew has 6+ [DEX] characters and field has Territory: [DEX], boosts ATK of [DEX] characters by 7x instead. If this character is your Captain and performs EXCELLENT with their Action Special, for 3 turns boosts ATK of [Straw Hat Pirates], [Four Emperors] and [Egghead Arc] characters by 1.2x.",
-        special: "Reduces ATK Down duration by 10 turns, ignores Debuff Protection and inflicts all enemies with Increase Damage Taken by 2x-3x for 1 turn depending on the outcome of Action Special, and applies Territory: [DEX] to the field for 3 turns. If field has Territory: [DEX] and Fighter or Territory: Crew when the special is activated, boosts Orb Effects of [DEX] Fighter characters by 8x for 3 turns and boosts Orb Effects of [DEX] and Fighter characters by 6x for 3 turns; boosts Orb Effects of [DEX] Fighter characters by 4x for 1 turn and boosts Orb Effects of [DEX] and Fighter characters by 3x for 1 turn otherwise. If your crew has 4+ [Straw Hat Pirates] or [Four Emperors] characters or your crew has Portgas D. Ace or Sabo who has used a special this turn, allows crew to stack 2 different Status ATK Boost buffs for 3 turns, and reduces Special Cooldown of Captain character by 5 turns.",
+        special: "Reduces ATK Down duration by 10 turns, ignores Debuff Protection and inflicts all enemies with Increase Damage Taken by 2x-3x for 1 turn depending on the outcome of Action Special, and applies Territory: [DEX] to the field for 3 turns. If field has Territory: [DEX] and Fighter or Territory: Crew when the special is activated, boosts Orb Effects of [DEX] Fighter characters by 8x for 3 turns and boosts Orb Effects of [DEX] and Fighter characters by 6x for 3 turns; boosts Orb Effects of [DEX] Fighter characters by 4x for 1 turn and boosts Orb Effects of [DEX] and Fighter characters by 3x for 1 turn otherwise. If your crew has 4+ [Straw Hat Pirates] or [Four Emperors] characters or your crew has Portgas D. Ace and Sabo who have both used specials this turn, allows crew to stack 2 different Status ATK Boost buffs for 3 turns, and reduces Special Cooldown of Captain character by 5 turns.",
         specialNotes: "<br><b>MISS:</b> 2x, <b>GOOD:</b> 2.2x, <b>GREAT:</b> 2.5x, <b>PERFECT:</b> 2.8x, <b>EXCELLENT:</b> 3x",
         specialName: "Emperor Embodying Freedom",
         sailor: {
@@ -184161,7 +184161,7 @@ window.details = {
     },
     4558: {//Luffy
         captain: "Launches the following effect at start of fight: reduces Special Cooldown of [Straw Hat Pirates] and [Four Emperors] characters by 5 turns, reduces Special Cooldown of [DEX] and Fighter characters by 2 turns, and reduces VS Gauge and Switch Effect of [DEX] and Fighter characters by 2. Boosts ATK of [DEX] and Fighter characters by 6x, boosts HP of [DEX] and Fighter characters by 1.3x, and makes [DEX] and [TND] orbs beneficial for [DEX] and Fighter characters. If your crew has 4+ [DEX] characters, reduces Special Use Limit duration by 10 turns. If your crew has 6+ [DEX] characters and field has Territory: [DEX], boosts ATK of [DEX] characters by 7x instead. If this character is your Captain and performs EXCELLENT with their Action Special, for 3 turns boosts ATK of [Straw Hat Pirates], [Four Emperors] and [Egghead Arc] characters by 1.2x.",
-        special: "Reduces ATK Down duration by 10 turns, ignores Debuff Protection and inflicts all enemies with Increase Damage Taken by 2x-3x for 1 turn depending on the outcome of Action Special, and applies Territory: [DEX] to the field for 3 turns. If field has Territory: [DEX] and Fighter or Territory: Crew when the special is activated, boosts Orb Effects of [DEX] Fighter characters by 8x for 3 turns and boosts Orb Effects of [DEX] and Fighter characters by 6x for 3 turns; boosts Orb Effects of [DEX] Fighter characters by 4x for 1 turn and boosts Orb Effects of [DEX] and Fighter characters by 3x for 1 turn otherwise. If your crew has 4+ [Straw Hat Pirates] or [Four Emperors] characters or your crew has Portgas D. Ace or Sabo who has used a special this turn, allows crew to stack 2 different Status ATK Boost buffs for 3 turns, and reduces Special Cooldown of Captain character by 5 turns.",
+        special: "Reduces ATK Down duration by 10 turns, ignores Debuff Protection and inflicts all enemies with Increase Damage Taken by 2x-3x for 1 turn depending on the outcome of Action Special, and applies Territory: [DEX] to the field for 3 turns. If field has Territory: [DEX] and Fighter or Territory: Crew when the special is activated, boosts Orb Effects of [DEX] Fighter characters by 8x for 3 turns and boosts Orb Effects of [DEX] and Fighter characters by 6x for 3 turns; boosts Orb Effects of [DEX] Fighter characters by 4x for 1 turn and boosts Orb Effects of [DEX] and Fighter characters by 3x for 1 turn otherwise. If your crew has 4+ [Straw Hat Pirates] or [Four Emperors] characters or your crew has Portgas D. Ace and Sabo who have both used specials this turn, allows crew to stack 2 different Status ATK Boost buffs for 3 turns, and reduces Special Cooldown of Captain character by 5 turns.",
         specialNotes: "<br><b>MISS:</b> 2x, <b>GOOD:</b> 2.2x, <b>GREAT:</b> 2.5x, <b>PERFECT:</b> 2.8x, <b>EXCELLENT:</b> 3x",
         specialName: "Emperor Embodying Freedom",
         sailor: {
@@ -192474,6 +192474,464 @@ window.details = {
                     "Reduces Special Cooldown of this character by 3 turns at the start of the fight",
                     "Reduces Special Cooldown of this character by 4 turns at the start of the fight",
                     "Reduces Special Cooldown of this character by 5 turns at the start of the fight"
+                ]
+            }
+        ]
+    },
+    4652: {//Goldberg
+        captain: "Boosts ATK of [PSY] and Striker characters by 5.5x, by 5.75x instead if they have a beneficial orb, boosts HP of [PSY] and Striker characters by 1.5x, makes [PSY] orbs beneficial for all characters, and increases duration of any Chain Addition buffs applied by specials by 2 turns. If your crew has 2+ [New Giant Pirate Crew] characters, further boosts ATK of [New Giant Pirate Crew] characters by 1.1x.",
+        special: "Reduces enemies' Barrier and Damage Nullification duration by 2 turns. If your crew has 2+ [New Giant Pirate Crew] characters, deals 300x character's ATK in [PSY] damage to all enemies at the end of each turn for 3 turns. If your crew has ATK Up when the special is activated, enables ATK Up buffs to be enhanced up to 2 times, and increases boost effects of ATK Up buffs by 1.2x (up to 6x); boosts ATK of [PSY] and Striker characters by 2.75x for 3 turns otherwise. If your crew has Chain Addition when the special is activated, increases duration of any Chain Addition buffs by 1 turn, and increases boost effects of Chain Addition buffs by +0.5x; adds 1.8x to Chain Multiplier for 2 turns otherwise.",
+        specialName: "Giant Questioning Straw Hat",
+        sailor: {
+            base: "This character cannot be Blown Away.",
+            level1: "Boosts base ATK, HP and RCV of [PSY] and Striker characters by 100."
+        },
+        support: [
+            {
+                Characters: "[PSY] Striker characters",
+                description: [
+                    "Adds 6% of this character's base HP to the supported character's base HP.",
+                    "Adds 8% of this character's base HP to the supported character's base HP.",
+                    "Adds 10% of this character's base HP to the supported character's base HP.",
+                    "Adds 12% of this character's base HP to the supported character's base HP.",
+                    "Adds 15% of this character's base HP to the supported character's base HP."
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base HP by 20",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 20",
+            "Acquire Potential 1: No Healing",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 30",
+            "Boosts base ATK by 10",
+            "Boosts base RCV by 10",
+            "Boosts base ATK by 20",
+            "Boosts base HP by 30",
+            "Boosts base RCV by 10",
+            "Boosts base ATK by 20",
+            "Boosts base HP by 40",
+            "Boosts base ATK by 20",
+            "Acquire Potential 2: Slot Bind",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base HP by 50",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 20",
+            "Boosts base HP by 60",
+            "Boosts base ATK by 30",
+            "Boosts base RCV by 30",
+            "Boosts base HP by 70",
+            "Boosts base ATK by 30",
+            "Acquire Sailor Ability 2: Boosts [PSY] and Striker characters' base stats by 100",
+            "Boosts base RCV by 30",
+            "Boosts base HP by 80",
+            "Boosts base ATK by 30",
+            "Boosts base HP by 100",
+            "Acquire Potential 3: Pinch Healing",
+            "LOCKED WITH KEY",
+            "Boosts base HP by 100",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 100",
+            "Boosts base HP by 200",
+            "Boosts base RCV by 30",
+            "Boosts base ATK by 100",
+            "Boosts base HP by 200",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base RCV by 50"
+        ],
+        potential: [
+            {
+                Name: "No Healing",
+                description: [
+                    "Reduces No Healing duration by 3 turns",
+                    "Reduces No Healing duration by 4 turns",
+                    "Reduces No Healing duration by 5 turns",
+                    "Reduces No Healing duration by 7 turns",
+                    "Reduces No Healing duration by 10 turns"
+                ]
+            },
+            {
+                Name: "Slot Bind",
+                description: [
+                    "Reduces Slot Bind duration by 3 turns on this character",
+                    "Reduces Slot Bind duration by 5 turns on this character",
+                    "Reduces Slot Bind duration by 7 turns on this character",
+                    "Reduces Slot Bind duration by 10 turns on this character",
+                    "Reduces Slot Bind duration completely on this character"
+                ]
+            },
+            {
+                Name: "Pinch Healing",
+                description: [
+                    "If HP is below 10% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 20% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 30% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 40% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 50% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character"
+                ]
+            }
+        ]
+    },
+    4653: {//Luffy & Chopper
+        captain: "Launches the following effect at start of fight: boosts Orb Effects of all characters by 1.5x, allowing override, for 5 turns, and boosts Color Affinity of all characters by 1.5x, allowing override, for 5 turns. Boosts ATK of [Straw Hat Pirates], [Paramythia-type] and [Zoan-type] characters by 1.1x, boosts ATK of [PSY] and Cerebral characters by 5.5x, by 6x instead if they have a beneficial orb, boosts HP of [PSY] and Cerebral characters by 1.3x, and makes [PSY], [TND] and [RCV] orbs beneficial for all characters. When tapping on this character with a [TND] or [RCV] orb, reduces enemies' Barrier duration by 2 turns. If your crew has 3+ [Straw Hat Pirates], [Paramythia-type] or [Zoan-type] characters, reduces Minimum-Chain ATK Down duration by 10 turns.",
+        special: "Changes all orbs, including [BLOCK] orbs, into [RCV] orbs, and boosts Base ATK of [PSY] and Cerebral characters by 1,750 for 3 turns. If field has Territory: [PSY] when the special is activated, reduces enemies' Cerebral Resistance by -50% for 1 turn; applies Territory: [PSY] to the field for 2 turns otherwise. If your crew has 3+ [Straw Hat Pirates], [Paramythia-type] or [Zoan-type] characters, reduces Blow Away duration by 6 turns.",
+        specialName: "Lively Moonlit Party",
+        sailor: {
+            base: "This character cannot be Blown Away, and makes [TND] and [RCV] orbs beneficial for [PSY] and Cerebral characters.",
+            level1: "If field has Territory: [PSY], boosts base ATK of all characters by 1.1x."
+        },
+        superSpecialCriteria: "Can be launched as crewmate. Your crew must consist of any 4 of the following, excluding supports and counting only 1 per unit: [Straw Hat Pirates], [Paramythia-type], [Zoan-type] characters",
+        superSpecial: "Allows all characters to perform Super Tandem with [RCV] orbs for 2 turns, reduces Special Cooldown of [PSY] and Cerebral characters by 2 turns, boosts Final Tap ATK of [PSY] and Cerebral characters by 50%, and transforms Cerebral characters into Super Cerebral characters.",
+        support: [
+            {
+                Characters: "[PSY] Cerebral [Straw Hat Pirates] characters",
+                description: [
+                    "Once per adventure, when the supported character uses their special, reduces enemies' [PSY] Resistance by -5% for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' [PSY] Resistance by -6% for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' [PSY] Resistance by -7% for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' [PSY] Resistance by -8% for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' [PSY] Resistance by -10% for 1 turn."
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base RCV by 10",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 10",
+            "Acquire Potential 1: Pinch Healing",
+            "Boosts base HP by 20",
+            "Boosts base ATK by 20",
+            "Boosts base HP by 20",
+            "Boosts base RCV by 10",
+            "Boosts base HP by 20",
+            "Boosts base ATK by 20",
+            "Boosts base HP by 30",
+            "Boosts base HP by 30",
+            "Boosts base ATK by 30",
+            "Boosts base RCV by 10",
+            "Acquire Potential 2: Critical Hit",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base ATK by 30",
+            "Boosts base HP by 50",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 50",
+            "Boosts base ATK by 40",
+            "Boosts base HP by 60",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 60",
+            "Acquire Sailor Ability 2: If field has \"Territory: [PSY]\", boosts crew's base ATK by 1.1x",
+            "Boosts base HP by 70",
+            "Boosts base HP by 80",
+            "Boosts base ATK by 50",
+            "Boosts base RCV by 30",
+            "Acquire Potential 3: Super Tandem Boost",
+            "LOCKED WITH KEY",
+            "Boosts base HP by 100",
+            "Boosts base ATK by 50",
+            "Boosts base RCV by 50",
+            "Boosts base HP by 100",
+            "Boosts base ATK by 50",
+            "Boosts base HP by 150",
+            "Boosts base HP by 150",
+            "Boosts base ATK by 100",
+            "Reduce base Special Cooldown by 1 turn"
+        ],
+        potential: [
+            {
+                Name: "Pinch Healing",
+                description: [
+                    "If HP is below 10% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 20% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 30% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 40% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 50% at the start of the turn, recovers 2x this character's RCV at the end of the turn for each time you hit a PERFECT with this character"
+                ]
+            },
+            {
+                Name: "Critical Hit",
+                description: [
+                    "If you hit a PERFECT with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 60% chance to deal 6% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 70% chance to deal 7% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 80% chance to deal 8% of this character's attack in extra damage"
+                ]
+            },
+            {
+                Name: "Super Tandem Boost",
+                description: [
+                    "Obtain Super Tandem Boost Lv.1",
+                    "Obtain Super Tandem Boost Lv.2",
+                    "Obtain Super Tandem Boost Lv.3",
+                    "Obtain Super Tandem Boost Lv.4",
+                    "Obtain Super Tandem Boost Lv.5"
+                ]
+            }
+        ],
+        superTandemBoost: {
+            characterCondition: [
+                "When a [Straw Hat Pirates], [Paramythia-type] or [Zoan-type] character performs Super Tandem",
+                "When a [Straw Hat Pirates], [Paramythia-type] or [Zoan-type] character performs Super Tandem",
+                "When a [Straw Hat Pirates], [Paramythia-type] or [Zoan-type] character performs Super Tandem",
+                "When a [Straw Hat Pirates], [Paramythia-type] or [Zoan-type] character performs Super Tandem",
+                "When a [Straw Hat Pirates], [Paramythia-type] or [Zoan-type] character performs Super Tandem"
+            ],
+            description: [
+                "Raises Boost Level of [Straw Hat Pirates], [Paramythia-type] and [Zoan-type] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Straw Hat Pirates], [Paramythia-type] and [Zoan-type] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Straw Hat Pirates], [Paramythia-type] and [Zoan-type] characters by 3 for 1 turn.",
+                "Raises Boost Level of [Straw Hat Pirates], [Paramythia-type] and [Zoan-type] characters by 4 for 1 turn.",
+                "Raises Boost Level of [Straw Hat Pirates], [Paramythia-type] and [Zoan-type] characters by 5 for 1 turn."
+            ]
+        }
+    },
+    4654: {//Sanji
+        special: "Reduces Despair duration by 6 turns, and reduces enemies' Resilience duration by 6 turns. If your crew has Color Affinity when the special is activated, increases boost effects of Color Affinity buffs by +0.25x; boosts Color Affinity of [PSY] and Cerebral characters by 2.75x for 1 turn otherwise. If field has Territory: [PSY] when the special is activated, boosts Final Tap ATK of [PSY] and Cerebral characters by 30%.",
+        specialName: "Levitating Ghost Knight",
+        sailor: {
+            base: "If field has Territory: [PSY], boosts base ATK of Cerebral and Powerhouse characters by 200; boosts base ATK of Cerebral and Powerhouse characters by 75 otherwise.",
+            level1: "When tapping on this character with a [RCV] orb, reduces enemies' [PSY] Resistance by -5% for 1 turn."
+        },
+        support: [
+            {
+                Characters: "[PSY] Cerebral [Straw Hat Pirates] characters",
+                description: [
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Resilience duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Resilience duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Resilience duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Resilience duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Resilience duration by 2 turns."
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base RCV by 10",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 30",
+            "Acquire Potential 1: Critical Hit",
+            "Boosts base ATK by 30",
+            "Boosts base ATK by 30",
+            "Boosts base HP by 30",
+            "Acquire 1 additional Socket slot",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 40",
+            "Boosts base ATK by 40",
+            "Acquire Sailor Ability 2: Tapping on this character with a [RCV] slot will apply -5% [PSY] Resistance to all enemies for 1 turn",
+            "Boosts base ATK by 50",
+            "Reduce base Special Cooldown by 1 turn",
+            "Acquire Potential 2: Pinch Healing"
+        ],
+        potential: [
+            {
+                Name: "Critical Hit",
+                description: [
+                    "If you hit a PERFECT with this character, there is a 30% chance to deal 4% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 50% chance to deal 6% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 60% chance to deal 7% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 70% chance to deal 8% of this character's attack in extra damage"
+                ]
+            },
+            {
+                Name: "Pinch Healing",
+                description: [
+                    "If HP is below 10% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 20% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 30% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 40% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 50% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character"
+                ]
+            }
+        ]
+    },
+    4655: {//Brook
+        special: "Reduces Paralysis duration by 6 turns, and reduces enemies' Percent Damage Reduction duration by 6 turns. If your crew has Orb Boost when the special is activated, increases boost effects of Orb Boost buffs by +0.25x; boosts Orb Effects of [PSY] and Cerebral characters by 2.75x for 1 turn otherwise. If field has Territory: [PSY] when the special is activated, boosts Critical Hit Rate of Cerebral characters by 30% for 1 turn.",
+        specialName: "Screaming Cowardly Skeleton",
+        sailor: {
+            base: "If field has Territory: [PSY], boosts base ATK of Cerebral and Slasher characters by 200; boosts base ATK of Cerebral and Slasher characters by 75 otherwise.",
+            level1: "When tapping on this character with a [RCV] orb, reduces enemies' Cerebral Resistance by -5% for 1 turn."
+        },
+        support: [
+            {
+                Characters: "[PSY] Cerebral [Straw Hat Pirates] characters",
+                description: [
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Percent Damage Reduction duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Percent Damage Reduction duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Percent Damage Reduction duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Percent Damage Reduction duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Percent Damage Reduction duration by 2 turns."
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base HP by 30",
+            "Boosts base RCV by 10",
+            "Boosts base ATK by 30",
+            "Acquire Potential 1: Critical Hit",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 30",
+            "Boosts base ATK by 30",
+            "Acquire 1 additional Socket slot",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 40",
+            "Boosts base ATK by 50",
+            "Acquire Sailor Ability 2: Tapping on this character with a [RCV] slot will apply -5% Cerebral Resistance to all enemies for 1 turn",
+            "Boosts base HP by 40",
+            "Reduce base Special Cooldown by 1 turn",
+            "Acquire Potential 2: Slot Bind"
+        ],
+        potential: [
+            {
+                Name: "Critical Hit",
+                description: [
+                    "If you hit a PERFECT with this character, there is a 30% chance to deal 4% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 50% chance to deal 6% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 60% chance to deal 7% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 70% chance to deal 8% of this character's attack in extra damage"
+                ]
+            },
+            {
+                Name: "Slot Bind",
+                description: [
+                    "Reduces Slot Bind duration by 1 turn on this character",
+                    "Reduces Slot Bind duration by 2 turns on this character",
+                    "Reduces Slot Bind duration by 3 turns on this character",
+                    "Reduces Slot Bind duration by 4 turns on this character",
+                    "Reduces Slot Bind duration by 5 turns on this character"
+                ]
+            }
+        ]
+    },
+    4656: {//5+ Halloween Pudding
+        captain: {
+            base: "Boosts ATK of [PSY] characters by 2.25x.",
+            level1: "Boosts ATK of [PSY] characters by 2.5x.",
+            level2: "Boosts ATK of [PSY] characters by 2.75x.",
+            level3: "Boosts ATK of [PSY] characters by 3x.",
+            level4: "Boosts ATK of [PSY] characters by 3.25x, boosts HP of [PSY] characters by 1.1x, and restores Special Cooldown of all characters by 1 turn when they are rewinded.",
+            level5: "Boosts ATK of [PSY] characters by 3.5x, boosts HP of [PSY] characters by 1.1x, and restores Special Cooldown of all characters by 2 turns when they are rewinded.",
+            level6: "Boosts ATK of [PSY] characters by 4x, boosts HP of [PSY] characters by 1.2x, and restores Special Cooldown of all characters by 3 turns when they are rewinded."
+        },
+        special: "Changes [STR], [DEX], [QCK], [PSY], [INT], [TND] and [RCV] orbs into matching orbs, reduces Counter-RCV and Increase Damage Taken duration by 5 turns, boosts Color Affinity of top row characters by 3x for 1 turn, and recovers all missing HP. Applies a Continuous Effect that applies the same special effect at the start of every stage for 3 turns.",
+        specialName: "Witch and Cheeky Cat",
+        sailor: {
+            level1: "Boosts base ATK, HP and RCV of [PSY] characters by 30.",
+            level2: "Restores Special Cooldown of this character by 2 turns when it is rewinded."
+        },
+        support: [
+            {
+                Characters: "Sanji, Charlotte Chiffon",
+                description: [
+                    "Reduces damage received from [INT] characters by 1%. Adds 5% of this character's base HP and RCV to the supported character's base HP and RCV.",
+                    "Reduces damage received from [INT] characters by 2%. Adds 6% of this character's base HP and RCV to the supported character's base HP and RCV.",
+                    "Reduces damage received from [INT] characters by 3%. Adds 7% of this character's base HP and RCV to the supported character's base HP and RCV.",
+                    "Reduces damage received from [INT] characters by 4%. Adds 8% of this character's base HP and RCV to the supported character's base HP and RCV.",
+                    "Reduces damage received from [INT] characters by 5%. Adds 10% of this character's base HP and RCV to the supported character's base HP and RCV."
+                ]
+            }
+        ],
+        limit: [
+            "Acquire 1 additional Socket slot",
+            "Boosts base ATK by 5",
+            "Boosts base ATK by 5",
+            "Boosts base ATK by 10",
+            "Acquire Potential 1: No Healing",
+            "Acquire new Captain Ability: ",
+            "Acquire Sailor Ability 1: Boosts [PSY] characters' base stats by 30",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 10",
+            "Boosts base HP by 20",
+            "Acquire new Captain Ability: ",
+            "Acquire 1 additional Socket slot",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base RCV by 20",
+            "Boosts base RCV by 30",
+            "Boosts base RCV by 30",
+            "Acquire new Captain Ability: ",
+            "Reduce base Special Cooldown by 2 turns",
+            "Boosts base HP by 30",
+            "Boosts base HP by 40",
+            "Boosts base HP by 50",
+            "Reduce base Special Cooldown by 3 turns",
+            "Acquire 1 additional Socket slot",
+            "Boosts base ATK by 30",
+            "Boosts base ATK by 30",
+            "Reduce base Special Cooldown by 4 turns",
+            "Acquire new Captain Ability: ",
+            "Boosts base HP by 60",
+            "Boosts base HP by 70",
+            "Acquire Sailor Ability 2: Reduces character's Special Reverse by 2 turns",
+            "Boosts base ATK by 30",
+            "Boosts base ATK by 40",
+            "Boosts base ATK by 60",
+            "Reduce base Special Cooldown by 5 turns",
+            "Acquire 1 additional Socket slot",
+            "Acquire new Captain Ability: ",
+            "Boosts base HP by 100",
+            "Boosts base HP by 120",
+            "Acquire new Captain Ability: ",
+            "Acquire Potential 2: Cooldown Reduction",
+            "LOCKED WITH KEY",
+            "Boosts base HP by 100",
+            "Boosts base RCV by 50",
+            "Boosts base HP by 100",
+            "Boosts base RCV by 50",
+            "Boosts base ATK by 50",
+            "Boosts base HP by 150",
+            "Boosts base ATK by 50",
+            "Boosts base ATK by 100",
+            "Acquire Potential 3: Sailor Despair"
+        ],
+        lLimit: [
+            null,
+            null,
+            {
+                captain: {
+                    base: "Boosts ATK of [PSY] characters by 4x, boosts HP of [PSY] characters by 1.2x, and restores Special Cooldown of all characters by 3 turns when they are rewinded.",
+                    level1: "Boosts ATK of [PSY] characters by 4.5-5.25x depending on the amount healed in the last turn, boosts HP and RCV of [PSY] characters by 1.2x, recovers 2x character's RCV in HP at the end of each turn, and restores Special Cooldown of all characters by 5 turns when they are rewinded."
+                }
+            },
+            null,
+            {
+                special: {
+                    base: "Changes [STR], [DEX], [QCK], [PSY], [INT], [TND] and [RCV] orbs into matching orbs, changes [BLOCK] orbs into [SEMLA] orbs, reduces Counter-RCV and Increase Damage Taken duration by 10 turns, boosts Color Affinity of top row characters by 3x for 1 turn, boosts ATK of bottom row characters by 3x for 1 turn, and recovers all missing HP. If your crew has Sanji as a member or supporting this character, reduces enemies' Orb-Based Damage Reduction duration by 2 turns. Applies a Continuous Effect that applies the same special effect at the start of every stage for 3 turns."
+                },
+                sailor: {
+                    level1: "Boosts base ATK, HP and RCV of [PSY] characters by 60."
+                }
+            }
+        ],
+        potential: [
+            {
+                Name: "No Healing",
+                description: [
+                    "Reduces No Healing duration by 1 turn",
+                    "Reduces No Healing duration by 2 turns",
+                    "Reduces No Healing duration by 3 turns",
+                    "Reduces No Healing duration by 4 turns",
+                    "Reduces No Healing duration by 5 turns"
+                ]
+            },
+            {
+                Name: "Cooldown Reduction",
+                description: [
+                    "Reduces Special Cooldown of this character by 1 turn at the start of the fight",
+                    "Reduces Special Cooldown of this character by 2 turns at the start of the fight",
+                    "Reduces Special Cooldown of this character by 3 turns at the start of the fight",
+                    "Reduces Special Cooldown of this character by 5 turns at the start of the fight",
+                    "Reduces Special Cooldown of this character by 10 turns at the start of the fight"
+                ]
+            },
+            {
+                Name: "Sailor Despair",
+                description: [
+                    "Reduces Sailor Despair duration by 1 turn on this character",
+                    "Reduces Sailor Despair duration by 2 turns on this character",
+                    "Reduces Sailor Despair duration by 3 turns on this character",
+                    "Reduces Sailor Despair duration by 4 turns on this character",
+                    "Reduces Sailor Despair duration by 5 turns on this character"
                 ]
             }
         ]

@@ -5293,6 +5293,11 @@ window.families = {
     4649: [ ...Usopp, ...Franky ],
     4650: [ ...Nami ],
     4651: [ ...Crocodile ],
+    4652: [ ...Goldberg ],
+    4653: [ ...MonkeyDLuffy, ...TonyTonyChopper ],
+    4654: [ ...VinsmokeSanji ],
+    4655: [ ...Brook ],
+    4656: [ ...CharlottePudding ],
     //break
     5013: [ ...MonkeyDLuffy ],
     5014: [ ...MonkeyDLuffy ],
