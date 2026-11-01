@@ -4921,5 +4921,6 @@ window.units = {
   "4668": {"id":"4668","name":"미호크 언더 더 풀 문 나이트 로드","type":"INT","class":["Slasher","Cerebral"],"stars":"6+","cost":65,"combo":5,"sockets":5,"maxLevel":99,"maxEXP":5000000,"minHP":1949,"minATK":1201,"minRCV":150,"maxHP":3898,"maxATK":1801,"maxRCV":300,"growth":null},
   "4669": {"id":"4669","name":"산 씨","type":"QCK","class":["Powerhouse","Slasher"],"stars":"5","cost":40,"combo":4,"sockets":4,"maxLevel":99,"maxEXP":5000000,"minHP":1590,"minATK":780,"minRCV":100,"maxHP":3180,"maxATK":1560,"maxRCV":200,"growth":null},
   "4671": {"id":"4671","name":"브룩","type":"DEX","class":["Slasher","Free Spirit"],"stars":"5","cost":40,"combo":4,"sockets":4,"maxLevel":99,"maxEXP":5000000,"minHP":1836,"minATK":819,"minRCV":96,"maxHP":3672,"maxATK":1638,"maxRCV":192,"growth":null},
-  "4672": {"id":"4672","name":"브룩","type":"DEX","class":["Slasher","Free Spirit"],"stars":"5+","cost":40,"combo":4,"sockets":4,"maxLevel":99,"maxEXP":5000000,"minHP":1866,"minATK":849,"minRCV":106,"maxHP":3732,"maxATK":1698,"maxRCV":212,"growth":null}
+  "4672": {"id":"4672","name":"브룩","type":"DEX","class":["Slasher","Free Spirit"],"stars":"5+","cost":40,"combo":4,"sockets":4,"maxLevel":99,"maxEXP":5000000,"minHP":1866,"minATK":849,"minRCV":106,"maxHP":3732,"maxATK":1698,"maxRCV":212,"growth":null},
+  "4673": {"id":"4673","name":"콜론","type":"QCK","class":["Powerhouse","Driven"],"stars":"6","cost":40,"combo":5,"sockets":5,"maxLevel":99,"maxEXP":5000000,"minHP":2000,"minATK":875,"minRCV":150,"maxHP":4000,"maxATK":1750,"maxRCV":300,"growth":null}
 };
